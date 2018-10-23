@@ -1,0 +1,95 @@
+#!/bin/bash -
+#===============================================================================
+#
+#          FILE: Exercise_1.sh
+#
+#         USAGE: ./Exercise_1.sh
+#
+#   DESCRIPTION: 
+#
+#       OPTIONS: ---
+#  REQUIREMENTS: ---
+#          BUGS: ---
+#         NOTES: ---
+#        AUTHOR: Adam Ortell (), arortell@gmail.com
+#  ORGANIZATION: 
+#       CREATED: 03/21/2018 02:31:31 PM
+#      REVISION:  ---
+#===============================================================================
+
+set -o nounset                                  # Treat unset variables as an error
+
+## ---> Use an if/then/elif/else construct that prints information about the current month. The script should print the number of days in this month, and give information about leap years if the current month is February.
+
+# number of days in month 
+days="$(cal | xargs -n1 | tail -1)"
+
+# get year
+year="$(date +%Y)"
+
+# name of month
+month="$(date +%B)"
+
+# this gets the number of fields from the cal, the less fields the further through the week 
+first_day_field="$(cal | grep -v "[a-zA-Z]" | awk '{print NF}' | head -1)"
+
+saturday="1"; friday="2"; thursday="3"; wednesday="4"; tuesday="5"; monday="6";
+sunday="7"
+
+first_day=""
+isleap=""
+
+case $first_day_field in 
+  1) first_day="Saturday"
+    ;;
+  2) first_day="Friday"
+    ;;
+  3) first_day="Thursday"
+    ;;
+  4) first_day="Wednesday"
+    ;;
+  5) first_day="Tuesday"
+    ;;
+  6) first_day="Monday"
+    ;;
+  7) first_day="Sunday"
+    ;;
+  *) echo "Invaild field number... "
+      exit 1
+    ;;
+  *)
+  esac
+
+
+# checking for leap year
+if [[ "$month" == 'February' ]]; then
+
+  # check if leap year
+  if [[ $((year % 4)) -ne 0 || $((year % 100)) -eq 0 ]] ; then
+    echo "$year is not a leap year!"
+
+  elif [[ $((year % 400)) -eq 0 ]] ; then
+    # yes, it's a leap year
+    echo "$year is a leap Year!"
+
+  else
+    # it is a leap year
+    echo "$year is a leap Year!"
+
+  fi
+
+fi
+
+echo "The first day of $month falls on a $first_day."
+echo "$month has $days days in it."
+
+
+
+
+
+
+
+
+
+
+

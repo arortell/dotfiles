@@ -1,0 +1,37 @@
+#!/bin/bash -
+#===============================================================================
+#
+#          FILE: TRASH_SCRIPT.sh
+#
+#         USAGE: ./TRASH_SCRIPT.sh
+#
+#   DESCRIPTION: 
+#
+#       OPTIONS: ---
+#  REQUIREMENTS: ---
+#          BUGS: ---
+#         NOTES: ---
+#        AUTHOR: Adam Ortell (), arortell80@gmail.com
+#  ORGANIZATION: 
+#       CREATED: 04/28/2018 11:00:25 AM
+#      REVISION:  ---
+#===============================================================================
+
+set -o nounset                                  # Treat unset variables as an error
+set -eo pipefail                                # exit if ANY command fails,errors from pipe
+
+file="$HOME/ass"
+out="$HOME/out"
+cat $file
+
+progname="$(basename "$0")"                     # name of script
+
+{
+  read -r firstLine
+  read -r secondLine
+  while read -r "$file"; do
+   echo "$firstLine"
+   echo "$secondLine"
+  done
+  echo "$progname"
+} < "$out"

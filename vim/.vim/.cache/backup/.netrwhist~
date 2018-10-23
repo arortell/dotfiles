@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/bl4ckr41n/.config/bspwm'
+let g:netrw_dirhist_2='/home/bl4ckr41n/j4-dmenu-desktop-git/j4-dmenu-desktop/objects'
+let g:netrw_dirhist_3='/videos1/perl-rpc-xml'
+let g:netrw_dirhist_4='/home/b14ckr41n/.config/qutebrowser/bookmarks'
+let g:netrw_dirhist_5='/videos2/Battlestar Galactica (2003)'
+let g:netrw_dirhist_6='/home/b14ckr41n/.oh-my-zsh/plugins'
+let g:netrw_dirhist_7='/run/media/b14ckr41n/174B-D30E/gtk-2.0'
+let g:netrw_dirhist_8='/home/b14ckr41n/dctl'

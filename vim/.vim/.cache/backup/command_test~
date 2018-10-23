@@ -1,0 +1,31 @@
+#!/bin/bash -
+#===============================================================================
+#
+#          FILE: command_test.sh
+#
+#         USAGE: ./command_test.sh
+#
+#   DESCRIPTION: 
+#
+#       OPTIONS: ---
+#  REQUIREMENTS: ---
+#          BUGS: ---
+#         NOTES: ---
+#        AUTHOR: Adam Ortell (), arortell@gmail.com
+#  ORGANIZATION: 
+#       CREATED: 03/31/2018 10:30:44 AM
+#      REVISION:  ---
+#===============================================================================
+
+set -o nounset                                  # Treat unset variables as an error
+
+if [[ "$#" -ne 1 ]]; then
+  echo "Usage ./$0 [command name]"
+fi
+
+if [[ "$( type "$1" > /dev/null 2>&1 )" ]]; then
+  echo "$1 is present..."
+  pacaur -Q > INSTALLED
+else
+  echo "$1 is not present on your system ..."
+fi

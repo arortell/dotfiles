@@ -1,0 +1,2329 @@
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+Starting Dropbox...dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-vmRBJJ
+dropbox: initializing
+dropbox: initializing python 2.7.11
+dropbox: setting program path '/opt/dropbox/dropbox'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-27.zip'
+##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+###################### Starting Window-Manager ################\n
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.pthread._linuxffi_pthread.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.so'
+/home/b14ckr41n/.xinitrc: line 22: 3yandex-disk: command not found
+!! (Qt:Fatal) QXcbConnection: Could not connect to display :0
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+Starting Dropbox...dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-UphWeq
+dropbox: initializing
+dropbox: initializing python 2.7.11
+dropbox: setting program path '/opt/dropbox/dropbox'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-27.zip'
+##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+###################### Starting Window-Manager ################\n
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.pthread._linuxffi_pthread.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.so'
+Dropbox isn't running!
+Done!
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.so'
+Starting daemon process...Done
+dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-7shQse
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/opt/dropbox/dropbox_py3'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-35.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.cpython-35m-x86_64-linux-gnu.so'
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+Starting Dropbox...dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-RKW1Yc
+dropbox: initializing
+dropbox: initializing python 2.7.11
+dropbox: setting program path '/opt/dropbox/dropbox'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-27.zip'
+##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+###################### Starting Window-Manager ################\n
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.pthread._linuxffi_pthread.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.so'
+Starting daemon process...dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.so'
+Done
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.so'
+Dropbox isn't running!
+Done!
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.so'
+dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-KHvrEK
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/opt/dropbox/dropbox_py3'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-35.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.cpython-35m-x86_64-linux-gnu.so'
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+Starting Dropbox...dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-yhUXxF
+dropbox: initializing
+dropbox: initializing python 2.7.11
+dropbox: setting program path '/opt/dropbox/dropbox'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-27.zip'
+##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+###################### Starting Window-Manager ################\n
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.pthread._linuxffi_pthread.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.so'
+Starting daemon process...Done
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.so'
+Dropbox isn't running!
+Done!
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.so'
+dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-aQvQNk
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/opt/dropbox/dropbox_py3'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-35.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.cpython-35m-x86_64-linux-gnu.so'
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+Starting Dropbox...dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-RaLFMi
+dropbox: initializing
+dropbox: initializing python 2.7.11
+dropbox: setting program path '/opt/dropbox/dropbox'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-27.zip'
+##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+###################### Starting Window-Manager ################\n
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.pthread._linuxffi_pthread.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.so'
+Starting daemon process...dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.so'
+Done
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.so'
+Dropbox isn't running!
+Done!
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.so'
+dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-MzFAVp
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/opt/dropbox/dropbox_py3'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-35.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.cpython-35m-x86_64-linux-gnu.so'
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+Starting Dropbox...dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-1fI8PE
+dropbox: initializing
+dropbox: initializing python 2.7.11
+dropbox: setting program path '/opt/dropbox/dropbox'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-27.zip'
+##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+###################### Starting Window-Manager ################\n
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.pthread._linuxffi_pthread.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.so'
+Starting daemon process...dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.so'
+Done
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.so'
+Dropbox isn't running!
+Done!
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.so'
+dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-ZKsgOG
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/opt/dropbox/dropbox_py3'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-35.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.cpython-35m-x86_64-linux-gnu.so'
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+Starting Dropbox...dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-5LWN3L
+dropbox: initializing
+dropbox: initializing python 2.7.11
+dropbox: setting program path '/opt/dropbox/dropbox'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-27.zip'
+##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+###################### Starting Window-Manager ################\n
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.pthread._linuxffi_pthread.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.so'
+Daemon is already running.
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.so'
+Dropbox isn't running!
+Done!
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.so'
+dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-o3V7jj
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/opt/dropbox/dropbox_py3'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-35.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.cpython-35m-x86_64-linux-gnu.so'
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+Starting battery monitor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+Starting Dropbox...dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-xEykSX
+dropbox: initializing
+dropbox: initializing python 2.7.11
+dropbox: setting program path '/opt/dropbox/dropbox'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-27.zip'
+##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+###################### Starting Window-Manager ################\n
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.pthread._linuxffi_pthread.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.so'
+Dropbox isn't running!
+Done!
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.so'
+Starting daemon process...dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-vhBOGE
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/opt/dropbox/dropbox_py3'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-35.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+Done
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.cpython-35m-x86_64-linux-gnu.so'
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+Starting battery monitor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+Starting Dropbox...dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-A2bLPP
+dropbox: initializing
+dropbox: initializing python 2.7.11
+dropbox: setting program path '/opt/dropbox/dropbox'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-27.zip'
+##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+###################### Starting Window-Manager ################\n
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.pthread._linuxffi_pthread.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.so'
+Starting daemon process...dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.so'
+Done
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.so'
+Dropbox isn't running!
+Done!
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.so'
+dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-BEBVtx
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/opt/dropbox/dropbox_py3'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-35.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.cpython-35m-x86_64-linux-gnu.so'
+Gdk-Message: 15:43:14.936: udiskie: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 1058725 requests (1058712 known processed) with 0 events remaining.
+[  1326.56 ] error    3 BadWindow    request   20 minor    0 serial 1055221: "BadWindow (invalid Window parameter)"
+[  1326.57 ] error    3 BadWindow    request   20 minor    0 serial 1055222: "BadWindow (invalid Window parameter)"
+[  1326.57 ] error    3 BadWindow    request   20 minor    0 serial 1055223: "BadWindow (invalid Window parameter)"
+[  1326.57 ] error    3 BadWindow    request   20 minor    0 serial 1055224: "BadWindow (invalid Window parameter)"
+[  1326.57 ] error    3 BadWindow    request   20 minor    0 serial 1055225: "BadWindow (invalid Window parameter)"
+[  1326.57 ] error    3 BadWindow    request   20 minor    0 serial 1055226: "BadWindow (invalid Window parameter)"
+[  1326.57 ] error    3 BadWindow    request   20 minor    0 serial 1055227: "BadWindow (invalid Window parameter)"
+[  1326.57 ] error    3 BadWindow    request  129 minor    5 serial 1055228: "BadWindow (invalid Window parameter)"
+[  1326.57 ] error    3 BadWindow    request   20 minor    0 serial 1055229: "BadWindow (invalid Window parameter)"
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+Starting battery monitor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+Starting Dropbox...dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-cASaHX
+dropbox: initializing
+dropbox: initializing python 2.7.11
+dropbox: setting program path '/opt/dropbox/dropbox'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-27.zip'
+##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+###################### Starting Window-Manager ################\n
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.pthread._linuxffi_pthread.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.so'
+Starting daemon process...dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.so'
+Dropbox isn't running!
+Done!
+Done
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.so'
+dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-hhaKaC
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/opt/dropbox/dropbox_py3'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-35.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.cpython-35m-x86_64-linux-gnu.so'
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+Starting battery monitor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+Starting Dropbox...dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-0i8aje
+dropbox: initializing
+dropbox: initializing python 2.7.11
+dropbox: setting program path '/opt/dropbox/dropbox'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-27.zip'
+##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+###################### Starting Window-Manager ################\n
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.pthread._linuxffi_pthread.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.so'
+Starting daemon process...dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.so'
+Done
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.so'
+Dropbox isn't running!
+Done!
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.so'
+dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-QDDkvD
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/opt/dropbox/dropbox_py3'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-35.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.cpython-35m-x86_64-linux-gnu.so'
+mounted /org/freedesktop/UDisks2/block_devices/sdc1 on /run/media/b14ckr41n/ParrotSec1
+mounted /org/freedesktop/UDisks2/block_devices/sdc2 on /run/media/b14ckr41n/ParrotSec
+opened /org/freedesktop/UDisks2/block_devices/sdc1 on /run/media/b14ckr41n/ParrotSec1
+opened /org/freedesktop/UDisks2/block_devices/sdc2 on /run/media/b14ckr41n/ParrotSec
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+Starting battery monitor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+Starting Dropbox...dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-qIjke8
+dropbox: initializing
+dropbox: initializing python 2.7.11
+dropbox: setting program path '/opt/dropbox/dropbox'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-27.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+dropbox: running main script
+###################### Starting Window-Manager ################\n
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.pthread._linuxffi_pthread.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.so'
+Dropbox isn't running!
+Done!
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.so'
+Starting daemon process...Done
+dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-n1HTrm
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/opt/dropbox/dropbox_py3'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-35.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.cpython-35m-x86_64-linux-gnu.so'
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+Starting battery monitor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+Starting Dropbox...dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-4g345n
+dropbox: initializing
+dropbox: initializing python 2.7.11
+dropbox: setting program path '/opt/dropbox/dropbox'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-27.zip'
+##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+###################### Starting Window-Manager ################\n
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.so'
+mounted /org/freedesktop/UDisks2/block_devices/sdc1 on /run/media/b14ckr41n/BLACKARCH_201805
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.pthread._linuxffi_pthread.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.so'
+Dropbox isn't running!
+Done!
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.so'
+Starting daemon process...Done
+dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-HrR2bj
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/opt/dropbox/dropbox_py3'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-35.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.cpython-35m-x86_64-linux-gnu.so'
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+Starting battery monitor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+Starting Dropbox...dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-wHzshQ
+dropbox: initializing
+dropbox: initializing python 2.7.11
+dropbox: setting program path '/opt/dropbox/dropbox'
+##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-27.zip'
+###################### Starting Window-Manager ################\n
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.so'
+mounted /org/freedesktop/UDisks2/block_devices/sdc1 on /run/media/b14ckr41n/BLACKARCH_201805
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.pthread._linuxffi_pthread.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.so'
+Starting daemon process...dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.so'
+Done
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.so'
+Dropbox isn't running!
+Done!
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.so'
+dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-XCo2IJ
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/opt/dropbox/dropbox_py3'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-35.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.cpython-35m-x86_64-linux-gnu.so'
+mounted /org/freedesktop/UDisks2/block_devices/sdc1 on /run/media/b14ckr41n/ParrotSec1
+mounted /org/freedesktop/UDisks2/block_devices/sdc2 on /run/media/b14ckr41n/ParrotSec
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+Starting battery monitor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+###################### Starting Window-Manager ################\n
+Starting Dropbox...dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-g7tNqW
+dropbox: initializing
+dropbox: initializing python 2.7.11
+dropbox: setting program path '/opt/dropbox/dropbox'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-27.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.pthread._linuxffi_pthread.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.so'
+Starting daemon process...dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.so'
+Done
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.so'
+Dropbox isn't running!
+Done!
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.so'
+dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-ZAInoI
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/opt/dropbox/dropbox_py3'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-35.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.cpython-35m-x86_64-linux-gnu.so'
+mounted /org/freedesktop/UDisks2/block_devices/sdc1 on /run/media/b14ckr41n/ParrotSec1
+mounted /org/freedesktop/UDisks2/block_devices/sdc2 on /run/media/b14ckr41n/ParrotSec
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+###################### Starting Window-Manager ################\n
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+###################### Starting Window-Manager ################\n
+Starting Dropbox...dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-X6bThJ
+dropbox: initializing
+dropbox: initializing python 2.7.11
+dropbox: setting program path '/opt/dropbox/dropbox'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-27.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.pthread._linuxffi_pthread.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.so'
+Starting daemon process...Done
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.so'
+Dropbox isn't running!
+Done!
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.so'
+[0619/110206.160321:WARNING:stack_trace_posix.cc(699)] Failed to open file: /home/b14ckr41n/#593215 (deleted)
+  Error: No such file or directory
+11:02:06 INFO: Run :adblock-update to get adblock lists.
+[18028:18613:0619/110209.968459:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[18028:18613:0619/110209.968534:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[18028:18613:0619/110209.968585:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+[18028:18613:0619/110209.970843:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[18028:18613:0619/110209.970920:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[18028:18613:0619/110209.970971:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+[18028:18614:0619/110211.387273:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[18028:18614:0619/110211.387349:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[18028:18614:0619/110211.387402:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+[18028:18614:0619/110211.389335:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[18028:18614:0619/110211.389415:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[18028:18614:0619/110211.389471:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+[18028:4949:0619/110438.414690:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[18028:4949:0619/110438.414833:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[18028:4949:0619/110438.414958:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+[18028:4949:0619/110438.422511:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[18028:4949:0619/110438.422661:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[18028:4949:0619/110438.422785:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+[18818:18818:0619/110452.451778:ERROR:BudgetService.cpp(160)] Unable to connect to the Mojo BudgetService.
+11:05:47 WARNING: The X11 connection broke (error 1). Did the X11 server die?
+[0619/110549.514860:WARNING:stack_trace_posix.cc(699)] Failed to open file: /home/b14ckr41n/#593386 (deleted)
+  Error: No such file or directory
+11:05:49 INFO: Opening in existing instance
+11:05:49 INFO: Run :adblock-update to get adblock lists.
+[12529:12755:0619/110551.230787:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[12529:12755:0619/110551.230869:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[12529:12755:0619/110551.230924:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+[12529:12755:0619/110551.240884:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[12529:12755:0619/110551.241015:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[12529:12755:0619/110551.241086:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+11:05:52 INFO: Opening in existing instance
+11:05:54 INFO: Opening in existing instance
+Failed to open terminal for output: No such device or address
+11:06:04 INFO: Opening in existing instance
+11:06:10 WARNING: The X11 connection broke (error 1). Did the X11 server die?
+[0619/110612.840425:WARNING:stack_trace_posix.cc(699)] Failed to open file: /home/b14ckr41n/#593486 (deleted)
+  Error: No such file or directory
+11:06:13 INFO: Run :adblock-update to get adblock lists.
+[14358:14423:0619/110614.503822:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[14358:14423:0619/110614.503898:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[14358:14423:0619/110614.504253:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+[14358:14423:0619/110614.515278:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[14358:14423:0619/110614.515363:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[14358:14423:0619/110614.515415:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+11:06:19 WARNING: The X11 connection broke (error 1). Did the X11 server die?
+[0619/110621.916674:WARNING:stack_trace_posix.cc(699)] Failed to open file: /home/b14ckr41n/#593500 (deleted)
+  Error: No such file or directory
+11:06:22 INFO: Run :adblock-update to get adblock lists.
+[14678:14728:0619/110624.879858:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[14678:14728:0619/110624.879972:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[14678:14728:0619/110624.880029:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+[14678:14728:0619/110624.882241:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[14678:14728:0619/110624.882319:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[14678:14728:0619/110624.882370:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+11:06:45 WARNING: The X11 connection broke (error 1). Did the X11 server die?
+xdg-open: no method available for opening 'https://www.dropbox.com/cli_link_nonce?nonce=4043ddb1b42b5e114fd378d24628bfc1'
+Unable to monitor entire Dropbox folder hierarchy. Please run "echo fs.inotify.max_user_watches=100000 | sudo tee -a /etc/sysctl.conf; sudo sysctl -p" and restart Dropbox to fix the problem.
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+###################### Starting Window-Manager ################\n
+Starting Dropbox...dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-5pWlue
+dropbox: initializing
+dropbox: initializing python 2.7.11
+dropbox: setting program path '/opt/dropbox/dropbox'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-27.zip'
+Starting daemon process...Done
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.pthread._linuxffi_pthread.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.so'
+Dropbox isn't running!
+Done!
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.so'
+dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-E3ewi6
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/opt/dropbox/dropbox_py3'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-35.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.cpython-35m-x86_64-linux-gnu.so'
+Unable to monitor entire Dropbox folder hierarchy. Please run "echo fs.inotify.max_user_watches=100000 | sudo tee -a /etc/sysctl.conf; sudo sysctl -p" and restart Dropbox to fix the problem.
+Unable to monitor entire Dropbox folder hierarchy. Please run "echo fs.inotify.max_user_watches=100000 | sudo tee -a /etc/sysctl.conf; sudo sysctl -p" and restart Dropbox to fix the problem.
+Unable to monitor entire Dropbox folder hierarchy. Please run "echo fs.inotify.max_user_watches=100000 | sudo tee -a /etc/sysctl.conf; sudo sysctl -p" and restart Dropbox to fix the problem.
+Unable to monitor entire Dropbox folder hierarchy. Please run "echo fs.inotify.max_user_watches=100000 | sudo tee -a /etc/sysctl.conf; sudo sysctl -p" and restart Dropbox to fix the problem.
+Unable to monitor entire Dropbox folder hierarchy. Please run "echo fs.inotify.max_user_watches=100000 | sudo tee -a /etc/sysctl.conf; sudo sysctl -p" and restart Dropbox to fix the problem.
+Unable to monitor entire Dropbox folder hierarchy. Please run "echo fs.inotify.max_user_watches=100000 | sudo tee -a /etc/sysctl.conf; sudo sysctl -p" and restart Dropbox to fix the problem.
+Unable to monitor entire Dropbox folder hierarchy. Please run "echo fs.inotify.max_user_watches=100000 | sudo tee -a /etc/sysctl.conf; sudo sysctl -p" and restart Dropbox to fix the problem.
+Unable to monitor entire Dropbox folder hierarchy. Please run "echo fs.inotify.max_user_watches=100000 | sudo tee -a /etc/sysctl.conf; sudo sysctl -p" and restart Dropbox to fix the problem.
+Unable to monitor entire Dropbox folder hierarchy. Please run "echo fs.inotify.max_user_watches=100000 | sudo tee -a /etc/sysctl.conf; sudo sysctl -p" and restart Dropbox to fix the problem.
+Unable to monitor entire Dropbox folder hierarchy. Please run "echo fs.inotify.max_user_watches=100000 | sudo tee -a /etc/sysctl.conf; sudo sysctl -p" and restart Dropbox to fix the problem.
+Unable to monitor entire Dropbox folder hierarchy. Please run "echo fs.inotify.max_user_watches=100000 | sudo tee -a /etc/sysctl.conf; sudo sysctl -p" and restart Dropbox to fix the problem.
+Unable to monitor entire Dropbox folder hierarchy. Please run "echo fs.inotify.max_user_watches=100000 | sudo tee -a /etc/sysctl.conf; sudo sysctl -p" and restart Dropbox to fix the problem.
+Gdk-Message: 20:16:44.089: udiskie: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 546179 requests (546179 known processed) with 0 events remaining.
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 374 requests (373 known processed) with 0 events remaining.
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+###################### Starting Window-Manager ################\n
+Starting Dropbox...dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-gnXoY7
+dropbox: initializing
+dropbox: initializing python 2.7.11
+dropbox: setting program path '/opt/dropbox/dropbox'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-27.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.pthread._linuxffi_pthread.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.so'
+Dropbox isn't running!
+Done!
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.so'
+dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-yQmvRT
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/opt/dropbox/dropbox_py3'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-35.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.cpython-35m-x86_64-linux-gnu.so'
+Starting daemon process...Done
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+Starting Dropbox...dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-ynQn9X
+dropbox: initializing
+dropbox: initializing python 2.7.11
+dropbox: setting program path '/opt/dropbox/dropbox'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-27.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+###################### Starting Window-Manager ################\n
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.pthread._linuxffi_pthread.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.so'
+Dropbox isn't running!
+Done!
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.so'
+Daemon is already running.
+dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-N03MXo
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/opt/dropbox/dropbox_py3'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-35.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.cpython-35m-x86_64-linux-gnu.so'
+Unable to monitor entire Dropbox folder hierarchy. Please run "echo fs.inotify.max_user_watches=100000 | sudo tee -a /etc/sysctl.conf; sudo sysctl -p" and restart Dropbox to fix the problem.
+Unable to monitor entire Dropbox folder hierarchy. Please run "echo fs.inotify.max_user_watches=100000 | sudo tee -a /etc/sysctl.conf; sudo sysctl -p" and restart Dropbox to fix the problem.
+Unable to monitor entire Dropbox folder hierarchy. Please run "echo fs.inotify.max_user_watches=100000 | sudo tee -a /etc/sysctl.conf; sudo sysctl -p" and restart Dropbox to fix the problem.
+Unable to monitor entire Dropbox folder hierarchy. Please run "echo fs.inotify.max_user_watches=100000 | sudo tee -a /etc/sysctl.conf; sudo sysctl -p" and restart Dropbox to fix the problem.
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":1"
+      after 250748 requests (250748 known processed) with 0 events remaining.
+Gdk-Message: 20:23:44.805: udiskie: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":1"
+      after 106 requests (105 known processed) with 0 events remaining.
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+Starting Dropbox...dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-QeRhWN
+dropbox: initializing
+dropbox: initializing python 2.7.11
+dropbox: setting program path '/opt/dropbox/dropbox'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-27.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+###################### Starting Window-Manager ################\n
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.pthread._linuxffi_pthread.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.so'
+Dropbox isn't running!
+Done!
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.so'
+dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-g1eoJr
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/opt/dropbox/dropbox_py3'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-35.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.cpython-35m-x86_64-linux-gnu.so'
+Starting daemon process...Done
+Unable to monitor entire Dropbox folder hierarchy. Please run "echo fs.inotify.max_user_watches=100000 | sudo tee -a /etc/sysctl.conf; sudo sysctl -p" and restart Dropbox to fix the problem.
+Unable to monitor entire Dropbox folder hierarchy. Please run "echo fs.inotify.max_user_watches=100000 | sudo tee -a /etc/sysctl.conf; sudo sysctl -p" and restart Dropbox to fix the problem.
+Unable to monitor entire Dropbox folder hierarchy. Please run "echo fs.inotify.max_user_watches=100000 | sudo tee -a /etc/sysctl.conf; sudo sysctl -p" and restart Dropbox to fix the problem.
+Unable to monitor entire Dropbox folder hierarchy. Please run "echo fs.inotify.max_user_watches=100000 | sudo tee -a /etc/sysctl.conf; sudo sysctl -p" and restart Dropbox to fix the problem.
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":2"
+      after 116 requests (115 known processed) with 0 events remaining.
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":2"
+      after 328577 requests (328577 known processed) with 0 events remaining.
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+Starting Dropbox...dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-zgDf7U
+dropbox: initializing
+dropbox: initializing python 2.7.11
+dropbox: setting program path '/opt/dropbox/dropbox'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-27.zip'
+##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+###################### Starting Window-Manager ################\n
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.pthread._linuxffi_pthread.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.so'
+Dropbox isn't running!
+Done!
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.so'
+dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-pzrDF2
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/opt/dropbox/dropbox_py3'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-35.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.cpython-35m-x86_64-linux-gnu.so'
+Starting daemon process...Done
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+Starting Dropbox...dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-hcwWaD
+dropbox: initializing
+dropbox: initializing python 2.7.11
+dropbox: setting program path '/opt/dropbox/dropbox'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-27.zip'
+##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+###################### Starting Window-Manager ################\n
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.pthread._linuxffi_pthread.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.so'
+Dropbox isn't running!
+Done!
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.so'
+dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-pm8HuZ
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/opt/dropbox/dropbox_py3'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-35.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.cpython-35m-x86_64-linux-gnu.so'
+Starting daemon process...Done
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+Starting Dropbox...dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-TAO9Ij
+dropbox: initializing
+dropbox: initializing python 2.7.11
+dropbox: setting program path '/opt/dropbox/dropbox'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-27.zip'
+##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+###################### Starting Window-Manager ################\n
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.pthread._linuxffi_pthread.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.so'
+Dropbox isn't running!
+Done!
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.so'
+dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-f1IY4y
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/opt/dropbox/dropbox_py3'
+dropbox: setting home path '/opt/dropbox'
+dropbox: setting python path '/opt/dropbox:/opt/dropbox/python-packages-35.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKit.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtCore.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtNetwork.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtGui.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWebKitWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtPrintSupport.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/opt/dropbox/PyQt5.QtDBus.cpython-35m-x86_64-linux-gnu.so'
+Daemon is already running.
+dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-8UXpbX
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/tmp/.dropbox-dist-new-bjxlqjgv/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/dropbox'
+dropbox: setting home path '/tmp/.dropbox-dist-new-bjxlqjgv/.dropbox-dist/dropbox-lnx.x86_64-52.4.58'
+dropbox: setting python path '/tmp/.dropbox-dist-new-bjxlqjgv/.dropbox-dist/dropbox-lnx.x86_64-52.4.58:/tmp/.dropbox-dist-new-bjxlqjgv/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/python-packages-35.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/tmp/.dropbox-dist-new-bjxlqjgv/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/tmp/.dropbox-dist-new-bjxlqjgv/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/tmp/.dropbox-dist-new-bjxlqjgv/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/tmp/.dropbox-dist-new-bjxlqjgv/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/tmp/.dropbox-dist-new-bjxlqjgv/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/tmp/.dropbox-dist-new-bjxlqjgv/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/tmp/.dropbox-dist-new-bjxlqjgv/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/tmp/.dropbox-dist-new-bjxlqjgv/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/tmp/.dropbox-dist-new-bjxlqjgv/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/tmp/.dropbox-dist-new-bjxlqjgv/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/tmp/.dropbox-dist-new-bjxlqjgv/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/tmp/.dropbox-dist-new-bjxlqjgv/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-95d8Xa
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/dropbox'
+dropbox: setting home path '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58'
+dropbox: setting python path '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58:/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/python-packages-35.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtWebKit.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtCore.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtNetwork.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtGui.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtWebKitWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtPrintSupport.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtDBus.cpython-35m-x86_64-linux-gnu.so'
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+Starting Dropbox...##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+###################### Starting Window-Manager ################\n
+dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-2xvmv8
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/dropbox'
+dropbox: setting home path '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58'
+dropbox: setting python path '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58:/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/python-packages-35.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtWebKit.cpython-35m-x86_64-linux-gnu.so'
+Dropbox isn't running!
+Done!
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtCore.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtNetwork.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtGui.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtWebKitWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtPrintSupport.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtDBus.cpython-35m-x86_64-linux-gnu.so'
+Starting daemon process...Done
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+Starting Dropbox...##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+###################### Starting Window-Manager ################\n
+dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-pVkBbe
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/dropbox'
+dropbox: setting home path '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58'
+dropbox: setting python path '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58:/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/python-packages-35.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtWebKit.cpython-35m-x86_64-linux-gnu.so'
+Dropbox isn't running!
+Done!
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtCore.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtNetwork.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtGui.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtWebKitWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtPrintSupport.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtDBus.cpython-35m-x86_64-linux-gnu.so'
+Starting daemon process...Done
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+Starting daemon process...Starting Dropbox...##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+###################### Starting Window-Manager ################\n
+Done
+dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-Edjjgc
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/dropbox'
+dropbox: setting home path '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58'
+dropbox: setting python path '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58:/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/python-packages-35.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+Dropbox isn't running!
+Done!
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtWebKit.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtCore.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtNetwork.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtGui.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtWebKitWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtPrintSupport.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtDBus.cpython-35m-x86_64-linux-gnu.so'
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+Starting Dropbox...dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-oEPwXE
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/dropbox'
+dropbox: setting home path '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58'
+dropbox: setting python path '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58:/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/python-packages-35.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+###################### Starting Window-Manager ################\n
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+Daemon is already running.
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtWebKit.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtCore.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtNetwork.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtGui.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtWebKitWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtPrintSupport.cpython-35m-x86_64-linux-gnu.so'
+Dropbox isn't running!
+Done!
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtDBus.cpython-35m-x86_64-linux-gnu.so'
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+Starting Dropbox...##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+###################### Starting Window-Manager ################\n
+dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-yLmKrX
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/dropbox'
+dropbox: setting home path '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58'
+dropbox: setting python path '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58:/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/python-packages-35.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtWebKit.cpython-35m-x86_64-linux-gnu.so'
+Dropbox isn't running!
+Done!
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtCore.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtNetwork.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtGui.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtWebKitWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtPrintSupport.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtDBus.cpython-35m-x86_64-linux-gnu.so'
+Starting daemon process...Done
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+Starting Dropbox...##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+###################### Starting Window-Manager ################\n
+dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-nrzd75
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/dropbox'
+dropbox: setting home path '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58'
+dropbox: setting python path '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58:/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/python-packages-35.zip'
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+Starting daemon process...Done
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtWebKit.cpython-35m-x86_64-linux-gnu.so'
+Dropbox isn't running!
+Done!
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtCore.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtNetwork.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtGui.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtWebKitWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtPrintSupport.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtDBus.cpython-35m-x86_64-linux-gnu.so'
+################### Starting Daemons #######################\n
+starting unclutter\n
+starting undiskie\n
+starting dropbox\n
+starting yandex disk\n
+starting compton\n
+setting Cursor\n
+starting gpg-agent daemon\n
+##################### Setting Wallpaper ###################\n
+gpg-agent: a gpg-agent is already running - not starting a new one
+Starting Dropbox...Dropbox isn't running!
+Done!
+##################### Java Work Around ###################\n
+##################### Turn off Screen Blanking ####################\n
+dropbox: locating interpreter
+dropbox: logging to /tmp/dropbox-antifreeze-5Dd0hl
+dropbox: initializing
+dropbox: initializing python 3.5.4
+dropbox: setting program path '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/dropbox'
+dropbox: setting home path '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58'
+dropbox: setting python path '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58:/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/python-packages-35.zip'
+###################### Starting Window-Manager ################\n
+dropbox: python initialized
+dropbox: running dropbox
+dropbox: setting args
+dropbox: applying overrides
+dropbox: running main script
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cryptography.hazmat.bindings._constant_time.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cryptography.hazmat.bindings._openssl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cryptography.hazmat.bindings._padding.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/psutil._psutil_linux.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/psutil._psutil_posix.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/linuxffi.fcntl._linuxffi_fcntl.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/linuxffi.sys.compiled._linuxffi_sys.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/tornado.speedups.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/cpuid.compiled._cpuid.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/linuxffi.resolv.compiled._linuxffi_resolv.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/posixffi.libc._posixffi_libc.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/librsyncffi.compiled._librsyncffi.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtWebKit.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtCore.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtNetwork.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtGui.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtWebKitWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtWidgets.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtPrintSupport.cpython-35m-x86_64-linux-gnu.so'
+dropbox: load fq extension '/home/b14ckr41n/.dropbox-dist/dropbox-lnx.x86_64-52.4.58/PyQt5.QtDBus.cpython-35m-x86_64-linux-gnu.so'
+Starting daemon process...Done

@@ -1,0 +1,1 @@
+['Makefile', 'Skelton', 'make', 'file', 'clang', '-ggdb3', '-std', '-Wall', '-Werror', '-lcs50', 'clean', 'a.out', 'core']

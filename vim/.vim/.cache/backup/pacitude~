@@ -1,0 +1,221 @@
+#!/bin/bash
+
+# pacitude 2.0
+# --------------------------------
+# author    : Sachiko
+#             https://github.com/undeadrevo
+# project   : https://github.com/undeadrevo/pacitude
+# license   : LGPL-3.0 (http://opensource.org/licenses/lgpl-3.0.html)
+#
+
+apptitle="pacitude"
+
+
+# --------------------------------------------------------
+mainmenu(){
+  if [ "$1" = "" ]; then
+    nextitem="."
+  else
+    nextitem=$1
+  fi
+  options=()
+  options+=("1)" "Update Mirror List")
+  options+=("2)" "Sync DB")
+  options+=("3)" "Update System")
+  options+=("4)" "Install Packages")
+  options+=("5)" "Remove Packages")
+  options+=("6)" "Update Packages")
+  options+=("7)" "Remove Dependencies")
+  options+=("8)" "Search Packages")
+  options+=("9)" "Belongs To Files")
+  options+=("10)" "Package Info")
+  options+=("11)" "Clear Cache")
+  options+=("12)" "PacDiff Viewer")
+  options+=("13)" "Edit pacman.conf")
+  options+=("14)" "Edit mirrorlist")
+  options+=("15)" "Edit makepkg.conf")
+  options+=("16)" "Pacman PGP Key Refresh")
+  options+=("17)" "Pacman DB Optimize")
+  options+=("18)" "Pacman DB Upgrade")
+  options+=("19)" "Pacman Log")
+  sel=$(whiptail --backtitle "$apptitle" --menu "" --cancel-button "$txtexit" --default-item "$nextitem" 0 0 0 \
+    "${options[@]}" \
+    3>&1 1>&2 2>&3)
+  if [ "$?" = "0" ]; then
+    case $sel in
+    "1)")
+      	  sudo reflector -l 5 -p http --save /etc/pacman.d/mirrorlist
+      	  echo "Mirrorlist updated"
+      	  pressanykey
+    ;;
+    "2)")
+      	  pacaur -Sy
+      	  pressanykey
+    ;;
+    "3)")
+		  pacaur -Su
+		  pressanykey
+    ;;
+    "4)")
+		  pkgs=$(whiptail --backtitle "$apptitle" --title "Choose package(s) to install" --inputbox "" 0 0 "" 3>&1 1>&2 2>&3)
+		  if [ "$?" = "0" ]; then
+    	  clear
+    	  pacaur -S $pkgs
+    	  pressanykey
+ 		  fi
+ 	;;
+    "5)")
+		  pkgs=$(whiptail --backtitle "$apptitle" --title "Choose package(s) to remove" --inputbox "" 0 0 "" 3>&1 1>&2 2>&3)
+		  if [ "$?" = "0" ]; then
+    	  clear
+    	  pacaur -R $pkgs
+    	  pressanykey
+ 		  fi
+    ;;
+    "6)")
+      	  pkgs=$(whiptail --backtitle "$apptitle" --title "Choose Package to update(exact filepath)" --inputbox "" 0 0 "" 3>&1 1>&2 2>&3)
+		  if [ "$?" = "0" ]; then
+    	  clear
+    	  pacaur -U $pkgs
+    	  pressanykey
+    	  fi
+    ;;
+    "7)")
+		  if [ "$?" = "0" ]; then
+		  clear
+          pacaur -R $(pacaur -Qdtq)
+          pressanykey
+      	  fi
+    ;;
+    "8)")
+		  pkgs=$(whiptail --backtitle "$apptitle" --title "Choose package(s) to search for" --inputbox "" 0 0 "" 3>&1 1>&2 2>&3)
+		  if [ "$?" = "0" ]; then
+    	  clear
+    	  pacaur -Ss $pkgs
+          pressanykey
+   		  fi
+    ;;
+    "9)")
+		  pkgs=$(whiptail --backtitle "$apptitle" --title "" --inputbox "" 0 0 "" 3>&1 1>&2 2>&3)
+		  if [ "$?" = "0" ]; then
+    	  clear
+    	  pacaur -Qo $pkgs
+    	  pressanykey
+    	  fi
+    ;;
+    "10)")
+		  pkgs=$(whiptail --backtitle "$apptitle" --title "Package Info" --inputbox "" 0 0 "" 3>&1 1>&2 2>&3)
+		  if [ "$?" = "0" ]; then
+    	  clear
+    	  pacaur -Qi $pkgs
+    	  pressanykey
+    	  fi
+    ;;
+    "11)")
+    	  pacaur -Scc
+    	  pressanykey
+    ;;
+    "12)")
+		  pkgs=$(whiptail --backtitle "$apptitle" --title "" --inputbox "" 0 0 "" 3>&1 1>&2 2>&3)
+		  if [ "$?" = "0" ]; then
+    	  clear
+    	  pacaur -Qo $pkgs
+    	  pressanykey
+    	  fi
+    ;;
+    "13)")
+		  chooseeditor
+		  sudo $EDITOR /etc/pacman.conf
+    ;;
+    "14)")
+		  chooseeditor
+		  sudo $EDITOR /etc/pacman.d/mirrorlist
+    ;;
+    "15)")
+    	  chooseeditor
+    	  sudo $EDITOR /etc/makepkg.conf
+    ;;
+	"16)")
+		  sudo pacman-key --refresh
+		  pressanykey
+	;;
+	"17)")
+		  sudo pacman-optimize
+		  pressanykey
+	;;
+	"18)")
+		  sudo pacman-db-upgrade
+		  pressanykey
+	;;
+	"19)")
+		  chooselogviewer
+		  $VIEWER /var/log/pacman.log
+	;;
+    esac
+    mainmenu "$nextitem"
+  else
+    clear
+  fi
+}
+
+#-----------------------------------------------------------
+
+chooseeditor(){
+  options=()
+  options+=("slap" "")
+  options+=("kilo" "")
+  options+=("nano" "")
+  options+=("pico" "")
+  options+=("vi" "")
+  options+=("vim" "")
+  sel=$(whiptail --backtitle "$apptitle" --title "Choose an editor" --menu "" 0 0 0 \
+    "${options[@]}" \
+    3>&1 1>&2 2>&3)
+  if [ "$?" = "0" ]; then
+    clear
+    echo "export EDITOR=$sel"
+    export EDITOR=$sel
+    EDITOR=$sel
+    pressanykey
+  fi
+}
+
+#--------------------------------------------------------------
+
+chooselogviewer(){
+  options=()
+  options+=("more" "")
+  options+=("cat" "")
+  options+=("less" "")
+  sel=$(whiptail --backtitle "$apptitle" --title "Choose a log viewer" --menu "" 0 0 0 \
+    "${options[@]}" \
+    3>&1 1>&2 2>&3)
+  if [ "$?" = "0" ]; then
+    clear
+    echo "export VIEWER=$sel"
+    export VIEWER=$sel
+    VIEWER=$sel
+    pressanykey
+  fi
+}
+
+#--------------------------------------------------------
+pressanykey(){
+  echo -e "\033[1;33m"
+  read -n1 -p "$txtpressanykey"
+  echo -e "\033[0m"
+}
+
+loadstrings(){
+  txtexit="Exit"
+  txtmainmenu="Main Menu"
+  txtpressanykey="Press any key to continue."
+}
+
+# --------------------------------------------------------
+  loadstrings
+  EDITOR=nano
+  mainmenu
+
+exit 0
+# --------------------------------------------------------
