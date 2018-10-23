@@ -1,0 +1,37 @@
+include /etc/firejail/disable-common.inc
+include /etc/firejail/disable-passwdmgr.inc
+whitelist ~/makefiles
+whitelist ~/bin
+whitelist ~/audio
+whitelist ~/documents
+whitelist ~/images
+whitelist ~/notes
+whitelist ~/source
+whitelist ~/scripts
+whitelist ~/videos
+whitelist ~/virtualbox
+whitelist ~/libraries
+whitelist ~/toolkits
+whitelist ~/backups
+whitelist ~/mnt
+whitelist ~/pentest
+whitelist ~/projects
+whitelist ~/firetools
+whitelist ~/testing
+whitelist ~/torrents
+include /etc/firejail/whitelist-common.inc
+private-tmp
+private-dev
+blacklist /sbin
+blacklist /usr/sbin
+blacklist /mnt
+blacklist /media
+protocol unix,inet,inet6,
+no3d
+nodvd
+novideo
+notv
+seccomp
+nonewprivs
+caps.drop all
+noroot

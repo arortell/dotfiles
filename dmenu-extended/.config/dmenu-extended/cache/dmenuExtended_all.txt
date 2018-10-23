@@ -1,0 +1,513 @@
+Feh
+<<<<<<< HEAD
+Vim
+<<<<<<< HEAD
+lftp
+Htop
+Vifm
+MuPDF
+=======
+Atom
+=======
+>>>>>>> a9886c25e47238ddc939eac3497629383751270e
+Htop
+Atom
+Vifm
+<<<<<<< HEAD
+lftp
+Vifm
+>>>>>>> caf0250a14d4b3bce049223e87a0f106a25af0c4
+CMake
+Zenmap
+Dropbox
+compton
+<<<<<<< HEAD
+ipython
+Termite
+GTK+ Demo
+Qt Creator
+qutebrowser
+Qt Linguist
+Qt Designer
+Transmission
+Qt Assistant
+Icon Browser
+Wing Pro 6.1
+Widget Factory
+Qt QDbusViewer 
+Zim Desktop Wiki
+mpv Media Player
+Zenmap (as root)
+Tor Browser (en-US)
+Oracle VM VirtualBox
+networkmanager_dmenu
+Qt V4L2 test Utility
+/home/b14ckr41n/bin/
+/home/b14ckr41n/tmp/
+/home/b14ckr41n/mnt/
+OpenJDK Java 10 Shell
+/home/b14ckr41n/shit/
+/home/b14ckr41n/libs/
+Avahi Zeroconf Browser
+/home/b14ckr41n/audio/
+/home/b14ckr41n/notes/
+OpenJDK Java 10 Console
+OpenJDK Java 10 Runtime
+/home/b14ckr41n/images/
+/home/b14ckr41n/source/
+/home/b14ckr41n/videos/
+Avahi SSH Server Browser
+Avahi VNC Server Browser
+/home/b14ckr41n/scripts/
+/home/b14ckr41n/backups/
+=======
+<<<<<<< HEAD
+ipython
+=======
+View file
+>>>>>>> a9886c25e47238ddc939eac3497629383751270e
+GTK+ Demo
+Terminology
+<<<<<<< HEAD
+Icon Browser
+Wing Pro 6.0
+Transmission
+=======
+qutebrowser
+Icon Browser
+Transmission
+Wing Pro 6.0
+Access Prompt
+>>>>>>> a9886c25e47238ddc939eac3497629383751270e
+Widget Factory
+Elementary Test
+Zenmap (as root)
+Zim Desktop Wiki
+<<<<<<< HEAD
+mpv Media Player
+=======
+Network Connections
+>>>>>>> a9886c25e47238ddc939eac3497629383751270e
+networkmanager_dmenu
+Qt V4L2 test Utility
+Oracle VM VirtualBox
+/home/b14ckr41n/tmp/
+/home/b14ckr41n/mnt/
+/home/b14ckr41n/etc/
+<<<<<<< HEAD
+OpenJDK Java 10 Shell
+=======
+=======
+Atom
+Htop
+CMake
+Zenmap
+compton
+Dropbox
+View file
+BleachBit
+GTK+ Demo
+Where am I?
+qutebrowser
+Terminology
+Transmission
+Icon Browser
+Access Prompt
+Widget Factory
+Elementary Test
+Zim Desktop Wiki
+Zenmap (as root)
+Geoclue Demo agent
+Network Connections
+Oracle VM VirtualBox
+networkmanager_dmenu
+Qt V4L2 test Utility
+/home/b14ckr41n/dev/
+/home/b14ckr41n/src/
+/home/b14ckr41n/bin/
+>>>>>>> 6c993a39beb17f5917e1e41325cf051eca50cf87
+>>>>>>> a9886c25e47238ddc939eac3497629383751270e
+Sandboxed Tor Browser
+OpenJDK Java 10 Shell
+/home/b14ckr41n/shit/
+/home/b14ckr41n/elvi/
+Avahi Zeroconf Browser
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+/home/b14ckr41n/notes/
+/home/b14ckr41n/audio/
+>>>>>>> a9886c25e47238ddc939eac3497629383751270e
+OpenJDK Java 10 Console
+OpenJDK Java 10 Runtime
+/home/b14ckr41n/images/
+<<<<<<< HEAD
+=======
+/home/b14ckr41n/keygen/
+>>>>>>> a9886c25e47238ddc939eac3497629383751270e
+Avahi SSH Server Browser
+Elementary Configuration
+Avahi VNC Server Browser
+<<<<<<< HEAD
+=======
+Elementary Configuration
+>>>>>>> caf0250a14d4b3bce049223e87a0f106a25af0c4
+/home/b14ckr41n/pentest/
+/home/b14ckr41n/scripts/
+/home/b14ckr41n/testing/
+<<<<<<< HEAD
+/home/b14ckr41n/toolkits/
+/home/b14ckr41n/examples/
+/home/b14ckr41n/projects/
+/home/b14ckr41n/makefiles/
+/home/b14ckr41n/documents/
+/home/b14ckr41n/downloads/
+/home/b14ckr41n/Star Trek/
+OpenJDK Java 10 Policy Tool
+/home/b14ckr41n/virtualbox/
+/home/b14ckr41n/Star Trek/6 - Sulu/
+/home/b14ckr41n/Star Trek/6 - Sulu/Envoy/
+/home/b14ckr41n/Star Trek/6 - Sulu/Cacophony/
+/home/b14ckr41n/Star Trek/3 - Deep Space Nine/
+/home/b14ckr41n/Star Trek/1 - Original Series/
+/home/b14ckr41n/Star Trek/6 - Sulu/To The Stars/
+/home/b14ckr41n/Star Trek/6 - Sulu/Envoy/Envoy.mp3
+/home/b14ckr41n/Star Trek/6 - Sulu/Transformations/
+/home/b14ckr41n/Star Trek/3 - Deep Space Nine/Warped/
+/home/b14ckr41n/Star Trek/3 - Deep Space Nine/Emissary/
+/home/b14ckr41n/Star Trek/6 - Sulu/Cacophony/Cacophony.mp3
+/home/b14ckr41n/Star Trek/1 - Original Series/Best Destiny/
+/home/b14ckr41n/Star Trek/3 - Deep Space Nine/The 34th Rule/
+/home/b14ckr41n/Star Trek/3 - Deep Space Nine/Fallen Heroes/
+/home/b14ckr41n/Star Trek/1 - Original Series/Final fronter/
+/home/b14ckr41n/Star Trek/1 - Original Series/Faces of Fire/
+/home/b14ckr41n/Star Trek/1 - Original Series/Prime Directive/
+/home/b14ckr41n/Star Trek/1 - Original Series/Shadows on the Sun/
+/home/b14ckr41n/Star Trek/1 - Original Series/The Eugenics Wars I/
+/home/b14ckr41n/Star Trek/3 - Deep Space Nine/The Fall of Terok Nor/
+/home/b14ckr41n/Star Trek/3 - Deep Space Nine/Warped/Warped - 04.mp3
+/home/b14ckr41n/Star Trek/3 - Deep Space Nine/Warped/Warped - 02.mp3
+/home/b14ckr41n/Star Trek/3 - Deep Space Nine/Warped/Warped - 01.mp3
+/home/b14ckr41n/Star Trek/3 - Deep Space Nine/Warped/Warped - 03.mp3
+/home/b14ckr41n/Star Trek/3 - Deep Space Nine/Legends of the Ferengi/
+/home/b14ckr41n/Star Trek/1 - Original Series/Strangers From The Sky/
+/home/b14ckr41n/Star Trek/6 - Sulu/To The Stars/To The Stars - 04.mp3
+/home/b14ckr41n/Star Trek/6 - Sulu/To The Stars/To The Stars - 01.mp3
+/home/b14ckr41n/Star Trek/6 - Sulu/To The Stars/To The Stars - 03.mp3
+/home/b14ckr41n/Star Trek/6 - Sulu/To The Stars/To The Stars - 02.mp3
+/home/b14ckr41n/Star Trek/6 - Sulu/Transformations/Transformations.mp3
+/home/b14ckr41n/Star Trek/3 - Deep Space Nine/Emissary/Emissary - 03.mp3
+/home/b14ckr41n/Star Trek/3 - Deep Space Nine/Emissary/Emissary - 04.mp3
+/home/b14ckr41n/Star Trek/3 - Deep Space Nine/Emissary/Emissary - 01.mp3
+/home/b14ckr41n/Star Trek/3 - Deep Space Nine/Emissary/Emissary - 02.mp3
+/home/b14ckr41n/Star Trek/1 - Original Series/Final fronter/Final fronter.mp3
+/home/b14ckr41n/Star Trek/1 - Original Series/Enterprise - The First Adventure/
+/home/b14ckr41n/Star Trek/1 - Original Series/Best Destiny/Best Destiny - 03.mp3
+/home/b14ckr41n/Star Trek/1 - Original Series/Best Destiny/Best Destiny - 04.mp3
+/home/b14ckr41n/Star Trek/1 - Original Series/Best Destiny/Best Destiny - 01.mp3
+/home/b14ckr41n/Star Trek/1 - Original Series/Best Destiny/Best Destiny - 02.mp3
+/home/b14ckr41n/Star Trek/3 - Deep Space Nine/The 34th Rule/The 34th Rule - 04.mp3
+/home/b14ckr41n/Star Trek/3 - Deep Space Nine/The 34th Rule/The 34th Rule - 01.mp3
+/home/b14ckr41n/Star Trek/3 - Deep Space Nine/The 34th Rule/The 34th Rule - 02.mp3
+/home/b14ckr41n/Star Trek/3 - Deep Space Nine/The 34th Rule/The 34th Rule - 03.mp3
+/home/b14ckr41n/Star Trek/3 - Deep Space Nine/Fallen Heroes/Fallen Heroes - 02.mp3
+/home/b14ckr41n/Star Trek/3 - Deep Space Nine/Fallen Heroes/Fallen Heroes - 03.mp3
+/home/b14ckr41n/Star Trek/3 - Deep Space Nine/Fallen Heroes/Fallen Heroes - 01.mp3
+/home/b14ckr41n/Star Trek/1 - Original Series/Faces of Fire/Faces of Fire - 04.mp3
+/home/b14ckr41n/Star Trek/1 - Original Series/Faces of Fire/Faces of Fire - 02.mp3
+/home/b14ckr41n/Star Trek/1 - Original Series/Faces of Fire/Faces of Fire - 01.mp3
+/home/b14ckr41n/Star Trek/1 - Original Series/Faces of Fire/Faces of Fire - 03.mp3
+/home/b14ckr41n/Star Trek/1 - Original Series/Prime Directive/Prime Directive - 04.mp3
+/home/b14ckr41n/Star Trek/1 - Original Series/Prime Directive/Prime Directive - 03.mp3
+/home/b14ckr41n/Star Trek/1 - Original Series/Prime Directive/Prime Directive - 02.mp3
+/home/b14ckr41n/Star Trek/1 - Original Series/Prime Directive/Prime Directive - 01.mp3
+/home/b14ckr41n/Star Trek/1 - Original Series/Shadows on the Sun/Shadows on the Sun - 04.mp3
+/home/b14ckr41n/Star Trek/1 - Original Series/Shadows on the Sun/Shadows on the Sun - 02.mp3
+/home/b14ckr41n/Star Trek/1 - Original Series/Shadows on the Sun/Shadows on the Sun - 03.mp3
+/home/b14ckr41n/Star Trek/1 - Original Series/Shadows on the Sun/Shadows on the Sun - 01.mp3
+/home/b14ckr41n/Star Trek/1 - Original Series/The Eugenics Wars I/The Eugenics Wars I - 01.mp3
+/home/b14ckr41n/Star Trek/1 - Original Series/The Eugenics Wars I/The Eugenics Wars I - 02.mp3
+/home/b14ckr41n/Star Trek/1 - Original Series/The Eugenics Wars I/The Eugenics Wars I - 03.mp3
+/home/b14ckr41n/Star Trek/3 - Deep Space Nine/The Fall of Terok Nor/The Fall of Terok Nor 02.mp3
+/home/b14ckr41n/Star Trek/3 - Deep Space Nine/The Fall of Terok Nor/The Fall of Terok Nor 03.mp3
+/home/b14ckr41n/Star Trek/3 - Deep Space Nine/The Fall of Terok Nor/The Fall of Terok Nor 04.mp3
+/home/b14ckr41n/Star Trek/3 - Deep Space Nine/The Fall of Terok Nor/The Fall of Terok Nor 01.mp3
+/home/b14ckr41n/Star Trek/1 - Original Series/Strangers From The Sky/Strangers from the - 01.mp3
+/home/b14ckr41n/Star Trek/1 - Original Series/Strangers From The Sky/Strangers from the - 02.mp3
+/home/b14ckr41n/Star Trek/3 - Deep Space Nine/Legends of the Ferengi/Legends of the Ferengi - 01.mp3
+/home/b14ckr41n/Star Trek/3 - Deep Space Nine/Legends of the Ferengi/Legends of the Ferengi - 02.mp3
+/home/b14ckr41n/Star Trek/1 - Original Series/Enterprise - The First Adventure/Enterprise The First Adventure - 02.mp3
+=======
+>>>>>>> a9886c25e47238ddc939eac3497629383751270e
+/home/b14ckr41n/Desktop/
+/home/b14ckr41n/etc/tor/
+/home/b14ckr41n/etc/ssl/
+/home/b14ckr41n/etc/X11/
+/home/b14ckr41n/etc/xdg/
+/home/b14ckr41n/etc/lvm/
+/home/b14ckr41n/etc/zsh/
+/home/b14ckr41n/etc/mpv/
+/home/b14ckr41n/etc/gss/
+/home/b14ckr41n/etc/ssh/
+/home/b14ckr41n/etc/xml/
+/home/b14ckr41n/etc/ppp/
+<<<<<<< HEAD
+=======
+/home/b14ckr41n/examples/
+/home/b14ckr41n/projects/
+/home/b14ckr41n/toolkits/
+>>>>>>> a9886c25e47238ddc939eac3497629383751270e
+/home/b14ckr41n/GhostNET/
+/home/b14ckr41n/anonsurf/
+/home/b14ckr41n/etc/skel/
+/home/b14ckr41n/etc/udev/
+/home/b14ckr41n/etc/vpnc/
+/home/b14ckr41n/etc/lxdm/
+/home/b14ckr41n/etc/wmii/
+/home/b14ckr41n/etc/dkms/
+/home/b14ckr41n/etc/vbox/
+<<<<<<< HEAD
+=======
+/home/b14ckr41n/libraries/
+/home/b14ckr41n/makefiles/
+>>>>>>> a9886c25e47238ddc939eac3497629383751270e
+/home/b14ckr41n/documents/
+/home/b14ckr41n/downloads/
+/home/b14ckr41n/bookmarks/
+/home/b14ckr41n/Downloads/
+/home/b14ckr41n/etc/libnl/
+/home/b14ckr41n/etc/pam.d/
+/home/b14ckr41n/etc/fonts/
+/home/b14ckr41n/etc/pulse/
+/home/b14ckr41n/etc/avahi/
+/home/b14ckr41n/etc/gconf/
+/home/b14ckr41n/etc/byobu/
+OpenJDK Java 10 Policy Tool
+/home/b14ckr41n/VirtualBox/
+/home/b14ckr41n/etc/dbus-1/
+/home/b14ckr41n/etc/kernel/
+/home/b14ckr41n/etc/grub.d/
+/home/b14ckr41n/etc/netctl/
+/home/b14ckr41n/etc/pkcs11/
+/home/b14ckr41n/etc/conf.d/
+/home/b14ckr41n/etc/xl2tpd/
+/home/b14ckr41n/etc/default/
+/home/b14ckr41n/etc/systemd/
+/home/b14ckr41n/etc/ifplugd/
+/home/b14ckr41n/etc/openvpn/
+/home/b14ckr41n/etc/gtk-3.0/
+/home/b14ckr41n/etc/udisks2/
+/home/b14ckr41n/etc/gtk-2.0/
+/home/b14ckr41n/etc/xdg/dfc/
+/home/b14ckr41n/etc/gconf/2/
+/home/b14ckr41n/etc/iptables/
+/home/b14ckr41n/etc/openldap/
+/home/b14ckr41n/etc/security/
+/home/b14ckr41n/etc/depmod.d/
+/home/b14ckr41n/etc/binfmt.d/
+/home/b14ckr41n/etc/sysctl.d/
+/home/b14ckr41n/etc/xinetd.d/
+/home/b14ckr41n/etc/iproute2/
+/home/b14ckr41n/etc/initcpio/
+/home/b14ckr41n/etc/pacman.d/
+/home/b14ckr41n/etc/gssproxy/
+/home/b14ckr41n/etc/polkit-1/
+/home/b14ckr41n/etc/firejail/
+/home/b14ckr41n/etc/apparmor/
+/home/b14ckr41n/etc/ssl/misc/
+<<<<<<< HEAD
+=======
+/home/b14ckr41n/kali-anonsurf/
+>>>>>>> a9886c25e47238ddc939eac3497629383751270e
+/home/b14ckr41n/etc/profile.d/
+/home/b14ckr41n/etc/bluetooth/
+/home/b14ckr41n/etc/sudoers.d/
+/home/b14ckr41n/etc/mercurial/
+/home/b14ckr41n/etc/sensors.d/
+/home/b14ckr41n/etc/exports.d/
+/home/b14ckr41n/etc/ssl/certs/
+/home/b14ckr41n/etc/X11/xinit/
+/home/b14ckr41n/etc/wmii/ruby/
+/home/b14ckr41n/etc/ppp/peers/
+/home/b14ckr41n/etc/modprobe.d/
+/home/b14ckr41n/etc/tmpfiles.d/
+/home/b14ckr41n/etc/partimaged/
+/home/b14ckr41n/etc/rc_keymaps/
+/home/b14ckr41n/etc/cifs-utils/
+/home/b14ckr41n/etc/libpaper.d/
+/home/b14ckr41n/etc/apparmor.d/
+/home/b14ckr41n/etc/xdg/dfc/fr/
+/home/b14ckr41n/etc/xdg/dfc/nl/
+/home/b14ckr41n/etc/lvm/backup/
+/home/b14ckr41n/etc/gss/mech.d/
+/home/b14ckr41n/anonsurf/debian/
+/home/b14ckr41n/etc/logrotate.d/
+/home/b14ckr41n/etc/libblockdev/
+/home/b14ckr41n/etc/ssl/private/
+/home/b14ckr41n/etc/udev/hwdb.d/
+/home/b14ckr41n/etc/xdg/systemd/
+/home/b14ckr41n/etc/xdg/surfraw/
+/home/b14ckr41n/etc/xdg/awesome/
+/home/b14ckr41n/etc/xdg/openbox/
+/home/b14ckr41n/etc/lvm/archive/
+/home/b14ckr41n/etc/lvm/profile/
+/home/b14ckr41n/etc/wmii/python/
+/home/b14ckr41n/etc/ppp/ip-up.d/
+/home/b14ckr41n/etc/ld.so.conf.d/
+/home/b14ckr41n/etc/mkinitcpio.d/
+/home/b14ckr41n/etc/systemd/user/
+/home/b14ckr41n/etc/udev/rules.d/
+/home/b14ckr41n/etc/netctl/hooks/
+/home/b14ckr41n/etc/fonts/conf.d/
+/home/b14ckr41n/etc/request-key.d/
+/home/b14ckr41n/etc/xdg/autostart/
+/home/b14ckr41n/etc/ppp/ipv6-up.d/
+/home/b14ckr41n/etc/ppp/ip-down.d/
+/home/b14ckr41n/GhostNET/README.md
+/home/b14ckr41n/keygen/install.txt
+/home/b14ckr41n/anonsurf/launchers/
+/home/b14ckr41n/etc/modules-load.d/
+/home/b14ckr41n/etc/wpa_supplicant/
+/home/b14ckr41n/etc/NetworkManager/
+/home/b14ckr41n/etc/java10-openjdk/
+/home/b14ckr41n/etc/ssl/certs/java/
+/home/b14ckr41n/etc/systemd/system/
+/home/b14ckr41n/etc/initcpio/hooks/
+/home/b14ckr41n/etc/pacman.d/gnupg/
+/home/b14ckr41n/etc/avahi/services/
+/home/b14ckr41n/etc/openvpn/server/
+/home/b14ckr41n/etc/openvpn/client/
+/home/b14ckr41n/etc/wmii/plan9port/
+/home/b14ckr41n/etc/ca-certificates/
+/home/b14ckr41n/etc/dbus-1/system.d/
+/home/b14ckr41n/etc/X11/xorg.conf.d/
+/home/b14ckr41n/etc/systemd/network/
+/home/b14ckr41n/etc/netctl/examples/
+/home/b14ckr41n/etc/ppp/ipv6-down.d/
+/home/b14ckr41n/etc/usb_modeswitch.d/
+/home/b14ckr41n/etc/kernel/install.d/
+/home/b14ckr41n/etc/xdg/systemd/user/
+/home/b14ckr41n/etc/initcpio/install/
+/home/b14ckr41n/etc/fonts/conf.avail/
+/home/b14ckr41n/etc/polkit-1/rules.d/
+/home/b14ckr41n/etc/wmii/python/pyxp/
+/home/b14ckr41n/etc/apparmor.d/local/
+/home/b14ckr41n/etc/bash_completion.d/
+/home/b14ckr41n/etc/security/limits.d/
+/home/b14ckr41n/etc/netctl/interfaces/
+/home/b14ckr41n/etc/wmii/python/pygmi/
+/home/b14ckr41n/anonsurf/debian/source/
+/home/b14ckr41n/etc/libblockdev/conf.d/
+/home/b14ckr41n/etc/apparmor.d/disable/
+<<<<<<< HEAD
+=======
+/home/b14ckr41n/kali-anonsurf/README.md
+>>>>>>> a9886c25e47238ddc939eac3497629383751270e
+/home/b14ckr41n/etc/X11/xinit/xinitrc.d/
+/home/b14ckr41n/etc/apparmor.d/tunables/
+/home/b14ckr41n/etc/apparmor.d/apache2.d/
+/home/b14ckr41n/etc/wmii/python/wmiirc.py
+/home/b14ckr41n/etc/NetworkManager/conf.d/
+/home/b14ckr41n/etc/gconf/gconf.xml.system/
+/home/b14ckr41n/etc/wmii/python/pygmi/fs.py
+/home/b14ckr41n/etc/wmii/python/pyxp/mux.py
+/home/b14ckr41n/etc/java10-openjdk/security/
+/home/b14ckr41n/etc/apparmor.d/abstractions/
+/home/b14ckr41n/etc/wmii/python/pyxp/dial.py
+/home/b14ckr41n/etc/NetworkManager/dnsmasq.d/
+/home/b14ckr41n/etc/gconf/gconf.xml.defaults/
+/home/b14ckr41n/etc/wmii/python/pygmi/menu.py
+/home/b14ckr41n/etc/wmii/python/pygmi/util.py
+/home/b14ckr41n/etc/wmii/python/pyxp/fcall.py
+/home/b14ckr41n/etc/wmii/python/pyxp/types.py
+/home/b14ckr41n/etc/ca-certificates/extracted/
+/home/b14ckr41n/etc/java10-openjdk/management/
+/home/b14ckr41n/etc/gconf/gconf.xml.mandatory/
+/home/b14ckr41n/etc/wmii/python/pygmi/event.py
+/home/b14ckr41n/etc/wmii/python/pyxp/client.py
+/home/b14ckr41n/etc/wmii/python/pyxp/fields.py
+/home/b14ckr41n/etc/apparmor.d/tunables/home.d/
+/home/b14ckr41n/etc/NetworkManager/dispatcher.d/
+/home/b14ckr41n/etc/wmii/python/pygmi/monitor.py
+/home/b14ckr41n/etc/wmii/python/pyxp/__init__.py
+/home/b14ckr41n/etc/wmii/python/pyxp/messages.py
+/home/b14ckr41n/etc/ca-certificates/trust-source/
+/home/b14ckr41n/etc/wmii/python/pygmi/__init__.py
+/home/b14ckr41n/etc/java10-openjdk/security/policy/
+/home/b14ckr41n/etc/wmii/python/pyxp/asyncclient.py
+<<<<<<< HEAD
+=======
+/home/b14ckr41n/kali-anonsurf/kali-anonsurf-deb-src/
+>>>>>>> a9886c25e47238ddc939eac3497629383751270e
+/home/b14ckr41n/etc/ca-certificates/extracted/cadir/
+/home/b14ckr41n/etc/pacman.d/gnupg/openpgp-revocs.d/
+/home/b14ckr41n/etc/NetworkManager/dnsmasq-shared.d/
+/home/b14ckr41n/etc/apparmor.d/tunables/multiarch.d/
+/home/b14ckr41n/etc/pacman.d/gnupg/private-keys-v1.d/
+/home/b14ckr41n/etc/systemd/system/getty.target.wants/
+/home/b14ckr41n/etc/systemd/user/sockets.target.wants/
+/home/b14ckr41n/etc/NetworkManager/system-connections/
+<<<<<<< HEAD
+=======
+/home/b14ckr41n/kali-anonsurf/kali-anonsurf-deb-src/etc/
+/home/b14ckr41n/kali-anonsurf/kali-anonsurf-deb-src/usr/
+>>>>>>> a9886c25e47238ddc939eac3497629383751270e
+/home/b14ckr41n/etc/apparmor.d/tunables/xdg-user-dirs.d/
+/home/b14ckr41n/etc/ca-certificates/trust-source/anchors/
+/home/b14ckr41n/etc/NetworkManager/dispatcher.d/pre-up.d/
+/home/b14ckr41n/etc/apparmor.d/abstractions/apparmor_api/
+/home/b14ckr41n/etc/NetworkManager/dispatcher.d/no-wait.d/
+<<<<<<< HEAD
+=======
+/home/b14ckr41n/kali-anonsurf/kali-anonsurf-deb-src/DEBIAN/
+>>>>>>> a9886c25e47238ddc939eac3497629383751270e
+/home/b14ckr41n/etc/systemd/system/multi-user.target.wants/
+/home/b14ckr41n/etc/ca-certificates/trust-source/blacklist/
+/home/b14ckr41n/etc/NetworkManager/dispatcher.d/pre-down.d/
+/home/b14ckr41n/etc/java10-openjdk/security/policy/limited/
+<<<<<<< HEAD
+/home/b14ckr41n/etc/java10-openjdk/security/policy/unlimited/
+/home/b14ckr41n/etc/java10-openjdk/security/policy/README.txt
+/home/b14ckr41n/etc/apparmor.d/abstractions/ubuntu-browsers.d/
+/home/b14ckr41n/Road Runner and Wile E. Coyote cartoon collection v2/
+/home/b14ckr41n/Road Runner and Wile E. Coyote cartoon collection v2/About this torrent.html
+/home/b14ckr41n/Road Runner and Wile E. Coyote cartoon collection v2/Sam Sheepdog & Ralph Wolf/
+/home/b14ckr41n/Road Runner and Wile E. Coyote cartoon collection v2/Wile E. Coyote Genius & Bugs Bunny/
+/home/b14ckr41n/Road Runner and Wile E. Coyote cartoon collection v2/Torrent downloaded from Demonoid.com.txt
+/home/b14ckr41n/Road Runner and Wile E. Coyote cartoon collection v2/1949.09.16 - Fast and Furry-ous (Jones) LT.avi
+/home/b14ckr41n/Road Runner and Wile E. Coyote cartoon collection v2/Sam Sheepdog & Ralph Wolf/1957.06.08 - Steal Wool (Jones) LT.avi
+/home/b14ckr41n/Road Runner and Wile E. Coyote cartoon collection v2/Sam Sheepdog & Ralph Wolf/1954.12.11 - Sheep Ahoy (Jones) MM.avi
+/home/b14ckr41n/Road Runner and Wile E. Coyote cartoon collection v2/Sam Sheepdog & Ralph Wolf/1955.07.23 - Double Or Mutton (Jones) LT.avi
+/home/b14ckr41n/Road Runner and Wile E. Coyote cartoon collection v2/Sam Sheepdog & Ralph Wolf/1960.07.30 - Ready, Woolen and Able (Jones) MM.avi
+/home/b14ckr41n/Road Runner and Wile E. Coyote cartoon collection v2/Sam Sheepdog & Ralph Wolf/1953.01.03 - Don't Give Up the Sheep (Jones) LT.avi
+/home/b14ckr41n/Road Runner and Wile E. Coyote cartoon collection v2/Sam Sheepdog & Ralph Wolf/1962.02.10 - A Sheep In The Deep (Jones and Noble) MM.avi
+/home/b14ckr41n/Road Runner and Wile E. Coyote cartoon collection v2/Sam Sheepdog & Ralph Wolf/1963.05.11 - Woolen Under Where (Monroe and Thompson) MM.avi
+=======
+/home/b14ckr41n/kali-anonsurf/kali-anonsurf-deb-src/etc/tor/
+/home/b14ckr41n/kali-anonsurf/kali-anonsurf-deb-src/usr/bin/
+/home/b14ckr41n/kali-anonsurf/kali-anonsurf-deb-src/etc/init/
+/home/b14ckr41n/etc/java10-openjdk/security/policy/unlimited/
+/home/b14ckr41n/etc/java10-openjdk/security/policy/README.txt
+/home/b14ckr41n/etc/apparmor.d/abstractions/ubuntu-browsers.d/
+/home/b14ckr41n/kali-anonsurf/kali-anonsurf-deb-src/etc/init.d/
+/home/b14ckr41n/kali-anonsurf/kali-anonsurf-deb-src/etc/systemd/
+/home/b14ckr41n/kali-anonsurf/kali-anonsurf-deb-src/etc/systemd/system/
+/home/b14ckr41n/Looney Tunes - The Complete Road Runner and Wile E Coyote 1949 - 2003/
+/home/b14ckr41n/Looney Tunes - The Complete Road Runner and Wile E Coyote 1949 - 2003/VIDEO_TS/
+=======
+OpenJDK Java 10 Runtime
+OpenJDK Java 10 Console
+/home/b14ckr41n/images/
+Avahi SSH Server Browser
+Avahi VNC Server Browser
+Elementary Configuration
+/home/b14ckr41n/scripts/
+/home/b14ckr41n/pentest/
+/home/b14ckr41n/downloads/
+/home/b14ckr41n/documents/
+OpenJDK Java 10 Policy Tool
+/home/b14ckr41n/Parrot-security-4.1_amd64.iso
+>>>>>>> 6c993a39beb17f5917e1e41325cf051eca50cf87
+>>>>>>> a9886c25e47238ddc939eac3497629383751270e
+>>>>>>> caf0250a14d4b3bce049223e87a0f106a25af0c4
+rebuild cache

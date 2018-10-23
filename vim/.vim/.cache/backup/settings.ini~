@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+[Settings]
+gtk-icon-theme-name = Adwaita
+gtk-theme-name = Adwaita
+gtk-font-name = DejaVu Sans Mono 12
+=======
+[settings]
+gtk-application-prefer-dark-theme = false
+gtk-theme-name = Adwaita
+gtk-fallback-icon-theme = gnome
+gtk-icon-theme-name = Adwaita
+gtk-font-name = Dejavu Sans Mono 12
+
+>>>>>>> caf0250a14d4b3bce049223e87a0f106a25af0c4

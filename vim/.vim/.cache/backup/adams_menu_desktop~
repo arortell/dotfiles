@@ -1,0 +1,50 @@
+#!/bin/bash -
+#===============================================================================
+#
+#          FILE: adams_menu
+#
+#         USAGE: best if called from a keybinding example sxhkd
+#                
+#
+#   DESCRIPTION: 
+#
+#       OPTIONS: ---
+#  REQUIREMENTS: ---
+#          BUGS: ---
+#         NOTES: ---
+#        AUTHOR: Adam Ortell
+#        EMAIL: arortell80@gmail.com
+#       CREATED: 12/13/2017 10:03:27 AM
+#      REVISION:  ---
+#===============================================================================
+
+set -o nounset                                  # Treat unset variables as an error
+
+menu_msg="\
+1) Man Pages\n\
+2) Systemd Functions\n\
+3) USB\n\
+4) Surfraw Search\n\
+5) Network Manager\n
+6) Bspwm Cheat Sheet\n"
+
+
+response=$( echo -e $menu_msg | dmenu -p "Adam's Menu -> ")
+msg=$(echo $response | cut -d ')' -f1)
+
+[ -z "$msg" ] && exit 0
+
+case $msg in
+  1*) tmp_cmd=$(apropos | cut -d' '-f1 | dmenu -i -l 40 )
+      terminology --name=_scratch --title=_scratch --geometry=149x43 --exec "man $tmp_cmd"
+    ;;
+  2*) dctl
+    ;;
+  3*) udiskie-dmenu
+    ;;
+  4*) rofi-surfraw
+    ;;
+  5*) networkmanager_dmenu
+    ;;
+  6*) terminology --title=_scratch --name=_scratch --geometry=149x43  --exec 'vi .config/rofi/bspkeys'
+esac

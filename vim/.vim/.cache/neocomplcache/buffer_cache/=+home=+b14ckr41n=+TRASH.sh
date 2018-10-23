@@ -1,0 +1,1 @@
+['bash', 'FILE', 'TRASH.sh', 'USAGE', 'DESCRIPTION', 'OPTIONS', 'REQUIREMENTS', 'BUGS', 'NOTES', 'AUTHOR', 'Adam', 'Ortell', 'arortell', 'gmail.com', 'ORGANIZATION', 'CREATED', 'REVISION', 'nounset', 'Treat', 'unset', 'variables', 'error', 'feed', 'HOME', 'penguin.sh', 'animal', 'penguin', 'menu', 'apple', 'echo']

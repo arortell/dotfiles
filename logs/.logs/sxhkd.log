@@ -1,0 +1,740 @@
+<<<<<<< HEAD
+CRI<28764>:eina_log ../src/bin/win.c:1762 win_new() unknown log domain -1, original message level was: WRN
+CRI<29017>:eina_log ../src/bin/win.c:1762 win_new() unknown log domain -1, original message level was: WRN
+[0716/131703.365633:WARNING:stack_trace_posix.cc(699)] Failed to open file: /home/b14ckr41n/#1513690 (deleted)
+  Error: No such file or directory
+13:17:07 INFO: Request to www.google-analytics.com blocked by host blocker.
+13:17:07 INFO: Request to collector.githubapp.com blocked by host blocker.
+13:17:07 INFO: Request to www.google-analytics.com blocked by host blocker.
+13:17:07 INFO: Request to collector.githubapp.com blocked by host blocker.
+[29126:29307:0716/131950.538924:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[29126:29307:0716/131950.539105:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[29126:29307:0716/131950.539195:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+[29126:29307:0716/131950.542786:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[29126:29307:0716/131950.542919:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[29126:29307:0716/131950.543004:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+13:19:52 INFO: Request to www.google-analytics.com blocked by host blocker.
+13:19:52 INFO: Request to collector.githubapp.com blocked by host blocker.
+13:19:52 INFO: Request to www.google-analytics.com blocked by host blocker.
+13:19:52 INFO: Request to collector.githubapp.com blocked by host blocker.
+13:19:54 WARNING: /usr/lib/python3.6/subprocess.py:766: ResourceWarning: subprocess 713 is still running
+  ResourceWarning, source=self)
+
+[0716/131957.245795:WARNING:stack_trace_posix.cc(699)] Failed to open file: /home/b14ckr41n/#1513742 (deleted)
+  Error: No such file or directory
+13:20:01 INFO: Request to www.google-analytics.com blocked by host blocker.
+13:20:01 INFO: Request to collector.githubapp.com blocked by host blocker.
+13:20:01 INFO: Request to www.google-analytics.com blocked by host blocker.
+13:20:01 INFO: Request to collector.githubapp.com blocked by host blocker.
+13:20:17 WARNING: The X11 connection broke: I/O error (code 1)
+XIO:  fatal IO error 0 (Success) on X server ":0"
+      after 2030 requests (2007 known processed) with 0 events remaining.
+[0716/132035.171292:WARNING:stack_trace_posix.cc(699)] Failed to open file: /home/b14ckr41n/#1514000 (deleted)
+  Error: No such file or directory
+13:20:38 INFO: Request to www.google-analytics.com blocked by host blocker.
+13:20:38 INFO: Request to collector.githubapp.com blocked by host blocker.
+13:20:38 INFO: Request to www.google-analytics.com blocked by host blocker.
+13:20:38 INFO: Request to collector.githubapp.com blocked by host blocker.
+13:22:10 WARNING: /usr/lib/python3.6/subprocess.py:766: ResourceWarning: subprocess 3933 is still running
+  ResourceWarning, source=self)
+
+[0716/132213.340529:WARNING:stack_trace_posix.cc(699)] Failed to open file: /home/b14ckr41n/#1514594 (deleted)
+  Error: No such file or directory
+13:22:20 INFO: Request to www.google-analytics.com blocked by host blocker.
+13:22:20 INFO: Request to collector.githubapp.com blocked by host blocker.
+13:22:20 INFO: Request to www.google-analytics.com blocked by host blocker.
+13:22:21 INFO: Request to collector.githubapp.com blocked by host blocker.
+[3933:3994:0716/132313.212827:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[3933:3994:0716/132313.212925:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[3933:3994:0716/132313.213004:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+[3933:3994:0716/132313.216464:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[3933:3994:0716/132313.216550:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[3933:3994:0716/132313.216659:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+13:23:32 INFO: Request to pagead2.googlesyndication.com blocked by host blocker.
+13:23:33 INFO: Request to contextual.media.net blocked by host blocker.
+13:23:33 INFO: Request to contextual.media.net blocked by host blocker.
+13:23:33 INFO: Request to www.google-analytics.com blocked by host blocker.
+13:23:33 INFO: Request to contextual.media.net blocked by host blocker.
+13:23:33 INFO: Request to pagead2.googlesyndication.com blocked by host blocker.
+13:23:33 INFO: Request to pagead2.googlesyndication.com blocked by host blocker.
+[3933:3994:0716/132336.883563:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[3933:3994:0716/132336.883645:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[3933:3994:0716/132336.883698:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+[3933:3994:0716/132336.885970:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[3933:3994:0716/132336.886041:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[3933:3994:0716/132336.886093:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+libpng warning: iCCP: known incorrect sRGB profile
+13:23:39 INFO: Request to www.google-analytics.com blocked by host blocker.
+13:23:39 INFO: Request to collector.githubapp.com blocked by host blocker.
+13:23:39 INFO: Request to www.google-analytics.com blocked by host blocker.
+13:23:39 INFO: Request to collector.githubapp.com blocked by host blocker.
+libpng warning: iCCP: known incorrect sRGB profile
+13:23:46 INFO: Request to ads.servebom.com blocked by host blocker.
+[3933:4006:0716/132349.181069:ERROR:context_group.cc(137)] ContextResult::kFatalFailure: WebGL1 blacklisted
+[3933:4006:0716/132349.250108:ERROR:context_group.cc(137)] ContextResult::kFatalFailure: WebGL1 blacklisted
+13:23:52 INFO: Request to www.google-analytics.com blocked by host blocker.
+13:23:52 INFO: Request to sb.scorecardresearch.com blocked by host blocker.
+13:23:57 INFO: Request to www.google-analytics.com blocked by host blocker.
+13:23:57 INFO: Request to collector.githubapp.com blocked by host blocker.
+13:23:57 INFO: Request to collector.githubapp.com blocked by host blocker.
+13:23:58 INFO: Request to www.google-analytics.com blocked by host blocker.
+13:24:41 INFO: Request to pagead2.googlesyndication.com blocked by host blocker.
+13:24:42 INFO: Request to secure.statcounter.com blocked by host blocker.
+13:24:42 INFO: Request to pagead2.googlesyndication.com blocked by host blocker.
+libpng warning: iCCP: known incorrect sRGB profile
+13:24:45 INFO: Request to pagead2.googlesyndication.com blocked by host blocker.
+13:24:45 INFO: Request to secure.statcounter.com blocked by host blocker.
+libpng warning: iCCP: known incorrect sRGB profile
+13:24:45 INFO: Request to pagead2.googlesyndication.com blocked by host blocker.
+
+(transmission-gtk:15576): Gtk-WARNING **: 13:31:13.547: Failed to parse /home/b14ckr41n/.config/gtk-3.0/settings.ini: Key file does not have group “Settings”
+13:33:29 INFO: Request to www.google-analytics.com blocked by host blocker.
+13:33:29 INFO: Request to collector.githubapp.com blocked by host blocker.
+13:33:29 INFO: Request to www.google-analytics.com blocked by host blocker.
+13:33:29 INFO: Request to collector.githubapp.com blocked by host blocker.
+Transmission
+Transmission
+libpng warning: iCCP: known incorrect sRGB profile
+
+(transmission-gtk:8975): Gtk-WARNING **: 13:51:41.900: Failed to parse /home/b14ckr41n/.config/gtk-3.0/settings.ini: Key file does not have group “Settings”
+14:05:54 INFO: Bookmarked https://github.com/Und3rf10w/kali-anonsurf
+[3933:26756:0716/140604.843973:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[3933:26756:0716/140604.844053:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[3933:26756:0716/140604.844140:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+[3933:26756:0716/140604.848957:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[3933:26756:0716/140604.849033:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[3933:26756:0716/140604.849083:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+14:06:17 INFO: Request to googleads.g.doubleclick.net blocked by host blocker.
+14:06:17 INFO: Request to static.doubleclick.net blocked by host blocker.
+14:06:17 INFO: Request to googleads.g.doubleclick.net blocked by host blocker.
+14:06:17 INFO: Request to static.doubleclick.net blocked by host blocker.
+[3933:27067:0716/140618.485178:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[3933:27067:0716/140618.486288:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[3933:27067:0716/140618.487651:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[3933:26770:0716/140638.290285:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[3933:26770:0716/140638.290415:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[3933:26770:0716/140638.290534:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+[3933:26770:0716/140638.298064:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[3933:26770:0716/140638.298171:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[3933:26770:0716/140638.298249:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+14:07:55 INFO: Request to www.google-analytics.com blocked by host blocker.
+14:07:55 INFO: Request to collector.githubapp.com blocked by host blocker.
+14:07:55 INFO: Request to www.google-analytics.com blocked by host blocker.
+14:07:55 INFO: Request to collector.githubapp.com blocked by host blocker.
+14:08:20 INFO: Request to googleads.g.doubleclick.net blocked by host blocker.
+14:08:21 INFO: Request to googleads.g.doubleclick.net blocked by host blocker.
+[3933:27067:0716/140929.643287:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[3933:27067:0716/140929.644096:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[3933:27067:0716/140929.644786:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+14:09:57 INFO: adblock: Read 60856 hosts from 1 sources.
+Xlib: sequence lost (0x3d8df > 0x2d8e1) in reply type 0x0!
+Xlib: sequence lost (0x3e07b > 0x2e07f) in reply type 0x23!
+
+(canberra-gtk-play:2714): Gtk-WARNING **: 14:12:56.311: Failed to parse /home/b14ckr41n/.config/gtk-3.0/settings.ini: Key file does not have group “Settings”
+Transmission
+Transmission
+14:48:12 WARNING: The X11 connection broke (error 1). Did the X11 server die?
+=======
+<<<<<<< HEAD
+CRI<1405>:eina_log ../src/bin/win.c:1762 win_new() unknown log domain -1, original message level was: WRN
+=======
+CRI<1070>:eina_log ../src/bin/win.c:1762 win_new() unknown log domain -1, original message level was: WRN
+CRI<1298>:eina_log ../src/bin/win.c:1762 win_new() unknown log domain -1, original message level was: WRN
+ERR<1070>:efreet_cache lib/efreet/efreet_cache.c:396 efreet_cache_shutdown() This application has not properly closed all its desktop references!
+## Copy & Paste the below (until EOF) into a terminal, then hit Enter
+
+eina_btlog << EOF
+/usr/lib/libeina.so.1	 0x629517f46a8e 0x629517f20000
+/usr/lib/libeina.so.1	 0x629517f47801 0x629517f20000
+/usr/lib/libeina.so.1	 0x629517f48c23 0x629517f20000
+/usr/lib/libefreet.so.1	 0x62951650e223 0x6295164f6000
+/usr/lib/libefreet.so.1	 0x6295164fc16a 0x6295164f6000
+/usr/lib/libefreet_mime.so.1	 0x629515149eec 0x629515147000
+/usr/lib/libeio.so.1	 0x62951535b66e 0x62951534d000
+/usr/lib/libelementary.so.1	 0x629518374764 0x6295181a0000
+/usr/lib/libelementary.so.1	 0x629518374907 0x6295181a0000
+/usr/bin/terminology	 0xee9953f3c9e 0xee9953d9000
+/usr/bin/terminology	 0xee9953eb46e 0xee9953d9000
+/usr/lib/libc.so.6	 0x62951579d06b 0x62951577a000
+/usr/bin/terminology	 0xee9953eb4aa 0xee9953d9000
+EOF
+
+CRI<1419>:eina_log ../src/bin/win.c:1762 win_new() unknown log domain -1, original message level was: WRN
+CRI<1604>:eina_log ../src/bin/win.c:1762 win_new() unknown log domain -1, original message level was: WRN
+>>>>>>> 6c993a39beb17f5917e1e41325cf051eca50cf87
+Reading profile /etc/firejail/qutebrowser.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+<<<<<<< HEAD
+Parent pid 2811, child pid 2812
+=======
+Parent pid 5046, child pid 5052
+>>>>>>> 6c993a39beb17f5917e1e41325cf051eca50cf87
+***
+*** Warning: cannot whitelist Downloads directory
+*** 	Any file saved will be lost when the sandbox is closed.
+*** 	Please create a proper Downloads directory for your application.
+***
+Warning: /sbin directory link was not blacklisted
+Warning: /usr/sbin directory link was not blacklisted
+Post-exec seccomp protector enabled
+Warning fseccomp: syscall "ni_syscall" not available on this platform
+Warning fseccomp: syscall "umount" not available on this platform
+Seccomp list in: @clock,@cpu-emulation,@debug,@module,@obsolete,@raw-io,@reboot,@resources,@swap,acct,add_key,bpf,fanotify_init,io_cancel,io_destroy,io_getevents,io_setup,io_submit,ioprio_set,kcmp,keyctl,mount,name_to_handle_at,nfsservctl,ni_syscall,open_by_handle_at,personality,pivot_root,process_vm_readv,ptrace,remap_file_pages,request_key,setdomainname,sethostname,syslog,umount,umount2,userfaultfd,vhangup,vmsplice, check list: @default-keep, prelist: adjtimex,clock_adjtime,clock_settime,settimeofday,modify_ldt,lookup_dcookie,perf_event_open,process_vm_writev,delete_module,finit_module,init_module,_sysctl,afs_syscall,create_module,get_kernel_syms,getpmsg,putpmsg,query_module,security,sysfs,tuxcall,uselib,ustat,vserver,ioperm,iopl,kexec_load,kexec_file_load,reboot,set_mempolicy,migrate_pages,move_pages,mbind,swapon,swapoff,acct,add_key,bpf,fanotify_init,io_cancel,io_destroy,io_getevents,io_setup,io_submit,ioprio_set,kcmp,keyctl,mount,name_to_handle_at,nfsservctl,open_by_handle_at,personality,pivot_root,process_vm_readv,ptrace,remap_file_pages,request_key,setdomainname,sethostname,syslog,umount2,userfaultfd,vhangup,vmsplice,
+<<<<<<< HEAD
+]0;firejail /usr/bin/qutebrowser Child process initialized in 161.35 ms
+[0705/065430.808094:WARNING:stack_trace_posix.cc(699)] Failed to open file: /tmp/#26054 (deleted)
+  Error: No such file or directory
+06:54:34 INFO: Request to m.servedby-buysellads.com blocked by host blocker.
+06:54:35 INFO: Request to www.googletagmanager.com blocked by host blocker.
+06:54:35 INFO: Request to www.googletagmanager.com blocked by host blocker.
+06:54:35 INFO: Request to pagead2.googlesyndication.com blocked by host blocker.
+06:54:35 INFO: Request to www.google-analytics.com blocked by host blocker.
+06:54:35 INFO: Request to www.googletagservices.com blocked by host blocker.
+06:54:35 INFO: Request to www.google-analytics.com blocked by host blocker.
+06:54:35 INFO: Request to secure.quantserve.com blocked by host blocker.
+06:54:35 INFO: Request to sb.scorecardresearch.com blocked by host blocker.
+cut: the delimiter must be a single character
+Try 'cut --help' for more information.
+CRI<31312>:eina_log ../src/bin/win.c:1762 win_new() unknown log domain -1, original message level was: WRN
+cut: the delimiter must be a single character
+Try 'cut --help' for more information.
+CRI<31755>:eina_log ../src/bin/win.c:1762 win_new() unknown log domain -1, original message level was: WRN
+cut: the delimiter must be a single character
+Try 'cut --help' for more information.
+CRI<6666>:eina_log ../src/bin/win.c:1762 win_new() unknown log domain -1, original message level was: WRN
+cut: the delimiter must be a single character
+Try 'cut --help' for more information.
+CRI<10166>:eina_log ../src/bin/win.c:1762 win_new() unknown log domain -1, original message level was: WRN
+/usr/bin/systemctl
+[9:90:0705/075438.201885:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[9:90:0705/075438.202018:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[9:90:0705/075438.202141:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+[9:90:0705/075438.207088:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[9:90:0705/075438.207238:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[9:90:0705/075438.207318:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+07:54:55 INFO: Request to www.googletagmanager.com blocked by host blocker.
+07:54:58 INFO: Request to s10.histats.com blocked by host blocker.
+07:54:58 INFO: Request to c1.popads.net blocked by host blocker.
+07:54:59 INFO: Request to c2.popads.net blocked by host blocker.
+07:55:01 INFO: Request to boudja.com blocked by host blocker.
+[9:154:0705/075502.534279:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[9:154:0705/075502.534947:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[9:154:0705/075502.535387:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[133:153:0705/075502.596528:ERROR:adm_helpers.cc(73)] Failed to query stereo recording.
+07:55:51 INFO: Request to www.googletagmanager.com blocked by host blocker.
+07:55:51 INFO: Request to c1.popads.net blocked by host blocker.
+07:55:51 INFO: Request to c2.popads.net blocked by host blocker.
+[9:154:0705/075552.566203:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[9:154:0705/075552.566993:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[9:154:0705/075552.567637:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+07:55:55 INFO: Request to www.google-analytics.com blocked by host blocker.
+07:55:55 INFO: Request to recommender.scarabresearch.com blocked by host blocker.
+07:55:55 INFO: Request to www.googletagmanager.com blocked by host blocker.
+07:55:55 INFO: Request to bat.bing.com blocked by host blocker.
+07:55:55 INFO: Request to c.go-mpulse.net blocked by host blocker.
+07:55:55 INFO: Request to static.criteo.net blocked by host blocker.
+07:55:55 INFO: Request to www.googleadservices.com blocked by host blocker.
+07:55:57 INFO: Request to www.res-x.com blocked by host blocker.
+07:56:03 INFO: Request to www.googletagmanager.com blocked by host blocker.
+07:56:04 INFO: Request to c1.popads.net blocked by host blocker.
+07:56:04 INFO: Request to c2.popads.net blocked by host blocker.
+07:56:04 INFO: Request to googleads.g.doubleclick.net blocked by host blocker.
+07:56:04 INFO: Request to static.doubleclick.net blocked by host blocker.
+[9:154:0705/075605.030390:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[9:154:0705/075605.031384:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[9:154:0705/075605.032115:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+Xlib: sequence lost (0x109fb > 0x9fc) in reply type 0x23!
+07:56:26 INFO: Request to s7.addthis.com blocked by host blocker.
+[9:90:0705/075627.594436:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[9:90:0705/075627.594547:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[9:90:0705/075627.594629:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl3.digicert.com
+[9:90:0705/075627.599572:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[9:90:0705/075627.599741:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[9:90:0705/075627.599823:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl3.digicert.com
+07:56:27 INFO: Request to freegeoip.net blocked by host blocker.
+07:56:28 INFO: Request to ssl.google-analytics.com blocked by host blocker.
+07:56:28 INFO: Request to counter.yadro.ru blocked by host blocker.
+07:56:29 INFO: Request to whos.amung.us blocked by host blocker.
+07:56:34 INFO: Request to analytics.logsss.com blocked by host blocker.
+[9:154:0705/075634.514565:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[9:154:0705/075634.515325:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[9:154:0705/075634.516506:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+07:56:36 INFO: Request to analytics.logsss.com blocked by host blocker.
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+07:56:38 INFO: Request to www.googletagmanager.com blocked by host blocker.
+07:56:38 INFO: Request to ds-aksb-a.akamaihd.net blocked by host blocker.
+07:56:39 INFO: Request to googleads.g.doubleclick.net blocked by host blocker.
+07:56:39 INFO: Request to www.googletagmanager.com blocked by host blocker.
+07:56:40 INFO: Request to static.doubleclick.net blocked by host blocker.
+07:56:41 INFO: Request to www.googletagmanager.com blocked by host blocker.
+07:56:41 INFO: Request to analytics.logsss.com blocked by host blocker.
+07:56:41 INFO: Request to bat.bing.com blocked by host blocker.
+07:56:44 INFO: Request to analytics.logsss.com blocked by host blocker.
+07:56:44 INFO: Request to bat.bing.com blocked by host blocker.
+07:56:44 INFO: Request to www.googletagmanager.com blocked by host blocker.
+07:56:46 INFO: Request to www.googletagmanager.com blocked by host blocker.
+07:56:46 INFO: Request to c1.popads.net blocked by host blocker.
+07:56:46 INFO: Request to c2.popads.net blocked by host blocker.
+[184:200:0705/075647.199430:ERROR:adm_helpers.cc(73)] Failed to query stereo recording.
+07:56:50 INFO: Request to www.googletagmanager.com blocked by host blocker.
+[9:182:0705/075650.815102:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[9:182:0705/075650.815199:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[9:182:0705/075650.815257:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+[9:182:0705/075650.817633:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[9:182:0705/075650.817753:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[9:182:0705/075650.817806:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+Reading profile /etc/firejail/transmission-gtk.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-passwdmgr.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Parent pid 24993, child pid 24996
+1 program installed in 20.95 ms
+Standard C library installed in 154.69 ms
+Program libraries installed in 586.29 ms
+GdkPixbuf installed in 686.21 ms
+GTK3 installed in 238.58 ms
+Pango installed in 0.02 ms
+GIO installed in 27.38 ms
+Installed 130 libraries and 4 directories
+Warning: An abstract unix socket for session D-BUS might still be available. Use --net or remove unix from --protocol set.
+***
+*** Warning: cannot whitelist Downloads directory
+*** 	Any file saved will be lost when the sandbox is closed.
+*** 	Please create a proper Downloads directory for your application.
+***
+Warning: /sbin directory link was not blacklisted
+Warning: /usr/sbin directory link was not blacklisted
+Blacklist violations are logged to syslog
+]0;firejail /usr/bin/transmission-gtk Child process initialized in 1881.23 ms
+
+(transmission-gtk:142): Gtk-WARNING **: 07:58:03.809: Failed to parse /home/b14ckr41n/.config/gtk-3.0/settings.ini: Key file does not have group “Settings”
+
+(transmission-gtk:142): GLib-GIO-CRITICAL **: 07:58:03.864: g_dbus_proxy_new_sync: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+** (transmission-gtk:142): WARNING **: 07:58:04.346: Failed to create proxy for org.freedesktop.Notifications
+
+(transmission-gtk:142): dconf-WARNING **: 07:58:12.874: failed to commit changes to dconf: Unknown or unsupported transport “DBUS_SESSION_BUS_ADDRESS=unix” for address “DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus”
+
+Parent is shutting down, bye...
+Transmission
+Transmission
+07:58:40 INFO: Request to googleads.g.doubleclick.net blocked by host blocker.
+[9:154:0705/075852.519884:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[9:154:0705/075852.520601:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[9:154:0705/075852.521142:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+
+(transmission-gtk:26987): Gtk-WARNING **: 07:58:57.782: Failed to parse /home/b14ckr41n/.config/gtk-3.0/settings.ini: Key file does not have group “Settings”
+
+(transmission-gtk:26987): GLib-CRITICAL **: 07:59:06.610: g_file_test: assertion 'filename != NULL' failed
+08:00:47 INFO: Request to googleads.g.doubleclick.net blocked by host blocker.
+[9:154:0705/080125.022633:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[9:154:0705/080125.023213:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[9:154:0705/080125.023667:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+/usr/bin/systemctl
+Wing Pro 6.0
+Wing Pro 6.0
+Transmission
+Transmission
+08:07:09 INFO: Request to www.googletagmanager.com blocked by host blocker.
+08:07:09 INFO: Request to c1.popads.net blocked by host blocker.
+08:07:09 INFO: Request to c2.popads.net blocked by host blocker.
+[9:154:0705/080710.743476:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[9:154:0705/080710.744061:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[9:154:0705/080710.744573:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[226:243:0705/080710.777475:ERROR:adm_helpers.cc(73)] Failed to query stereo recording.
+08:07:13 INFO: Request to www.googletagmanager.com blocked by host blocker.
+08:07:13 INFO: Request to c1.popads.net blocked by host blocker.
+08:07:13 INFO: Request to c2.popads.net blocked by host blocker.
+[9:154:0705/080714.003796:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[9:154:0705/080714.005004:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[9:154:0705/080714.006155:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+08:07:14 INFO: Request to www.google-analytics.com blocked by host blocker.
+08:07:14 INFO: Request to recommender.scarabresearch.com blocked by host blocker.
+08:07:14 INFO: Request to www.googletagmanager.com blocked by host blocker.
+08:07:14 INFO: Request to bat.bing.com blocked by host blocker.
+08:07:15 INFO: Request to c.go-mpulse.net blocked by host blocker.
+08:07:17 INFO: Request to www.googleadservices.com blocked by host blocker.
+08:07:17 INFO: Request to static.criteo.net blocked by host blocker.
+08:07:18 INFO: Request to www.res-x.com blocked by host blocker.
+08:07:19 INFO: Request to googleads.g.doubleclick.net blocked by host blocker.
+08:07:19 INFO: Request to static.doubleclick.net blocked by host blocker.
+08:07:36 INFO: Request to www.googletagmanager.com blocked by host blocker.
+08:07:36 INFO: Request to c1.popads.net blocked by host blocker.
+08:07:36 INFO: Request to c2.popads.net blocked by host blocker.
+[9:154:0705/080737.184310:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[9:154:0705/080737.185591:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[9:154:0705/080737.186450:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+08:07:48 INFO: Request to www.googletagmanager.com blocked by host blocker.
+08:07:48 INFO: Request to c1.popads.net blocked by host blocker.
+08:07:48 INFO: Request to c2.popads.net blocked by host blocker.
+[9:154:0705/080748.957890:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[9:154:0705/080748.959834:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[9:154:0705/080748.960750:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+08:07:49 INFO: Request to www.google-analytics.com blocked by host blocker.
+08:07:49 INFO: Request to recommender.scarabresearch.com blocked by host blocker.
+08:07:49 INFO: Request to www.googletagmanager.com blocked by host blocker.
+08:07:49 INFO: Request to bat.bing.com blocked by host blocker.
+08:07:49 INFO: Request to c.go-mpulse.net blocked by host blocker.
+08:07:50 INFO: Request to static.criteo.net blocked by host blocker.
+08:07:50 INFO: Request to www.googleadservices.com blocked by host blocker.
+[9:32:0705/080751.885260:ERROR:gles2_cmd_decoder.cc(18268)] [.RenderWorker-0x81d9fcadc20]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[9:32:0705/080751.885424:ERROR:gles2_cmd_decoder.cc(17007)] [.RenderWorker-0x81d9fcadc20]GL ERROR :GL_INVALID_OPERATION : glCopySubTextureCHROMIUM: target should be aligned with dest target
+[9:32:0705/080751.885512:ERROR:gles2_cmd_decoder.cc(18268)] [.RenderWorker-0x81d9fcadc20]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[9:32:0705/080751.885563:ERROR:gles2_cmd_decoder.cc(17007)] [.RenderWorker-0x81d9fcadc20]GL ERROR :GL_INVALID_OPERATION : glCopySubTextureCHROMIUM: target should be aligned with dest target
+[9:32:0705/080751.885619:ERROR:gles2_cmd_decoder.cc(18268)] [.RenderWorker-0x81d9fcadc20]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[9:32:0705/080751.885667:ERROR:gles2_cmd_decoder.cc(17007)] [.RenderWorker-0x81d9fcadc20]GL ERROR :GL_INVALID_OPERATION : glCopySubTextureCHROMIUM: target should be aligned with dest target
+[9:32:0705/080751.885722:ERROR:gles2_cmd_decoder.cc(18268)] [.RenderWorker-0x81d9fcadc20]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[9:32:0705/080751.885770:ERROR:gles2_cmd_decoder.cc(17007)] [.RenderWorker-0x81d9fcadc20]GL ERROR :GL_INVALID_OPERATION : glCopySubTextureCHROMIUM: target should be aligned with dest target
+[9:32:0705/080751.885826:ERROR:gles2_cmd_decoder.cc(18268)] [.RenderWorker-0x81d9fcadc20]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[9:32:0705/080751.885874:ERROR:gles2_cmd_decoder.cc(17007)] [.RenderWorker-0x81d9fcadc20]GL ERROR :GL_INVALID_OPERATION : glCopySubTextureCHROMIUM: target should be aligned with dest target
+[9:32:0705/080751.885929:ERROR:gles2_cmd_decoder.cc(18268)] [.RenderWorker-0x81d9fcadc20]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[9:32:0705/080751.886851:ERROR:gles2_cmd_decoder.cc(17007)] [.RenderWorker-0x81d9fcadc20]GL ERROR :GL_INVALID_OPERATION : glCopySubTextureCHROMIUM: target should be aligned with dest target
+[9:32:0705/080751.886993:ERROR:gles2_cmd_decoder.cc(18268)] [.RenderWorker-0x81d9fcadc20]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[9:32:0705/080751.887079:ERROR:gles2_cmd_decoder.cc(17007)] [.RenderWorker-0x81d9fcadc20]GL ERROR :GL_INVALID_OPERATION : glCopySubTextureCHROMIUM: target should be aligned with dest target
+[9:32:0705/080751.887168:ERROR:gles2_cmd_decoder.cc(18268)] [.RenderWorker-0x81d9fcadc20]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[9:32:0705/080751.887287:ERROR:gles2_cmd_decoder.cc(17007)] [.RenderWorker-0x81d9fcadc20]GL ERROR :GL_INVALID_OPERATION : glCopySubTextureCHROMIUM: target should be aligned with dest target
+[9:32:0705/080751.887376:ERROR:gles2_cmd_decoder.cc(18268)] [.RenderWorker-0x81d9fcadc20]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[9:32:0705/080751.887455:ERROR:gles2_cmd_decoder.cc(17007)] [.RenderWorker-0x81d9fcadc20]GL ERROR :GL_INVALID_OPERATION : glCopySubTextureCHROMIUM: target should be aligned with dest target
+[9:32:0705/080751.887544:ERROR:gles2_cmd_decoder.cc(18268)] [.RenderWorker-0x81d9fcadc20]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[9:32:0705/080751.887624:ERROR:gles2_cmd_decoder.cc(17007)] [.RenderWorker-0x81d9fcadc20]GL ERROR :GL_INVALID_OPERATION : glCopySubTextureCHROMIUM: target should be aligned with dest target
+[9:32:0705/080751.887708:ERROR:gles2_cmd_decoder.cc(18268)] [.RenderWorker-0x81d9fcadc20]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[9:32:0705/080751.887972:ERROR:gles2_cmd_decoder.cc(17007)] [.RenderWorker-0x81d9fcadc20]GL ERROR :GL_INVALID_OPERATION : glCopySubTextureCHROMIUM: target should be aligned with dest target
+
+(transmission-gtk:7055): Gtk-WARNING **: 08:08:09.751: Failed to parse /home/b14ckr41n/.config/gtk-3.0/settings.ini: Key file does not have group “Settings”
+
+(transmission-gtk:7055): GLib-CRITICAL **: 08:08:14.643: g_file_test: assertion 'filename != NULL' failed
+[9:154:0705/080823.592983:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[9:154:0705/080823.594476:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[9:154:0705/080823.595973:ERROR:object_proxy.cc(626)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+08:13:08 INFO: Request to static.chartbeat.com blocked by host blocker.
+08:13:08 INFO: Request to www.googletagmanager.com blocked by host blocker.
+08:13:13 INFO: Request to static.chartbeat.com blocked by host blocker.
+08:13:17 INFO: Request to glitter.services.disqus.com blocked by host blocker.
+08:13:17 INFO: Request to referrer.disqus.com blocked by host blocker.
+08:14:15 INFO: Request to referrer.disqus.com blocked by host blocker.
+08:17:15 INFO: Request to www.googletagservices.com blocked by host blocker.
+08:17:15 INFO: Request to www.google-analytics.com blocked by host blocker.
+08:17:15 INFO: Request to secure.quantserve.com blocked by host blocker.
+08:17:15 INFO: Request to sb.scorecardresearch.com blocked by host blocker.
+Xlib: sequence lost (0x12d4f > 0x2d51) in reply type 0x23!
+08:24:02 INFO: Request to www.googletagservices.com blocked by host blocker.
+08:24:02 INFO: Request to www.google-analytics.com blocked by host blocker.
+08:24:02 INFO: Request to secure.quantserve.com blocked by host blocker.
+08:24:02 INFO: Request to sb.scorecardresearch.com blocked by host blocker.
+08:24:03 INFO: Request to pagead2.googlesyndication.com blocked by host blocker.
+08:24:03 INFO: Request to m.servedby-buysellads.com blocked by host blocker.
+08:24:03 INFO: Request to www.google-analytics.com blocked by host blocker.
+08:24:05 INFO: Request to www.googletagservices.com blocked by host blocker.
+08:24:06 INFO: Request to www.google-analytics.com blocked by host blocker.
+08:24:06 INFO: Request to secure.quantserve.com blocked by host blocker.
+08:24:06 INFO: Request to sb.scorecardresearch.com blocked by host blocker.
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+[9:352:0705/083303.272507:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[9:352:0705/083303.272652:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[9:352:0705/083303.272828:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+[9:352:0705/083303.277666:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[9:352:0705/083303.277804:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[9:352:0705/083303.277919:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+08:33:11 INFO: Request to www.google-analytics.com blocked by host blocker.
+08:33:16 INFO: Request to www.googletagmanager.com blocked by host blocker.
+08:46:06 WARNING: The X11 connection broke (error 1). Did the X11 server die?
+
+Parent is shutting down, bye...
+
+(atom:2873): Gtk-WARNING **: 06:54:30.478: Failed to parse /home/b14ckr41n/.config/gtk-3.0/settings.ini: Key file does not have group “Settings”
+Gtk-Message: 06:55:17.392: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: 06:55:45.953: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: 06:56:07.418: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: 06:59:23.741: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: 06:59:44.090: GtkDialog mapped without a transient parent. This is discouraged.
+Gdk-Message: 08:46:12.076: transmission-gtk: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Transmission
+Transmission
+=======
+]0;firejail /usr/bin/qutebrowser Child process initialized in 190.57 ms
+[0623/083809.822513:WARNING:stack_trace_posix.cc(699)] Failed to open file: /tmp/#82977 (deleted)
+  Error: No such file or directory
+[9:54:0623/083813.718799:ERROR:backend_impl.cc(1064)] Critical error found -8
+[9:54:0623/083813.719033:ERROR:entry_impl.cc(1037)] No file for c1034bbe
+[9:54:0623/083813.719111:ERROR:entry_impl.cc(1037)] No file for c1034bc0
+[9:54:0623/083813.719186:ERROR:entry_impl.cc(1037)] No file for c1034bb8
+[9:54:0623/083813.719260:ERROR:entry_impl.cc(1037)] No file for c1034bc4
+[9:54:0623/083813.723732:ERROR:entry_impl.cc(1037)] No file for c1034bbe
+[9:54:0623/083813.745276:ERROR:entry_impl.cc(1037)] No file for c20341dc
+[9:54:0623/083813.926812:ERROR:entry_impl.cc(1037)] No file for a1015d70
+[9:54:0623/083813.926974:ERROR:entry_impl.cc(1037)] No file for c1034bb6
+[9:54:0623/083815.975802:ERROR:entry_impl.cc(962)] Failed to save user data
+[9:54:0623/083815.975949:ERROR:entry_impl.cc(962)] Failed to save user data
+[9:83:0623/083820.822511:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[9:83:0623/083820.822660:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[9:83:0623/083820.822785:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+[9:83:0623/083820.827001:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[9:83:0623/083820.827083:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[9:83:0623/083820.827137:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+/bin/bash: amixer: command not found
+/bin/bash: amixer: command not found
+/bin/bash: amixer: command not found
+/bin/bash: amixer: command not found
+CRI<5999>:eina_log ../src/bin/win.c:1762 win_new() unknown log domain -1, original message level was: WRN
+ERR<5999>:eo lib/eo/eo_base_class.c:1391 efl_event_callback_array_del() Eo ID 0x4000001cd321 is not a valid object. Current thread: main. This ID has probably been deleted or this was never a valid object ID. (domain=0, current_domain=0, local_domain=0, available_domains=[0 1    ], generation=321, id=734, ref=1)
+## Copy & Paste the below (until EOF) into a terminal, then hit Enter
+
+eina_btlog << EOF
+/usr/lib/libeina.so.1	 0x643b7b4a3a8e 0x643b7b47d000
+/usr/lib/libeina.so.1	 0x643b7b4a4801 0x643b7b47d000
+/usr/lib/libeina.so.1	 0x643b7b4a5c23 0x643b7b47d000
+/usr/lib/libeo.so.1	 0x643b7458e16b 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b7458ae9c 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b7458fd6a 0x643b74581000
+/usr/lib/libelementary.so.1	 0x643b7b9a04ce 0x643b7b6fd000
+/usr/lib/libeina.so.1	 0x643b7b49a0df 0x643b7b47d000
+/usr/lib/libelementary.so.1	 0x643b7b99efc6 0x643b7b6fd000
+/usr/lib/libelementary.so.1	 0x643b7b99dce5 0x643b7b6fd000
+/usr/lib/libelementary.so.1	 0x643b7b9a0fe6 0x643b7b6fd000
+/usr/lib/libeo.so.1	 0x643b74594980 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b7458fed1 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b7458fed1 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b74591a32 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b74594ab7 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b7458fed1 0x643b74581000
+/usr/lib/libelementary.so.1	 0x643b7b99e085 0x643b7b6fd000
+/usr/lib/libelementary.so.1	 0x643b7b99f1f6 0x643b7b6fd000
+/usr/lib/libelementary.so.1	 0x643b7b99de15 0x643b7b6fd000
+/usr/lib/libelementary.so.1	 0x643b7b957b4d 0x643b7b6fd000
+/usr/lib/libelementary.so.1	 0x643b7b96084e 0x643b7b6fd000
+/usr/lib/libevas.so.1	 0x643b7ae20fc1 0x643b7addb000
+/usr/lib/libeo.so.1	 0x643b74593907 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b74590021 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b74590021 0x643b74581000
+/usr/lib/libevas.so.1	 0x643b7ae21787 0x643b7addb000
+/usr/lib/libevas.so.1	 0x643b7ae2182f 0x643b7addb000
+/usr/lib/libevas.so.1	 0x643b7ae3110e 0x643b7addb000
+/usr/lib/libevas.so.1	 0x643b7ae32683 0x643b7addb000
+/usr/lib/libeo.so.1	 0x643b745937ba 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b74590021 0x643b74581000
+/usr/lib/libecore_evas.so.1	 0x643b7a964c32 0x643b7a958000
+/usr/lib/libecore_evas.so.1	 0x643b7a9654c5 0x643b7a958000
+/usr/lib/libecore_input_evas.so.1	 0x643b777ea9fb 0x643b777e8000
+/usr/lib/libecore.so.1	 0x643b7ab94101 0x643b7ab81000
+/usr/lib/libecore.so.1	 0x643b7ab9c07b 0x643b7ab81000
+/usr/lib/libecore.so.1	 0x643b7ab9c3e7 0x643b7ab81000
+/usr/bin/terminology	 0xac333b5ffde 0xac333b45000
+/usr/bin/terminology	 0xac333b5746e 0xac333b45000
+/usr/lib/libc.so.6	 0x643b78cfa06b 0x643b78cd7000
+/usr/bin/terminology	 0xac333b574aa 0xac333b45000
+EOF
+
+ERR<5999>:eo lib/eo/eo_base_class.c:1304 efl_event_callback_del() Eo ID 0x4000001cd321 is not a valid object. Current thread: main. This ID has probably been deleted or this was never a valid object ID. (domain=0, current_domain=0, local_domain=0, available_domains=[0 1    ], generation=321, id=734, ref=1)
+## Copy & Paste the below (until EOF) into a terminal, then hit Enter
+
+eina_btlog << EOF
+/usr/lib/libeina.so.1	 0x643b7b4a3a8e 0x643b7b47d000
+/usr/lib/libeina.so.1	 0x643b7b4a4801 0x643b7b47d000
+/usr/lib/libeina.so.1	 0x643b7b4a5c23 0x643b7b47d000
+/usr/lib/libeo.so.1	 0x643b7458e16b 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b7458ae9c 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b7458f9ff 0x643b74581000
+/usr/lib/libelementary.so.1	 0x643b7b9a1000 0x643b7b6fd000
+/usr/lib/libeo.so.1	 0x643b74594980 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b7458fed1 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b7458fed1 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b74591a32 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b74594ab7 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b7458fed1 0x643b74581000
+/usr/lib/libelementary.so.1	 0x643b7b99e085 0x643b7b6fd000
+/usr/lib/libelementary.so.1	 0x643b7b99f1f6 0x643b7b6fd000
+/usr/lib/libelementary.so.1	 0x643b7b99de15 0x643b7b6fd000
+/usr/lib/libelementary.so.1	 0x643b7b957b4d 0x643b7b6fd000
+/usr/lib/libelementary.so.1	 0x643b7b96084e 0x643b7b6fd000
+/usr/lib/libevas.so.1	 0x643b7ae20fc1 0x643b7addb000
+/usr/lib/libeo.so.1	 0x643b74593907 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b74590021 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b74590021 0x643b74581000
+/usr/lib/libevas.so.1	 0x643b7ae21787 0x643b7addb000
+/usr/lib/libevas.so.1	 0x643b7ae2182f 0x643b7addb000
+/usr/lib/libevas.so.1	 0x643b7ae3110e 0x643b7addb000
+/usr/lib/libevas.so.1	 0x643b7ae32683 0x643b7addb000
+/usr/lib/libeo.so.1	 0x643b745937ba 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b74590021 0x643b74581000
+/usr/lib/libecore_evas.so.1	 0x643b7a964c32 0x643b7a958000
+/usr/lib/libecore_evas.so.1	 0x643b7a9654c5 0x643b7a958000
+/usr/lib/libecore_input_evas.so.1	 0x643b777ea9fb 0x643b777e8000
+/usr/lib/libecore.so.1	 0x643b7ab94101 0x643b7ab81000
+/usr/lib/libecore.so.1	 0x643b7ab9c07b 0x643b7ab81000
+/usr/lib/libecore.so.1	 0x643b7ab9c3e7 0x643b7ab81000
+/usr/bin/terminology	 0xac333b5ffde 0xac333b45000
+/usr/bin/terminology	 0xac333b5746e 0xac333b45000
+/usr/lib/libc.so.6	 0x643b78cfa06b 0x643b78cd7000
+/usr/bin/terminology	 0xac333b574aa 0xac333b45000
+EOF
+
+ERR<5999>:eo lib/eo/eo_base_class.c:1391 efl_event_callback_array_del() Eo ID 0x400000028ac4 is not a valid object. Current thread: main. This ID has probably been deleted or this was never a valid object ID. (domain=0, current_domain=0, local_domain=0, available_domains=[0 1    ], generation=2c4, id=a2, ref=1)
+## Copy & Paste the below (until EOF) into a terminal, then hit Enter
+
+eina_btlog << EOF
+/usr/lib/libeina.so.1	 0x643b7b4a3a8e 0x643b7b47d000
+/usr/lib/libeina.so.1	 0x643b7b4a4801 0x643b7b47d000
+/usr/lib/libeina.so.1	 0x643b7b4a5c23 0x643b7b47d000
+/usr/lib/libeo.so.1	 0x643b7458e16b 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b7458ae9c 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b7458fd6a 0x643b74581000
+/usr/lib/libelementary.so.1	 0x643b7b9a04ce 0x643b7b6fd000
+/usr/lib/libeina.so.1	 0x643b7b49a0df 0x643b7b47d000
+/usr/lib/libelementary.so.1	 0x643b7b99efc6 0x643b7b6fd000
+/usr/lib/libelementary.so.1	 0x643b7b99dce5 0x643b7b6fd000
+/usr/lib/libelementary.so.1	 0x643b7b9a0fe6 0x643b7b6fd000
+/usr/lib/libeo.so.1	 0x643b74594980 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b7458fed1 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b7458fed1 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b74591a32 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b74594ab7 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b7458fed1 0x643b74581000
+/usr/lib/libelementary.so.1	 0x643b7b99e085 0x643b7b6fd000
+/usr/lib/libelementary.so.1	 0x643b7b99f1f6 0x643b7b6fd000
+/usr/lib/libelementary.so.1	 0x643b7b99de15 0x643b7b6fd000
+/usr/lib/libelementary.so.1	 0x643b7b957b4d 0x643b7b6fd000
+/usr/lib/libelementary.so.1	 0x643b7b96084e 0x643b7b6fd000
+/usr/lib/libevas.so.1	 0x643b7ae20fc1 0x643b7addb000
+/usr/lib/libeo.so.1	 0x643b74593907 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b74590021 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b74590021 0x643b74581000
+/usr/lib/libevas.so.1	 0x643b7ae21787 0x643b7addb000
+/usr/lib/libevas.so.1	 0x643b7ae2182f 0x643b7addb000
+/usr/lib/libevas.so.1	 0x643b7ae3110e 0x643b7addb000
+/usr/lib/libevas.so.1	 0x643b7ae32683 0x643b7addb000
+/usr/lib/libeo.so.1	 0x643b745937ba 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b74590021 0x643b74581000
+/usr/lib/libecore_evas.so.1	 0x643b7a964c32 0x643b7a958000
+/usr/lib/libecore_evas.so.1	 0x643b7a9654c5 0x643b7a958000
+/usr/lib/libecore_input_evas.so.1	 0x643b777ea9fb 0x643b777e8000
+/usr/lib/libecore.so.1	 0x643b7ab94101 0x643b7ab81000
+/usr/lib/libecore.so.1	 0x643b7ab9c07b 0x643b7ab81000
+/usr/lib/libecore.so.1	 0x643b7ab9c3e7 0x643b7ab81000
+/usr/bin/terminology	 0xac333b5ffde 0xac333b45000
+/usr/bin/terminology	 0xac333b5746e 0xac333b45000
+/usr/lib/libc.so.6	 0x643b78cfa06b 0x643b78cd7000
+/usr/bin/terminology	 0xac333b574aa 0xac333b45000
+EOF
+
+ERR<5999>:eo lib/eo/eo_base_class.c:1304 efl_event_callback_del() Eo ID 0x400000028ac4 is not a valid object. Current thread: main. This ID has probably been deleted or this was never a valid object ID. (domain=0, current_domain=0, local_domain=0, available_domains=[0 1    ], generation=2c4, id=a2, ref=1)
+## Copy & Paste the below (until EOF) into a terminal, then hit Enter
+
+eina_btlog << EOF
+/usr/lib/libeina.so.1	 0x643b7b4a3a8e 0x643b7b47d000
+/usr/lib/libeina.so.1	 0x643b7b4a4801 0x643b7b47d000
+/usr/lib/libeina.so.1	 0x643b7b4a5c23 0x643b7b47d000
+/usr/lib/libeo.so.1	 0x643b7458e16b 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b7458ae9c 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b7458f9ff 0x643b74581000
+/usr/lib/libelementary.so.1	 0x643b7b9a1000 0x643b7b6fd000
+/usr/lib/libeo.so.1	 0x643b74594980 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b7458fed1 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b7458fed1 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b74591a32 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b74594ab7 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b7458fed1 0x643b74581000
+/usr/lib/libelementary.so.1	 0x643b7b99e085 0x643b7b6fd000
+/usr/lib/libelementary.so.1	 0x643b7b99f1f6 0x643b7b6fd000
+/usr/lib/libelementary.so.1	 0x643b7b99de15 0x643b7b6fd000
+/usr/lib/libelementary.so.1	 0x643b7b957b4d 0x643b7b6fd000
+/usr/lib/libelementary.so.1	 0x643b7b96084e 0x643b7b6fd000
+/usr/lib/libevas.so.1	 0x643b7ae20fc1 0x643b7addb000
+/usr/lib/libeo.so.1	 0x643b74593907 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b74590021 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b74590021 0x643b74581000
+/usr/lib/libevas.so.1	 0x643b7ae21787 0x643b7addb000
+/usr/lib/libevas.so.1	 0x643b7ae2182f 0x643b7addb000
+/usr/lib/libevas.so.1	 0x643b7ae3110e 0x643b7addb000
+/usr/lib/libevas.so.1	 0x643b7ae32683 0x643b7addb000
+/usr/lib/libeo.so.1	 0x643b745937ba 0x643b74581000
+/usr/lib/libeo.so.1	 0x643b74590021 0x643b74581000
+/usr/lib/libecore_evas.so.1	 0x643b7a964c32 0x643b7a958000
+/usr/lib/libecore_evas.so.1	 0x643b7a9654c5 0x643b7a958000
+/usr/lib/libecore_input_evas.so.1	 0x643b777ea9fb 0x643b777e8000
+/usr/lib/libecore.so.1	 0x643b7ab94101 0x643b7ab81000
+/usr/lib/libecore.so.1	 0x643b7ab9c07b 0x643b7ab81000
+/usr/lib/libecore.so.1	 0x643b7ab9c3e7 0x643b7ab81000
+/usr/bin/terminology	 0xac333b5ffde 0xac333b45000
+/usr/bin/terminology	 0xac333b5746e 0xac333b45000
+/usr/lib/libc.so.6	 0x643b78cfa06b 0x643b78cd7000
+/usr/bin/terminology	 0xac333b574aa 0xac333b45000
+EOF
+
+CRI<7279>:eina_log ../src/bin/win.c:1762 win_new() unknown log domain -1, original message level was: WRN
+CRI<8763>:eina_log ../src/bin/win.c:1762 win_new() unknown log domain -1, original message level was: WRN
+/bin/bash: amixer: command not found
+/bin/bash: amixer: command not found
+/bin/bash: amixer: command not found
+/bin/bash: amixer: command not found
+/bin/bash: amixer: command not found
+/bin/bash: amixer: command not found
+Key was pressed, aborting shot
+giblib error: no image grabbed
+Key was pressed, aborting shot
+giblib error: no image grabbed
+CRI<19185>:eina_log ../src/bin/win.c:1762 win_new() unknown log domain -1, original message level was: WRN
+08:51:02 INFO: Bookmarked https://freenode.net/news/tor-online
+Simple mixer control 'Master',0
+  Capabilities: pvolume pvolume-joined pswitch pswitch-joined
+  Playback channels: Mono
+  Limits: Playback 0 - 127
+  Mono: Playback 3 [2%] [-93.00dB] [off]
+Invalid number of options.
+Simple mixer control 'Master',0
+  Capabilities: pvolume pvolume-joined pswitch pswitch-joined
+  Playback channels: Mono
+  Limits: Playback 0 - 127
+  Mono: Playback 6 [5%] [-90.75dB] [off]
+Invalid number of options.
+Simple mixer control 'Master',0
+  Capabilities: pvolume pvolume-joined pswitch pswitch-joined
+  Playback channels: Mono
+  Limits: Playback 0 - 127
+  Mono: Playback 6 [5%] [-90.75dB] [on]
+CRI<30193>:eina_log ../src/bin/win.c:1762 win_new() unknown log domain -1, original message level was: WRN
+libpng warning: iCCP: known incorrect sRGB profile
+08:54:53 INFO: Request to ssl.google-analytics.com blocked by host blocker.
+08:54:53 INFO: Request to secure.gaug.es blocked by host blocker.
+08:54:56 INFO: Request to syndication.twitter.com blocked by host blocker.
+08:54:57 INFO: Request to syndication.twitter.com blocked by host blocker.
+08:55:10 INFO: Request to collector.githubapp.com blocked by host blocker.
+08:55:10 INFO: Request to www.google-analytics.com blocked by host blocker.
+08:56:14 INFO: Request to www.googletagservices.com blocked by host blocker.
+08:56:14 INFO: Request to www.google-analytics.com blocked by host blocker.
+08:56:14 INFO: Request to secure.quantserve.com blocked by host blocker.
+08:56:14 INFO: Request to sb.scorecardresearch.com blocked by host blocker.
+[9:144:0623/085936.674687:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[9:144:0623/085936.674762:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[9:144:0623/085936.674817:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+[9:144:0623/085936.677088:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[9:144:0623/085936.677164:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[9:144:0623/085936.677216:ERROR:nss_ocsp.cc(614)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+08:59:39 INFO: Request to www.google-analytics.com blocked by host blocker.
+08:59:39 INFO: Request to collector.githubapp.com blocked by host blocker.
+09:00:28 INFO: Request to www.google-analytics.com blocked by host blocker.
+09:00:28 INFO: Request to collector.githubapp.com blocked by host blocker.
+09:00:34 INFO: Request to collector.githubapp.com blocked by host blocker.
+09:00:34 INFO: Request to www.google-analytics.com blocked by host blocker.
+09:00:46 INFO: Request to www.google-analytics.com blocked by host blocker.
+09:00:46 INFO: Request to collector.githubapp.com blocked by host blocker.
+09:00:49 INFO: Request to collector.githubapp.com blocked by host blocker.
+09:00:50 INFO: Request to www.google-analytics.com blocked by host blocker.
+09:00:54 INFO: Request to www.google-analytics.com blocked by host blocker.
+09:00:54 INFO: Request to collector.githubapp.com blocked by host blocker.
+09:01:04 INFO: Request to collector.githubapp.com blocked by host blocker.
+09:01:04 INFO: Request to www.google-analytics.com blocked by host blocker.
+>>>>>>> 6c993a39beb17f5917e1e41325cf051eca50cf87
+>>>>>>> a9886c25e47238ddc939eac3497629383751270e

@@ -1,0 +1,105 @@
+# terminal emulator
+super + Return
+
+# My Menu
+super + space
+
+# Window Switcher
+super + shift + space 
+
+# make sxhkd reload its configuration files:
+super + Escape
+
+# refresh or quit bspwm
+super + shift + {_,alt + }Escape
+
+# Adjust gaps on the fly
+super + {minus,equal}
+
+# close and kill
+super + Delete
+
+# if the current node is automatic, send it to the last manual, otherwise pull the last leaf
+super + y
+
+# swap the current node and the biggest node
+super + g
+
+# alternate between the tiled and monocle layout
+super + ctrl + m
+
+# set the window state tiled floating fullscreen
+super + {t,shift + f,f}
+
+# set the node flags locked sticky private
+super + ctrl + {x,y,z}
+
+# focus the node in the given direction
+super + {_,shift + }{Left,Down,Up,Right}
+
+# focus the next/previous node
+super + {_,shift + }c
+
+# focus the next/previous desktop
+super + bracket{left,right}
+
+# focus the last node/desktop
+super + {grave,Tab}
+
+# focus the older or newer node in the focus history
+super + {o,i}
+
+# focus or send to the given desktop
+super + {_,shift + }{1-9,0}
+
+# focus or send window/node to monitor
+super + {_,shift + } {m,comma,period,slash}
+
+# Swap desktops
+super + alt + {1-9,0}
+
+# preselect the direction
+super + ctrl + {Left,Down,Up,Right}
+
+# preselect the ratio
+super + ctrl + {1-9}
+
+# cancel the preselection for the focused node
+super + ctrl + space
+
+# cancel the preselection for the focused desktop
+super + ctrl + shift + space
+
+# resize windows
+super + alt + {Left,Down,Up,Right}
+
+# Raise/Lower Sound 
+XF86Audio{Lower,Raise}Volume
+
+# Mute  
+XF86AudioMute
+
+# Screenshot
+Print
+
+super + shift + Return
+  qutebrowser 
+
+super + l
+  slock
+
+super + q
+  qtcreator
+
+super + w
+  wing6.0
+
+super + b
+  tor-browser
+
+F1
+  scratchpad
+
+F12
+  vifm
+

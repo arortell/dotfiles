@@ -1,0 +1,5 @@
+0
+config: Was expecting 1 or 2 arguments, received 3.
+/home/b14ckr41n/.config/bspwm/bspwmrc: line 28: /usr/lib/notify-osd/notify-osd: No such file or directory
+/home/b14ckr41n/.config/bspwm/bspwmrc: line 29: battmon: command not found
+polybar|error: Could not find config file: /home/b14ckr41n/.config/polybar/config

@@ -1,0 +1,146 @@
+2017-12-17 08:54:38		New key binding (context "default"): meta-meta-OQ => /bar scroll buflist * e
+2017-12-17 08:54:38		New key binding (context "default"): meta-meta-OP => /bar scroll buflist * b
+2017-12-17 08:54:38		New key binding (context "default"): meta-OQ => /bar scroll buflist * +100%
+2017-12-17 08:54:38		New key binding (context "default"): meta-OP => /bar scroll buflist * -100%
+2017-12-17 08:54:38		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2017-12-17 08:59:28		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-12-17 09:02:37		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-12-17 09:05:20		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-12-17 09:06:06		Mouse enabled
+2017-12-17 09:07:56		[core]
+2017-12-17 09:07:56		  away     buffer   command  debug    filter   history  key      mouse    plugin   proxy    reload   save     set      upgrade  version  window 
+2017-12-17 09:07:56		  bar      color    cursor   eval     help     input    layout   mute     print    quit     repeat   secure   unset    uptime   wait   
+2017-12-17 09:07:56		[lua]
+2017-12-17 09:07:56		  lua
+2017-12-17 09:07:56		[buflist]
+2017-12-17 09:07:56		  buflist
+2017-12-17 09:07:56		[exec]
+2017-12-17 09:07:56		  exec
+2017-12-17 09:07:56		[xfer]
+2017-12-17 09:07:56		  me  xfer
+2017-12-17 09:07:56		[fset]
+2017-12-17 09:07:56		  fset
+2017-12-17 09:07:56		[tcl]
+2017-12-17 09:07:56		  tcl
+2017-12-17 09:07:56		[script]
+2017-12-17 09:07:56		  script
+2017-12-17 09:07:56		[relay]
+2017-12-17 09:07:56		  relay
+2017-12-17 09:07:56		[irc]
+2017-12-17 09:07:56		  admin       connect     devoice     invite      links       motd        op          quiet       sajoin      service     time        users       whois     
+2017-12-17 09:07:56		  allchan     ctcp        die         ison        list        msg         oper        quote       samode      servlist    topic       version     whowas    
+2017-12-17 09:07:56		  allpv       cycle       disconnect  join        lusers      names       part        reconnect   sanick      squery      trace       voice     
+2017-12-17 09:07:56		  allserv     dcc         halfop      kick        map         nick        ping        rehash      sapart      squit       unban       wallchops 
+2017-12-17 09:07:56		  ban         dehalfop    ignore      kickban     me          notice      pong        remove      saquit      stats       unquiet     wallops   
+2017-12-17 09:07:56		  cap         deop        info        kill        mode        notify      query       restart     server      summon      userhost    who       
+2017-12-17 09:07:56		[alias]
+2017-12-17 09:07:56		  AAWAY    AME      ANICK    BYE      CHAT     CLOSE    IG       K        LEAVE    MSGBUF   N        REDRAW   SIGNOFF  UB       V        WC       WII    
+2017-12-17 09:07:56		  alias    AMSG     BEEP     C        CL       EXIT     J        KB       M        MUB      Q        SAY      T        UMODE    W        WI       WW     
+2017-12-17 09:07:56		[python]
+2017-12-17 09:07:56		  python
+2017-12-17 09:07:56		[fifo]
+2017-12-17 09:07:56		  fifo
+2017-12-17 09:07:56		[guile]
+2017-12-17 09:07:56		  guile
+2017-12-17 09:07:56		[logger]
+2017-12-17 09:07:56		  logger
+2017-12-17 09:07:56		[perl]
+2017-12-17 09:07:56		  perl
+2017-12-17 09:07:56		[ruby]
+2017-12-17 09:07:56		  ruby
+2017-12-17 09:07:56		[aspell]
+2017-12-17 09:07:56		  aspell
+2017-12-17 09:07:56		[charset]
+2017-12-17 09:07:56		  charset
+2017-12-17 09:07:56		[trigger]
+2017-12-17 09:07:56		  trigger
+2017-12-17 09:08:06		[core]  /set  [<option> [<value>]]
+2017-12-17 09:08:06		              diff [<option> [<option>...]]
+2017-12-17 09:08:06		              env [<variable> [<value>]]
+2017-12-17 09:08:06		set config options and environment variables
+2017-12-17 09:08:06		option: name of an option (wildcard "*" is allowed to list options, if no value is specified)
+2017-12-17 09:08:06		 value: new value for option, according to type:
+2017-12-17 09:08:06		          boolean: on, off or toggle
+2017-12-17 09:08:06		          integer: number, ++number or --number
+2017-12-17 09:08:06		           string: any string ("" for empty string)
+2017-12-17 09:08:06		            color: color name, ++number or --number
+2017-12-17 09:08:06		        Note: for all types, you can use null to remove option value (undefined value). This works only for some special plugin variables.
+2017-12-17 09:08:06		  diff: display only changed options
+2017-12-17 09:08:06		   env: display or set an environment variable (use value "" to unset a variable)
+2017-12-17 09:08:06		Examples:
+2017-12-17 09:08:06		  display options about highlight:
+2017-12-17 09:08:06		    /set *highlight*
+2017-12-17 09:08:06		  add a word to highlight:
+2017-12-17 09:08:06		    /set weechat.look.highlight "word"
+2017-12-17 09:08:06		  display changed options:
+2017-12-17 09:08:06		    /set diff
+2017-12-17 09:08:06		  display changed options in irc plugin:
+2017-12-17 09:08:06		    /set diff irc.*
+2017-12-17 09:08:06		  display value of environment variable LANG:
+2017-12-17 09:08:06		    /set env LANG
+2017-12-17 09:08:06		  set environment variable LANG and use it:
+2017-12-17 09:08:06		    /set env LANG fr_FR.UTF-8
+2017-12-17 09:08:06		    /upgrade
+2017-12-17 09:08:06		  unset environment variable ABC:
+2017-12-17 09:08:06		    /set env ABC ""
+2017-12-17 09:08:41		irc: server freenode added
+2017-12-17 09:13:40		irc: server kinksters added
+2017-12-17 09:14:57		Option changed: irc.server.freenode.username = "bl4ckr41ningGNU"  (default if null: "bl4ckr41n")
+2017-12-17 09:15:08		Option changed: irc.server.kinksters.username = "bl4ckr41ningGNU"  (default if null: "bl4ckr41n")
+2017-12-17 09:15:38		Option changed: irc.server.freenode.realname = "bl4ckr41ningGNU"  (default if null: "")
+2017-12-17 09:15:46		Option changed: irc.server.kinksters.realname = "bl4ckr41ningGNU"  (default if null: "")
+2017-12-17 09:16:02		Option changed: irc.server.freenode.autoconnect = on  (default if null: off)
+2017-12-17 09:16:10		Option changed: irc.server.kinksters.autoconnect = on  (default if null: off)
+2017-12-17 09:17:07		Option changed: irc.server.freenode.addresses = "chat.freenode.net/7000"  (default if null: "")
+2017-12-17 09:17:40		Option changed: irc.server.freenode.addresses = "irc.kinksters.com/6697"  (default if null: "")
+2017-12-17 09:18:35		Option changed: irc.server.freenode.nicks = "bl4ckr41n,bl4ckr41n1ng,bl4ckr41nGNU,bl4ckr41n1ngGNU"  (default if null: "bl4ckr41n,bl4ckr41n1,bl4ckr41n2,bl4ckr41n3,bl4ckr41n4")
+2017-12-17 09:18:51		Option changed: irc.server.kinksters.nicks = "bl4ckr41n,bl4ckr41n1ng,bl4ckr41nGNU,bl4ckr41n1ngGNU"  (default if null: "bl4ckr41n,bl4ckr41n1,bl4ckr41n2,bl4ckr41n3,bl4ckr41n4")
+2017-12-17 09:19:58		Secured data "freenode_password" set
+2017-12-17 09:19:58		Options saved to sec.conf
+2017-12-17 09:20:18		Passphrase added
+2017-12-17 09:20:18		Options saved to sec.conf
+2017-12-17 09:22:37		Option changed: irc.server_default.nicks = "bl4ckr41n,bl4ckr41n1ng,bl4ckr41n_GNU,bl4ckr41n-GNU"  (default: "")
+2017-12-17 09:25:42		script: downloading list of scripts...
+2017-12-17 09:25:52		script: 351 scripts for WeeChat 2.0
+2017-12-17 09:25:52		script: script "bufferautoset.py" not found
+2017-12-17 09:25:57		perl: loading script "/home/bl4ckr41n/.weechat/perl/highmon.pl"
+2017-12-17 09:25:57		perl: registered script "highmon", version 2.5 (Highlight Monitor)
+2017-12-17 09:25:57		This appears to be the first time highmon has been run. For help and common set up hints see /highmon help
+2017-12-17 09:26:00		perl: loading script "/home/bl4ckr41n/.weechat/perl/perlexec.pl"
+2017-12-17 09:26:00		perl: registered script "perlexec", version 0.1 (Execute perl code)
+2017-12-17 09:26:04		python: loading script "/home/bl4ckr41n/.weechat/python/autosort.py"
+2017-12-17 09:26:04		python: registered script "autosort", version 3.3 (Flexible automatic (or manual) buffer sorting based on eval expressions.)
+2017-12-17 09:26:15		python: loading script "/home/bl4ckr41n/.weechat/python/grep.py"
+2017-12-17 09:26:15		python: registered script "grep", version 0.8 (Search in buffers and logs)
+2017-12-17 09:26:20		python: loading script "/home/bl4ckr41n/.weechat/python/text_item.py"
+2017-12-17 09:26:20		python: registered script "text_item", version 0.7.1 (add a plain text or evaluated content to item bar)
+2017-12-17 09:26:51		python: loading script "/home/bl4ckr41n/.weechat/python/buffer_autoset.py"
+2017-12-17 09:26:51		python: registered script "buffer_autoset", version 1.0 (Auto-set buffer properties when a buffer is opened)
+2017-12-17 09:28:31		Option changed: weechat.bar.input.size = 0  (default: 1)
+2017-12-17 09:31:09	=!=	You can not write text in this buffer
+2017-12-17 09:31:46	=!=	You can not write text in this buffer
+2017-12-17 09:52:35	=!=	You can not write text in this buffer
+2017-12-17 09:53:49		Mouse enabled
+2017-12-17 09:53:49		Option changed: irc.server_default.nicks = "r3m"  (default: "")
+2017-12-17 09:53:49		Option changed: irc.server_default.ssl_verify = off  (default: on)
+2017-12-17 09:53:49		Option changed: irc.server_default.capabilities = "account-notify,away-notify,cap-notify,multi-prefix,server-time,znc.in/self-message"  (default: "")
+2017-12-17 09:53:49	=!=	irc: server "freenode" already exists, can't add it!
+2017-12-17 09:53:49		Option changed: irc.server.freenode.password = "r3m/freenode:${sec.data.bncpass}"  (default if null: "")
+2017-12-17 09:53:49		irc: server oftc added
+2017-12-17 09:53:49		Option changed: irc.server.oftc.password = "r3m/oftc:${sec.data.bncpass}"  (default if null: "")
+2017-12-17 09:53:49		irc: server snoonet added
+2017-12-17 09:53:49		Option changed: irc.server.snoonet.password = "r3m/snoonet:${sec.data.bncpass}"  (default if null: "")
+2017-12-17 09:53:49		Option changed: weechat.plugin.autoload = "*,!lua,!tcl,!ruby,!fifo,!xfer,!guile,!javascript"  (default: "*")
+2017-12-17 09:53:49		Option changed: aspell.check.default_dict = "en"  (default: "")
+2017-12-17 09:53:49		Option changed: aspell.check.suggestions = 3  (default: -1)
+2017-12-17 09:53:49	=!=	Error: option "aspell.color.suggestions" not found
+2017-12-17 09:53:49		Aspell enabled
+2017-12-17 09:53:49		Trigger "setdict" created
+2017-12-17 09:53:49		Trigger "setdict" updated
+2017-12-17 09:53:49		Trigger "setdict" updated
+2017-12-17 09:53:49		Trigger "setdict" updated
+2017-12-17 09:53:49	=!=	relay: warning: no SSL certificate/key found (option relay.network.ssl_cert_key)
+2017-12-17 09:53:49		relay: listening on port 0 (relay: ssl.weechat, IPv4+6, max 5 clients)
+2017-12-17 09:53:49		relay: relay "ssl.weechat" (port <port>) added
+2017-12-17 09:53:49		Option changed: relay.network.password = "${sec.data.relaypass}"  (default: "")
+2017-12-17 09:53:49		Option created: logger.level.irc = 0  (default: 9)

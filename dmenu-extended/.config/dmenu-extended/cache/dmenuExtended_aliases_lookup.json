@@ -1,0 +1,519 @@
+[
+    [
+<<<<<<< HEAD
+        "lftp",
+        "lftp;"
+    ],
+    [
+        "Tor Browser (en-US)",
+        "tor-browser"
+    ],
+    [
+        "Transmission",
+        "transmission-gtk"
+    ],
+    [
+        "Qt Assistant",
+        "assistant"
+    ],
+    [
+        "Zim Desktop Wiki",
+        "zim"
+    ],
+    [
+        "MuPDF",
+        "mupdf"
+=======
+<<<<<<< HEAD
+        "OpenJDK Java 10 Shell",
+        "/usr/lib/jvm/java-10-openjdk/bin/jshell;"
+    ],
+    [
+        "qutebrowser",
+        "qutebrowser"
+    ],
+    [
+        "Icon Browser",
+        "gtk3-icon-browser"
+    ],
+    [
+        "OpenJDK Java 10 Console",
+        "/usr/lib/jvm/java-10-openjdk/bin/jconsole"
+=======
+        "Network Connections",
+        "nm-connection-editor"
+    ],
+    [
+<<<<<<< HEAD
+        "Widget Factory",
+        "gtk3-widget-factory"
+    ],
+    [
+        "Htop",
+        "htop;"
+    ],
+    [
+        "Zenmap (as root)",
+        "/usr/share/zenmap/su-to-zenmap.sh"
+    ],
+    [
+        "networkmanager_dmenu",
+        "networkmanager_dmenu"
+=======
+        "Oracle VM VirtualBox",
+        "VirtualBox"
+    ],
+    [
+        "View file",
+        "gcr-viewer"
+>>>>>>> a9886c25e47238ddc939eac3497629383751270e
+    ],
+    [
+        "Vim",
+        "vim;"
+>>>>>>> caf0250a14d4b3bce049223e87a0f106a25af0c4
+    ],
+    [
+<<<<<<< HEAD
+        "Dropbox",
+        "dropbox"
+=======
+        "Vifm",
+        "vifm;"
+>>>>>>> 6c993a39beb17f5917e1e41325cf051eca50cf87
+    ],
+    [
+        "Atom",
+        "env PYTHON=python2 /usr/share/atom/atom"
+<<<<<<< HEAD
+    ],
+    [
+        "Icon Browser",
+        "gtk3-icon-browser"
+    ],
+    [
+        "Transmission",
+        "transmission-gtk"
+    ],
+    [
+        "Vim",
+        "vim;"
+    ],
+    [
+        "Terminology",
+        "terminology"
+    ],
+    [
+        "Elementary Test",
+        "elementary_test"
+    ],
+    [
+        "View file",
+        "gcr-viewer"
+>>>>>>> a9886c25e47238ddc939eac3497629383751270e
+    ],
+    [
+        "compton",
+        "compton --xrender-sync-fence"
+    ],
+    [
+        "Atom",
+        "env PYTHON=python2 /usr/share/atom/atom"
+    ],
+    [
+<<<<<<< HEAD
+        "Widget Factory",
+        "gtk3-widget-factory"
+    ],
+    [
+        "compton",
+        "compton --xrender-sync-fence"
+=======
+        "Vifm",
+        "vifm;"
+    ],
+    [
+<<<<<<< HEAD
+        "ipython",
+        "ipython;"
+    ],
+    [
+        "Sandboxed Tor Browser",
+        "sandboxed-tor-browser"
+    ],
+    [
+        "Avahi SSH Server Browser",
+        "bssh"
+>>>>>>> caf0250a14d4b3bce049223e87a0f106a25af0c4
+    ],
+    [
+        "Htop",
+        "htop;"
+    ],
+    [
+<<<<<<< HEAD
+        "Feh",
+        "feh"
+    ],
+    [
+        "CMake",
+        "cmake-gui"
+    ],
+    [
+        "mpv Media Player",
+        "mpv --player-operation-mode=pseudo-gui --"
+    ],
+    [
+        "Icon Browser",
+        "gtk3-icon-browser"
+    ],
+    [
+        "OpenJDK Java 10 Policy Tool",
+        "/usr/lib/jvm/java-10-openjdk/bin/policytool"
+=======
+        "Zim Desktop Wiki",
+        "zim"
+    ],
+    [
+        "Terminology",
+        "terminology"
+    ],
+    [
+        "Widget Factory",
+        "gtk3-widget-factory"
+=======
+        "OpenJDK Java 10 Policy Tool",
+        "/usr/lib/jvm/java-10-openjdk/bin/policytool"
+    ],
+    [
+        "Avahi SSH Server Browser",
+        "bssh"
+    ],
+    [
+        "Avahi VNC Server Browser",
+        "bvnc"
+>>>>>>> caf0250a14d4b3bce049223e87a0f106a25af0c4
+    ],
+    [
+        "Access Prompt",
+        "/usr/lib/gcr-prompter"
+    ],
+    [
+        "Avahi Zeroconf Browser",
+        "avahi-discover"
+    ],
+    [
+        "GTK+ Demo",
+        "gtk3-demo"
+=======
+    ],
+    [
+<<<<<<< HEAD
+        "Qt QDbusViewer ",
+        "qdbusviewer"
+    ],
+    [
+        "OpenJDK Java 10 Console",
+        "/usr/lib/jvm/java-10-openjdk/bin/jconsole"
+=======
+        "Where am I?",
+        "/usr/lib/geoclue2/geoclue-2.0/demos/where-am-i;"
+>>>>>>> a9886c25e47238ddc939eac3497629383751270e
+    ],
+    [
+        "networkmanager_dmenu",
+        "networkmanager_dmenu"
+    ],
+    [
+<<<<<<< HEAD
+        "Transmission",
+        "transmission-gtk"
+    ],
+    [
+        "Qt V4L2 test Utility",
+        "qv4l2"
+    ],
+    [
+        "Htop",
+        "htop;"
+    ],
+    [
+        "lftp",
+        "lftp;"
+    ],
+    [
+        "GTK+ Demo",
+        "gtk3-demo"
+=======
+        "compton",
+        "compton --xrender-sync-fence"
+    ],
+    [
+        "Elementary Test",
+        "elementary_test"
+    ],
+    [
+        "BleachBit",
+        "bleachbit"
+    ],
+    [
+        "CMake",
+        "cmake-gui"
+>>>>>>> a9886c25e47238ddc939eac3497629383751270e
+    ],
+    [
+        "OpenJDK Java 10 Policy Tool",
+        "/usr/lib/jvm/java-10-openjdk/bin/policytool"
+    ],
+    [
+<<<<<<< HEAD
+        "mpv Media Player",
+        "mpv --player-operation-mode=pseudo-gui --"
+    ],
+    [
+        "OpenJDK Java 10 Runtime",
+        "/usr/lib/jvm/java-10-openjdk/bin/java -jar"
+>>>>>>> caf0250a14d4b3bce049223e87a0f106a25af0c4
+    ],
+    [
+        "Zenmap",
+        "zenmap"
+=======
+        "Transmission",
+        "transmission-gtk"
+    ],
+    [
+<<<<<<< HEAD
+        "Oracle VM VirtualBox",
+        "VirtualBox"
+    ],
+    [
+        "Avahi Zeroconf Browser",
+        "avahi-discover"
+    ],
+    [
+        "Zenmap (as root)",
+        "/usr/share/zenmap/su-to-zenmap.sh"
+    ],
+    [
+        "Wing Pro 6.1",
+        "wing6.1"
+    ],
+    [
+        "GTK+ Demo",
+        "gtk3-demo"
+    ],
+    [
+        "OpenJDK Java 10 Runtime",
+        "/usr/lib/jvm/java-10-openjdk/bin/java -jar"
+    ],
+    [
+        "OpenJDK Java 10 Shell",
+        "/usr/lib/jvm/java-10-openjdk/bin/jshell;"
+    ],
+    [
+        "Termite",
+        "termite"
+    ],
+    [
+        "Vifm",
+        "vifm;"
+    ],
+    [
+        "Avahi VNC Server Browser",
+        "bvnc"
+    ],
+    [
+        "qutebrowser",
+        "qutebrowser"
+=======
+        "Widget Factory",
+        "gtk3-widget-factory"
+>>>>>>> 6c993a39beb17f5917e1e41325cf051eca50cf87
+    ],
+    [
+        "Icon Browser",
+        "gtk3-icon-browser"
+    ],
+    [
+<<<<<<< HEAD
+        "qutebrowser",
+        "qutebrowser"
+>>>>>>> a9886c25e47238ddc939eac3497629383751270e
+    ],
+    [
+        "Vifm",
+        "vifm;"
+    ],
+    [
+<<<<<<< HEAD
+        "Avahi Zeroconf Browser",
+        "avahi-discover"
+=======
+        "Qt V4L2 test Utility",
+        "qv4l2"
+=======
+        "Geoclue Demo agent",
+        "/usr/lib/geoclue2/geoclue-2.0/demos/agent"
+    ],
+    [
+        "Zim Desktop Wiki",
+        "zim"
+>>>>>>> a9886c25e47238ddc939eac3497629383751270e
+    ],
+    [
+        "Elementary Test",
+        "elementary_test"
+    ],
+    [
+<<<<<<< HEAD
+        "Avahi VNC Server Browser",
+        "bvnc"
+=======
+        "OpenJDK Java 10 Runtime",
+        "/usr/lib/jvm/java-10-openjdk/bin/java -jar"
+>>>>>>> a9886c25e47238ddc939eac3497629383751270e
+    ],
+    [
+        "Zenmap (as root)",
+        "/usr/share/zenmap/su-to-zenmap.sh"
+    ],
+    [
+<<<<<<< HEAD
+        "Oracle VM VirtualBox",
+        "VirtualBox"
+    ],
+    [
+        "Vim",
+        "vim;"
+    ],
+    [
+        "CMake",
+        "cmake-gui"
+=======
+        "Sandboxed Tor Browser",
+        "sandboxed-tor-browser"
+>>>>>>> 6c993a39beb17f5917e1e41325cf051eca50cf87
+    ],
+    [
+        "Avahi VNC Server Browser",
+        "bvnc"
+    ],
+    [
+<<<<<<< HEAD
+        "Sandboxed Tor Browser",
+        "sandboxed-tor-browser"
+=======
+        "networkmanager_dmenu",
+        "networkmanager_dmenu"
+    ],
+    [
+        "qutebrowser",
+        "qutebrowser"
+>>>>>>> 6c993a39beb17f5917e1e41325cf051eca50cf87
+    ],
+    [
+        "lftp",
+        "lftp;"
+    ],
+    [
+<<<<<<< HEAD
+        "ipython",
+        "ipython;"
+=======
+        "Terminology",
+        "terminology"
+>>>>>>> 6c993a39beb17f5917e1e41325cf051eca50cf87
+    ],
+    [
+        "Elementary Configuration",
+        "elementary_config"
+    ],
+    [
+<<<<<<< HEAD
+        "Dropbox",
+        "dropbox"
+    ],
+    [
+        "mpv Media Player",
+        "mpv --player-operation-mode=pseudo-gui --"
+    ],
+    [
+        "OpenJDK Java 10 Shell",
+        "/usr/lib/jvm/java-10-openjdk/bin/jshell;"
+    ],
+    [
+        "OpenJDK Java 10 Console",
+        "/usr/lib/jvm/java-10-openjdk/bin/jconsole"
+>>>>>>> caf0250a14d4b3bce049223e87a0f106a25af0c4
+    ],
+    [
+        "Qt Linguist",
+        "linguist"
+    ],
+    [
+<<<<<<< HEAD
+        "Qt Creator",
+        "qtcreator"
+    ],
+    [
+        "networkmanager_dmenu",
+        "networkmanager_dmenu"
+    ],
+    [
+=======
+        "OpenJDK Java 10 Runtime",
+        "/usr/lib/jvm/java-10-openjdk/bin/java -jar"
+    ],
+    [
+        "compton",
+        "compton --xrender-sync-fence"
+    ],
+    [
+        "Oracle VM VirtualBox",
+        "VirtualBox"
+=======
+        "OpenJDK Java 10 Console",
+        "/usr/lib/jvm/java-10-openjdk/bin/jconsole"
+    ],
+    [
+        "GTK+ Demo",
+        "gtk3-demo"
+    ],
+    [
+        "Dropbox",
+        "dropbox"
+    ],
+    [
+        "Avahi Zeroconf Browser",
+        "avahi-discover"
+    ],
+    [
+>>>>>>> caf0250a14d4b3bce049223e87a0f106a25af0c4
+        "Qt V4L2 test Utility",
+        "qv4l2"
+    ],
+    [
+<<<<<<< HEAD
+        "Qt Designer",
+        "designer"
+    ],
+    [
+        "Vim",
+        "vim;"
+    ],
+    [
+        "Zenmap",
+        "zenmap"
+=======
+        "Access Prompt",
+        "/usr/lib/gcr-prompter"
+    ],
+    [
+        "OpenJDK Java 10 Shell",
+        "/usr/lib/jvm/java-10-openjdk/bin/jshell;"
+>>>>>>> 6c993a39beb17f5917e1e41325cf051eca50cf87
+>>>>>>> a9886c25e47238ddc939eac3497629383751270e
+>>>>>>> caf0250a14d4b3bce049223e87a0f106a25af0c4
+    ]
+]

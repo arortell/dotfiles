@@ -1,0 +1,46 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DoJob	/usr/bin/ghostnet	/^class DoJob(Faded):$/;"	c
+Faded	/usr/bin/ghostnet	/^class Faded:$/;"	c
+__init__	/usr/bin/ghostnet	/^	def __init__(self):$/;"	m	class:Faded
+__init__	/usr/bin/ghostnet	/^	def __init__(self,job):$/;"	m	class:DoJob
+_check_permission	/usr/bin/ghostnet	/^	def _check_permission():$/;"	m	class:DoJob
+_flush_iptables	/usr/bin/ghostnet	/^	def _flush_iptables():$/;"	m	class:Faded
+_iface	/usr/bin/ghostnet	/^	_iface = None$/;"	v	class:Faded
+call	/usr/bin/ghostnet	/^from subprocess import call$/;"	i
+change_mac	/usr/bin/ghostnet	/^	def change_mac(job,filters=["","y","yes","n","no"]):$/;"	m	class:Faded
+check	/usr/bin/ghostnet	/^def check():$/;"	f
+check_status	/usr/bin/ghostnet	/^	def check_status():$/;"	m	class:Faded
+check_torrc_configs	/usr/bin/ghostnet	/^	def check_torrc_configs():$/;"	m	class:Faded
+clear_caches	/usr/bin/ghostnet	/^	def clear_caches():$/;"	m	class:Faded
+flush_iptables	/usr/bin/ghostnet	/^def flush_iptables():$/;"	f
+getpass	/usr/bin/ghostnet	/^import getpass$/;"	i
+handle_networkmanager	/usr/bin/ghostnet	/^	def handle_networkmanager(do):$/;"	m	class:Faded
+handle_tor	/usr/bin/ghostnet	/^	def handle_tor(job,fnull=open(os.devnull,'w')):$/;"	m	class:Faded
+iface	/usr/bin/ghostnet	/^def iface(_iface=None):$/;"	f
+iptables_rules	/usr/bin/ghostnet	/^def iptables_rules(iface):$/;"	f
+isfile	/usr/bin/ghostnet	/^from os.path import isfile$/;"	i
+kill_process	/usr/bin/ghostnet	/^	def kill_process():$/;"	m	class:Faded
+localtime	/usr/bin/ghostnet	/^from time import strftime,localtime$/;"	i
+log	/usr/bin/ghostnet	/^def log(msg,err=False,warn=False,nor=False,resp=False,end=False):$/;"	f
+main	/usr/bin/ghostnet	/^def main():$/;"	f
+os	/usr/bin/ghostnet	/^import os$/;"	i
+random	/usr/bin/ghostnet	/^import random$/;"	i
+redirect_to_tor	/usr/bin/ghostnet	/^	def redirect_to_tor():$/;"	m	class:Faded
+socket	/usr/bin/ghostnet	/^import socket$/;"	i
+start_faded	/usr/bin/ghostnet	/^	def start_faded():$/;"	m	class:DoJob
+status	/usr/bin/ghostnet	/^	def status():$/;"	m	class:DoJob
+stop_faded	/usr/bin/ghostnet	/^	def stop_faded():$/;"	m	class:DoJob
+strftime	/usr/bin/ghostnet	/^from time import strftime,localtime$/;"	i
+sys	/usr/bin/ghostnet	/^import sys$/;"	i
+time	/usr/bin/ghostnet	/^import time$/;"	i
+timed	/usr/bin/ghostnet	/^def timed():$/;"	f
+tor_config	/usr/bin/ghostnet	/^def tor_config():$/;"	f
+torrc	/usr/bin/ghostnet	/^	torrc = '\/etc\/tor\/torrc'$/;"	v	class:Faded
+update_resolv	/usr/bin/ghostnet	/^	def update_resolv():$/;"	m	class:Faded
+urlopen	/usr/bin/ghostnet	/^from urllib.request import urlopen$/;"	i
+usage	/usr/bin/ghostnet	/^def usage(purple='\\033[35m'):$/;"	f

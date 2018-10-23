@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Categories=Java;Network;FileTransfer;P2P
+Comment=Multimedia Bittorrent Client 
+Exec=vuze-extreme-mod
+GenericName=Multimedia Bittorrent Client
+Icon=vuze-extreme-mod.png
+MimeType=application/x-bittorrent;x-scheme-handler/magnet;
+Name=Vuze Extreme Mod
+Type=Application
+StartupWMClass=Vuze

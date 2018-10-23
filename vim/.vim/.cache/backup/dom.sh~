@@ -1,0 +1,35 @@
+#!/bin/bash -
+#===============================================================================
+#
+#          FILE: dom.sh
+#
+#         USAGE: ./dom.sh
+#
+#   DESCRIPTION: 
+#
+#       OPTIONS: ---
+#  REQUIREMENTS: ---
+#          BUGS: ---
+#         NOTES: ---
+#        AUTHOR: Adam Ortell (), arortell@gmail.com
+#  ORGANIZATION: 
+#       CREATED: 03/22/2018 11:22:45 AM
+#      REVISION:  ---
+#===============================================================================
+
+set -o nounset                                  # Treat unset variables as an error
+figureDOW()
+{
+  day=$1;  caldate="$2 $3"
+  expr="[^0-9]${day}[^0-9]"
+  cal $caldate | sed 's/^/ /;s/$/ /' > $temp
+  NRval=$(cat $temp | awk "/$expr/ { print NR }")
+  NFval=$(cat $temp | awk "/$expr/ { print NF }")
+  if [ $NRval -eq 3 ] ; then
+    DOW="$(( $day + ( 7 - $NFval ) ))"
+  else
+    DOW=$(cat $temp | awk "/$expr/
+    { for (i=1;i<=NF;i++) { if (\$i~/${day}/) { print i }}}")
+  fi
+  /bin/rm -f $temp
+}

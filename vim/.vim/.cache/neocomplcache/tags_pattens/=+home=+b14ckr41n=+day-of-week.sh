@@ -1,0 +1,4 @@
+[[:alpha:]_.-][[:alnum:]_.-]*
+/home/b14ckr41n/.vim/.cache/neocomplcache/tags_output/=+home=+b14ckr41n=+day-of-week.sh
+
+sh
