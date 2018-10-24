@@ -22,7 +22,7 @@ rofi.color-urgent: #00000000,   #CCDEDEDE,  #00000000,              #00000000,  
 rofi.levenshtein-sort: 		  true
 rofi.matching: 	   	        fuzzy
 rofi.separator-style:       none
-rofi.font:			            Liberation Mono 9
+rofi.font:			            Liberation Mono 10
 rofi.lines:			            5
 rofi.width: 			          100
 rofi.padding:			          300

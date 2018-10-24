@@ -77,8 +77,6 @@ width = 100%
 height = 23
 offset-x = 0
 offset-y = -1
-=======
-offset-y = 0
 radius = 0
 fixed-center = false
 
@@ -93,16 +91,12 @@ border-color = #00000000
 
 padding-left = 0
 padding-right = 2
-=======
-padding-right = 0
 
 module-margin-left = 1
 module-margin-right = 2
 
 
 font-0 = UbuntuMonoNerdFont:pixelsize=10;1 
-=======
-font-0 = SourceCodePro:pixelsize=9;1 
 font-1 = fontawesome:pixelsize=10 
 font-2 = dejavusans:pixelsize=13 
 font-3 = unifont:pixelsize=13
@@ -118,7 +112,6 @@ tray-transparent = false
 
 wm-restack = bspwm
 ;rortellwm-restack = i3
-=======
 ;wm-restack = i3
 
 override-redirect = false
@@ -132,12 +125,9 @@ override-redirect = false
 cursor-click = pointer
 cursor-scroll = ns-resize
 
-=======
 click-right = python /usr/bin/networkmanager_dmenu
 click-left = rofi -show
-=======
 double-click-right = python /usr/bin/networkmanager_dmenu
-click-right = rofi -show
 
 [module/xwindow]
 type = internal/xwindow
@@ -148,7 +138,6 @@ type = internal/fs
 interval = 25
 
 mount-0 = /
-=======
 #mount-1 = /home
 
 label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
@@ -303,7 +292,6 @@ full-at = 98
 ;format-charging-prefix = "Battery: "
 format-charging-prefix-foreground = #ffb52a
 ramp-capacity-foreground = ${colors.foreground}
-=======
 ;format-charging = <ramp-capacity> <label-charging>
 ;format-charging-underline = #000000
 
@@ -428,8 +416,8 @@ format-warn = <label-warn>
 format-warn-underline = ${colors.red}
 
 
-label = %temperature%
-label-warn = %temperature%
+label = %temperature-c%
+label-warn = %temperature-c%
 label-warn-foreground = ${colors.secondary}
 
 ramp-0 = 
