@@ -1,14 +1,16 @@
+/home/b14ckr41n/.dotfiles/check-battery
+/home/b14ckr41n/.config/Dropbox/Projects/bash/arch-anonsurf/anonsurf.sh
+/home/b14ckr41n/.dotfiles/polybar/.config/polybar/config
+/home/b14ckr41n/.dotfiles/bspwm/.config/bspwm/bspwmrc
+/home/b14ckr41n/.xinitrc
+/home/b14ckr41n/.dotfiles/x/.Xresources
 /home/b14ckr41n/.zshrc
 /home/b14ckr41n/.dotfiles/byobu/.config/byobu/.tmux.conf
 /home/b14ckr41n/.config/byobu/.tmux.conf
-/home/b14ckr41n/.dotfiles/bspwm/.config/bspwm/bspwmrc
 /home/b14ckr41n/.dotfiles/sxhkd/.config/sxhkd/sxhkdrc
 /home/b14ckr41n/.dotfiles/twmn/.config/twmn/twmn.conf
 /home/b14ckr41n/.dotfiles/gtk/.config/gtk-3.0/settings.ini
-/home/b14ckr41n/.dotfiles/polybar/.config/polybar/config
-/home/b14ckr41n/.xinitrc
 /home/b14ckr41n/.dotfiles/byobu/.byobu/.tmux.conf
-/home/b14ckr41n/.config/Dropbox/Projects/bash/arch-anonsurf/anonsurf.sh
 /var/tmp/resolvXXLki6zP.conf
 /var/tmp/ghostnet.XXLUzvP0
 /var/tmp/ghostnet.XXgoI4Oe
@@ -246,5 +248,3 @@
 /home/b14ckr41n/wgetpaste.conf
 /home/b14ckr41n/home_etc_bkp
 /home/b14ckr41n/backup
-/home/b14ckr41n/.bashrc
-/home/b14ckr41n/netmenu/PKGBUILD
