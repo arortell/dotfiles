@@ -1,2 +1,0 @@
-#!/bin/bash
-sudo hddtemp /dev/sd{a,b,c,d,e,f}
