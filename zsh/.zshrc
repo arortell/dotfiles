@@ -311,6 +311,7 @@ alias cfg-qute='$EDITOR ~/.config/qutebrowser/config.py'
 alias cfg-poly='$EDITOR ~/.config/polybar/config'
 alias cfg-sxhkd='$EDITOR ~/.config/sxhkd/sxhkdrc'
 alias cfg-bspwm='$EDITOR ~/.config/bspwm/bspwmrc'
+alias cfg-herb='$EDITOR ~/.config/herbstluftwm/autostart'
 alias cfg-profile='sa /etc/profile'
 alias rld-zsh='source ~/.zshrc'
 alias rld-profile='source /etc/profile'
@@ -325,7 +326,7 @@ alias rcp='rsync -aP'
 alias rmv='rsync -aP --remove-source-files'
 alias restore='trash-restore'
 alias h='function hdi(){ howdoi $* -c -n 5; }; hdi'
-
+alias hc="herbstclient"
 
 todo
 ################# Functions ######################
