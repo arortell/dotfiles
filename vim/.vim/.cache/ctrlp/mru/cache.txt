@@ -1,4 +1,6 @@
 /home/b14ckr41n/.config/herbstluftwm/autostart
+/home/b14ckr41n/.xinitrc
+/home/b14ckr41n/.stalonetrayrc
 /home/b14ckr41n/.config/herbstluftwm/panel.sh
 /home/b14ckr41n/.dotfiles/sxhkd/.config/sxhkd/sxhkdrc
 /home/b14ckr41n/.dotfiles/bspwm/.config/bspwm/bspwmrc
@@ -11,7 +13,6 @@
 /home/b14ckr41n/.config/herbstluftwm/scratchpad.sh
 /usr/share/doc/bspwm/examples/sxhkdrc
 /usr/share/doc/bspwm/examples/bspwmrc
-/home/b14ckr41n/.xinitrc
 /home/b14ckr41n/.config/Dropbox/bin/panel
 /home/b14ckr41n/check-battery
 /home/b14ckr41n/.dotfiles/check-battery
@@ -247,4 +248,3 @@
 /home/b14ckr41n/arch_bkp
 /home/b14ckr41n/uncomment
 /home/Dropbox/bin/comment
-/home/b14ckr41n/ASSEMBLY_EXCEPTION

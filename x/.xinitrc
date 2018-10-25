@@ -25,7 +25,7 @@ echo 'starting compton\n' >> ~/.logs/xinit.log
 compton >> ~/.logs/xinit.log 2>&1 &
 
 echo 'setting Cursor\n' >> ~/.logs/xinit.log
-#xsetroot -cursor_name left_ptr 2>&1 &
+xsetroot -cursor_name left_ptr 2>&1 &
 
 echo 'starting gpg-agent daemon\n' >> ~/.logs/xinit.log
 gpg-agent --daemon --pinentry-program /usr/bin/pinentry >> ~/.logs/xinit.log 2>&1 &
@@ -42,7 +42,7 @@ xset s noblank
 xset -dpms
 
 # start bspwm and sxhkd
-#echo '###################### Starting Window-Manager ################\n' >> ~/.logs/xinit.log
+echo '###################### Starting Window-Manager ################\n' >> ~/.logs/xinit.log
 #echo 'starting sxhkd\n' >> ~/.logs/sxhkd.log
 #exec sxhkd > ~/.logs/sxhkd.log 2>&1 &
 #echo 'starting bspwm\n' >> ~/.logs/bspwm.log
