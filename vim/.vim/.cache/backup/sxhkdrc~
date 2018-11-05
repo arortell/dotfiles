@@ -12,7 +12,7 @@ super + space
 
 # Window Switcher
 super + shift + space 
-  adams_menu_laptop
+  adams_menu
 
 # Window Switcher
 alt + Tab
@@ -21,21 +21,17 @@ alt + Tab
 
 # make sxhkd reload its configuration files:
 super + Escape
-<<<<<<< HEAD
 	pkill -x sxhkd; notify-send "Sxhkd Configuration Reloaded"
 
 # refresh or quit bspwm
 super + shift + {_,alt + }Escape
 	{pkill -x polybar; bspc wm -d > "$BSPWM_STATE" && bspc quit; notify-send "Bspwm Reloaded", \
 	 pkill -x polybar; bspc quit 1}
-=======
-	pkill -USR1 -x sxhkd && notify-send "Sxhkd Configuration Reloaded"
 
 # refresh or quit bspwm
 super + shift + {_,alt + }Escape
 	{pkill -x panel; bspc wm -d > "$BSPWM_STATE" && bspc quit; notify-send "Bspwm Reloaded", \
 	 pkill -x panel; bspc quit 1}
->>>>>>> caf0250a14d4b3bce049223e87a0f106a25af0c4
 
 # Adjust gaps on the fly
 super + {minus,equal}
@@ -189,7 +185,6 @@ super + b
 
 ####################################################### Scratchpads
 F1
-<<<<<<< HEAD
    xdotool search --onlyvisible --class _scratch windowunmap \
       || xdotool search --class _scratch windowmap \
       || termite --class=_scratch --geometry=1459x756 --exec byobu
@@ -198,59 +193,6 @@ F12
    xdotool search --onlyvisible --class _htop windowunmap \
       || xdotool search --class _htop windowmap \
       || termite --class=_htop --geometry=1459x756 --exec vifm 
-
-#super + F5
-#    id=$(bspc query -N -n "focused");\
-#    if [ -n "$id" ];then \
-#        xprop -id $id -f _SCRATCH 32ii -set _SCRATCH $(date +%s,%N);\
-#        bspc node -t "floating";\
-#        xdotool windowunmap $id;\
-#    fi
-
-#F5
-#    i=$(bspc query -N -n "focused.floating");\
-#    if [ -n "$i" ];then \
-#        xprop -id $i -f _SCRATCH 32ii -set _SCRATCH $(date +%s,%N);\
-#        xdotool windowunmap $i;\
-#    else;\
-#        i=$(for w in $(xwininfo -root -children | grep -e "^\s*0x[0-9a-f]\+" -o);do \
-#            t=$(xprop -id $w _SCRATCH | grep ' = \(.*\)');\
-#            if [ -n "$t" ];then \
-#                echo $t $w;\
-#            fi;\
-#        done|sort -n|head -n1|cut -d" " -f 5);\
-#        if [ -n "$i" ];then \
-#            xprop -id $i -remove _SCRATCH;\
-#            bspc rule -a \* state=floating center=on --one-shot;\
-#            xdotool windowmap $i;\
-#            bspc node -f $i;\
-#        fi;\
-#    fi
-=======
-   xdotool search --onlyvisible --classname _scratch windowunmap \
-      || xdotool search --classname _scratch windowmap \
-<<<<<<< HEAD
-      || terminology --name=_scratch --title=_scratch --geometry=168x48  --exec byobu
-=======
-<<<<<<< HEAD
-      || terminology --name=_scratch --title=_scratch --geometry=172x56  --exec byobu
-=======
-      || terminology --name=_scratch --title=_scratch --geometry=198x60  --exec byobu
->>>>>>> 6c993a39beb17f5917e1e41325cf051eca50cf87
->>>>>>> a9886c25e47238ddc939eac3497629383751270e
-
-F12
-   xdotool search --onlyvisible --classname _vifm windowunmap \
-      || xdotool search --classname _vifm windowmap \
-<<<<<<< HEAD
-      || terminology --name=_vifm --title=_vifm --geometry=168x48 --exec vifm 
-=======
-<<<<<<< HEAD
-      || terminology --name=_vifm --title=_vifm --geometry=172x56 --exec vifm 
-=======
-      || terminology --name=_vifm --title=_vifm --geometry=198x60 --exec vifm 
->>>>>>> 6c993a39beb17f5917e1e41325cf051eca50cf87
->>>>>>> a9886c25e47238ddc939eac3497629383751270e
 
 super + F5
     id=$(bspc query -N -n "focused");\
@@ -279,5 +221,4 @@ F5
             bspc node -f $i;\
         fi;\
     fi
->>>>>>> caf0250a14d4b3bce049223e87a0f106a25af0c4
 

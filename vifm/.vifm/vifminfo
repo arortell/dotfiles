@@ -26,63 +26,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-<<<<<<< HEAD
-=======
-d/home
-	Yandex-disk
-2
-d/home/Yandex-disk
-	.sync
-1
-d/home/Yandex-disk/.sync
-	..
-0
-d/home/Yandex-disk
-	Camera Uploads
-2
-d/home/Yandex-disk/Camera Uploads
-	..
-0
-d/home/Yandex-disk
-	..
-0
-d/home
-	..
-0
-d/
-	videos3
-22
-d/videos3
-	Marvel's Agents of S.H.I.E.L.D
-28
-d/videos3/Marvel's Agents of S.H.I.E.L.D
-	..
-0
-d/videos3
-	..
-0
-d/
-	videos0
-16
-d/home/blackra1n/Dropbox
-	..
-0
-d/home/blackra1n
-	..
-0
-d/home/bl4ckr41n/Dropbox
-	..
-0
->>>>>>> caf0250a14d4b3bce049223e87a0f106a25af0c4
-d/home/bl4ckr41n
-	images
-26
-d/home/bl4ckr41n/images
-	Wallpapers
-1
-d/home/bl4ckr41n/images/Wallpapers
-	Arch
-1
 d/home/bl4ckr41n/images/Wallpapers/Arch
 	GreyAndBlueArch.jpeg
 2
@@ -321,9 +264,8 @@ d/home/b14ckr41n/Dropbox
 	..
 0
 d/home/b14ckr41n
-<<<<<<< HEAD
-	Desktop
-1
+	<<<<<<< HEAD
+0
 d/home/b14ckr41n/Desktop
 	..
 0
@@ -373,58 +315,20 @@ d/run/media/b14ckr41n/8fbe5d37-3ed2-4341-9d76-0a829b6ef159
 	..
 0
 d/run/media/b14ckr41n
-=======
-	dev
-4
+	=======
+0
+dev
+	4
+0
 d/home/b14ckr41n/Dropbox
-<<<<<<< HEAD
-	..
+	<<<<<<< HEAD
 0
 d/home/b14ckr41n
-=======
-	..
-0
-d/home/b14ckr41n
->>>>>>> caf0250a14d4b3bce049223e87a0f106a25af0c4
 	..
 0
 d
 
 # Right window history (oldest to newest):
-D/
-	root
-12
-D/root
->>>>>>> 6c993a39beb17f5917e1e41325cf051eca50cf87
-	..
-0
-d
-
-# Right window history (oldest to newest):
-D/home/bl4ckr41n
-	fluxion
-6
-D/home/bl4ckr41n/fluxion
-	attacks
-1
-D/home/bl4ckr41n/fluxion/attacks
-	..
-0
-D/home/bl4ckr41n/fluxion
-	..
-0
-D/home/bl4ckr41n
-	watch
-9
-D/home/bl4ckr41n/watch
-	..
-0
-D/home/bl4ckr41n
-	watch
-9
-D/home/bl4ckr41n/watch
-	..
-0
 D/home/bl4ckr41n
 	tiny-media-manager
 14
@@ -663,8 +567,7 @@ D/home/b14ckr41n/notes
 	..
 0
 D/home/b14ckr41n
-<<<<<<< HEAD
-	..
+	<<<<<<< HEAD
 0
 D/home
 	..
@@ -690,16 +593,12 @@ D/home
 D/home/b14ckr41n
 	scripts
 16
-=======
-	anonsurf
-2
 D/home/b14ckr41n/anonsurf
 	..
 0
 D/home/b14ckr41n
-<<<<<<< HEAD
-	VirtualBox VMs
-4
+	<<<<<<< HEAD
+0
 D/home/b14ckr41n/VirtualBox VMs
 	..
 0
@@ -710,9 +609,8 @@ D/home/b14ckr41n/Dropbox
 	..
 0
 D/home/b14ckr41n
-<<<<<<< HEAD
-	Road Runner and Wile E. Coyote cartoon collection v2
-2
+	<<<<<<< HEAD
+0
 D/home/b14ckr41n/Road Runner and Wile E. Coyote cartoon collection v2
 	..
 0
@@ -729,17 +627,8 @@ D/home/b14ckr41n/anonsurf
 	..
 0
 D/home/b14ckr41n
-	bookmarks
-6
-=======
-	source
-20
-=======
-	VirtualBox
-1
->>>>>>> 6c993a39beb17f5917e1e41325cf051eca50cf87
->>>>>>> a9886c25e47238ddc939eac3497629383751270e
->>>>>>> caf0250a14d4b3bce049223e87a0f106a25af0c4
+	..
+0
 D
 
 # Command line history (oldest to newest):
@@ -761,15 +650,9 @@ p.oracle_jre_usage
 # Local filter history (oldest to newest):
 
 # Registers:
-<<<<<<< HEAD
 ""/home/.vifm-Trash-1000/000_vcp-git-aur.tar.xz
-=======
-<<<<<<< HEAD
 ""/home/.vifm-Trash-1000/000_Dropbox
-=======
 ""/home/.vifm-Trash-1000/000_metasploitable-linux-2.0.0.zip?r=https:%2F%2Fsourceforge.net%2Fprojects%2Fmetasploitable%2Ffiles%2Flatest%2Fdownload&ts=1529709220
->>>>>>> 6c993a39beb17f5917e1e41325cf051eca50cf87
->>>>>>> caf0250a14d4b3bce049223e87a0f106a25af0c4
 
 # Directory stack (oldest to newest):
 
@@ -814,7 +697,6 @@ t/home/b14ckr41n/.local/share/vifm/Trash/000_Downloads
 	/home/b14ckr41n/Downloads
 t/home/b14ckr41n/.local/share/vifm/Trash/000_Notes
 	/home/b14ckr41n/notes/Notes
-<<<<<<< HEAD
 t/home/b14ckr41n/.local/share/vifm/Trash/000_Desktop
 	/home/b14ckr41n/Desktop
 t/home/b14ckr41n/.local/share/vifm/Trash/000_battmon
@@ -825,10 +707,8 @@ t/home/.vifm-Trash-1000/000_windev_VM_virtualbox
 	/home/b14ckr41n/windev_VM_virtualbox
 t/home/.vifm-Trash-1000/000_vcp-git-aur.tar.xz
 	/home/b14ckr41n/vcp-git-aur.tar.xz
-=======
 t/home/.vifm-Trash-1000/000_metasploitable-linux-2.0.0.zip?r=https:%2F%2Fsourceforge.net%2Fprojects%2Fmetasploitable%2Ffiles%2Flatest%2Fdownload&ts=1529709220
 	/home/b14ckr41n/metasploitable-linux-2.0.0.zip?r=https:%2F%2Fsourceforge.net%2Fprojects%2Fmetasploitable%2Ffiles%2Flatest%2Fdownload&ts=1529709220
-<<<<<<< HEAD
 t/home/.vifm-Trash-1000/000_quickmarks
 	/home/b14ckr41n/quickmarks
 t/home/.vifm-Trash-1000/000_IPTABLES
@@ -839,9 +719,6 @@ t/home/.vifm-Trash-1000/000_VirtualBox VMs
 	/home/b14ckr41n/VirtualBox VMs
 t/home/.vifm-Trash-1000/000_Dropbox
 	/home/b14ckr41n/Dropbox
-=======
->>>>>>> 6c993a39beb17f5917e1e41325cf051eca50cf87
->>>>>>> caf0250a14d4b3bce049223e87a0f106a25af0c4
 
 # State:
 f

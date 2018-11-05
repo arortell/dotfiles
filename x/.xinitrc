@@ -45,6 +45,6 @@ xset -dpms
 echo '###################### Starting Window-Manager ################\n' >> ~/.logs/xinit.log
 #echo 'starting sxhkd\n' >> ~/.logs/sxhkd.log
 #exec sxhkd > ~/.logs/sxhkd.log 2>&1 &
-#echo 'starting bspwm\n' >> ~/.logs/bspwm.log
+3echo 'starting bspwm\n' >> ~/.logs/bspwm.log
 #exec wm > ~/.logs/bspwm.log 2>&1
 exec herbstluftwm --locked

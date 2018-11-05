@@ -189,7 +189,7 @@ F1
       || xdotool search --class _scratch windowmap \
       || termite --class=_scratch --geometry=1459x756 --exec byobu
 
-F12
+F2
    xdotool search --onlyvisible --class _htop windowunmap \
       || xdotool search --class _htop windowmap \
       || termite --class=_htop --geometry=1459x756 --exec vifm 
