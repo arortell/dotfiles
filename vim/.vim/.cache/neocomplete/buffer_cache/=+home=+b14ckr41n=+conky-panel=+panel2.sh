@@ -1,0 +1,1 @@
+{'bash', 'fileencoding', 'utf-8', 'expandtab', 'Florian', 'Bruhin', 'the-compiler.org', 'script', 'panelfolder', 'trap', 'herbstclient', 'emit_hook', 'quit_panel', 'TERM', 'dzen2', 'afdf87', 'pids', 'tray.sh', 'tags.sh', 'conky', 'conkyrc', '--wait', 'reload', 'kill', '-TERM', 'null', 'exit'}

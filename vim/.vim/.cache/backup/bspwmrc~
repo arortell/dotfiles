@@ -35,7 +35,6 @@ bspc config gapless_monocle         true
 bspc config single monocle          true
 
 # Panels and notifications
-<<<<<<< HEAD
 polybar LVDS &
 twmnd &
 battmon --interval 5 --delta 3 --low 10 --critical 3 --dark &
@@ -50,19 +49,6 @@ bspc rule -a Nm-connection-editor state=floating center=true
 bspc rule -a "VirtualBox Manager" state=floating center=true
 bspc rule -a "Virtualbox Manager" state=floating center=true
 bspc rule -a "Oracle VM VirtualBox Manager" state=floating center=true
-=======
-<<<<<<< HEAD
-twmnd &
-battmon -i 60 -d 5 -l 15 -c 5 &
-polybar LVDS  &
-=======
-/usr/lib/notify-osd/notify-osd &
-polybar LVDS  &
-
-# battery monitor
-battmon --interval 5 --delta 20 --low 15 --critical 5
-
->>>>>>> 6c993a39beb17f5917e1e41325cf051eca50cf87
 
 # Rules
 bspc rule -a nm-connection-editor state=floating center=true
@@ -78,9 +64,6 @@ bspc rule -a atom desktop='^3'
 bspc rule -a Atom desktop='^3'
 
 
-# Temporary Rules Go here 
->>>>>>> caf0250a14d4b3bce049223e87a0f106a25af0c4
-
 # Scratchpads
 bspc rule -a _scratch state=floating center=true
 bspc rule -a _htop state=floating center=true
@@ -88,16 +71,9 @@ bspc rule -a _htop state=floating center=true
 bspc rule -a '_scratch' state=floating center=true
 bspc rule -a '_htop' state=floating center=true
 
-<<<<<<< HEAD
-#bspc rule -a '*:_scratch' state=floating center=true
-#bspc rule -a '*:_htop' state=floating center=true
-=======
-# Scratchpads
 bspc rule -a '*:_scratch' state=floating center=true
 bspc rule -a '*:_vifm' state=floating center=true
 
-
->>>>>>> caf0250a14d4b3bce049223e87a0f106a25af0c4
 
 # reload tree so bspwm can be reloaded
 if [ -e "$BSPWM_STATE" ] ; then
@@ -105,4 +81,3 @@ if [ -e "$BSPWM_STATE" ] ; then
 	rm "$BSPWM_STATE"
 fi
 
-#

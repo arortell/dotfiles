@@ -273,6 +273,35 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 # Pass
 export PASSWORD_STORE_X_SELECTION=primary
 
+#colors
+#export Black        0;30
+#export Dark Gray    1;30
+#export Dark Red     0;31
+#export Light Red    1;31
+#export Dark Green   0;32
+#export Light Green  1;32
+#export Dark Yellow  0;33
+#export Light Yellow 1;33
+#export Dark Blue    0;34
+#export Light Blue   1;34
+#export Dark Purple  0;35
+#export Light Purple 1;35
+#export Dark Cyan    0;36
+#export Light Cyan   1;36
+#export Light Gray   0;37
+#export White        1;37
+
+# Colors
+ESC_SEQ="\x1b["
+RESET=$ESC_SEQ"39;49;00m"
+RED=$ESC_SEQ"31;01m"
+GREEN=$ESC_SEQ"32;01m"
+YELLOW=$ESC_SEQ"33;01m"
+BLUE=$ESC_SEQ"34;01m"
+MAGENTA=$ESC_SEQ"35;01m"
+CYAN=$ESC_SEQ"36;01m"
+
+
 # prevent file from being overwritten with > 
 # can be overcome with >|
 #set -o noclobber
@@ -326,7 +355,7 @@ alias rcp='rsync -aP'
 alias rmv='rsync -aP --remove-source-files'
 alias restore='trash-restore'
 alias h='function hdi(){ howdoi $* -c -n 5; }; hdi'
-
+alias hc="herbstclient"
 
 todo
 ################# Functions ######################
