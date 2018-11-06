@@ -5,6 +5,8 @@ export PATH="$HOME/bin:$PATH"
 # Fix for home and end keys
 bindkey "${terminfo[khome]}" beginning-of-line
 bindkey "${terminfo[kend]}" end-of-line
+bindkey '^[[1~' beginning-of-line
+bindkey '^[[4~' end-of-line
 
 # disable multibyte
 unsetopt MULTIBYTE
@@ -27,7 +29,7 @@ cdpath+=(~)
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 #ZSH_THEME="spaceship"
-#ZSH_THEME="xiong-chiamiov-plus"
+ZSH_THEME="xiong-chiamiov-plus"
 #ZSH_THEME="cloud"
 
 # # Bateria
@@ -134,7 +136,7 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=('background_jobs' 'load' 'ram_joined' 'publi
 #POWERLEVEL9K_SUDO_ICON=$'\uF09C' # 
 
 
-ZSH_THEME="powerlevel9k/powerlevel9k"
+#ZSH_THEME="powerlevel9k/powerlevel9k"
 #ZSH_THEME="xiong-chiamiov-plus"
 
 # ORDER

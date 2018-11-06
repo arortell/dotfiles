@@ -17,7 +17,7 @@
 # Bookmarks:
 
 # TUI:
-ar
+al
 q0
 v2
 ov
@@ -26,144 +26,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/bl4ckr41n/images/Wallpapers/Arch
-	GreyAndBlueArch.jpeg
-2
-d/home/bl4ckr41n/Dropbox
-	..
-0
-d/home/bl4ckr41n
-	images
-5
-d/
-	videos0
-19
-d/videos0
-	.FFV
-2
-d/videos0/.FFV
-	FFV
-1
-d/videos0/.FFV/FFV
-	..
-0
-d/videos0/.FFV
-	JOIs
-2
-d/videos0/.FFV/JOIs
-	..
-0
-d/videos0/.FFV
-	JUST_FFV
-3
-d/videos0/.FFV/JUST_FFV
-	..
-0
-d/videos0/.FFV
-	MISC
-3
-d/videos0/.FFV/MISC
-	..
-0
-d/videos0/.FFV
-	Spit
-5
-d/videos0/.FFV/Spit
-	..
-0
-d/videos0/.FFV
-	Tara Tainton
-6
-d/videos0/.FFV/Tara Tainton
-	..
-0
-d/videos0/.FFV
-	NEW-Sat
-4
-d/videos0/.FFV/NEW-Sat
-	..
-0
-d/videos0/.FFV
-	JUST_FFV
-2
-d/videos0/.FFV/JUST_FFV
-	..
-0
-d/videos0/.FFV
-	NEW-Sat
-4
-d/videos0/.FFV/NEW-Sat
-	..
-0
-d/videos0/.FFV
-	MISC
-3
-d/videos0/.FFV/MISC
-	..
-0
-d/videos0/.FFV
-	JOIs
-1
-d/videos0/.FFV/JOIs
-	..
-0
-d/videos0/.FFV
-	Tara Tainton
-5
-d/videos0/.FFV/Tara Tainton
-	
-5
-d/videos0
-	..
-0
-d/
-	videos4
-23
-d/videos4
-	.FFV
-1
-d/videos4/.FFV
-	..
-0
-d/videos4
-	.FFV
-1
-d/videos4/.FFV
-	..
-0
-d/videos4
-	.vifm-Trash-0
-2
-d/videos4/.vifm-Trash-0
-	..
-0
-d/videos4
-	.FFV
-1
-d/videos4/.FFV
-	JUST_FFV
-2
-d/videos4/.FFV/JUST_FFV
-	..
-0
-d/videos4/.FFV
-	JUST_FFV
-2
-d/videos4/.FFV/JUST_FFV
-	..
-0
-d/videos4/.FFV
-	..
-0
-d/videos4
-	..
-0
-d/
-	opt
-9
-d/opt
-	bullet
-1
 d/opt/bullet
 	..
 0
@@ -324,23 +186,149 @@ d/home/b14ckr41n/Dropbox
 	<<<<<<< HEAD
 0
 d/home/b14ckr41n
+	the-darndest-thing-dotfiles
+20
+d/home/b14ckr41n/the-darndest-thing-dotfiles
+	herbstluftwm
+9
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm
+	.config
+1
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config
+	herbstluftwm
+1
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm
+	bin
+1
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/bin
 	..
 0
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm
+	config
+2
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/config
+	..
+0
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm
+	functions
+3
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
+	draw
+1
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/draw
+	..
+0
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
+	focus
+2
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/focus
+	..
+0
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
+	is
+3
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/is
+	..
+0
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
+	pin
+4
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/pin
+	..
+0
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
+	query
+5
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/query
+	..
+0
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
+	restore
+6
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/restore
+	..
+0
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
+	switch
+7
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/switch
+	..
+0
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
+	toggle
+8
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/toggle
+	..
+0
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
+	switch
+7
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/switch
+	..
+0
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
+	restore
+6
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/restore
+	..
+0
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
+	query
+5
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/query
+	..
+0
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
+	pin
+4
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/pin
+	..
+0
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
+	is
+3
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/is
+	..
+0
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
+	focus
+2
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/focus
+	..
+0
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
+	draw
+1
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/draw
+	..
+0
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
+	..
+0
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm
+	config
+2
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/config
+	..
+0
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm
+	bin
+1
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/bin
+	..
+0
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm
+	bin
+1
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/bin
+	..
+0
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm
+	draw
+6
 d
 
 # Right window history (oldest to newest):
-D/home/bl4ckr41n
-	tiny-media-manager
-14
-D/home/bl4ckr41n/tiny-media-manager
-	..
-0
-D/home/bl4ckr41n
-	.local
-8
-D/home/bl4ckr41n/.local
-	share
-1
 D/home/bl4ckr41n/.local/share
 	..
 0
@@ -627,8 +615,20 @@ D/home/b14ckr41n/anonsurf
 	..
 0
 D/home/b14ckr41n
-	..
-0
+	the-darndest-thing-dotfiles
+20
+D/home/b14ckr41n/the-darndest-thing-dotfiles
+	herbstluftwm
+9
+D/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm
+	.config
+1
+D/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config
+	herbstluftwm
+1
+D/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm
+	draw
+6
 D
 
 # Command line history (oldest to newest):
@@ -723,10 +723,10 @@ t/home/.vifm-Trash-1000/000_Dropbox
 # State:
 f
 i1
-[.1
+[.0
 [F
 F
 I1
-].1
+].0
 ]F
 s0
