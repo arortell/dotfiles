@@ -64,7 +64,7 @@ ${goto 528}${color1}up${color0}${offset -18}${upspeedf eth0} (${offset -6}${tota
 ${goto 628}${color1}down${color0}${offset -18}${downspeedf eth0} (${totaldown eth0})   ${endif}\
 ${if_up wlan0}${goto 242}${color1}wlan0${color0} \
 ${wireless_essid wlan0} (${offset -12}${wireless_link_qual_perc wlan0}%) ${addrs wlan0} \
-${goto 228}${color1}up${color0} ${offset -20}${upspeedf wlan0} (${totalup wlan0}) \
+${goto 628}${color1}up${color0} ${offset -20}${upspeedf wlan0} (${totalup wlan0}) \
 ${goto 628}${color1}down${color0}${goto 663}${downspeedf wlan0} (${totaldown wlan0})   ${endif}\
 ${goto 766}${color1}time${color0}${goto 863}${time %I:m %p}   \
 ${goto 915}${color1}date${color0}${time %a %d.%m.%Y}   \

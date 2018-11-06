@@ -7,10 +7,10 @@
 set -f
 
 ## Globals ##
-show=(load:L mem:M batt:B temp:T)
+show=(load:Load mem:Mem temp:Temp batt:Batt)
 sep=':'
 clock=1
-date_fmt='   %a %m%d:%H%M.%S'
+date_fmt='   %A %B %d %I:%M %p'
 interval=15
 
 font_name='Fantasque Sans Mono'
@@ -60,7 +60,7 @@ update_stats () {
                 load)
                     read -d' ' s < /proc/loadavg ;;
                 mem)
-                    s=$(free -h | awk '/cache:/{print $3}') ;;
+                    s=$(free -h | grep 'Mem' | awk '{print $6}') ;;
                 batt)
                     s=$(acpi -b | cut -d' ' -f4) ;;
                 temp)
