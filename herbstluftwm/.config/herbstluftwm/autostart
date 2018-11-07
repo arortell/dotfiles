@@ -203,8 +203,7 @@ hc unlock
 # hc detect_monitors
 
 # find the panel
-panel=~/The-Compilers-Panel/panel2.sh
-#panel=~/hlwm-dzen2
+panel=$SCRIPTS/panel.sh
 [ -x "$panel" ] || panel=/etc/xdg/herbstluftwm/panel.sh
 for monitor in $(herbstclient list_monitors | cut -d: -f1) ; do
     # start it on each monitor

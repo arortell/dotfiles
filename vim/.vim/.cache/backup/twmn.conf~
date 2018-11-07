@@ -4,13 +4,11 @@ always_on_top=true
 background_color=#121212
 bounce=true
 bounce_duration=500
-<<<<<<< HEAD
 font=Source Code Pro
 font_size=16
 =======
 font=Terminus
 font_size=14
->>>>>>> caf0250a14d4b3bce049223e87a0f106a25af0c4
 font_variant=medium
 foreground_color=#afd700
 height=22

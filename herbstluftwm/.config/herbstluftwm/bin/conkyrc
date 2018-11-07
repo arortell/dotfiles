@@ -38,7 +38,7 @@ if_up_strictness address
 pad_percents 2
 
 alignment top_left
-gap_x 260
+gap_x 250
 gap_y 0
 
 default_graph_size 8 30
@@ -48,7 +48,7 @@ color1 afdf87
 TEXT
 ${goto 1}${color1}cpu  1:${color0} ${cpugraph cpu0 8,20 afdf87 afdf87}  ${freq_g 1}${goto 105}${color1}cpu 2:${color0} ${cpugraph cpu1 8,20 afdf87 afdf87}  ${freq_g 2}${goto 209}${color1}cpu 3:${color0} ${cpugraph cpu2 8,20 afdf87 afdf87}  ${freq_g 3}${goto 313}${color1}cpu 4:${color0} ${cpugraph cpu3 8,20 afdf87 afdf87}  ${freq_g 4}   \
 ${goto 450}${color1}load:${color0} ${loadgraph 8,20 afdf87 afdf87}  ${loadavg}   \
-${goto 650}${color1}temp:${color0}${hwmon 0 temp 1}/${hwmon 1 temp 1}°   \
+${goto 600}${color1}temp:${color0}${hwmon 0 temp 1}/${hwmon 1 temp 1}°   \
 ${color1} entropy: ${color0}${entropy_perc}% \
 ${goto 820}${color1}mem:${color0} ${memgraph 8,20 afdf87} ${memperc}% (${mem}/${memmax})   \
 ${goto 1010}${color1}batt:${color0} ${battery_short} ${battery_bar 8,30}   \
