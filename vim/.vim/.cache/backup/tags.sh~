@@ -28,6 +28,10 @@ herbstclient --idle 2>/dev/null | {
             dzenstring+="^ca()^fg()^bg()"
             echo -n "$dzenstring"
         done
+
+
+
+
         echo
         read hook || exit
         case "$hook" in
@@ -36,4 +40,4 @@ herbstclient --idle 2>/dev/null | {
         esac
     done
 } | dzen2 -h 27 -fn '-*-profont-*-*-*-*-11-*-*-*-*-*-*-*' -ta l -sa l \
-          -w 260 -fg "$dzen_fg" -bg "$dzen_bg" -e 'button3='
+          -w 210 -fg "$dzen_fg" -bg "$dzen_bg" -e 'button3='
