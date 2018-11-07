@@ -29,9 +29,6 @@ herbstclient --idle 2>/dev/null | {
             echo -n "$dzenstring"
         done
 
-
-
-
         echo
         read hook || exit
         case "$hook" in
