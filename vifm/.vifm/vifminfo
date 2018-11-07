@@ -26,21 +26,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/opt/bullet
-	..
-0
-d/opt
-	..
-0
-d/
-	opt
-9
-d/home/bl4ckr41n/Dropbox
-	..
-0
-d/home/b14ckr41n/Dropbox
-	..
-0
 d/home/b14ckr41n
 	..
 0
@@ -326,6 +311,21 @@ d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/b
 d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm
 	draw
 6
+d/home/b14ckr41n/the-darndest-thing-dotfiles
+	herbstluftwm
+10
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm
+	.config
+1
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config
+	herbstluftwm
+1
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm
+	bin
+1
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/bin
+	term
+7
 d
 
 # Right window history (oldest to newest):

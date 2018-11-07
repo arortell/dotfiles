@@ -1,0 +1,67 @@
+# Florian Bruhin <me@the-compiler.org>
+
+use_xft yes
+xftfont profont:size=8
+override_utf8_locale yes
+
+update_interval 1
+total_run_times 0
+
+own_window yes
+own_window_type desktop
+own_window_hints undecorated,sticky,skip_taskbar,skip_pager
+
+border_inner_margin 0
+border_outer_margin 0
+draw_borders no
+draw_graph_borders no
+
+background no
+
+# Eliminate flickering
+double_buffer yes
+minimum_size 1500
+maximum_width 1500
+
+# Use KiB/MiB/... instead of just bytes
+format_human_readable yes
+# Print used memory with buffers
+no_buffers no
+# Display k, G, ... instead of kiB, GiB, ...
+short_units yes
+
+default_color d0d0d0
+#own_window_colour 1c1c1c
+
+use_spacer left
+if_up_strictness address
+pad_percents 2
+
+alignment top_left
+gap_x 165
+gap_y 0
+
+default_graph_size 8 30
+color0 d0d0d0
+color1 afdf87
+
+TEXT
+${goto 100}${color1}cpu  1:${color0} ${cpugraph cpu0 8,20 afdf87 afdf87}${goto 170}${freq_g 1} ${color1}cpu 2: ${color0} ${cpugraph cpu1 8,20 afdf87 afdf87} ${goto 242}${freq_g 2} ${color1}cpu 3:${color0} ${cpugraph cpu2 8,20 afdf87 afdf87}${goto 310}${freq_g 3} ${goto 340}${color1}cpu 4:${color0} ${cpugraph cpu3 8,20 afdf87 afdf87} ${freq_g 4}   \
+${goto 530}${color1}load:${color0} ${loadavg}   \
+${goto 658}${color1}temp:${color0}${hwmon 0 temp 1}/${hwmon 1 temp 1}°   \
+${goto 890}${color1}Ip:${color0}  ${addr wlan0}   \
+${goto 1000}${color1}mem:${color0}  ${memperc}% (${mem}/${memmax})   \
+${goto 1150}${color1}batt:${color0}${goto 1185} ${battery_short} (${battery_time})   \
+${goto 1300}${color1}up${color0}${goto 1330}${uptime_short} \
+
+${color1}disk${color0} \
+${color1}/${color0}${goto 76}${fs_used_perc /}%   \
+${goto 100}\
+${goto 340}${color1}/home: ${color0}${fs_used_perc /home}% \
+${goto 530}${if_mounted /mnt}${color1}/mnt:${color0}${fs_used_perc /mnt}%  ${endif}\
+${if_up wlan0}${goto 658}${color1}wlan0:${color0} \
+${goto 700}${wireless_essid wlan0} (${offset -10}${wireless_link_qual_perc wlan0}%) ${addrs wlan0} \
+${goto 1000}${color1}up:${color0}${offset -20}${goto 1010}${upspeedf wlan0} (${totalup wlan0}) \
+${goto 890}${color1}down:${color0}${goto 915}${downspeedf wlan0} (${totaldown wlan0})   ${endif}\
+${goto 1150}${color1}time:${color0}${goto 1185}${time %R %p}   \
+${goto 1300}${color1}date:${color0} ${time %a %d.%m.%Y}   \

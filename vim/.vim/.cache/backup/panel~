@@ -10,7 +10,7 @@
 
 which lemonbar >/dev/null 2>&1 || exit
 fifo=${1#:}
- "^lemonbar -d -n lemonbar:$fifo " && exit
+"^lemonbar -d -n lemonbar:$fifo " && exit
 
 # .................................................................. Panel theme
 

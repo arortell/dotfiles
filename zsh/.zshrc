@@ -28,8 +28,8 @@ cdpath+=(~)
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-#ZSH_THEME="spaceship"
-ZSH_THEME="xiong-chiamiov-plus"
+ZSH_THEME="spaceship"
+#ZSH_THEME="xiong-chiamiov-plus"
 #ZSH_THEME="cloud"
 
 # # Bateria
@@ -140,39 +140,37 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=('background_jobs' 'load' 'ram_joined' 'publi
 #ZSH_THEME="xiong-chiamiov-plus"
 
 # ORDER
-#SPACESHIP_PROMPT_ORDER=(
-#  time
-#  user
-#  host
-#  dir
-#  git
-#  hg
-#  package
-#  node
-#  ruby
-#  elixir
-#  xcode
-#  swift
-#  golang
-#  php
-#  rust
-#  julia
-#  docker
-#  aws
-#  venv
-#  conda
-#  pyenv
-#  dotnet
-#  ember
-#  kubecontext
-#  battery
-#  exec_time
-#  line_sep
-#  vi_mode
-#  jobs
-#  exit_code
-#  char
-#)
+SPACESHIP_PROMPT_ORDER=(
+  time
+  user
+  host
+  dir
+  git
+  hg
+  package
+  node
+  ruby
+  elixir
+  swift
+  golang
+  php
+  rust
+  julia
+  docker
+  aws
+  venv
+  conda
+  pyenv
+  dotnet
+  ember
+  kubecontext
+  exec_time
+  line_sep
+  vi_mode
+  jobs
+  exit_code
+  char
+)
 
 
 
@@ -479,7 +477,7 @@ zstyle -e ':completion:*:default' list-colors 'reply=("${PREFIX:+=(#bi)($PREFIX:
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
 #### THIS NEEDS TO BE UNCOMMENTED FOR SPACESHIOP TO WORK
-#source "/home/b14ckr41n/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
+source "/home/b14ckr41n/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 
 
 # syntax highlight source ######################### MUST BE LAST LINE IN FILE ###################

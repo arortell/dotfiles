@@ -3,5 +3,5 @@
 # Florian Bruhin <me@the-compiler.org>
 
 trayer --edge top --align right --widthtype request --heighttype pixel \
-       --height 25 --expand true --tint 0x000000 --transparent false \
+       --height 25 --expand true --tint 0x000000 --transparent true \
        --alpha 0
