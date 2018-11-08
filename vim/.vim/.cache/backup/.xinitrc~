@@ -31,7 +31,7 @@ echo 'starting gpg-agent daemon\n' >> ~/.logs/xinit.log
 gpg-agent --daemon --pinentry-program /usr/bin/pinentry >> ~/.logs/xinit.log 2>&1 &
 
 echo '##################### Setting Wallpaper ###################\n' >> ~/.logs/xinit.log
-feh --bg-fill /home/Yandex-Disk/images/Wallpapers/Hacking/1522538.jpg
+feh --bg-fill /home/Yandex-Disk/images/Wallpapers/BSPWM/bspwm-plain.jpg 
 
 echo '##################### Java Work Around ###################\n' >> ~/.logs/xinit.log
 export _JAVA_AWT_WM_NONREPARENTING=1
@@ -47,4 +47,3 @@ echo 'starting sxhkd\n' >> ~/.logs/sxhkd.log
 exec sxhkd > ~/.logs/sxhkd.log 2>&1 &
 echo 'starting bspwm\n' >> ~/.logs/bspwm.log
 exec wm > ~/.logs/bspwm.log 2>&1
-#exec herbstluftwm --locked

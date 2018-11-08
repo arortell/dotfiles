@@ -17,19 +17,15 @@
 ! *.cursorColor:    #adb2c2
 
 
-! - For real transparency (composite):
+! - For real transparency (background[opacity]#color):
 urxvt*depth: 32
-! urxvt.background: [95]#03262b
-urxvt.background: [80]#03262b
-! urxvt*background: rgba:0000/0000/0200/c800
+urxvt.background: [80]#000000 
 
 ! - For fake transparency:
 ! urxvt*transparent: true
 ! urxvt*shading: 30
 
 URxvt.intensityStyles:  false
-!URxvt.font:             xft:Hack:bold:pixelsize=12
-!URxvt.boldFont:         xft:Hack:bold:pixelsize=12
 
 !! Hack
 URxvt.font:             xft:Hack:bold:pixelsize=12;hinting=True;antialias:True,\
@@ -50,38 +46,37 @@ URxvt.boldFont:         xft:Hack:bold:pixelsize=12;hinting=True;antialias:True,\
 !
 
 URxvt.saveLines:        8192
-
 URxvt*scrollTtyOutput:    false
 URxvt*scrollWithBuffer:   true
 URxvt*scrollTtyKeypress:  true
-URxvt.scrollBar:          false
-URxvt.internalBorder:     25
-URxvt.cursorBlink:        false
-URxvt.cursorUnderline:    true
-! URxvt.scrollBar: false
-! URxvt.scrollBar_right: false
+URxvt*scrollBar:          false
+URxvt*internalBorder:     25
+URxvt*cursorBlink:        false
+URxvt*cursorUnderline:    true
 
-Xft.dpi:        96
-Xft.antialias:  true
-Xft.rgba:       rgb
-Xft.hinting:    true
-Xft.hintstyle:  hintslight
+Xft*dpi:        96
+Xft*antialias:  true
+Xft*rgba:       rgb
+Xft*hinting:    true
+Xft*hintstyle:  hintslight
 
 ! ############
 ! # based on #
 ! # blackcat #
 ! ############
 
-! URxvt.perl-ext-common: default, tabbed
+URxvt.perl-ext-common: default,url-select
+URxvt.urlLauncher: qutebrowser
+URxvt.underlineURLs: true
 
-! URxvt.keysym.Control-Alt-C: perl:clipboard:copy
-! URxvt.keysym.Control-Alt-V: perl:clipboard:paste
+URxvt.keysym.Control-Alt-C: perl:clipboard:copy
+URxvt.keysym.Control-Alt-V: perl:clipboard:paste
+URxvt.keysym.M-u: perl:url-select:select_next
 
-URxvt.letterSpace: -1
+URxvt*letterSpace: -1
 !URxvt.lineSpace: 1
 
-URxvt.termName: rxvt-unicode
-URxvt.geometry: 115x24+366+211
+!URxvt*termName: rxvt-unicode
 
 !URxvt.transparent: true
 !URxvt.shading: 5
@@ -89,17 +84,15 @@ URxvt.geometry: 115x24+366+211
 !URxvt.fading: 30
 !URxvt.depth: 32
 
-URxvt.saveLine: 10000
-URxvt.iso14755: false
-URxvt.iso14755_52: false
+URxvt*saveLine: 10000
+URxvt*iso14755: false
+URxvt*iso14755_52: false
 
 !URxvt.highlightColor:
 !URxvt.hightlightTextColor:
 
-URxvt.url-select.launcher: firefox
-URxvt.url-select.underline: true
 
-URxvt.loginShell: true
+URxvt*loginShell: true
 
 ! ############
 ! # based on #

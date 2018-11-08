@@ -6,7 +6,7 @@
 # - implement status, detailed info piped to dmenu
 # - make failed list prettier
 
-export SUDO_ASKPASS="/home/Dropbox/bin/daskpass"
+export ${SUDO_ASKPASS-/usr/bin/daskpass}
 systemctlArgs="--type service,timer,automount,socket --no-pager"
 action=$(dmenu <<EOF
 start
