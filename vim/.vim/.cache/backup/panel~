@@ -1,63 +1,36 @@
-#!/bin/bash
+#! /bin/sh
 
-# disable path name expansion or * will be expanded in the line
-# cmd=( $line )
-set -f
-IFS=''
+#if [ $# -ne 2 ]; then
+#  echo "usage ./panel $MONITOR"
+#fi
 
-monitor=${1:-0}
-IFS=' ' geometry=( $(herbstclient monitor_rect "$monitor") )
-if [ -z $geometry ] ;then
-    echo "Invalid monitor $monitor"
-    exit 1
-fi
+#if xdo id -a "$PANEL_WM_NAME" > /dev/null ; then
+#	printf "%s\n" "The panel is already running." >&2
+#	exit 1
+#fi
 
-# geometry has the format: X+Y+WxH
-x=${geometry[0]}
-y=${geometry[1]}
-panel_width=616
-panel_height=20
-font='Monospace-10.5'
-conky_tag_font='Monospace-9'
-bgcolor=$(herbstclient get frame_border_normal_color)
-selected_bg=$(herbstclient get window_border_active_color)
-selected_fg='#101010'
-separator_fg=$selected_bg
-separator="^fg($separator_fg)|^fg()"
+trap 'trap - TERM; kill 0' INT TERM QUIT EXIT
 
-mydir=$(dirname $0)
-conkyrc=$mydir/conkyrc
-conkyfmt=$mydir/conkyfmt
-panelfmt=$mydir/panelfmt
+[ -e "$PANEL_FIFO" ] && rm "$PANEL_FIFO"
+mkfifo "$PANEL_FIFO"
 
-get_pgid() {
-    cut -d' ' -f5 /proc/$1/stat
-}
+bspc config top_padding $PANEL_HEIGHT
+bspc subscribe report > "$PANEL_FIFO" &
+xtitle -sf 'T%s\n' > "$PANEL_FIFO" &
+battery > "$PANEL_FIFO" &
+clock -sf 'S%A %B %d %I:%M %p' > "$PANEL_FIFO" &
 
-herbstclient pad $monitor $panel_height
+. panel_colors
 
-avant-window-navigator &
-run-mindock "${geometry[@]}" &
+panel_bar < "$PANEL_FIFO" | lemonbar -a 32 -n "$PANEL_WM_NAME" -g x$PANEL_HEIGHT -f "$PANEL_FONT" -F "$COLOR_DEFAULT_FG" -B "$COLOR_DEFAULT_BG" $1 | sh &
 
-{
-    while true; do
-        date +'date	^fg(#efefef)%H:%M:^fg(#909090)%S %m-^fg(#efefef)%d %a'
-        sleep 1 || break
-    done &
+wid=$(xdo id -a "$PANEL_WM_NAME")
+tries_left=20
+while [ -z "$wid" -a "$tries_left" -gt 0 ] ; do
+	sleep 0.05
+	wid=$(xdo id -a "$PANEL_WM_NAME")
+	tries_left=$((tries_left - 1))
+done
+[ -n "$wid" ] && xdo above -t "$(xdo id -N Bspwm -n root | sort | head -n 1)" "$wid"
 
-    if [[ -z $DISABLE_CONKY ]]; then
-        (
-        export panel_height conky_tag_font
-        conky -c $conkyrc | stdbuf -oL $conkyfmt
-        ) &
-    fi
-
-    herbstclient --idle
-    kill -- -`get_pgid $$`
-} | {(
-    export monitor separator selected_fg selected_bg panel_height
-    stdbuf -oL $panelfmt
-)} |
-    dzen2 -w $panel_width -x $x -y $y \
-          -fn $font -h $panel_height \
-          -ta l -bg $bgcolor -fg '#efefef'
+wait

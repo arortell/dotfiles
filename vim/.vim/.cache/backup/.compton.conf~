@@ -2,6 +2,7 @@
 shadow = true;
 no-dnd-shadow = true;
 no-dock-shadow = true;
+clear-shadow = true;
 shadow-radius = 3;
 shadow-offset-x = -2;
 shadow-offset-y = -2;
@@ -9,7 +10,7 @@ shadow-opacity = 1.0;
 # shadow-red = 0.0;
 # shadow-green = 0.0;
  shadow-blue = 0.1;
-shadow-exclude = [ "name = 'oneko'",  "name = 'Notification'", "class_g = 'Conky'", "class_g ?= 'Notify-osd'", "class_g = 'Cairo-clock'", "name = 'dzen2'", "name = 'dzen2 title'" ];
+shadow-exclude = [ "name = 'oneko'",  "name = 'Notification'", "class_g = 'Conky'", "class_g ?= 'Notify-osd'", "class_g = 'Cairo-clock'" ];
 # shadow-exclude = "n:e:Notification";
 shadow-ignore-shaped = false;
 # shadow-exclude-reg = "x10+0+0";
@@ -22,7 +23,7 @@ active-opacity = 1.0;
 frame-opacity = 1.0;
 #inactive-opacity-override = false;
 alpha-step = 0.06;
-#inactive-dim = 0.1,
+inactive-dim = 0.1,
 #inactive-dim-fixed = true;
 # blur-background = true;
 # blur-background-frame = true;
