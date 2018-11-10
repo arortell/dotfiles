@@ -3,18 +3,21 @@
 export PATH="$HOME/bin:$PATH"
 
 # Fix for home and end keys
-bindkey "${terminfo[khome]}" beginning-of-line
-bindkey "${terminfo[kend]}" end-of-line
+#bindkey "${terminfo[khome]}" beginning-of-line
+#bindkey "${terminfo[kend]}" end-of-line
+#bindkey '^[[1~' beginning-of-line
+#bindkey '^[[4~' end-of-line
+bindkey "^[[H" beginning-of-line
+bindkey "^[[F" end-of-line
 
 # disable multibyte
 unsetopt MULTIBYTE
-
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
 # Java Bullshit
-export JAVA_HOME="/usr/lib/jvm/java-8-openjdk"
+export JAVA_HOME="/usr/lib/jvm/java-10-openjdk"
 export _JAVA_OPTIONS="-Dsun.awt.disablegrab=true -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel -Dswing.crossplatformlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel"
 export _SILENT_JAVA_OPTIONS="$_JAVA_OPTIONS"
 unset _JAVA_OPTIONS
@@ -28,7 +31,7 @@ cdpath+=(~)
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 #ZSH_THEME="spaceship"
-#ZSH_THEME="xiong-chiamiov-plus"
+ZSH_THEME="xiong-chiamiov-plus"
 #ZSH_THEME="cloud"
 
 # # Bateria
@@ -135,42 +138,40 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=('background_jobs' 'load' 'ram_joined' 'publi
 #POWERLEVEL9K_SUDO_ICON=$'\uF09C' # 
 
 
-ZSH_THEME="powerlevel9k/powerlevel9k"
+#ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # ORDER
-#SPACESHIP_PROMPT_ORDER=(
-#  time
-#  user
-#  host
-#  dir
-#  git
-#  hg
-#  package
-#  node
-#  ruby
-#  elixir
-#  xcode
-#  swift
-#  golang
-#  php
-#  rust
-#  julia
-#  docker
-#  aws
-#  venv
-#  conda
-#  pyenv
-#  dotnet
-#  ember
-#  kubecontext
-#  battery
-#  exec_time
-#  line_sep
-#  vi_mode
-#  jobs
-#  exit_code
-#  char
-#)
+SPACESHIP_PROMPT_ORDER=(
+  time
+  user
+  host
+  dir
+  git
+  hg
+  package
+  node
+  ruby
+  elixir
+  swift
+  golang
+  php
+  rust
+  julia
+  docker
+  aws
+  venv
+  conda
+  pyenv
+  dotnet
+  ember
+  kubecontext
+  exec_time
+  line_sep
+  vi_mode
+  jobs
+  exit_code
+  char
+)
 
 
 
@@ -216,7 +217,7 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colorize colored-man-pages_mod compleat copyfile copydir cp dircycle dirhistory dirpersist history history-substring-search systemd systemadmin pass zsh-syntax-highlighting python github git-prompt nmap pip zsh-autosuggestions zsh-completions zsh-history-substring-search zsh-reload zsh-navigation-tools archlinux bspwm rsync sudo safe-paste battery fasd zshmarks aurtab cp vi-mode)
+plugins=(git colorize colored-man-pages_mod compleat copyfile copydir cp dircycle dirhistory dirpersist history history-substring-search systemd systemadmin pass zsh-syntax-highlighting python github git-prompt nmap pip zsh-autosuggestions zsh-completions zsh-history-substring-search zsh-reload zsh-navigation-tools archlinux bspwm rsync sudo safe-paste battery fasd zshmarks aurtab cp)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -237,7 +238,7 @@ autoload -Uz run-help-svn
 export MANPATH="/usr/local/man:/usr/share/man"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
@@ -273,6 +274,35 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 # Pass
 export PASSWORD_STORE_X_SELECTION=primary
 
+#colors
+#export Black        0;30
+#export Dark Gray    1;30
+#export Dark Red     0;31
+#export Light Red    1;31
+#export Dark Green   0;32
+#export Light Green  1;32
+#export Dark Yellow  0;33
+#export Light Yellow 1;33
+#export Dark Blue    0;34
+#export Light Blue   1;34
+#export Dark Purple  0;35
+#export Light Purple 1;35
+#export Dark Cyan    0;36
+#export Light Cyan   1;36
+#export Light Gray   0;37
+#export White        1;37
+
+# Colors
+ESC_SEQ="\x1b["
+RESET=$ESC_SEQ"39;49;00m"
+RED=$ESC_SEQ"31;01m"
+GREEN=$ESC_SEQ"32;01m"
+YELLOW=$ESC_SEQ"33;01m"
+BLUE=$ESC_SEQ"34;01m"
+MAGENTA=$ESC_SEQ"35;01m"
+CYAN=$ESC_SEQ"36;01m"
+
+
 # prevent file from being overwritten with > 
 # can be overcome with >|
 set -o noclobber
@@ -291,11 +321,15 @@ alias l="clear && ls $@"
 alias ll="clear && ls -lh"
 alias la="clear && ls -a $@"
 alias c="pycp -g $@"
+alias la="clear && ls -a $@"
+alias c="pycp $@"
+alias cy="pv $1 > $2"
 alias cp="acp -g $@"
 alias vcp="vcp -vp $@"
 alias du='cdu -sidh'
 alias m='pymv -g $@'
 alias mv='amv -g $@'
+alias m='pymv $@'
 alias define="/usr/bin/sdcv"
 alias def="/usr/bin/sdcv"
 alias del="trash-put $@"
@@ -303,11 +337,17 @@ alias delete="trash-put $@"
 alias df='dfc -p /dev/'
 alias sa='sudoedit $1'
 alias cfg-zsh='$EDITOR ~/.zshrc'
+alias cfg-term='$EDITOR ~/.config/termite/config'
 alias cfg-qute='$EDITOR ~/.config/qutebrowser/config.py'
 alias cfg-poly='$EDITOR ~/.config/polybar/config'
 alias cfg-sxhkd='$EDITOR ~/.config/sxhkd/sxhkdrc'
 alias cfg-bspwm='$EDITOR ~/.config/bspwm/bspwmrc'
-alias cfg-profile='sudo $EDITOR /etc/profile'
+alias cfg-herb='$EDITOR ~/.config/herbstluftwm/autostart'
+alias cfg-profile='sa /etc/profile'
+alias cfg-urxvt='$EDITOR ~/.Xdefaults'
+alias rld-urxvt='xrdb ~/.Xdefaults'
+alias cfg-rofi='$EDITOR ~/.Xresources'
+alias rld-rofi='xrdb ~/.Xresources'
 alias rld-zsh='source ~/.zshrc'
 alias rld-profile='source /etc/profile'
 alias free='free -h'
@@ -321,7 +361,7 @@ alias rcp='rsync -aP'
 alias rmv='rsync -aP --remove-source-files'
 alias restore='trash-restore'
 alias h='function hdi(){ howdoi $* -c -n 5; }; hdi'
-
+alias hc="herbstclient"
 
 todo
 ################# Functions ######################
@@ -443,8 +483,7 @@ zstyle -e ':completion:*:default' list-colors 'reply=("${PREFIX:+=(#bi)($PREFIX:
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
 #### THIS NEEDS TO BE UNCOMMENTED FOR SPACESHIOP TO WORK
-#source "/home/b14ckr41n/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
-
+source "/home/b14ckr41n/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 
 
 # syntax highlight source ######################### MUST BE LAST LINE IN FILE ###################

@@ -19,7 +19,7 @@
 
 ! - For real transparency (background[opacity]#color):
 urxvt*depth: 32
-urxvt.background: [80]#000000 
+urxvt.background: [80]#000000
 
 ! - For fake transparency:
 ! urxvt*transparent: true
@@ -51,8 +51,9 @@ URxvt*scrollWithBuffer:   true
 URxvt*scrollTtyKeypress:  true
 URxvt*scrollBar:          false
 URxvt*internalBorder:     25
-URxvt*cursorBlink:        false
-URxvt*cursorUnderline:    true
+URxvt*cursorBlink:        true
+!URxvt*cursorUnderline:    true
+URxvt*cursorColor:        #0000FF
 
 Xft*dpi:        96
 Xft*antialias:  true
@@ -65,18 +66,21 @@ Xft*hintstyle:  hintslight
 ! # blackcat #
 ! ############
 
-URxvt.perl-ext-common: default,url-select
-URxvt.urlLauncher: qutebrowser
-URxvt.underlineURLs: true
+URxvt.perl-ext-common: default,matcher,url-select,keyboard-select
+URxvt.url-launcher: qutebrowser
+URxvt.matcher.button: 1
+URxvt.url-select.underline: true
+Urxvt.keysym.M-u: perl:url-select:select_next
+Urxvt.keysym.M-Escape: perl:keyboard-select:active
+Urxvt.keysym.M-s: perl:keyboard-select:search
 
 URxvt.keysym.Control-Alt-C: perl:clipboard:copy
 URxvt.keysym.Control-Alt-V: perl:clipboard:paste
-URxvt.keysym.M-u: perl:url-select:select_next
 
 URxvt*letterSpace: -1
 !URxvt.lineSpace: 1
 
-!URxvt*termName: rxvt-unicode
+URxvt*termName: rxvt-unicode-256color
 
 !URxvt.transparent: true
 !URxvt.shading: 5
