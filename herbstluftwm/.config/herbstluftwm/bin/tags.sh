@@ -6,11 +6,11 @@ dzen_fg="#d0d0d0"
 dzen_bg="#000000"
 normal_fg=""
 normal_bg=
-viewed_fg="#000000"
-viewed_bg="#afdf87"
+viewed_fg="#FFFFFF"
+viewed_bg="#0000FF"
 urgent_fg=
 urgent_bg="#df8787"
-used_fg="#afdf87"
+used_fg="#0000ff"
 used_bg=
 
 herbstclient --idle 2>/dev/null | {

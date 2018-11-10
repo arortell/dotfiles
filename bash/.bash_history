@@ -311,3 +311,29 @@ zsh
 =======
 >>>>>>> 6c993a39beb17f5917e1e41325cf051eca50cf87
 >>>>>>> caf0250a14d4b3bce049223e87a0f106a25af0c4
+ls -a
+cd .dotfiles/
+rm -rf ~/.zkbd/
+rm ~/.zdirs 
+rm ~/.zsh_history 
+rm ~/.zcompdump*
+rm ~/.zsh-update 
+stow bash
+source ~/.bashrc 
+unlink ~/.zshrc 
+unlink ~/.vifm
+unlink ~/.vim*
+unlink ~/.viminfo 
+unlink ~/.vim
+unlink ~/.vimrc 
+stow zsh
+stow vifm/
+stow vim/
+vi 
+ls -a ~
+ls .vim
+ls -a vim/
+ls -a vim/.vim/
+vi
+cat ~/.vimrc 
+zsh

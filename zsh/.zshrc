@@ -2,11 +2,6 @@
 # REMOVE PYENV
 export PATH="$HOME/bin:$PATH"
 
-# Fix for home and end keys
-bindkey "${terminfo[khome]}" beginning-of-line
-bindkey "${terminfo[kend]}" end-of-line
-bindkey '^[[1~' beginning-of-line
-bindkey '^[[4~' end-of-line
 
 # disable multibyte
 unsetopt MULTIBYTE
@@ -28,8 +23,8 @@ cdpath+=(~)
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="spaceship"
-#ZSH_THEME="xiong-chiamiov-plus"
+#ZSH_THEME="spaceship"
+ZSH_THEME="xiong-chiamiov-plus"
 #ZSH_THEME="cloud"
 
 # # Bateria
@@ -137,7 +132,6 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=('background_jobs' 'load' 'ram_joined' 'publi
 
 
 #ZSH_THEME="powerlevel9k/powerlevel9k"
-#ZSH_THEME="xiong-chiamiov-plus"
 
 # ORDER
 SPACESHIP_PROMPT_ORDER=(
@@ -237,7 +231,7 @@ autoload -Uz run-help-svn
 export MANPATH="/usr/local/man:/usr/share/man"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
@@ -304,7 +298,7 @@ CYAN=$ESC_SEQ"36;01m"
 
 # prevent file from being overwritten with > 
 # can be overcome with >|
-#set -o noclobber
+set -o noclobber
 
 # enable extened globs
 setopt extendedglob
@@ -336,6 +330,7 @@ alias delete="trash-put $@"
 alias df='dfc -p /dev/'
 alias sa='sudoedit $1'
 alias cfg-zsh='$EDITOR ~/.zshrc'
+alias cfg-term='$EDITOR ~/.config/termite/config'
 alias cfg-qute='$EDITOR ~/.config/qutebrowser/config.py'
 alias cfg-poly='$EDITOR ~/.config/polybar/config'
 alias cfg-sxhkd='$EDITOR ~/.config/sxhkd/sxhkdrc'
@@ -479,6 +474,10 @@ zstyle -e ':completion:*:default' list-colors 'reply=("${PREFIX:+=(#bi)($PREFIX:
 
 # rvm ruby virtualenv
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+# Fix for home and end keys
+bindkey "^[[H" beginning-of-line
+bindkey "^[[F" end-of-line
 
 #### THIS NEEDS TO BE UNCOMMENTED FOR SPACESHIOP TO WORK
 source "/home/b14ckr41n/.oh-my-zsh/custom/themes/spaceship.zsh-theme"

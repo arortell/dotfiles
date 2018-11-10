@@ -5,9 +5,10 @@
 #  |_||_\___|_| |_.__/__/\__|_|\_,_|_|  \__|\_/\_/|_|_|_|
 #  ========================================= Autostart ===
 
+# directory of scripts for hlwm
+BIN="$HOME/.config/herbstluftwm/bin"
 
 # import google color schemes
-BIN="$HOME/.config/herbstluftwm/bin"
 . ${BIN}/gmc
 
 hc() {
@@ -16,9 +17,22 @@ hc() {
 
 hc emit_hook reload
 
+# start daemons
+if [ $(pidof twmnd) ]; then
+  pkill twmnd
+fi
+twmnd
 
-twmnd &
+if [ $(pidof battmon) ]; then
+  pkill battmon
+fi
 battmon --interval 5 --delta 3 --low 10 --critical 3 --dark &
+
+# kill panel
+pkill trayer
+pkill conky
+pkill dzen2
+
 
 # remove all existing keybindings
 hc keyunbind --all
@@ -31,7 +45,7 @@ hc keybind $Mod-Shift-Escape quit
 hc keybind $Mod-Escape reload
 hc keybind $Mod-Shift-Delete close_and_remove
 hc keybind $Mod-Delete close
-hc keybind $Mod-Return spawn ${TERMINAL}
+hc keybind $Mod-Return spawn $TERMINAL
 
 ######################################################## basic movement
 # focusing clients
@@ -60,10 +74,10 @@ hc keybind $Mod-Control-Left  split   left    0.5
 hc keybind $Mod-Control-Down  split   bottom  0.5
 hc keybind $Mod-Control-Right split   right   0.5
 hc keybind $Mod-Control-Up    split   top     0.5
-hc keybind $Mod-Control-h  split   left    0.5
-hc keybind $Mod-Control-j  split   bottom  0.5
-hc keybind $Mod-Control-k split   right   0.5
-hc keybind $Mod-Control-l    split   top     0.5
+hc keybind $Mod-Control-h     split   left    0.5
+hc keybind $Mod-Control-j     split   bottom  0.5
+hc keybind $Mod-Control-k     split   right   0.5
+hc keybind $Mod-Control-l     split   top     0.5
 
 # let the current frame explode into subframes
 hc keybind $Mod-Control-space split explode
@@ -74,10 +88,10 @@ hc keybind $Mod-Alt-Left    resize left +$resizestep
 hc keybind $Mod-Alt-Down    resize down +$resizestep
 hc keybind $Mod-Alt-Up      resize up +$resizestep
 hc keybind $Mod-Alt-Right   resize right +$resizestep
-hc keybind $Mod-Alt-h    resize left +$resizestep
-hc keybind $Mod-Alt-j    resize down +$resizestep
-hc keybind $Mod-Alt-k      resize up +$resizestep
-hc keybind $Mod-Alt-l   resize right +$resizestep
+hc keybind $Mod-Alt-h       resize left +$resizestep
+hc keybind $Mod-Alt-j       resize down +$resizestep
+hc keybind $Mod-Alt-k       resize up +$resizestep
+hc keybind $Mod-Alt-l       resize right +$resizestep
 
 ########################################################
 # tags
@@ -95,8 +109,8 @@ for i in ${!tag_names[@]} ; do
 done
 
 # cycle through tags
-hc keybind $Mod-period use_index +1 --skip-visible
-hc keybind $Mod-comma  use_index -1 --skip-visible
+hc keybind Control+Shift+Right use_index +1 --skip-visible
+hc keybind Control+Shift+Left  use_index -1 --skip-visible
 
 # layouting
 hc keybind $Mod-r remove
@@ -115,7 +129,7 @@ hc keybind $Mod-Tab                                                           \
 # mouse
 hc mouseunbind --all
 hc mousebind $Mod-Button1 move
-#hc mousebind $Mod-Button2 zoom
+hc mousebind $Mod-Button3 zoom
 hc mousebind $Mod-Button2 resize
 
 # focus
@@ -124,59 +138,59 @@ hc keybind $Mod-Shift-Tab   cycle_all -1
 hc keybind $Mod-c cycle
 hc keybind $Mod-i jumpto urgent
 
-# theme
+################### ScratchPad ##################
+hc keybind F1 spawn $BIN/q3terminal.sh
+
+############### Media Keys #########################
+hc keybind XF86AudioLowerVolume spawn $BIN/volume_change_wrapper -
+hc keybind XF86AudioRaiseVolume spawn $BIN/volume_change_wrapper +
+hc keybind XF86AudioMute spawn $BIN/volume_change_wrapper m
+
+
+################# Theme ##################################
 hc attr theme.tiling.reset 1
 hc attr theme.floating.reset 1
-hc set frame_border_active_color '#00BFFF'
-hc set frame_border_normal_color '#000000'
-hc set frame_bg_normal_color '#0000FF'
-hc set frame_bg_active_color '#0000ff'
-hc set frame_border_width 2
-hc set always_show_frame 0
-hc set frame_bg_transparent 100
-#hc set frame_active_opacity 100
-#hc set frame_normal_opacity 100
-hc set frame_transparent_width 0
-hc set frame_gap 4
 
-hc attr theme.active.color '#0000FF'
-hc attr theme.normal.color '#454545'
-hc attr theme.urgent.color orange
-hc attr theme.inner_width 1
+# Frame
+hc set frame_border_width 0
+hc set frame_padding 0
+hc set smart_frame_surroundings 0
+hc set always_show_frame 0
+hc set frame_bg_transparent 1
+hc set frame_transparent_width 0
+
+# Windows ?
+hc set window_gap                   13
+hc set smart_window_surroundings 0
+hc attr theme.active.color '#8888FF'
+gc attr theme.normal.color 0 
+hc attr theme.urgent.color '#FF0000'
+hc attr theme.inner_width 0
 hc attr theme.inner_color black
-hc attr theme.border_width 3
 hc attr theme.floating.border_width 4
 hc attr theme.floating.outer_width 1
 hc attr theme.floating.outer_color black
 hc attr theme.active.inner_color '#3E4A00'
 hc attr theme.active.outer_color '#3E4A00'
 hc attr theme.background_color '#141414'
+hc attr theme.border_width            1
+hc attr theme.floating.border_width   0
+hc attr theme.floating.outer_color    black
+hc attr theme.floating.outer_width    0
+hc attr theme.outer_width             0
 
-hc set window_gap 10
-hc set frame_padding 0
-hc set smart_window_surroundings 0
-hc set smart_frame_surroundings 1
-hc set mouse_recenter_gap 0
+hc set gapless_grid                   0
+hc set mouse_recenter_gap             0
 hc set focus_follows_mouse 0
 
 ################ APPS ##############################
 hc keybind $Mod+Shift+Return spawn qutebrowser
 hc keybind $Mod+space spawn dmenu_extended_run
-hc keybind $Mod+Shift+space spawn adams_menu
+hc keybind $Mod+Shift+space spawn adams_hlwm_menu
 hc keybind $Mod+b spawn tor-browser-en
 hc keybind $Mod+w spawn wing6.1
 hc keybind $Mod+q spawn qtcreator
-hc keybind $Mod+a spawn atom
-
-
-
-################### ScratchPad ##################
-hc keybind F1 spawn $BIN/q3terminal.sh
-
-############### Media Keys #########################
-hc keybind XF86AudioLowerVolume spawn amixer set Master 2%- && notify-send " Volume Lowered To $(alsavol -d) "
-hc keybind XF86AudioRaiseVolume spawn amixer set Master 2%+ && notify-send " Volume Raised By 1 "
-hc keybind XF86AudioMute spawn amixer -q set PCM toggle && notify-send " Volume Muted "
+hc keybind $Mod-z spawn $BIN/windowmenu.sh
 
 
 # rules
@@ -208,15 +222,13 @@ hc unlock
 
 # find the panel
 panel="$BIN"/panel
-#panel="$BIN"/hlwm-dzen2
 [ -x "$panel" ] || panel=/etc/xdg/herbstluftwm/panel.sh
 for monitor in $(herbstclient list_monitors | cut -d: -f1) ; do
     # start it on each monitor
     "$panel" $monitor &
 done
 
-#"$BIN/"pulsar &
 
 
 
-# vim: tw=80
+

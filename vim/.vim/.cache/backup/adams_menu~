@@ -27,11 +27,11 @@ export RED='\033[1;91m'
 
 menu_msg="\
 1) Man Pages\n\
-2) Systemd Functions\n\
-3) USB\n\
+2) Systemd Services\n\
+3) USB Devices\n\
 4) Surfraw Search\n\
 5) Network Manager\n\
-6) Bspwm Cheat Sheet\n"
+6) Pass\n"
 
 
 response=$( echo -e $menu_msg | dmenu -p "Adam's Menu -> ")
@@ -41,7 +41,7 @@ msg=$(echo $response | cut -d ')' -f1)
 
 case $msg in
   1*) tmp_cmd=$(apropos | cut -d' '-f1 | dmenu -i -l 40 )
-      termite --class=_scratch --name=_scratch --geometry=1460x756 --exec "man $tmp_cmd"
+      $TERMINAL --name=_man --name=_man  -e "man $tmp_cmd"
     ;;
   2*) dctl
     ;;

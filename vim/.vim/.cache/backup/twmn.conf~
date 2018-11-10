@@ -5,15 +5,18 @@ background_color=#121212
 bounce=true
 bounce_duration=500
 font=Source Code Pro
-font_size=12
+font_size=16
+=======
+font=Hack
+font_size=15
 font_variant=medium
 foreground_color=#afd700
-height=22
+height=27
 in_animation=38
 in_animation_duration=1000
 opacity=100
 out_animation=13
-out_animation_duration=1000
+out_animation_duration=1050
 position=top_right
 screen=0
 
