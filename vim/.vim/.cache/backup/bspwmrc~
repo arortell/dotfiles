@@ -1,7 +1,18 @@
 #!/usr/bin/env bash
+#                                                                      
+#  ▄▄                                                                   
+#  ██                                                                   
+#  ██▄███▄   ▄▄█████▄  ██▄███▄  ██      ██ ████▄██▄   ██▄████   ▄█████▄ 
+#  ██▀  ▀██  ██▄▄▄▄ ▀  ██▀  ▀██ ▀█  ██  █▀ ██ ██ ██   ██▀      ██▀    ▀ 
+#  ██    ██   ▀▀▀▀██▄  ██    ██  ██▄██▄██  ██ ██ ██   ██       ██       
+#  ███▄▄██▀  █▄▄▄▄▄██  ███▄▄██▀  ▀██  ██▀  ██ ██ ██   ██       ▀██▄▄▄▄█ 
+#  ▀▀ ▀▀▀     ▀▀▀▀▀▀   ██ ▀▀▀     ▀▀  ▀▀   ▀▀ ▀▀ ▀▀   ▀▀         ▀▀▀▀▀  
+#                      ██                                               
+#    
+#                                     Config by: b14ckr41n
 
-bspc config top_padding $PANEL_HEIGHT
-bspc config window_gap      15
+
+bspc config window_gap  20
 
 # border Colors
 bspc config normal_border_color   \#110000
@@ -36,6 +47,22 @@ bspc rule -a Transmission-gtk state=floating
 bspc rule -a nm-connection-editor state=floating center=true
 bspc rule -a Nm-connection-editor state=floating center=true
 bspc rule -a "VirtualBox Manager" state=floating center=true
+bspc rule -a "Virtualbox Manager" state=floating center=true
+bspc rule -a "Oracle VM VirtualBox Manager" state=floating center=true
+bspc rule -a guake state=floating
+
+# Rules
+bspc rule -a nm-connection-editor state=floating center=true
+bspc rule -a Nm-connection-editor state=floating center=true
+
+bspc rule -a Transmission-gtk state=floating 
+bspc rule -a transmission-gtk state=floating 
+
+bspc rule -a 'VirtualBox Manager' state=floating
+
+bspc rule -a qutebrowser desktop='^2'
+bspc rule -a atom desktop='^3'
+bspc rule -a Atom desktop='^3'
 
 
 # Scratchpads
@@ -45,8 +72,9 @@ bspc rule -a _htop state=floating center=true
 bspc rule -a '_scratch' state=floating center=true
 bspc rule -a '_htop' state=floating center=true
 
-#bspc rule -a '*:_scratch' state=floating center=true
-#bspc rule -a '*:_htop' state=floating center=true
+bspc rule -a '*:_scratch' state=floating center=true
+bspc rule -a '*:_vifm' state=floating center=true
+
 
 # reload tree so bspwm can be reloaded
 if [ -e "$BSPWM_STATE" ] ; then
@@ -54,3 +82,9 @@ if [ -e "$BSPWM_STATE" ] ; then
 	rm "$BSPWM_STATE"
 fi
 
+ _                                 
+| |__  ___ _ ____      ___ __ ___  
+| '_ \/ __| '_ \ \ /\ / / '_ ` _ \ 
+| |_) \__ \ |_) \ V  V /| | | | | |
+|_.__/|___/ .__/ \_/\_/ |_| |_| |_|
+          |_|                      

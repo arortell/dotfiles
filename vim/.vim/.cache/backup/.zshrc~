@@ -2,13 +2,6 @@
 # REMOVE PYENV
 export PATH="$HOME/bin:$PATH"
 
-# Fix for home and end keys
-#bindkey "${terminfo[khome]}" beginning-of-line
-#bindkey "${terminfo[kend]}" end-of-line
-#bindkey '^[[1~' beginning-of-line
-#bindkey '^[[4~' end-of-line
-bindkey "^[[H" beginning-of-line
-bindkey "^[[F" end-of-line
 
 # disable multibyte
 unsetopt MULTIBYTE
@@ -31,7 +24,7 @@ cdpath+=(~)
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 #ZSH_THEME="spaceship"
-ZSH_THEME="xiong-chiamiov-plus"
+#ZSH_THEME="xiong-chiamiov-plus"
 #ZSH_THEME="cloud"
 
 # # Bateria
@@ -129,16 +122,16 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=('background_jobs' 'load' 'ram_joined' 'publi
 #   $'███  ▏' $'███▎ ▏' $'███▍ ▏' $'███▌ ▏' $'███▋ ▏' $'███▊ ▏' $'███▉ ▏' $'████ ▏'
 #   $'████ ▏' $'████▎▏' $'████▍▏' $'████▌▏' $'████▋▏' $'████▊▏' $'████▉▏' $'█████▏' )
 
-#POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(vcs os_icon dir ram dir_writable)
-#POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(root_indicator background_jobs status load)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(vcs os_icon dir ram dir_writable)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(root_indicator background_jobs status load)
 
 
-#POWERLEVEL9K_USER_ICON="\uF415" # 
-#POWERLEVEL9K_ROOT_ICON="#"
-#POWERLEVEL9K_SUDO_ICON=$'\uF09C' # 
+POWERLEVEL9K_USER_ICON="\uF415" # 
+POWERLEVEL9K_ROOT_ICON="#"
+POWERLEVEL9K_SUDO_ICON=$'\uF09C' # 
 
 
-#ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # ORDER
 SPACESHIP_PROMPT_ORDER=(
@@ -482,9 +475,25 @@ zstyle -e ':completion:*:default' list-colors 'reply=("${PREFIX:+=(#bi)($PREFIX:
 # rvm ruby virtualenv
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
+# Fix for home and end keys
+bindkey "^[[H" beginning-of-line
+bindkey "^[[F" end-of-line
+
 #### THIS NEEDS TO BE UNCOMMENTED FOR SPACESHIOP TO WORK
 source "/home/b14ckr41n/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 
 
 # syntax highlight source ######################### MUST BE LAST LINE IN FILE ###################
 source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+ _____    _     
+|__  /___| |__  
+  / // __| '_ \ 
+ / /_\__ \ | | |
+/____|___/_| |_|
+                
+         _              
+ _______| |__  _ __ ___ 
+|_  / __| '_ \| '__/ __|
+ / /\__ \ | | | | | (__ 
+/___|___/_| |_|_|  \___|
+                        
