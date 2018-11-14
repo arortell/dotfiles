@@ -15,7 +15,7 @@ super + shift + space
   adams_menu
 
 # Window Switcher
-super + Tab
+alt + Tab
   rofi window -show
 ######################## bspwm hotkeys
 
@@ -27,6 +27,11 @@ super + Escape
 super + shift + {_,alt + }Escape
 	{pkill -x polybar; bspc wm -d > "$BSPWM_STATE" && bspc quit; notify-send "Bspwm Reloaded", \
 	 pkill -x polybar; bspc quit 1}
+
+# refresh or quit bspwm
+super + shift + {_,alt + }Escape
+	{pkill -x panel; bspc wm -d > "$BSPWM_STATE" && bspc quit; notify-send "Bspwm Reloaded", \
+	 pkill -x panel; bspc quit 1}
 
 # Adjust gaps on the fly
 super + {minus,equal}
@@ -89,8 +94,8 @@ super + {_,shift + }{1-9,0}
 	bspc {desktop --focus,node --to-desktop} '^{1-9,10}'
 
 # focus or send window/node to monitor
-super + {_,shift + } {comma,period,slash}
-  bspc {monitor --focus,node --to-monitor} {TV,Center,Right}
+#super + {_,shift + } {comma,period,slash}
+#  bspc {monitor --focus,node --to-monitor} {TV,Center,Right}
 
 # Swap desktops
 super + alt + {1-9,0}
@@ -154,20 +159,29 @@ XF86AudioPrev
 super + shift + Return
   qutebrowser
 
+# Zim wiki notes
 super + z
 	zim
 
+# atom text editor
+super + a
+	atom
+
+# screen lock
 super + l
   slock
 
+# C/C++ develop
 super + q
   qtcreator
 
+# Python dev
 super + w
   wing6.1
 
+# tor browser
 super + b
-  tor-browser
+  sandboxed-tor-browser
 
 ####################################################### Scratchpads
 F1
@@ -175,36 +189,42 @@ F1
       || xdotool search --class _scratch windowmap \
       || termite --class=_scratch --geometry=1459x756 --exec byobu
 
-F12
+F2
    xdotool search --onlyvisible --class _htop windowunmap \
       || xdotool search --class _htop windowmap \
       || termite --class=_htop --geometry=1459x756 --exec vifm 
 
-#super + F5
-#    id=$(bspc query -N -n "focused");\
-#    if [ -n "$id" ];then \
-#        xprop -id $id -f _SCRATCH 32ii -set _SCRATCH $(date +%s,%N);\
-#        bspc node -t "floating";\
-#        xdotool windowunmap $id;\
-#    fi
+super + F5
+    id=$(bspc query -N -n "focused");\
+    if [ -n "$id" ];then \
+        xprop -id $id -f _SCRATCH 32ii -set _SCRATCH $(date +%s,%N);\
+        bspc node -t "floating";\
+        xdotool windowunmap $id;\
+    fi
 
-#F5
-#    i=$(bspc query -N -n "focused.floating");\
-#    if [ -n "$i" ];then \
-#        xprop -id $i -f _SCRATCH 32ii -set _SCRATCH $(date +%s,%N);\
-#        xdotool windowunmap $i;\
-#    else;\
-#        i=$(for w in $(xwininfo -root -children | grep -e "^\s*0x[0-9a-f]\+" -o);do \
-#            t=$(xprop -id $w _SCRATCH | grep ' = \(.*\)');\
-#            if [ -n "$t" ];then \
-#                echo $t $w;\
-#            fi;\
-#        done|sort -n|head -n1|cut -d" " -f 5);\
-#        if [ -n "$i" ];then \
-#            xprop -id $i -remove _SCRATCH;\
-#            bspc rule -a \* state=floating center=on --one-shot;\
-#            xdotool windowmap $i;\
-#            bspc node -f $i;\
-#        fi;\
-#    fi
+F5
+    i=$(bspc query -N -n "focused.floating");\
+    if [ -n "$i" ];then \
+        xprop -id $i -f _SCRATCH 32ii -set _SCRATCH $(date +%s,%N);\
+        xdotool windowunmap $i;\
+    else;\
+        i=$(for w in $(xwininfo -root -children | grep -e "^\s*0x[0-9a-f]\+" -o);do \
+            t=$(xprop -id $w _SCRATCH | grep ' = \(.*\)');\
+            if [ -n "$t" ];then \
+                echo $t $w;\
+            fi;\
+        done|sort -n|head -n1|cut -d" " -f 5);\
+        if [ -n "$i" ];then \
+            xprop -id $i -remove _SCRATCH;\
+            bspc rule -a \* state=floating center=on --one-shot;\
+            xdotool windowmap $i;\
+            bspc node -f $i;\
+        fi;\
+    fi
 
+          _     _       _ 
+ _____  _| |__ | | ____| |
+/ __\ \/ / '_ \| |/ / _` |
+\__ \>  <| | | |   < (_| |
+|___/_/\_\_| |_|_|\_\__,_|
+                          

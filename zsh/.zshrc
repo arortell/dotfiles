@@ -1,3 +1,10 @@
+
+# _______| |__  _ __ ___ 
+# |_  / __| '_ \| '__/ __|
+#  / /\__ \ | | | | | (__ 
+# /___|___/_| |_|_|  \___|
+# =============== Config =
+
 # If you come from bash you might have to change your $PATH.
 # REMOVE PYENV
 export PATH="$HOME/bin:$PATH"
@@ -24,7 +31,7 @@ cdpath+=(~)
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 #ZSH_THEME="spaceship"
-ZSH_THEME="xiong-chiamiov-plus"
+#ZSH_THEME="xiong-chiamiov-plus"
 #ZSH_THEME="cloud"
 
 # # Bateria
@@ -122,16 +129,16 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=('background_jobs' 'load' 'ram_joined' 'publi
 #   $'███  ▏' $'███▎ ▏' $'███▍ ▏' $'███▌ ▏' $'███▋ ▏' $'███▊ ▏' $'███▉ ▏' $'████ ▏'
 #   $'████ ▏' $'████▎▏' $'████▍▏' $'████▌▏' $'████▋▏' $'████▊▏' $'████▉▏' $'█████▏' )
 
-#POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(vcs os_icon dir ram dir_writable)
-#POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(root_indicator background_jobs status load)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(vcs os_icon dir ram dir_writable)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(root_indicator background_jobs status load)
 
 
-#POWERLEVEL9K_USER_ICON="\uF415" # 
-#POWERLEVEL9K_ROOT_ICON="#"
-#POWERLEVEL9K_SUDO_ICON=$'\uF09C' # 
+POWERLEVEL9K_USER_ICON="\uF415" # 
+POWERLEVEL9K_ROOT_ICON="#"
+POWERLEVEL9K_SUDO_ICON=$'\uF09C' # 
 
 
-#ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # ORDER
 SPACESHIP_PROMPT_ORDER=(

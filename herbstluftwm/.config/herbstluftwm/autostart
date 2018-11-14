@@ -1,9 +1,12 @@
 #!/usr/bin/env bash
-    _            _       _   _       __ _
-#  | |_  ___ _ _| |__ __| |_| |_  _ / _| |___ __ ___ __
-#  | ' \/ -_) '_| '_ (_-<  _| | || |  _|  _\ V  V / '  \
-#  |_||_\___|_| |_.__/__/\__|_|\_,_|_|  \__|\_/\_/|_|_|_|
-#  ========================================= Autostart ===
+
+# .__                   ___.              __   .__            _____   __
+# |  |__    ____ _______\_ |__    _______/  |_ |  |   __ __ _/ ____\_/  |_ __  _  __ _____
+# |  |  \ _/ __ \\_  __ \| __ \  /  ___/\   __\|  |  |  |  \\   __\ \   __\\ \/ \/ //     \
+# |   Y  \\  ___/ |  | \/| \_\ \ \___ \  |  |  |  |__|  |  / |  |    |  |   \     /|  Y Y  \
+# |___|  / \___  >|__|   |___  //____  > |__|  |____/|____/  |__|    |__|    \/\_/ |__|_|  /
+#      \/      \/            \/      \/                                                  \/
+# ========================================================= Config By: b14ckr41n =======
 
 # directory of scripts for hlwm
 BIN="$HOME/.config/herbstluftwm/bin"
@@ -21,13 +24,13 @@ hc emit_hook reload
 if [ $(pidof twmnd) ]; then
   pkill twmnd
 fi
-twmnd
+twmnd &
 
 if [ $(pidof battmon) ]; then
   pkill battmon
 fi
 
-battmon --interval 5 --delta 3 --low 10 --critical 3 --dark
+battmon --interval 5 --delta 3 --low 10 --critical 3 --dark &
 
 # kill panel
 pkill trayer
