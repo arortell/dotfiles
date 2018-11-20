@@ -1,3 +1,10 @@
+
+# _______| |__  _ __ ___ 
+# |_  / __| '_ \| '__/ __|
+#  / /\__ \ | | | | | (__ 
+# /___|___/_| |_|_|  \___|
+# =============== Config =
+
 # If you come from bash you might have to change your $PATH.
 # REMOVE PYENV
 export PATH="$HOME/bin:$PATH"
@@ -210,7 +217,7 @@ SPACESHIP_PROMPT_ORDER=(
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colorize colored-man-pages_mod compleat copyfile copydir cp dircycle dirhistory dirpersist history history-substring-search systemd systemadmin pass zsh-syntax-highlighting python github git-prompt nmap pip zsh-autosuggestions zsh-completions zsh-history-substring-search zsh-reload zsh-navigation-tools archlinux bspwm rsync sudo safe-paste battery fasd zshmarks aurtab cp)
+plugins=(git colorize colored-man-pages_mod compleat copyfile copydir cp dircycle dirhistory dirpersist history history-substring-search systemd systemadmin pass zsh-syntax-highlighting python github git-prompt nmap pip zsh-autosuggestions zsh-completions zsh-history-substring-search zsh-reload zsh-navigation-tools archlinux bspwm rsync sudo safe-paste battery fasd zshmarks aurtab cp taskwarrior)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -354,9 +361,9 @@ alias rcp='rsync -aP'
 alias rmv='rsync -aP --remove-source-files'
 alias restore='trash-restore'
 alias h='function hdi(){ howdoi $* -c -n 5; }; hdi'
-alias hc="herbstclient"
+#alias hc="herbstclient $@"
 
-todo
+#todo
 ################# Functions ######################
 
 # List network stats
@@ -485,15 +492,3 @@ source "/home/b14ckr41n/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 
 # syntax highlight source ######################### MUST BE LAST LINE IN FILE ###################
 source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
- _____    _     
-|__  /___| |__  
-  / // __| '_ \ 
- / /_\__ \ | | |
-/____|___/_| |_|
-                
-         _              
- _______| |__  _ __ ___ 
-|_  / __| '_ \| '__/ __|
- / /\__ \ | | | | | (__ 
-/___|___/_| |_|_|  \___|
-                        

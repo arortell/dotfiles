@@ -1,29 +1,12 @@
-https://vifm.info/manual.shtml Vifm - Manual
-https://bash.cyberciti.biz/guide/Main_Page Linux Shell Scripting Tutorial - A Beginner's handbook
-http://tldp.org/LDP/Bash-Beginners-Guide/html/chap_08.html Writing interactive scripts
-https://en.wikipedia.org/wiki/Find_(Unix) find (Unix) - Wikipedia
-http://www.linuxjournal.com/ Linux Journal | The Original Magazine of the Linux Community
-https://gist.github.com/pascalpoitras/8406501 My always up-to-date WeeChat configuration (weechat-dev) · GitHub
-https://github.com/s3rvac/weechat-notify-send GitHub - s3rvac/weechat-notify-send: A WeeChat script that sends highlight and message notifications through notify-send.
-https://en.wikipedia.org/wiki/Xargs xargs - Wikipedia
-https://mywiki.wooledge.org/BashSheet BashSheet - Greg's Wiki
-https://www.dwheeler.com/essays/filenames-in-shell.html#summary Filenames and Pathnames in Shell (bash, dash, ash, ksh, and so on): How to do it Correctly
-http://mywiki.wooledge.org/BashFAQ/031 BashFAQ/031 - Greg's Wiki
-http://www.gnu.org/software/bash/manual/bashref.html#Shell-Parameter-Expansion Bash Reference Manual
-http://www.gnu.org/software/bash/manual/bashref.html#Shell-Arithmetic Bash Reference Manual
-http://www.hypexr.org/linux_scp_help.php Example syntax for Secure Copy (scp)
-http://www.trekcore.com/ TrekCore Star Trek Multimedia Screencaps and Information!
-https://www.ibm.com/developerworks/library/l-bashfv/index.html Using Bash shell scripts for function testing
-http://redsymbol.net/articles/unofficial-bash-strict-mode/ Use the Unofficial Bash Strict Mode (Unless You Looove Debugging)
-http://mywiki.wooledge.org/UsingFind UsingFind - Greg's Wiki
-http://mywiki.wooledge.org/Quotes Quotes - Greg's Wiki
-http://www.softpanorama.org/Tools/Find/index.shtml Unix Find Tutorial
-https://en.wikipedia.org/wiki/Xargs#The_separator_problem xargs - Wikipedia
-http://www.softpanorama.org/Tools/Find/using_exec_option_and_xargs_in_find.shtml Using -exec option with find
-http://mywiki.wooledge.org/Permissions Permissions - Greg's Wiki
-https://github.com/baskerville/bspwm/wiki/Command-Syntax-Rewrite Command Syntax Rewrite · baskerville/bspwm Wiki · GitHub
-https://github.com/rndusr/stig GitHub - rndusr/stig: TUI and CLI for the BitTorrent client Transmission
-https://swalladge.id.au/archives/2017/08/07/dotfiles-config-survey/ Dotfiles configuration management survey results | Samuel Walladge
-https://github.com/borgbackup/borg GitHub - borgbackup/borg: Deduplicating archiver with compression and authenticated encryption.
-https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789 Getting started with dotfiles – Lars Kappert – Medium
-http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-your-dotfiles.html Brandon Invergo - Using GNU Stow to manage your dotfiles
+http://zsh.sourceforge.net/Intro/intro_10.html An Introduction to the Z Shell - Command Line Editing
+https://github.com/arortell/dotfiles arortell/dotfiles
+https://bbs.archlinux.org/viewtopic.php?id=56646 Post your handy self made command line utilities / Programming & Scripting / Arch Linux Forums
+http://thedarnedestthing.com/bspwm%20framed#conky-padding bspwm framed
+http://thedarnedestthing.com/herbstluftwm herbstluftwm
+https://bbs.archlinux.org/viewtopic.php?id=128646 herbstluftwm / Applications & Desktop Environments / Arch Linux Forums
+https://github.com/xiaq/hlwm-scripts xiaq/hlwm-scripts: My scripts for herbstluftwm
+https://wiki.herbstluftwm.org/panels panels [herbstluftwm wiki]
+http://thedarnedestthing.com/index index
+http://thedarnedestthing.com/dmenu dmenu
+http://epsi-rns.github.io/desktop/2017/04/01/standalone-dzen2-bash.html Standalone Dzen2 Statusbar Using BASH
+http://epsi-rns.github.io/desktop/2017/05/02/herbstlustwm-modularized-bash.html Modularized HerbstluftWM in BASH

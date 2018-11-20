@@ -41,7 +41,7 @@ msg=$(echo $response | cut -d ')' -f1)
 
 case $msg in
   1*) tmp_cmd=$(apropos | cut -d' '-f1 | dmenu -i -l 40 )
-      $TERMINAL --name=_man --name=_man  -e "man $tmp_cmd"
+    $TERMINAL --class=_man --title=_man  -e $(man $tmp_cmd) && hc floating on
     ;;
   2*) dctl
     ;;

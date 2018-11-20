@@ -6,7 +6,7 @@
 # |   Y  \\  ___/ |  | \/| \_\ \ \___ \  |  |  |  |__|  |  / |  |    |  |   \     /|  Y Y  \
 # |___|  / \___  >|__|   |___  //____  > |__|  |____/|____/  |__|    |__|    \/\_/ |__|_|  /
 #      \/      \/            \/      \/                                                  \/
-# ===================================================================== Autostart ==========
+# ========================================================= Config By: b14ckr41n =======
 
 # directory of scripts for hlwm
 BIN="$HOME/.config/herbstluftwm/bin"
@@ -83,8 +83,6 @@ hc keybind $Mod-Control-j     split   bottom  0.5
 hc keybind $Mod-Control-k     split   right   0.5
 hc keybind $Mod-Control-l     split   top     0.5
 
-# let the current frame explode into subframes
-hc keybind $Mod-Control-space split explode
 
 # resizing frames
 resizestep=0.05
@@ -191,11 +189,12 @@ hc set focus_follows_mouse 0
 hc keybind $Mod+Shift+Return spawn qutebrowser
 hc keybind $Mod+space spawn dmenu_extended_run
 hc keybind $Mod+Shift+space spawn adams_hlwm_menu
+hc keybind $Mod-Control-space spawn $BIN/herbstcommander.sh
 hc keybind $Mod+b spawn tor-browser-en
 hc keybind $Mod+w spawn wing6.1
 hc keybind $Mod+q spawn qtcreator
-hc keybind $Mod-z spawn $BIN/windowmenu.sh
-
+hc keybind $Mod+g spawn gvim
+hc keybind $Mod+v spawn alacritty -e vifm
 
 # rules
 hc unrule -F

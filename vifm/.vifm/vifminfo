@@ -26,135 +26,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/b14ckr41n
-	..
-0
-d/home
-	b14ckr41n
-3
-d/home/b14ckr41n
-	..
-0
-d/home
-	..
-0
-d/
-	tmp
-16
-d/tmp
-	QtCreator-AQFTMb
-1
-d/tmp/QtCreator-AQFTMb
-	..
-0
-d/tmp
-	qutebrowser-aLUpLr
-2
-d/tmp/qutebrowser-aLUpLr
-	..
-0
-d/tmp
-	..
-0
-d/
-	home
-4
-d/home
-	b14ckr41n
-3
-d/home/b14ckr41n
-	..
-0
-d/home
-	..
-0
-d/
-	bin
-0
-d/bin
-	core_perl
-1
-d/bin/core_perl
-	..
-0
-d/bin
-	..
-0
-d/
-	sbin
-13
-d/sbin
-	site_perl
-2
-d/sbin/site_perl
-	..
-0
-d/sbin
-	vendor_perl
-3
-d/sbin/vendor_perl
-	..
-0
-d/sbin
-	core_perl
-1
-d/sbin/core_perl
-	..
-0
-d/sbin
-	..
-0
-d/
-	sbin
-13
-d/home/b14ckr41n/Dropbox
-	..
-0
-d/home/b14ckr41n
-	<<<<<<< HEAD
-0
-d/home/b14ckr41n/Desktop
-	..
-0
-d/home/b14ckr41n
-	mnt
-20
-d/home
-	b14ckr41n
-3
-d/home/b14ckr41n
-	source
-17
-d/home/b14ckr41n/source
-	..
-0
-d/home/b14ckr41n
-	..
-0
-d/home
-	..
-0
-d/
-	home
-4
-d/home
-	b14ckr41n
-4
-d/home/b14ckr41n
-	..
-0
-d/home
-	..
-0
-d/
-	run
-12
-d/run
-	media
-9
-d/run/media
-	b14ckr41n
-1
 d/run/media/b14ckr41n
 	8fbe5d37-3ed2-4341-9d76-0a829b6ef159
 1
@@ -324,146 +195,140 @@ d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm
 	bin
 1
 d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/bin
-	term
-7
+	..
+0
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm
+	..
+0
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config
+	..
+0
+d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm
+	..
+0
+d/home/b14ckr41n/the-darndest-thing-dotfiles
+	bin
+2
+d/home/b14ckr41n/the-darndest-thing-dotfiles/bin
+	bin
+1
+d/home/b14ckr41n/the-darndest-thing-dotfiles/bin/bin
+	functions
+1
+d/home/b14ckr41n/the-darndest-thing-dotfiles/bin/bin/functions
+	dmenu
+3
+d/home/b14ckr41n/the-darndest-thing-dotfiles/bin/bin/functions/dmenu
+	history
+20
+d/home/b14ckr41n
+	darndest-dotfiles
+3
+d/home/b14ckr41n/darndest-dotfiles
+	bin
+1
+d/home/b14ckr41n/darndest-dotfiles/bin
+	..
+0
+d/home/b14ckr41n/darndest-dotfiles
+	build
+3
+d/home/b14ckr41n/darndest-dotfiles/build
+	build
+1
+d/home/b14ckr41n/darndest-dotfiles/build/build
+	archlinux
+1
+d/home/b14ckr41n/darndest-dotfiles/build/build/archlinux
+	bundle
+1
+d/home/b14ckr41n/darndest-dotfiles/build/build/archlinux/bundle
+	..
+0
+d/home/b14ckr41n/darndest-dotfiles/build/build/archlinux
+	..
+0
+d/home/b14ckr41n/darndest-dotfiles/build/build
+	..
+0
+d/home/b14ckr41n/darndest-dotfiles/build
+	..
+0
+d/home/b14ckr41n/darndest-dotfiles
+	conky
+5
+d/home/b14ckr41n/darndest-dotfiles/conky
+	3440x1440
+8
+d/home/b14ckr41n/darndest-dotfiles/conky/3440x1440
+	.conky
+1
+d/home/b14ckr41n/darndest-dotfiles/conky/3440x1440/.conky
+	..
+0
+d/home/b14ckr41n/darndest-dotfiles/conky/3440x1440
+	..
+0
+d/home/b14ckr41n/darndest-dotfiles/conky
+	..
+0
+d/home/b14ckr41n/darndest-dotfiles
+	sxhkd
+8
+d/home/b14ckr41n/darndest-dotfiles/sxhkd
+	.config
+1
+d/home/b14ckr41n/darndest-dotfiles/sxhkd/.config
+	sxhkd
+1
+d/home/b14ckr41n/darndest-dotfiles/sxhkd/.config/sxhkd
+	..
+0
+d/home/b14ckr41n/darndest-dotfiles/sxhkd/.config
+	..
+0
+d/home/b14ckr41n/darndest-dotfiles/sxhkd
+	..
+0
+d/home/b14ckr41n/darndest-dotfiles
+	..
+0
+d/home/b14ckr41n
+	herb-dev-dotfiles
+10
+d/home/b14ckr41n/herb-dev-dotfiles
+	3rd-party
+1
+d/home/b14ckr41n/herb-dev-dotfiles/3rd-party
+	..
+0
+d/home/b14ckr41n/herb-dev-dotfiles
+	Xdefaults.d
+2
+d/home/b14ckr41n/herb-dev-dotfiles/Xdefaults.d
+	..
+0
+d/home/b14ckr41n/herb-dev-dotfiles
+	ascii
+3
+d/home/b14ckr41n/herb-dev-dotfiles/ascii
+	..
+0
+d/home/b14ckr41n/herb-dev-dotfiles
+	menu
+8
+d/home/b14ckr41n/herb-dev-dotfiles/menu
+	..
+0
+d/home/b14ckr41n/herb-dev-dotfiles
+	gvimrc
+31
+d/home/b14ckr41n/Dropbox
+	..
+0
 d
 
 # Right window history (oldest to newest):
-D/home/bl4ckr41n/.local/share
-	..
-0
-D/home/bl4ckr41n/.local
-	..
-0
-D/home/bl4ckr41n
-	.cache
-3
-D/home/bl4ckr41n/.cache
-	..
-0
-D/home/bl4ckr41n
-	vms
-17
-D/home/bl4ckr41n/vms
-	..
-0
-D/home/bl4ckr41n
-	scripts
-10
-D/home/bl4ckr41n/scripts
-	..
-0
-D/home/bl4ckr41n
-	..
-0
-D/home
-	b14ckr41n
-3
-D/home/b14ckr41n
-	testing
-10
-D/home/b14ckr41n/.local/share/vifm/Trash
-	..
-0
-D/home/b14ckr41n/.local/share/vifm
-	..
-0
-D/home/b14ckr41n/.local/share
-	..
-0
-D/home/b14ckr41n/.local
-	..
-0
-D/home/b14ckr41n
-	..
-0
-D/home
-	b14ckr41n
-3
-D/home/b14ckr41n
-	.config
-2
-D/home/b14ckr41n/.config
-	qutebrowser
-9
-D/home/b14ckr41n/.config/qutebrowser
-	config.py
-2
-D/home/b14ckr41n/.config
-	qutebrowser
-9
-D/home/b14ckr41n/.config/qutebrowser
-	..
-0
-D/home/b14ckr41n/.config
-	..
-0
-D/home/b14ckr41n
-	..
-0
-D/home
-	Yandex-Disk
-2
-D/home/Yandex-Disk
-	incoming
-4
-D/home/Yandex-Disk/incoming
-	..
-0
-D/home/Yandex-Disk
-	downloads
-2
-D/home/Yandex-Disk/downloads
-	..
-0
-D/home/Yandex-Disk
-	..
-0
-D/home
-	b14ckr41n
-3
-D/home/b14ckr41n
-	downloads
-3
-D/home/b14ckr41n/downloads
-	data
-1
-D/home/b14ckr41n/downloads/data
-	..
-0
-D/home/b14ckr41n/downloads
-	..
-0
-D/home/b14ckr41n
-	downloads
-3
-D/home/b14ckr41n/downloads
-	..
-0
-D/home/b14ckr41n
-	.config
-2
-D/home/b14ckr41n/.config
-	qutebrowser
-9
-D/home/b14ckr41n/.config/qutebrowser
-	..
-0
-D/home/b14ckr41n/.config
-	qutebrowser
-9
-D/home/b14ckr41n/.config/qutebrowser
-	..
-0
-D/home/b14ckr41n/.config
-	..
-0
-D/home/b14ckr41n
-	.config
-2
-D/home/b14ckr41n/.config
-	qutebrowser
-9
 D/home/b14ckr41n/.config/qutebrowser
 	..
 0
@@ -628,7 +493,142 @@ D/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config
 1
 D/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm
 	draw
+6
+D/home/b14ckr41n
+	.vim
+25
+D/home/b14ckr41n/.vim
+	syntax
+23
+D/home/b14ckr41n/.vim/syntax
+	..
+0
+D/home/b14ckr41n/.vim
+	.cache
+1
+D/home/b14ckr41n/.vim/.cache
+	neocomplete
 4
+D/home/b14ckr41n/.vim/.cache/neocomplete
+	..
+0
+D/home/b14ckr41n/.vim/.cache
+	..
+0
+D/home/b14ckr41n/.vim
+	..
+0
+D/home/b14ckr41n
+	.urxvt
+23
+D/home/b14ckr41n/.urxvt
+	..
+0
+D/home/b14ckr41n
+	darndest-dotfiles
+3
+D/home/b14ckr41n/darndest-dotfiles
+	herbstluftwm
+6
+D/home/b14ckr41n/darndest-dotfiles/herbstluftwm
+	..
+0
+D/home/b14ckr41n/darndest-dotfiles
+	build
+4
+D/home/b14ckr41n/darndest-dotfiles/build
+	build
+1
+D/home/b14ckr41n/darndest-dotfiles/build/build
+	root
+3
+D/home/b14ckr41n/darndest-dotfiles/build/build/root
+	etc
+1
+D/home/b14ckr41n/darndest-dotfiles/build/build/root/etc
+	profile.d
+1
+D/home/b14ckr41n/darndest-dotfiles/build/build/root/etc/profile.d
+	..
+0
+D/home/b14ckr41n/darndest-dotfiles/build/build/root/etc
+	..
+0
+D/home/b14ckr41n/darndest-dotfiles/build/build/root
+	..
+0
+D/home/b14ckr41n/darndest-dotfiles/build/build
+	..
+0
+D/home/b14ckr41n/darndest-dotfiles/build
+	..
+0
+D/home/b14ckr41n/darndest-dotfiles
+	herbstluftwm
+7
+D/home/b14ckr41n/darndest-dotfiles/herbstluftwm
+	.config
+1
+D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config
+	herbstluftwm
+1
+D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config/herbstluftwm
+	config
+2
+D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config/herbstluftwm/config
+	..
+0
+D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config/herbstluftwm
+	functions
+3
+D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config/herbstluftwm/functions
+	toggle
+8
+D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config/herbstluftwm/functions/toggle
+	..
+0
+D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config/herbstluftwm/functions
+	switch
+7
+D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config/herbstluftwm/functions/switch
+	..
+0
+D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config/herbstluftwm/functions
+	restore
+6
+D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config/herbstluftwm/functions/restore
+	..
+0
+D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config/herbstluftwm/functions
+	draw
+1
+D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config/herbstluftwm/functions/draw
+	..
+0
+D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config/herbstluftwm/functions
+	..
+0
+D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config/herbstluftwm
+	config
+2
+D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config/herbstluftwm/config
+	..
+0
+D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config/herbstluftwm
+	..
+0
+D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config
+	..
+0
+D/home/b14ckr41n/darndest-dotfiles/herbstluftwm
+	..
+0
+D/home/b14ckr41n/darndest-dotfiles
+	..
+0
+D/home/b14ckr41n
+	downloads
+5
 D
 
 # Command line history (oldest to newest):
@@ -639,6 +639,8 @@ D
 :trashes
 :lstrash
 :view
+:za
+::
 
 # Search history (oldest to newest):
 

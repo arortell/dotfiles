@@ -190,6 +190,8 @@ lemonbar_options = {
     'background': '#CC101010',
 }
 
+lemonbar_options['font'] = 'SSource Code Pro:size=8'
+
 if is_hidpi:
     lemonbar_options['font'] = 'Bitstream Vera Sans:size=8'
     lemonbar_options['symbol_font'] = \
