@@ -217,7 +217,7 @@ SPACESHIP_PROMPT_ORDER=(
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colorize colored-man-pages_mod compleat copyfile copydir cp dircycle dirhistory dirpersist history history-substring-search systemd systemadmin pass zsh-syntax-highlighting python github git-prompt nmap pip zsh-autosuggestions zsh-completions zsh-history-substring-search zsh-reload zsh-navigation-tools archlinux bspwm rsync sudo safe-paste battery fasd zshmarks aurtab cp)
+plugins=(git colorize colored-man-pages_mod compleat copyfile copydir cp dircycle dirhistory dirpersist history history-substring-search systemd systemadmin pass zsh-syntax-highlighting python github git-prompt nmap pip zsh-autosuggestions zsh-completions zsh-history-substring-search zsh-reload zsh-navigation-tools archlinux bspwm rsync sudo safe-paste battery fasd zshmarks aurtab cp taskwarrior)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -361,9 +361,9 @@ alias rcp='rsync -aP'
 alias rmv='rsync -aP --remove-source-files'
 alias restore='trash-restore'
 alias h='function hdi(){ howdoi $* -c -n 5; }; hdi'
-alias hc="herbstclient"
+#alias hc="herbstclient $@"
 
-todo
+task list
 ################# Functions ######################
 
 # List network stats

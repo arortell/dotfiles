@@ -1,4 +1,4 @@
-#!/usr/bin/dash
+#!/usr/bin/bash
 # sdothum - 2016 (c) wtfpl
 [ $TRACE ] && CHILD="bin/term $@" . $PARENT
 
@@ -17,7 +17,7 @@
 #        SHELL <command>, for simpler unquoted command passing
 # Note:  title may not contain spaces, use hyphen or underscore in place
 
-SHELL=/usr/bin/dash
+SHELL=/usr/bin/bash
 blackboard='#000000'
 
 [ -e /usr/bin/alacritty ] && TERM=alacritty || TERM=urxvt

@@ -24,8 +24,8 @@ udiskie >> ~/.logs/xinit.log 2>&1 &
 echo 'starting dropbox\n' >> ~/.logs/xinit.log
 dropbox-cli start >> ~/.logs/xinit.log 2>&1 &
 
-echo 'starting yandex disk\n' >> ~/.logs/xinit.log
-yandex-disk start >> ~/.logs/xinit.log 2>&1 &
+#echo 'starting yandex disk\n' >> ~/.logs/xinit.log
+#yandex-disk start >> ~/.logs/xinit.log 2>&1 &
 
 echo 'starting compton\n' >> ~/.logs/xinit.log 
 compton >> ~/.logs/xinit.log 2>&1 &
@@ -37,7 +37,7 @@ echo 'starting gpg-agent daemon\n' >> ~/.logs/xinit.log
 gpg-agent --daemon --pinentry-program /usr/bin/pinentry >> ~/.logs/xinit.log 2>&1 &
 
 echo '##################### Setting Wallpaper ###################\n' >> ~/.logs/xinit.log
-feh --bg-fill /home/Yandex-Disk/images/Wallpapers/Hacking/1522538.jpg
+feh --bg-fill /home/Yandex-Disk/images/Wallpapers/Arch/b4ck4rch.png
 
 echo '##################### Java Work Around ###################\n' >> ~/.logs/xinit.log
 export _JAVA_AWT_WM_NONREPARENTING=1

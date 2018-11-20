@@ -1,8 +1,9 @@
 
-| |___      ___ __ ___  _ __  
-| __\ \ /\ / / '_ ` _ \| '_ \ 
+| |___      ___ __ ___  _ __
+| __\ \ /\ / / '_ ` _ \| '_ \
 | |_ \ V  V /| | | | | | | | |
  \__| \_/\_/ |_| |_| |_|_| |_|
+=================== config ===
 
 [gui]
 absolute_position=
@@ -17,7 +18,7 @@ font=Hack
 font_size=15
 font_variant=medium
 foreground_color=#afd700
-height=27
+height=13
 in_animation=38
 in_animation_duration=1000
 opacity=100
@@ -38,4 +39,4 @@ enable_shortcuts=true
 host=127.0.0.1
 port=9797
 sound_command=
-                              
+

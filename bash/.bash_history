@@ -337,3 +337,23 @@ ls -a vim/.vim/
 vi
 cat ~/.vimrc 
 zsh
+exit
+git clone https://aur.archlinux.org/cower.git
+cd cower/
+makepkg -si
+cd ..
+git clone https://aur.archlinux.org/pacaur.git
+cd pacaur/
+makepkg -si
+pacaur -Syu
+cd
+git clone https://aur.archlinux.org/pac.git
+cd pac
+makepkg -si
+cd
+zsh
+git clone https://aur.srchlinux.org/cower.git
+git clone https://aur.archlinux.org/cower.git
+cd cower/
+chsh -s /bin/zsh 
+zsh

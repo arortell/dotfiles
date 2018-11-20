@@ -43,7 +43,7 @@
     "path_shellCommand": "~/.dmenuEextended_shellCommand.sh",
     "prompt": "Run:",
     "scan_hidden_folders": false,
-    "terminal": "termite",
+    "terminal": "alacritty",
     "valid_extensions": [
         "py",
         "svg",
