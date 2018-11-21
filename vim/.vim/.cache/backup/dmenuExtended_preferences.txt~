@@ -30,7 +30,7 @@
         "-sb",
         "#1D1F21",
         "-fn",
-        "Ubuntu Mono Nerd Font 12",
+        "Hack 12",
         "-l",
         "10"
     ],
@@ -43,7 +43,7 @@
     "path_shellCommand": "~/.dmenuEextended_shellCommand.sh",
     "prompt": "Run:",
     "scan_hidden_folders": false,
-    "terminal": "termite",
+    "terminal": "alacritty",
     "valid_extensions": [
         "py",
         "svg",
