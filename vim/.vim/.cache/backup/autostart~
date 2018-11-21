@@ -162,7 +162,7 @@ hc set frame_bg_transparent 1
 hc set frame_transparent_width 0
 
 # Windows ?
-hc set window_gap                   13
+hc set window_gap                   12
 hc set smart_window_surroundings 0
 hc attr theme.active.color '#8888FF'
 gc attr theme.normal.color 0 
@@ -207,8 +207,8 @@ hc rule focus=on # normally focus new clients
 
 ############################ Read up on #################################################
 hc rule windowtype~'_NET_WM_WINDOW_TYPE_(DIALOG|UTILITY|SPLASH)' pseudotile=on
-#hc rule windowtype='_NET_WM_WINDOW_TYPE_DIALOG' focus=on
-hc rule windowtype='_NET_WM_WINDOW_TYPE_DIALOG' fullscreen=on
+hc rule windowtype='_NET_WM_WINDOW_TYPE_DIALOG' focus=on
+#hc rule windowtype='_NET_WM_WINDOW_TYPE_DIALOG' fullscreen=on
 hc rule windowtype~'_NET_WM_WINDOW_TYPE_(NOTIFICATION|DOCK|DESKTOP)' manage=off
 
 

@@ -363,7 +363,7 @@ alias restore='trash-restore'
 alias h='function hdi(){ howdoi $* -c -n 5; }; hdi'
 #alias hc="herbstclient $@"
 
-#todo
+task list
 ################# Functions ######################
 
 # List network stats

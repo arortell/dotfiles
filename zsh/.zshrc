@@ -337,15 +337,12 @@ alias delete="trash-put $@"
 alias df='dfc -p /dev/'
 alias sa='sudoedit $1'
 alias cfg-zsh='$EDITOR ~/.zshrc'
-alias cfg-term='$EDITOR ~/.config/termite/config'
+alias cfg-term='$EDITOR ~/.config/alacritty/alacritty.yml'
 alias cfg-qute='$EDITOR ~/.config/qutebrowser/config.py'
-alias cfg-poly='$EDITOR ~/.config/polybar/config'
 alias cfg-sxhkd='$EDITOR ~/.config/sxhkd/sxhkdrc'
 alias cfg-bspwm='$EDITOR ~/.config/bspwm/bspwmrc'
 alias cfg-herb='$EDITOR ~/.config/herbstluftwm/autostart'
 alias cfg-profile='sa /etc/profile'
-alias cfg-urxvt='$EDITOR ~/.Xdefaults'
-alias rld-urxvt='xrdb ~/.Xdefaults'
 alias cfg-rofi='$EDITOR ~/.Xresources'
 alias rld-rofi='xrdb ~/.Xresources'
 alias rld-zsh='source ~/.zshrc'
@@ -361,7 +358,6 @@ alias rcp='rsync -aP'
 alias rmv='rsync -aP --remove-source-files'
 alias restore='trash-restore'
 alias h='function hdi(){ howdoi $* -c -n 5; }; hdi'
-#alias hc="herbstclient $@"
 
 task list
 ################# Functions ######################

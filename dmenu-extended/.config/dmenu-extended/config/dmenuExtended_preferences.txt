@@ -30,7 +30,7 @@
         "-sb",
         "#1D1F21",
         "-fn",
-        "Ubuntu Mono Nerd Font 12",
+        "Hack 10",
         "-l",
         "10"
     ],

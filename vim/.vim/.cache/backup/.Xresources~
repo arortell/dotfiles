@@ -1,9 +1,9 @@
-
-! \ \/ /_ __ ___  ___  ___  _   _ _ __ ___ ___  ___ 
+! __  __
+! \ \/ /_ __ ___  ___  ___  _   _ _ __ ___ ___  ___
 !  \  /| '__/ _ \/ __|/ _ \| | | | '__/ __/ _ \/ __|
 !  /  \| | |  __/\__ \ (_) | |_| | | | (_|  __/\__ \
 ! /_/\_\_|  \___||___/\___/ \__,_|_|  \___\___||___/
-!================================ rofi config ======
+!========================= Rofi Config By: b14ckr41n
 
 ! ############
 ! # based on #
@@ -50,7 +50,7 @@
 
 rofi.modi:                           window,ssh
 rofi.sidebar-mode:                   true
-rofi.terminal:                       termite
+rofi.terminal:                       alacritty
 rofi.ssh-client:                     ssh
 rofi.run-shell-command:              {terminal} -e zsh -c "{cmd}"
 rofi.ssh-command:                    {terminal} -e "{ssh-client} {host}"
@@ -69,8 +69,7 @@ rofi.color-urgent: #00000000,   #CCDEDEDE,  #00000000,              #00000000,  
 rofi.levenshtein-sort: 		  true
 rofi.matching: 	   	        fuzzy
 rofi.separator-style:       none
-!rofi.font:			            Liberation Mono 10
-rofi.font:			            Dejavu Sans Mono 10
+rofi.font:			            ubuntu mono 10
 rofi.lines:			            5
 rofi.width: 			          100
 rofi.padding:			          300

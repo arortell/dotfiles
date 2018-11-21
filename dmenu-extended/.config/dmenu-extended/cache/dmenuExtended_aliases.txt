@@ -1,152 +1,27 @@
-<<<<<<< HEAD
-lftp
+Avahi VNC Server Browser
+Avahi Zeroconf Browser
+Feh
+Zim Desktop Wiki
+qBittorrent
+Avahi SSH Server Browser
+gVim
+Icon Browser
+compton
 Tor Browser (en-US)
-Transmission
-Qt Assistant
-Zim Desktop Wiki
-MuPDF
-Dropbox
-Widget Factory
-compton
-Htop
-Feh
-CMake
-mpv Media Player
-Icon Browser
-OpenJDK Java 10 Policy Tool
+networkmanager_dmenu
+Vim
 ipython
-Qt QDbusViewer 
-OpenJDK Java 10 Console
-Avahi SSH Server Browser
-Oracle VM VirtualBox
-Avahi Zeroconf Browser
-Zenmap (as root)
+Qt V4L2 video capture utility
+qutebrowser
+Alacritty
+Dropbox
+lftp
+Widget Factory
+Vifm
 Wing Pro 6.1
-GTK+ Demo
-OpenJDK Java 10 Runtime
-OpenJDK Java 10 Shell
-Termite
-Vifm
-Avahi VNC Server Browser
-qutebrowser
-Qt Linguist
-Qt Creator
-networkmanager_dmenu
-Qt V4L2 test Utility
-Qt Designer
-Vim
-Zenmap
-=======
-<<<<<<< HEAD
-OpenJDK Java 10 Shell
-qutebrowser
-Icon Browser
-OpenJDK Java 10 Console
-Wing Pro 6.0
-Dropbox
-compton
-Atom
-Zenmap (as root)
-ipython
-Sandboxed Tor Browser
-Avahi SSH Server Browser
-Elementary Configuration
-Zim Desktop Wiki
-Terminology
-Widget Factory
-networkmanager_dmenu
-Transmission
-Qt V4L2 test Utility
-Htop
-lftp
-GTK+ Demo
-Feh
-=======
-Network Connections
-<<<<<<< HEAD
-Widget Factory
-Htop
-Zenmap (as root)
-networkmanager_dmenu
-Atom
-Icon Browser
-Transmission
-Vim
-Terminology
-Elementary Test
-View file
-Zenmap
-Vifm
-OpenJDK Java 10 Policy Tool
-Avahi SSH Server Browser
-Avahi VNC Server Browser
-Access Prompt
-Avahi Zeroconf Browser
-GTK+ Demo
-CMake
-qutebrowser
-Elementary Configuration
-Qt V4L2 test Utility
-Wing Pro 6.0
-Sandboxed Tor Browser
-lftp
-ipython
-Feh
-Dropbox
->>>>>>> a9886c25e47238ddc939eac3497629383751270e
 mpv Media Player
-OpenJDK Java 10 Shell
-OpenJDK Java 10 Console
-Zim Desktop Wiki
-OpenJDK Java 10 Runtime
-<<<<<<< HEAD
-Zenmap
-Vifm
-Avahi Zeroconf Browser
-Elementary Test
-Avahi VNC Server Browser
-OpenJDK Java 10 Policy Tool
-Oracle VM VirtualBox
-Vim
-CMake
-=======
-compton
-Oracle VM VirtualBox
-=======
-Oracle VM VirtualBox
-View file
-Vim
-Vifm
-Atom
-Where am I?
-Htop
-compton
-Elementary Test
-BleachBit
-CMake
-OpenJDK Java 10 Policy Tool
-Transmission
-Widget Factory
-Icon Browser
-Geoclue Demo agent
-Zim Desktop Wiki
-Avahi SSH Server Browser
-OpenJDK Java 10 Runtime
-Zenmap (as root)
-Sandboxed Tor Browser
-Avahi VNC Server Browser
-networkmanager_dmenu
-qutebrowser
-Zenmap
-Terminology
-Elementary Configuration
-OpenJDK Java 10 Console
 GTK+ Demo
-Dropbox
-Avahi Zeroconf Browser
+CMake
 Qt V4L2 test Utility
-Access Prompt
-OpenJDK Java 10 Shell
->>>>>>> 6c993a39beb17f5917e1e41325cf051eca50cf87
->>>>>>> a9886c25e47238ddc939eac3497629383751270e
->>>>>>> caf0250a14d4b3bce049223e87a0f106a25af0c4
+Oracle VM VirtualBox
+Htop
