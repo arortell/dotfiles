@@ -1,26 +1,28 @@
-Feh
 Vim
-gVim
-lftp
+Feh
 Vifm
+gVim
 Htop
+lftp
 CMake
+Zenmap
 compton
-ipython
 Dropbox
-Alacritty
+ipython
 GTK+ Demo
-qBittorrent
+Alacritty
 qutebrowser
+qBittorrent
 Icon Browser
 Wing Pro 6.1
 Widget Factory
-Zim Desktop Wiki
+Zenmap (as root)
 mpv Media Player
+Zim Desktop Wiki
 Tor Browser (en-US)
-networkmanager_dmenu
-Qt V4L2 test Utility
 Oracle VM VirtualBox
+Qt V4L2 test Utility
+networkmanager_dmenu
 Avahi Zeroconf Browser
 Avahi VNC Server Browser
 Avahi SSH Server Browser
@@ -31,7 +33,6 @@ Qt V4L2 video capture utility
 /home/b14ckr41n/bin/coverart.py
 /home/b14ckr41n/bin/sysclean.sh
 /home/b14ckr41n/bin/colortheme.sh
-/home/b14ckr41n/bin/q3terminal.sh
 /home/b14ckr41n/bin/rofi-xrandr.sh
 /home/b14ckr41n/bin/tray-toggle.sh
 /home/b14ckr41n/bin/the_cleaner.sh

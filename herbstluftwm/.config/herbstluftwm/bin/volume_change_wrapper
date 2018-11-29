@@ -23,15 +23,15 @@ progname="$(basename "$0")"                     # name of script
 
 case "$1" in
   '-' )
-    amixer set Master 2%- && notify-send "Volume lowered to "$(alsavol -d)""
+    amixer set Master 2%- && twmnc "Volume lowered to "$(alsavol -d)""
     ;;
   '+' ) 
-    amixer set Master 2%+ && notify-send "Volume raised to "$(alsavol -d)""
+    amixer set Master 2%+ && twmnc "Volume raised to "$(alsavol -d)""
     ;;
   'm' )
-    amixer set Master toogle && notify-send "Volume muted"
+    amixer set Master toogle && twmnc "Volume muted"
     ;;
   *)
-    notify-send  "====== ERROR Must pass [-,+m] ======="
+    twmnc  "====== ERROR Must pass [-,+m] ======="
     ;;
 esac

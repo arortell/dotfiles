@@ -357,3 +357,13 @@ git clone https://aur.archlinux.org/cower.git
 cd cower/
 chsh -s /bin/zsh 
 zsh
+cd cower/
+chsh -s /bin/zsh 
+git clone https://aur.archlinux.org/cower.git
+git clone https://aur.archlinux.org/pacaur.git
+git clone https://aur.archlinux.org/pac.git
+cd  cower/
+cd pacaur/
+makepkg -si
+..
+zsh

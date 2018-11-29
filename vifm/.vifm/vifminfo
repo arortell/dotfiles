@@ -26,252 +26,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/run/media/b14ckr41n
-	8fbe5d37-3ed2-4341-9d76-0a829b6ef159
-1
-d/run/media/b14ckr41n/8fbe5d37-3ed2-4341-9d76-0a829b6ef159
-	..
-0
-d/run/media/b14ckr41n
-	=======
-0
-dev
-	4
-0
-d/home/b14ckr41n/Dropbox
-	<<<<<<< HEAD
-0
-d/home/b14ckr41n
-	the-darndest-thing-dotfiles
-20
-d/home/b14ckr41n/the-darndest-thing-dotfiles
-	herbstluftwm
-9
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm
-	.config
-1
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config
-	herbstluftwm
-1
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm
-	bin
-1
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/bin
-	..
-0
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm
-	config
-2
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/config
-	..
-0
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm
-	functions
-3
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
-	draw
-1
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/draw
-	..
-0
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
-	focus
-2
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/focus
-	..
-0
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
-	is
-3
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/is
-	..
-0
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
-	pin
-4
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/pin
-	..
-0
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
-	query
-5
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/query
-	..
-0
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
-	restore
-6
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/restore
-	..
-0
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
-	switch
-7
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/switch
-	..
-0
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
-	toggle
-8
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/toggle
-	..
-0
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
-	switch
-7
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/switch
-	..
-0
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
-	restore
-6
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/restore
-	..
-0
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
-	query
-5
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/query
-	..
-0
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
-	pin
-4
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/pin
-	..
-0
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
-	is
-3
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/is
-	..
-0
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
-	focus
-2
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/focus
-	..
-0
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
-	draw
-1
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions/draw
-	..
-0
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/functions
-	..
-0
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm
-	config
-2
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/config
-	..
-0
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm
-	bin
-1
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/bin
-	..
-0
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm
-	bin
-1
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/bin
-	..
-0
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm
-	draw
-6
-d/home/b14ckr41n/the-darndest-thing-dotfiles
-	herbstluftwm
-10
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm
-	.config
-1
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config
-	herbstluftwm
-1
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm
-	bin
-1
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm/bin
-	..
-0
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config/herbstluftwm
-	..
-0
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm/.config
-	..
-0
-d/home/b14ckr41n/the-darndest-thing-dotfiles/herbstluftwm
-	..
-0
-d/home/b14ckr41n/the-darndest-thing-dotfiles
-	bin
-2
-d/home/b14ckr41n/the-darndest-thing-dotfiles/bin
-	bin
-1
-d/home/b14ckr41n/the-darndest-thing-dotfiles/bin/bin
-	functions
-1
-d/home/b14ckr41n/the-darndest-thing-dotfiles/bin/bin/functions
-	dmenu
-3
-d/home/b14ckr41n/the-darndest-thing-dotfiles/bin/bin/functions/dmenu
-	history
-20
-d/home/b14ckr41n
-	darndest-dotfiles
-3
-d/home/b14ckr41n/darndest-dotfiles
-	bin
-1
-d/home/b14ckr41n/darndest-dotfiles/bin
-	..
-0
-d/home/b14ckr41n/darndest-dotfiles
-	build
-3
-d/home/b14ckr41n/darndest-dotfiles/build
-	build
-1
-d/home/b14ckr41n/darndest-dotfiles/build/build
-	archlinux
-1
-d/home/b14ckr41n/darndest-dotfiles/build/build/archlinux
-	bundle
-1
-d/home/b14ckr41n/darndest-dotfiles/build/build/archlinux/bundle
-	..
-0
-d/home/b14ckr41n/darndest-dotfiles/build/build/archlinux
-	..
-0
-d/home/b14ckr41n/darndest-dotfiles/build/build
-	..
-0
-d/home/b14ckr41n/darndest-dotfiles/build
-	..
-0
-d/home/b14ckr41n/darndest-dotfiles
-	conky
-5
-d/home/b14ckr41n/darndest-dotfiles/conky
-	3440x1440
-8
-d/home/b14ckr41n/darndest-dotfiles/conky/3440x1440
-	.conky
-1
-d/home/b14ckr41n/darndest-dotfiles/conky/3440x1440/.conky
-	..
-0
-d/home/b14ckr41n/darndest-dotfiles/conky/3440x1440
-	..
-0
-d/home/b14ckr41n/darndest-dotfiles/conky
-	..
-0
 d/home/b14ckr41n/darndest-dotfiles
 	sxhkd
 8
@@ -326,15 +80,255 @@ d/home/b14ckr41n/herb-dev-dotfiles
 d/home/b14ckr41n/Dropbox
 	..
 0
+d/home/b14ckr41n
+	..
+0
+d/home
+	..
+0
+d/
+	etc
+3
+d/etc
+	conf.d
+13
+d/etc/conf.d
+	..
+0
+d/etc
+	fonts
+20
+d/etc/fonts
+	conf.d
+2
+d/etc/fonts/conf.d
+	..
+0
+d/etc/fonts
+	..
+0
+d/etc
+	..
+0
+d/
+	home
+4
+d/home
+	b14ckr41n
+3
+d/home/b14ckr41n
+	.config
+2
+d/home/b14ckr41n/.config
+	herbstluftwm
+9
+d/home/b14ckr41n/.config/herbstluftwm
+	..
+0
+d/home/b14ckr41n/.config
+	twmn
+16
+d/home/b14ckr41n/.config/twmn
+	..
+0
+d/home/b14ckr41n/.config
+	..
+0
+d/home/b14ckr41n
+	.nanorc
+25
+d/home
+	b14ckr41n
+4
+d/home/b14ckr41n
+	images
+7
+d/home/b14ckr41n/images
+	Icons
+4
+d/home/b14ckr41n/images/Icons
+	KDE Icons
+1
+d/home/b14ckr41n/images/Icons/KDE Icons
+	..
+0
+d/home/b14ckr41n/images/Icons
+	..
+0
+d/home/b14ckr41n/images
+	..
+0
+d/home/b14ckr41n
+	.config
+2
+d/home/b14ckr41n/.config
+	herbstluftwm
+9
+d/home/b14ckr41n/.config/herbstluftwm
+	bin
+1
+d/home/b14ckr41n/.config/herbstluftwm/bin
+	..
+0
+d/home/b14ckr41n/.config/herbstluftwm
+	bin
+1
+d/home/b14ckr41n/.config/herbstluftwm/bin
+	..
+0
+d/home/b14ckr41n/.config/herbstluftwm
+	..
+0
+d/home/b14ckr41n/.config
+	systemd
+17
+d/home/b14ckr41n/.config/systemd
+	user
+1
+d/home/b14ckr41n/.config/systemd/user
+	default.target.wants
+1
+d/home/b14ckr41n/.config/systemd/user/default.target.wants
+	..
+0
+d/home/b14ckr41n/.config/systemd/user
+	default.target.wants
+1
+d/home/b14ckr41n/.config/systemd/user/default.target.wants
+	..
+0
+d/home/b14ckr41n/.config/systemd/user
+	..
+0
+d/home/b14ckr41n/.config/systemd
+	..
+0
+d/home/b14ckr41n/.config
+	..
+0
+d/home/b14ckr41n
+	bin
+2
+d/home/b14ckr41n/bin
+	..
+0
+d/home/b14ckr41n
+	downloads
+4
+d/home/b14ckr41n/downloads
+	..
+0
+d/home/b14ckr41n
+	dotfiles-master
+4
+d/home/b14ckr41n/dotfiles-master
+	awesome
+1
+d/home/b14ckr41n/dotfiles-master/awesome
+	3.5
+1
+d/home/b14ckr41n/dotfiles-master/awesome/3.5
+	anybox
+1
+d/home/b14ckr41n/dotfiles-master/awesome/3.5/anybox
+	..
+0
+d/home/b14ckr41n/dotfiles-master/awesome/3.5
+	anybox
+1
+d/home/b14ckr41n/dotfiles-master/awesome/3.5/anybox
+	vicious
+4
+d/home/b14ckr41n/dotfiles-master/awesome/3.5/anybox/vicious
+	..
+0
+d/home/b14ckr41n/dotfiles-master/awesome/3.5/anybox
+	simple
+3
+d/home/b14ckr41n/dotfiles-master/awesome/3.5/anybox/simple
+	..
+0
+d/home/b14ckr41n/dotfiles-master/awesome/3.5/anybox
+	arrow
+1
+d/home/b14ckr41n/dotfiles-master/awesome/3.5/anybox/arrow
+	..
+0
+d/home/b14ckr41n/dotfiles-master/awesome/3.5/anybox
+	..
+0
+d/home/b14ckr41n/dotfiles-master/awesome/3.5
+	binding
+2
+d/home/b14ckr41n/dotfiles-master/awesome/3.5/binding
+	..
+0
+d/home/b14ckr41n/dotfiles-master/awesome/3.5
+	main
+3
+d/home/b14ckr41n/dotfiles-master/awesome/3.5/main
+	..
+0
+d/home/b14ckr41n/dotfiles-master/awesome/3.5
+	anybox
+1
+d/home/b14ckr41n/dotfiles-master/awesome/3.5/anybox
+	..
+0
+d/home/b14ckr41n/dotfiles-master/awesome/3.5
+	themes
+6
+d/home/b14ckr41n/dotfiles-master/awesome/3.5/themes
+	clone
+1
+d/home/b14ckr41n/dotfiles-master/awesome/3.5/themes/clone
+	..
+0
+d/home/b14ckr41n/dotfiles-master/awesome/3.5/themes
+	..
+0
+d/home/b14ckr41n/dotfiles-master/awesome/3.5
+	..
+0
+d/home/b14ckr41n/dotfiles-master/awesome
+	..
+0
+d/home/b14ckr41n/dotfiles-master
+	fluxbox
+4
+d/home/b14ckr41n/dotfiles-master/fluxbox
+	arch
+1
+d/home/b14ckr41n/dotfiles-master/fluxbox/arch
+	..
+0
+d/home/b14ckr41n/dotfiles-master/fluxbox
+	..
+0
+d/home/b14ckr41n/dotfiles-master
+	terminal
+11
+d/home/b14ckr41n/dotfiles-master/terminal
+	..
+0
+d/home/b14ckr41n/dotfiles-master
+	bspwm
+2
+d/home/b14ckr41n/dotfiles-master/bspwm
+	..
+0
+d/home/b14ckr41n/dotfiles-master
+	herbstluftwm
+5
+d/home/b14ckr41n/dotfiles-master/herbstluftwm
+	bash
+1
+d/home/b14ckr41n/dotfiles-master/herbstluftwm/bash
+	autostart-unified.sh
+1
 d
 
 # Right window history (oldest to newest):
-D/home/b14ckr41n/.config/qutebrowser
-	..
-0
-D/home/b14ckr41n/.config
-	..
-0
 D/home/b14ckr41n
 	downloads
 3
@@ -627,8 +621,14 @@ D/home/b14ckr41n/darndest-dotfiles
 	..
 0
 D/home/b14ckr41n
-	downloads
-5
+	..
+0
+D/home
+	b14ckr41n
+3
+D/home/b14ckr41n
+	dotfiles-master.tar.gz
+17
 D
 
 # Command line history (oldest to newest):
@@ -641,6 +641,7 @@ D
 :view
 :za
 ::
+:elseif\
 
 # Search history (oldest to newest):
 
@@ -648,13 +649,12 @@ D
 pscripts
 pscreenshot000.png
 p.oracle_jre_usage
+pbash-logo.png
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/.vifm-Trash-1000/000_vcp-git-aur.tar.xz
-""/home/.vifm-Trash-1000/000_Dropbox
-""/home/.vifm-Trash-1000/000_metasploitable-linux-2.0.0.zip?r=https:%2F%2Fsourceforge.net%2Fprojects%2Fmetasploitable%2Ffiles%2Flatest%2Fdownload&ts=1529709220
+""/home/.vifm-Trash-1000/000_2018-11-27-194117_774x544_scrot.png
 
 # Directory stack (oldest to newest):
 
@@ -721,14 +721,50 @@ t/home/.vifm-Trash-1000/000_VirtualBox VMs
 	/home/b14ckr41n/VirtualBox VMs
 t/home/.vifm-Trash-1000/000_Dropbox
 	/home/b14ckr41n/Dropbox
+t/home/.vifm-Trash-1000/000_.lesshst
+	/home/b14ckr41n/.lesshst
+t/home/.vifm-Trash-1000/000_.todo
+	/home/b14ckr41n/.todo
+t/home/.vifm-Trash-1000/000_KDE Icons
+	/home/b14ckr41n/images/Icons/KDE Icons
+t/home/.vifm-Trash-1000/000_KDE_Icons
+	/home/b14ckr41n/images/Icons/KDE_Icons
+t/home/.vifm-Trash-1000/000_osx
+	/home/b14ckr41n/images/Icons/osx
+t/home/.vifm-Trash-1000/000_250px-Irssi_logo.svg.png
+	/home/b14ckr41n/images/Icons/250px-Irssi_logo.svg.png
+t/home/.vifm-Trash-1000/000_bsp
+	/home/b14ckr41n/.config/herbstluftwm/bin/bsp
+t/home/.vifm-Trash-1000/000_bspwm
+	/home/b14ckr41n/.config/herbstluftwm/bin/bspwm
+t/home/.vifm-Trash-1000/000_twmnd.service
+	/home/b14ckr41n/.config/systemd/user/twmnd.service
+t/home/.vifm-Trash-1000/001_twmnd.service
+	/home/b14ckr41n/.config/systemd/user/default.target.wants/twmnd.service
+t/home/.vifm-Trash-1000/000_greenclip.cfg
+	/home/b14ckr41n/.config/greenclip.cfg
+t/home/.vifm-Trash-1000/000_.prboom
+	/home/b14ckr41n/.prboom
+t/home/.vifm-Trash-1000/000_.skulltag
+	/home/b14ckr41n/.skulltag
+t/home/.vifm-Trash-1000/000_pinentry-rofi-aur
+	/home/b14ckr41n/pinentry-rofi-aur
+t/home/.vifm-Trash-1000/000_twmn-git
+	/home/b14ckr41n/twmn-git
+t/home/.vifm-Trash-1000/000_battery-notify.service
+	/home/b14ckr41n/battery-notify.service
+t/home/.vifm-Trash-1000/000_2018-11-27-193706_773x544_scrot.png
+	/home/b14ckr41n/2018-11-27-193706_773x544_scrot.png
+t/home/.vifm-Trash-1000/000_2018-11-27-194117_774x544_scrot.png
+	/home/b14ckr41n/2018-11-27-194117_774x544_scrot.png
 
 # State:
 f
 i1
-[.0
+[.1
 [F
 F
 I1
-].0
+].1
 ]F
 s0

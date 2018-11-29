@@ -20,22 +20,17 @@ hc() {
 
 hc emit_hook reload
 
-# start daemons
-if [ $(pidof twmnd) ]; then
-  pkill twmnd
+# Start background apps ONLY if not alreadly running
+if hc silent new_attr bool my_not_first_autostart; then
+  twmnd &
+  battmon --interval 5 --delta 3 --low 10 --critical 3 --dark &
 fi
-twmnd &
-
-if [ $(pidof battmon) ]; then
-  pkill battmon
-fi
-
-battmon --interval 5 --delta 3 --low 10 --critical 3 --dark &
 
 # kill panel
-pkill trayer
+#pkill trayer
 pkill conky
-pkill dzen2
+#pkill dzen2
+pkill lemonbar
 
 
 # remove all existing keybindings
@@ -95,10 +90,11 @@ hc keybind $Mod-Alt-j       resize down +$resizestep
 hc keybind $Mod-Alt-k       resize up +$resizestep
 hc keybind $Mod-Alt-l       resize right +$resizestep
 
-########################################################
+
 # tags
 tag_names=( {1..9} )
 tag_keys=( {1..9} 0 )
+
 
 hc rename default "${tag_names[0]}" || true
 for i in ${!tag_names[@]} ; do
@@ -108,6 +104,10 @@ for i in ${!tag_names[@]} ; do
         hc keybind "$Mod-$key" use_index "$i"
         hc keybind "$Mod-Shift-$key" move_index "$i"
     fi
+done
+
+for i in "${tag_names[@]}"; do
+    hc set_layout horizontal
 done
 
 # cycle through tags
@@ -137,80 +137,90 @@ hc mousebind $Mod-Button2 resize
 # focus
 hc keybind $Mod-BackSpace   cycle_monitor
 hc keybind $Mod-Shift-Tab   cycle_all -1
-hc keybind $Mod-c cycle
+#hc keybind $Mod-c cycle
 hc keybind $Mod-i jumpto urgent
 
-################### ScratchPad ##################
-hc keybind F1 spawn $BIN/q3terminal.sh
-
-############### Media Keys #########################
-hc keybind XF86AudioLowerVolume spawn $BIN/volume_change_wrapper -
-hc keybind XF86AudioRaiseVolume spawn $BIN/volume_change_wrapper +
-hc keybind XF86AudioMute spawn $BIN/volume_change_wrapper m
-
+##################### Screenshots #######################
+#hc keybind $Mod-z spawn scrot -s
 
 ################# Theme ##################################
 hc attr theme.tiling.reset 1
 hc attr theme.floating.reset 1
 
 # Frame
-hc set frame_border_width 0
-hc set frame_padding 0
-hc set smart_frame_surroundings 0
-hc set always_show_frame 0
-hc set frame_bg_transparent 1
-hc set frame_transparent_width 0
+hc set frame_border_width              0
+hc set frame_padding                   0
+hc set smart_frame_surroundings        0
+hc set always_show_frame               0
+#hc set frame_bg_transparent            1
+hc set frame_active_opacity            1
+hc set frame_normal_opacity            1
+hc set frame_transparent_width         0
 
 # Windows ?
-hc set window_gap                   13
-hc set smart_window_surroundings 0
-hc attr theme.active.color '#8888FF'
-gc attr theme.normal.color 0 
-hc attr theme.urgent.color '#FF0000'
-hc attr theme.inner_width 0
-hc attr theme.inner_color black
-hc attr theme.floating.border_width 4
-hc attr theme.floating.outer_width 1
-hc attr theme.floating.outer_color black
-hc attr theme.active.inner_color '#3E4A00'
-hc attr theme.active.outer_color '#3E4A00'
-hc attr theme.background_color '#141414'
-hc attr theme.border_width            1
-hc attr theme.floating.border_width   0
-hc attr theme.floating.outer_color    black
-hc attr theme.floating.outer_width    0
-hc attr theme.outer_width             0
+hc set window_gap                      13
+hc set smart_window_surroundings       0
+hc attr theme.active.color             '#8888FF'
+hc attr theme.normal.color             '#0000FF'
+hc attr theme.urgent.color             '#FF0000'
+hc attr theme.inner_width              0
+hc attr theme.inner_color              0
+hc attr theme.active.inner_color       0
+hc attr theme.active.outer_color       0
+hc attr theme.background_color         0
+hc attr theme.border_width             1
+hc attr theme.floating.border_width    0
+hc attr theme.floating.outer_color     black
+hc attr theme.floating.outer_width     0
+hc attr theme.outer_width              0
 
-hc set gapless_grid                   0
-hc set mouse_recenter_gap             0
-hc set focus_follows_mouse 0
+hc set gapless_grid                    0
+hc set mouse_recenter_gap              0
+hc set focus_follows_mouse             0
 
-################ APPS ##############################
-hc keybind $Mod+Shift+Return spawn qutebrowser
+########################### Menus
 hc keybind $Mod+space spawn dmenu_extended_run
 hc keybind $Mod+Shift+space spawn adams_hlwm_menu
 hc keybind $Mod-Control-space spawn $BIN/herbstcommander.sh
+
+########################### Apps
+hc keybind $Mod+Shift+Return spawn qutebrowser
 hc keybind $Mod+b spawn tor-browser-en
 hc keybind $Mod+w spawn wing6.1
 hc keybind $Mod+q spawn qtcreator
 hc keybind $Mod+g spawn gvim
-hc keybind $Mod+v spawn alacritty -e vifm
+
+############################ Scripts
+hc keybind $Mod+c spawn $BIN/calendar.sh
+hc keybind $Mod+m spawn $BIN/maximize.sh # similar monocle in bspwm
+
+################### ScratchPad ##################
+hc keybind F1 spawn $BIN/q3terminal.sh
+hc keybind F12 spawn $BIN/vifmterm.sh
+
+############### Media Keys #########################
+hc keybind XF86AudioLowerVolume spawn $BIN/volume_change_wrapper -
+hc keybind XF86AudioRaiseVolume spawn $BIN/volume_change_wrapper +
+hc keybind XF86AudioMute spawn $BIN/volume_change_wrapper m
 
 # rules
 hc unrule -F
-hc rule class=qutebrowser tag=2 # move all xterms to tag 3
+hc rule class=qutebrowser tag=2
+hc rule class=qBittorrent tag=4
+hc rule class=qtcreator   tag=3
+hc rule class=wing6.1     tag=3
 hc rule focus=on # normally focus new clients
+hc rule instance=_scratch fullscreen=on
 #hc rule focus=off # normally do not focus new clients
 # give focus to most common terminals
 #hc rule class~'(.*[Rr]xvt.*|.*[Tt]erm|Konsole)' focus=on
 
 
 ############################ Read up on #################################################
-hc rule windowtype~'_NET_WM_WINDOW_TYPE_(DIALOG|UTILITY|SPLASH)' pseudotile=on
+#hc rule windowtype~'_NET_WM_WINDOW_TYPE_(DIALOG|UTILITY|SPLASH)' pseudotile=on
 hc rule windowtype='_NET_WM_WINDOW_TYPE_DIALOG' focus=on
-#hc rule windowtype='_NET_WM_WINDOW_TYPE_DIALOG' fullscreen=on
+hc rule windowtype='_NET_WM_WINDOW_TYPE_DIALOG' fullscreen=on
 hc rule windowtype~'_NET_WM_WINDOW_TYPE_(NOTIFICATION|DOCK|DESKTOP)' manage=off
-
 
 
 hc set tree_style '╾│ ├└╼─┐'

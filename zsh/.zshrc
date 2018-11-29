@@ -217,7 +217,7 @@ SPACESHIP_PROMPT_ORDER=(
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colorize colored-man-pages_mod compleat copyfile copydir cp dircycle dirhistory dirpersist history history-substring-search systemd systemadmin pass zsh-syntax-highlighting python github git-prompt nmap pip zsh-autosuggestions zsh-completions zsh-history-substring-search zsh-reload zsh-navigation-tools archlinux bspwm rsync sudo safe-paste battery fasd zshmarks aurtab cp taskwarrior)
+plugins=(git colorize colored-man-pages_mod command-not-found compleat copyfile copydir cp dircycle dirhistory dirpersist find-the-command history history-substring-search systemd systemadmin pass zsh-syntax-highlighting python github git-prompt nmap pip zsh-autosuggestions zsh-completions zsh-history-substring-search zsh-reload zsh-navigation-tools archlinux bspwm rsync sudo safe-paste fasd zshmarks cp taskwarrior fancy-ctrl-z)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -315,7 +315,9 @@ setopt extendedglob
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 unalias h
-  
+ 
+alias j="jump"
+alias b="bookmark"
 alias count='ls -1 | wc -l'
 alias l="clear && ls $@"
 alias ll="clear && ls -lh"
@@ -358,6 +360,7 @@ alias rcp='rsync -aP'
 alias rmv='rsync -aP --remove-source-files'
 alias restore='trash-restore'
 alias h='function hdi(){ howdoi $* -c -n 5; }; hdi'
+alias quit='sudo shutdown -h now'
 
 task list
 ################# Functions ######################
@@ -485,6 +488,8 @@ bindkey "^[[F" end-of-line
 #### THIS NEEDS TO BE UNCOMMENTED FOR SPACESHIOP TO WORK
 source "/home/b14ckr41n/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 
+
+eval "$(fasd --init auto)"
 
 # syntax highlight source ######################### MUST BE LAST LINE IN FILE ###################
 source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

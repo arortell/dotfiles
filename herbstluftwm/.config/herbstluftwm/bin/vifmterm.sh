@@ -12,7 +12,7 @@
 #
 # If a tag name is supplied, this is used instead of the scratchpad
 
-tag="${1:-scratchpad}"
+tag="${1:-vifm}"
 hc() { "${herbstclient_command[@]:-herbstclient}" "$@" ;}
 
 termwidth_percent=${WIDTH_PERC:-100}
@@ -33,7 +33,7 @@ y_line=${mrect[1]}
 hc add "$tag"
 
 
-monitor=q3terminal
+monitor=vifmterm
 
 exists=false
 if ! hc add_monitor $(printf "%dx%d%+d%+d" "${rect[@]}") \

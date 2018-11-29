@@ -27,8 +27,8 @@ compton >> ~/.logs/xinit.log 2>&1 &
 echo 'setting Cursor\n' >> ~/.logs/xinit.log
 xsetroot -cursor_name left_ptr 2>&1 &
 
-echo 'starting gpg-agent daemon\n' >> ~/.logs/xinit.log
-gpg-agent --daemon --pinentry-program /usr/bin/pinentry >> ~/.logs/xinit.log 2>&1 &
+#echo 'starting gpg-agent daemon\n' >> ~/.logs/xinit.log
+#gpg-agent --daemon --pinentry-program /usr/bin/pinentry-rofi >> ~/.logs/xinit.log 2>&1 &
 
 echo '##################### Setting Wallpaper ###################\n' >> ~/.logs/xinit.log
 feh --bg-fill /home/Yandex-Disk/images/Wallpapers/Arch/b4ck4rch.png
@@ -41,7 +41,7 @@ xset s off
 xset s noblank
 xset -dpms
 
-# start herbstluftwm
+# start Window Manager
 echo '###################### Starting Window-Manager ################\n' >> ~/.logs/xinit.log
 echo 'starting herbstluftwm\n' >> ~/.logs/herbstluftwm.log
-exec herbstluftwm --locked
+exec herbstluftwm --verbose --locked
