@@ -82,7 +82,7 @@ if is_hidpi:
     conky_sep = '%{T3}%{F\\#878787} / %{T2} %{T-}'
 conky_text = ""
 conky_text += "${if_existing /sys/class/power_supply/BAT0}"
-conky_text += conky_sep
+#conky_text += conky_sep
 conky_text += "%{T2}"
 conky_text += "${if_match \"$battery\" == \"discharging $battery_percent%\"}"
 conky_text += "%{F\\#FFC726}"
@@ -104,8 +104,8 @@ conky_text += " $battery_percent% "
 conky_text += "${endif}" # endif: if BAT0 exists
 conky_text += "%{B-}%{F-}"
 conky_text += conky_sep
-conky_text += '%{F\\#CDCDCD}${time %d. %B}'
-conky_text += conky_sep
+conky_text += '%{F\\#CDCDCD}${time %B %d }'
+#conky_text += conky_sep
 conky_text += '%{F\\#CDCDCD}'
 
 # example options for the hlwm.HLWMLayoutSwitcher widget
@@ -190,7 +190,7 @@ lemonbar_options = {
     'background': '#CC101010',
 }
 
-lemonbar_options['font'] = 'SSource Code Pro:size=8'
+lemonbar_options['font'] = 'Ubuntu Mono:size=10'
 
 if is_hidpi:
     lemonbar_options['font'] = 'Bitstream Vera Sans:size=8'
@@ -218,10 +218,10 @@ bar.widget = W.ListLayout([
     ])), tab_renderer = tab_renderer),
     W.RawLabel('%{r}'),
     # something like a tabbed widget with the tab labels '>' and '<'
-    W.TabbedLayout([
-        ('0', W.RawLabel('')),
-        ('1', hlwm.HLWMLayoutSwitcher(hc, xkblayouts, command = setxkbmap.split(' '))),
-        ], tab_renderer = zip_renderer),
+#    W.TabbedLayout([
+#        ('0', W.RawLabel('')),
+#        ('1', hlwm.HLWMLayoutSwitcher(hc, xkblayouts, command = setxkbmap.split(' '))),
+#        ], tab_renderer = zip_renderer),
     conky.ConkyWidget(text= conky_text),
     W.DateTime('%I:%M %p'),
 ])

@@ -17,9 +17,8 @@
     "indicator_alias": "",
     "indicator_edit": "*",
     "indicator_submenu": "->",
-    "menu": "rofi",
+    "menu": "dmenu",
     "menu_arguments": [
-        "-dmenu",
         "-i",
         "-nf",
         "#888888",
@@ -30,7 +29,7 @@
         "-sb",
         "#1D1F21",
         "-fn",
-        "Hack 12",
+        "Hack 10",
         "-l",
         "10"
     ],

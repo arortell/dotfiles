@@ -1,67 +1,91 @@
 [
     [
-        "Avahi VNC Server Browser",
-        "bvnc"
-    ],
-    [
-        "Avahi Zeroconf Browser",
-        "avahi-discover"
-    ],
-    [
-        "Feh",
-        "feh"
-    ],
-    [
-        "Zim Desktop Wiki",
-        "zim"
-    ],
-    [
-        "qBittorrent",
-        "qbittorrent"
-    ],
-    [
-        "Avahi SSH Server Browser",
-        "bssh"
-    ],
-    [
-        "gVim",
-        "gvim -f"
-    ],
-    [
         "Icon Browser",
         "gtk3-icon-browser"
     ],
     [
-        "compton",
-        "compton"
+        "Zenmap",
+        "zenmap"
     ],
     [
-        "Tor Browser (en-US)",
-        "tor-browser-en"
+        "Vifm",
+        "vifm;"
     ],
     [
-        "networkmanager_dmenu",
-        "networkmanager_dmenu"
+        "Avahi VNC Server Browser",
+        "bvnc"
+    ],
+    [
+        "Oracle VM VirtualBox",
+        "VirtualBox"
     ],
     [
         "Vim",
         "vim;"
     ],
     [
-        "ipython",
-        "ipython;"
+        "CMake",
+        "cmake-gui"
     ],
     [
-        "Qt V4L2 video capture utility",
-        "qvidcap"
+        "Feh",
+        "feh --start-at"
     ],
     [
         "qutebrowser",
         "qutebrowser"
     ],
     [
+        "Avahi SSH Server Browser",
+        "bssh"
+    ],
+    [
+        "GTK+ Demo",
+        "gtk3-demo"
+    ],
+    [
+        "Zenmap (as root)",
+        "/usr/share/zenmap/su-to-zenmap.sh"
+    ],
+    [
+        "gVim",
+        "gvim -f"
+    ],
+    [
+        "mpv Media Player",
+        "mpv --player-operation-mode=pseudo-gui --"
+    ],
+    [
         "Alacritty",
         "alacritty"
+    ],
+    [
+        "Htop",
+        "htop;"
+    ],
+    [
+        "Avahi Zeroconf Browser",
+        "avahi-discover"
+    ],
+    [
+        "Widget Factory",
+        "gtk3-widget-factory"
+    ],
+    [
+        "Wing Pro 6.1",
+        "wing6.1"
+    ],
+    [
+        "Zim Desktop Wiki",
+        "zim"
+    ],
+    [
+        "compton",
+        "compton"
+    ],
+    [
+        "Qt V4L2 video capture utility",
+        "qvidcap"
     ],
     [
         "Dropbox",
@@ -72,39 +96,23 @@
         "lftp;"
     ],
     [
-        "Widget Factory",
-        "gtk3-widget-factory"
+        "ipython",
+        "ipython;"
     ],
     [
-        "Vifm",
-        "vifm;"
+        "qBittorrent",
+        "qbittorrent"
     ],
     [
-        "Wing Pro 6.1",
-        "wing6.1"
-    ],
-    [
-        "mpv Media Player",
-        "mpv --player-operation-mode=pseudo-gui --"
-    ],
-    [
-        "GTK+ Demo",
-        "gtk3-demo"
-    ],
-    [
-        "CMake",
-        "cmake-gui"
+        "Tor Browser (en-US)",
+        "tor-browser-en"
     ],
     [
         "Qt V4L2 test Utility",
         "qv4l2"
     ],
     [
-        "Oracle VM VirtualBox",
-        "VirtualBox"
-    ],
-    [
-        "Htop",
-        "htop;"
+        "networkmanager_dmenu",
+        "networkmanager_dmenu"
     ]
 ]

@@ -25,8 +25,7 @@ menu_msg="\
 2) Systemd Functions\n\
 3) USB\n\
 4) Surfraw Search\n\
-5) Network Manager\n
-6) Bspwm Cheat Sheet\n"
+5) Bspwm Cheat Sheet\n"
 
 
 response=$( echo -e $menu_msg | dmenu -p "Adam's Menu -> ")
@@ -44,7 +43,5 @@ case $msg in
     ;;
   4*) rofi-surfraw
     ;;
-  5*) networkmanager_dmenu
-    ;;
-  6*) terminology --title=_scratch --name=_scratch --geometry=149x43  --exec 'vi .config/rofi/bspkeys'
+  5*) terminology --title=_scratch --name=_scratch --geometry=149x43  --exec 'vi .config/rofi/bspkeys'
 esac
