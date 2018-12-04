@@ -1226,7 +1226,7 @@ c.prompt.filebrowser = False
 ##   - tr-TR: Turkish (Turkey)
 ##   - uk-UA: Ukrainian (Ukraine)
 ##   - vi-VN: Vietnamese (Viet Nam)
-# c.spellcheck.languages = []
+c.spellcheck.languages = ["en-US"]
 
 ## Hide the statusbar unless a message is shown.
 ## Type: Bool
@@ -1792,3 +1792,8 @@ c.url.start_pages = ['https://start.parrotsec.org']
 # config.bind('<Return>', 'prompt-accept', mode='yesno')
 # config.bind('n', 'prompt-accept no', mode='yesno')
 # config.bind('y', 'prompt-accept yes', mode='yesno')
+config.bind('<z><l>', 'spawn --userscript qute-pass')
+config.bind('<z><u><l>', 'spawn --userscript qute-pass --username-only')
+config.bind('<z><p><l>', 'spawn --userscript qute-pass --password-only')
+config.bind('<z><o><l>', 'spawn --userscript qute-pass --otp-only')
+

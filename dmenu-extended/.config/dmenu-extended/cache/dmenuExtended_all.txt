@@ -3,6 +3,7 @@ Feh
 Vifm
 gVim
 Htop
+vimb
 lftp
 CMake
 Zenmap
@@ -12,13 +13,16 @@ ipython
 GTK+ Demo
 Alacritty
 qutebrowser
+Where am I?
 qBittorrent
+ ~/bin/sgvim
 Icon Browser
 Wing Pro 6.1
 Widget Factory
 Zenmap (as root)
 mpv Media Player
 Zim Desktop Wiki
+Geoclue Demo agent
 Tor Browser (en-US)
 Oracle VM VirtualBox
 Qt V4L2 test Utility

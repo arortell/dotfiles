@@ -52,6 +52,10 @@
         "gvim -f"
     ],
     [
+        "Where am I?",
+        "/usr/lib/geoclue-2.0/demos/where-am-i;"
+    ],
+    [
         "mpv Media Player",
         "mpv --player-operation-mode=pseudo-gui --"
     ],
@@ -80,6 +84,10 @@
         "zim"
     ],
     [
+        "vimb",
+        "vimb"
+    ],
+    [
         "compton",
         "compton"
     ],
@@ -102,6 +110,10 @@
     [
         "qBittorrent",
         "qbittorrent"
+    ],
+    [
+        "Geoclue Demo agent",
+        "/usr/lib/geoclue-2.0/demos/agent"
     ],
     [
         "Tor Browser (en-US)",
