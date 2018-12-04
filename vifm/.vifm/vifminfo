@@ -26,75 +26,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/b14ckr41n/darndest-dotfiles
-	sxhkd
-8
-d/home/b14ckr41n/darndest-dotfiles/sxhkd
-	.config
-1
-d/home/b14ckr41n/darndest-dotfiles/sxhkd/.config
-	sxhkd
-1
-d/home/b14ckr41n/darndest-dotfiles/sxhkd/.config/sxhkd
-	..
-0
-d/home/b14ckr41n/darndest-dotfiles/sxhkd/.config
-	..
-0
-d/home/b14ckr41n/darndest-dotfiles/sxhkd
-	..
-0
-d/home/b14ckr41n/darndest-dotfiles
-	..
-0
-d/home/b14ckr41n
-	herb-dev-dotfiles
-10
-d/home/b14ckr41n/herb-dev-dotfiles
-	3rd-party
-1
-d/home/b14ckr41n/herb-dev-dotfiles/3rd-party
-	..
-0
-d/home/b14ckr41n/herb-dev-dotfiles
-	Xdefaults.d
-2
-d/home/b14ckr41n/herb-dev-dotfiles/Xdefaults.d
-	..
-0
-d/home/b14ckr41n/herb-dev-dotfiles
-	ascii
-3
-d/home/b14ckr41n/herb-dev-dotfiles/ascii
-	..
-0
-d/home/b14ckr41n/herb-dev-dotfiles
-	menu
-8
-d/home/b14ckr41n/herb-dev-dotfiles/menu
-	..
-0
-d/home/b14ckr41n/herb-dev-dotfiles
-	gvimrc
-31
-d/home/b14ckr41n/Dropbox
-	..
-0
-d/home/b14ckr41n
-	..
-0
-d/home
-	..
-0
-d/
-	etc
-3
-d/etc
-	conf.d
-13
-d/etc/conf.d
-	..
-0
 d/etc
 	fonts
 20
@@ -325,6 +256,75 @@ d/home/b14ckr41n/dotfiles-master/herbstluftwm
 1
 d/home/b14ckr41n/dotfiles-master/herbstluftwm/bash
 	autostart-unified.sh
+1
+d/home/b14ckr41n
+	dotfiles
+5
+d/home/b14ckr41n/dotfiles
+	..
+0
+d/home/b14ckr41n
+	GhostNET
+1
+d/home/b14ckr41n/GhostNET
+	ghostnet
+2
+d/home/b14ckr41n
+	herbstluftwm
+6
+d/home/b14ckr41n/herbstluftwm
+	conky
+2
+d/home/b14ckr41n/herbstluftwm/conky
+	..
+0
+d/home/b14ckr41n/herbstluftwm
+	..
+0
+d/home/b14ckr41n
+	.config
+3
+d/home/b14ckr41n/.config
+	barpyrus
+5
+d/home/b14ckr41n/.config/barpyrus
+	..
+0
+d/home/b14ckr41n/.config
+	autostart
+4
+d/home/b14ckr41n/.config/autostart
+	..
+0
+d/home/b14ckr41n/.config
+	dmenu-launch
+8
+d/home/b14ckr41n/.config/dmenu-launch
+	..
+0
+d/home/b14ckr41n/.config
+	systemd
+17
+d/home/b14ckr41n/.config/systemd
+	user
+1
+d/home/b14ckr41n/.config/systemd/user
+	default.target.wants
+1
+d/home/b14ckr41n/.config/systemd/user/default.target.wants
+	..
+0
+d/home/b14ckr41n/.config/systemd/user
+	..
+0
+d/home/b14ckr41n/.config/systemd
+	..
+0
+d/home/b14ckr41n/.config
+	..
+0
+d/home/b14ckr41n
+	audio
 1
 d
 
@@ -627,8 +627,8 @@ D/home
 	b14ckr41n
 3
 D/home/b14ckr41n
-	dotfiles-master.tar.gz
-17
+	comprehensive_config.py
+16
 D
 
 # Command line history (oldest to newest):
@@ -654,7 +654,7 @@ pbash-logo.png
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/.vifm-Trash-1000/000_2018-11-27-194117_774x544_scrot.png
+""/home/.vifm-Trash-1000/000_gzdoom
 
 # Directory stack (oldest to newest):
 
@@ -757,6 +757,14 @@ t/home/.vifm-Trash-1000/000_2018-11-27-193706_773x544_scrot.png
 	/home/b14ckr41n/2018-11-27-193706_773x544_scrot.png
 t/home/.vifm-Trash-1000/000_2018-11-27-194117_774x544_scrot.png
 	/home/b14ckr41n/2018-11-27-194117_774x544_scrot.png
+t/home/.vifm-Trash-1000/000_herbstluftwm
+	/home/b14ckr41n/herbstluftwm
+t/home/.vifm-Trash-1000/000_dotfiles-master
+	/home/b14ckr41n/dotfiles-master
+t/home/.vifm-Trash-1000/000_wingide-6.0.2-1-x86_64-linux.tar.bz2
+	/home/b14ckr41n/wingide-6.0.2-1-x86_64-linux.tar.bz2
+t/home/.vifm-Trash-1000/000_gzdoom
+	/home/b14ckr41n/.config/gzdoom
 
 # State:
 f

@@ -11,6 +11,7 @@ Avahi SSH Server Browser
 GTK+ Demo
 Zenmap (as root)
 gVim
+Where am I?
 mpv Media Player
 Alacritty
 Htop
@@ -18,12 +19,14 @@ Avahi Zeroconf Browser
 Widget Factory
 Wing Pro 6.1
 Zim Desktop Wiki
+vimb
 compton
 Qt V4L2 video capture utility
 Dropbox
 lftp
 ipython
 qBittorrent
+Geoclue Demo agent
 Tor Browser (en-US)
 Qt V4L2 test Utility
 networkmanager_dmenu
