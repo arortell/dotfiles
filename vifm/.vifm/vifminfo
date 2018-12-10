@@ -17,7 +17,7 @@
 # Bookmarks:
 
 # TUI:
-al
+ar
 q0
 v2
 ov
@@ -26,66 +26,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/etc
-	fonts
-20
-d/etc/fonts
-	conf.d
-2
-d/etc/fonts/conf.d
-	..
-0
-d/etc/fonts
-	..
-0
-d/etc
-	..
-0
-d/
-	home
-4
-d/home
-	b14ckr41n
-3
-d/home/b14ckr41n
-	.config
-2
-d/home/b14ckr41n/.config
-	herbstluftwm
-9
-d/home/b14ckr41n/.config/herbstluftwm
-	..
-0
-d/home/b14ckr41n/.config
-	twmn
-16
-d/home/b14ckr41n/.config/twmn
-	..
-0
-d/home/b14ckr41n/.config
-	..
-0
-d/home/b14ckr41n
-	.nanorc
-25
-d/home
-	b14ckr41n
-4
-d/home/b14ckr41n
-	images
-7
-d/home/b14ckr41n/images
-	Icons
-4
-d/home/b14ckr41n/images/Icons
-	KDE Icons
-1
-d/home/b14ckr41n/images/Icons/KDE Icons
-	..
-0
-d/home/b14ckr41n/images/Icons
-	..
-0
 d/home/b14ckr41n/images
 	..
 0
@@ -326,45 +266,69 @@ d/home/b14ckr41n/.config
 d/home/b14ckr41n
 	audio
 1
+d/home/b14ckr41n/audio
+	..
+0
+d/home/b14ckr41n
+	..
+0
+d/home
+	..
+0
+d/
+	usr
+17
+d/usr
+	lib
+3
+d/usr/lib
+	python3.7
+31
+d/usr/lib/python3.7
+	site-packages
+24
+d/usr/lib/python3.7/site-packages
+	barpyrus
+23
+d/usr/lib/python3.7/site-packages/barpyrus
+	..
+0
+d/usr/lib/python3.7/site-packages
+	IPython
+1
+d/usr/lib/python3.7/site-packages/IPython
+	external
+4
+d/usr/lib/python3.7/site-packages
+	IPython
+1
+d/usr/lib/python3.7
+	site-packages
+24
+d/usr/lib
+	python3.7
+31
+d/usr
+	lib
+3
+d/
+	home
+4
+d/home
+	backups
+4
+d/home/backups
+	zsh
+2
+d/home/backups/zsh
+	..
+0
+d/home/backups
+	.dotfiles
+1
 d
 
 # Right window history (oldest to newest):
-D/home/b14ckr41n
-	downloads
-3
-D/home/b14ckr41n/downloads
-	..
-0
-D/home/b14ckr41n
-	notes
-6
-D/home/b14ckr41n/notes
-	Programming Notes
-3
-D/home/b14ckr41n/notes/Programming Notes
-	imgs
-3
-D/home/b14ckr41n/notes/Programming Notes/imgs
-	..
-0
-D/home/b14ckr41n/notes/Programming Notes
-	..
-0
-D/home/b14ckr41n/notes
-	Notes
-2
-D/home/b14ckr41n/notes/Notes
-	..
-0
-D/home/b14ckr41n/notes
-	Hacking
-1
-D/home/b14ckr41n/notes/Hacking
-	..
-0
-D/home/b14ckr41n/notes
-	Programming Notes
-2
 D/home/b14ckr41n/notes/Programming Notes
 	Bash
 1
@@ -627,8 +591,44 @@ D/home
 	b14ckr41n
 3
 D/home/b14ckr41n
-	comprehensive_config.py
-16
+	source
+13
+D/home/b14ckr41n/source
+	barpyrus-configs
+7
+D/home/b14ckr41n/source/barpyrus-configs
+	..
+0
+D/home/b14ckr41n/source
+	..
+0
+D/home/b14ckr41n
+	.config
+3
+D/home/b14ckr41n/.config
+	barpyrus
+5
+D/home/b14ckr41n/.config/barpyrus
+	..
+0
+D/home/b14ckr41n/.config
+	..
+0
+D/home/b14ckr41n
+	.dotfiles
+4
+D/home
+	b14ckr41n
+4
+D/
+	home
+4
+D/home
+	b14ckr41n
+4
+D/home/b14ckr41n
+	audio
+1
 D
 
 # Command line history (oldest to newest):
@@ -654,7 +654,7 @@ pbash-logo.png
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/.vifm-Trash-1000/000_gzdoom
+""/home/b14ckr41n/.dotfiles
 
 # Directory stack (oldest to newest):
 
@@ -765,11 +765,17 @@ t/home/.vifm-Trash-1000/000_wingide-6.0.2-1-x86_64-linux.tar.bz2
 	/home/b14ckr41n/wingide-6.0.2-1-x86_64-linux.tar.bz2
 t/home/.vifm-Trash-1000/000_gzdoom
 	/home/b14ckr41n/.config/gzdoom
+t/home/.vifm-Trash-1000/000_.dotfiles
+	/home/backups/.dotfiles
+t/home/.vifm-Trash-1000/000_dotfile
+	/home/backups/dotfile
+t/home/.vifm-Trash-1000/000_zsh
+	/home/backups/zsh
 
 # State:
 f
 i1
-[.1
+[.0
 [F
 F
 I1

@@ -367,3 +367,27 @@ cd pacaur/
 makepkg -si
 ..
 zsh
+ip address 
+ls -a
+zsh
+ls -a
+zsh
+pac grub
+cd /bin
+sudo unlink vi
+sudo ln -s vim vi
+cd
+pac rofi-pass
+chsh -s /bin/zsh 
+vi INSTALLED 
+zsh
+ls -a
+zsh
+cd cower/
+ip address 
+cd pacaur/
+cd pac/
+makepkg -si
+..
+rm -rf cower/
+pac -S apparmor linux-hardened linux-hardened-headers firejail-apparmor

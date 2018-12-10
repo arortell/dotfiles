@@ -76,13 +76,13 @@ bat_icons = [
 bat_delta = 100 / len(bat_icons)
 
 #conky_sep = '%{T2}  %{T-}%{F\\#FEA63C}|%{T2} %{T-}'
-#conky_sep = '%{T3}%{F\\#FEA63C}\ue1b1%{T-}'
-conky_sep = '%{T3}%{F\\#878787}\ue1ac%{T2} %{T-}'
+conky_sep = '%{T3}%{F\\#FEA63C}\ue1b1%{T-}'
+#conky_sep = '%{T3}%{F\\#878787}\ue1ac%{T2} %{T-}'
 if is_hidpi:
     conky_sep = '%{T3}%{F\\#878787} / %{T2} %{T-}'
 conky_text = ""
 conky_text += "${if_existing /sys/class/power_supply/BAT0}"
-#conky_text += conky_sep
+conky_text += conky_sep
 conky_text += "%{T2}"
 conky_text += "${if_match \"$battery\" == \"discharging $battery_percent%\"}"
 conky_text += "%{F\\#FFC726}"
