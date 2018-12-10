@@ -1,0 +1,14 @@
+2018-12-09.18:38:00
+Got signal 11, faulty address is 8, from 0xa344fa 
+0.1.5.1010 x64
+[bt] Execution path:
+[bt] /usr/bin/yandex-disk() [0xa344fa]
+[bt] /usr/bin/yandex-disk() [0xa344fa]
+[bt] /usr/bin/yandex-disk() [0xa3737f]
+[bt] /usr/bin/yandex-disk() [0x45b01a]
+[bt] /usr/bin/yandex-disk() [0x4332df]
+[bt] /usr/bin/yandex-disk() [0x810255]
+[bt] /usr/bin/yandex-disk() [0xa5883c]
+[bt] /usr/lib/libpthread.so.0(+0x7a9d) [0x6f840c3bca9d]
+[bt] /usr/lib/libc.so.6(clone+0x43) [0x6f840bfbcb23]
+

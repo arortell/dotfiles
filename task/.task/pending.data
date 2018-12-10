@@ -7,3 +7,6 @@
 [description:"vim-dwm" entry:"1543930806" modified:"1543930806" status:"pending" uuid:"b2efc458-1451-449f-9158-d9591ba76443"]
 [description:"qute-pass" entry:"1543930813" modified:"1543930813" status:"pending" uuid:"129ccf85-c1c2-43b6-855d-b63d0e0f0d02"]
 [description:"firejail" entry:"1544396341" modified:"1544396341" status:"pending" uuid:"227acb84-95f4-4d6a-9e79-b8ee2e71751f"]
+[description:"rkhunter" entry:"1544401830" modified:"1544401830" status:"pending" uuid:"fda7a990-df81-4c0e-9a40-b3f629dfaccf"]
+[description:"lynis" entry:"1544401834" modified:"1544401834" status:"pending" uuid:"33704e16-36ed-4299-ad20-b18f726aa8b8"]
+[description:"auti" entry:"1544401838" modified:"1544401838" status:"pending" uuid:"7c17262c-7e1c-414d-9e33-25fbfbd4e093"]
