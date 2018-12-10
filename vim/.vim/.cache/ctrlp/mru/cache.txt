@@ -1,10 +1,19 @@
+/home/b14ckr41n/upass/passmenu
+/dev/shm/pass.nbBv2YBhSbrzp/T1w7Bu-Web-wiki.archlinux.org.txt
+/home/b14ckr41n/.gnupg/gpg-agent.conf
+/home/b14ckr41n/.dotfiles/qutebrowser/.config/qutebrowser/config.py
+/usr/share/qutebrowser/userscripts/password_fill
+/home/b14ckr41n/qute-pass
+/home/b14ckr41n/pdf-opener
+/home/b14ckr41n/.config/Dropbox/bin/adams_hlwm_menu
+/home/b14ckr41n/vim-dwm-README
+/home/b14ckr41n/test.sh
 /var/tmp/grub.XXrGBjVS
 /var/tmp/grub.XXwh5HbR
 /home/b14ckr41n/.zshrc
 /var/tmp/grub.XXP48YY4
 /home/b14ckr41n/issue
 /var/tmp/issue.XX4oyI4K
-/home/b14ckr41n/.gnupg/gpg-agent.conf
 /home/b14ckr41n/.xinitrc
 /home/b14ckr41n/pinentry-dmenu/pkg/pinentry-dmenu/usr/bin/pinentry-dmenu
 /home/b14ckr41n/INSTALLED
@@ -40,9 +49,6 @@
 /home/b14ckr41n/.config/Dropbox/source/barpyrus-configs/config-barpyrus-untouched-config.py
 /home/b14ckr41n/.config/Dropbox/source/barpyrus-configs/config-comprehensive-barpyrus-config.py
 /usr/lib/python3.7/site-packages/barpyrus/widgets.py
-/home/b14ckr41n/pdf-opener
-/home/b14ckr41n/.dotfiles/qutebrowser/.config/qutebrowser/config.py
-/home/b14ckr41n/vim-dwm-README
 /usr/lib/python3.7/site-packages/IPython/config.py
 /home/b14ckr41n/.dotfiles/herbstluftwm/.config/herbstluftwm/bin/panel
 /home/b14ckr41n/.dotfiles/barpyrus/.config/barpyrus/config-barpyrus-untouched-config.py
@@ -106,7 +112,6 @@
 /home/b14ckr41n/dotfiles-master/awesome/3.5/anybox/titlebar.lua
 /home/b14ckr41n/.config/Dropbox/bin/dmenu_man
 /home/b14ckr41n/dotfiles-master/herbstluftwm/bash/config.sh
-/home/b14ckr41n/.config/Dropbox/bin/adams_hlwm_menu
 /home/b14ckr41n/.config/Dropbox/bin/adams_menu_desktop
 /home/b14ckr41n/.dotfiles/herbstluftwm/.config/herbstluftwm/bin/calendar.sh
 /home/b14ckr41n/dzen2-git/pkg/dzen2-git/usr/share/doc/dzen2-git/README.dzen
@@ -243,8 +248,3 @@
 /usr/bin/vit
 /home/b14ckr41n/herb-dev-dotfiles/taskrc
 /home/b14ckr41n/herb-dev-dotfiles/config.sh
-/home/b14ckr41n/herb-dev-dotfiles/xdg/mutt-mailto.py
-/home/b14ckr41n/herb-dev-dotfiles/setup-vim.sh
-/home/b14ckr41n/herb-dev-dotfiles/fetch-3rd-party.sh
-/home/b14ckr41n/herb-dev-dotfiles/ascii/pipes.sh
-/home/b14ckr41n/.config/barpyrus/config.py

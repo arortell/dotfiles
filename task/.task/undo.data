@@ -60,3 +60,12 @@ new [description:"qute-pass" entry:"1543930813" modified:"1543930813" status:"pe
 time 1544396341
 new [description:"firejail" entry:"1544396341" modified:"1544396341" status:"pending" uuid:"227acb84-95f4-4d6a-9e79-b8ee2e71751f"]
 ---
+time 1544401830
+new [description:"rkhunter" entry:"1544401830" modified:"1544401830" status:"pending" uuid:"fda7a990-df81-4c0e-9a40-b3f629dfaccf"]
+---
+time 1544401834
+new [description:"lynis" entry:"1544401834" modified:"1544401834" status:"pending" uuid:"33704e16-36ed-4299-ad20-b18f726aa8b8"]
+---
+time 1544401838
+new [description:"auti" entry:"1544401838" modified:"1544401838" status:"pending" uuid:"7c17262c-7e1c-414d-9e33-25fbfbd4e093"]
+---

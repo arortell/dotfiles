@@ -627,8 +627,8 @@ D/home
 	b14ckr41n
 4
 D/home/b14ckr41n
-	audio
-1
+	..
+0
 D
 
 # Command line history (oldest to newest):
@@ -654,7 +654,7 @@ pbash-logo.png
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/b14ckr41n/.dotfiles
+""/home/.vifm-Trash-1000/000_secure-delete
 
 # Directory stack (oldest to newest):
 
@@ -771,6 +771,10 @@ t/home/.vifm-Trash-1000/000_dotfile
 	/home/backups/dotfile
 t/home/.vifm-Trash-1000/000_zsh
 	/home/backups/zsh
+t/home/.vifm-Trash-1000/000_qbittorrent-plugins
+	/home/b14ckr41n/qbittorrent-plugins
+t/home/.vifm-Trash-1000/000_secure-delete
+	/home/b14ckr41n/secure-delete
 
 # State:
 f
