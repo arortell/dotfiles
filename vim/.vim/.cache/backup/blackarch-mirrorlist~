@@ -1,7 +1,67 @@
+http://mirror.easyname.at/blackarch/$repo/os/$arch
+http://blackarch.mirror.digitalpacific.com.au/$repo/os/$arch
+http://mirror.clibre.uqam.ca/blackarch/$repo/os/$arch
+ftpes://mirror.tillo.ch/blackarch/$repo/os/$arch
+ftp://mirror.tillo.ch/blackarch/$repo/os/$arch
+http://mirror.easyname.ch/blackarch/$repo/os/$arch
+https://mirror.tillo.ch/ftp/blackarch/$repo/os/$arch
+https://mirrors.ustc.edu.cn/blackarch/$repo/os/$arch
+https://ftp.halifax.rwth-aachen.de/blackarch/$repo/os/$arch
+https://mirrors.dotsrc.org/blackarch/$repo/os/$arch
+https://mirror.cedia.org.ec/blackarch/$repo/os/$arch
+http://mirror.espoch.edu.ec/blackarch/$repo/os/$arch
+https://mirror.uta.edu.ec/blackarch/$repo/os/$arch
+https://blackarch.org/blackarch/$repo/os/$arch
+http://blackarch.leneveu.fr/$repo/os/$arch
+http://blackarch.pi3rrot.net/blackarch/$repo/os/$arch
+http://blackarch.tamcore.eu/$repo/os/$arch
+https://mirror.adversec.com/blackarch/$repo/os/$arch
+https://blackarch.tamcore.eu/$repo/os/$arch
+http://mirror.cyberbits.eu/blackarch/$repo/os/$arch
+https://www.mirrorservice.org/sites/blackarch.org/blackarch/$repo/os/$arch
+http://ftp.cc.uoc.gr/mirrors/linux/blackarch/$repo/os/$arch
+http://blackarch.mirror.garr.it/mirrors/blackarch/$repo/os/$arch
+http://www.ftp.ne.jp/Linux/packages/blackarch/$repo/os/$arch
+https://mirror.neostrada.nl/blackarch/$repo/os/$arch
+https://blackarch.pr0s3c.nl/blackarch/$repo/os/$arch
+https://ftp.icm.edu.pl/pub/Linux/dist/blackarch/$repo/os/$arch
+http://mirror.truenetwork.ru/blackarch/$repo/os/$arch
+https://mirror.yandex.ru/mirrors/blackarch/$repo/os/$arch
+http://mirror.zetup.net/blackarch/$repo/os/$arch/
+https://download.nus.edu.sg/mirror/blackarch/$repo/os/$arch
+http://ftp.linux.org.tr/blackarch/$repo/os/$arch/
+http://blackarch.cs.nctu.edu.tw/$repo/os/$arch
+https://ftp.yzu.edu.tw/Linux/blackarch/$repo/os/$arch
+https://mirror.math.princeton.edu/pub/blackarch/$repo/os/$arch
+http://distro.ibiblio.org/blackarch/$repo/os/$arch
+http://mirror.team-cymru.com/blackarch/$repo/os/$arch
+https://deadbeef.ninja/blackarch/$repo/os/$arch
+http://f.archlinuxvn.org/blackarch/$repo/os/$arch
 #
 #  BlackArch repository mirrorlist
 #  Generated: 2015-05-29
 #
+
+#USA
+Server = http://mirror2.tscinc.co/blackarch/$repo/os/$arch
+Server = rsync://mirror2.tscinc.co/blackarch$repo/os/$arch
+Server = https://blackarch.cdndepo.com/$repo/os/$arch
+Server = http://blackarch.cdndepo.com/$repo/os/$arch
+Server = rsync://blackarch.cdndepo.com/$repo/os/$arch
+Server = https://blackarch.mirror.packetfire.org/$repo/os/$arch
+Server = http://blackarch.mirror.packetfire.org/$repo/os/$arch
+Server = rsync://blackarch.mirror.packetfire.org/$repo/os/$arch
+Server = https://deadbeef.ninja/blackarch/$repo/os/$arch
+Server = http://mirror.team-cymru.org/blackarch/$repo/os/$arch
+Server = ftp://mirror.team-cymru.org/blackarch/$repo/os/$arch
+Server = rsync://mirror.team-cymru.org/blackarch/$repo/os/$arch
+Server = http://mirror.jmu.edu/blackarch/$repo/os/$arch
+Server = ftp://mirror.jmu.edu/blackarch/$repo/os/$arch
+Server = rsync://mirror.jmu.edu/blackarch/$repo/os/$arch
+Server = http://mirror.oss.maxcdn.com/blackarch/$repo/os/$arch
+Server = ftp://mirror.oss.maxcdn.com/blackarch/$repo/os/$arch
+Server = rsync://mirror.oss.maxcdn.com/mirrors/blackarch/$repo/os/$arch
+Server = http://arch.localmsp.org/blackarch/$repo/os/$arch
 
 #Australia
 Server = http://blackarch.mirror.digitalpacific.com.au/$repo/os/$arch
@@ -116,23 +176,3 @@ Server = http://ftp.yzu.edu.tw/Linux/blackarch/$repo/os/$arch
 Server = ftp://ftp.yzu.edu.tw/Linux/blackarch/$repo/os/$arch
 Server = rsync://ftp.yzu.edu.tw/Linux/blackarch/$repo/os/$arch
 
-#USA
-Server = http://mirror2.tscinc.co/blackarch/$repo/os/$arch
-Server = rsync://mirror2.tscinc.co/blackarch$repo/os/$arch
-Server = https://blackarch.cdndepo.com/$repo/os/$arch
-Server = http://blackarch.cdndepo.com/$repo/os/$arch
-Server = rsync://blackarch.cdndepo.com/$repo/os/$arch
-Server = https://blackarch.mirror.packetfire.org/$repo/os/$arch
-Server = http://blackarch.mirror.packetfire.org/$repo/os/$arch
-Server = rsync://blackarch.mirror.packetfire.org/$repo/os/$arch
-Server = https://deadbeef.ninja/blackarch/$repo/os/$arch
-Server = http://mirror.team-cymru.org/blackarch/$repo/os/$arch
-Server = ftp://mirror.team-cymru.org/blackarch/$repo/os/$arch
-Server = rsync://mirror.team-cymru.org/blackarch/$repo/os/$arch
-Server = http://mirror.jmu.edu/blackarch/$repo/os/$arch
-Server = ftp://mirror.jmu.edu/blackarch/$repo/os/$arch
-Server = rsync://mirror.jmu.edu/blackarch/$repo/os/$arch
-Server = http://mirror.oss.maxcdn.com/blackarch/$repo/os/$arch
-Server = ftp://mirror.oss.maxcdn.com/blackarch/$repo/os/$arch
-Server = rsync://mirror.oss.maxcdn.com/mirrors/blackarch/$repo/os/$arch
-Server = http://arch.localmsp.org/blackarch/$repo/os/$arch

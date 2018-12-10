@@ -13,6 +13,8 @@
 #    unset f
 #fi
 
+export QT_QPA_PLATFORMTHEME=gtk2
+
 echo '################### Starting Daemons #######################\n' > ~/.logs/xinit.log
 
 echo 'starting unclutter\n' >> ~/.logs/xinit.log

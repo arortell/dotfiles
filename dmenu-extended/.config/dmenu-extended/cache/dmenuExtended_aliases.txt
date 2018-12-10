@@ -1,32 +1,35 @@
-Icon Browser
-Zenmap
-Vifm
-Avahi VNC Server Browser
-Oracle VM VirtualBox
-Vim
-CMake
-Feh
-qutebrowser
-Avahi SSH Server Browser
+Qt V4L2 test Utility
+Dropbox
+Qt V4L2 video capture utility
+Qt Assistant
 GTK+ Demo
-Zenmap (as root)
+Qt Creator
+Zim Desktop Wiki
+Feh
+Avahi Zeroconf Browser
+Oracle VM VirtualBox
+Vifm
+Avahi SSH Server Browser
+qutebrowser
+Widget Factory
+Tor Browser (en-US)
+Zenmap
+Qt Linguist
+Htop
+Zathura
+Qt Designer
+networkmanager_dmenu
+lftp
+compton
+ipython
+Avahi VNC Server Browser
+Wing Pro 6.1
+CMake
+Vim
 gVim
-Where am I?
 mpv Media Player
 Alacritty
-Htop
-Avahi Zeroconf Browser
-Widget Factory
-Wing Pro 6.1
-Zim Desktop Wiki
-vimb
-compton
-Qt V4L2 video capture utility
-Dropbox
-lftp
-ipython
+Icon Browser
 qBittorrent
-Geoclue Demo agent
-Tor Browser (en-US)
-Qt V4L2 test Utility
-networkmanager_dmenu
+Zenmap (as root)
+Qt QDbusViewer 

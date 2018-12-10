@@ -1,0 +1,19 @@
+{"description":"Fix panel","entry":"20181118T235133Z","modified":"20181118T235133Z","status":"pending","uuid":"7bd4fada-d934-474d-a1bc-2c93ba0824bf"}
+{"description":"\/etc repo","entry":"20181119T211846Z","modified":"20181119T211846Z","status":"pending","uuid":"453e78de-3d2f-4827-b071-469023049660"}
+{"description":"anosurf","entry":"20181119T211902Z","modified":"20181119T211902Z","status":"pending","uuid":"50265970-8cdc-42ba-a550-f0dddc17d383"}
+{"description":"yandex serivce","entry":"20181119T212950Z","modified":"20181119T212950Z","status":"pending","uuid":"62fda452-1c90-45ea-99ce-64f9f202345c"}
+{"description":"exec error","entry":"20181119T213012Z","modified":"20181119T213012Z","status":"pending","uuid":"e942ff56-4973-46e7-9470-4ea494e574c6"}
+{"description":"dropbox service","entry":"20181119T213352Z","modified":"20181119T213352Z","status":"pending","uuid":"cbc662ca-3237-4f30-87e0-8b964099cb19"}
+{"description":"setup etckeeper","entry":"20181120T175100Z","modified":"20181120T175100Z","status":"pending","uuid":"9e3dad27-3cff-47f6-a1a4-77f3c24fc8f8"}
+{"description":"\/etc repo","end":"20181121T195632Z","entry":"20181119T211846Z","modified":"20181121T195634Z","status":"deleted","uuid":"453e78de-3d2f-4827-b071-469023049660"}
+{"description":"yandex serivce","end":"20181121T195634Z","entry":"20181119T212950Z","modified":"20181121T195636Z","status":"deleted","uuid":"62fda452-1c90-45ea-99ce-64f9f202345c"}
+{"description":"dropbox service","end":"20181121T195636Z","entry":"20181119T213352Z","modified":"20181121T195637Z","status":"deleted","uuid":"cbc662ca-3237-4f30-87e0-8b964099cb19"}
+{"description":"setup etckeeper","end":"20181121T195650Z","entry":"20181120T175100Z","modified":"20181121T195652Z","status":"deleted","uuid":"9e3dad27-3cff-47f6-a1a4-77f3c24fc8f8"}
+{"description":"Fix panel","end":"20181123T182153Z","entry":"20181118T235133Z","modified":"20181123T182155Z","status":"deleted","uuid":"7bd4fada-d934-474d-a1bc-2c93ba0824bf"}
+{"description":"EscEsc","entry":"20181129T183509Z","modified":"20181129T183509Z","status":"pending","uuid":"a330b8e6-c56b-4e48-bacb-50487a4793e6"}
+{"description":"ctrl-z","entry":"20181129T183514Z","modified":"20181129T183514Z","status":"pending","uuid":"a695fc5a-dbc2-4d34-a9bc-0ddd200cc18f"}
+{"description":"fasd","entry":"20181129T185437Z","modified":"20181129T185437Z","status":"pending","uuid":"52dcff66-fe47-45cb-9c3b-9910f84d36e2"}
+{"description":"zshmarks","entry":"20181129T185620Z","modified":"20181129T185620Z","status":"pending","uuid":"192ffa59-5170-4967-a232-167c36dc2aa8"}
+{"description":"vim-dwm","entry":"20181204T134006Z","modified":"20181204T134006Z","status":"pending","uuid":"b2efc458-1451-449f-9158-d9591ba76443"}
+{"description":"qute-pass","entry":"20181204T134013Z","modified":"20181204T134013Z","status":"pending","uuid":"129ccf85-c1c2-43b6-855d-b63d0e0f0d02"}
+{"description":"firejail","entry":"20181209T225901Z","modified":"20181209T225901Z","status":"pending","uuid":"227acb84-95f4-4d6a-9e79-b8ee2e71751f"}

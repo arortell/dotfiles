@@ -1,59 +1,119 @@
 [
     [
-        "Icon Browser",
-        "gtk3-icon-browser"
+        "Qt V4L2 test Utility",
+        "qv4l2"
     ],
     [
-        "Zenmap",
-        "zenmap"
+        "Dropbox",
+        "dropbox"
     ],
     [
-        "Vifm",
-        "vifm;"
+        "Qt V4L2 video capture utility",
+        "qvidcap"
     ],
     [
-        "Avahi VNC Server Browser",
-        "bvnc"
-    ],
-    [
-        "Oracle VM VirtualBox",
-        "VirtualBox"
-    ],
-    [
-        "Vim",
-        "vim;"
-    ],
-    [
-        "CMake",
-        "cmake-gui"
-    ],
-    [
-        "Feh",
-        "feh --start-at"
-    ],
-    [
-        "qutebrowser",
-        "qutebrowser"
-    ],
-    [
-        "Avahi SSH Server Browser",
-        "bssh"
+        "Qt Assistant",
+        "assistant"
     ],
     [
         "GTK+ Demo",
         "gtk3-demo"
     ],
     [
-        "Zenmap (as root)",
-        "/usr/share/zenmap/su-to-zenmap.sh"
+        "Qt Creator",
+        "qtcreator"
+    ],
+    [
+        "Zim Desktop Wiki",
+        "zim"
+    ],
+    [
+        "Feh",
+        "feh --start-at"
+    ],
+    [
+        "Avahi Zeroconf Browser",
+        "avahi-discover"
+    ],
+    [
+        "Oracle VM VirtualBox",
+        "VirtualBox"
+    ],
+    [
+        "Vifm",
+        "vifm;"
+    ],
+    [
+        "Avahi SSH Server Browser",
+        "bssh"
+    ],
+    [
+        "qutebrowser",
+        "qutebrowser"
+    ],
+    [
+        "Widget Factory",
+        "gtk3-widget-factory"
+    ],
+    [
+        "Tor Browser (en-US)",
+        "tor-browser-en"
+    ],
+    [
+        "Zenmap",
+        "zenmap"
+    ],
+    [
+        "Qt Linguist",
+        "linguist"
+    ],
+    [
+        "Htop",
+        "htop;"
+    ],
+    [
+        "Zathura",
+        "zathura"
+    ],
+    [
+        "Qt Designer",
+        "designer"
+    ],
+    [
+        "networkmanager_dmenu",
+        "networkmanager_dmenu"
+    ],
+    [
+        "lftp",
+        "lftp;"
+    ],
+    [
+        "compton",
+        "compton"
+    ],
+    [
+        "ipython",
+        "ipython;"
+    ],
+    [
+        "Avahi VNC Server Browser",
+        "bvnc"
+    ],
+    [
+        "Wing Pro 6.1",
+        "wing6.1"
+    ],
+    [
+        "CMake",
+        "cmake-gui"
+    ],
+    [
+        "Vim",
+        "vim;"
     ],
     [
         "gVim",
         "gvim -f"
-    ],
-    [
-        "Where am I?",
-        "/usr/lib/geoclue-2.0/demos/where-am-i;"
     ],
     [
         "mpv Media Player",
@@ -64,67 +124,19 @@
         "alacritty"
     ],
     [
-        "Htop",
-        "htop;"
-    ],
-    [
-        "Avahi Zeroconf Browser",
-        "avahi-discover"
-    ],
-    [
-        "Widget Factory",
-        "gtk3-widget-factory"
-    ],
-    [
-        "Wing Pro 6.1",
-        "wing6.1"
-    ],
-    [
-        "Zim Desktop Wiki",
-        "zim"
-    ],
-    [
-        "vimb",
-        "vimb"
-    ],
-    [
-        "compton",
-        "compton"
-    ],
-    [
-        "Qt V4L2 video capture utility",
-        "qvidcap"
-    ],
-    [
-        "Dropbox",
-        "dropbox"
-    ],
-    [
-        "lftp",
-        "lftp;"
-    ],
-    [
-        "ipython",
-        "ipython;"
+        "Icon Browser",
+        "gtk3-icon-browser"
     ],
     [
         "qBittorrent",
         "qbittorrent"
     ],
     [
-        "Geoclue Demo agent",
-        "/usr/lib/geoclue-2.0/demos/agent"
+        "Zenmap (as root)",
+        "/usr/share/zenmap/su-to-zenmap.sh"
     ],
     [
-        "Tor Browser (en-US)",
-        "tor-browser-en"
-    ],
-    [
-        "Qt V4L2 test Utility",
-        "qv4l2"
-    ],
-    [
-        "networkmanager_dmenu",
-        "networkmanager_dmenu"
+        "Qt QDbusViewer ",
+        "qdbusviewer"
     ]
 ]
