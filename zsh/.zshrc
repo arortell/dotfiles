@@ -217,7 +217,7 @@ SPACESHIP_PROMPT_ORDER=(
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colorize colored-man-pages_mod command-not-found compleat copyfile copydir cp dircycle dirhistory dirpersist find-the-command history history-substring-search systemd systemadmin pass zsh-syntax-highlighting python github git-prompt nmap pip zsh-autosuggestions zsh-completions zsh-history-substring-search zsh-reload zsh-navigation-tools archlinux bspwm rsync sudo safe-paste fasd zshmarks cp taskwarrior fancy-ctrl-z)
+plugins=(git colorize colored-man-pages_mod compleat copyfile copydir cp dircycle dirhistory dirpersist find-the-command history history-substring-search systemd systemadmin pass zsh-syntax-highlighting python github git-prompt nmap pip zsh-autosuggestions zsh-completions zsh-history-substring-search zsh-reload zsh-navigation-tools archlinux bspwm rsync sudo safe-paste fasd zshmarks taskwarrior fancy-ctrl-z pkg-audit)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -486,7 +486,7 @@ bindkey "^[[H" beginning-of-line
 bindkey "^[[F" end-of-line
 
 #### THIS NEEDS TO BE UNCOMMENTED FOR SPACESHIOP TO WORK
-source "/home/b14ckr41n/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
+#source "/home/b14ckr41n/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 
 
 eval "$(fasd --init auto)"

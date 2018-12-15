@@ -69,3 +69,22 @@ new [description:"lynis" entry:"1544401834" modified:"1544401834" status:"pendin
 time 1544401838
 new [description:"auti" entry:"1544401838" modified:"1544401838" status:"pending" uuid:"7c17262c-7e1c-414d-9e33-25fbfbd4e093"]
 ---
+time 1544555985
+new [description:"wgetpkg" entry:"1544555985" modified:"1544555985" status:"pending" uuid:"71d13218-f623-4dd9-a4e9-15635e0a79fe"]
+---
+time 1544709303
+new [description:"pacaudit" entry:"1544709303" modified:"1544709303" status:"pending" uuid:"f920ef5e-779f-4da6-aab7-14e7a540eb1c"]
+---
+time 1544709334
+old [description:"auti" entry:"1544401838" modified:"1544401838" status:"pending" uuid:"7c17262c-7e1c-414d-9e33-25fbfbd4e093"]
+new [description:"audit" entry:"1544401838" modified:"1544709334" status:"pending" uuid:"7c17262c-7e1c-414d-9e33-25fbfbd4e093"]
+---
+time 1544709350
+new [description:"add users to passwords" entry:"1544709350" modified:"1544709350" status:"pending" uuid:"cabe26f9-fb1f-4bd8-a38e-17ad82cebb56"]
+---
+time 1544709732
+new [description:"pkg-audit" entry:"1544709732" modified:"1544709732" status:"pending" uuid:"dd056ac3-2739-45d7-b0d5-4a4f07793b58"]
+---
+time 1544710474
+new [description:"arch-audit" entry:"1544710474" modified:"1544710474" status:"pending" uuid:"144fc3cc-c73a-4cc2-b364-d573aed2b85c"]
+---

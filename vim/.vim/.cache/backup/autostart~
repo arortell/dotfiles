@@ -169,7 +169,7 @@ hc attr theme.inner_color              0
 hc attr theme.active.inner_color       0
 hc attr theme.active.outer_color       0
 hc attr theme.background_color         0
-hc attr theme.border_width             1
+hc attr theme.border_width             2
 hc attr theme.floating.border_width    0
 hc attr theme.floating.outer_color     black
 hc attr theme.floating.outer_width     0
