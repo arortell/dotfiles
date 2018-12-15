@@ -20,3 +20,9 @@
 {"description":"rkhunter","entry":"20181210T003030Z","modified":"20181210T003030Z","status":"pending","uuid":"fda7a990-df81-4c0e-9a40-b3f629dfaccf"}
 {"description":"lynis","entry":"20181210T003034Z","modified":"20181210T003034Z","status":"pending","uuid":"33704e16-36ed-4299-ad20-b18f726aa8b8"}
 {"description":"auti","entry":"20181210T003038Z","modified":"20181210T003038Z","status":"pending","uuid":"7c17262c-7e1c-414d-9e33-25fbfbd4e093"}
+{"description":"wgetpkg","entry":"20181211T191945Z","modified":"20181211T191945Z","status":"pending","uuid":"71d13218-f623-4dd9-a4e9-15635e0a79fe"}
+{"description":"pacaudit","entry":"20181213T135503Z","modified":"20181213T135503Z","status":"pending","uuid":"f920ef5e-779f-4da6-aab7-14e7a540eb1c"}
+{"description":"audit","entry":"20181210T003038Z","modified":"20181213T135534Z","status":"pending","uuid":"7c17262c-7e1c-414d-9e33-25fbfbd4e093"}
+{"description":"add users to passwords","entry":"20181213T135550Z","modified":"20181213T135550Z","status":"pending","uuid":"cabe26f9-fb1f-4bd8-a38e-17ad82cebb56"}
+{"description":"pkg-audit","entry":"20181213T140212Z","modified":"20181213T140212Z","status":"pending","uuid":"dd056ac3-2739-45d7-b0d5-4a4f07793b58"}
+{"description":"arch-audit","entry":"20181213T141434Z","modified":"20181213T141434Z","status":"pending","uuid":"144fc3cc-c73a-4cc2-b364-d573aed2b85c"}

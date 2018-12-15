@@ -17,7 +17,7 @@ export QT_QPA_PLATFORMTHEME=gtk2
 
 echo '################### Starting Daemons #######################\n' > ~/.logs/xinit.log
 
-echo 'starting unclutter\n' >> ~/.logs/xinit.log
+echo 'starting unclutter\n' > ~/.logs/xinit.log
 unclutter >> ~/.logs/xinit.log 2>&1 &
 
 echo 'starting undiskie\n' >> ~/.logs/xinit.log
@@ -46,4 +46,4 @@ xset -dpms
 # start Window Manager
 echo '###################### Starting Window-Manager ################\n' >> ~/.logs/xinit.log
 echo 'starting herbstluftwm\n' >> ~/.logs/herbstluftwm.log
-exec herbstluftwm --verbose --locked
+exec herbstluftwm --verbose --locked > .logs/herbstluftwm.log

@@ -391,3 +391,16 @@ makepkg -si
 ..
 rm -rf cower/
 pac -S apparmor linux-hardened linux-hardened-headers firejail-apparmor
+..
+pac -S apparmor linux-hardened linux-hardened-headers firejail-apparmor
+git clone https://aur.archlinux.org/cower.git
+cd cower/
+git clone https://aur.archlinux.org/pacaur.git
+cd pacaur/
+git clone https://aur.archlinux.org/pac.git
+cd pac
+makepkg -si
+cd
+rm -rf cower/
+chsh -s /bin/zsh 
+zsh

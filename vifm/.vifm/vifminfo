@@ -17,7 +17,7 @@
 # Bookmarks:
 
 # TUI:
-ar
+al
 q0
 v2
 ov
@@ -26,12 +26,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/b14ckr41n/images
-	..
-0
-d/home/b14ckr41n
-	.config
-2
 d/home/b14ckr41n/.config
 	herbstluftwm
 9
@@ -324,8 +318,14 @@ d/home/backups/zsh
 	..
 0
 d/home/backups
-	.dotfiles
-1
+	..
+0
+d/home
+	b14ckr41n
+4
+d/home/b14ckr41n
+	echos.sh
+20
 d
 
 # Right window history (oldest to newest):
@@ -654,7 +654,7 @@ pbash-logo.png
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/.vifm-Trash-1000/000_secure-delete
+""/home/.vifm-Trash-1000/000_upass
 
 # Directory stack (oldest to newest):
 
@@ -775,11 +775,13 @@ t/home/.vifm-Trash-1000/000_qbittorrent-plugins
 	/home/b14ckr41n/qbittorrent-plugins
 t/home/.vifm-Trash-1000/000_secure-delete
 	/home/b14ckr41n/secure-delete
+t/home/.vifm-Trash-1000/000_upass
+	/home/b14ckr41n/upass
 
 # State:
 f
 i1
-[.0
+[.1
 [F
 F
 I1

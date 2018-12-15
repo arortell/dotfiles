@@ -1,38 +1,37 @@
 Feh
 Vim
 Vifm
-Htop
 lftp
+Htop
 gVim
 CMake
 Zenmap
-Dropbox
-Zathura
 compton
+Zathura
 ipython
+Dropbox
 GTK+ Demo
 Alacritty
 Qt Creator
+Qt Designer
 qutebrowser
 Qt Linguist
-Qt Designer
 qBittorrent
  ~/bin/sgvim
 Qt Assistant
-Wing Pro 6.1
 Icon Browser
+Wing Pro 6.1
 Widget Factory
 Qt QDbusViewer 
 Zim Desktop Wiki
-mpv Media Player
 Zenmap (as root)
+mpv Media Player
 Tor Browser (en-US)
 Qt V4L2 test Utility
-Oracle VM VirtualBox
 networkmanager_dmenu
 Avahi Zeroconf Browser
-Avahi SSH Server Browser
 Avahi VNC Server Browser
+Avahi SSH Server Browser
 /home/b14ckr41n/bin/done.txt
 Qt V4L2 video capture utility
 /home/b14ckr41n/bin/tuning.sh

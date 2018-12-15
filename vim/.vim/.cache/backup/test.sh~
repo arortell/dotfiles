@@ -11,21 +11,18 @@
 #  REQUIREMENTS: ---
 #          BUGS: ---
 #         NOTES: ---
-#        AUTHOR: Adam Ortell (), arortell@gmail.com
+#        AUTHOR: Adam Ortell (), arortell80@gmail.com
 #  ORGANIZATION: 
-#       CREATED: 04/02/2018 10:45:59 AM
+#       CREATED: 12/11/2018 12:33:35 PM
 #      REVISION:  ---
 #===============================================================================
 
 set -o nounset                                  # Treat unset variables as an error
-set -eo pipefail                               # exit if ANY command fails,errors from pipe
-progname="$(basename "$0")"
-echo "$progname"
-function mytest {
-      "$@"
-       local status="$?"
-       if [ "$status" -ne 0  ]; then
-          echo "error with $1" >&2
-        fi
-       return "$status"
-}
+set -eo pipefail                                # exit if ANY command fails,errors from pipe
+
+progname="$(basename "$0")"                     # name of script
+
+
+./echos.sh
+
+ok no
