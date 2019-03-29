@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/home/b14ckr41n/scripts-gothrough/term'
 let g:netrw_dirhist_2='/home/b14ckr41n/scripts-gothrough/term/login'
 let g:netrw_dirhist_3='/usr/lib/python3.7/site-packages/barpyrus'
+let g:netrw_dirhist_4='/home/b14ckr41n/.config/Dropbox/Projects/bash/anonsurf'

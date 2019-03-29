@@ -1,5 +1,4 @@
 [description:"anosurf" entry:"1542662342" modified:"1542662342" status:"pending" uuid:"50265970-8cdc-42ba-a550-f0dddc17d383"]
-[description:"exec error" entry:"1542663012" modified:"1542663012" status:"pending" uuid:"e942ff56-4973-46e7-9470-4ea494e574c6"]
 [description:"EscEsc" entry:"1543516509" modified:"1543516509" status:"pending" uuid:"a330b8e6-c56b-4e48-bacb-50487a4793e6"]
 [description:"ctrl-z" entry:"1543516514" modified:"1543516514" status:"pending" uuid:"a695fc5a-dbc2-4d34-a9bc-0ddd200cc18f"]
 [description:"fasd" entry:"1543517677" modified:"1543517677" status:"pending" uuid:"52dcff66-fe47-45cb-9c3b-9910f84d36e2"]
@@ -15,3 +14,5 @@
 [description:"add users to passwords" entry:"1544709350" modified:"1544709350" status:"pending" uuid:"cabe26f9-fb1f-4bd8-a38e-17ad82cebb56"]
 [description:"pkg-audit" entry:"1544709732" modified:"1544709732" status:"pending" uuid:"dd056ac3-2739-45d7-b0d5-4a4f07793b58"]
 [description:"arch-audit" entry:"1544710474" modified:"1544710474" status:"pending" uuid:"144fc3cc-c73a-4cc2-b364-d573aed2b85c"]
+[description:"haxor-news" entry:"1544884695" modified:"1544884695" status:"pending" uuid:"ed57c863-2657-4f85-88e6-0dfab4d6214f"]
+[description:"PIK -> pac for pikaur" entry:"1550081428" modified:"1550081428" priority:"H" status:"pending" uuid:"b8a894be-83eb-47d5-a6ea-becb53dfe21e"]

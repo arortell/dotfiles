@@ -17,7 +17,7 @@
 # Bookmarks:
 
 # TUI:
-al
+ar
 q0
 v2
 ov
@@ -324,35 +324,11 @@ d/home
 	b14ckr41n
 4
 d/home/b14ckr41n
-	echos.sh
-20
+	virtualbox
+21
 d
 
 # Right window history (oldest to newest):
-D/home/b14ckr41n/notes/Programming Notes
-	Bash
-1
-D/home/b14ckr41n/notes/Programming Notes/Bash
-	..
-0
-D/home/b14ckr41n/notes/Programming Notes
-	Linux_System
-2
-D/home/b14ckr41n/notes/Programming Notes/Linux_System
-	..
-0
-D/home/b14ckr41n/notes/Programming Notes
-	..
-0
-D/home/b14ckr41n/notes
-	..
-0
-D/home/b14ckr41n
-	notes
-6
-D/home/b14ckr41n/notes
-	..
-0
 D/home/b14ckr41n
 	downloads
 3
@@ -627,8 +603,32 @@ D/home
 	b14ckr41n
 4
 D/home/b14ckr41n
+	mtp
+10
+D/home/b14ckr41n/mtp
 	..
 0
+D/home/b14ckr41n
+	darndest-thing
+4
+D/home/b14ckr41n/darndest-thing
+	..
+0
+D/home/b14ckr41n
+	source
+15
+D/home/b14ckr41n/source
+	..
+0
+D/home/b14ckr41n
+	source
+15
+D/home/b14ckr41n/source
+	fix_freezeing.tar.gz
+22
+D/home/b14ckr41n
+	backups
+2
 D
 
 # Command line history (oldest to newest):
@@ -654,7 +654,6 @@ pbash-logo.png
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/.vifm-Trash-1000/000_upass
 
 # Directory stack (oldest to newest):
 
