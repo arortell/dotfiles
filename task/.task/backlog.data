@@ -26,3 +26,8 @@
 {"description":"add users to passwords","entry":"20181213T135550Z","modified":"20181213T135550Z","status":"pending","uuid":"cabe26f9-fb1f-4bd8-a38e-17ad82cebb56"}
 {"description":"pkg-audit","entry":"20181213T140212Z","modified":"20181213T140212Z","status":"pending","uuid":"dd056ac3-2739-45d7-b0d5-4a4f07793b58"}
 {"description":"arch-audit","entry":"20181213T141434Z","modified":"20181213T141434Z","status":"pending","uuid":"144fc3cc-c73a-4cc2-b364-d573aed2b85c"}
+{"description":"exec error","end":"20181215T131849Z","entry":"20181119T213012Z","modified":"20181215T131851Z","status":"deleted","uuid":"e942ff56-4973-46e7-9470-4ea494e574c6"}
+{"description":"haxor-news","entry":"20181215T143815Z","modified":"20181215T143815Z","status":"pending","uuid":"ed57c863-2657-4f85-88e6-0dfab4d6214f"}
+{"description":"PIK -> pac for pikaur","entry":"20190213T180906Z","modified":"20190213T180906Z","status":"pending","uuid":"7c80c535-7ba4-4f2a-9fa8-acc1a0e1ef46"}
+{"description":"PIK -> pac for pikaur","end":"20190213T180959Z","entry":"20190213T180906Z","modified":"20190213T181002Z","status":"deleted","uuid":"7c80c535-7ba4-4f2a-9fa8-acc1a0e1ef46"}
+{"description":"PIK -> pac for pikaur","entry":"20190213T181028Z","modified":"20190213T181028Z","priority":"H","status":"pending","uuid":"b8a894be-83eb-47d5-a6ea-becb53dfe21e"}

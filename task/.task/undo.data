@@ -88,3 +88,20 @@ new [description:"pkg-audit" entry:"1544709732" modified:"1544709732" status:"pe
 time 1544710474
 new [description:"arch-audit" entry:"1544710474" modified:"1544710474" status:"pending" uuid:"144fc3cc-c73a-4cc2-b364-d573aed2b85c"]
 ---
+time 1544879931
+old [description:"exec error" entry:"1542663012" modified:"1542663012" status:"pending" uuid:"e942ff56-4973-46e7-9470-4ea494e574c6"]
+new [description:"exec error" end:"1544879929" entry:"1542663012" modified:"1544879931" status:"deleted" uuid:"e942ff56-4973-46e7-9470-4ea494e574c6"]
+---
+time 1544884695
+new [description:"haxor-news" entry:"1544884695" modified:"1544884695" status:"pending" uuid:"ed57c863-2657-4f85-88e6-0dfab4d6214f"]
+---
+time 1550081346
+new [description:"PIK -> pac for pikaur" entry:"1550081346" modified:"1550081346" status:"pending" uuid:"7c80c535-7ba4-4f2a-9fa8-acc1a0e1ef46"]
+---
+time 1550081402
+old [description:"PIK -> pac for pikaur" entry:"1550081346" modified:"1550081346" status:"pending" uuid:"7c80c535-7ba4-4f2a-9fa8-acc1a0e1ef46"]
+new [description:"PIK -> pac for pikaur" end:"1550081399" entry:"1550081346" modified:"1550081402" status:"deleted" uuid:"7c80c535-7ba4-4f2a-9fa8-acc1a0e1ef46"]
+---
+time 1550081428
+new [description:"PIK -> pac for pikaur" entry:"1550081428" modified:"1550081428" priority:"H" status:"pending" uuid:"b8a894be-83eb-47d5-a6ea-becb53dfe21e"]
+---

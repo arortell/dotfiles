@@ -404,3 +404,19 @@ cd
 rm -rf cower/
 chsh -s /bin/zsh 
 zsh
+pac -S apparmor linux-hardened linux-hardened-headers firejail-apparmor
+chsh -s /bin/zsh 
+git clone https://aur.archlinux.org/cower.git
+cd cower/
+git clone https://aur.archlinux.org/pacaur.git
+cd pacaur/
+git clone https://aur.archlinux.org/pac.git
+cd pac
+makepkg -si
+cd
+rm -rf cower/
+chsh  -s /bin/zsh 
+pac -S advcp dfc cdu
+pac -S advcp dfc cdu stow
+pac -S task fasd find-the-command
+zsh
