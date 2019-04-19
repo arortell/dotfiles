@@ -44,7 +44,7 @@ hc keybind $Mod-Shift-Escape quit
 hc keybind $Mod-Escape reload
 hc keybind $Mod-Shift-Delete close_and_remove
 hc keybind $Mod-Delete close
-hc keybind $Mod-Return spawn $TERMINAL
+hc keybind $Mod-Return spawn alacritty
 
 ######################################################## basic movement
 # focusing clients

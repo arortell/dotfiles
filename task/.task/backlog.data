@@ -31,3 +31,8 @@
 {"description":"PIK -> pac for pikaur","entry":"20190213T180906Z","modified":"20190213T180906Z","status":"pending","uuid":"7c80c535-7ba4-4f2a-9fa8-acc1a0e1ef46"}
 {"description":"PIK -> pac for pikaur","end":"20190213T180959Z","entry":"20190213T180906Z","modified":"20190213T181002Z","status":"deleted","uuid":"7c80c535-7ba4-4f2a-9fa8-acc1a0e1ef46"}
 {"description":"PIK -> pac for pikaur","entry":"20190213T181028Z","modified":"20190213T181028Z","priority":"H","status":"pending","uuid":"b8a894be-83eb-47d5-a6ea-becb53dfe21e"}
+{"description":"PIK -> pac for pikaur","end":"20190418T163749Z","entry":"20190213T181028Z","modified":"20190418T163751Z","priority":"H","status":"deleted","uuid":"b8a894be-83eb-47d5-a6ea-becb53dfe21e"}
+{"description":"COMPTON is CAUSING all PROBLEMS","entry":"20190418T163814Z","modified":"20190418T163814Z","status":"pending","uuid":"5fe89879-bcc8-47be-bbf5-13eef236ed4f"}
+{"description":"COMPTON is CAUSING all PROBLEMS","end":"20190418T163911Z","entry":"20190418T163814Z","modified":"20190418T163914Z","status":"deleted","uuid":"5fe89879-bcc8-47be-bbf5-13eef236ed4f"}
+{"description":"COMPTON is CAUSING all PROBLEMS","entry":"20190418T163937Z","modified":"20190418T163937Z","priority":"H","status":"pending","uuid":"f75b5d5f-0bf7-436e-90fd-c0c5ccb788ef"}
+{"description":"source profile","entry":"20190418T164014Z","modified":"20190418T164014Z","priority":"H","status":"pending","uuid":"fb301c86-3cec-4d06-b73b-ed32be3479ff"}
