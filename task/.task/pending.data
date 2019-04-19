@@ -15,4 +15,5 @@
 [description:"pkg-audit" entry:"1544709732" modified:"1544709732" status:"pending" uuid:"dd056ac3-2739-45d7-b0d5-4a4f07793b58"]
 [description:"arch-audit" entry:"1544710474" modified:"1544710474" status:"pending" uuid:"144fc3cc-c73a-4cc2-b364-d573aed2b85c"]
 [description:"haxor-news" entry:"1544884695" modified:"1544884695" status:"pending" uuid:"ed57c863-2657-4f85-88e6-0dfab4d6214f"]
-[description:"PIK -> pac for pikaur" entry:"1550081428" modified:"1550081428" priority:"H" status:"pending" uuid:"b8a894be-83eb-47d5-a6ea-becb53dfe21e"]
+[description:"COMPTON is CAUSING all PROBLEMS" entry:"1555605577" modified:"1555605577" priority:"H" status:"pending" uuid:"f75b5d5f-0bf7-436e-90fd-c0c5ccb788ef"]
+[description:"source profile" entry:"1555605614" modified:"1555605614" priority:"H" status:"pending" uuid:"fb301c86-3cec-4d06-b73b-ed32be3479ff"]

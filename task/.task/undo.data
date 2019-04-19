@@ -105,3 +105,20 @@ new [description:"PIK -> pac for pikaur" end:"1550081399" entry:"1550081346" mod
 time 1550081428
 new [description:"PIK -> pac for pikaur" entry:"1550081428" modified:"1550081428" priority:"H" status:"pending" uuid:"b8a894be-83eb-47d5-a6ea-becb53dfe21e"]
 ---
+time 1555605471
+old [description:"PIK -> pac for pikaur" entry:"1550081428" modified:"1550081428" priority:"H" status:"pending" uuid:"b8a894be-83eb-47d5-a6ea-becb53dfe21e"]
+new [description:"PIK -> pac for pikaur" end:"1555605469" entry:"1550081428" modified:"1555605471" priority:"H" status:"deleted" uuid:"b8a894be-83eb-47d5-a6ea-becb53dfe21e"]
+---
+time 1555605494
+new [description:"COMPTON is CAUSING all PROBLEMS" entry:"1555605494" modified:"1555605494" status:"pending" uuid:"5fe89879-bcc8-47be-bbf5-13eef236ed4f"]
+---
+time 1555605554
+old [description:"COMPTON is CAUSING all PROBLEMS" entry:"1555605494" modified:"1555605494" status:"pending" uuid:"5fe89879-bcc8-47be-bbf5-13eef236ed4f"]
+new [description:"COMPTON is CAUSING all PROBLEMS" end:"1555605551" entry:"1555605494" modified:"1555605554" status:"deleted" uuid:"5fe89879-bcc8-47be-bbf5-13eef236ed4f"]
+---
+time 1555605577
+new [description:"COMPTON is CAUSING all PROBLEMS" entry:"1555605577" modified:"1555605577" priority:"H" status:"pending" uuid:"f75b5d5f-0bf7-436e-90fd-c0c5ccb788ef"]
+---
+time 1555605614
+new [description:"source profile" entry:"1555605614" modified:"1555605614" priority:"H" status:"pending" uuid:"fb301c86-3cec-4d06-b73b-ed32be3479ff"]
+---
