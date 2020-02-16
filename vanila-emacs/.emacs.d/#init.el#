@@ -1,0 +1,286 @@
+;; .emacs.d/init.el
+
+;; ===================================
+;; MELPA Package Support
+;; ===================================
+;; Enables basic packaging support
+(require 'package)
+
+;; Adds the Melpa archive to the list of available repositories
+(add-to-list 'package-archives
+             '("melpa" . "http://melpa.org/packages/") t)
+
+;; Initializes the package infrastructure
+(package-initialize)
+
+;; If there are no archived package contents, refresh them
+(when (not package-archive-contents)
+  (package-refresh-contents))
+
+;; Installs packages
+;;
+;; myPackages contains a list of package names
+(defvar myPackages
+  '(better-defaults                 			;; Set up some better Emacs defaults
+    elpy                            			;; Emacs Lisp Python Environment
+    flycheck                        			;; On the fly syntax checking
+    py-autopep8                     			;; Run autopep8 on save
+    material-theme                  			;; Theme
+    neotree			    			;; nerdtree like tree
+    )
+  )
+
+;; Scans the list in myPackages
+;; If the package listed is not already installed, install it
+(mapc #'(lambda (package)
+          (unless (package-installed-p package)
+            (package-install package)))
+      myPackages)
+
+;; ===================================
+;; Basic Customization
+;; ===================================
+
+
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/") ;; custom themes
+
+(ac-config-default)                 			;;
+;; (setq inhibit-startup-message t)    			;; Hide the startup message
+(load-theme 'vscode-dark-plus t)    			;; Load theme
+(global-display-line-numbers-mode)			;; display line numbers
+
+(require 'neotree)                      		;; nerdtree filemanager
+(display-time-mode t)					;; display time and load average on mode line
+(line-number-mode t)					;; display line number on modeline
+
+
+(setq uniquify-buffer-name-style 'forward)		;; display pwd on modeline
+  (require 'uniquify)
+
+
+(setq sml/no-confirm-load-theme t)      		;; smart mode line
+(setq sml/theme 'dark)
+(sml/setup)
+
+(pdf-tools-install)
+
+(setq-default pdf-view-display-size 'fit-page)                ;; open pdfs scaled to fit page
+(setq pdf-annot-activate-created-annotations t)               ;; automatically annotate highlights
+(define-key pdf-view-mode-map (kbd "C-s") 'isearch-forward)  ;; use normal isearch
+
+(require 'popup-switcher)					;; popup switcher
+(require 'transpose-frame)                                      ;; flip-flop-rotate frame
+
+;; ============================================
+;; doom modeline setup
+;; ===========================================
+(require 'doom-modeline)				;; doom modeline
+(doom-modeline-mode 1)
+
+;; Whether display the indentation information.
+(setq doom-modeline-indent-info 1)
+(setq inhibit-compacting-font-caches t) ;;Don’t compact font caches during GC helps with laggy
+
+
+(smart-tabs-mode 1)                                     ;; enable smart tabs
+(smart-tabs-insinuate 'c 'c++ 'python)                  ;; smart tabs languages (TODO: create one for bash)
+
+(global-hl-todo-mode 1)                                 ;; highlight TODO,FIXME and so on
+
+(setq hl-todo-keyword-faces                             ;; setting colors for TODOs
+      '(("TODO"   . "#cc9393")
+        ("FIXME"  . "#FF0000")
+        ("DEBUG"  . "#A020F0")
+        ("GOTCHA" . "#FF4500")
+        ("STUB"   . "#1E90FF")))
+
+(define-key hl-todo-mode-map (kbd "C-t p") 'hl-todo-previous)   ;; keybindings for TODOs
+(define-key hl-todo-mode-map (kbd "C-t n") 'hl-todo-next)
+(define-key hl-todo-mode-map (kbd "C-t o") 'hl-todo-occur)
+(define-key hl-todo-mode-map (kbd "C-t i") 'hl-todo-insert)
+
+
+(setq browse-url-browser-function 'w3m-browse-url)		;; w3m browser integration
+ (autoload 'w3m-browse-url "w3m" "Ask a WWW browser to show a URL." t)
+ ;; optional keyboard short-cut
+(global-set-key "\C-xm" 'browse-url-at-point)
+
+
+;; ====================================
+;; Completion Setup
+;; ====================================
+(require 'auto-complete)            			;; bash autocomplete
+(require 'auto-complete-config)     	 
+
+(add-hook 'after-init-hook 'global-company-mode) 	;; enable comapny completion
+(setq company-backends
+       '((company-files			 		;; enable file completion
+          company-yasnippet			 	;; snippets competion
+          company-dabbrev
+          company-keywords
+          company-capf
+          company-jedi				 	;; python completion
+          )))
+
+ (setq company-idle-delay 0
+        company-echo-delay 0
+        company-quickhelp-delay 0
+        company-dabbrev-downcase nil
+        company-dabbrev-code-everywhere t
+        company-dabbrev-code-modes t
+        company-dabbrev-code-ignore-case t
+        company-tooltip-align-annotations t
+        company-minimum-prefix-length 2
+        company-selection-wrap-around t
+        )
+
+(company-quickhelp-mode 1)				;; quickhelp for functions
+(which-key-mode 1)					;; list of avalable keybinding
+(electric-pair-mode 1)					;; auto close "{[("
+
+;; Add yasnippet support for all company backends
+(defvar company-mode/enable-yas t
+    "Enable yasnippet for all backends.")
+(defun company-mode/backend-with-yas (backend)
+    (if (or (not company-mode/enable-yas) (and (listp backend) (member 'company-yasnippet backend)))
+        backend
+     (append (if (consp backend) backend (list backend))
+             '(:with company-yasnippet))))
+
+(setq company-backends (mapcar #'company-mode/backend-with-yas company-backends))
+
+
+
+
+;; ====================================
+;; Development Setup
+;; ====================================
+(elpy-enable)      					;; Enable elpy
+
+(defun my/python-mode-hook ()
+  (add-to-list 'company-backends 'company-jedi))
+
+(add-hook 'python-mode-hook 'my/python-mode-hook)
+
+
+(setq python-shell-interpreter "ipython" ;; use ipython as python shell
+      python-shell-interpreter-args "-i")
+
+;; Enable Flycheck
+(when (require 'flycheck nil t)
+  (setq  jedi:complete-on-dot t elpy-modules (delq 'elpy-module-flymake elpy-modules))
+  (add-hook 'python-mode-hook 'jedi:setup 'elpy-mode-hook 'flycheck-mode))
+
+;; Enable autopep8
+(require 'py-autopep8)
+(add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
+
+
+;; indent lines
+(require 'indent-guide)
+(indent-guide-global-mode)
+(setq indent-guide-char ":")
+
+;; =====================================
+;; Keybindings And Custom Functions
+;; =====================================
+(defun copy-line (arg)
+  "Copy lines (as many as prefix argument) in the kill ring"
+  (interactive "p")
+  (kill-ring-save (line-beginning-position)
+                  (line-beginning-position (+ 1 arg)))
+  (message "%d line%s copied" arg (if (= 1 arg) "" "s")))
+
+;; key binding to call copy-line function
+(global-set-key "\C-c\C-k" 'copy-line)
+
+
+(global-set-key (kbd "TAB") 'my-insert-tab-char) ;; same as Ctrl+i
+
+(global-set-key (kbd "S-<f1>")		;; open home dir with <S-f1>
+  (lambda ()
+    (interactive)
+    (dired "~/")))
+
+(global-set-key [f2] 'terminal-toggle)  ;; toggle terminal
+(global-set-key "\M-;" 'comment-line)   ;; keybinding toggle terminal
+(global-set-key [f8] 'neotree-toggle)   ;; keybinding toggle neotree
+
+(require 'helm)
+(require 'helm-config)
+
+;; The default "C-x c" is quite close to "C-x C-c", which quits Emacs.
+;; Changed to "C-c h". Note: We must set "C-c h" globally, because we
+;; cannot change `helm-command-prefix-key' once `helm-config' is loaded.
+(global-set-key (kbd "C-c h") 'helm-command-prefix)
+(global-unset-key (kbd "C-x c"))
+
+(global-set-key (kbd "M-x") #'helm-M-x) ;; helm command window
+(setq helm-M-x-fuzzy-match t) ;; optional fuzzy matching for helm-M-x
+(define-key helm-map (kbd "<tab>") 'helm-execute-persistent-action) ; rebind tab to run persistent action
+(define-key helm-map (kbd "C-i") 'helm-execute-persistent-action) ; make TAB work in terminal
+;; (define-key helm-map (kbd "C-z")  'helm-select-action) ; list actions using C-z
+(global-set-key (kbd "C-x r b") #'helm-filtered-bookmarks)
+(global-set-key (kbd "C-x C-f") #'helm-find-files) ;; helm file window
+(global-set-key (kbd "M-y") 'helm-show-kill-ring)
+(global-set-key (kbd "C-x b") 'helm-mini)
+
+(global-set-key (kbd "C-x c")  'helm-man-woman)
+(add-to-list 'helm-sources-using-default-as-input 'helm-source-man-pages)
+
+
+(setq helm-buffers-fuzzy-matching t
+      helm-recentf-fuzzy-match    t)
+
+
+
+
+;; create a helm binding for w3m
+
+(when (executable-find "curl")
+  (setq helm-google-suggest-use-curl-p t))
+
+(setq helm-split-window-in-side-p           t ; open helm buffer inside current window, not occupy whole other window
+      helm-move-to-line-cycle-in-source     t ; move to end or beginning of source when reaching top or bottom of source.
+      helm-ff-search-library-in-sexp        t ; search for library in `require' and `declare-function' sexp.
+      helm-scroll-amount                    8 ; scroll 8 lines other window using M-<next>/M-<prior>
+      helm-ff-file-name-history-use-recentf t
+      helm-echo-input-in-header-line t)
+
+(semantic-mode 1)
+(setq helm-semantic-fuzzy-match t
+      helm-imenu-fuzzy-match    t)
+
+(helm-autoresize-mode 1)
+
+(helm-mode 1)
+
+
+
+(global-set-key [f5] 'psw-switch-buffer)
+
+;; ======================================
+;; User-Defined init.el ends here
+;; ======================================
+
+
+
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(font-use-system-font t)
+ '(package-selected-packages
+   (quote
+    (transpose-frame popup-switcher pdf-tools doom-modeline helm-w3m w3m company-irony company-irony-c-headers indent-guide hl-todo smart-tabs-mode helm which-key company-quickhelp company-jedi figlet lice yasnippet-snippets jedi material-theme better-defaults)))
+ '(pdf-view-display-size (quote fit-width))
+ '(scroll-bar-mode nil)
+ '(tool-bar-mode nil))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:family "Iosevka Term" :foundry "CYEL" :slant normal :weight normal :height 98 :width normal)))))
+(put 'dired-find-alternate-file 'disabled nil)

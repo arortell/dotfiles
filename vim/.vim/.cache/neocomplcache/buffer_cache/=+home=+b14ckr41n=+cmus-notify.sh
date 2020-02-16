@@ -1,1 +1,0 @@
-['Cmus_remote', 'cmus-remote', 'Instance', 'echo', 'Shuffle', 'then', 'terminal', 'cmus', 'sleep', 'else', 'grep', 'shuffle', 'true', 'notify-send', 'elif', 'Cur_song', 'head', 'sort', 'multimedia-volume-control', 'artist', 'tail', 'title', 'cmus-updatepidgin']

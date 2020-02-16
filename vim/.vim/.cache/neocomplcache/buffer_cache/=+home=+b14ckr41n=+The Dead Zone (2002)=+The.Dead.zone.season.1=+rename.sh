@@ -1,1 +1,0 @@
-['bash', 'FILE', 'rename.sh', 'USAGE', 'DESCRIPTION', 'OPTIONS', 'REQUIREMENTS', 'BUGS', 'NOTES', 'AUTHOR', 'Adam', 'Ortell', 'arortell', 'gmail.com', 'ORGANIZATION', 'CREATED', 'REVISION', 'nounset', 'Treat', 'unset', 'variables', 'error', 'count', 'Dead', 'Zone', 'count.avi', 'echo', 'done']

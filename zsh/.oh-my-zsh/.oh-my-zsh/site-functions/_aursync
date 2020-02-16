@@ -1,0 +1,33 @@
+#compdef aursync
+
+typeset -A opt_args
+
+_aursync_opts=(
+    {-c,--chroot}'[Build packages in a chroot]'
+    {-C,--container}'[Set container path]'
+    {-p,--print}'[Print target package paths]'
+    {-s,--sign}'[Sign packages and database]'
+    {-t,--tar}'[Download tar snapshots]'
+    {-u,--update}'[Update AUR packages]'
+    --ignore'[Skip packages in a specified file]'
+    --no-ver'[Disable version checks]'
+    --no-view'[Do not view build files]'
+    --repo'[Use a specified repository]'
+    --root'[Set repository root]'
+)
+
+_aursync_action_none() {
+    _arguments -s : \
+        "$_aursync_opts[@]" \
+}
+
+# main dispatcher
+_aursync() {
+    case $words[2] in
+        *) _aursync_action_none ;;
+    esac
+}
+
+_aursync "$@"
+
+# vim: set et sw=2 ts=2 ft=zsh :

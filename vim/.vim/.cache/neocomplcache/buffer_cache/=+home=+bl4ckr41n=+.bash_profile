@@ -1,1 +1,0 @@
-['BlackArch', 'Linux', 'settings', 'colors', 'darkgrey', 'tput', 'bold', 'setaf', 'white', 'sgr0', 'exports', 'export', 'PATH', 'sbin', 'local', 'core_perl', 'games', 'blackarch', 'LD_PRELOAD', 'EDITOR', 'alias', '--color', 'shred', 'python', 'python2', 'wget', 'noleak', 'curl', '--user-agent', 'source', 'files', 'share', 'bash-completion', 'completions']

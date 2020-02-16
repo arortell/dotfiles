@@ -1,1 +1,0 @@
-['dtdTag', 'dtdComment', 'dtdString', 'dtdAttrType', 'dtdAttrDef', 'dtdEnum', 'dtdParamEntityInst', 'dtdParamEntityDecl', 'dtdCard', 'dtdEntity', 'TODO', 'CDATA', 'PUBLIC', 'FIXME', 'SYSTEM', 'xmlAttribHook', 'xmlNamespaceHook', 'xmlTagHook', 'xmlStartTagHook', 'xmlRegionHook', 'xmlCommentHook', 'xmlCdataHook', 'xmlDTD', 'cluster', 'uster', 'NONE', 'DOCTYPE']

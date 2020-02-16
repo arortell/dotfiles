@@ -11,13 +11,13 @@ export PATH="/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:"
 export PATH="${PATH}/opt/bin:/usr/bin/core_perl:/usr/games/bin:"
 export PS1="\[$darkgrey\][ \[$red\]blackarch \[$white\]\W\[$red\] \[$darkgrey\]]\\[$red\]\$ \[$nc\]"
 export LD_PRELOAD=""
-export EDITOR="vim"
+export EDITOR="nvim"
 
 # alias
 alias ls="ls --color"
 #alias vi="vim"
 alias shred="shred -zf"
-alias python="python2"
+alias python="python3"
 alias wget="wget -U 'noleak'"
 alias curl="curl --user-agent 'noleak'"
 

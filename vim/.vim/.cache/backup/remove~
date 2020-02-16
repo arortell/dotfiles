@@ -1,6 +1,0 @@
-#! /bin/bash
-
-while [ $# -gt 0 ] ; do
-    mv -v "$1" "~/.trash"
-    shift
-done

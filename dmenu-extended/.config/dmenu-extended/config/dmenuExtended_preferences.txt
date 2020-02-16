@@ -14,7 +14,7 @@
     "include_hidden_files": false,
     "include_hidden_folders": false,
     "include_items": [
-        " ~/bin/sgvim"
+        ""
     ],
     "indicator_alias": "",
     "indicator_edit": "*",
