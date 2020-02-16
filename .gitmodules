@@ -1,0 +1,115 @@
+[submodule "emacs/.emacs.d"]
+  path = emacs/.emacs.d
+  url = https://github.com/hlissner/doom-emacs
+
+[submodule "nvim/.config/nvim/plugged/auto-pairs"]
+  path = nvim/.config/nvim/plugged/auto-pairs
+  url = https://github.com/jiangmiao/auto-pairs.git
+
+[submodule "nvim/.config/nvim/plugged/ctrlp.vim"]
+  path = nvim/.config/nvim/plugged/ctrlp.vim
+  url = https://github.com/ctrlpvim/ctrlp.vim.git
+
+[submodule "nvim/.config/nvim/plugged/deoplete-clang"]
+  path = nvim/.config/nvim/plugged/deoplete-clang
+  url = https://github.com/zchee/deoplete-clang.git
+
+[submodule "nvim/.config/nvim/plugged/deoplete-jedi"]
+  path = nvim/.config/nvim/plugged/deoplete-jedi
+  url = https://github.com/zchee/deoplete-jedi.git 
+
+[submodule "nvim/.config/nvim/plugged/dracula"]
+  path = nvim/.config/nvim/plugged/dracula
+	url = https://github.com/dracula/vim.git
+
+[submodule "nvim/.config/nvim/plugged/deoplete.nvim'"]
+  path = nvim/.config/nvim/plugged/deoplete.nvim
+  url = https://github.com/Shougo/deoplete.nvim.git
+
+[submodule "nvim/.config/nvim/plugged/dwm.vim'"]
+  path = nvim/.config/nvim/plugged/dwm.vim
+  url = https://github.com/spolu/dwm.vim.git
+
+[submodule "nvim/.config/nvim/plugged/neoformat"]
+  path = nvim/.config/nvim/plugged/neoformat
+  url = https://github.com/sbdchd/neoformat.git
+
+[submodule "nvim/.config/nvim/plugged/neoterm"]
+  path = nvim/.config/nvim/plugged/neoterm
+  url = https://github.com/kassio/neoterm.git
+
+[submodule "nvim/.config/nvim/plugged/nerdcommenter"]
+  path = nvim/.config/nvim/plugged/nerdcommenter
+  url = https://github.com/scrooloose/nerdcommenter.git
+
+[submodule "nvim/.config/nvim/plugged/nerdtree'"]
+  path = nvim/.config/nvim/plugged/nerdtree
+  url = https://github.com/scrooloose/nerdtree.git
+
+[submodule "nvim/.config/nvim/plugged/split-term.vim"]
+	path = nvim/.config/nvim/plugged/split-term.vim
+	url = https://github.com/vimlab/split-term.vim.git
+
+[submodule "'nvim/.config/nvim/plugged/ultisnips"]
+  path = nvim/.config/nvim/plugged/ultisnips
+  url = https://github.com/SirVer/ultisnips.git
+
+[submodule "nvim/.config/nvim/plugged/vim-airline"]
+  path = nvim/.config/nvim/plugged/vim-airline
+  url = https://github.com/bling/vim-airline.git
+
+[submodule "nvim/.config/nvim/plugged/vim-airline-themes"]
+  path = nvim/.config/nvim/plugged/vim-airline-themes
+  url = https://github.com/vim-airline/vim-airline-themes.git
+
+[submodule "nvim/.config/nvim/plugged/vim-code-dark"]
+  path = nvim/.config/nvim/plugged/vim-code-dark
+  url = https://github.com/tomasiser/vim-code-dark.git
+
+[submodule "nvim/.config/nvim/plugged/vim-dasht"]
+  path = nvim/.config/nvim/plugged/vim-dasht
+  url = https://github.com/sunaku/vim-dasht.git
+
+[submodule "nvim/.config/nvim/plugged/vim-highlightedyank"]
+  path = nvim/.config/nvim/plugged/vim-highlightedyank
+  url = https://github.com/machakann/vim-highlightedyank.git
+
+[submodule "nvim/.config/nvim/plugged/vim-snippets"]
+  path = nvim/.config/nvim/plugged/vim-snippets
+  url = https://github.com/honza/vim-snippets.git
+
+[submodule "nvim/.config/nvim/plugged/vim-startify"]
+  path = nvim/.config/nvim/plugged/vim-startify
+  url = https://github.com/mhinz/vim-startify.git
+
+[submodule "nvim/.config/nvim/plugged/vim-surround"]
+  path = nvim/.config/nvim/plugged/vim-surround
+  url = https://github.com/tpope/vim-surround.git
+
+[submodule "nvim/.config/nvim/plugged/vim-template"]
+  path = nvim/.config/nvim/plugged/vim-template
+  url = https://github.com/aperezdc/vim-template.git
+
+[submodule "zsh/.oh-my-zsh/custom/plugins/zsh-autosuggestions"]
+  path = zsh/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+  url = https://github.com/zsh-users/zsh-autosuggestions.git
+
+[submodule "zsh/.oh-my-zsh/custom/plugins/zsh-history-substring-search"]
+  path = zsh/.oh-my-zsh/custom/plugins/zsh-history-substring-search
+  url = https://github.com/zsh-users/zsh-history-substring-search.git
+
+[submodule "zsh/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting"]
+  path = zsh/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+  url = https://github.com/zsh-users/zsh-syntax-highlighting.git
+
+[submodule "zsh/.oh-my-zsh/custom/plugins/zshmarks"]
+ path = zsh/.oh-my-zsh/custom/plugins/zshmarks
+ url = https://github.com/jocelynmallon/zshmarks.git
+
+[submodule "zsh/.oh-my-zsh/custom/themes/odin"]
+  path = zsh/.oh-my-zsh/custom/themes/odin
+  url = https://github.com/ohmyzsh/ohmyzsh.git 
+
+[submodule "zsh/.oh-my-zsh/plugins/zsh-completions"]
+  path = zsh/.oh-my-zsh/plugins/zsh-completions
+  url = https://github.com/zsh-users/zsh-completions.git

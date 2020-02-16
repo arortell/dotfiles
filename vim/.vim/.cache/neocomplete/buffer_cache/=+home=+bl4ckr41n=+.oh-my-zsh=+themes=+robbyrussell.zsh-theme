@@ -1,1 +1,0 @@
-{'local', 'ret_status', 'fg_bold', 'green', 'PROMPT', 'cyan', 'reset_color', 'git_prompt_info', 'ZSH_THEME_GIT_PROMPT_PREFIX', 'blue', 'ZSH_THEME_GIT_PROMPT_SUFFIX', 'ZSH_THEME_GIT_PROMPT_DIRTY', 'yellow', 'ZSH_THEME_GIT_PROMPT_CLEAN'}

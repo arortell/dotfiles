@@ -1,1 +1,0 @@
-['include', 'firejail', 'disable', 'common', 'passwdmgr', 'whitelist', 'home', 'b14ckr41n', 'downloads', 'private', 'blacklist', 'media', 'sbin', 'protocol', 'unix', 'inet', 'inet6', 'no3d', 'nodvd', 'novideo', 'notv', 'seccomp', 'nonewprivs', 'caps', 'drop', 'noroot']

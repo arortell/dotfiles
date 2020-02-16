@@ -17,24 +17,17 @@ unsetopt MULTIBYTE
 export ZSH=$HOME/.oh-my-zsh
 
 # Java Bullshit
-export JAVA_HOME="/usr/lib/jvm/java-10-openjdk"
-export _JAVA_OPTIONS="-Dsun.awt.disablegrab=true -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel -Dswing.crossplatformlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel"
-export _SILENT_JAVA_OPTIONS="$_JAVA_OPTIONS"
-unset _JAVA_OPTIONS
-alias java='java "$_SILENT_JAVA_OPTIONS"'
+#export JAVA_HOME="/usr/lib/jvm/java-11-openjdk"
+#export _JAVA_OPTIONS="-Dsun.awt.disablegrab=true -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel -Dswing.crossplatformlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel"
+#export _SILENT_JAVA_OPTIONS="$_JAVA_OPTIONS"
+#unset _JAVA_OPTIONS
+#alias java='java "$_SILENT_JAVA_OPTIONS"'
 
 # auto cd 'Just type dir name'
 setopt autocd
 cdpath+=(~)
 
-# Set name of the theme to load. Optionally, if you set this to "random"
-# it'll load a random theme each time that oh-my-zsh is loaded.
-# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-#ZSH_THEME="spaceship"
-#ZSH_THEME="xiong-chiamiov-plus"
-#ZSH_THEME="cloud"
-
-# # Bateria
+## Powerline Theme settings
 POWERLEVEL9K_BATTERY_CHARGING='yellow'
 POWERLEVEL9K_BATTERY_CHARGED='blue'
 POWERLEVEL9K_BATTERY_LOW_THRESHOLD='20'
@@ -52,23 +45,10 @@ POWERLEVEL9K_BATTERY_DISCONNECTED_FOREGROUND='195'
 POWERLEVEL9K_BATTERY_DISCONNECTED_BACKGROUND='009'
 POWERLEVEL9K_BATTERY_ICON='\UF1E6'
 
-
-#POWERLEVEL9K_STATUS_OK_IN_NON_VERBOSE=true
-#POWERLEVEL9K_STATUS_VERBOSE=false
-#POWERLEVEL9K_COMMAND_EXECUTION_TIME_BACKGROUND='black'
-#POWERLEVEL9K_COMMAND_EXECUTION_TIME_FOREGROUND='blue'
-
-#POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX="%F{blue}\u256D\u2500%f"
-#POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%F{blue}\u2570\uf460%f "
-
 POWERLEVEL9K_MODE='nerdfont-complete'
-#POWERLEVEL9K_MODE='awesome-patched'
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
-#POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX="%{%F{249}%}\u250f"
-#POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%{%F{249}%}\u2517%{%F{default}%} "
 POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX="↱"
 POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="↳ " 
-#POWERLEVEL9K_SHORTEN_DIR_LENGTH=4
 POWERLEVEL9K_SHORTEN_STRATEGY="truncate_middle"
 POWERLEVEL9K_OS_ICON_BACKGROUND="black"
 POWERLEVEL9K_OS_ICON_FOREGROUND="249"
@@ -96,84 +76,19 @@ POWERLEVEL9K_LOAD_NORMAL_VISUAL_IDENTIFIER_COLOR="green"
 POWERLEVEL9K_RAM_BACKGROUND="black"
 POWERLEVEL9K_RAM_FOREGROUND="249"
 POWERLEVEL9K_RAM_ELEMENTS=(ram_free)
-#POWERLEVEL9K_BATTERY_LOW_BACKGROUND="black"
-#POWERLEVEL9K_BATTERY_CHARGING_BACKGROUND="black"
-#POWERLEVEL9K_BATTERY_CHARGED_BACKGROUND="black"
-#POWERLEVEL9K_BATTERY_DISCONNECTED_BACKGROUND="black"
-#POWERLEVEL9K_BATTERY_LOW_FOREGROUND="249"
-#POWERLEVEL9K_BATTERY_CHARGING_FOREGROUND="249"
-#POWERLEVEL9K_BATTERY_CHARGED_FOREGROUND="249"
-#POWERLEVEL9K_BATTERY_DISCONNECTED_FOREGROUND="249"
-#POWERLEVEL9K_BATTERY_LOW_VISUAL_IDENTIFIER_COLOR="red"
-#POWERLEVEL9K_BATTERY_CHARGING_VISUAL_IDENTIFIER_COLOR="yellow"
-#POWERLEVEL9K_BATTERY_CHARGED_VISUAL_IDENTIFIER_COLOR="green"
-#POWERLEVEL9K_BATTERY_DISCONNECTED_VISUAL_IDENTIFIER_COLOR="249"
-#POWERLEVEL9K_TIME_BACKGROUND="black"
-#POWERLEVEL9K_TIME_FOREGROUND="249"
-#POWERLEVEL9K_TIME_FORMAT="%D{%H:%M:%S} \UE12E"
-
-#POWERLEVEL9K_OS_ICON_BACKGROUND='black'
-#POWERLEVEL9K_LINUX_ICON='%F{cyan} \uf303 %F{white} arch %F{cyan}linux%f'
-
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=('status' 'todo' 'dir' 'vcs' 'dir_writable')
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=('background_jobs' 'load' 'ram_joined' 'public_ip' 'battery')
-
-
-
-#POWERLEVEL9K_BATTERY_STAGES="▁▂▃▄▅▆▇█"
-
-#POWERLEVEL9K_BATTERY_STAGES=(
-#   $'▏    ▏' $'▎    ▏' $'▍    ▏' $'▌    ▏' $'▋    ▏' $'▊    ▏' $'▉    ▏' $'█    ▏'
-#   $'█▏   ▏' $'█▎   ▏' $'█▍   ▏' $'█▌   ▏' $'█▋   ▏' $'█▊   ▏' $'█▉   ▏' $'██   ▏'
-#   $'██   ▏' $'██▎  ▏' $'██▍  ▏' $'██▌  ▏' $'██▋  ▏' $'██▊  ▏' $'██▉  ▏' $'███  ▏'
-#   $'███  ▏' $'███▎ ▏' $'███▍ ▏' $'███▌ ▏' $'███▋ ▏' $'███▊ ▏' $'███▉ ▏' $'████ ▏'
-#   $'████ ▏' $'████▎▏' $'████▍▏' $'████▌▏' $'████▋▏' $'████▊▏' $'████▉▏' $'█████▏' )
-
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(vcs os_icon dir ram dir_writable)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(root_indicator background_jobs status load)
-
-
 POWERLEVEL9K_USER_ICON="\uF415" # 
 POWERLEVEL9K_ROOT_ICON="#"
 POWERLEVEL9K_SUDO_ICON=$'\uF09C' # 
 
 
+# Set name of the theme to load. Optionally, if you set this to "random"
+# it'll load a random theme each time that oh-my-zsh is loaded.
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="powerlevel9k/powerlevel9k"
-
-# ORDER
-SPACESHIP_PROMPT_ORDER=(
-  time
-  user
-  host
-  dir
-  git
-  hg
-  package
-  node
-  ruby
-  elixir
-  swift
-  golang
-  php
-  rust
-  julia
-  docker
-  aws
-  venv
-  conda
-  pyenv
-  dotnet
-  ember
-  kubecontext
-  exec_time
-  line_sep
-  vi_mode
-  jobs
-  exit_code
-  char
-)
-
-
+#ZSH_THEME="robbyrussell"
+# ZSH_THEME="igeek"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -217,7 +132,7 @@ SPACESHIP_PROMPT_ORDER=(
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colorize colored-man-pages_mod compleat copyfile copydir cp dircycle dirhistory dirpersist find-the-command history history-substring-search systemd systemadmin pass zsh-syntax-highlighting python github git-prompt nmap pip zsh-autosuggestions zsh-completions zsh-history-substring-search zsh-reload zsh-navigation-tools archlinux bspwm rsync sudo safe-paste fasd zshmarks taskwarrior fancy-ctrl-z pkg-audit)
+plugins=(git dasht emacs colorize colored-man-pages_mod compleat copyfile copydir cp dircycle dirhistory dirpersist fzf history history-substring-search systemd systemadmin zsh-syntax-highlighting python github git-prompt nmap pip zsh-autosuggestions zsh-completions zsh-history-substring-search zsh_reload zsh-navigation-tools archlinux rsync sudo safe-paste fasd zshmarks taskwarrior fancy-ctrl-z pkg-audit)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -241,15 +156,15 @@ export MANPATH="/usr/local/man:/usr/share/man"
 export LANG=en_US.UTF-8
 
 # We will try this here now
-export SUDO_ASKPASS="$HOME/.config/Dropbox/bin/daskpass"
+#export SUDO_ASKPASS="$HOME/.config/Dropbox/bin/daskpass"
 
 
 # Preferred editor for local and remote sessions
-if [[ -n $SSH_CONNECTION ]]; then
-   export EDITOR='vim'
-else
-   export EDITOR='vim'
- fi
+#if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='nvim'
+#else
+#   export EDITOR='nvim'
+# fi
 
 # Bash compatibily
 function bashsource(){
@@ -276,7 +191,7 @@ export ARCHFLAGS="-arch x86_64"
 export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # Pass
-export PASSWORD_STORE_X_SELECTION=primary
+#export PASSWORD_STORE_X_SELECTION=primary
 
 #######################COLORS
 # Great example page https://misc.flogisoft.com/bash/tip_colors_and_formatting
@@ -317,7 +232,6 @@ B_CYAN="\e[46m"
 B_LIGHT_CYAN="\e[106m"
 B_WHITE="\e[107m"
 
-
 #Formating
 DIM="\e[2m"
 UNDERLINE="\e[4m"
@@ -330,6 +244,10 @@ HIGHLIGHT=$(printf "\033[42;1m")
 # can be overcome with >|
 set -o noclobber
 
+# disables csh-style history expansion.
+# enables echo "#!" > 
+set +o histexpand
+
 # enable extened globs
 setopt extendedglob
 
@@ -338,7 +256,8 @@ setopt extendedglob
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 unalias h
- 
+unalias e
+
 alias j="jump"
 alias b="bookmark"
 alias count='ls -1 | wc -l'
@@ -353,19 +272,19 @@ alias cp="acp -g $@"
 alias vcp="vcp -vp $@"
 alias du='cdu -sidh'
 alias m='pymv -g $@'
+alias rm='rm -iv $@'
 alias mv='amv -g $@'
 alias mkdir='mkdir -p $@'
 alias define="/usr/bin/sdcv"
 alias def="/usr/bin/sdcv"
 alias del="trash-put $@"
 alias delete="trash-put $@"
+alias debug="pudb3 $@"
 alias df='dfc -p /dev/'
 alias sa='sudoedit $1'
 alias cfg-zsh='$EDITOR ~/.zshrc'
-alias cfg-term='$EDITOR ~/.config/alacritty/alacritty.yml'
+alias cfg-term='$EDITOR ~/.config/termite/config'
 alias cfg-qute='$EDITOR ~/.config/qutebrowser/config.py'
-alias cfg-sxhkd='$EDITOR ~/.config/sxhkd/sxhkdrc'
-alias cfg-bspwm='$EDITOR ~/.config/bspwm/bspwmrc'
 alias cfg-herb='$EDITOR ~/.config/herbstluftwm/autostart'
 alias cfg-profile='sa /etc/profile'
 alias cfg-rofi='$EDITOR ~/.Xresources'
@@ -378,14 +297,17 @@ alias clr='clear && ls'
 alias lock='sudo passwd -l $1'
 alias unlock='sudo passwd -u $1'
 alias spell='aspell -a $@'
-alias update="pac"
+alias update="pik"
 alias rcp='rsync -aP'
 alias rmv='rsync -aP --remove-source-files'
 alias restore='trash-restore'
 alias h='function hdi(){ howdoi $* -c -n 5; }; hdi'
 alias quit='sudo shutdown -h now'
+alias e='emacsclient -t'
+alias ec='emacsclient -c'
 
-task list
+#cat ~/.oh-my-zsh/term_start
+#task list
 ################# Functions ######################
 
 # List network stats
@@ -442,6 +364,13 @@ lst() {
 function mcd ()
 {
    mkdir -p "$1"; cd "$1";
+}
+
+function emacs()
+{
+  # -c creates a new frame
+  # -a= fires a new emacs server if none is running
+  emacsclient -c -a= $*
 }
 
 # rember dirs for dirs -v
@@ -514,5 +443,8 @@ bindkey "^[[F" end-of-line
 
 eval "$(fasd --init auto)"
 
+source ~/.oh-my-zsh/plugins/dasht/completions.zsh
 # syntax highlight source ######################### MUST BE LAST LINE IN FILE ###################
 source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

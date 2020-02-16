@@ -1,1 +1,0 @@
-['bash', 'FILE', 'comment.sh', 'USAGE', 'DESCRIPTION', 'OPTIONS', 'REQUIREMENTS', 'BUGS', 'NOTES', 'AUTHOR', 'Adam', 'Ortell', 'arortell', 'gmail.com', 'ORGANIZATION', 'CREATED', 'REVISION', 'nounset', 'Treat', 'unset', 'variables', 'error']

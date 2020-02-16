@@ -1,0 +1,2 @@
+;;; -*- no-byte-compile: t -*-
+(define-package "sift" "20190521.823" "Front-end for sift, a fast and powerful grep alternative" 'nil :commit "33b2c9ff964fe53bb55b37429faaa4e903bead7a" :keywords '("sift" "ack" "pt" "ag" "grep" "search") :authors '(("Nicolas Lamirault" . "nicolas.lamirault@gmail.com")) :maintainer '("Nicolas Lamirault" . "nicolas.lamirault@gmail.com") :url "https://github.com/nlamirault/sift.el")

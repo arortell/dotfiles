@@ -1,1 +1,0 @@
-['bash', 'then', 'echo', 'need', 'pass', 'search', 'destroy', 'list', 'BULLSHIT', 'dropbox', 'conflicted', 'files', 'sudo', 'find', '-name', 'want', 'delete', 'thes', 'bullshit', 'read', 'Deleting', 'those', 'files.', 'Delete', '-delete', 'Done..']

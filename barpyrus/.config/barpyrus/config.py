@@ -17,11 +17,11 @@ hc = hlwm.connect()
 # get the geometry of the monitor
 monitor = sys.argv[1] if len(sys.argv) >= 2 else 0
 (x, monitor_y, monitor_w, monitor_h) = hc.monitor_rect(monitor)
-height = 18 # height of the panel
+height = 18  # height of the panel
 if is_hidpi:
     height = 28
 
-width = monitor_w # width of the panel
+width = monitor_w  # width of the panel
 #gap = int(hc(['get', 'frame_gap'])) if 0 == int(hc(['get', 'smart_frame_surroundings'])) else 0
 gap = 0
 x += gap
@@ -29,38 +29,50 @@ width -= 2 * gap
 top = True
 if top:
     y = monitor_y + gap
-    hc(['pad', str(monitor), str(height + gap)]) # get space for the panel
+    hc(['pad', str(monitor), str(height + gap)])  # get space for the panel
 else:
     y = monitor_y + monitor_h - gap - height
-    hc(['pad', str(monitor), "", "", str(height + gap)]) # get space for the panel
+    # get space for the panel
+    hc(['pad', str(monitor), "", "", str(height + gap)])
 
 network_devices = os.listdir('/sys/class/net/')
-network_devices = [ n for n in network_devices if n != "lo"]
+network_devices = [n for n in network_devices if n != "lo"]
 
 cg = conky.ConkyGenerator(lemonbar.textpainter())
 with cg.temp_fg('#B7CE42'):
-    cg.symbol(0xe026);
-cg += ' '; cg.var('cpu'); cg += '% '
+    cg.symbol(0xe026)
+cg += ' '
+cg.var('cpu')
+cg += '% '
 with cg.temp_fg('#6F99B4'):
-    cg.symbol(0xe021);
-cg += ' '; cg.var('memperc'); cg += '% '
+    cg.symbol(0xe021)
+cg += ' '
+cg.var('memperc')
+cg += '% '
 
 for net in network_devices:
-    wireless_icons = [ 0xe218, 0xe219, 0xe21a ]
+    wireless_icons = [0xe218, 0xe219, 0xe21a]
     wireless_delta = 100 / len(wireless_icons)
     with cg.if_('up %s' % net):
         cg.fg('#FEA63C')
         if net[0] == 'w':
             with cg.cases():
-                for i,wicon in enumerate(wireless_icons[:-1]):
-                    cg.case('match ${wireless_link_qual_perc %s} < %d' % (net,(i+1)*wireless_delta))
+                for i, wicon in enumerate(wireless_icons[:-1]):
+                    cg.case('match ${wireless_link_qual_perc %s} < %d' % (
+                        net, (i+1)*wireless_delta))
                     cg.symbol(wicon)
                 cg.else_()
-                cg.symbol(wireless_icons[-1]) # icon for 100 percent
+                cg.symbol(wireless_icons[-1])  # icon for 100 percent
         else:
-            cg.symbol(0xe197) # normal wired icon
-        cg.fg('#D81860') ; cg.symbol(0xe13c) ; cg.fg('#CDCDCD') ; cg.var('downspeed %s' % net)
-        cg.fg('#D81860') ; cg.symbol(0xe13b) ; cg.fg('#CDCDCD') ; cg.var('upspeed %s' % net)
+            cg.symbol(0xe197)  # normal wired icon
+        cg.fg('#D81860')
+        cg.symbol(0xe13c)
+        cg.fg('#CDCDCD')
+        cg.var('downspeed %s' % net)
+        cg.fg('#D81860')
+        cg.symbol(0xe13b)
+        cg.fg('#CDCDCD')
+        cg.var('upspeed %s' % net)
 cg.drawRaw('%{F-}%{B-}')
 
 
@@ -75,9 +87,9 @@ bat_icons = [
 # last icon: 100 percent
 bat_delta = 100 / len(bat_icons)
 
-#conky_sep = '%{T2}  %{T-}%{F\\#FEA63C}|%{T2} %{T-}'
+# conky_sep = '%{T2}  %{T-}%{F\\#FEA63C}|%{T2} %{T-}'
 conky_sep = '%{T3}%{F\\#FEA63C}\ue1b1%{T-}'
-#conky_sep = '%{T3}%{F\\#878787}\ue1ac%{T2} %{T-}'
+# conky_sep = '%{T3}%{F\\#878787}\ue1ac%{T2} %{T-}'
 if is_hidpi:
     conky_sep = '%{T3}%{F\\#878787} / %{T2} %{T-}'
 conky_text = ""
@@ -89,11 +101,11 @@ conky_text += "%{F\\#FFC726}"
 conky_text += "$else"
 conky_text += "%{F\\#9fbc00}"
 conky_text += "$endif"
-for i,icon in enumerate(bat_icons[:-1]):
+for i, icon in enumerate(bat_icons[:-1]):
     conky_text += "${if_match $battery_percent < %d}" % ((i+1)*bat_delta)
     conky_text += chr(icon)
     conky_text += "${else}"
-conky_text += chr(bat_icons[-1]) # icon for 100 percent
+conky_text += chr(bat_icons[-1])  # icon for 100 percent
 for _ in bat_icons[:-1]:
     conky_text += "${endif}"
 conky_text += "%{T-}"
@@ -101,7 +113,7 @@ conky_text += "${if_match $battery_percent < 8}%{B\\#57000F}%{F\\#FF7F27}${else}
 conky_text += "${if_match $battery_percent < 15}%{F\\#FF7F27}${else}"
 conky_text += "%{F\\#CDCDCD}${endif}${endif}"
 conky_text += " $battery_percent% "
-conky_text += "${endif}" # endif: if BAT0 exists
+conky_text += "${endif}"  # endif: if BAT0 exists
 conky_text += "%{B-}%{F-}"
 conky_text += conky_sep
 conky_text += '%{F\\#CDCDCD}${time %B %d }'
@@ -116,11 +128,12 @@ xkblayouts = [
 setxkbmap = 'setxkbmap -option -option compose:menu -option ctrl:nocaps'
 setxkbmap += ' -option compose:rctrl'
 
-def simple_tag_renderer(self, painter): # self is a HLWMTagInfo object
+
+def simple_tag_renderer(self, painter):  # self is a HLWMTagInfo object
     self.activecolor = '#86AB5F'
     if self.empty:
         return
-    #painter.ol('#ffffff' if self.focused else None)
+    # painter.ol('#ffffff' if self.focused else None)
     painter.set_flag(painter.underline, True if self.visible else False)
     painter.fg('#a0a0a0' if self.occupied else '#909090')
     if self.urgent:
@@ -144,25 +157,27 @@ def simple_tag_renderer(self, painter): # self is a HLWMTagInfo object
 
 
 # you can define custom themes
-grey_frame = Theme(fg = '#dedede', bg = '#454545', padding = (4,4))
+grey_frame = Theme(fg='#dedede', bg='#454545', padding=(4, 4))
 if is_hidpi:
     def identity(x):
         return x
     grey_frame = identity
 
+
 def tab_renderer(self, painter):
     painter.fg('#989898')
     painter.symbol(0xe1aa)
-    #painter.fg('#FEA63C')
-    #painter.symbol(0xe1b1)
+    # painter.fg('#FEA63C')
+    # painter.symbol(0xe1b1)
     painter.fg('#D81860')
     painter.symbol(0xe12f)
-    #painter.fg('#FEA63C')
-    #painter.symbol(0xe1b1)
+    # painter.fg('#FEA63C')
+    # painter.symbol(0xe1b1)
     painter.fg('#989898')
     painter.symbol(0xe1aa)
     painter.fg('#CDCDCD')
     painter.space(3)
+
 
 def zip_renderer(self, painter):
     painter.fg('#989898')
@@ -175,22 +190,25 @@ def zip_renderer(self, painter):
         painter.space(2)
         painter.symbol(0xe26f)
         painter.space(2)
-    #painter.space(3)
+    # painter.space(3)
+
 
 conky_widget = conky.ConkyWidget(str(cg))
 
-#barpyrus/windowframe.py
+# barpyrus/windowframe.py
 #xwin = windowframe.WindowFrame((x,y+20,width,height), 1);
-#xwin.loop()
+# xwin.loop()
 
 # Widget configuration:
 lemonbar_options = {
-    'geometry': (x,y,width,height),
+    'geometry': (x, y, width, height),
     'foreground': '#CDCDCD',
     'background': '#CC101010',
 }
 
-lemonbar_options['font'] = 'Ubuntu Mono:size=10'
+#lemonbar_options['font'] = 'xos4 Terminus:size=10'
+#lemonbar_options['font'] = 'Federation:size=11'
+lemonbar_options['font'] = 'TerminessTTF Nerd Font Mono:size=10'
 
 if is_hidpi:
     lemonbar_options['font'] = 'Bitstream Vera Sans:size=8'
@@ -205,25 +223,24 @@ bar = lemonbar.Lemonbar(**lemonbar_options)
 
 bar.widget = W.ListLayout([
     W.RawLabel('%{l}'),
-    hlwm.HLWMTags(hc, monitor, tag_renderer = tag_renderer),
+    hlwm.HLWMTags(hc, monitor, tag_renderer=tag_renderer),
     W.TabbedLayout(list(enumerate([
-        W.ListLayout([ W.RawLabel('%{c}'),
-            hlwm.HLWMMonitorFocusLayout(hc, monitor,
-                # this widget is shown on the focused monitor:
-                grey_frame(hlwm.HLWMWindowTitle(hc, maxlen = 70)),
-                # this widget is shown on all unfocused monitors:
-                conky_widget,
-            )]),
-        W.ListLayout([ W.RawLabel('%{c}'), conky_widget ]),
-    ])), tab_renderer = tab_renderer),
+        W.ListLayout([W.RawLabel('%{c}'),
+                      hlwm.HLWMMonitorFocusLayout(hc, monitor,
+                                                  # this widget is shown on the focused monitor:
+                                                  grey_frame(
+                                                      hlwm.HLWMWindowTitle(hc, maxlen=70)),
+                                                  # this widget is shown on all unfocused monitors:
+                                                  conky_widget,
+                                                  )]),
+        W.ListLayout([W.RawLabel('%{c}'), conky_widget]),
+    ])), tab_renderer=tab_renderer),
     W.RawLabel('%{r}'),
     # something like a tabbed widget with the tab labels '>' and '<'
-#    W.TabbedLayout([
-#        ('0', W.RawLabel('')),
-#        ('1', hlwm.HLWMLayoutSwitcher(hc, xkblayouts, command = setxkbmap.split(' '))),
-#        ], tab_renderer = zip_renderer),
-    conky.ConkyWidget(text= conky_text),
+    W.TabbedLayout([
+        ('0', W.RawLabel('')),
+        ('1', hlwm.HLWMLayoutSwitcher(hc, xkblayouts, command=setxkbmap.split(' '))),
+    ], tab_renderer=zip_renderer),
+    conky.ConkyWidget(text=conky_text),
     W.DateTime('%I:%M %p'),
 ])
-
-

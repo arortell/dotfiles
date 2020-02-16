@@ -122,3 +122,89 @@ new [description:"COMPTON is CAUSING all PROBLEMS" entry:"1555605577" modified:"
 time 1555605614
 new [description:"source profile" entry:"1555605614" modified:"1555605614" priority:"H" status:"pending" uuid:"fb301c86-3cec-4d06-b73b-ed32be3479ff"]
 ---
+time 1556642972
+old [description:"haxor-news" entry:"1544884695" modified:"1544884695" status:"pending" uuid:"ed57c863-2657-4f85-88e6-0dfab4d6214f"]
+new [description:"haxor-news" end:"1556642969" entry:"1544884695" modified:"1556642972" status:"deleted" uuid:"ed57c863-2657-4f85-88e6-0dfab4d6214f"]
+---
+time 1556642986
+old [description:"add users to passwords" entry:"1544709350" modified:"1544709350" status:"pending" uuid:"cabe26f9-fb1f-4bd8-a38e-17ad82cebb56"]
+new [description:"add users to passwords" end:"1556642984" entry:"1544709350" modified:"1556642986" status:"deleted" uuid:"cabe26f9-fb1f-4bd8-a38e-17ad82cebb56"]
+---
+time 1556642995
+old [description:"EscEsc" entry:"1543516509" modified:"1543516509" status:"pending" uuid:"a330b8e6-c56b-4e48-bacb-50487a4793e6"]
+new [description:"EscEsc" end:"1556642993" entry:"1543516509" modified:"1556642995" status:"deleted" uuid:"a330b8e6-c56b-4e48-bacb-50487a4793e6"]
+---
+time 1556643000
+old [description:"wgetpkg" entry:"1544555985" modified:"1544555985" status:"pending" uuid:"71d13218-f623-4dd9-a4e9-15635e0a79fe"]
+new [description:"wgetpkg" end:"1556642999" entry:"1544555985" modified:"1556643000" status:"deleted" uuid:"71d13218-f623-4dd9-a4e9-15635e0a79fe"]
+---
+time 1556643020
+old [description:"anosurf" entry:"1542662342" modified:"1542662342" status:"pending" uuid:"50265970-8cdc-42ba-a550-f0dddc17d383"]
+new [annotation_1556643018:"all" description:"anosurf" end:"1556643018" entry:"1542662342" modified:"1556643020" status:"deleted" uuid:"50265970-8cdc-42ba-a550-f0dddc17d383"]
+---
+time 1556643021
+old [description:"ctrl-z" entry:"1543516514" modified:"1543516514" status:"pending" uuid:"a695fc5a-dbc2-4d34-a9bc-0ddd200cc18f"]
+new [annotation_1556643020:"all" description:"ctrl-z" end:"1556643020" entry:"1543516514" modified:"1556643021" status:"deleted" uuid:"a695fc5a-dbc2-4d34-a9bc-0ddd200cc18f"]
+---
+time 1556643022
+old [description:"fasd" entry:"1543517677" modified:"1543517677" status:"pending" uuid:"52dcff66-fe47-45cb-9c3b-9910f84d36e2"]
+new [annotation_1556643021:"all" description:"fasd" end:"1556643021" entry:"1543517677" modified:"1556643022" status:"deleted" uuid:"52dcff66-fe47-45cb-9c3b-9910f84d36e2"]
+---
+time 1556643022
+old [description:"zshmarks" entry:"1543517780" modified:"1543517780" status:"pending" uuid:"192ffa59-5170-4967-a232-167c36dc2aa8"]
+new [annotation_1556643022:"all" description:"zshmarks" end:"1556643022" entry:"1543517780" modified:"1556643022" status:"deleted" uuid:"192ffa59-5170-4967-a232-167c36dc2aa8"]
+---
+time 1556643023
+old [description:"vim-dwm" entry:"1543930806" modified:"1543930806" status:"pending" uuid:"b2efc458-1451-449f-9158-d9591ba76443"]
+new [annotation_1556643022:"all" description:"vim-dwm" end:"1556643022" entry:"1543930806" modified:"1556643023" status:"deleted" uuid:"b2efc458-1451-449f-9158-d9591ba76443"]
+---
+time 1556643024
+old [description:"qute-pass" entry:"1543930813" modified:"1543930813" status:"pending" uuid:"129ccf85-c1c2-43b6-855d-b63d0e0f0d02"]
+new [annotation_1556643023:"all" description:"qute-pass" end:"1556643023" entry:"1543930813" modified:"1556643024" status:"deleted" uuid:"129ccf85-c1c2-43b6-855d-b63d0e0f0d02"]
+---
+time 1556643025
+old [description:"firejail" entry:"1544396341" modified:"1544396341" status:"pending" uuid:"227acb84-95f4-4d6a-9e79-b8ee2e71751f"]
+new [annotation_1556643024:"all" description:"firejail" end:"1556643024" entry:"1544396341" modified:"1556643025" status:"deleted" uuid:"227acb84-95f4-4d6a-9e79-b8ee2e71751f"]
+---
+time 1556643025
+old [description:"rkhunter" entry:"1544401830" modified:"1544401830" status:"pending" uuid:"fda7a990-df81-4c0e-9a40-b3f629dfaccf"]
+new [annotation_1556643025:"all" description:"rkhunter" end:"1556643025" entry:"1544401830" modified:"1556643025" status:"deleted" uuid:"fda7a990-df81-4c0e-9a40-b3f629dfaccf"]
+---
+time 1556643027
+old [description:"lynis" entry:"1544401834" modified:"1544401834" status:"pending" uuid:"33704e16-36ed-4299-ad20-b18f726aa8b8"]
+new [annotation_1556643025:"all" description:"lynis" end:"1556643025" entry:"1544401834" modified:"1556643027" status:"deleted" uuid:"33704e16-36ed-4299-ad20-b18f726aa8b8"]
+---
+time 1556643041
+old [description:"COMPTON is CAUSING all PROBLEMS" entry:"1555605577" modified:"1555605577" priority:"H" status:"pending" uuid:"f75b5d5f-0bf7-436e-90fd-c0c5ccb788ef"]
+new [annotation_1556643040:"all" description:"COMPTON is CAUSING all PROBLEMS" end:"1556643040" entry:"1555605577" modified:"1556643041" priority:"H" status:"deleted" uuid:"f75b5d5f-0bf7-436e-90fd-c0c5ccb788ef"]
+---
+time 1556643043
+old [description:"source profile" entry:"1555605614" modified:"1555605614" priority:"H" status:"pending" uuid:"fb301c86-3cec-4d06-b73b-ed32be3479ff"]
+new [annotation_1556643041:"all" description:"source profile" end:"1556643041" entry:"1555605614" modified:"1556643043" priority:"H" status:"deleted" uuid:"fb301c86-3cec-4d06-b73b-ed32be3479ff"]
+---
+time 1556643066
+old [description:"audit" entry:"1544401838" modified:"1544709334" status:"pending" uuid:"7c17262c-7e1c-414d-9e33-25fbfbd4e093"]
+new [annotation_1556643065:"all" description:"audit" end:"1556643065" entry:"1544401838" modified:"1556643066" status:"deleted" uuid:"7c17262c-7e1c-414d-9e33-25fbfbd4e093"]
+---
+time 1556643066
+old [description:"pacaudit" entry:"1544709303" modified:"1544709303" status:"pending" uuid:"f920ef5e-779f-4da6-aab7-14e7a540eb1c"]
+new [annotation_1556643066:"all" description:"pacaudit" end:"1556643066" entry:"1544709303" modified:"1556643066" status:"deleted" uuid:"f920ef5e-779f-4da6-aab7-14e7a540eb1c"]
+---
+time 1556643067
+old [description:"pkg-audit" entry:"1544709732" modified:"1544709732" status:"pending" uuid:"dd056ac3-2739-45d7-b0d5-4a4f07793b58"]
+new [annotation_1556643066:"all" description:"pkg-audit" end:"1556643066" entry:"1544709732" modified:"1556643067" status:"deleted" uuid:"dd056ac3-2739-45d7-b0d5-4a4f07793b58"]
+---
+time 1556643067
+old [description:"arch-audit" entry:"1544710474" modified:"1544710474" status:"pending" uuid:"144fc3cc-c73a-4cc2-b364-d573aed2b85c"]
+new [annotation_1556643067:"all" description:"arch-audit" end:"1556643067" entry:"1544710474" modified:"1556643067" status:"deleted" uuid:"144fc3cc-c73a-4cc2-b364-d573aed2b85c"]
+---
+time 1556643117
+new [description:"Create Battery Monitor Script" entry:"1556643117" modified:"1556643117" priority:"H" status:"pending" uuid:"7fdd8645-cd48-452a-b23d-bd620e616bdb"]
+---
+time 1561590365
+old [description:"Create Battery Monitor Script" entry:"1556643117" modified:"1556643117" priority:"H" status:"pending" uuid:"7fdd8645-cd48-452a-b23d-bd620e616bdb"]
+new [description:"Create Battery Monitor Script" end:"1561590363" entry:"1556643117" modified:"1561590365" priority:"H" status:"deleted" uuid:"7fdd8645-cd48-452a-b23d-bd620e616bdb"]
+---
+time 1561601278
+new [description:"Get USB to reinstall new version" entry:"1561601278" modified:"1561601278" status:"pending" uuid:"48a71e2d-64af-435f-83ba-0f388fd0ff49"]
+---
