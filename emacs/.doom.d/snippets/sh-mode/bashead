@@ -1,0 +1,24 @@
+# -*- mode: snippet -*-
+# name: Header for Bash Scripts
+# key: bashead
+# contributor: Adam Ortell, arortell80@gmail.com
+# type: snippet
+# binding: C-c C-h
+
+# --
+# ===============================================================================
+#
+#          FILE:
+#         USAGE:
+#   DESCRIPTION:
+#       OPTIONS:
+#  REQUIREMENTS:
+#         NOTES:
+#        AUTHOR: Adam Ortell, arortell80@gmail.com
+#       CREATED:
+#      REVISION:
+#          TODO:
+#
+# ===============================================================================
+#progname="$(basename "$0")"                     # name of script
+set -o nounset                                  # Treat unset variables as an error

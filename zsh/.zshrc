@@ -86,8 +86,8 @@ POWERLEVEL9K_SUDO_ICON=$'\uF09C' # 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="powerlevel9k/powerlevel9k"
-#ZSH_THEME="robbyrussell"
+#ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME="robbyrussell"
 # ZSH_THEME="igeek"
 
 # Uncomment the following line to use case-sensitive completion.
@@ -100,8 +100,6 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
 
-# Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
@@ -132,8 +130,7 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git dasht emacs colorize colored-man-pages_mod compleat copyfile copydir cp dircycle dirhistory dirpersist fzf history history-substring-search systemd systemadmin zsh-syntax-highlighting python github git-prompt nmap pip zsh-autosuggestions zsh-completions zsh-history-substring-search zsh_reload zsh-navigation-tools archlinux rsync sudo safe-paste fasd zshmarks taskwarrior fancy-ctrl-z pkg-audit)
-
+plugins=(alias-finder archlinux colorize colored-man-pages_mod compleat copyfile cp common-aliases dircycle dirhistory dirpersist fasd fzf git github git-prompt history history-substring-search pip python rsync sudo systemd systemadmin zsh-syntax-highlighting zsh-autosuggestions zsh-completions zsh-history-substring-search zsh_reload zsh-navigation-tools zshmarks)
 source $ZSH/oh-my-zsh.sh
 
 autoload -Uz compinit compinit promptinit run-help
@@ -156,15 +153,7 @@ export MANPATH="/usr/local/man:/usr/share/man"
 export LANG=en_US.UTF-8
 
 # We will try this here now
-#export SUDO_ASKPASS="$HOME/.config/Dropbox/bin/daskpass"
-
-
-# Preferred editor for local and remote sessions
-#if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='nvim'
-#else
-#   export EDITOR='nvim'
-# fi
+export SUDO_ASKPASS="$HOME/.config/Dropbox/bin/daskpass"
 
 # Bash compatibily
 function bashsource(){
@@ -190,8 +179,6 @@ export ARCHFLAGS="-arch x86_64"
 # ssh
 export SSH_KEY_PATH="~/.ssh/rsa_id"
 
-# Pass
-#export PASSWORD_STORE_X_SELECTION=primary
 
 #######################COLORS
 # Great example page https://misc.flogisoft.com/bash/tip_colors_and_formatting
@@ -205,8 +192,7 @@ RED="\e[31m"
 LIGHT_RED="\e[91m"
 GREEN="\e[32m"
 LIGHT_GREEN="\e[92m"
-YELLOW="\e[33m"
-LIGHT_YELLOW="\e[93m"
+YELLOW="\e[93m"
 BLUE="\e[34m"
 LIGHT_BLUE="\e[94m"
 MAGENTA="\e[35m"
@@ -239,8 +225,9 @@ BLINK="\e[5m"
 INVERT="\e[7m"
 BOLD="\e[1m"
 HIGHLIGHT=$(printf "\033[42;1m")
+NORM="\e[0m"
 
-# prevent file from being overwritten with > 
+# prevent file from being overwritten with >
 # can be overcome with >|
 set -o noclobber
 
@@ -255,39 +242,36 @@ setopt extendedglob
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-unalias h
-unalias e
 
 alias j="jump"
 alias b="bookmark"
 alias count='ls -1 | wc -l'
-alias l="clear && ls $@"
-alias ll="clear && ls -lh"
-alias la="clear && ls -a $@"
-alias c="pycp -g $@"
-alias la="clear && ls -a $@"
-alias c="pycp $@"
-alias cy="pv $1 > $2"
+alias l="ls -CF"
+alias ll="ls -lh"
+alias la="ls -A"
+alias pc="pycp $@"
+alias c="clear"
+alias ct="ccat"
 alias cp="acp -g $@"
+alias dd='dd status=progress'
+alias ec='emacsclient -nw'
 alias vcp="vcp -vp $@"
 alias du='cdu -sidh'
-alias m='pymv -g $@'
+alias pm='pymv -g $@'
 alias rm='rm -iv $@'
 alias mv='amv -g $@'
 alias mkdir='mkdir -p $@'
-alias define="/usr/bin/sdcv"
 alias def="/usr/bin/sdcv"
 alias del="trash-put $@"
-alias delete="trash-put $@"
 alias debug="pudb3 $@"
 alias df='dfc -p /dev/'
 alias sa='sudoedit $1'
-alias cfg-zsh='$EDITOR ~/.zshrc'
-alias cfg-term='$EDITOR ~/.config/termite/config'
-alias cfg-qute='$EDITOR ~/.config/qutebrowser/config.py'
-alias cfg-herb='$EDITOR ~/.config/herbstluftwm/autostart'
+alias cfg-zsh='ec ~/.zshrc'
+alias cfg-term='ec ~/.config/alacritty/alacritty.yml'
+alias cfg-qute='ec ~/.config/qutebrowser/config.py'
+alias cfg-herb='ec ~/.config/herbstluftwm/autostart'
 alias cfg-profile='sa /etc/profile'
-alias cfg-rofi='$EDITOR ~/.Xresources'
+alias cfg-rofi='te ~/.Xresources'
 alias rld-rofi='xrdb ~/.Xresources'
 alias rld-zsh='source ~/.zshrc'
 alias rld-profile='source /etc/profile'
@@ -301,10 +285,14 @@ alias update="pik"
 alias rcp='rsync -aP'
 alias rmv='rsync -aP --remove-source-files'
 alias restore='trash-restore'
-alias h='function hdi(){ howdoi $* -c -n 5; }; hdi'
+alias how='function hdi(){ howdoi $* -c -n 5; }; hdi'
 alias quit='sudo shutdown -h now'
-alias e='emacsclient -t'
-alias ec='emacsclient -c'
+
+# unalias grep
+# alias grep='grep --color=always'
+
+# add some color to grep
+export GREP_COLORS='sl=49;39:cx=49;39:mt=49;31;1:fn=49;35:ln=49;32;1:bn=49;32;3;4:se=49;36';
 
 #cat ~/.oh-my-zsh/term_start
 #task list

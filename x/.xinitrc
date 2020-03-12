@@ -35,7 +35,7 @@ xsetroot -cursor_name left_ptr 2>&1 &
 gpg-agent --daemon --pinentry-program /usr/bin/pinentry-rofi >> ~/.logs/xinit.log 2>&1 &
 
 echo '##################### Setting Wallpaper ###################\n' >> ~/.logs/xinit.log
-feh --bg-fill /home/Yandex-Disk/images/Wallpapers/Star_Trek/Klingon-grey.png
+feh --bg-fill /home/Yandex-Disk/images/Wallpapers/Star_Trek/borg-logo-1920x1080.jpg
 
 echo '##################### Java Work Around ###################\n' >> ~/.logs/xinit.log
 export _JAVA_AWT_WM_NONREPARENTING=1

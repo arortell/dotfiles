@@ -190,7 +190,6 @@ def zip_renderer(self, painter):
         painter.space(2)
         painter.symbol(0xe26f)
         painter.space(2)
-    # painter.space(3)
 
 
 conky_widget = conky.ConkyWidget(str(cg))
@@ -203,12 +202,11 @@ conky_widget = conky.ConkyWidget(str(cg))
 lemonbar_options = {
     'geometry': (x, y, width, height),
     'foreground': '#CDCDCD',
-    'background': '#CC101010',
+    'background': '#FF101010',
+    # 'background': '#CC101010', #This enables transparency
 }
 
-#lemonbar_options['font'] = 'xos4 Terminus:size=10'
-#lemonbar_options['font'] = 'Federation:size=11'
-lemonbar_options['font'] = 'TerminessTTF Nerd Font Mono:size=10'
+lemonbar_options['font'] = 'misc nexus:size=10'
 
 if is_hidpi:
     lemonbar_options['font'] = 'Bitstream Vera Sans:size=8'
