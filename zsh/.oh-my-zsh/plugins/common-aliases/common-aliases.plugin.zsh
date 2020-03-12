@@ -15,7 +15,7 @@ alias lrt='ls -1Fcrt'
 
 alias zshrc='${=EDITOR} ~/.zshrc' # Quick access to the ~/.zshrc file
 
-alias grep='grep --color'
+#alias grep='grep --color=auto'
 alias sgrep='grep -R -n -H -C 5 --exclude-dir={.git,.svn,CVS} '
 
 alias t='tail -f'
@@ -70,7 +70,7 @@ if is-at-least 4.2.0; then
   for ft in $_media_fts; do alias -s $ft=mplayer; done
 
   #read documents
-  alias -s pdf=acroread
+  alias -s pdf=zathura
   alias -s ps=gv
   alias -s dvi=xdvi
   alias -s chm=xchm

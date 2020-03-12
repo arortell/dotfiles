@@ -137,20 +137,21 @@
 (use-package! pkgbuild-mode
   :mode "\\PKGBUILD")
 
+
+
 ;; =====================================
 ;; Keybindings And Custom Functions
 ;; =====================================
 
-(defun copy-line (arg)
+(defun copy-line (arg) ;; Copy line without cut
   "Copy lines (as many as prefix argument) in the kill ring"
   (interactive "p")
   (kill-ring-save (line-beginning-position)
                   (line-beginning-position (+ 1 arg)))
   (message "%d line%s copied" arg (if (= 1 arg) "" "s")))
 
-;; key binding to call copy-line function
-(global-set-key "\C-c\C-k" 'copy-line)
-
+(global-set-key "\C-c\C-k" 'copy-line) ;; key binding to call copy-line function
+(global-set-key "\C-k" 'kill-whole-line) ;; delete whole line
 (global-set-key [f2] '+eshell/toggle)  ;; toggle terminal
 (global-set-key "\M-;" 'comment-line)   ;; keybinding toggle terminal
 (global-set-key [f5] 'neotree-toggle)   ;; keybinding toggle neotree
