@@ -165,16 +165,7 @@ if is_hidpi:
 
 
 def tab_renderer(self, painter):
-    painter.fg('#989898')
-    painter.symbol(0xe1aa)
-    # painter.fg('#FEA63C')
-    # painter.symbol(0xe1b1)
-    painter.fg('#D81860')
     painter.symbol(0xe12f)
-    # painter.fg('#FEA63C')
-    # painter.symbol(0xe1b1)
-    painter.fg('#989898')
-    painter.symbol(0xe1aa)
     painter.fg('#CDCDCD')
     painter.space(3)
 
@@ -202,11 +193,11 @@ conky_widget = conky.ConkyWidget(str(cg))
 lemonbar_options = {
     'geometry': (x, y, width, height),
     'foreground': '#CDCDCD',
-    'background': '#FF101010',
-    # 'background': '#CC101010', #This enables transparency
+    # 'background': '#FF101010',
+    'background': '#00101010',  # This enables complete transparency
 }
 
-lemonbar_options['font'] = 'misc nexus:size=10'
+lemonbar_options['font'] = 'TerminessTTF Nerd Font Mono:size=12'
 
 if is_hidpi:
     lemonbar_options['font'] = 'Bitstream Vera Sans:size=8'

@@ -49,8 +49,7 @@
 ;; This is required for some packages whose default branch isn't 'master' (which
 ;; our package manager can't deal with; see raxod502/straight.el#279)
 ;(package! builtin-package :recipe (:branch "develop"))
-(package! elpy)
-(package! company-quickhelp)
-(package! py-autopep8)
 (package! yasnippet-snippets)
+(package! systemd)
 (package! pkgbuild-mode)
+(package! py-autopep8)
