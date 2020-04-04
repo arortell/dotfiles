@@ -17,7 +17,7 @@
 # Bookmarks:
 
 # TUI:
-ar
+al
 q0
 v2
 ov
@@ -324,80 +324,11 @@ d/home
 	b14ckr41n
 4
 d/home/b14ckr41n
-	Ch5.Railways.of.the.Holocaust.720p.HDTV.x264.AAC.MVGroup.org.mkv
-23
+	..
+0
 d
 
 # Right window history (oldest to newest):
-D/home/b14ckr41n/darndest-dotfiles/build/build
-	root
-3
-D/home/b14ckr41n/darndest-dotfiles/build/build/root
-	etc
-1
-D/home/b14ckr41n/darndest-dotfiles/build/build/root/etc
-	profile.d
-1
-D/home/b14ckr41n/darndest-dotfiles/build/build/root/etc/profile.d
-	..
-0
-D/home/b14ckr41n/darndest-dotfiles/build/build/root/etc
-	..
-0
-D/home/b14ckr41n/darndest-dotfiles/build/build/root
-	..
-0
-D/home/b14ckr41n/darndest-dotfiles/build/build
-	..
-0
-D/home/b14ckr41n/darndest-dotfiles/build
-	..
-0
-D/home/b14ckr41n/darndest-dotfiles
-	herbstluftwm
-7
-D/home/b14ckr41n/darndest-dotfiles/herbstluftwm
-	.config
-1
-D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config
-	herbstluftwm
-1
-D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config/herbstluftwm
-	config
-2
-D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config/herbstluftwm/config
-	..
-0
-D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config/herbstluftwm
-	functions
-3
-D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config/herbstluftwm/functions
-	toggle
-8
-D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config/herbstluftwm/functions/toggle
-	..
-0
-D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config/herbstluftwm/functions
-	switch
-7
-D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config/herbstluftwm/functions/switch
-	..
-0
-D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config/herbstluftwm/functions
-	restore
-6
-D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config/herbstluftwm/functions/restore
-	..
-0
-D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config/herbstluftwm/functions
-	draw
-1
-D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config/herbstluftwm/functions/draw
-	..
-0
-D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config/herbstluftwm/functions
-	..
-0
 D/home/b14ckr41n/darndest-dotfiles/herbstluftwm/.config/herbstluftwm
 	config
 2
@@ -627,14 +558,82 @@ D/home/b14ckr41n/source
 	..
 0
 D/home/b14ckr41n
-	scripts
-16
+	hlissner-dotfiles
+10
+D/home/b14ckr41n/hlissner-dotfiles
+	config
+2
+D/home/b14ckr41n/hlissner-dotfiles/config
+	..
+0
+D/home/b14ckr41n/hlissner-dotfiles
+	bin
+1
+D/home/b14ckr41n/hlissner-dotfiles/bin
+	rofi
+2
+D/home/b14ckr41n/hlissner-dotfiles/bin/rofi
+	..
+0
+D/home/b14ckr41n/hlissner-dotfiles/bin
+	..
+0
+D/home/b14ckr41n/hlissner-dotfiles
+	packages
+5
+D/home/b14ckr41n/hlissner-dotfiles/packages
+	..
+0
+D/home/b14ckr41n/hlissner-dotfiles
+	modules
+4
+D/home/b14ckr41n/hlissner-dotfiles/modules
+	shell
+6
+D/home/b14ckr41n/hlissner-dotfiles/modules/shell
+	..
+0
+D/home/b14ckr41n/hlissner-dotfiles/modules
+	themes
+7
+D/home/b14ckr41n/hlissner-dotfiles/modules/themes
+	aquanaut
+1
+D/home/b14ckr41n/hlissner-dotfiles/modules/themes/aquanaut
+	rofi
+2
+D/home/b14ckr41n/hlissner-dotfiles/modules/themes/aquanaut/rofi
+	..
+0
+D/home/b14ckr41n/hlissner-dotfiles/modules/themes/aquanaut
+	..
+0
+D/home/b14ckr41n/hlissner-dotfiles/modules/themes
+	..
+0
+D/home/b14ckr41n/hlissner-dotfiles/modules
+	..
+0
+D/home/b14ckr41n/hlissner-dotfiles
+	config
+2
+D/home/b14ckr41n/hlissner-dotfiles/config
+	..
+0
+D/home/b14ckr41n/hlissner-dotfiles
+	bin
+1
+D/home/b14ckr41n/hlissner-dotfiles/bin
+	rofi
+2
+D/home/b14ckr41n/hlissner-dotfiles/bin/rofi
+	passmenu
+5
 D
 
 # Command line history (oldest to newest):
 :Q
 :!lOOOOOOOOOO
-:q
 :sync
 :trashes
 :lstrash
@@ -642,6 +641,7 @@ D
 :za
 ::
 :elseif\
+:q
 
 # Search history (oldest to newest):
 

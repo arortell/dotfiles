@@ -6,10 +6,8 @@
 
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets.
-(setq user-full-name "Adam Ortell"
-      user-mail-address "arortell80@gmail.com"
-      doom-scratch-buffer-major-mode 'org-mode
-      company-idle-delay 0)
+(setq user-full-name "b14ckr41n"
+      user-mail-address "arortell80@gmail.com")
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom. Here
 ;; are the three important ones:
@@ -21,14 +19,13 @@
 ;;
 ;; They all accept either a font-spec, font string ("Input Mono-12"), or xlfd
 ;; font string. You generally only need these two:
-;; (setq doom-font (font-spec :family "xos4 Terminus" :size 14))
-(setq doom-font (font-spec :family "Iosevka" :size 14))
+;;(setq doom-font (font-spec :family "monospace" :size 14))
+(setq doom-font (font-spec :family "xos4 Terminus" :size 14))
 
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
-;; (setq doom-theme 'doom-one)
-(setq doom-theme 'doom-vibrant)
+(setq doom-theme 'doom-one)
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
@@ -36,6 +33,7 @@
       org-archive-location (concat org-directory "archive/%s::")
       org-ellipsis " ▼ "
       org-bullets-bullet-list '("☰" "☱" "☲" "☳" "☴" "☵" "☶" "☷" "☷" "☷" "☷"))
+
 
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
@@ -68,8 +66,8 @@
 ;; ===============================================================================
 ;;  ++++++++++++++++++++++++< Completion >+++++++++++++++++++++++++++++++++++++++
 ;; ===============================================================================
-(setq company-dabbrev-downcase 0)
-(setq company-idle-delay 0.1)
+;;(setq company-dabbrev-downcase 0)
+;;(setq company-idle-delay 0.1)
 
 ;; ===============================================================================
 ;;  ++++++++++++++++++++++++< Development >+++++++++++++++++++++++++++++++++++++++

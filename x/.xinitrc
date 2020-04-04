@@ -29,7 +29,8 @@ gpg-agent --daemon --pinentry-program /usr/bin/pinentry-rofi >> ~/.logs/xinit.lo
 
 # feh --bg-fill /home/Yandex-Disk/images/Wallpapers/cosmos/outerspaceEarth.jpg
 # feh --bg-fill /home/Yandex-Disk/images/Wallpapers/Star_Trek/Borg-Cube-With-Sphere.jpg
-feh --bg-fill /home/Yandex-Disk/images/Wallpapers/Star_Trek/Voyager_UnderSide.jpg
+feh --bg-fill /home/Yandex-Disk/images/Wallpapers/BSG/Cylon-Heavy-Raider.jpg
+
 
 # Turn off Screen Blanking
 xset s off
