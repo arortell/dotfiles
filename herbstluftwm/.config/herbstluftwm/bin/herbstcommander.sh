@@ -25,7 +25,7 @@ dm() {
 }
 
 hc() { "${herbstclient_command[@]:-herbstclient}" "$@" ;}
-prompt=${prompt:-herbstluft: }
+prompt=${prompt:-herbstluftwm: }
 display_reply=${display_reply:-true}
 
 cmd=( "$@" )

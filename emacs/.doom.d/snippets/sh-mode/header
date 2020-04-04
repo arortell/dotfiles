@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# name: Header for Bash Scripts
+# key: header
+# contributor: Adam Ortell, arortell80@gmail.com
+# type: snippet
+# binding: C-c H
+
+# --
+# ===============================================================================
+#
+#        AUTHOR: b14ckr41n
+#          FILE:
+#   DESCRIPTION:
+#       OPTIONS:
+#  DEPENDENCIES:
+#       CREATED:
+#      REVISION:
+#          TODO:
+#         FIXME:
+# ===============================================================================
+set -o nounset                                  # Treat unset variables as an error

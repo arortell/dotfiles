@@ -1,5 +1,4 @@
-
-# _______| |__  _ __ ___ 
+# _______| |__  _ __ ___
 # |_  / __| '_ \| '__/ __|
 #  / /\__ \ | | | | | (__ 
 # /___|___/_| |_|_|  \___|
@@ -27,68 +26,98 @@ export ZSH=$HOME/.oh-my-zsh
 setopt autocd
 cdpath+=(~)
 
-## Powerline Theme settings
-POWERLEVEL9K_BATTERY_CHARGING='yellow'
-POWERLEVEL9K_BATTERY_CHARGED='blue'
-POWERLEVEL9K_BATTERY_LOW_THRESHOLD='20'
-POWERLEVEL9K_BATTERY_LOW_COLOR='red'
-POWERLEVEL9K_BATTERY_CHARGED_BACKGROUND='46'
-POWERLEVEL9K_BATTERY_CHARGED_FOREGROUND='235'
-POWERLEVEL9K_BATTERY_CHARGING_BACKGROUND='178'
-POWERLEVEL9K_BATTERY_CHARGING_FOREGROUND='235'
-POWERLEVEL9K_BATTERY_LOW_BACKGROUND='88'
-POWERLEVEL9K_BATTERY_LOW_FOREGROUND='235'
-POWERLEVEL9K_BATTERY_CHARGED_ICON='/UF240'
-POWERLEVEL9K_BATTERY_LOW_ICON='/UF240'
-POWERLEVEL9K_BATTERY_CHARGING_ICON='/UF1E6'
-POWERLEVEL9K_BATTERY_DISCONNECTED_FOREGROUND='195'
-POWERLEVEL9K_BATTERY_DISCONNECTED_BACKGROUND='009'
-POWERLEVEL9K_BATTERY_ICON='\UF1E6'
 
-POWERLEVEL9K_MODE='nerdfont-complete'
-POWERLEVEL9K_PROMPT_ON_NEWLINE=true
-POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX="↱"
-POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="↳ " 
-POWERLEVEL9K_SHORTEN_STRATEGY="truncate_middle"
-POWERLEVEL9K_OS_ICON_BACKGROUND="black"
-POWERLEVEL9K_OS_ICON_FOREGROUND="249"
-POWERLEVEL9K_TODO_BACKGROUND="black"
-POWERLEVEL9K_TODO_FOREGROUND="249"
-POWERLEVEL9K_DIR_HOME_BACKGROUND="black"
-POWERLEVEL9K_DIR_HOME_FOREGROUND="249"
-POWERLEVEL9K_DIR_HOME_SUBFOLDER_BACKGROUND="black"
-POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND="249"
-POWERLEVEL9K_DIR_DEFAULT_BACKGROUND="black"
-POWERLEVEL9K_DIR_DEFAULT_FOREGROUND="249"
-POWERLEVEL9K_STATUS_OK_BACKGROUND="black"
-POWERLEVEL9K_STATUS_OK_FOREGROUND="green"
-POWERLEVEL9K_STATUS_ERROR_BACKGROUND="black"
-POWERLEVEL9K_STATUS_ERROR_FOREGROUND="red"
-POWERLEVEL9K_LOAD_CRITICAL_BACKGROUND="black"
-POWERLEVEL9K_LOAD_WARNING_BACKGROUND="black"
-POWERLEVEL9K_LOAD_NORMAL_BACKGROUND="black"
-POWERLEVEL9K_LOAD_CRITICAL_FOREGROUND="249"
-POWERLEVEL9K_LOAD_WARNING_FOREGROUND="249"
-POWERLEVEL9K_LOAD_NORMAL_FOREGROUND="249"
-POWERLEVEL9K_LOAD_CRITICAL_VISUAL_IDENTIFIER_COLOR="red"
-POWERLEVEL9K_LOAD_WARNING_VISUAL_IDENTIFIER_COLOR="yellow"
-POWERLEVEL9K_LOAD_NORMAL_VISUAL_IDENTIFIER_COLOR="green"
-POWERLEVEL9K_RAM_BACKGROUND="black"
-POWERLEVEL9K_RAM_FOREGROUND="249"
-POWERLEVEL9K_RAM_ELEMENTS=(ram_free)
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=('status' 'todo' 'dir' 'vcs' 'dir_writable')
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=('background_jobs' 'load' 'ram_joined' 'public_ip' 'battery')
-POWERLEVEL9K_USER_ICON="\uF415" # 
-POWERLEVEL9K_ROOT_ICON="#"
-POWERLEVEL9K_SUDO_ICON=$'\uF09C' # 
+#SPACESHIP CONFIG
+#ORDER
+SPACESHIP_PROMPT_ORDER=(
+  time     #
+  vi_mode  # these sections will be
+  user     # before prompt char
+  host     #
+  char
+  dir
+  git
+  node
+  ruby
+  jobs
+  swift
+  golang
+  docker
+  venv
+  pyenv
+)
+
+# USER
+SPACESHIP_USER_PREFIX="" # remove `with` before username
+SPACESHIP_USER_SUFFIX="" # remove space before host
+
+# HOST
+# Result will look like this:
+#   username@:(hostname)
+SPACESHIP_HOST_PREFIX="@:("
+SPACESHIP_HOST_SUFFIX=") "
+
+# DIR
+SPACESHIP_DIR_PREFIX='' # disable directory prefix, cause it's not the first section
+SPACESHIP_DIR_TRUNC='1' # show only last directory
+
+# GIT
+# Disable git symbol
+SPACESHIP_GIT_SYMBOL="" # disable git prefix
+SPACESHIP_GIT_BRANCH_PREFIX="" # disable branch prefix too
+# Wrap git in `git:(...)`
+SPACESHIP_GIT_PREFIX='git:('
+SPACESHIP_GIT_SUFFIX=") "
+SPACESHIP_GIT_BRANCH_SUFFIX="" # remove space after branch name
+# Unwrap git status from `[...]`
+SPACESHIP_GIT_STATUS_PREFIX=""
+SPACESHIP_GIT_STATUS_SUFFIX=""
+
+# NODE
+SPACESHIP_NODE_PREFIX="node:("
+SPACESHIP_NODE_SUFFIX=") "
+SPACESHIP_NODE_SYMBOL=""
+
+# RUBY
+SPACESHIP_RUBY_PREFIX="ruby:("
+SPACESHIP_RUBY_SUFFIX=") "
+SPACESHIP_RUBY_SYMBOL=""
+
+# XCODE
+SPACESHIP_XCODE_PREFIX="xcode:("
+SPACESHIP_XCODE_SUFFIX=") "
+SPACESHIP_XCODE_SYMBOL=""
+
+# SWIFT
+SPACESHIP_SWIFT_PREFIX="swift:("
+SPACESHIP_SWIFT_SUFFIX=") "
+SPACESHIP_SWIFT_SYMBOL=""
+
+# GOLANG
+SPACESHIP_GOLANG_PREFIX="go:("
+SPACESHIP_GOLANG_SUFFIX=") "
+SPACESHIP_GOLANG_SYMBOL=""
+
+# DOCKER
+SPACESHIP_DOCKER_PREFIX="docker:("
+SPACESHIP_DOCKER_SUFFIX=") "
+SPACESHIP_DOCKER_SYMBOL=""
+
+# VENV
+SPACESHIP_VENV_PREFIX="venv:("
+SPACESHIP_VENV_SUFFIX=") "
+
+# PYENV
+SPACESHIP_PYENV_PREFIX="python:("
+SPACESHIP_PYENV_SUFFIX=") "
+SPACESHIP_PYENV_SYMBOL=""
 
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-#ZSH_THEME="powerlevel9k/powerlevel9k"
-ZSH_THEME="robbyrussell"
-# ZSH_THEME="igeek"
+# ZSH_THEME="robbyrussell"
+ZSH_THEME="spaceship"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -186,19 +215,19 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 #Foreground
 BLACK="\e[30m"
 WHITE="\e[97m"
-LIGHT_GREY="\e[37m"
+BRIGHT_GREY="\e[37m"
 DARK_GREY="\e[90m"
 RED="\e[31m"
-LIGHT_RED="\e[91m"
+BRIGHT_RED="\e[91m"
 GREEN="\e[32m"
-LIGHT_GREEN="\e[92m"
+BRIGHT_GREEN="\e[92m"
 YELLOW="\e[93m"
 OBBLUE="\e[34m"
-LIGHT_BLUE="\e[94m"
+BRIGHT_BLUE="\e[94m"
 MAGENTA="\e[35m"
-LIGHT_MAGENTA="\e[95m"
+BRIGHT_MAGENTA="\e[95m"
 CYAN="\e[36m"
-LIGHT_CYAN="\e[96m"
+BRIGHT_CYAN="\e[96m"
 
 #Background
 B_BLACK="\e[40m"
@@ -265,15 +294,14 @@ alias mkdir='mkdir -p $@'
 alias ncdu='ncdu --color dark'
 alias def="/usr/bin/sdcv"
 alias del="trash-put $@"
-alias debug="pudb3 $@"
 alias df='dfc -p /dev/'
 alias sa='sudoedit $1'
-alias cfg-zsh='ec ~/.zshrc'
-alias cfg-term='ec ~/.config/alacritty/alacritty.yml'
-alias cfg-qute='ec ~/.config/qutebrowser/config.py'
-alias cfg-herb='ec ~/.config/herbstluftwm/autostart'
+alias cfg-zsh='$EDITOR ~/.zshrc'
+alias cfg-term='$EDITOR ~/.config/termite/config'
+alias cfg-qute='$EDITOR ~/.config/qutebrowser/config.py'
+alias cfg-herb='$EDITOR ~/.config/herbstluftwm/autostart'
 alias cfg-profile='sa /etc/profile'
-alias cfg-rofi='te ~/.Xresources'
+alias cfg-rofi='$EDITOR ~/.Xresources'
 alias rld-rofi='xrdb ~/.Xresources'
 alias rld-zsh='source ~/.zshrc'
 alias rld-profile='source /etc/profile'
@@ -283,45 +311,28 @@ alias clr='clear && ls'
 alias lock='sudo passwd -l $1'
 alias unlock='sudo passwd -u $1'
 alias spell='aspell -a $@'
-alias update="pik"
 alias rcp='rsync -aP'
 alias rmv='rsync -aP --remove-source-files'
 alias restore='trash-restore'
 alias how='function hdi(){ howdoi $* -c -n 5; }; hdi'
 alias quit='sudo shutdown -h now'
 
-# unalias grep
-# alias grep='grep --color=always'
-
 # add some color to grep
 export GREP_COLORS='sl=49;39:cx=49;39:mt=49;31;1:fn=49;35:ln=49;32;1:bn=49;32;3;4:se=49;36';
 
-#cat ~/.oh-my-zsh/term_start
-#task list
+# Show tasks on terminal open
+task list
 ################# Functions ######################
 
-# List network stats
-m-ip() {
-  echo "--------------- Network Information ---------------"
-  echo "router ip:" $(netstat -rn | awk 'FNR == 3 {print $2}')
-  # newer system like archlinux
-  ip addr | awk '/global/ {print $1,$2}' | cut -d\/ -f1
-  ip addr | awk '/global/ {print $3,$4}'
-  ip addr | awk '/ether/ {print $1,$2}'
-  ip addr | awk '/scope link/ {print $1,$2}' | cut -d\/ -f1
-  echo "External IP: $(dig +short myip.opendns.com @resolver1.opendns.com)"
-  echo "---------------------------------------------------"
-}
-
 # list everything connected to network with nmap
-m-connected() {
+connected() {
   echo "--------------- Connected Devices -----------------"
     nmap -sn $(netstat -rn | awk 'FNR == 3 {print $2}')/24
   echo "---------------------------------------------------"
 }
 
 # list everything connected to network
-m-devices() {
+devices() {
   echo "---------------- Connected Devices ---------------"
   sudo arp-scan --interface=wlan0 --localnet
 
@@ -354,13 +365,6 @@ lst() {
 function mcd ()
 {
    mkdir -p "$1"; cd "$1";
-}
-
-function emacs()
-{
-  # -c creates a new frame
-  # -a= fires a new emacs server if none is running
-  emacsclient -c -a= $*
 }
 
 # rember dirs for dirs -v
