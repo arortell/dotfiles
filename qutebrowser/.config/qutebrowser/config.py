@@ -857,16 +857,16 @@ c.colors.completion.category.border.top = 'black'
 # Directory to save downloads to. If unset, a sensible OS-specific
 # default is used.
 ## Type: Directory
-# c.downloads.location.directory = None
+c.downloads.location.directory = "$HOME"
 
 # Prompt the user for the download location. If set to false,
 # `downloads.location.directory` will be used.
 ## Type: Bool
-# c.downloads.location.prompt = True
+c.downloads.location.prompt = True
 
 # Remember the last used download directory.
 ## Type: Bool
-# c.downloads.location.remember = True
+c.downloads.location.remember = False
 
 # What to display in the download filename input.
 ## Type: String
@@ -1349,7 +1349,7 @@ c.fonts.default_family = ['xos4 Terminus']
 # - tr-TR: Turkish (Turkey)
 # - uk-UA: Ukrainian (Ukraine)
 # - vi-VN: Vietnamese (Viet Nam)
-# c.spellcheck.languages = []
+c.spellcheck.languages = ["en-US"]
 
 # Hide the statusbar unless a message is shown.
 ## Type: Bool
@@ -1523,7 +1523,7 @@ c.tabs.close_mouse_button = 'middle'
 # - never: Always hide the tab bar.
 # - multiple: Hide the tab bar if only one tab is open.
 # - switching: Show the tab bar when switching tabs.
-# c.tabs.show = 'always'
+c.tabs.show = 'multiple'
 
 # Duration (in milliseconds) to show the tab bar before hiding it when
 # tabs.show is set to 'switching'.
@@ -1618,11 +1618,12 @@ c.tabs.close_mouse_button = 'middle'
 # used by prepending the search engine name to the search term, e.g.
 # `:open google qutebrowser`.
 ## Type: Dict
-# c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}'}
+c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}',
+                       'wa': 'https://wiki.archlinux.org/?search={}', 'wf': 'http://www.wikifeet.com/search/?x=-1360&y=-15&query={}'}
 
 # Page(s) to open at the start.
 # Type: List of FuzzyUrl, or FuzzyUrl
-# c.url.start_pages = ['https://start.duckduckgo.com']
+c.url.start_pages = ['https://start.duckduckgo.com']
 
 # URL parameters to strip with `:yank url`.
 # Type: List of String

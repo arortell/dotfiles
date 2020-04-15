@@ -15,6 +15,10 @@ unsetopt MULTIBYTE
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
+# enable googler elvis
+source ~/.config/Dropbox/source/googler_at
+
+
 # Java Bullshit
 #export JAVA_HOME="/usr/lib/jvm/java-11-openjdk"
 #export _JAVA_OPTIONS="-Dsun.awt.disablegrab=true -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel -Dswing.crossplatformlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel"
@@ -159,7 +163,7 @@ ZSH_THEME="spaceship"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(alias-finder archlinux colorize colored-man-pages_mod compleat copyfile cp common-aliases dircycle dirhistory dirpersist fasd fzf git github git-prompt history history-substring-search pip python rsync sudo systemd systemadmin zsh-syntax-highlighting zsh-autosuggestions zsh-completions zsh-history-substring-search zsh_reload zsh-navigation-tools zshmarks)
+plugins=(alias-finder archlinux colorize colored-man-pages_mod compleat copyfile cp common-aliases dircycle dirhistory dirpersist git github git-prompt history history-substring-search pip python rsync sudo systemd systemadmin zsh-syntax-highlighting zsh-autosuggestions zsh-completions zsh-history-substring-search zsh_reload zsh-navigation-tools zshmarks)
 source $ZSH/oh-my-zsh.sh
 
 autoload -Uz compinit compinit promptinit run-help
@@ -272,29 +276,17 @@ setopt extendedglob
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 
-alias j="jump"
-alias b="bookmark"
-alias count='ls -1 | wc -l'
 alias l="ls -CF"
 alias ll="ls -lh"
 alias la="ls -A"
-alias pc="pycp $@"
 alias c="clear"
-alias ct="/usr/bin/cat"
-alias cat="ccat"
 alias cp="acp -g $@"
 alias dd='dd status=progress'
-alias ec='emacsclient -nw'
-alias vcp="vcp -vp $@"
-alias du='cdu -sidh'
-alias pm='pymv -g $@'
 alias rm='rm -iv $@'
 alias mv='amv -g $@'
 alias mkdir='mkdir -p $@'
 alias ncdu='ncdu --color dark'
 alias def="/usr/bin/sdcv"
-alias del="trash-put $@"
-alias df='dfc -p /dev/'
 alias sa='sudoedit $1'
 alias cfg-zsh='$EDITOR ~/.zshrc'
 alias cfg-term='$EDITOR ~/.config/termite/config'
@@ -315,13 +307,13 @@ alias rcp='rsync -aP'
 alias rmv='rsync -aP --remove-source-files'
 alias restore='trash-restore'
 alias how='function hdi(){ howdoi $* -c -n 5; }; hdi'
-alias quit='sudo shutdown -h now'
+alias quit='systemctl poweroff'
 
 # add some color to grep
 export GREP_COLORS='sl=49;39:cx=49;39:mt=49;31;1:fn=49;35:ln=49;32;1:bn=49;32;3;4:se=49;36';
 
 # Show tasks on terminal open
-task list
+#task list
 ################# Functions ######################
 
 # list everything connected to network with nmap
@@ -435,10 +427,5 @@ bindkey "^[[F" end-of-line
 #source "/home/b14ckr41n/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 
 
-eval "$(fasd --init auto)"
-
-source ~/.oh-my-zsh/plugins/dasht/completions.zsh
 # syntax highlight source ######################### MUST BE LAST LINE IN FILE ###################
 source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

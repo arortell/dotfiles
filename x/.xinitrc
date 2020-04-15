@@ -20,17 +20,14 @@ fi
 unclutter >> ~/.logs/xinit.log 2>&1 &
 udiskie >> ~/.logs/xinit.log 2>&1 &
 picom >> ~/.logs/xinit.log 2>&1 &
-
+#
 # Setting Cursor
-xsetroot -cursor_name left_ptr 2>&1 &
+#xsetroot -cursor_name left_ptr 2>&1 &
 
-echo "starting gpg-agent daemon" >> ~/.logs/xinit.log
-gpg-agent --daemon --pinentry-program /usr/bin/pinentry-rofi >> ~/.logs/xinit.log 2>&1 &
+#echo "starting gpg-agent daemon" >> ~/.logs/xinit.log
+#gpg-agent --daemon --pinentry-program /usr/bin/pinentry-rofi >> ~/.logs/xinit.log 2>&1 &
 
-# feh --bg-fill /home/Yandex-Disk/images/Wallpapers/cosmos/outerspaceEarth.jpg
-# feh --bg-fill /home/Yandex-Disk/images/Wallpapers/Star_Trek/Borg-Cube-With-Sphere.jpg
-feh --bg-fill /home/Yandex-Disk/images/Wallpapers/BSG/Cylon-Heavy-Raider.jpg
-
+feh --bg-fill $HOME/images/wallpapers/BSG/Galatica_side_planets.jpg
 
 # Turn off Screen Blanking
 xset s off

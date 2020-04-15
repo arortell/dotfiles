@@ -3,17 +3,17 @@
  * Copyright: Dave Davenport
  */
 configuration {
-    display-drun: "Execute";
+    display-drun: "Run";
     display-window: "Windows";
-    display-run: "Run";
+    display-run: "Execute";
     display-ssh: "SSH";
     matching: "fuzzy";
     show-icons: true;
     sidebar-mode: true;
-    font: "Terminus 12";
+    font: "xos4 Terminus 12";
     terminal: "termite";
     run-shell-command: "{terminal} -e {cmd}";
-    dmenu: true;
+    window-format: "{w} {n:-1}";
 }
 * {
     text-color:  #ffeedd;
@@ -53,6 +53,9 @@ configuration {
     //
     // Bold, Italic, Underline
     highlight:     bold #ffffff;
+    // my colors
+    mbrown: #121212ee;
+    mblack: #000000ee;
 }
 #window {
     fullscreen: true;
@@ -81,14 +84,14 @@ configuration {
     width: 20em;
 }
 #inputbar {
-    background-color: #121212ee;
+    background-color: @mblack;
     text-color: @lightgreen;
     padding: 4px;
     border: 0px 0px 2px 0px;
 }
 #mainbox {
     expand: false;
-    background-color: #121212ee;
+    background-color: @mblack;
     spacing: 1em;
 }
 #listview {
@@ -97,7 +100,7 @@ configuration {
     lines: 0;
 }
 #element selected  normal {
-    background-color: #121212ee;
+    background-color: @mblack;
     text-color: #0286D5ee;
 }
 #element normal active {
@@ -115,7 +118,7 @@ configuration {
     text-color: @lightred;
 }
 #element selected active {
-    background-color: #121212ee;
+    background-color: @mblack;
     text-color: #0286D5ee;
 }
 #element selected urgent {
@@ -129,5 +132,5 @@ configuration {
     expand:     false;
     str:        ":";
     text-color: @normal-foreground;
-    background-color: #1c1c1cee;
+    background-color: @mblack;
 }
