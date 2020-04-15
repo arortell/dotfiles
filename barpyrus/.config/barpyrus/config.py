@@ -7,6 +7,7 @@ import sys
 import os
 import socket
 
+
 is_hidpi = socket.gethostname() == 'x1'
 # Copy this config to ~/.config/barpyrus/config.py
 
@@ -193,11 +194,12 @@ conky_widget = conky.ConkyWidget(str(cg))
 lemonbar_options = {
     'geometry': (x, y, width, height),
     'foreground': '#CDCDCD',
-    # 'background': '#FF101010',
-    'background': '#00101010',  # This enables complete transparency
+    'background': '#FF101010',
+ #   'background': '#00101010',  # This enables complete transparency
 }
 
-lemonbar_options['font'] = 'TerminessTTF Nerd Font Mono:size=12'
+lemonbar_options['font'] = 'misc nexus'
+lemonbar_options['symbol_font'] = 'Wuncon Siji'
 
 if is_hidpi:
     lemonbar_options['font'] = 'Bitstream Vera Sans:size=8'
