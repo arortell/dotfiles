@@ -1979,3 +1979,10 @@ mounted /org/freedesktop/UDisks2/block_devices/sdd1 on /run/media/b14ckr41n/8fbe
 [ 04/15/2020 15:43:57.289 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a0a934.
 [ 04/15/2020 15:43:57.289 paint_one ERROR ] Failed to bind texture for window 0x00c01129.
 [ 04/15/2020 15:43:57.289 paint_one ERROR ] Window 0x00c01129 is missing painting data.
+Can't find file browser: 'xdg-open'. You may want to change the value for the '-f' option.
+Typelib for 'libnotify' is not available. Possible causes include:
+	- libnotify is not installed
+	- the typelib is provided by a separate package
+	- libnotify was built with introspection disabled
+
+Starting udiskie without notifications.
