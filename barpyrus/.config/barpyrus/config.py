@@ -199,7 +199,7 @@ lemonbar_options = {
 }
 
 lemonbar_options['font'] = 'misc nexus'
-lemonbar_options['symbol_font'] = 'Wuncon Siji'
+#lemonbar_options['symbol_font'] = 'Wuncon Siji'
 
 if is_hidpi:
     lemonbar_options['font'] = 'Bitstream Vera Sans:size=8'
