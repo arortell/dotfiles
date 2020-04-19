@@ -112,4 +112,10 @@
 
 [submodule "zsh/.oh-my-zsh/plugins/zsh-completions"]
   path = zsh/.oh-my-zsh/plugins/zsh-completions
-  url = https://github.com/zsh-users/zsh-completions.git
+    url = https://github.com/zsh-users/zsh-completions.git
+
+[submodule "emacs.d/.emacs.d"]
+  path = emacs/emacs.d
+    url = https://github.com/hlissner/doom-emacs.git
+
+
