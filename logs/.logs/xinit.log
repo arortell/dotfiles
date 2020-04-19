@@ -1986,3 +1986,22 @@ Typelib for 'libnotify' is not available. Possible causes include:
 	- libnotify was built with introspection disabled
 
 Starting udiskie without notifications.
+Can't find file browser: 'xdg-open'. You may want to change the value for the '-f' option.
+Typelib for 'libnotify' is not available. Possible causes include:
+	- libnotify is not installed
+	- the typelib is provided by a separate package
+	- libnotify was built with introspection disabled
+
+Starting udiskie without notifications.
+Can't find file browser: 'xdg-open'. You may want to change the value for the '-f' option.
+Typelib for 'libnotify' is not available. Possible causes include:
+	- libnotify is not installed
+	- the typelib is provided by a separate package
+	- libnotify was built with introspection disabled
+
+Starting udiskie without notifications.
+[ 04/19/2020 11:37:11.663 map_win ERROR ] Failed to get the geometry of window 0x02600001
+[ 04/19/2020 11:37:11.663 unmap_win WARN ] Unmapping an already unmapped window 0x02600001 (null) twice
+[ 04/19/2020 11:37:13.417 win_mark_client ERROR ] Failed to get client window attributes
+[ 04/19/2020 11:37:17.992 map_win ERROR ] Failed to get the geometry of window 0x02600001
+[ 04/19/2020 11:37:17.992 unmap_win WARN ] Unmapping an already unmapped window 0x02600001 (null) twice
