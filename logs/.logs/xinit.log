@@ -2005,3 +2005,26 @@ Starting udiskie without notifications.
 [ 04/19/2020 11:37:13.417 win_mark_client ERROR ] Failed to get client window attributes
 [ 04/19/2020 11:37:17.992 map_win ERROR ] Failed to get the geometry of window 0x02600001
 [ 04/19/2020 11:37:17.992 unmap_win WARN ] Unmapping an already unmapped window 0x02600001 (null) twice
+Can't find file browser: 'xdg-open'. You may want to change the value for the '-f' option.
+Typelib for 'libnotify' is not available. Possible causes include:
+	- libnotify is not installed
+	- the typelib is provided by a separate package
+	- libnotify was built with introspection disabled
+
+Starting udiskie without notifications.
+Can't find file browser: 'xdg-open'. You may want to change the value for the '-f' option.
+[ 04/21/2020 12:56:14.579 map_win ERROR ] Failed to get the geometry of window 0x00a00498
+[ 04/21/2020 12:56:14.579 unmap_win WARN ] Unmapping an already unmapped window 0x00a00498 (null) twice
+Can't find file browser: 'xdg-open'. You may want to change the value for the '-f' option.
+[ 04/22/2020 11:10:08.063 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00c06c91.
+[ 04/22/2020 11:10:08.063 paint_one ERROR ] Failed to bind texture for window 0x00a00036.
+[ 04/22/2020 11:10:08.063 paint_one ERROR ] Window 0x00a00036 is missing painting data.
+[ 04/22/2020 11:10:08.131 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00c06c91.
+[ 04/22/2020 11:10:08.131 paint_one ERROR ] Failed to bind texture for window 0x00a00036.
+[ 04/22/2020 11:10:08.131 paint_one ERROR ] Window 0x00a00036 is missing painting data.
+[ 04/22/2020 11:10:08.132 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00c06c91.
+[ 04/22/2020 11:10:08.132 paint_one ERROR ] Failed to bind texture for window 0x00a00036.
+[ 04/22/2020 11:10:08.132 paint_one ERROR ] Window 0x00a00036 is missing painting data.
+[ 04/22/2020 11:10:08.171 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00c06c91.
+[ 04/22/2020 11:10:08.171 paint_one ERROR ] Failed to bind texture for window 0x00a00036.
+[ 04/22/2020 11:10:08.171 paint_one ERROR ] Window 0x00a00036 is missing painting data.
