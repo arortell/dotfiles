@@ -1946,3 +1946,18 @@ c.url.start_pages = ['https://start.duckduckgo.com']
 # config.bind('Y', 'prompt-accept --save yes', mode='yesno')
 # config.bind('n', 'prompt-accept no', mode='yesno')
 # config.bind('y', 'prompt-accept yes', mode='yesno')
+
+
+################### THIS IS VERY COOL ######################
+# Depends on:
+# ~/.local/share/qutebrowser/userscripts/code_select.py
+# pip install pyperclip --user
+
+# Copy Formatted Code
+c.hints.selectors["code"] = [
+    # Selects all code tags whose direct parent is not a pre tag
+    ":not(pre) > code",
+    "pre"
+]
+
+config.bind('<Shift-C>', 'hint code userscript code_select.py')
