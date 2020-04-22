@@ -1,0 +1,87 @@
+:adblock-update
+:open gentoo dmenu network manager
+:open networkmanager rofi 
+:open dropbox 
+:download-clear
+:open battlestar galatica wallpapers
+:open zaungia gentoo overlays
+:open dmenu-rofi arch linux
+:open rofi-dmenu arch linux
+:open github.com/davedavenport
+:open https://davedavenport.github/
+:open https://davedavenport.github.io/rofi/
+:open gentoo rofi-dmenu symlink
+:download-clear
+:close
+/wifi_chars = 
+:open gentoo remove all leftover files from a depclean
+:open dctl arch linux
+/emerge -u
+/= -- -lo
+:open proper way to update gentoo linux
+/emerge --de
+/emerge --update --deep --with-bdeps=y --
+:open -t zungina gentoo
+:open pinentry rofi dmenu
+:open pinentry-rofi
+/https://
+:open simple stateful firewall 
+:open -t gentoo linux wallpapers
+:open -t gentoo wallpapers
+:open gentoo Linux wallpapers
+:open https://duckduckgo.com/?q=gentoo Linux wallpapers
+:open gentoo Linux wallpapers
+:open github arortell dotfiles
+:open git clone a repo with repos inside 
+:open googler 
+:open googler github search from terminal
+/git clone
+:open rofi-blocks
+:open rofi-googler
+:adblock-update 
+:open rofi interactive search 
+:open rofi blocks
+:open -t https://duckduckgo.com/?q=zungina+gentoo&ia=web
+:history-clear
+:download-clear
+:open -t rofi setting prompt
+:open -t rofi hide user input
+:open rofi wiki
+:open setting up rofi ssh arch linux 
+:open gentoo notify-send
+:open gentoo linux notification for tiling window ,mager
+:open tor browser gentoo ebuild
+:open -t rofi ssh-client 
+:open gentoo-mirror github
+:open what are virtual packages in gentoo
+/export ddg
+:open -t kill in top
+:open rofi-blocks
+:open -t gentoo upgrading gcc
+/--usepkg
+:open qutebrowser searching
+:open qutebrowser search from keyboard
+/qutebrowser
+:open -t qutebtowser cheatcheet 1600x900
+:open -t resize image with imagemagick
+:open qutebrowser pdfjs
+:open qutebrowser read pdf
+:open pdfjs
+:open how to read pdf in qutebrowser
+/pdf
+/wget
+:open bash pro programming pdf
+:open qutebrowser spell check gentoo linux
+:open -t spell check qutebrowser
+:spawn scripts/dictcli.oy
+/spell
+/c.hin
+:spawn code_select.py
+:open -t qutebrowser execvp not found
+:spawn code_select
+:spawn userscript code_select.py
+:hint code userscript code_select.py
+:hint code code_select.py
+:hint code userscript code_select.py
+:resta
+:rest
