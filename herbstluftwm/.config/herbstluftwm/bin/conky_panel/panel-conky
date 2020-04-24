@@ -16,8 +16,8 @@ herbstclient emit_hook quit_panel
 #dzen2 -p -h 1 -w 1600 -x 0 -y 23 -bg '#afdf87' &
 pids+=($!)
 
-"$panelfolder/tray.sh" &
-pids+=($!)
+#"$panelfolder/tray.sh" &
+#pids+=($!)
 
 "$panelfolder/tags.sh" &
 pids+=($!)

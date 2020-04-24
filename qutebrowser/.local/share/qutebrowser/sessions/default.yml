@@ -1,113 +1,31 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAAAAAA7QAABj8AAAODAAAAAgAAAO8AAAY9AAADgQAAAAAAAAAABkAAAAACAAAA
-    7wAABj0AAAOB
+    AdnQywADAAAAAAAAAAAAEAAABj8AAAODAAAAAgAAABIAAAY9AAADgQAAAAAAAAAABkAAAAACAAAA
+    EgAABj0AAAOB
   tabs:
   - history:
+    - pinned: false
+      title: 11.04 - How can I change brightness through terminal - Ask Ubuntu
+      url: https://askubuntu.com/questions/56155/how-can-i-change-brightness-through-terminal
     - active: true
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: Why you should be using fzf, the command line fuzzy finder
-      url: https://www.freecodecamp.org/news/fzf-a-command-line-fuzzy-finder-missing-demo-a7de312403ff/
-      zoom: 1.0
-  - history:
-    - pinned: false
-      title: Alexey Samoshkin - YouTube
-      url: https://www.youtube.com/channel/UCfju8u-YOpNMO4CbyzIsc9Q
-    - pinned: false
-      title: Alexey Samoshkin - YouTube
-      url: https://www.youtube.com/channel/UCfju8u-YOpNMO4CbyzIsc9Q/about
-    - pinned: false
-      title: Alexey Samoshkin - YouTube
-      url: https://www.youtube.com/channel/UCfju8u-YOpNMO4CbyzIsc9Q/about
-    - pinned: false
-      title: Alexey Samoshkin - YouTube
-      url: https://www.youtube.com/channel/UCfju8u-YOpNMO4CbyzIsc9Q/about
-    - pinned: false
-      title: Alexey Samoshkin - YouTube
-      url: https://www.youtube.com/channel/UCfju8u-YOpNMO4CbyzIsc9Q/videos
-    - pinned: false
-      title: Alexey Samoshkin - YouTube
-      url: https://www.youtube.com/channel/UCfju8u-YOpNMO4CbyzIsc9Q/videos
-    - active: true
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Vim universe. fzf - command line fuzzy finder - YouTube
-      url: https://www.youtube.com/watch?v=qgG5Jhi_Els
+        y: 952
+      title: herbstluftwm panel at DuckDuckGo
+      url: https://duckduckgo.com/?q=herbstluftwm+panel&ia=web
       zoom: 1.0
     - pinned: false
-      title: speedtest cli github at DuckDuckGo
-      url: https://duckduckgo.com/?q=speedtest+cli+github&ia=web
-    - original-url: https://duckduckgo.com/?q=speedtest+cli+github&ia=web
-      pinned: false
-      title: 'GitHub - sivel/speedtest-cli: Command line interface for testing internet
-        bandwidth using speedtest.net'
-      url: https://github.com/sivel/speedtest-cli
+      title: howtos [herbstluftwm wiki]
+      url: http://wiki.herbstluftwm.org/howtos
   - active: true
     history:
-    - pinned: false
-      title: 'GitHub - junegunn/fzf: A command-line fuzzy finder'
-      url: https://github.com/junegunn/fzf#git-ls-tree-for-fast-traversal
-    - pinned: false
-      title: oh-mu-zsh common-aliasa at DuckDuckGo
-      url: https://duckduckgo.com/?q=oh-mu-zsh+common-aliasa&ia=web
-    - active: true
-      original-url: https://duckduckgo.com/?q=oh-mu-zsh+common-aliasa&ia=web
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 1040
-      title: ohmyzsh/common-aliases.plugin.zsh at master · ohmyzsh/ohmyzsh · GitHub
-      url: https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/common-aliases/common-aliases.plugin.zsh
-      zoom: 1.0
-  - history:
-    - pinned: false
-      title: Examples · junegunn/fzf Wiki · GitHub
-      url: https://github.com/junegunn/fzf/wiki/examples#cd
-    - pinned: false
-      title: enable preview window in fzf only in file find mode at DuckDuckGo
-      url: https://duckduckgo.com/?q=enable+preview+window+in+fzf+only+in+file+find+mode&ia=software
-    - pinned: false
-      title: enable preview window in fzf at DuckDuckGo
-      url: https://duckduckgo.com/?q=enable+preview+window+in+fzf&ia=software
     - active: true
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: Key bindings for git with fzf
-      url: https://junegunn.kr/2016/07/fzf-git/
-      zoom: 1.0
-  - history:
-    - pinned: false
-      title: 'GitHub - junegunn/fzf: A command-line fuzzy finder'
-      url: https://github.com/junegunn/fzf#examples
-    - active: true
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 80
-      title: Examples · junegunn/fzf Wiki · GitHub
-      url: https://github.com/junegunn/fzf/wiki/examples
-      zoom: 1.0
-  - history:
-    - pinned: false
-      title: Home · junegunn/fzf Wiki · GitHub
-      url: https://github.com/junegunn/fzf/wiki
-    - pinned: false
-      title: fasd zsh at DuckDuckGo
-      url: https://duckduckgo.com/?q=fasd+zsh&ia=software
-    - active: true
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 80
-      title: 'GitHub - clvv/fasd: Command-line productivity booster, offers quick
-        access to files and directories, inspired by autojump, z and v.'
-      url: https://github.com/clvv/fasd
+        y: 823
+      title: 'GitHub - rendom/panel: Herbstluftwm panel (Dzen/Lemonbar)'
+      url: https://github.com/rendom/panel
       zoom: 1.0

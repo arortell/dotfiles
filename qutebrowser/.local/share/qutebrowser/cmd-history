@@ -56,3 +56,8 @@
 :download-cancel
 :open -t emacs vim files syntax highlightig
 :open vimrc-mode emacs
+:open https://github.com/samoshkin
+:open linux brightness from terminal command
+:open herbstluftwm panel
+:open herbstluftwm gentoo ebuild
+:open github gentoo repo
