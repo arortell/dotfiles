@@ -12,10 +12,10 @@ hc() {
 hc emit_hook reload
 
  # Start background apps ONLY if not alreadly running
-#if hc silent new_attr bool my_not_first_autostart; then
-#   twmnd &
+if hc silent new_attr bool my_not_first_autostart; then
+   twmnd &
 #   battmon --interval 10 --delta 10 --low 10 --critical 3 --dark &
-#fi
+fi
 
 pkill conky
 pkill lemonbar
@@ -134,11 +134,6 @@ hc keybind $Mod-Shift-Tab     cycle_all -1
 hc keybind $Mod+Shift-c cycle
 hc keybind $Mod-i jumpto urgent
 
-
-#=====================TRASH ME ==============
-hc keybind $Mod-d spawn rfs
-#=======================================================
-
 # Menus
 hc keybind $Mod+space spawn run-rofi
 hc keybind $Mod+Shift+space spawn adams_menu
@@ -216,7 +211,7 @@ hc unlock
 # hc detect_monitors
 
 # find the panel
-panel="$BIN/panel"
+panel="$BIN/panel.sh"
 [ -x "$panel" ] || panel=/etc/xdg/herbstluftwm/panel.sh
 for monitor in $(herbstclient list_monitors | cut -d: -f1) ; do
     # start it on each monitor

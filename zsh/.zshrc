@@ -189,7 +189,6 @@ function bashsource(){
   source $1
 }
 
-
 ### Get number of jobs
 function precmd {
 	psvar[2]=$#jobstates; [[ $psvar[2] -eq 0 ]] && psvar[2]=()
@@ -199,7 +198,6 @@ zmodload zsh/parameter
 
 # Compilation flags
 export ARCHFLAGS="-arch x86_64"
-
 
 #######################COLORS
 # Great example page https://misc.flogisoft.com/bash/tip_colors_and_formatting
@@ -238,8 +236,6 @@ B_LIGHT_MAGENTA="\e[105m"
 B_CYAN="\e[46m"
 B_LIGHT_CYAN="\e[106m"
 B_WHITE="\e[107m"
-
-alias vf="nvim -o `fzf`"
 
 #Formating
 DIM="\e[2m"
@@ -296,7 +292,6 @@ export GREP_COLORS='sl=49;39:cx=49;39:mt=49;31;1:fn=49;35:ln=49;32;1:bn=49;32;3;
 # Show tasks on terminal open
 task next
 
-
 setopt AUTO_PUSHD PUSHD_SILENT PUSHD_TO_HOME
 
 ## Remove duplicate entries
@@ -327,15 +322,13 @@ zstyle -e ':completion:*:default' list-colors 'reply=("${PREFIX:+=(#bi)($PREFIX:
 #source "/home/b14ckr41n/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 
 # custom vars needed for fzf and to clean this mess up
-source "$dotfiles/zsh/.oh-my-zsh/custom/my_vars/variables.sh"
-source "$dotfiles/zsh/.oh-my-zsh/custom/my_vars/fzf.sh"
+source "$dotfiles/vars/fzf.sh"
+source "$dotfiles/vars/variables.sh"
 
 # syntax highlight source ######################### MUST BE LAST LINE IN FILE ###################
 source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # enable fasd
 eval "$(fasd --init auto)"
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 source ~/.oh-my-zsh/plugins/zsh-interactive-cd/zsh-interactive-cd.plugin.zsh

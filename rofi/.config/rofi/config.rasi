@@ -1,7 +1,7 @@
 /******************************************************************************
  * ROFI Color theme
- * User: DeanPdx
- * Copyright: Dean Davidson
+ * User: b14ckr41n
+ * @: arortell80@gmail.com
  ******************************************************************************/
 
 configuration {
@@ -14,7 +14,7 @@ configuration {
     show-icons: true;
     window-format: "{t}";
     sidebar-mode: false;
-    font: "xos4 Terminus 12";
+    font: "Terminus (TTF) 12";
     terminal: "termite";
     run-shell-command: "{terminal} -e {cmd}";
     ssh-command: "{terminal} -e {ssh-client} {host}";

@@ -1,10 +1,10 @@
 [general]
-qt_version = 5.14.1
-version = 1.10.1
+qt_version = 5.14.2
+version = 1.10.2
 serviceworker_workaround = 514
 quickstart-done = 1
 session = default
 
 [geometry]
-mainwindow = AdnQywADAAAAAAAAAAAA7QAABj8AAAODAAAAAgAAAO8AAAY9AAADgQAAAAAAAAAABkAAAAACAAAA7wAABj0AAAOB
+mainwindow = AdnQywADAAAAAAAAAAAAEAAABj8AAAODAAAAAgAAABIAAAY9AAADgQAAAAAAAAAABkAAAAACAAAAEgAABj0AAAOB
 
