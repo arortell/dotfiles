@@ -1948,6 +1948,9 @@ c.url.start_pages = ['https://start.duckduckgo.com']
 # config.bind('y', 'prompt-accept yes', mode='yesno')
 
 
+#config.bind('a', 'set-cmd-text -s', 'spawn --userscript taskadd')
+
+
 ################### THIS IS VERY COOL ######################
 # Depends on:
 # ~/.local/share/qutebrowser/userscripts/code_select.py
@@ -1961,3 +1964,4 @@ c.hints.selectors["code"] = [
 ]
 
 config.bind('<Shift-C>', 'hint code userscript code_select.py')
+############################################################

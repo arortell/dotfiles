@@ -420,3 +420,11 @@ pac -S advcp dfc cdu
 pac -S advcp dfc cdu stow
 pac -S task fasd find-the-command
 zsh
+vi
+htop
+vi 
+vi .zshrc .bashrc .bash_history 
+zsh
+zsh
+which fd
+fd

@@ -12,10 +12,10 @@ hc() {
 hc emit_hook reload
 
  # Start background apps ONLY if not alreadly running
-if hc silent new_attr bool my_not_first_autostart; then
-   twmnd &
-   battmon --interval 10 --delta 10 --low 10 --critical 3 --dark &
-fi
+#if hc silent new_attr bool my_not_first_autostart; then
+#   twmnd &
+#   battmon --interval 10 --delta 10 --low 10 --critical 3 --dark &
+#fi
 
 pkill conky
 pkill lemonbar
@@ -159,7 +159,7 @@ hc keybind $Mod+Shift+m spawn "$BIN"/maximize.sh # similar monocle in bspwm
 
 # ScratchPads
 hc keybind F1 spawn "$BIN"/q3terminal.sh
-hc keybind F12 spawn "$BIN"/vifm.sh
+#hc keybind F2 spawn "$BIN"/vifm.sh
 
 # theme
 hc attr theme.tiling.reset 1

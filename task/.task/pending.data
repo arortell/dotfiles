@@ -1,1 +1,5 @@
-[description:"Get USB to reinstall new version" entry:"1561601278" modified:"1561601278" status:"pending" uuid:"48a71e2d-64af-435f-83ba-0f388fd0ff49"]
+[description:"Git-script-Down_And-UP" entry:"1587582290" modified:"1587582290" priority:"H" status:"pending" uuid:"087c624d-7448-4891-8eb9-33887d295369"]
+[description:"Shift-C Copy-Code-Qute" entry:"1587585792" modified:"1587585792" priority:"H" status:"pending" uuid:"30da67ba-af62-41cd-a8b3-c17f3150bece"]
+[description:"Find and open file in rofi" entry:"1587589870" modified:"1587589870" priority:"H" status:"pending" uuid:"afb93365-2aab-4bc6-9393-1c5b411fe567"]
+[description:"vi -o fzf" entry:"1587747789" modified:"1587747789" priority:"H" status:"pending" uuid:"e4fa7802-095a-4da6-a75c-cd93bce32e98"]
+[description:"fzf -e EXACT" entry:"1587747845" modified:"1587747845" priority:"H" status:"pending" uuid:"6249d5fb-d24e-4f4b-9544-15724f237a13"]
