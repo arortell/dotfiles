@@ -2028,3 +2028,36 @@ Can't find file browser: 'xdg-open'. You may want to change the value for the '-
 [ 04/22/2020 11:10:08.171 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00c06c91.
 [ 04/22/2020 11:10:08.171 paint_one ERROR ] Failed to bind texture for window 0x00a00036.
 [ 04/22/2020 11:10:08.171 paint_one ERROR ] Window 0x00a00036 is missing painting data.
+[ 04/22/2020 14:11:28.346 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00c106d8.
+[ 04/22/2020 14:11:28.346 paint_one ERROR ] Failed to bind texture for window 0x00a026ad.
+[ 04/22/2020 14:11:28.346 paint_one ERROR ] Window 0x00a026ad is missing painting data.
+[ 04/22/2020 14:11:28.348 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00c106d8.
+[ 04/22/2020 14:11:28.348 paint_one ERROR ] Failed to bind texture for window 0x00a026ad.
+[ 04/22/2020 14:11:28.348 paint_one ERROR ] Window 0x00a026ad is missing painting data.
+Can't find file browser: 'xdg-open'. You may want to change the value for the '-f' option.
+[ 04/23/2020 16:01:00.623 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00c18adf.
+[ 04/23/2020 16:01:00.623 paint_one ERROR ] Failed to bind texture for window 0x00a0151a.
+[ 04/23/2020 16:01:00.623 paint_one ERROR ] Window 0x00a0151a is missing painting data.
+[ 04/23/2020 16:01:00.670 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00c18adf.
+[ 04/23/2020 16:01:00.670 paint_one ERROR ] Failed to bind texture for window 0x00a0151a.
+[ 04/23/2020 16:01:00.670 paint_one ERROR ] Window 0x00a0151a is missing painting data.
+[ 04/23/2020 16:01:00.683 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00c18adf.
+[ 04/23/2020 16:01:00.683 paint_one ERROR ] Failed to bind texture for window 0x00a0151a.
+[ 04/23/2020 16:01:00.683 paint_one ERROR ] Window 0x00a0151a is missing painting data.
+[ 04/23/2020 16:01:00.701 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00c18adf.
+[ 04/23/2020 16:01:00.701 paint_one ERROR ] Failed to bind texture for window 0x00a0151a.
+[ 04/23/2020 16:01:00.701 paint_one ERROR ] Window 0x00a0151a is missing painting data.
+[ 04/23/2020 16:01:00.717 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00c18adf.
+[ 04/23/2020 16:01:00.717 paint_one ERROR ] Failed to bind texture for window 0x00a0151a.
+[ 04/23/2020 16:01:00.717 paint_one ERROR ] Window 0x00a0151a is missing painting data.
+Can't find file browser: 'xdg-open'. You may want to change the value for the '-f' option.
+Can't find file browser: 'xdg-open'. You may want to change the value for the '-f' option.
+Can't find file browser: 'xdg-open'. You may want to change the value for the '-f' option.
+Can't find file browser: 'xdg-open'. You may want to change the value for the '-f' option.
+Can't find file browser: 'xdg-open'. You may want to change the value for the '-f' option.
+Can't find file browser: 'xdg-open'. You may want to change the value for the '-f' option.
+Can't find file browser: 'xdg-open'. You may want to change the value for the '-f' option.
+Can't find file browser: 'xdg-open'. You may want to change the value for the '-f' option.
+Can't find file browser: 'xdg-open'. You may want to change the value for the '-f' option.
+Can't find file browser: 'xdg-open'. You may want to change the value for the '-f' option.
+Can't find file browser: 'xdg-open'. You may want to change the value for the '-f' option.

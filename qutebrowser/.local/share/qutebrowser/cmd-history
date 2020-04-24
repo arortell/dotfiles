@@ -1,0 +1,38 @@
+:close
+:open qutebrowser code select userscript
+:open qutebrowser userscripts
+:open rofi default ssh-client
+:open rofi ssh config
+:open -t taskwarrior
+:open taskwarrior gentoo arch
+:spawn --userscript taskadd
+:hint code useracript code_select.py
+:hint code userscript code_select.py
+:open -t qutebrowser select text from page
+:clear
+/[[
+/#
+:spawn --userscript taskadd pri:H
+:open -t https://duckduckgo.com/?q=qutebrowser+code+select+userscript&ia=web
+:open qutebrowser userscript
+/:bind
+:close
+:resta
+:adblock-update
+:open https://github.com/qutebrowser/qutebrowser/tree/master/misc/userscripts
+:home
+:q
+:open fzf  zsh 
+:open -t fz tirourial
+/Plug
+/yes
+/Plug
+/function cd
+/j()
+/#!/
+/man-find
+:open fasd zsh
+/fasd
+/eval
+:open enable preview window in fzf only in file find mode
+:open speedtest cli github

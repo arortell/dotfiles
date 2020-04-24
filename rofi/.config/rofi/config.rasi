@@ -5,7 +5,7 @@
  ******************************************************************************/
 
 configuration {
-    display-ssh:                   " SSH:";
+    display-ssh:                    " SSH:";
     display-drun:                   " Applications:";
     display-window:                 " Windows";
     display-run:                    " Execute In Terminal:";
@@ -17,7 +17,7 @@ configuration {
     font: "xos4 Terminus 12";
     terminal: "termite";
     run-shell-command: "{terminal} -e {cmd}";
-    rofi-ssh-command: "{terminal} -e {ssh-client} {host}";
+    ssh-command: "{terminal} -e {ssh-client} {host}";
 }
 
 

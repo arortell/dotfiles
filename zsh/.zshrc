@@ -163,7 +163,7 @@ ZSH_THEME="spaceship"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(alias-finder archlinux colorize colored-man-pages_mod compleat copyfile cp common-aliases dircycle dirhistory dirpersist git github git-prompt history history-substring-search pip python rsync sudo systemd systemadmin zsh-syntax-highlighting zsh-autosuggestions zsh-completions zsh-history-substring-search zsh_reload zsh-navigation-tools zshmarks)
+plugins=(archlinux colorize compleat copyfile cp common-aliases dircycle dirhistory dirpersist fzf fd git github git-prompt history history-substring-search pip python rsync sudo systemd systemadmin zsh-interactive-cd zsh-syntax-highlighting zsh-autosuggestions zsh-completions zsh-history-substring-search zsh_reload zsh-navigation-tools zshmarks)
 source $ZSH/oh-my-zsh.sh
 
 autoload -Uz compinit compinit promptinit run-help
@@ -276,9 +276,10 @@ setopt extendedglob
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 
+unalias fd
 alias l="ls -CF"
-alias ll="ls -lh"
-alias la="ls -A"
+alias ll="ls -lCFh"
+alias la="ls -ACF"
 alias c="clear"
 alias cp="acp -g $@"
 alias dd='dd status=progress'
@@ -292,11 +293,7 @@ alias cfg-zsh='$EDITOR ~/.zshrc'
 alias cfg-term='$EDITOR ~/.config/termite/config'
 alias cfg-qute='$EDITOR ~/.config/qutebrowser/config.py'
 alias cfg-herb='$EDITOR ~/.config/herbstluftwm/autostart'
-alias cfg-profile='sa /etc/profile'
-alias cfg-rofi='$EDITOR ~/.Xresources'
-alias rld-rofi='xrdb ~/.Xresources'
 alias rld-zsh='source ~/.zshrc'
-alias rld-profile='source /etc/profile'
 alias free='free -h'
 alias vdir='vdir --color=auto'
 alias clr='clear && ls'
@@ -305,7 +302,6 @@ alias unlock='sudo passwd -u $1'
 alias spell='aspell -a $@'
 alias rcp='rsync -aP'
 alias rmv='rsync -aP --remove-source-files'
-alias restore='trash-restore'
 alias how='function hdi(){ howdoi $* -c -n 5; }; hdi'
 alias quit='systemctl poweroff'
 
@@ -313,7 +309,8 @@ alias quit='systemctl poweroff'
 export GREP_COLORS='sl=49;39:cx=49;39:mt=49;31;1:fn=49;35:ln=49;32;1:bn=49;32;3;4:se=49;36';
 
 # Show tasks on terminal open
-#task list
+task next
+
 ################# Functions ######################
 
 # list everything connected to network with nmap
@@ -326,7 +323,7 @@ connected() {
 # list everything connected to network
 devices() {
   echo "---------------- Connected Devices ---------------"
-  sudo arp-scan --interface=wlan0 --localnet
+  sudo arp-scan --interface=wlp2s0b1 --localnet
 
 }
 
@@ -396,6 +393,25 @@ cdParentKey() {
   echo
 }
 
+########### FZF Settings ##################################
+# Use ~~ as the trigger sequence instead of the default **
+#export FZF_COMPLETION_TRIGGER='~~'
+
+
+FD_OPTIONS="--follow --hidden --exclude .git --exclude node_modules"
+export FZF_DEFAULT_OPTIONS="--no-mouse --height 50% -1 --reverse --multi --inline-info --preview='[[ \$(file --mime {}) =~ binary ]] && echo {} is a binary file || (bat --style=numbers --color=always {} || cat {}) 2> /dev/null | head -300' --preview-window='right:hidden:wrap' --bind='f3:execute(bat --style=numbers {} || less -f {}),f2:toggle-preview,ctrl-d:half-page-down,ctrl-u:half-page-up,ctrl-a:select-all+accept,ctrl-y:execute-silent(echo {+} | pbcopy)'"
+
+export FZF_DEFAULT_COMMAND="fd --type f --type l $FD_OPTIONS"
+#export FZF_DEFAULT_COMMAND="git ls-files --cached --others --exclude-standard | fd --type f --type l $FD_OPTIONS"
+export FZF_CTRL_T_COMMAND="fd --type f $FD_OPTIONS"
+export FZF_ALT_C_COMMAND="fd --type d $FD_OPTIONS"
+
+# Setting fd as the default source for fzf
+#export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
+
+#####################################################################
+
+
 zle -N                 cdParentKey
 zle -N                 cdUndoKey
 bindkey '^[[1;3A'      cdParentKey
@@ -416,12 +432,9 @@ setopt COMPLETE_ALIASES
 # entered completion colorize
 zstyle -e ':completion:*:default' list-colors 'reply=("${PREFIX:+=(#bi)($PREFIX:t)(?)*==34=34}:${(s.:.)LS_COLORS}")';
 
-# rvm ruby virtualenv
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-
 # Fix for home and end keys
-bindkey "^[[H" beginning-of-line
-bindkey "^[[F" end-of-line
+#bindkey "^[[H" beginning-of-line
+#bindkey "^[[F" end-of-line
 
 #### THIS NEEDS TO BE UNCOMMENTED FOR SPACESHIOP TO WORK
 #source "/home/b14ckr41n/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
@@ -429,3 +442,7 @@ bindkey "^[[F" end-of-line
 
 # syntax highlight source ######################### MUST BE LAST LINE IN FILE ###################
 source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+source ~/.oh-my-zsh/plugins/zsh-interactive-cd/zsh-interactive-cd.plugin.zsh

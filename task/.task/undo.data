@@ -1,210 +1,44 @@
-time 1542585093
-new [description:"Fix panel" entry:"1542585093" modified:"1542585093" status:"pending" uuid:"7bd4fada-d934-474d-a1bc-2c93ba0824bf"]
+time 1587582290
+new [description:"Git-script-Down_And-UP" entry:"1587582290" modified:"1587582290" priority:"H" status:"pending" uuid:"087c624d-7448-4891-8eb9-33887d295369"]
 ---
-time 1542662326
-new [description:"\/etc repo" entry:"1542662326" modified:"1542662326" status:"pending" uuid:"453e78de-3d2f-4827-b071-469023049660"]
+time 1587585630
+new [description:"qutebrowser\/taskadd at master · qutebrowser\/qutebrowser · GitHub " entry:"1587585630" modified:"1587585630" status:"pending" uuid:"360a42b5-d51a-4f34-b1a6-1e2c6ac1d0f5"]
 ---
-time 1542662342
-new [description:"anosurf" entry:"1542662342" modified:"1542662342" status:"pending" uuid:"50265970-8cdc-42ba-a550-f0dddc17d383"]
+time 1587585630
+old [description:"qutebrowser\/taskadd at master · qutebrowser\/qutebrowser · GitHub " entry:"1587585630" modified:"1587585630" status:"pending" uuid:"360a42b5-d51a-4f34-b1a6-1e2c6ac1d0f5"]
+new [annotation_1587585630:"https:\/\/github.com\/qutebrowser\/qutebrowser\/blob\/master\/misc\/userscripts\/taskadd" description:"qutebrowser\/taskadd at master · qutebrowser\/qutebrowser · GitHub " entry:"1587585630" modified:"1587585630" status:"pending" uuid:"360a42b5-d51a-4f34-b1a6-1e2c6ac1d0f5"]
 ---
-time 1542662990
-new [description:"yandex serivce" entry:"1542662990" modified:"1542662990" status:"pending" uuid:"62fda452-1c90-45ea-99ce-64f9f202345c"]
+time 1587585754
+old [annotation_1587585630:"https:\/\/github.com\/qutebrowser\/qutebrowser\/blob\/master\/misc\/userscripts\/taskadd" description:"qutebrowser\/taskadd at master · qutebrowser\/qutebrowser · GitHub " entry:"1587585630" modified:"1587585630" status:"pending" uuid:"360a42b5-d51a-4f34-b1a6-1e2c6ac1d0f5"]
+new [annotation_1587585630:"https:\/\/github.com\/qutebrowser\/qutebrowser\/blob\/master\/misc\/userscripts\/taskadd" description:"qutebrowser\/taskadd at master · qutebrowser\/qutebrowser · GitHub " end:"1587585752" entry:"1587585630" modified:"1587585754" status:"deleted" uuid:"360a42b5-d51a-4f34-b1a6-1e2c6ac1d0f5"]
 ---
-time 1542663012
-new [description:"exec error" entry:"1542663012" modified:"1542663012" status:"pending" uuid:"e942ff56-4973-46e7-9470-4ea494e574c6"]
+time 1587585792
+new [description:"Shift-C Copy-Code-Qute" entry:"1587585792" modified:"1587585792" priority:"H" status:"pending" uuid:"30da67ba-af62-41cd-a8b3-c17f3150bece"]
 ---
-time 1542663232
-new [description:"dropbox service" entry:"1542663232" modified:"1542663232" status:"pending" uuid:"cbc662ca-3237-4f30-87e0-8b964099cb19"]
+time 1587588879
+new [description:"qutebrowser\/taskadd at master · qutebrowser\/qutebrowser · GitHub" entry:"1587588879" modified:"1587588879" priority:"H" status:"pending" uuid:"ef16a057-3c12-4ff6-b6d5-4a60f8eea84b"]
 ---
-time 1542736260
-new [description:"setup etckeeper" entry:"1542736260" modified:"1542736260" status:"pending" uuid:"9e3dad27-3cff-47f6-a1a4-77f3c24fc8f8"]
+time 1587588879
+old [description:"qutebrowser\/taskadd at master · qutebrowser\/qutebrowser · GitHub" entry:"1587588879" modified:"1587588879" priority:"H" status:"pending" uuid:"ef16a057-3c12-4ff6-b6d5-4a60f8eea84b"]
+new [annotation_1587588879:"https:\/\/github.com\/qutebrowser\/qutebrowser\/blob\/master\/misc\/userscripts\/taskadd" description:"qutebrowser\/taskadd at master · qutebrowser\/qutebrowser · GitHub" entry:"1587588879" modified:"1587588879" priority:"H" status:"pending" uuid:"ef16a057-3c12-4ff6-b6d5-4a60f8eea84b"]
 ---
-time 1542830194
-old [description:"\/etc repo" entry:"1542662326" modified:"1542662326" status:"pending" uuid:"453e78de-3d2f-4827-b071-469023049660"]
-new [description:"\/etc repo" end:"1542830192" entry:"1542662326" modified:"1542830194" status:"deleted" uuid:"453e78de-3d2f-4827-b071-469023049660"]
+time 1587588894
+old [annotation_1587588879:"https:\/\/github.com\/qutebrowser\/qutebrowser\/blob\/master\/misc\/userscripts\/taskadd" description:"qutebrowser\/taskadd at master · qutebrowser\/qutebrowser · GitHub" entry:"1587588879" modified:"1587588879" priority:"H" status:"pending" uuid:"ef16a057-3c12-4ff6-b6d5-4a60f8eea84b"]
+new [annotation_1587588879:"https:\/\/github.com\/qutebrowser\/qutebrowser\/blob\/master\/misc\/userscripts\/taskadd" description:"qutebrowser\/taskadd at master · qutebrowser\/qutebrowser · GitHub" end:"1587588891" entry:"1587588879" modified:"1587588894" priority:"H" status:"deleted" uuid:"ef16a057-3c12-4ff6-b6d5-4a60f8eea84b"]
 ---
-time 1542830196
-old [description:"yandex serivce" entry:"1542662990" modified:"1542662990" status:"pending" uuid:"62fda452-1c90-45ea-99ce-64f9f202345c"]
-new [description:"yandex serivce" end:"1542830194" entry:"1542662990" modified:"1542830196" status:"deleted" uuid:"62fda452-1c90-45ea-99ce-64f9f202345c"]
+time 1587589870
+new [description:"Find and open file in rofi" entry:"1587589870" modified:"1587589870" priority:"H" status:"pending" uuid:"afb93365-2aab-4bc6-9393-1c5b411fe567"]
 ---
-time 1542830197
-old [description:"dropbox service" entry:"1542663232" modified:"1542663232" status:"pending" uuid:"cbc662ca-3237-4f30-87e0-8b964099cb19"]
-new [description:"dropbox service" end:"1542830196" entry:"1542663232" modified:"1542830197" status:"deleted" uuid:"cbc662ca-3237-4f30-87e0-8b964099cb19"]
+time 1587747789
+new [description:"vi -o fzf" entry:"1587747789" modified:"1587747789" priority:"H" status:"pending" uuid:"e4fa7802-095a-4da6-a75c-cd93bce32e98"]
 ---
-time 1542830212
-old [description:"setup etckeeper" entry:"1542736260" modified:"1542736260" status:"pending" uuid:"9e3dad27-3cff-47f6-a1a4-77f3c24fc8f8"]
-new [description:"setup etckeeper" end:"1542830210" entry:"1542736260" modified:"1542830212" status:"deleted" uuid:"9e3dad27-3cff-47f6-a1a4-77f3c24fc8f8"]
+time 1587747809
+new [description:"fzf for excat match" entry:"1587747809" modified:"1587747809" priority:"H" status:"pending" uuid:"08b500c9-9221-45f6-b319-e09eb5c4da2b"]
 ---
-time 1542997315
-old [description:"Fix panel" entry:"1542585093" modified:"1542585093" status:"pending" uuid:"7bd4fada-d934-474d-a1bc-2c93ba0824bf"]
-new [description:"Fix panel" end:"1542997313" entry:"1542585093" modified:"1542997315" status:"deleted" uuid:"7bd4fada-d934-474d-a1bc-2c93ba0824bf"]
+time 1587747833
+old [description:"fzf for excat match" entry:"1587747809" modified:"1587747809" priority:"H" status:"pending" uuid:"08b500c9-9221-45f6-b319-e09eb5c4da2b"]
+new [description:"fzf for excat match" end:"1587747831" entry:"1587747809" modified:"1587747833" priority:"H" status:"deleted" uuid:"08b500c9-9221-45f6-b319-e09eb5c4da2b"]
 ---
-time 1543516509
-new [description:"EscEsc" entry:"1543516509" modified:"1543516509" status:"pending" uuid:"a330b8e6-c56b-4e48-bacb-50487a4793e6"]
----
-time 1543516514
-new [description:"ctrl-z" entry:"1543516514" modified:"1543516514" status:"pending" uuid:"a695fc5a-dbc2-4d34-a9bc-0ddd200cc18f"]
----
-time 1543517677
-new [description:"fasd" entry:"1543517677" modified:"1543517677" status:"pending" uuid:"52dcff66-fe47-45cb-9c3b-9910f84d36e2"]
----
-time 1543517780
-new [description:"zshmarks" entry:"1543517780" modified:"1543517780" status:"pending" uuid:"192ffa59-5170-4967-a232-167c36dc2aa8"]
----
-time 1543930806
-new [description:"vim-dwm" entry:"1543930806" modified:"1543930806" status:"pending" uuid:"b2efc458-1451-449f-9158-d9591ba76443"]
----
-time 1543930813
-new [description:"qute-pass" entry:"1543930813" modified:"1543930813" status:"pending" uuid:"129ccf85-c1c2-43b6-855d-b63d0e0f0d02"]
----
-time 1544396341
-new [description:"firejail" entry:"1544396341" modified:"1544396341" status:"pending" uuid:"227acb84-95f4-4d6a-9e79-b8ee2e71751f"]
----
-time 1544401830
-new [description:"rkhunter" entry:"1544401830" modified:"1544401830" status:"pending" uuid:"fda7a990-df81-4c0e-9a40-b3f629dfaccf"]
----
-time 1544401834
-new [description:"lynis" entry:"1544401834" modified:"1544401834" status:"pending" uuid:"33704e16-36ed-4299-ad20-b18f726aa8b8"]
----
-time 1544401838
-new [description:"auti" entry:"1544401838" modified:"1544401838" status:"pending" uuid:"7c17262c-7e1c-414d-9e33-25fbfbd4e093"]
----
-time 1544555985
-new [description:"wgetpkg" entry:"1544555985" modified:"1544555985" status:"pending" uuid:"71d13218-f623-4dd9-a4e9-15635e0a79fe"]
----
-time 1544709303
-new [description:"pacaudit" entry:"1544709303" modified:"1544709303" status:"pending" uuid:"f920ef5e-779f-4da6-aab7-14e7a540eb1c"]
----
-time 1544709334
-old [description:"auti" entry:"1544401838" modified:"1544401838" status:"pending" uuid:"7c17262c-7e1c-414d-9e33-25fbfbd4e093"]
-new [description:"audit" entry:"1544401838" modified:"1544709334" status:"pending" uuid:"7c17262c-7e1c-414d-9e33-25fbfbd4e093"]
----
-time 1544709350
-new [description:"add users to passwords" entry:"1544709350" modified:"1544709350" status:"pending" uuid:"cabe26f9-fb1f-4bd8-a38e-17ad82cebb56"]
----
-time 1544709732
-new [description:"pkg-audit" entry:"1544709732" modified:"1544709732" status:"pending" uuid:"dd056ac3-2739-45d7-b0d5-4a4f07793b58"]
----
-time 1544710474
-new [description:"arch-audit" entry:"1544710474" modified:"1544710474" status:"pending" uuid:"144fc3cc-c73a-4cc2-b364-d573aed2b85c"]
----
-time 1544879931
-old [description:"exec error" entry:"1542663012" modified:"1542663012" status:"pending" uuid:"e942ff56-4973-46e7-9470-4ea494e574c6"]
-new [description:"exec error" end:"1544879929" entry:"1542663012" modified:"1544879931" status:"deleted" uuid:"e942ff56-4973-46e7-9470-4ea494e574c6"]
----
-time 1544884695
-new [description:"haxor-news" entry:"1544884695" modified:"1544884695" status:"pending" uuid:"ed57c863-2657-4f85-88e6-0dfab4d6214f"]
----
-time 1550081346
-new [description:"PIK -> pac for pikaur" entry:"1550081346" modified:"1550081346" status:"pending" uuid:"7c80c535-7ba4-4f2a-9fa8-acc1a0e1ef46"]
----
-time 1550081402
-old [description:"PIK -> pac for pikaur" entry:"1550081346" modified:"1550081346" status:"pending" uuid:"7c80c535-7ba4-4f2a-9fa8-acc1a0e1ef46"]
-new [description:"PIK -> pac for pikaur" end:"1550081399" entry:"1550081346" modified:"1550081402" status:"deleted" uuid:"7c80c535-7ba4-4f2a-9fa8-acc1a0e1ef46"]
----
-time 1550081428
-new [description:"PIK -> pac for pikaur" entry:"1550081428" modified:"1550081428" priority:"H" status:"pending" uuid:"b8a894be-83eb-47d5-a6ea-becb53dfe21e"]
----
-time 1555605471
-old [description:"PIK -> pac for pikaur" entry:"1550081428" modified:"1550081428" priority:"H" status:"pending" uuid:"b8a894be-83eb-47d5-a6ea-becb53dfe21e"]
-new [description:"PIK -> pac for pikaur" end:"1555605469" entry:"1550081428" modified:"1555605471" priority:"H" status:"deleted" uuid:"b8a894be-83eb-47d5-a6ea-becb53dfe21e"]
----
-time 1555605494
-new [description:"COMPTON is CAUSING all PROBLEMS" entry:"1555605494" modified:"1555605494" status:"pending" uuid:"5fe89879-bcc8-47be-bbf5-13eef236ed4f"]
----
-time 1555605554
-old [description:"COMPTON is CAUSING all PROBLEMS" entry:"1555605494" modified:"1555605494" status:"pending" uuid:"5fe89879-bcc8-47be-bbf5-13eef236ed4f"]
-new [description:"COMPTON is CAUSING all PROBLEMS" end:"1555605551" entry:"1555605494" modified:"1555605554" status:"deleted" uuid:"5fe89879-bcc8-47be-bbf5-13eef236ed4f"]
----
-time 1555605577
-new [description:"COMPTON is CAUSING all PROBLEMS" entry:"1555605577" modified:"1555605577" priority:"H" status:"pending" uuid:"f75b5d5f-0bf7-436e-90fd-c0c5ccb788ef"]
----
-time 1555605614
-new [description:"source profile" entry:"1555605614" modified:"1555605614" priority:"H" status:"pending" uuid:"fb301c86-3cec-4d06-b73b-ed32be3479ff"]
----
-time 1556642972
-old [description:"haxor-news" entry:"1544884695" modified:"1544884695" status:"pending" uuid:"ed57c863-2657-4f85-88e6-0dfab4d6214f"]
-new [description:"haxor-news" end:"1556642969" entry:"1544884695" modified:"1556642972" status:"deleted" uuid:"ed57c863-2657-4f85-88e6-0dfab4d6214f"]
----
-time 1556642986
-old [description:"add users to passwords" entry:"1544709350" modified:"1544709350" status:"pending" uuid:"cabe26f9-fb1f-4bd8-a38e-17ad82cebb56"]
-new [description:"add users to passwords" end:"1556642984" entry:"1544709350" modified:"1556642986" status:"deleted" uuid:"cabe26f9-fb1f-4bd8-a38e-17ad82cebb56"]
----
-time 1556642995
-old [description:"EscEsc" entry:"1543516509" modified:"1543516509" status:"pending" uuid:"a330b8e6-c56b-4e48-bacb-50487a4793e6"]
-new [description:"EscEsc" end:"1556642993" entry:"1543516509" modified:"1556642995" status:"deleted" uuid:"a330b8e6-c56b-4e48-bacb-50487a4793e6"]
----
-time 1556643000
-old [description:"wgetpkg" entry:"1544555985" modified:"1544555985" status:"pending" uuid:"71d13218-f623-4dd9-a4e9-15635e0a79fe"]
-new [description:"wgetpkg" end:"1556642999" entry:"1544555985" modified:"1556643000" status:"deleted" uuid:"71d13218-f623-4dd9-a4e9-15635e0a79fe"]
----
-time 1556643020
-old [description:"anosurf" entry:"1542662342" modified:"1542662342" status:"pending" uuid:"50265970-8cdc-42ba-a550-f0dddc17d383"]
-new [annotation_1556643018:"all" description:"anosurf" end:"1556643018" entry:"1542662342" modified:"1556643020" status:"deleted" uuid:"50265970-8cdc-42ba-a550-f0dddc17d383"]
----
-time 1556643021
-old [description:"ctrl-z" entry:"1543516514" modified:"1543516514" status:"pending" uuid:"a695fc5a-dbc2-4d34-a9bc-0ddd200cc18f"]
-new [annotation_1556643020:"all" description:"ctrl-z" end:"1556643020" entry:"1543516514" modified:"1556643021" status:"deleted" uuid:"a695fc5a-dbc2-4d34-a9bc-0ddd200cc18f"]
----
-time 1556643022
-old [description:"fasd" entry:"1543517677" modified:"1543517677" status:"pending" uuid:"52dcff66-fe47-45cb-9c3b-9910f84d36e2"]
-new [annotation_1556643021:"all" description:"fasd" end:"1556643021" entry:"1543517677" modified:"1556643022" status:"deleted" uuid:"52dcff66-fe47-45cb-9c3b-9910f84d36e2"]
----
-time 1556643022
-old [description:"zshmarks" entry:"1543517780" modified:"1543517780" status:"pending" uuid:"192ffa59-5170-4967-a232-167c36dc2aa8"]
-new [annotation_1556643022:"all" description:"zshmarks" end:"1556643022" entry:"1543517780" modified:"1556643022" status:"deleted" uuid:"192ffa59-5170-4967-a232-167c36dc2aa8"]
----
-time 1556643023
-old [description:"vim-dwm" entry:"1543930806" modified:"1543930806" status:"pending" uuid:"b2efc458-1451-449f-9158-d9591ba76443"]
-new [annotation_1556643022:"all" description:"vim-dwm" end:"1556643022" entry:"1543930806" modified:"1556643023" status:"deleted" uuid:"b2efc458-1451-449f-9158-d9591ba76443"]
----
-time 1556643024
-old [description:"qute-pass" entry:"1543930813" modified:"1543930813" status:"pending" uuid:"129ccf85-c1c2-43b6-855d-b63d0e0f0d02"]
-new [annotation_1556643023:"all" description:"qute-pass" end:"1556643023" entry:"1543930813" modified:"1556643024" status:"deleted" uuid:"129ccf85-c1c2-43b6-855d-b63d0e0f0d02"]
----
-time 1556643025
-old [description:"firejail" entry:"1544396341" modified:"1544396341" status:"pending" uuid:"227acb84-95f4-4d6a-9e79-b8ee2e71751f"]
-new [annotation_1556643024:"all" description:"firejail" end:"1556643024" entry:"1544396341" modified:"1556643025" status:"deleted" uuid:"227acb84-95f4-4d6a-9e79-b8ee2e71751f"]
----
-time 1556643025
-old [description:"rkhunter" entry:"1544401830" modified:"1544401830" status:"pending" uuid:"fda7a990-df81-4c0e-9a40-b3f629dfaccf"]
-new [annotation_1556643025:"all" description:"rkhunter" end:"1556643025" entry:"1544401830" modified:"1556643025" status:"deleted" uuid:"fda7a990-df81-4c0e-9a40-b3f629dfaccf"]
----
-time 1556643027
-old [description:"lynis" entry:"1544401834" modified:"1544401834" status:"pending" uuid:"33704e16-36ed-4299-ad20-b18f726aa8b8"]
-new [annotation_1556643025:"all" description:"lynis" end:"1556643025" entry:"1544401834" modified:"1556643027" status:"deleted" uuid:"33704e16-36ed-4299-ad20-b18f726aa8b8"]
----
-time 1556643041
-old [description:"COMPTON is CAUSING all PROBLEMS" entry:"1555605577" modified:"1555605577" priority:"H" status:"pending" uuid:"f75b5d5f-0bf7-436e-90fd-c0c5ccb788ef"]
-new [annotation_1556643040:"all" description:"COMPTON is CAUSING all PROBLEMS" end:"1556643040" entry:"1555605577" modified:"1556643041" priority:"H" status:"deleted" uuid:"f75b5d5f-0bf7-436e-90fd-c0c5ccb788ef"]
----
-time 1556643043
-old [description:"source profile" entry:"1555605614" modified:"1555605614" priority:"H" status:"pending" uuid:"fb301c86-3cec-4d06-b73b-ed32be3479ff"]
-new [annotation_1556643041:"all" description:"source profile" end:"1556643041" entry:"1555605614" modified:"1556643043" priority:"H" status:"deleted" uuid:"fb301c86-3cec-4d06-b73b-ed32be3479ff"]
----
-time 1556643066
-old [description:"audit" entry:"1544401838" modified:"1544709334" status:"pending" uuid:"7c17262c-7e1c-414d-9e33-25fbfbd4e093"]
-new [annotation_1556643065:"all" description:"audit" end:"1556643065" entry:"1544401838" modified:"1556643066" status:"deleted" uuid:"7c17262c-7e1c-414d-9e33-25fbfbd4e093"]
----
-time 1556643066
-old [description:"pacaudit" entry:"1544709303" modified:"1544709303" status:"pending" uuid:"f920ef5e-779f-4da6-aab7-14e7a540eb1c"]
-new [annotation_1556643066:"all" description:"pacaudit" end:"1556643066" entry:"1544709303" modified:"1556643066" status:"deleted" uuid:"f920ef5e-779f-4da6-aab7-14e7a540eb1c"]
----
-time 1556643067
-old [description:"pkg-audit" entry:"1544709732" modified:"1544709732" status:"pending" uuid:"dd056ac3-2739-45d7-b0d5-4a4f07793b58"]
-new [annotation_1556643066:"all" description:"pkg-audit" end:"1556643066" entry:"1544709732" modified:"1556643067" status:"deleted" uuid:"dd056ac3-2739-45d7-b0d5-4a4f07793b58"]
----
-time 1556643067
-old [description:"arch-audit" entry:"1544710474" modified:"1544710474" status:"pending" uuid:"144fc3cc-c73a-4cc2-b364-d573aed2b85c"]
-new [annotation_1556643067:"all" description:"arch-audit" end:"1556643067" entry:"1544710474" modified:"1556643067" status:"deleted" uuid:"144fc3cc-c73a-4cc2-b364-d573aed2b85c"]
----
-time 1556643117
-new [description:"Create Battery Monitor Script" entry:"1556643117" modified:"1556643117" priority:"H" status:"pending" uuid:"7fdd8645-cd48-452a-b23d-bd620e616bdb"]
----
-time 1561590365
-old [description:"Create Battery Monitor Script" entry:"1556643117" modified:"1556643117" priority:"H" status:"pending" uuid:"7fdd8645-cd48-452a-b23d-bd620e616bdb"]
-new [description:"Create Battery Monitor Script" end:"1561590363" entry:"1556643117" modified:"1561590365" priority:"H" status:"deleted" uuid:"7fdd8645-cd48-452a-b23d-bd620e616bdb"]
----
-time 1561601278
-new [description:"Get USB to reinstall new version" entry:"1561601278" modified:"1561601278" status:"pending" uuid:"48a71e2d-64af-435f-83ba-0f388fd0ff49"]
+time 1587747845
+new [description:"fzf -e EXACT" entry:"1587747845" modified:"1587747845" priority:"H" status:"pending" uuid:"6249d5fb-d24e-4f4b-9544-15724f237a13"]
 ---
