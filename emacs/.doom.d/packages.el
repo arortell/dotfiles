@@ -52,3 +52,4 @@
 (package! systemd)
 (package! pkgbuild-mode)
 (package! py-autopep8)
+(package! vimrc-mode)

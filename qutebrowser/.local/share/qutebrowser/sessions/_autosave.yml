@@ -9,29 +9,34 @@ windows:
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
+        y: 3520
       title: Why you should be using fzf, the command line fuzzy finder
       url: https://www.freecodecamp.org/news/fzf-a-command-line-fuzzy-finder-missing-demo-a7de312403ff/
       zoom: 1.0
-  - active: true
-    history:
+  - history:
     - pinned: false
       title: 'GitHub - junegunn/fzf: A command-line fuzzy finder'
       url: https://github.com/junegunn/fzf#examples
     - pinned: false
       title: Examples · junegunn/fzf Wiki · GitHub
       url: https://github.com/junegunn/fzf/wiki/examples
-    - active: true
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
+    - pinned: false
       title: "GitHub - ohmyzsh/ohmyzsh: \U0001F643 A delightful community-driven (with
         1500+ contributors) framework for managing your zsh configuration. Includes
         200+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, php, python,
         etc), over 140 themes to spice up your morning, and an auto-update tool so
         that makes it easy to keep up with the latest updates from the community."
       url: https://github.com/ohmyzsh/ohmyzsh
+    - pinned: false
+      title: blackarch download at DuckDuckGo
+      url: https://duckduckgo.com/?q=blackarch+download&ia=web
+    - active: true
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 723
+      title: Download BlackArch
+      url: https://www.blackarch.org/downloads.html
       zoom: 1.0
   - history:
     - pinned: false
@@ -44,8 +49,26 @@ windows:
       pinned: false
       scroll-pos:
         x: 0
-        y: 3316
+        y: 0
       title: 'GitHub - clvv/fasd: Command-line productivity booster, offers quick
         access to files and directories, inspired by autojump, z and v.'
       url: https://github.com/clvv/fasd
+      zoom: 1.0
+  - active: true
+    history:
+    - pinned: false
+      title: emacs vim files syntax highlightig at DuckDuckGo
+      url: https://duckduckgo.com/?q=emacs+vim+files+syntax+highlightig&ia=software
+    - pinned: false
+      title: vimrc-mode emacs at DuckDuckGo
+      url: https://duckduckgo.com/?q=vimrc-mode+emacs&ia=software
+    - active: true
+      original-url: https://duckduckgo.com/?q=vimrc-mode+emacs&ia=software
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'GitHub - mcandre/vimrc-mode: Enables syntax highlighting for .vimrc/_vimrc
+        files'
+      url: https://github.com/mcandre/vimrc-mode
       zoom: 1.0
