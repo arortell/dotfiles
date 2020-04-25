@@ -1,20 +1,19 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAAAAAAEgAABj8AAAODAAAAAgAAABQAAAY9AAADgQAAAAAAAAAABkAAAAACAAAA
-    FAAABj0AAAOB
+    AdnQywADAAAAAAAAAAAA7QAABj8AAAODAAAAAgAAAO8AAAY9AAADgQAAAAAAAAAABkAAAAACAAAA
+    7wAABj0AAAOB
   tabs:
   - history:
     - active: true
       pinned: false
       scroll-pos:
         x: 0
-        y: 11562
+        y: 0
       title: Why you should be using fzf, the command line fuzzy finder
       url: https://www.freecodecamp.org/news/fzf-a-command-line-fuzzy-finder-missing-demo-a7de312403ff/
       zoom: 1.0
-  - active: true
-    history:
+  - history:
     - pinned: false
       title: Alexey Samoshkin - YouTube
       url: https://www.youtube.com/channel/UCfju8u-YOpNMO4CbyzIsc9Q
@@ -49,14 +48,22 @@ windows:
       title: 'GitHub - sivel/speedtest-cli: Command line interface for testing internet
         bandwidth using speedtest.net'
       url: https://github.com/sivel/speedtest-cli
-  - history:
+  - active: true
+    history:
+    - pinned: false
+      title: 'GitHub - junegunn/fzf: A command-line fuzzy finder'
+      url: https://github.com/junegunn/fzf#git-ls-tree-for-fast-traversal
+    - pinned: false
+      title: oh-mu-zsh common-aliasa at DuckDuckGo
+      url: https://duckduckgo.com/?q=oh-mu-zsh+common-aliasa&ia=web
     - active: true
+      original-url: https://duckduckgo.com/?q=oh-mu-zsh+common-aliasa&ia=web
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: 'GitHub - junegunn/fzf: A command-line fuzzy finder'
-      url: https://github.com/junegunn/fzf#git-ls-tree-for-fast-traversal
+        y: 1040
+      title: ohmyzsh/common-aliases.plugin.zsh at master · ohmyzsh/ohmyzsh · GitHub
+      url: https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/common-aliases/common-aliases.plugin.zsh
       zoom: 1.0
   - history:
     - pinned: false
@@ -69,52 +76,12 @@ windows:
       title: enable preview window in fzf at DuckDuckGo
       url: https://duckduckgo.com/?q=enable+preview+window+in+fzf&ia=software
     - active: true
-      original-url: https://duckduckgo.com/?q=enable+preview+window+in+fzf&ia=software
       pinned: false
       scroll-pos:
         x: 0
-        y: 430
+        y: 0
       title: Key bindings for git with fzf
       url: https://junegunn.kr/2016/07/fzf-git/
-      zoom: 1.0
-  - history:
-    - pinned: false
-      title: Key bindings for git with fzf (https://junegunn.kr/2016/07/fzf-git/)
-        · GitHub
-      url: https://gist.github.com/junegunn/8b572b8d4b5eddd8b85e5f4d40f17236
-    - active: true
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 400
-      title: Key bindings for git with fzf (https://junegunn.kr/2016/07/fzf-git/)
-        · GitHub
-      url: https://gist.github.com/junegunn/8b572b8d4b5eddd8b85e5f4d40f17236#file-key-binding-zsh
-      zoom: 1.0
-    - original-url: https://gist.github.com/junegunn/8b572b8d4b5eddd8b85e5f4d40f17236/raw/be535c93284afde06342526de9476eb15071e78a/key-binding.zsh
-      pinned: false
-      title: https://gist.githubusercontent.com/junegunn/8b572b8d4b5eddd8b85e5f4d40f17236/raw/be535c93284afde06342526de9476eb15071e78a/key-binding.zsh
-      url: https://gist.githubusercontent.com/junegunn/8b572b8d4b5eddd8b85e5f4d40f17236/raw/be535c93284afde06342526de9476eb15071e78a/key-binding.zsh
-  - history:
-    - pinned: false
-      title: Examples · junegunn/fzf Wiki · GitHub
-      url: https://github.com/junegunn/fzf/wiki/examples#cd
-    - active: true
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 2960
-      title: 'GitHub - junegunn/fzf: A command-line fuzzy finder'
-      url: https://github.com/junegunn/fzf
-      zoom: 1.0
-  - history:
-    - active: true
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 12872
-      title: 'GitHub - junegunn/fzf: A command-line fuzzy finder'
-      url: https://github.com/junegunn/fzf#options
       zoom: 1.0
   - history:
     - pinned: false
@@ -124,7 +91,7 @@ windows:
       pinned: false
       scroll-pos:
         x: 0
-        y: 3560
+        y: 80
       title: Examples · junegunn/fzf Wiki · GitHub
       url: https://github.com/junegunn/fzf/wiki/examples
       zoom: 1.0
@@ -139,7 +106,7 @@ windows:
       pinned: false
       scroll-pos:
         x: 0
-        y: 3317
+        y: 80
       title: 'GitHub - clvv/fasd: Command-line productivity booster, offers quick
         access to files and directories, inspired by autojump, z and v.'
       url: https://github.com/clvv/fasd

@@ -1,7 +1,8 @@
 windows:
-- geometry: !!binary |
-    AdnQywADAAAAAAACAAAAFAAABj0AAAOBAAAAAgAAABQAAAY9AAADgQAAAAAAAAAABkAAAAACAAAA
-    FAAABj0AAAOB
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAAAAAAEAAABj8AAAODAAAAAgAAABIAAAY9AAADgQAAAAAAAAAABkAAAAACAAAA
+    EgAABj0AAAOB
   tabs:
   - history:
     - active: true
@@ -15,116 +16,22 @@ windows:
   - active: true
     history:
     - pinned: false
-      title: Alexey Samoshkin - YouTube
-      url: https://www.youtube.com/channel/UCfju8u-YOpNMO4CbyzIsc9Q
-    - pinned: false
-      title: Alexey Samoshkin - YouTube
-      url: https://www.youtube.com/channel/UCfju8u-YOpNMO4CbyzIsc9Q/about
-    - pinned: false
-      title: Alexey Samoshkin - YouTube
-      url: https://www.youtube.com/channel/UCfju8u-YOpNMO4CbyzIsc9Q/about
-    - pinned: false
-      title: Alexey Samoshkin - YouTube
-      url: https://www.youtube.com/channel/UCfju8u-YOpNMO4CbyzIsc9Q/about
-    - pinned: false
-      title: Alexey Samoshkin - YouTube
-      url: https://www.youtube.com/channel/UCfju8u-YOpNMO4CbyzIsc9Q/videos
-    - pinned: false
-      title: Alexey Samoshkin - YouTube
-      url: https://www.youtube.com/channel/UCfju8u-YOpNMO4CbyzIsc9Q/videos
-    - active: true
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Vim universe. fzf - command line fuzzy finder - YouTube
-      url: https://www.youtube.com/watch?v=qgG5Jhi_Els
-      zoom: 1.0
-    - pinned: false
-      title: speedtest cli github at DuckDuckGo
-      url: https://duckduckgo.com/?q=speedtest+cli+github&ia=web
-    - original-url: https://duckduckgo.com/?q=speedtest+cli+github&ia=web
-      pinned: false
-      title: 'GitHub - sivel/speedtest-cli: Command line interface for testing internet
-        bandwidth using speedtest.net'
-      url: https://github.com/sivel/speedtest-cli
-  - history:
-    - active: true
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'GitHub - junegunn/fzf: A command-line fuzzy finder'
-      url: https://github.com/junegunn/fzf#git-ls-tree-for-fast-traversal
-      zoom: 1.0
-  - history:
-    - pinned: false
-      title: Examples · junegunn/fzf Wiki · GitHub
-      url: https://github.com/junegunn/fzf/wiki/examples#cd
-    - pinned: false
-      title: enable preview window in fzf only in file find mode at DuckDuckGo
-      url: https://duckduckgo.com/?q=enable+preview+window+in+fzf+only+in+file+find+mode&ia=software
-    - pinned: false
-      title: enable preview window in fzf at DuckDuckGo
-      url: https://duckduckgo.com/?q=enable+preview+window+in+fzf&ia=software
-    - active: true
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Key bindings for git with fzf
-      url: https://junegunn.kr/2016/07/fzf-git/
-      zoom: 1.0
-  - history:
-    - pinned: false
-      title: Key bindings for git with fzf (https://junegunn.kr/2016/07/fzf-git/)
-        · GitHub
-      url: https://gist.github.com/junegunn/8b572b8d4b5eddd8b85e5f4d40f17236
-    - active: true
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Key bindings for git with fzf (https://junegunn.kr/2016/07/fzf-git/)
-        · GitHub
-      url: https://gist.github.com/junegunn/8b572b8d4b5eddd8b85e5f4d40f17236#file-key-binding-zsh
-      zoom: 1.0
-    - original-url: https://gist.github.com/junegunn/8b572b8d4b5eddd8b85e5f4d40f17236/raw/be535c93284afde06342526de9476eb15071e78a/key-binding.zsh
-      pinned: false
-      title: https://gist.githubusercontent.com/junegunn/8b572b8d4b5eddd8b85e5f4d40f17236/raw/be535c93284afde06342526de9476eb15071e78a/key-binding.zsh
-      url: https://gist.githubusercontent.com/junegunn/8b572b8d4b5eddd8b85e5f4d40f17236/raw/be535c93284afde06342526de9476eb15071e78a/key-binding.zsh
-  - history:
-    - pinned: false
-      title: Examples · junegunn/fzf Wiki · GitHub
-      url: https://github.com/junegunn/fzf/wiki/examples#cd
-    - active: true
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'GitHub - junegunn/fzf: A command-line fuzzy finder'
-      url: https://github.com/junegunn/fzf
-      zoom: 1.0
-  - history:
-    - active: true
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'GitHub - junegunn/fzf: A command-line fuzzy finder'
-      url: https://github.com/junegunn/fzf#options
-      zoom: 1.0
-  - history:
-    - pinned: false
       title: 'GitHub - junegunn/fzf: A command-line fuzzy finder'
       url: https://github.com/junegunn/fzf#examples
+    - pinned: false
+      title: Examples · junegunn/fzf Wiki · GitHub
+      url: https://github.com/junegunn/fzf/wiki/examples
     - active: true
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Examples · junegunn/fzf Wiki · GitHub
-      url: https://github.com/junegunn/fzf/wiki/examples
+      title: "GitHub - ohmyzsh/ohmyzsh: \U0001F643 A delightful community-driven (with
+        1500+ contributors) framework for managing your zsh configuration. Includes
+        200+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, php, python,
+        etc), over 140 themes to spice up your morning, and an auto-update tool so
+        that makes it easy to keep up with the latest updates from the community."
+      url: https://github.com/ohmyzsh/ohmyzsh
       zoom: 1.0
   - history:
     - pinned: false
@@ -137,7 +44,7 @@ windows:
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
+        y: 3316
       title: 'GitHub - clvv/fasd: Command-line productivity booster, offers quick
         access to files and directories, inspired by autojump, z and v.'
       url: https://github.com/clvv/fasd
