@@ -36,3 +36,19 @@
 /eval
 :open enable preview window in fzf only in file find mode
 :open speedtest cli github
+:open oh-my-zsh
+/pygmentize
+:open zsh-autosuggestions
+:open zsh-completions
+/autolo
+:open zsh-reload
+:open zshmarks
+/systemad
+:open oh-mu-zsh common-aliasa
+/al
+:open Alexey Samoshkin github
+:open zsh dirhistory
+:open -t github zsh
+/eval
+:open https://github.com/ohmyzsh/ohmyzsh
+/github

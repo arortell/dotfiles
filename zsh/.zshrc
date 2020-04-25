@@ -8,6 +8,7 @@
 # REMOVE PYENV
 export PATH="$HOME/bin:$PATH"
 
+dotfiles="$HOME/.dotfiles"
 
 # disable multibyte
 unsetopt MULTIBYTE
@@ -18,21 +19,12 @@ export ZSH=$HOME/.oh-my-zsh
 # enable googler elvis
 source ~/.config/Dropbox/source/googler_at
 
-
-# Java Bullshit
-#export JAVA_HOME="/usr/lib/jvm/java-11-openjdk"
-#export _JAVA_OPTIONS="-Dsun.awt.disablegrab=true -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel -Dswing.crossplatformlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel"
-#export _SILENT_JAVA_OPTIONS="$_JAVA_OPTIONS"
-#unset _JAVA_OPTIONS
-#alias java='java "$_SILENT_JAVA_OPTIONS"'
-
 # auto cd 'Just type dir name'
 setopt autocd
 cdpath+=(~)
 
 
 #SPACESHIP CONFIG
-#ORDER
 SPACESHIP_PROMPT_ORDER=(
   time     #
   vi_mode  # these sections will be
@@ -128,11 +120,10 @@ ZSH_THEME="spaceship"
 
 # Uncomment the following line to use hyphen-insensitive completion. Case
 # sensitive completion must be off. _ and - will be interchangeable.
- HYPHEN_INSENSITIVE="true"
+HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
-
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
@@ -163,7 +154,7 @@ ZSH_THEME="spaceship"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(archlinux colorize compleat copyfile cp common-aliases dircycle dirhistory dirpersist fzf fd git github git-prompt history history-substring-search pip python rsync sudo systemd systemadmin zsh-interactive-cd zsh-syntax-highlighting zsh-autosuggestions zsh-completions zsh-history-substring-search zsh_reload zsh-navigation-tools zshmarks)
+plugins=(archlinux colorize copydir copyfile cp common-aliases dirhistory fzf fd github git-prompt history pip ripgrep rsync sudo systemd systemadmin taskwarrior zsh-interactive-cd zsh-syntax-highlighting zsh-autosuggestions zsh-completions zsh_reload)
 source $ZSH/oh-my-zsh.sh
 
 autoload -Uz compinit compinit promptinit run-help
@@ -208,9 +199,6 @@ zmodload zsh/parameter
 
 # Compilation flags
 export ARCHFLAGS="-arch x86_64"
-
-# ssh
-export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 
 #######################COLORS
@@ -277,9 +265,7 @@ setopt extendedglob
 # For a full list of active aliases, run `alias`.
 
 unalias fd
-alias l="ls -CF"
-alias ll="ls -lCFh"
-alias la="ls -ACF"
+alias l="ls -ChF"
 alias c="clear"
 alias cp="acp -g $@"
 alias dd='dd status=progress'
@@ -289,21 +275,18 @@ alias mkdir='mkdir -p $@'
 alias ncdu='ncdu --color dark'
 alias def="/usr/bin/sdcv"
 alias sa='sudoedit $1'
-alias cfg-zsh='$EDITOR ~/.zshrc'
 alias cfg-term='$EDITOR ~/.config/termite/config'
 alias cfg-qute='$EDITOR ~/.config/qutebrowser/config.py'
 alias cfg-herb='$EDITOR ~/.config/herbstluftwm/autostart'
-alias rld-zsh='source ~/.zshrc'
 alias free='free -h'
 alias vdir='vdir --color=auto'
 alias clr='clear && ls'
 alias lock='sudo passwd -l $1'
 alias unlock='sudo passwd -u $1'
 alias spell='aspell -a $@'
-alias rcp='rsync -aP'
-alias rmv='rsync -aP --remove-source-files'
 alias how='function hdi(){ howdoi $* -c -n 5; }; hdi'
 alias quit='systemctl poweroff'
+alias gc='git clone $@'
 
 # add some color to grep
 export GREP_COLORS='sl=49;39:cx=49;39:mt=49;31;1:fn=49;35:ln=49;32;1:bn=49;32;3;4:se=49;36';
@@ -311,59 +294,6 @@ export GREP_COLORS='sl=49;39:cx=49;39:mt=49;31;1:fn=49;35:ln=49;32;1:bn=49;32;3;
 # Show tasks on terminal open
 task next
 
-################# Functions ######################
-
-# list everything connected to network with nmap
-connected() {
-  echo "--------------- Connected Devices -----------------"
-    nmap -sn $(netstat -rn | awk 'FNR == 3 {print $2}')/24
-  echo "---------------------------------------------------"
-}
-
-# list everything connected to network
-devices() {
-  echo "---------------- Connected Devices ---------------"
-  sudo arp-scan --interface=wlp2s0b1 --localnet
-
-}
-
-# Kill all zombie process
-killall-zombies() { 
-  kill -HUP $(ps -A -ostat,ppid | grep -e '[zZ]'| awk '{ print $2 }') ;
-}
-
-# create backup copy
-cpbak() { 
-  cp $1{,.bak} ;
-}
-
-# Duh read the function name
-update-grub() {
-  sudo grub-mkconfig -o /boot/grub/grub.cfg ;
-}
-
-
-# ls recent items at bottom with green TODAY yellow YESTERDAY substituted with file permission also
-lst() {
-  ls -vAFq --color=yes -got --si --time-style=long-iso "$@" \
-  | sed "s/$(date +%Y-%m-%d)/\x1b[32m     TODAY\x1b[m/;s/$(date +'%Y-%m-%d' -d yesterday)/\x1b[33m YESTERDAY\x1b[m/" \
-  | awk '{k=0;for(i=0;i<=8;i++)k+=((substr($1,i+2,1)~/[rwx]/)*2^(8-i));if(k)printf(" %0o ",k);print}' | tac
-}
-
-# make and cd to "$1" directory
-function mcd ()
-{
-   mkdir -p "$1"; cd "$1";
-}
-
-# rember dirs for dirs -v
-DIRSTACKFILE="$HOME/.cache/zsh/dirs"
-if [[ -f $DIRSTACKFILE ]] && [[ $#dirstack -eq 0 ]]; then
-  dirstack=( ${(f)"$(< $DIRSTACKFILE)"} )
-  [[ -d $dirstack[1] ]] && cd $dirstack[1]
-fi
-
-DIRSTACKSIZE=20
 
 setopt AUTO_PUSHD PUSHD_SILENT PUSHD_TO_HOME
 
@@ -375,47 +305,6 @@ setopt PUSHD_MINUS
 
 # rehas automaticly
 zstyle ':completion:*' rehash true
-
-# file manager keybindings
-cdUndoKey() {
-  popd      > /dev/null
-  zle       reset-prompt
-  echo
-  ls
-  echo
-}
-
-cdParentKey() {
-  pushd .. > /dev/null
-  zle      reset-prompt
-  echo
-  ls
-  echo
-}
-
-########### FZF Settings ##################################
-# Use ~~ as the trigger sequence instead of the default **
-#export FZF_COMPLETION_TRIGGER='~~'
-
-
-FD_OPTIONS="--follow --hidden --exclude .git --exclude node_modules"
-export FZF_DEFAULT_OPTIONS="--no-mouse --height 50% -1 --reverse --multi --inline-info --preview='[[ \$(file --mime {}) =~ binary ]] && echo {} is a binary file || (bat --style=numbers --color=always {} || cat {}) 2> /dev/null | head -300' --preview-window='right:hidden:wrap' --bind='f3:execute(bat --style=numbers {} || less -f {}),f2:toggle-preview,ctrl-d:half-page-down,ctrl-u:half-page-up,ctrl-a:select-all+accept,ctrl-y:execute-silent(echo {+} | pbcopy)'"
-
-export FZF_DEFAULT_COMMAND="fd --type f --type l $FD_OPTIONS"
-#export FZF_DEFAULT_COMMAND="git ls-files --cached --others --exclude-standard | fd --type f --type l $FD_OPTIONS"
-export FZF_CTRL_T_COMMAND="fd --type f $FD_OPTIONS"
-export FZF_ALT_C_COMMAND="fd --type d $FD_OPTIONS"
-
-# Setting fd as the default source for fzf
-#export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
-
-#####################################################################
-
-
-zle -N                 cdParentKey
-zle -N                 cdUndoKey
-bindkey '^[[1;3A'      cdParentKey
-bindkey '^[[1;3D'      cdUndoKey
 
 # history search
 autoload -Uz up-line-or-beginning-search down-line-or-beginning-search
@@ -432,16 +321,18 @@ setopt COMPLETE_ALIASES
 # entered completion colorize
 zstyle -e ':completion:*:default' list-colors 'reply=("${PREFIX:+=(#bi)($PREFIX:t)(?)*==34=34}:${(s.:.)LS_COLORS}")';
 
-# Fix for home and end keys
-#bindkey "^[[H" beginning-of-line
-#bindkey "^[[F" end-of-line
-
 #### THIS NEEDS TO BE UNCOMMENTED FOR SPACESHIOP TO WORK
 #source "/home/b14ckr41n/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 
+# custom vars needed for fzf and to clean this mess up
+source "$dotfiles/zsh/.oh-my-zsh/custom/my_vars/variables.sh"
+source "$dotfiles/zsh/.oh-my-zsh/custom/my_vars/fzf.sh"
 
 # syntax highlight source ######################### MUST BE LAST LINE IN FILE ###################
 source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# enable fasd
+eval "$(fasd --init auto)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
