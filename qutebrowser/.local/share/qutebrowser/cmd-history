@@ -52,3 +52,7 @@
 /eval
 :open https://github.com/ohmyzsh/ohmyzsh
 /github
+:open blackarch download
+:download-cancel
+:open -t emacs vim files syntax highlightig
+:open vimrc-mode emacs

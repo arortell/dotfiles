@@ -58,6 +58,10 @@
 ;; You can also try 'gd' (or 'C-c g d') to jump to their definition and see how
 ;; they are implemented.
 
+(require 'vimrc-mode)
+(add-to-list 'auto-mode-alist '("\\.vim\\(rc\\)?\\'" . vimrc-mode))
+
+
 ;; allows config files to be syntax highlighted ie: *.rc, *.conf, /etc*
 (add-to-list 'auto-mode-alist '("\\.*rc$" . conf-unix-mode))
 (add-to-list 'auto-mode-alist '("\\.*conf$" . conf-unix-mode))

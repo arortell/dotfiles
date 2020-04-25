@@ -239,6 +239,8 @@ B_CYAN="\e[46m"
 B_LIGHT_CYAN="\e[106m"
 B_WHITE="\e[107m"
 
+alias vf="nvim -o `fzf`"
+
 #Formating
 DIM="\e[2m"
 UNDERLINE="\e[4m"
