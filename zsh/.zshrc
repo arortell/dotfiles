@@ -154,7 +154,7 @@ HYPHEN_INSENSITIVE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(archlinux colorize copydir copyfile cp common-aliases dirhistory fzf fd github git-prompt history pip ripgrep rsync sudo systemd systemadmin taskwarrior zsh-interactive-cd zsh-syntax-highlighting zsh-autosuggestions zsh-completions zsh_reload)
+plugins=(archlinux colorize colored-man-pages_mod copydir copyfile cp common-aliases dirhistory fzf fd github git-prompt history pip ripgrep rsync sudo systemd systemadmin taskwarrior tmux zsh-interactive-cd zsh-syntax-highlighting zsh-autosuggestions zsh-completions zsh_reload)
 source $ZSH/oh-my-zsh.sh
 
 autoload -Uz compinit compinit promptinit run-help

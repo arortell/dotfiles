@@ -13,28 +13,31 @@ if [ -z "$geometry" ] ;then
     echo "Invalid monitor $monitor"
     exit 1
 fi
+
 # geometry has the format W H X Y
 x=${geometry[0]}
 y=${geometry[1]}
 panel_width=${geometry[2]}
 panel_height=16
 font="-*-fixed-medium-*-*-*-12-*-*-*-*-*-*-*"
-bgcolor="#000000"
+bgcolor=$(hc get frame_border_normal_color)
 selbg=$(hc get window_border_active_color)
 selfg='#101010'
 
-####
+
 # Try to find textwidth binary.
-# In e.g. Ubuntu, this is named dzen2-textwidth.
 if which textwidth &> /dev/null ; then
     textwidth="textwidth";
 elif which dzen2-textwidth &> /dev/null ; then
     textwidth="dzen2-textwidth";
+elif which xftwidth &> /dev/null ; then # For guix
+    textwidth="xtfwidth";
 else
     echo "This script requires the textwidth tool of the dzen2 project."
     exit 1
 fi
-####
+
+
 # true if we are using the svn version of dzen2
 # depending on version/distribution, this seems to have version strings like
 # "dzen-" or "dzen-x.x.x-svn"
@@ -71,7 +74,7 @@ hc pad $monitor $panel_height
     while true ; do
         # "date" output is checked once a second, but an event is only
         # generated if the output changed compared to the previous run.
-        date +$'date\t^fg(#efefef)%I:%M^fg(#909090), %m-%d-^fg(#efefef)%Y'
+        date +$'date\t^fg(#efefef)%H:%M^fg(#909090), %Y-%m-^fg(#efefef)%d'
         sleep 1 || break
     done > >(uniq_linebuffered) &
     childpid=$!
@@ -108,7 +111,7 @@ hc pad $monitor $panel_height
                     echo -n "^bg()^fg(#ababab)"
                     ;;
             esac
-            if [ ! -z "$dzen2_svn" ] ; then
+            if [ -n "$dzen2_svn" ] ; then
                 # clickable tags if using SVN dzen
                 echo -n "^ca(1,$hc_quoted focus_monitor \"$monitor\" && "
                 echo -n "$hc_quoted use \"${i:1}\") ${i:1} ^ca()"
@@ -124,7 +127,7 @@ hc pad $monitor $panel_height
         right_text_only=$(echo -n "$right" | sed 's.\^[^(]*([^)]*)..g')
         # get width of right aligned text.. and add some space..
         width=$($textwidth "$font" "$right_text_only    ")
-        echo -n "^pa($(($panel_width - $width)))$right"
+        echo -n "^pa($(( panel_width - width )))$right"
         echo
 
         ### Data handling ###
@@ -144,8 +147,9 @@ hc pad $monitor $panel_height
                 IFS=$'\t' read -ra tags <<< "$(hc tag_status $monitor)"
                 ;;
             date)
-                #echo "resetting date" >&2
+                echo "resetting date" >&2
                 date="${cmd[@]:1}"
+                echo $date
                 ;;
             quit_panel)
                 exit
@@ -182,6 +186,6 @@ hc pad $monitor $panel_height
     # After the data is gathered and processed, the output of the previous block
     # gets piped to dzen2.
 
-} 2> /dev/null | dzen2 -w $panel_width -x $x -y $y -fn "$font" -h $panel_height \
+} | dzen2 -w $panel_width -x $x -y $y -fn "$font" -h $panel_height \
     -e "button3=;button4=exec:$hc_quoted use_index -1;button5=exec:$hc_quoted use_index +1" \
-    -ta l -bg "$bgcolor" -fg '#efefef'
+    -ta l -fg '#efefef'
