@@ -24,6 +24,9 @@ picom >> ~/.logs/xinit.log 2>&1 &
 # Setting Cursor
 xsetroot -cursor_name left_ptr 2>&1 &
 
+# Remap Capslock to ctrl
+setxkbmap -layout us -option ctrl:nocaps 2>/dev/null
+
 #echo "starting gpg-agent daemon" >> ~/.logs/xinit.log
 #gpg-agent --daemon --pinentry-program /usr/bin/pinentry-rofi >> ~/.logs/xinit.log 2>&1 &
 
@@ -35,7 +38,5 @@ xset s off
 xset s noblank
 xset -dpms
 
-dropbox &
-yandex-disk start &
 
 exec herbstluftwm --locked

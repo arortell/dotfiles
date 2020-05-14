@@ -90,6 +90,42 @@
   path = nvim/.config/nvim/plugged/vim-template
   url = https://github.com/aperezdc/vim-template.git
 
+[submodule "nvim/.config/nvim/plugged/vim-tmux"]
+  path = nvim/.config/nvim/plugged/vim-tmux
+  url = https://github.com/tmux-plugins/vim-tmux.git
+
+[submodule "tmux/.tmux/plugins/tmux-copycat"]
+    path = tmux/.tmux/plugins/tmux-copycat
+    url = https://github.com/tmux-plugins/tmux-copycat.git
+
+[submodule "tmux/.tmux/plugins/tmux-mem-cpu-load"]
+    path = tmux/.tmux/plugins/tmux-mem-cpu-load
+    url = https://github.com/thewtex/tmux-mem-cpu-load.git
+
+[submodule "tmux/.tmux/plugins/tmux-prefix-highlight"]
+    path = tmux/.tmux/plugins/tmux-prefix-highlight
+    url = https://github.com/tmux-plugins/tmux-prefix-highlight.git
+
+[submodule "tmux/.tmux/plugins/tmux-sensible"]
+    path = tmux/.tmux/plugins/tmux-sensible
+    url = https://github.com/tmux-plugins/tmux-sensible.git
+
+[submodule "tmux/.tmux/plugins/tmux-sidebar"]
+    path = tmux/.tmux/plugins/tmux-sidebar
+    url = https://github.com/tmux-plugins/tmux-sidebar.git
+
+[submodule "tmux/.tmux/plugins/tmux-yank"]
+    path = tmux/.tmux/plugins/tmux-yank
+    url = https://github.com/tmux-plugins/tmux-yank.git
+
+[submodule "tmux/.tmux/plugins/tpm"]
+    path = tmux/.tmux/plugins/tpm
+    url = https://github.com/tmux-plugins/tpm.git
+
+[submodule "tmux/.tmux/plugins/vim-tmux-navigator"]
+    path = tmux/.tmux/plugins/vim-tmux-navigator
+    url = https://github.com/christoomey/vim-tmux-navigator.git
+
 [submodule "zsh/.oh-my-zsh/custom/plugins/zsh-autosuggestions"]
   path = zsh/.oh-my-zsh/custom/plugins/zsh-autosuggestions
   url = https://github.com/zsh-users/zsh-autosuggestions.git

@@ -85,6 +85,7 @@ Plug 'vimlab/split-term.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'sunaku/vim-dasht'
 Plug 'tomasiser/vim-code-dark'
+Plug 'tmux-plugins/vim-tmux'
 
 call plug#end()
 
@@ -108,6 +109,17 @@ nnoremap <buffer> <C-Left>  <C-w>h
 nnoremap <buffer> <C-Down>  <C-w>j
 nnoremap <buffer> <C-Up>    <C-w>k
 nnoremap <buffer> <C-Right> <C-w>l
+
+" Splits Move Around
+"nnoremap <C-J> <C-W><C-J>
+"nnoremap <C-K> <C-W><C-K>
+"nnoremap <C-L> <C-W><C-L>
+"nnoremap <C-H> <C-W><C-H>
+"
+"" Splits Opening
+"nnoremap splitbelow
+"nnoremap splitright
+"
 
 
 " Ctrl+Arrows to navigate through windows in normal mode

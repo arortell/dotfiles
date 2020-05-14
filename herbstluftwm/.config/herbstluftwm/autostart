@@ -149,12 +149,17 @@ hc keybind $Mod+t spawn tor-browser-en
 hc keybind $Mod+e spawn emacsclient -c $*
 hc keybind Control+Alt+l spawn slock
 
+# Audio Keys
+hc keybind XF86AudioRaiseVolume spawn amixer set Master 2%+
+hc keybind XF86AudioLowerVolume spawn amixer set Master 2%-
+hc keybind XF86AudioMute spawn amixer set Master toggle
+
 # Scripts
 hc keybind $Mod+Shift+m spawn "$BIN"/maximize.sh # similar monocle in bspwm
 
 # ScratchPads
 hc keybind F1 spawn "$BIN"/q3terminal.sh
-#hc keybind F2 spawn "$BIN"/vifm.sh
+hc keybind F12 spawn "$BIN"/vifm.sh
 
 # theme
 hc attr theme.tiling.reset 1

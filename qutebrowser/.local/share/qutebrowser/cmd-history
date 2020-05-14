@@ -1,8 +1,3 @@
-:close
-:open qutebrowser code select userscript
-:open qutebrowser userscripts
-:open rofi default ssh-client
-:open rofi ssh config
 :open -t taskwarrior
 :open taskwarrior gentoo arch
 :spawn --userscript taskadd
@@ -61,3 +56,45 @@
 :open herbstluftwm panel
 :open herbstluftwm gentoo ebuild
 :open github gentoo repo
+:open arortell github
+:open herbsluftwm dotfiles
+:open -t stained right here waiting
+/panel
+/./panel -d
+:close
+:open what does ^ mean in from of a bash string
+:open creach auto salvage
+:open creech troy mo
+:open windsheild replace troy mo
+:open man read bash
+:open passing bash args to awk
+:open -t what is a .dat file
+:open awk varables
+:open facebook buy sell
+:open faceboook buy sell
+:open advertise locally on facebook
+:open arch linux urllib ssl cert failed
+:open arch linux not keeping time
+:open tmux vim mode termite
+:open tmux vim mode copy paste
+:open byobu tmux 
+:open customize byoby vi moe
+:open tmiux arch linux
+:open sed add tex to a line in a file
+:open using sed to append text to line in a file
+/is_vim
+/# Sma
+/# List
+/set -g
+:open what is prefix in tmux
+:open tmux tutorial
+:open tmux ram cpu
+/set -g status-ri
+:open -t tmux open new windows
+:open scroll and opy in tmux
+:open tumx tutorial
+/set -g
+:open tmux use alt-left and alt-right to switch windows 
+:open remap capslock to control arch linux
+:open -t vim-tmux-naviagtor
+:open vim-tmux

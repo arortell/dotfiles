@@ -12,7 +12,7 @@
 #
 # If a tag name is supplied, this is used instead of the scratchpad
 
-tag="${1:-scratchpad}"
+tag="${1:-htop}"
 hc() { "${herbstclient_command[@]:-herbstclient}" "$@" ;}
 
 mrect=( $(hc monitor_rect "" ) )
@@ -23,13 +23,13 @@ height=${mrect[3]}
 rect=(
     $((width/2))
     $((height/2))
-    $((${mrect[0]}+(width/4)))
-    $((${mrect[1]}+(height/4)))
+    $((${mrect[0]}+(width/2)))
+    $((${mrect[1]}+(height/2)))
 )
 
 hc add "$tag"
 
-monitor=scratchpad
+monitor=htop
 
 exists=false
 if ! hc add_monitor $(printf "%dx%d%+d%+d" "${rect[@]}") \
