@@ -63,34 +63,39 @@ endif
 
 " Install Plugins
 call plug#begin()
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'zchee/deoplete-jedi'
-Plug 'zchee/deoplete-clang'
 Plug 'kassio/neoterm'
-Plug 'sbdchd/neoformat'
-Plug 'SirVer/ultisnips'
 Plug 'scrooloose/nerdtree'
-Plug 'scrooloose/nerdcommenter'
 Plug 'machakann/vim-highlightedyank'
-Plug 'honza/vim-snippets'
-Plug 'tpope/vim-surround'
-Plug 'jiangmiao/auto-pairs'
-Plug 'ctrlpvim/ctrlp.vim'
 Plug 'bling/vim-airline'
 Plug 'mhinz/vim-startify'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'aperezdc/vim-template'
-Plug 'spolu/dwm.vim'
 Plug 'vimlab/split-term.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'tomasiser/vim-code-dark'
+Plug 'neoclide/coc.nvim', {'branch' : 'release'}
+"Plug 'Shougo/deoplete.nvim', {'do' : ':UpdateRemotePlugins'}
+"Plug 'deoplete-plugins/deoplete-jedi'
+"Plug 'deoplete-plugins/deoplete-clang'
+Plug 'jaxbot/semantic-highlight.vim'
+Plug 'cloudhead/neovim-fuzzy'
+Plug 'mileszs/ack.vim'
+Plug 'ObserverOfTime/coloresque.vim'
+Plug 'tpope/vim-surround'
+Plug 'unblevable/quick-scope'
+Plug 'Vimjas/vim-python-pep8-indent'
+Plug 'kassio/neoterm'
+Plug 'sbdchd/neoformat'
+Plug 'tpope/vim-commentary'
+Plug 'jeetsukumaran/vim-pythonsense'
+Plug 'spolu/dwm.vim'
 Plug 'sunaku/vim-dasht'
 Plug 'tomasiser/vim-code-dark'
-Plug 'tmux-plugins/vim-tmux'
-
 call plug#end()
 
 " enable deoplete
 let g:deoplete#enable_at_startup = 1
+
 
 " close deoplete method preview window after complete is done
 autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
@@ -98,11 +103,28 @@ autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
 " toogle nerdtree with F2
 map <F2> :NERDTreeToggle<CR>
 
+" set coc completion to use tab instead of enter
+"inoremap <silent><expr> <TAB> coc#pum#visible() ? coc#pum#confirm() : "\<C-g>u\<TAB>"
+function! CheckBackspace() abort
+    let col = col('.') - 1
+    return !col || getline('.')[col - 1] =~# '\s'
+endfunction
+
+
+inoremap <silent><expr> <Tab>
+      \ coc#pum#visible() ? coc#pum#next(1) :
+      \ CheckBackspace() ? "\<Tab>" :
+      \ coc#refresh()
+
+inoremap <silent><expr> <c-space> coc#refresh()
+
+
+
 " Ctrl+Arrows to navigate through windows in insert mode
-tnoremap <buffer> <C-Left>  <C-\><C-n><C-w>h
-tnoremap <buffer> <C-Down>  <C-\><C-n><C-w>j
-tnoremap <buffer> <C-Up>    <C-\><C-n><C-w>k
-tnoremap <buffer> <C-Right> <C-\><C-n><C-w>l
+noremap <buffer> <C-Left>  <C-\><C-n><C-w>h
+noremap <buffer> <C-Down>  <C-\><C-n><C-w>j
+noremap <buffer> <C-Up>    <C-\><C-n><C-w>k
+noremap <buffer> <C-Right> <C-\><C-n><C-w>l
 
 " Ctrl+Arrows to navigate through windows in normal mode
 nnoremap <buffer> <C-Left>  <C-w>h
@@ -111,26 +133,23 @@ nnoremap <buffer> <C-Up>    <C-w>k
 nnoremap <buffer> <C-Right> <C-w>l
 
 " Splits Move Around
-"nnoremap <C-J> <C-W><C-J>
-"nnoremap <C-K> <C-W><C-K>
-"nnoremap <C-L> <C-W><C-L>
-"nnoremap <C-H> <C-W><C-H>
-"
-"" Splits Opening
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+" Splits Opening
 "nnoremap splitbelow
 "nnoremap splitright
-"
-
 
 " Ctrl+Arrows to navigate through windows in normal mode
-"map <buffer> <C-Left>  <C-w>h
-"map <buffer> <C-Down>  <C-w>j
-"map <buffer> <C-Up>    <C-w>k
-"map <buffer> <C-Right> <C-w>l
+map <buffer> <C-Left>  <C-w>h
+map <buffer> <C-Down>  <C-w>j
+map <buffer> <C-Up>    <C-w>k
+map <buffer> <C-Right> <C-w>l
 
 " Set Colors
 colorscheme codedark
-"colorscheme jellybeans
 
 " Clang code completion
 let g:deoplete#sources#clang#libclang_path = "/usr/lib/libclang.so"
@@ -145,7 +164,4 @@ let g:neoformat_basic_format_retab = 1
 
 " Enable trimmming of trailing whitespace
 let g:neoformat_basic_format_trim = 1
-
-
-
 

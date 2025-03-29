@@ -1,100 +1,47 @@
-:open -t taskwarrior
-:open taskwarrior gentoo arch
-:spawn --userscript taskadd
-:hint code useracript code_select.py
-:hint code userscript code_select.py
-:open -t qutebrowser select text from page
-:clear
-/[[
-/#
-:spawn --userscript taskadd pri:H
-:open -t https://duckduckgo.com/?q=qutebrowser+code+select+userscript&ia=web
-:open qutebrowser userscript
-/:bind
-:close
-:resta
-:adblock-update
-:open https://github.com/qutebrowser/qutebrowser/tree/master/misc/userscripts
-:home
-:q
-:open fzf  zsh 
-:open -t fz tirourial
-/Plug
-/yes
-/Plug
-/function cd
-/j()
-/#!/
-/man-find
-:open fasd zsh
-/fasd
-/eval
-:open enable preview window in fzf only in file find mode
-:open speedtest cli github
-:open oh-my-zsh
-/pygmentize
-:open zsh-autosuggestions
-:open zsh-completions
-/autolo
-:open zsh-reload
-:open zshmarks
-/systemad
-:open oh-mu-zsh common-aliasa
-/al
-:open Alexey Samoshkin github
-:open zsh dirhistory
-:open -t github zsh
-/eval
-:open https://github.com/ohmyzsh/ohmyzsh
-/github
-:open blackarch download
-:download-cancel
-:open -t emacs vim files syntax highlightig
-:open vimrc-mode emacs
-:open https://github.com/samoshkin
-:open linux brightness from terminal command
-:open herbstluftwm panel
-:open herbstluftwm gentoo ebuild
-:open github gentoo repo
+:adblock-update 
+:open barpyrus herbstluftwm
+:open enable trayer in barpyrus
+:config-write-py --defaults
+:open open yazi in a specified directory
+:open setting qutebrowser font to terminus
+:reload
+:open qutebrowser change editor to nvim
+:open qutebrowser editor command witth alacritty and nvim
+:reload
+:reloaed
+:reload
+:open qutebrowser terminuas font
+:set fonts.default_family
+:set fonts.default_family Terminus
+:config-write-py 
+:config-edit
+:config-write-py
+:config-write-py --force
+:config-write-py -defaults
+:config-write-py --defaults
+:config-write-py --defaults --force
+:open https://www.qutebrowser.org/quickstart.html
+:open -t google
+:open configure qutebrowser
+:open qutebrowser mpv
+:open -t code_select userscriupt qutebrowser
+:open the compil;er dotfiles
+:open -t vim search
+:reload
+:open how to add themes to qutebrowser
+:reload
+:open ldm automount
+:open pinentry rofi
+:open pinentry
+:open how to setup pinentry
+:open push pull with github now 
+:open github no longer accepts password
 :open arortell github
-:open herbsluftwm dotfiles
-:open -t stained right here waiting
-/panel
-/./panel -d
-:close
-:open what does ^ mean in from of a bash string
-:open creach auto salvage
-:open creech troy mo
-:open windsheild replace troy mo
-:open man read bash
-:open passing bash args to awk
-:open -t what is a .dat file
-:open awk varables
-:open facebook buy sell
-:open faceboook buy sell
-:open advertise locally on facebook
-:open arch linux urllib ssl cert failed
-:open arch linux not keeping time
-:open tmux vim mode termite
-:open tmux vim mode copy paste
-:open byobu tmux 
-:open customize byoby vi moe
-:open tmiux arch linux
-:open sed add tex to a line in a file
-:open using sed to append text to line in a file
-/is_vim
-/# Sma
-/# List
-/set -g
-:open what is prefix in tmux
-:open tmux tutorial
-:open tmux ram cpu
-/set -g status-ri
-:open -t tmux open new windows
-:open scroll and opy in tmux
-:open tumx tutorial
-/set -g
-:open tmux use alt-left and alt-right to switch windows 
-:open remap capslock to control arch linux
-:open -t vim-tmux-naviagtor
-:open vim-tmux
+:open arortell80 github
+:open how to push to git now without password
+:open https://github.com/settings/keys
+:open issh format of git repo
+:open pushing to git with ssh
+:open -t updating a git repo 
+:open updating remote git repo with local changes
+:open commit local changes github

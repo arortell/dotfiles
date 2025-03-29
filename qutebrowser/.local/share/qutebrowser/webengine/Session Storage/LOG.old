@@ -1,3 +1,6 @@
-2020/05/14-13:09:41.701 4ed Reusing MANIFEST Session Storage/MANIFEST-000001
-2020/05/14-13:09:41.702 4ed Recovering log #4
-2020/05/14-13:09:41.703 4ed Reusing old log Session Storage/000004.log 
+2025/03/29-14:46:52.808 33f22 Reusing MANIFEST /home/adam/.local/share/qutebrowser/webengine/Session Storage/MANIFEST-000001
+2025/03/29-14:46:52.809 33f22 Recovering log #3
+2025/03/29-14:46:52.809 33f22 Reusing old log /home/adam/.local/share/qutebrowser/webengine/Session Storage/000003.log 
+2025/03/29-14:46:59.067 33f22 Level-0 table #5: started
+2025/03/29-14:46:59.069 33f22 Level-0 table #5: 25424 bytes OK
+2025/03/29-14:46:59.071 33f22 Delete type=0 #3

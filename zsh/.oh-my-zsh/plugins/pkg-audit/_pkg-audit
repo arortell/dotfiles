@@ -1,3 +1,0 @@
-#compdef pkg-audit
-
-_arguments '*:arg: _default' --
