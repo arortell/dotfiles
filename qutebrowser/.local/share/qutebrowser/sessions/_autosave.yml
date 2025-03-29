@@ -1,8 +1,8 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAFAAAAFQAAA7wAAAQyAAAABwAAABcAAAO6AAAEMAAAAAAAAAAAB4AAAAAHAAAA
-    FwAAA7oAAAQw
+    AdnQywADAAAAAAAFAAAAFQAAB3oAAAQyAAAABwAAABcAAAd4AAAEMAAAAAAAAAAAB4AAAAAHAAAA
+    FwAAB3gAAAQw
   tabs:
   - history:
     - last_visited: '2025-03-29T14:47:23'
@@ -141,7 +141,8 @@ windows:
         X11'
       url: https://github.com/The-Compiler/herbstluftwm
       zoom: 1.0
-  - history:
+  - active: true
+    history:
     - last_visited: '2025-03-29T14:51:29'
       pinned: false
       title: 'GitHub - The-Compiler/barpyrus: A python wrapper for lemonbar'
@@ -206,14 +207,22 @@ windows:
       pinned: false
       title: SSH and GPG keys
       url: https://github.com/settings/keys
+    - last_visited: '2025-03-29T15:25:47'
+      pinned: false
+      title: Add new SSH key
+      url: https://github.com/settings/ssh/new
+    - last_visited: '2025-03-29T15:50:50'
+      pinned: false
+      title: GitHub Dashboard
+      url: https://github.com/dashboard
     - active: true
-      last_visited: '2025-03-29T15:25:47'
+      last_visited: '2025-03-29T15:50:53'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: Add new SSH key
-      url: https://github.com/settings/ssh/new
+        y: 380
+      title: 'arortell/dotfiles: My dotfiles'
+      url: https://github.com/arortell/dotfiles
       zoom: 1.0
   - history:
     - active: true
@@ -258,8 +267,7 @@ windows:
       title: 'GitHub - The-Compiler/configs: My config files'
       url: https://github.com/The-Compiler/configs
       zoom: 1.0
-  - active: true
-    history:
+  - history:
     - last_visited: '2025-03-29T15:35:09'
       pinned: false
       title: updating a git repo - Google Search
@@ -286,7 +294,7 @@ windows:
       pinned: false
       scroll-pos:
         x: 0
-        y: 1160
+        y: 1640
       title: Pushing commits to a remote repository - GitHub Docs
       url: https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository
       zoom: 1.0
