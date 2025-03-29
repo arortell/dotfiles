@@ -1,82 +1,37 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAAAAAAEAAABj8AAAODAAAAAgAAABIAAAY9AAADgQAAAAAAAAAABkAAAAACAAAA
-    EgAABj0AAAOB
+    AdnQywADAAAAAAPCAAAAFQAAB3oAAAQyAAADxAAAABcAAAd4AAAEMAAAAAAAAAAAB4AAAAPEAAAA
+    FwAAB3gAAAQw
   tabs:
+  - history:
+    - active: true
+      last_visited: '2025-03-29T14:46:53'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: dotfiles/qutebrowser/config.py at master · The-Compiler/dotfiles · GitHub
+      url: https://github.com/The-Compiler/dotfiles/blob/master/qutebrowser/config.py
+      zoom: 1.0
   - active: true
     history:
-    - pinned: false
-      title: 'Tactical tmux: The 10 Most Important Commands | Daniel Miessler'
-      url: https://danielmiessler.com/study/tmux/
-    - pinned: false
-      title: remap capslock to control arch linux at DuckDuckGo
-      url: https://duckduckgo.com/?q=remap+capslock+to+control+arch+linux&ia=web
     - active: true
-      original-url: https://duckduckgo.com/?q=remap+capslock+to+control+arch+linux&ia=web
+      last_visited: '2025-03-29T14:46:53'
       pinned: false
       scroll-pos:
         x: 0
-        y: 2120
-      title: '[SOLVED] Need Help Remapping Caps Lock to Control / Newbie Corner /
-        Arch Linux Forums'
-      url: https://bbs.archlinux.org/viewtopic.php?id=102041
-      zoom: 1.0
-  - history:
-    - pinned: false
-      title: 'GitHub - tmux-plugins/tmux-cpu: Plug and play cpu percentage and icon
-        indicator for Tmux.'
-      url: https://github.com/tmux-plugins/tmux-cpu
-    - pinned: false
-      title: tmux ram cpu at DuckDuckGo
-      url: https://duckduckgo.com/?q=tmux%20ram%20cpu
-    - active: true
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 2892
-      title: 'GitHub - thewtex/tmux-mem-cpu-load: CPU, RAM, and load monitor for use
-        with tmux'
-      url: https://github.com/thewtex/tmux-mem-cpu-load/
+        y: 160
+      title: how to add themes to qutebrowser - Google Search
+      url: https://www.google.com/search?q=how%20to%20add%20themes%20to%20qutebrowser
       zoom: 1.0
   - history:
     - active: true
+      last_visited: '2025-03-29T14:46:52'
       pinned: false
       scroll-pos:
         x: 0
-        y: 1040
-      title: 'GitHub - tmux-plugins/tmux-yank: Tmux plugin for copying to system clipboard.
-        Works on OSX, Linux and Cygwin.'
-      url: https://github.com/tmux-plugins/tmux-yank
-      zoom: 1.0
-  - history:
-    - active: true
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 3480
-      title: 'GitHub - tmux-plugins/tmux-copycat: A plugin that enhances tmux search'
-      url: https://github.com/tmux-plugins/tmux-copycat
-      zoom: 1.0
-  - history:
-    - active: true
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 880
-      title: 'GitHub - tmux-plugins/tmux-yank: Tmux plugin for copying to system clipboard.
-        Works on OSX, Linux and Cygwin.'
-      url: https://github.com/tmux-plugins/tmux-yank
-      zoom: 1.0
-  - history:
-    - pinned: false
-      title: tmux open new windows at DuckDuckGo
-      url: https://duckduckgo.com/?q=tmux+open+new+windows&ia=web
-    - active: true
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 1320
-      title: tmux shortcuts & cheatsheet · GitHub
-      url: https://gist.github.com/MohamedAlaa/2961058
+        y: 0
+      title: 'Vim: How do you efficiently search for text? - Super User'
+      url: https://superuser.com/questions/345215/vim-how-do-you-efficiently-search-for-text
       zoom: 1.0

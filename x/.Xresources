@@ -50,7 +50,7 @@
 
 rofi.modi:                           blocks,drun,window,ssh,combi
 rofi.sidebar-mode:                   true
-rofi.terminal:                       termite
+rofi.terminal:                       alacritty
 rofi.ssh-client:                     ssh
 rofi.run-shell-command:              {terminal} -e zsh -c "{cmd}"
 rofi.ssh-command:                    {terminal} -e "{ssh-client} {host}"
@@ -69,8 +69,8 @@ rofi.color-urgent: #00000000,   #CCDEDEDE,  #00000000,              #00000000,  
 rofi.levenshtein-sort: 	true
 rofi.matching: 	   	fuzzy
 rofi.separator-style:       none
-rofi.font:			        xos4 Terminus 12
-rofi.lines:			    30
+rofi.font:			        Source Code Pro 12
+rofi.lines:			        30
 rofi.width: 			    100
 rofi.padding:			    10
 rofi.fullscreen:		    true

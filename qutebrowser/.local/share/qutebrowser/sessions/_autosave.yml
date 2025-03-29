@@ -1,111 +1,292 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAAAAAAEAAABj8AAAODAAAAAgAAABIAAAY9AAADgQAAAAAAAAAABkAAAAACAAAA
-    EgAABj0AAAOB
+    AdnQywADAAAAAAAFAAAAFQAAA7wAAAQyAAAABwAAABcAAAO6AAAEMAAAAAAAAAAAB4AAAAAHAAAA
+    FwAAA7oAAAQw
   tabs:
   - history:
-    - pinned: false
-      title: 'Tactical tmux: The 10 Most Important Commands | Daniel Miessler'
-      url: https://danielmiessler.com/study/tmux/
-    - pinned: false
-      title: remap capslock to control arch linux at DuckDuckGo
-      url: https://duckduckgo.com/?q=remap+capslock+to+control+arch+linux&ia=web
+    - last_visited: '2025-03-29T14:47:23'
+      pinned: false
+      title: dotfiles/qutebrowser/config.py at master · The-Compiler/dotfiles · GitHub
+      url: https://github.com/The-Compiler/dotfiles/blob/master/qutebrowser/config.py
+    - last_visited: '2025-03-29T14:50:13'
+      pinned: false
+      title: 'GitHub - The-Compiler/dotfiles: New config file repo'
+      url: https://github.com/The-Compiler/dotfiles/tree/master
+    - last_visited: '2025-03-29T14:50:28'
+      pinned: false
+      title: dotfiles/dunstrc at master · The-Compiler/dotfiles · GitHub
+      url: https://github.com/The-Compiler/dotfiles/blob/master/dunstrc
+    - last_visited: '2025-03-29T14:50:44'
+      pinned: false
+      title: 'GitHub - The-Compiler/dotfiles: New config file repo'
+      url: https://github.com/The-Compiler/dotfiles/tree/master
+    - last_visited: '2025-03-29T14:50:49'
+      pinned: false
+      title: The-Compiler (Florian Bruhin) · GitHub
+      url: https://github.com/The-Compiler
+    - last_visited: '2025-03-29T14:51:04'
+      pinned: false
+      title: The-Compiler (The-Compiler) / Repositories · GitHub
+      url: https://github.com/The-Compiler?tab=repositories
+    - last_visited: '2025-03-29T14:51:58'
+      pinned: false
+      title: The-Compiler (The-Compiler) / Repositories · GitHub
+      url: https://github.com/The-Compiler?page=2&tab=repositories
+    - last_visited: '2025-03-29T14:52:27'
+      pinned: false
+      title: ldm automount - Google Search
+      url: https://www.google.com/search?q=ldm%20automount
+    - last_visited: '2025-03-29T14:52:37'
+      pinned: false
+      title: 'GitHub - LemonBoy/ldm: A lightweight device mounter, with libudev as
+        only dependency'
+      url: https://github.com/LemonBoy/ldm
+    - last_visited: '2025-03-29T14:56:29'
+      pinned: false
+      title: pinentry rofi - Google Search
+      url: https://www.google.com/search?q=pinentry%20rofi
+    - last_visited: '2025-03-29T14:56:35'
+      pinned: false
+      title: 'GitHub - plattfot/pinentry-rofi: Rofi frontend to pinentry'
+      url: https://github.com/plattfot/pinentry-rofi
+    - last_visited: '2025-03-29T14:58:57'
+      pinned: false
+      title: pinentry - Google Search
+      url: https://www.google.com/search?q=pinentry
+    - last_visited: '2025-03-29T14:59:09'
+      pinned: false
+      title: 'GitHub - gpg/pinentry: The standard pinentry collection. NOTE: Maintainers
+        are not tracking this mirror. Do not make pull requests here, nor comment
+        any commits, submit them usual way to bug tracker (https://www.gnupg.org/documentation/bts.html)
+        or to the mailing list (https://www.gnupg.org/documentation/mailing-lists.html).'
+      url: https://github.com/gpg/pinentry
+    - last_visited: '2025-03-29T14:59:34'
+      pinned: false
+      title: how to setup pinentry - Google Search
+      url: https://www.google.com/search?q=how%20to%20setup%20pinentry
+    - last_visited: '2025-03-29T15:01:48'
+      pinned: false
+      title: push pull with github now - Google Search
+      url: https://www.google.com/search?q=push%20pull%20with%20github%20now
+    - last_visited: '2025-03-29T15:02:13'
+      pinned: false
+      title: github no longer accepts password - Google Search
+      url: https://www.google.com/search?q=github%20no%20longer%20accepts%20password
+    - last_visited: '2025-03-29T15:04:06'
+      pinned: false
+      title: git - Message "Support for password authentication was removed." - Stack
+        Overflow
+      url: https://stackoverflow.com/questions/68775869/message-support-for-password-authentication-was-removed
+    - last_visited: '2025-03-29T15:22:33'
+      pinned: false
+      title: how to push to git now without password - Google Search
+      url: https://www.google.com/search?q=how%20to%20push%20to%20git%20now%20without%20password
+    - last_visited: '2025-03-29T15:30:53'
+      pinned: false
+      title: 'How do I push to GitHub from command line without using Github login
+        on the prompt? : r/git'
+      url: https://www.reddit.com/r/git/comments/kqcxgh/how_do_i_push_to_github_from_command_line_without/
+    - last_visited: '2025-03-29T15:31:50'
+      pinned: false
+      title: pushing to git with ssh - Google Search
+      url: https://www.google.com/search?q=pushing%20to%20git%20with%20ssh
     - active: true
-      original-url: https://duckduckgo.com/?q=remap+capslock+to+control+arch+linux&ia=web
+      last_visited: '2025-03-29T15:31:56'
       pinned: false
       scroll-pos:
         x: 0
-        y: 1039
-      title: CapsLock Remap Howto - Noah.org
-      url: http://www.noah.org/wiki/CapsLock_Remap_Howto
+        y: 400
+      title: Push to GitHub without a password using ssh-key - Stack Overflow
+      url: https://stackoverflow.com/questions/14762034/push-to-github-without-a-password-using-ssh-key
       zoom: 1.0
   - history:
+    - last_visited: '2025-03-29T15:26:08'
+      pinned: false
+      title: 'Vim: How do you efficiently search for text? - Super User'
+      url: https://superuser.com/questions/345215/vim-how-do-you-efficiently-search-for-text
+    - last_visited: '2025-03-29T15:26:31'
+      pinned: false
+      title: SSH and GPG keys
+      url: https://github.com/settings/keys
+    - last_visited: '2025-03-29T15:26:35'
+      pinned: false
+      title: Add new SSH key
+      url: https://github.com/settings/ssh/new
+    - last_visited: '2025-03-29T15:27:28'
+      pinned: false
+      title: SSH and GPG keys
+      url: https://github.com/settings/keys
+    - last_visited: '2025-03-29T15:34:05'
+      pinned: false
+      title: GitHub Dashboard
+      url: https://github.com/dashboard
     - active: true
+      last_visited: '2025-03-29T15:34:45'
       pinned: false
       scroll-pos:
         x: 0
-        y: 2360
-      title: xmodmap - ArchWiki
-      url: https://wiki.archlinux.org/index.php/Xmodmap
-      zoom: 1.0
-  - history:
-    - pinned: false
-      title: 'GitHub - tmux-plugins/tmux-cpu: Plug and play cpu percentage and icon
-        indicator for Tmux.'
-      url: https://github.com/tmux-plugins/tmux-cpu
-    - pinned: false
-      title: tmux ram cpu at DuckDuckGo
-      url: https://duckduckgo.com/?q=tmux%20ram%20cpu
-    - active: true
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 1412
-      title: 'GitHub - thewtex/tmux-mem-cpu-load: CPU, RAM, and load monitor for use
-        with tmux'
-      url: https://github.com/thewtex/tmux-mem-cpu-load/
+        y: 320
+      title: 'arortell/dotfiles: My dotfiles'
+      url: https://github.com/arortell/dotfiles
       zoom: 1.0
   - history:
     - active: true
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 1040
-      title: 'GitHub - tmux-plugins/tmux-yank: Tmux plugin for copying to system clipboard.
-        Works on OSX, Linux and Cygwin.'
-      url: https://github.com/tmux-plugins/tmux-yank
-      zoom: 1.0
-  - history:
-    - active: true
+      last_visited: '2025-03-29T14:51:13'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'GitHub - tmux-plugins/tmux-copycat: A plugin that enhances tmux search'
-      url: https://github.com/tmux-plugins/tmux-copycat
+      title: 'GitHub - The-Compiler/herbstluftwm: A manual tiling window manager for
+        X11'
+      url: https://github.com/The-Compiler/herbstluftwm
       zoom: 1.0
   - history:
-    - active: true
+    - last_visited: '2025-03-29T14:51:29'
       pinned: false
-      scroll-pos:
-        x: 0
-        y: 880
-      title: 'GitHub - tmux-plugins/tmux-yank: Tmux plugin for copying to system clipboard.
-        Works on OSX, Linux and Cygwin.'
-      url: https://github.com/tmux-plugins/tmux-yank
-      zoom: 1.0
-  - history:
-    - pinned: false
-      title: tmux open new windows at DuckDuckGo
-      url: https://duckduckgo.com/?q=tmux+open+new+windows&ia=web
+      title: 'GitHub - The-Compiler/barpyrus: A python wrapper for lemonbar'
+      url: https://github.com/The-Compiler/barpyrus
+    - last_visited: '2025-03-29T15:07:47'
+      pinned: false
+      title: arortell github - Google Search
+      url: https://www.google.com/search?q=arortell%20github
+    - last_visited: '2025-03-29T15:07:56'
+      pinned: false
+      title: arortell’s gists · GitHub
+      url: https://gist.github.com/arortell
+    - last_visited: '2025-03-29T15:08:05'
+      pinned: false
+      title: arortell (Adam ortell) · GitHub
+      url: https://github.com/arortell
+    - last_visited: '2025-03-29T15:08:15'
+      pinned: false
+      title: Sign in to GitHub · GitHub
+      url: https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Farortell
+    - last_visited: '2025-03-29T15:09:36'
+      pinned: false
+      title: arortell (Adam ortell)
+      url: https://github.com/arortell
+    - last_visited: '2025-03-29T15:09:59'
+      pinned: false
+      title: GitHub Dashboard
+      url: https://github.com/dashboard
+    - last_visited: '2025-03-29T15:10:22'
+      pinned: false
+      title: Your profile
+      url: https://github.com/settings/profile
+    - last_visited: '2025-03-29T15:24:06'
+      pinned: false
+      title: SSH and GPG keys
+      url: https://github.com/settings/keys
+    - last_visited: '2025-03-29T15:24:12'
+      pinned: false
+      title: SSH and GPG keys
+      url: https://github.com/settings/keys
+    - last_visited: '2025-03-29T15:24:16'
+      pinned: false
+      title: Add new SSH key
+      url: https://github.com/settings/ssh/new
+    - last_visited: '2025-03-29T15:24:57'
+      pinned: false
+      title: SSH and GPG keys
+      url: https://github.com/settings/keys
+    - last_visited: '2025-03-29T15:25:05'
+      pinned: false
+      title: Add new SSH key
+      url: https://github.com/settings/ssh/new
+    - last_visited: '2025-03-29T15:25:38'
+      pinned: false
+      title: SSH and GPG keys
+      url: https://github.com/settings/keys
+    - last_visited: '2025-03-29T15:25:40'
+      pinned: false
+      title: Account settings
+      url: https://github.com/settings/admin
+    - last_visited: '2025-03-29T15:25:42'
+      pinned: false
+      title: SSH and GPG keys
+      url: https://github.com/settings/keys
     - active: true
+      last_visited: '2025-03-29T15:25:47'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: tmux shortcuts & cheatsheet · GitHub
-      url: https://gist.github.com/MohamedAlaa/2961058
+      title: Add new SSH key
+      url: https://github.com/settings/ssh/new
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-03-29T14:51:36'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 262
+      title: 'GitHub - The-Compiler/chatGPT-shell-cli: Simple shell script to use
+        OpenAI''s ChatGPT and DALL-E from the terminal. No Python or JS required.'
+      url: https://github.com/The-Compiler/chatGPT-shell-cli
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-03-29T14:51:54'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1662
+      title: 'GitHub - The-Compiler/twmn: A notification system for tiling window
+        managers'
+      url: https://github.com/The-Compiler/twmn
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-03-29T14:52:06'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 302
+      title: 'GitHub - The-Compiler/pkgbuild: My Archlinux PKGBUILDs - archived as
+        the AUR supports git nowadays'
+      url: https://github.com/The-Compiler/pkgbuild
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-03-29T14:52:18'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 262
+      title: 'GitHub - The-Compiler/configs: My config files'
+      url: https://github.com/The-Compiler/configs
       zoom: 1.0
   - active: true
     history:
-    - pinned: false
-      title: vim-tmux-naviagtor at DuckDuckGo
-      url: https://duckduckgo.com/?q=vim-tmux-naviagtor&ia=software
-    - original-url: https://duckduckgo.com/?q=vim-tmux-naviagtor&ia=software
+    - last_visited: '2025-03-29T15:35:09'
       pinned: false
-      title: 'GitHub - christoomey/vim-tmux-navigator: Seamless navigation between
-        tmux panes and vim splits'
-      url: https://github.com/christoomey/vim-tmux-navigator
-    - pinned: false
-      title: vim-tmux at DuckDuckGo
-      url: https://duckduckgo.com/?q=vim-tmux&ia=software
+      title: updating a git repo - Google Search
+      url: https://www.google.com/search?q=updating%20a%20git%20repo
+    - last_visited: '2025-03-29T15:35:15'
+      pinned: false
+      title: git - Updating a local repository with changes from a GitHub repository
+        - Stack Overflow
+      url: https://stackoverflow.com/questions/1443210/updating-a-local-repository-with-changes-from-a-github-repository
+    - last_visited: '2025-03-29T15:36:06'
+      pinned: false
+      title: updating remote git repo with local changes - Google Search
+      url: https://www.google.com/search?q=updating%20remote%20git%20repo%20with%20local%20changes
+    - last_visited: '2025-03-29T15:36:56'
+      pinned: false
+      title: Managing remote repositories - GitHub Docs
+      url: https://docs.github.com/en/get-started/git-basics/managing-remote-repositories
+    - last_visited: '2025-03-29T15:40:54'
+      pinned: false
+      title: commit local changes github - Google Search
+      url: https://www.google.com/search?q=commit%20local%20changes%20github
     - active: true
-      original-url: https://duckduckgo.com/?q=vim-tmux&ia=software
+      last_visited: '2025-03-29T15:41:43'
       pinned: false
       scroll-pos:
         x: 0
-        y: 840
-      title: 'GitHub - tmux-plugins/vim-tmux: vim plugin for tmux.conf'
-      url: https://github.com/tmux-plugins/vim-tmux
+        y: 1160
+      title: Pushing commits to a remote repository - GitHub Docs
+      url: https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository
       zoom: 1.0

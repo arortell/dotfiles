@@ -15,7 +15,7 @@ configuration {
     window-format: "{t}";
     sidebar-mode: false;
     font: "Terminus (TTF) 12";
-    terminal: "termite";
+    terminal: "alacritty";
     run-shell-command: "{terminal} -e {cmd}";
     ssh-command: "{terminal} -e {ssh-client} {host}";
 }

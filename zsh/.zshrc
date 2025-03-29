@@ -5,10 +5,23 @@
 # =============== Config =
 
 # If you come from bash you might have to change your $PATH.
-# REMOVE PYENV
-export PATH="$HOME/bin:$PATH"
+
+# Adding bin to path
+export PATH="$HOME/.dotfiles/bin:$PATH"
+
+# Setting default browser
+export BROWSER=qutebrowser
+
+# Setting default editor
+export EDITOR=nvim
+
+# Read Man pages from neovim
+export MANPAGER='nvim +Man!'
 
 dotfiles="$HOME/.dotfiles"
+
+# enable fasd
+eval "$(fasd --init auto)"
 
 # disable multibyte
 unsetopt MULTIBYTE
@@ -16,14 +29,18 @@ unsetopt MULTIBYTE
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
+
 # enable googler elvis
-source ~/.config/Dropbox/source/googler_at
+#source ~/.config/Dropbox/source/googler_at
 
 # auto cd 'Just type dir name'
 setopt autocd
 cdpath+=(~)
 
 
+# Set name of the theme to load. Optionally, if you set this to "random"
+# it'll load a random theme each time that oh-my-zsh is loaded.
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 #SPACESHIP CONFIG
 SPACESHIP_PROMPT_ORDER=(
   time     #
@@ -108,7 +125,6 @@ SPACESHIP_PYENV_PREFIX="python:("
 SPACESHIP_PYENV_SUFFIX=") "
 SPACESHIP_PYENV_SYMBOL=""
 
-
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
@@ -132,10 +148,10 @@ HYPHEN_INSENSITIVE="true"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
- ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
- COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -154,7 +170,7 @@ HYPHEN_INSENSITIVE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(archlinux colorize colored-man-pages_mod copydir copyfile cp common-aliases dirhistory fzf fd github git-prompt history pip ripgrep rsync sudo systemd systemadmin taskwarrior tmux zsh-interactive-cd zsh-syntax-highlighting zsh-autosuggestions zsh-completions zsh_reload)
+plugins=(archlinux colorize colored-man-pages copyfile cp common-aliases dirhistory fzf github git-prompt history pip taskwarrior rsync sudo systemd systemadmin z zsh-interactive-cd zsh-autosuggestions zsh-syntax-highlighting zsh-history-substring-search herbstclient)
 source $ZSH/oh-my-zsh.sh
 
 autoload -Uz compinit compinit promptinit run-help
@@ -177,7 +193,7 @@ export MANPATH="/usr/local/man:/usr/share/man"
 export LANG=en_US.UTF-8
 
 # We will try this here now
-export SUDO_ASKPASS="$HOME/.config/Dropbox/bin/daskpass"
+#export SUDO_ASKPASS="$HOME/.config/Dropbox/bin/daskpass"
 
 # Bash compatibily
 function bashsource(){
@@ -197,7 +213,7 @@ function precmd {
 zmodload zsh/parameter
 
 # Compilation flags
-export ARCHFLAGS="-arch x86_64"
+export ARCHFLAGS="-arch x86_64 -march=raptorlake"
 
 #######################COLORS
 # Great example page https://misc.flogisoft.com/bash/tip_colors_and_formatting
@@ -262,29 +278,45 @@ setopt extendedglob
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 
-unalias fd
-alias l="ls -ChF"
+unalias cp 
+alias l="ls -CF --color=auto"
+alias ll="ls -ClF --color=auto"
+alias la="ls -CAF --color=auto"
+alias ls="ls -F --color=auto"
 alias c="clear"
-alias cp="acp -g $@"
+alias vi="nvim"
+alias mv='amv -g'
+alias cp="acp -g"
 alias dd='dd status=progress'
-alias rm='rm -iv $@'
-alias mv='amv -g $@'
-alias mkdir='mkdir -p $@'
 alias ncdu='ncdu --color dark'
 alias def="/usr/bin/sdcv"
 alias sa='sudoedit $1'
-alias cfg-term='$EDITOR ~/.config/termite/config'
+alias reload='source ~/.zshrc'
+
+# FIX THESE FOR DOTFILES
+alias cfg-term='$EDITOR ~/.config/alacritty/alacritty.toml'
 alias cfg-qute='$EDITOR ~/.config/qutebrowser/config.py'
 alias cfg-herb='$EDITOR ~/.config/herbstluftwm/autostart'
+alias cfg-zsh='$EDITOR ~/.zshrc'
+
+
 alias free='free -h'
 alias vdir='vdir --color=auto'
-alias clr='clear && ls'
+alias clr='clear'
 alias lock='sudo passwd -l $1'
 alias unlock='sudo passwd -u $1'
 alias spell='aspell -a $@'
 alias how='function hdi(){ howdoi $* -c -n 5; }; hdi'
 alias quit='systemctl poweroff'
 alias gc='git clone $@'
+alias cat='bat'
+
+# Wrapper for sdcv
+function def() {
+    sdcv -n --utf8-output --color "$@" 2>&1 | \
+    fold --width=$(tput cols) | \
+    less --quit-if-one-screen -Rx
+}
 
 # add some color to grep
 export GREP_COLORS='sl=49;39:cx=49;39:mt=49;31;1:fn=49;35:ln=49;32;1:bn=49;32;3;4:se=49;36';
@@ -318,17 +350,16 @@ setopt COMPLETE_ALIASES
 # entered completion colorize
 zstyle -e ':completion:*:default' list-colors 'reply=("${PREFIX:+=(#bi)($PREFIX:t)(?)*==34=34}:${(s.:.)LS_COLORS}")';
 
-#### THIS NEEDS TO BE UNCOMMENTED FOR SPACESHIOP TO WORK
-#source "/home/b14ckr41n/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
+# Unlock BitWarden
+export BW_SESSION=ER/HzwSgs5zAHvnK/a/GhW8ckdR7M7dLmW/VEoXI+EDhHzO9EiJ2wQGF466yd6VvAHMcrD1sM8ENkKsCyDk52Q==
+export BW_SESSION=ER/HzwSgs5zAHvnK/a/GhW8ckdR7M7dLmW/VEoXI+EDhHzO9EiJ2wQGF466yd6VvAHMcrD1sM8ENkKsCyDk52Q==
 
-# custom vars needed for fzf and to clean this mess up
-source "$dotfiles/vars/fzf.sh"
-source "$dotfiles/vars/variables.sh"
-
-# syntax highlight source ######################### MUST BE LAST LINE IN FILE ###################
-source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # enable fasd
 eval "$(fasd --init auto)"
 
+# syntax highlight source ######################### MUST BE LAST LINE IN FILE ###################
 source ~/.oh-my-zsh/plugins/zsh-interactive-cd/zsh-interactive-cd.plugin.zsh
+source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+

@@ -1,6 +1,27 @@
-2020/05/14-14:59:37.190 26c00 Reusing MANIFEST leveldb/MANIFEST-000001
-2020/05/14-14:59:37.191 26c00 Recovering log #30
-2020/05/14-14:59:37.191 26c00 Reusing old log leveldb/000030.log 
-2020/05/14-15:21:13.737 2dcd7 Level-0 table #35: started
-2020/05/14-15:21:13.753 2dcd7 Level-0 table #35: 64445 bytes OK
-2020/05/14-15:21:13.763 2dcd7 Delete type=0 #30
+2025/03/29-14:47:23.206 3409b Reusing MANIFEST /home/adam/.local/share/qutebrowser/webengine/Local Storage/leveldb/MANIFEST-000001
+2025/03/29-14:47:23.209 3409b Recovering log #10
+2025/03/29-14:47:23.209 3409b Reusing old log /home/adam/.local/share/qutebrowser/webengine/Local Storage/leveldb/000010.log 
+2025/03/29-15:07:52.458 34095 Level-0 table #14: started
+2025/03/29-15:07:52.461 34095 Level-0 table #14: 35123 bytes OK
+2025/03/29-15:07:52.462 34095 Delete type=0 #10
+2025/03/29-15:09:41.242 34095 Level-0 table #16: started
+2025/03/29-15:09:41.244 34095 Level-0 table #16: 19672 bytes OK
+2025/03/29-15:09:41.245 34095 Delete type=0 #13
+2025/03/29-15:24:54.892 34095 Level-0 table #18: started
+2025/03/29-15:24:54.893 34095 Level-0 table #18: 17318 bytes OK
+2025/03/29-15:24:54.895 34095 Delete type=0 #15
+2025/03/29-15:24:54.895 34095 Compacting 4@0 + 1@1 files
+2025/03/29-15:24:54.896 34095 Generated table #19@0: 53 keys, 23912 bytes
+2025/03/29-15:24:54.896 34095 Compacted 4@0 + 1@1 files => 23912 bytes
+2025/03/29-15:24:54.898 34095 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/03/29-15:24:54.898 34095 Delete type=2 #8
+2025/03/29-15:24:54.898 34095 Delete type=2 #11
+2025/03/29-15:24:54.898 34095 Delete type=2 #14
+2025/03/29-15:24:54.898 34095 Delete type=2 #16
+2025/03/29-15:24:54.898 34095 Delete type=2 #18
+2025/03/29-15:31:55.606 34095 Level-0 table #21: started
+2025/03/29-15:31:55.608 34095 Level-0 table #21: 53173 bytes OK
+2025/03/29-15:31:55.610 34095 Delete type=0 #17
+2025/03/29-15:41:00.168 34095 Level-0 table #23: started
+2025/03/29-15:41:00.170 34095 Level-0 table #23: 56414 bytes OK
+2025/03/29-15:41:00.172 34095 Delete type=0 #20

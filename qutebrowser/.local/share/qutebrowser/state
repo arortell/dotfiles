@@ -1,10 +1,14 @@
 [general]
-qt_version = 5.14.2
-version = 1.10.2
-serviceworker_workaround = 514
+qt_version = 6.8.3
+qtwe_version = 6.8.3
+chromium_version = 122
+version = 3.4.0
+session-warning-shown = 1
 quickstart-done = 1
 session = default
 
 [geometry]
-mainwindow = AdnQywADAAAAAAAAAAAAEAAABj8AAAODAAAAAgAAABIAAAY9AAADgQAAAAAAAAAABkAAAAACAAAAEgAABj0AAAOB
+mainwindow = AdnQywADAAAAAAPCAAAAFQAAB3oAAAQyAAADxAAAABcAAAd4AAAEMAAAAAAAAAAAB4AAAAPEAAAAFwAAB3gAAAQw
+
+[inspector]
 
