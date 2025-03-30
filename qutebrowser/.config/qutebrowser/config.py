@@ -517,7 +517,7 @@ c.colors.webpage.darkmode.contrast = 0.0
 ## `colors.webpage.darkmode.policy.images` to `never`.  - "With selective
 ## image inversion": qutebrowser default settings.
 ## Type: Bool
-c.colors.webpage.darkmode.enabled = False
+c.colors.webpage.darkmode.enabled = True
 
 ## Which images to apply dark mode to.
 ## Type: String
@@ -1211,7 +1211,7 @@ c.content.pdfjs = True
 ## `{line0}`: Same as `{line}`, but starting from index 0. * `{column0}`:
 ## Same as `{column}`, but starting from index 0.
 ## Type: ShellCommand
-# c.editor.command = ['gvim', '-f', '{file}', '-c', 'normal {line}G{column0}l']
+c.editor.command = ["alacritty", "-e", "nvim", "{file}", "-c", "normal {line}G{column0}l"]
 
 ## Encoding to use for the editor.
 ## Type: Encoding
@@ -1853,7 +1853,7 @@ c.fonts.default_family = 'Terminus'
 ##   - tr-TR: Turkish (Turkey)
 ##   - uk-UA: Ukrainian (Ukraine)
 ##   - vi-VN: Vietnamese (Viet Nam)
-# c.spellcheck.languages = []
+c.spellcheck.languages = ["en-US"]
 
 ## Padding (in pixels) for the statusbar.
 ## Type: Padding
@@ -2209,7 +2209,13 @@ config.bind('<Shift-Right>', 'forward')
 # Open videos in MPV
 config.bind(',M', 'hint links spawn mpv {hint-url}')
 config.bind(',m', 'hint spawn mpv {url}')
+config.bind('<Ctrl+/>', 'hint links spawn --detach mpv {hint-url}')
+
 #config.bind('a', 'set-cmd-text -s', 'spawn userscript taskadd')
+
+
+# config.bind('<Alt-E>', 'prompt-fileselect-external', mode='prompt')
+
 
 
 ################### THIS IS VERY COOL ######################
@@ -2223,6 +2229,18 @@ c.hints.selectors["code"] = [
     ":not(pre) > code",
     "pre"
 ]
+
+# Set VIFM as file picker.
+config.set("fileselect.handler", "external")
+config.set("fileselect.single_file.command", ['alacritty', '--class', 'yazi,yazi', '-e', 'yazi', '--choose-files', '{}'])
+config.set("fileselect.multiple_files.command", ['alacritty', '--class', 'yazi,yazi', '-e', 'yazi', '--choose-files', '{}'])
+config.set("fileselect.folder.command", ['alacritty', '--class', 'yazi,yazi', '-e', 'yazi', '--choose-dir', '{}'])
+
+# Use ctrl-f to select save location using external file picker.
+config.unbind("<Ctrl-f>", mode="prompt")
+config.bind('<Ctrl-f>', 'prompt-fileselect-external', mode='prompt')
+
+
 
 config.bind('<Shift-C>', 'hint code userscript code_select.py')
 

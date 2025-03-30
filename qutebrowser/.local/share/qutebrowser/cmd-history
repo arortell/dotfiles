@@ -45,3 +45,34 @@
 :open -t updating a git repo 
 :open updating remote git repo with local changes
 :open commit local changes github
+:open surfraw completions zsh
+:open best cli chatgpt linux
+:open -t chatblade linux
+:open get openai api key
+:open https://community.openai.com/t/how-do-i-get-my-api-key/29343
+:home
+:open icons for twmnd
+:open i3lock pretty images
+:set url.start_pages "https://google.com"
+:home
+:devtools
+:spell check qutebrowser
+:open spell check qutebrowser
+:dictcli.py
+:open qutebrowser and bitwarden
+:open -t autozone
+:open tmux keybindings
+:open coppy from qutebrowser to terminal
+:open qutebrowser yazxi as a file chooser
+/prompt-file
+:open codeselect qutebrowser
+:open plex linux client download
+:open qutebrowser not coping to clipboard
+:open paste text to alacritty
+:open arch failed to receive extra.db
+:open -t refector arch
+:open reflector newest fastest mirrors
+:open qutebrowser using nvim as editor with alacritty
+:open how to use editor in qutebroweser
+:config-edit
+:config-edit 

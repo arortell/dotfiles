@@ -132,14 +132,13 @@ hc keybind $Mod-m spawn rofi-man
 hc keybind $Mod-w spawn windows-rofi
 hc keybind $Mod-b spawn bwmenu --auto-lock -1
 hc keybind $Mod-h spawn "$BIN"/herbstcommander.sh
-hc keybind $Mod+Shift+c spawn =
+hc keybind $Mod+c spawn =
 
 ###############################################################
 # Apps
 hc keybind $Mod+Shift+Return spawn qutebrowser
-#hc keybind $Mod+t spawn tor-browser-en
 hc keybind $Mod+e spawn  alacritty -e nvim
-hc keybind $Mod+l spawn i3lock-fancy
+hc keybind $Mod+l spawn i3lock-fancy -t "Fuck You" -f 'Terminus-(TTF)'
 
 # Audio Keys
 hc keybind XF86AudioRaiseVolume spawn amixer set Master 2%+
@@ -151,7 +150,7 @@ hc keybind XF86AudioMute spawn amixer set Master toggle
 
 # ScratchPads
 hc keybind F1 spawn "$BIN"/q3terminal.sh
-hc keybind F12 spawn "$BIN"/vifm.sh
+hc keybind F12 spawn "$BIN"/yazi.sh
 
 # theme
 hc attr theme.tiling.reset 1
