@@ -6,32 +6,99 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2025-03-29T14:46:53'
+      last_visited: '2025-03-30T16:00:05'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: dotfiles/qutebrowser/config.py at master · The-Compiler/dotfiles · GitHub
-      url: https://github.com/The-Compiler/dotfiles/blob/master/qutebrowser/config.py
+      title: (1) New Messages!
+      url: https://www.pluralsight.com/resources/blog/cloud/tmux-cheat-sheet
+      zoom: 1.0
+  - history:
+    - last_visited: '2025-03-30T16:00:06'
+      pinned: false
+      title: qutebrowser using nvim as editor with alacritty - Google Search
+      url: https://www.google.com/search?q=qutebrowser%20using%20nvim%20as%20editor%20with%20alacritty
+    - last_visited: '2025-03-30T16:01:44'
+      pinned: false
+      title: '[qutebrowser] Opening editor with Alacritty'
+      url: https://listi.jpberlin.de/pipermail/qutebrowser/2021-November/000878.html
+    - active: true
+      last_visited: '2025-03-30T16:01:59'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: '[qutebrowser] Opening editor with Alacritty'
+      url: https://listi.jpberlin.de/pipermail/qutebrowser/2021-November/000875.html
       zoom: 1.0
   - active: true
     history:
     - active: true
-      last_visited: '2025-03-29T14:46:53'
+      last_visited: '2025-03-30T16:00:05'
       pinned: false
       scroll-pos:
         x: 0
-        y: 160
-      title: how to add themes to qutebrowser - Google Search
-      url: https://www.google.com/search?q=how%20to%20add%20themes%20to%20qutebrowser
+        y: 120
+      title: 'Setting my default editor to NeoVim - help please : r/qutebrowser'
+      url: https://www.reddit.com/r/qutebrowser/comments/ss7r68/setting_my_default_editor_to_neovim_help_please/
+      zoom: 1.0
+  - history:
+    - last_visited: '2025-03-30T16:00:05'
+      pinned: false
+      title: 'ctrl+e with tmux and nvim? : r/qutebrowser'
+      url: https://www.reddit.com/r/qutebrowser/comments/w4delu/ctrle_with_tmux_and_nvim/
+    - active: true
+      last_visited: '2025-03-30T16:01:18'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 240
+      title: prankousky (u/prankousky) - Reddit
+      url: https://www.reddit.com/user/prankousky/
+      zoom: 1.0
+  - history:
+    - last_visited: '2025-03-30T16:00:06'
+      pinned: false
+      title: how to use editor in qutebroweser - Google Search
+      url: https://www.google.com/search?q=how%20to%20use%20editor%20in%20qutebroweser
+    - active: true
+      last_visited: '2025-03-30T16:00:37'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 120
+      title: 'Use case of open editor : r/qutebrowser'
+      url: https://www.reddit.com/r/qutebrowser/comments/jdu8co/use_case_of_open_editor/
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2025-03-29T14:46:52'
+      last_visited: '2025-03-30T16:00:05'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'Vim: How do you efficiently search for text? - Super User'
-      url: https://superuser.com/questions/345215/vim-how-do-you-efficiently-search-for-text
+      title: Copy and paste in Alacritty, tmux, and Vim on Arch Linux | ejmastnak
+      url: https://ejmastnak.com/tutorials/arch/copy-paste/#:~:text=Alacritty%20*%20Copy%20text%20into%20CLIPBOARD%20with,not%20-C%20like%20most%20other%20X%20applications).&text=*%20Paste%20text%20stored%20in%20CLIPBOARD%20with%20--V%20(and%20not%20-V%20)
+      zoom: 1.0
+  - history:
+    - last_visited: '2025-03-30T16:00:05'
+      pinned: false
+      title: Media Server Downloads | Plex Media Server for Windows, Mac, Linux, FreeBSD
+        and More
+      url: https://www.plex.tv/media-server-downloads/?cat=computer&plat=linux
+    - last_visited: '2025-03-30T16:00:07'
+      pinned: false
+      title: Media Server Downloads | Plex Media Server for Windows, Mac, Linux, FreeBSD
+        and More
+      url: https://www.plex.tv/media-server-downloads/?cat=computer&plat=linux
+    - active: true
+      last_visited: '2025-03-30T16:00:07'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Media Server Downloads | Plex Media Server for Windows, Mac, Linux, FreeBSD
+        and More
+      url: https://www.plex.tv/media-server-downloads/?cat=computer&plat=linux
       zoom: 1.0
