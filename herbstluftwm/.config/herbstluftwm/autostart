@@ -36,6 +36,7 @@ hc keybind $Mod-Delete close
 hc keybind $Mod-Shift-Delete close_and_remove
 hc keybind $Mod-Return spawn "${TERMINAL:-termite}" # use your $TERMINAL with termite as fallback
 hc keybind $Mod-Alt-Return spawn alacritty -e tmux
+hc keybind $Mod-v spawn cyberghostvpn-gui
 hc keybind $Mod-y spawn alacritty -e yazi
 
 # focusing clients
@@ -165,7 +166,7 @@ hc set frame_bg_transparent 1
 hc set frame_transparent_width 0
 
 ##### might need to change back to 0
-hc set frame_gap 5
+hc set frame_gap 1
 
 hc attr theme.active.color '#8888FF'
 hc attr theme.normal.color '#000000'
@@ -180,7 +181,7 @@ hc attr theme.active.inner_color '#3E4A00'
 hc attr theme.active.outer_color '#3E4A00'
 hc attr theme.background_color '#141414'
 
-hc set window_gap 5
+hc set window_gap 1
 hc set frame_padding 0
 hc set smart_window_surroundings 0
 hc set smart_frame_surroundings 1
