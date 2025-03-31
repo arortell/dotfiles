@@ -2201,10 +2201,10 @@ c.url.searchengines = {'DEFAULT': 'https://google.com/search?q={}',
 ## Type: Bool
 # c.zoom.text_only = False
 
-config.bind('<Shift-Left>', 'back')
-config.bind('<Shift-Down>', 'tab-next')
-config.bind('<Shift-Up>', 'tab-prev')
-config.bind('<Shift-Right>', 'forward')
+config.bind('<Shift-Left>', 'tab-prev')
+config.bind('<Shift-Down>', 'back')
+config.bind('<Shift-Up>', 'forward')
+config.bind('<Shift-Right>', 'tab-next')
 
 # Open videos in MPV
 config.bind(',M', 'hint links spawn mpv {hint-url}')
