@@ -1,24 +1,3 @@
-:open barpyrus herbstluftwm
-:open enable trayer in barpyrus
-:config-write-py --defaults
-:open open yazi in a specified directory
-:open setting qutebrowser font to terminus
-:reload
-:open qutebrowser change editor to nvim
-:open qutebrowser editor command witth alacritty and nvim
-:reload
-:reloaed
-:reload
-:open qutebrowser terminuas font
-:set fonts.default_family
-:set fonts.default_family Terminus
-:config-write-py 
-:config-edit
-:config-write-py
-:config-write-py --force
-:config-write-py -defaults
-:config-write-py --defaults
-:config-write-py --defaults --force
 :open https://www.qutebrowser.org/quickstart.html
 :open -t google
 :open configure qutebrowser
@@ -98,3 +77,24 @@
 :open make a window float herbstluftwm
 :open dropbox arch linux 
 :open rclone tray icon
+:open copy text alacritty
+:open what is the tree style in herbstluftwm
+:open name tags herbstluftwm
+:open python no module named gi
+:open networkmanager arch linux
+:open -t networkmanager cyberghost vpn arch linux
+:open using scrot like widows snippet
+:open usinf scrot --select in a script with rofi
+:open netctl
+:open wpa supplicant arch linux
+:open avahi arch linux
+:open -t wikifeet.com
+:open editing resolv.conf for avahi
+:open -t what does avahi do
+:open avahi ssh server browser
+:open using avahi to find a oprinter
+:open tmux split horizontal
+:open setting nvim as editor for xdg-open
+:open bash if
+:open jgmenu
+:open gmrun

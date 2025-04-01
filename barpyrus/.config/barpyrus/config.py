@@ -232,7 +232,7 @@ if is_hidpi:
     lemonbar_options['font'] = 'Source Code Pro:size=8'
     lemonbar_options['symbol_font'] = \
         '-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1'
-    lemonbar_options['spacing_font'] = (0.5, 'Dejavu Sans:size=1')
+    lemonbar_options['spacing_font'] = (0.5, 'Terminus:size=1')
     lemonbar_options['symbol_vert_offset'] = 4
     tag_renderer = simple_tag_renderer
 else:
@@ -241,16 +241,22 @@ else:
     # tag_renderer.activecolor = 'red'
 
 def run_gdmflexi(button):
-    cmd = ['urxvt']
+    cmd = ['alacritty']
     cmd = ['gdmflexiserver']
     os.spawnvpe(os.P_NOWAIT, cmd[0], cmd, os.environ)
 
+def run_cyberghost(button):
+    cmd = ['cyberghostvpn-gui']
+    os.spawnvpe(os.P_NOWAIT, cmd[0], cmd, os.environ)
+
 gdmflexiserver = W.RawLabel('')
+cyberghost = W.RawLabel('')
+
 # if socket.gethostname() == 'hoth':
 #     gdmflexiserver = W.Button('[Nutzer Wechseln] ')
 #     gdmflexiserver.callback = run_gdmflexi
 
-
+# Make this cyberghost VPN GUI
 class Jgmenu(W.Widget):
     def __init__(self):
         super(Jgmenu,self).__init__()
@@ -273,6 +279,31 @@ class Jgmenu(W.Widget):
         menu = os.path.expanduser('~/.config/jgmenu/menu.py')
         cmd = [menu, '--target=jgmenu']
         os.spawnvpe(os.P_NOWAIT, cmd[0], cmd, os.environ)
+
+# Make this cyberghost VPN GUI
+class CyberGhost(W.Widget):
+    def __init__(self):
+        super(CyberGhost,self).__init__()
+        self.buttons = [ 1 ]
+
+    def render(self, painter):
+        painter.bg('#243423')
+        painter.fg('#efefef')
+        if is_hidpi:
+            painter.space(1)
+        painter.symbol(0xe142)  # ghost
+        painter.space(2)
+        painter.bg(None)
+        painter.space(2)
+        painter.fg('#878787')
+        painter.symbol(0xe1aa)  # separator
+        painter.space(2)
+
+    def on_click(self, button):
+        app = os.path.expanduser('/usr/bin/cyberghostvpn-gui')
+        cmd = [app, '--target=cyberghostvpn-gui']
+        os.spawnvpe(os.P_NOWAIT, cmd[0], cmd, os.environ)
+
 
 
 bar = lemonbar.Lemonbar(**lemonbar_options)
@@ -306,8 +337,8 @@ else:
         W.ListLayout([ W.RawLabel('%{c}'),
             hlwm.HLWMMonitorFocusLayout(hc, monitor,
                 # this widget is shown on the focused monitor:
-                # grey_frame(hlwm.HLWMWindowTitle(hc, maxlen = 70)),
-                conky_widget,
+                grey_frame(hlwm.HLWMWindowTitle(hc, maxlen = 70)),
+                #conky_widget,
                 # this widget is shown on all unfocused monitors:
                 conky_widget,
             )]),
@@ -316,20 +347,18 @@ else:
 
 bar.widget = W.ListLayout([
     W.RawLabel('%{l}'),
-    Jgmenu(),
+    CyberGhost(),
     hlwm.HLWMTags(hc, monitor, tag_renderer = tag_renderer),
     center_widget,
     W.RawLabel('%{r}'),
-    gdmflexiserver,
+   # gdmflexiserver,
     # # something like a tabbed widget with the tab labels '>' and '<'
-    # W.TabbedLayout([
-    #     ('0', W.RawLabel('')),
-    #     ('1', hlwm.HLWMLayoutSwitcher(hc, xkblayouts, command = setxkbmap.split(' '))),
-    #     ], tab_renderer = zip_renderer),
+     W.TabbedLayout([
+         ('0', W.RawLabel('')),
+         ('1', hlwm.HLWMLayoutSwitcher(hc, xkblayouts, command = setxkbmap.split(' '))),
+         ], tab_renderer = zip_renderer),
     conky.ConkyWidget(text=conky_text, config={'times_in_seconds': 'true'}),
-    W.DateTime('%H:%M'),
-    # W.DateTime('%H:%M', timezone='Europe/Berlin'),
-    # W.DateTime(' / %H:%M ', timezone='Europe/Tallinn'),
+    W.DateTime('%I:%M'),
 ] + maybe_systray)
 
 
