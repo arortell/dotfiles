@@ -5,8 +5,10 @@
 # |_||_\___|_| |_.__/__/\__|_|\_,_|_|  \__|\_/\_/|_|_|_|
 # ========================================= scripts/ ===
 
-# Scripts are here 
+# Some directories
 BIN="$HOME/.dotfiles/bin"
+VIDEOS="/diskb/onedrive/Videos"
+
 
 # Call herbstclient using hc 
 hc() {
@@ -30,6 +32,7 @@ hc keyunbind --all
 Mod=Mod4   # Use the super key as the main modifier
 TERMINAL=alacritty
 
+# <==================== Apps ====================
 hc keybind $Mod-Shift-Escape quit
 hc keybind $Mod-Escape reload
 hc keybind $Mod-Delete close
@@ -38,6 +41,26 @@ hc keybind $Mod-Return spawn "${TERMINAL:-termite}" # use your $TERMINAL with te
 hc keybind $Mod-Alt-Return spawn alacritty -e tmux
 hc keybind $Mod-v spawn cyberghostvpn-gui
 hc keybind $Mod-y spawn alacritty -e yazi
+hc keybind $Mod+Shift+Return spawn qutebrowser
+hc keybind $Mod+e spawn  alacritty -e nvim
+hc keybind $Mod+l spawn i3lock-fancy -t "Fuck You" -f 'Terminus-(TTF)'
+
+
+# <====================Menus ================== 
+hc keybind $Mod+space spawn adams_menu
+hc keybind $Mod-s spawn rofi-surfraw
+hc keybind $Mod-Shift-s spawn dmenu_qutebrowser
+hc keybind $Mod-m spawn rofi-man
+hc keybind $Mod-w spawn windows-rofi
+hc keybind $Mod-b spawn bwmenu --auto-lock -1
+hc keybind $Mod-h spawn "$BIN"/herbstcommander.sh
+hc keybind $Mod+c spawn =
+
+
+# Trying this out -> open rofi in these directories
+hc keybind $Mod+apostrophe spawn rofi-file-open $VIDEOS
+hc keybind $Mod+Shift+apostrophe spawn rofi-file-open $BIN
+
 
 # focusing clients
 hc keybind $Mod-Left  focus left
@@ -93,6 +116,8 @@ for i in "${tag_names[@]}"; do
     hc set_layout horizontal
 done
 
+
+
 # cycle through tags
 hc keybind $Mod-period use_index +1 --skip-visible
 hc keybind $Mod-comma  use_index -1 --skip-visible
@@ -124,22 +149,6 @@ hc keybind $Mod-Shift-Tab     cycle_all -1
 hc keybind $Mod+Shift-c cycle
 hc keybind $Mod-i jumpto urgent
 
-# Menus ##################### put back together
-hc keybind $Mod+space spawn run-rofi
-hc keybind $Mod+Shift+space spawn adams_menu
-hc keybind $Mod-s spawn rofi-surfraw
-hc keybind $Mod-Shift-s spawn dmenu_qutebrowser
-hc keybind $Mod-m spawn rofi-man
-hc keybind $Mod-w spawn windows-rofi
-hc keybind $Mod-b spawn bwmenu --auto-lock -1
-hc keybind $Mod-h spawn "$BIN"/herbstcommander.sh
-hc keybind $Mod+c spawn =
-
-###############################################################
-# Apps
-hc keybind $Mod+Shift+Return spawn qutebrowser
-hc keybind $Mod+e spawn  alacritty -e nvim
-hc keybind $Mod+l spawn i3lock-fancy -t "Fuck You" -f 'Terminus-(TTF)'
 
 # Audio Keys
 hc keybind XF86AudioRaiseVolume spawn amixer set Master 2%+
@@ -203,6 +212,10 @@ hc rule windowtype~'_NET_WM_WINDOW_TYPE_(NOTIFICATION|DOCK)' manage=off focus=of
 #hc rule windowtype~'_NET_WM_WINDOW_TYPE_(NOTIFICATION|DOCK|DESKTOP)' manage=off
 
 hc set tree_style '╾│ ├└╼─┐'
+#herbstclient set tree_style '╾│ ├╰╼─╮'
+#herbstclient set tree_style '*| +`>-.'
+#herbstclient set tree_style '*| +`-->'
+
 
 # unlock, just to be sure
 hc unlock

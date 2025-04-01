@@ -8,12 +8,15 @@
 
 # Adding bin to path
 export PATH="$HOME/.dotfiles/bin:$PATH"
+export BIN="$HOME/.dotfiles/bin"
 
 # Setting default browser
 export BROWSER=qutebrowser
 
 # Setting default editor
 export EDITOR=nvim
+export VISUAL=nvim
+
 
 # Read Man pages from neovim
 export MANPAGER='nvim +Man!'

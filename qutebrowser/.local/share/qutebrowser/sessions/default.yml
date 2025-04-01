@@ -1,111 +1,106 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAABAAAAEwAAA7gAAAQ2AAAAAwAAABUAAAO2AAAENAAAAAAAAAAAB4AAAAADAAAA
-    FQAAA7YAAAQ0
+    AdnQywADAAAAAAABAAAAFAAAB34AAAQ2AAAAAwAAABYAAAd8AAAENAAAAAAAAAAAB4AAAAADAAAA
+    FgAAB3wAAAQ0
   tabs:
   - history:
     - active: true
-      last_visited: '2025-03-30T16:13:14'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 440
-      title: (1) New Messages!
-      url: https://www.pluralsight.com/resources/blog/cloud/tmux-cheat-sheet
-      zoom: 1.0
-  - history:
-    - last_visited: '2025-03-30T16:14:45'
-      pinned: false
-      title: 'Need Help Using Ranger as File Chooser : r/qutebrowser'
-      url: https://www.reddit.com/r/qutebrowser/comments/r9igqe/need_help_using_ranger_as_file_chooser/
-    - active: true
-      last_visited: '2025-03-30T16:20:39'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 1000
-      title: filechoose qutebrowser - Google Search
-      url: https://www.google.com/search?q=filechoose%20qutebrowser
-      zoom: 1.0
-  - history:
-    - last_visited: '2025-03-30T16:20:47'
-      pinned: false
-      title: 'Change qutebrowser default file picker : r/qutebrowser'
-      url: https://www.reddit.com/r/qutebrowser/comments/i1ju0j/change_qutebrowser_default_file_picker/
-    - last_visited: '2025-03-30T16:21:51'
-      pinned: false
-      title: The-Compiler (u/The-Compiler) - Reddit
-      url: https://www.reddit.com/user/The-Compiler/
-    - active: true
-      last_visited: '2025-03-30T16:23:58'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 5800
-      title: filechooser qutebrowser - Google Search
-      url: https://www.google.com/search?q=filechooser%20qutebrowser
-      zoom: 1.0
-  - history:
-    - last_visited: '2025-03-30T16:24:10'
-      pinned: false
-      title: 'How to use fzf as file picker in browsers? : r/commandline'
-      url: https://www.reddit.com/r/commandline/comments/yck8la/how_to_use_fzf_as_file_picker_in_browsers/
-    - active: true
-      last_visited: '2025-03-30T16:25:07'
+      last_visited: '2025-04-01T10:45:31'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: set default filechooser yazi xdg - Google Search
-      url: https://www.google.com/search?q=set%20default%20filechooser%20yazi%20xdg
+      title: (1) New Messages!
+      url: https://www.pluralsight.com/resources/blog/cloud/tmux-cheat-sheet
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2025-03-30T16:25:20'
+      last_visited: '2025-04-01T10:45:32'
       pinned: false
       scroll-pos:
         x: 0
-        y: 960
+        y: 0
+      title: filechoose qutebrowser - Google Search
+      url: https://www.google.com/search?q=filechoose%20qutebrowser
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-04-01T10:45:31'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: NetworkManager - ArchWiki
+      url: https://wiki.archlinux.org/title/NetworkManager
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-04-01T10:45:31'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'systray error: failed to register: The name is not activatable - Google
+        Search'
+      url: https://www.google.com/search?q=+systray+error%3A+failed+to+register%3A+The+name+is+not+activatable&sca_esv=6cae8d09a1050544&sxsrf=AHTn8zo4lRit6twGQH3oeLdqiOiYkgtyiA%3A1743443089076&ei=kdTqZ-anBKSA5OMP68ScgAs&ved=0ahUKEwimtIrQ77SMAxUkAHkGHWsiB7AQ4dUDCBA&uact=5&oq=+systray+error%3A+failed+to+register%3A+The+name+is+not+activatable&gs_lp=Egxnd3Mtd2l6LXNlcnAiPyBzeXN0cmF5IGVycm9yOiBmYWlsZWQgdG8gcmVnaXN0ZXI6IFRoZSBuYW1lIGlzIG5vdCBhY3RpdmF0YWJsZTIEEAAYHkjfGVCGClibFHABeAGQAQCYAdkBoAHqC6oBBTAuNi4zuAEDyAEA-AEBmAICoALeAcICChAAGLADGNYEGEeYAwCIBgGQBgiSBwUxLjAuMaAHyAY&sclient=gws-wiz-serp
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-04-01T10:45:31'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
       title: 'How can I set yazi as default file/folder picker? · sxyazi/yazi · Discussion
         #281'
       url: https://github.com/sxyazi/yazi/discussions/281
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2025-03-30T16:26:55'
+      last_visited: '2025-04-01T10:45:31'
       pinned: false
       scroll-pos:
         x: 0
-        y: 40
+        y: 0
       title: xdg-desktop-portal-termfilechooser/contrib/yazi-wrapper.sh at 3ca52f7b0135eed375b05d5fed84d589f0620af5
         · boydaihungst/xdg-desktop-portal-termfilechooser
       url: https://github.com/boydaihungst/xdg-desktop-portal-termfilechooser/blob/3ca52f7b0135eed375b05d5fed84d589f0620af5/contrib/yazi-wrapper.sh
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2025-03-30T16:27:59'
+      last_visited: '2025-04-01T10:45:32'
       pinned: false
       scroll-pos:
         x: 0
-        y: 1120
+        y: 0
       title: boydaihungst/xdg-desktop-portal-termfilechooser at 3ca52f7b0135eed375b05d5fed84d589f0620af5
       url: https://github.com/boydaihungst/xdg-desktop-portal-termfilechooser/tree/3ca52f7b0135eed375b05d5fed84d589f0620af5
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2025-03-30T16:26:58'
+      last_visited: '2025-04-01T10:45:32'
       pinned: false
       scroll-pos:
         x: 0
-        y: 1656
-      title: xdg-desktop-portal-termfilechooser/README.md at 8259ceeacf92e009e0763832944027b6763bbdf2
-        · boydaihungst/xdg-desktop-portal-termfilechooser
-      url: https://github.com/boydaihungst/xdg-desktop-portal-termfilechooser/blob/8259ceeacf92e009e0763832944027b6763bbdf2/README.md
+        y: 0
+      title: 'picharly/cyberghostvpn-gui: Cyberghost VPN Linux GUI written in Go.'
+      url: https://github.com/picharly/cyberghostvpn-gui
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2025-03-30T16:25:57'
+      last_visited: '2025-04-01T10:45:32'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'pizzaMan5000/CyberGhostLinuxGUI: Simple java frontend for the Linux
+        command-line app for CyberGhost VPN.'
+      url: https://github.com/pizzaMan5000/CyberGhostLinuxGUI
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-04-01T10:45:31'
       pinned: false
       scroll-pos:
         x: 0
@@ -115,7 +110,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2025-03-30T16:25:23'
+      last_visited: '2025-04-01T10:45:32'
       pinned: false
       scroll-pos:
         x: 0
@@ -125,82 +120,35 @@ windows:
       url: https://github.com/sxyazi/yazi/discussions/281
       zoom: 1.0
   - history:
-    - last_visited: '2025-03-30T16:13:14'
+    - last_visited: '2025-04-01T10:45:32'
       pinned: false
-      title: Media Server Downloads | Plex Media Server for Windows, Mac, Linux, FreeBSD
-        and More
-      url: https://www.plex.tv/media-server-downloads/?cat=computer&plat=linux
-    - last_visited: '2025-03-30T16:13:15'
+      title: adding trayer to barpyrus - Google Search
+      url: https://www.google.com/search?q=adding%20trayer%20to%20barpyrus
+    - last_visited: '2025-04-01T10:46:06'
       pinned: false
-      title: Media Server Downloads | Plex Media Server for Windows, Mac, Linux, FreeBSD
-        and More
-      url: https://www.plex.tv/media-server-downloads/?cat=computer&plat=linux
-    - last_visited: '2025-03-30T16:13:15'
+      title: tmux split horizontal - Google Search
+      url: https://www.google.com/search?q=tmux%20split%20horizontal
+    - last_visited: '2025-04-01T11:54:10'
       pinned: false
-      title: Media Server Downloads | Plex Media Server for Windows, Mac, Linux, FreeBSD
-        and More
-      url: https://www.plex.tv/media-server-downloads/?cat=computer&plat=linux
-    - last_visited: '2025-03-30T16:38:38'
-      pinned: false
-      title: date time format for 12 hour format - Google Search
-      url: https://www.google.com/search?q=date%20time%20format%20for%2012%20hour%20format
-    - last_visited: '2025-03-30T16:42:27'
-      pinned: false
-      title: linux get date time format for 12 hour format - Google Search
-      url: https://www.google.com/search?q=linux+get+date+time+format+for+12+hour+format&sca_esv=fd65b2cb91237410&sxsrf=AHTn8zpzRPidCILSSwuQPxZiO3pkiXS0zw%3A1743370718088&ei=3rnpZ66GBbm1vr0Pp5XukQU&ved=0ahUKEwiu7fOC4rKMAxW5mq8BHaeKO1IQ4dUDCBA&uact=5&oq=linux+get+date+time+format+for+12+hour+format&gs_lp=Egxnd3Mtd2l6LXNlcnAiLWxpbnV4IGdldCBkYXRlIHRpbWUgZm9ybWF0IGZvciAxMiBob3VyIGZvcm1hdDIFEAAY7wUyBRAAGO8FMggQABiABBiiBDIFEAAY7wVI4R5QAFiuGnAAeAGQAQCYAaQBoAH-CqoBBDAuMTC4AQPIAQD4AQGYAgmgArYKwgIHECMYsAIYJ8ICChAhGKABGMMEGArCAgQQIRgKmAMAkgcDMC45oAfeKg&sclient=gws-wiz-serp
-    - last_visited: '2025-03-30T16:44:16'
-      pinned: false
-      title: where does barpyrus set the time and date format for lemonbar - Google
-        Search
-      url: https://www.google.com/search?q=where%20does%20barpyrus%20set%20the%20time%20and%20date%20format%20for%20lemonbar
-    - last_visited: '2025-03-30T16:44:43'
-      pinned: false
-      title: 't-wissmann/barpyrus: A python wrapper for lemonbar'
-      url: https://github.com/t-wissmann/barpyrus
-    - last_visited: '2025-03-30T17:45:59'
-      pinned: false
-      title: hopw to find my fans arch linux - Google Search
-      url: https://www.google.com/search?q=hopw%20to%20find%20my%20fans%20arch%20linux
+      title: gmrun - Google Search
+      url: https://www.google.com/search?q=gmrun
     - active: true
-      last_visited: '2025-03-30T18:08:30'
+      last_visited: '2025-04-01T11:54:19'
       pinned: false
       scroll-pos:
         x: 0
-        y: 120
-      title: adding trayer to barpyrus - Google Search
-      url: https://www.google.com/search?q=adding%20trayer%20to%20barpyrus
+        y: 1520
+      title: Gmrun - ArchWiki
+      url: https://wiki.archlinux.org/title/Gmrun
       zoom: 1.0
   - active: true
     history:
-    - last_visited: '2025-03-30T18:08:41'
-      pinned: false
-      title: 'Best bar for herbstluftwm : r/herbstluftwm'
-      url: https://www.reddit.com/r/herbstluftwm/comments/iyx9u6/best_bar_for_herbstluftwm/
     - active: true
-      last_visited: '2025-03-30T19:07:09'
+      last_visited: '2025-04-01T11:54:17'
       pinned: false
       scroll-pos:
         x: 0
-        y: 360
-      title: google.com
-      url: https://google.com/search?q=get%20window%20class
-      zoom: 1.0
-  - history:
-    - last_visited: '2025-03-30T18:09:57'
-      pinned: false
-      title: dotfiles/barpyrus.py at master · The-Compiler/dotfiles
-      url: https://github.com/The-Compiler/dotfiles/blob/master/barpyrus.py
-    - last_visited: '2025-03-30T18:19:07'
-      pinned: false
-      title: copy text from one tmux to another - Google Search
-      url: https://www.google.com/search?q=copy%20text%20from%20one%20tmux%20to%20another
-    - active: true
-      last_visited: '2025-03-30T18:19:27'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 480
-      title: Copy text from one tmux pane to another (using vim) - Unix & Linux Stack
-        Exchange
-      url: https://unix.stackexchange.com/questions/58763/copy-text-from-one-tmux-pane-to-another-using-vim
+        y: 1440
+      title: 'wdlkmpx/gmrun: A run utiliy featuring a slim design and bash style auto-completion.'
+      url: https://github.com/wdlkmpx/gmrun
       zoom: 1.0
