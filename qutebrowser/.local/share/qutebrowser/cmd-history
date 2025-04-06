@@ -1,25 +1,3 @@
-:open https://www.qutebrowser.org/quickstart.html
-:open -t google
-:open configure qutebrowser
-:open qutebrowser mpv
-:open -t code_select userscriupt qutebrowser
-:open the compil;er dotfiles
-:open -t vim search
-:reload
-:open how to add themes to qutebrowser
-:reload
-:open ldm automount
-:open pinentry rofi
-:open pinentry
-:open how to setup pinentry
-:open push pull with github now 
-:open github no longer accepts password
-:open arortell github
-:open arortell80 github
-:open how to push to git now without password
-:open https://github.com/settings/keys
-:open issh format of git repo
-:open pushing to git with ssh
 :open -t updating a git repo 
 :open updating remote git repo with local changes
 :open commit local changes github
@@ -98,3 +76,25 @@
 :open bash if
 :open jgmenu
 :open gmrun
+:open tmux plugins
+:open tm,ux vim keybindings
+:open tmux command prompt
+:open nvim yazi
+:open yazi vim vim-plug
+:open can you use lazy,nvim with vim-plug
+:bookmark-add
+:open -t copy from nvim to clipboard
+:open nvim automate rshada wshada 
+:open leader key nvim
+:open nvim default  leader key
+:open nvim copy to clipboard
+:open alienware mouse linux
+:open linux change mouse dpi
+:open ratbag
+:open ratbag mouse
+:open lian li aio linux
+:open -t oh my tmux
+:open tpm keeps deleting plugins
+:open tpm keeps deleting tmux plugins
+:open whete does tpm download pluginds totmux
+:open oh my tmux

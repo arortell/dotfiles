@@ -22,6 +22,7 @@ set backspace=indent,eol,start
 set autoindent
 set expandtab
 set smarttab
+set clipboard+=unnamedplus
 let &tabstop=s:settings.default_indent              "number of spaces per tab for display
 let &softtabstop=s:settings.default_indent          "number of spaces per tab in insert mode
 let &shiftwidth=s:settings.default_indent           "number of spaces when indenting
@@ -78,6 +79,7 @@ Plug 'neoclide/coc.nvim', {'branch' : 'release'}
 "Plug 'deoplete-plugins/deoplete-jedi'
 "Plug 'deoplete-plugins/deoplete-clang'
 Plug 'jaxbot/semantic-highlight.vim'
+Plug 'christoomey/vim-tmux-navigator'
 Plug 'cloudhead/neovim-fuzzy'
 Plug 'mileszs/ack.vim'
 Plug 'ObserverOfTime/coloresque.vim'
@@ -91,6 +93,7 @@ Plug 'jeetsukumaran/vim-pythonsense'
 Plug 'spolu/dwm.vim'
 Plug 'sunaku/vim-dasht'
 Plug 'tomasiser/vim-code-dark'
+Plug 'vim-utils/vim-husk'
 call plug#end()
 
 " enable deoplete
@@ -137,10 +140,6 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-
-" Splits Opening
-"nnoremap splitbelow
-"nnoremap splitright
 
 " Ctrl+Arrows to navigate through windows in normal mode
 map <buffer> <C-Left>  <C-w>h
