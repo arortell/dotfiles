@@ -1,3 +1,2 @@
-2025/04/01-10:45:30.589 c1b64 Reusing MANIFEST /home/adam/.local/share/qutebrowser/webengine/Service Worker/Database/MANIFEST-000001
-2025/04/01-10:45:30.589 c1b64 Recovering log #3
-2025/04/01-10:45:30.589 c1b64 Reusing old log /home/adam/.local/share/qutebrowser/webengine/Service Worker/Database/000003.log 
+2025/04/06-14:17:30.228 283580 Creating DB /home/adam/.local/share/qutebrowser/webengine/Service Worker/Database since it was missing.
+2025/04/06-14:17:30.231 283580 Reusing MANIFEST /home/adam/.local/share/qutebrowser/webengine/Service Worker/Database/MANIFEST-000001

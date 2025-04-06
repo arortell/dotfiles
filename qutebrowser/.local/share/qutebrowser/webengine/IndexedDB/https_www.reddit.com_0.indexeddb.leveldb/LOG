@@ -1,3 +1,12 @@
-2025/04/01-09:31:43.789 b0e54 Reusing MANIFEST /home/adam/.local/share/qutebrowser/webengine/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/04/01-09:31:43.789 b0e54 Recovering log #4
-2025/04/01-09:31:43.790 b0e54 Reusing old log /home/adam/.local/share/qutebrowser/webengine/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000004.log 
+2025/04/06-16:03:08.217 283580 Reusing MANIFEST /home/adam/.local/share/qutebrowser/webengine/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/06-16:03:08.217 283580 Recovering log #7
+2025/04/06-16:03:08.220 283580 Reusing old log /home/adam/.local/share/qutebrowser/webengine/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000007.log 
+2025/04/06-16:10:12.257 283581 Level-0 table #12: started
+2025/04/06-16:10:12.264 283581 Level-0 table #12: 1126321 bytes OK
+2025/04/06-16:10:12.265 283581 Delete type=0 #7
+2025/04/06-16:18:45.860 283580 Compacting 1@1 + 1@2 files
+2025/04/06-16:18:45.865 283580 Generated table #13@1: 115 keys, 7986 bytes
+2025/04/06-16:18:45.865 283580 Compacted 1@1 + 1@2 files => 7986 bytes
+2025/04/06-16:18:45.867 283580 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/06-16:18:45.867 283580 Delete type=2 #9
+2025/04/06-16:18:45.867 283580 Delete type=2 #12
