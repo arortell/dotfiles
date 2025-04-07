@@ -40,7 +40,7 @@ network_devices = os.listdir('/sys/class/net/')
 network_devices = [ n for n in network_devices if n != "lo"]
 
 def spawn_htop(button):
-    subprocess.call(['urxvt', '-e', 'htop'])
+    subprocess.call(['alacritty', '-e', 'htop'])
 
 cg = conky.ConkyGenerator(lemonbar.textpainter())
 with cg.clickable([1], spawn_htop):
@@ -157,12 +157,13 @@ def simple_tag_renderer(self, painter): # self is a HLWMTagInfo object
 
     painter.space(1 if is_hidpi else 3)
     name2icon = {
-        'irc': 0xe1ef,
-        'vim': 0xe1cf,
+        'main': 0x00e0b2,
+        'vim': 0x00e1ef,
         'web': 0xe19c,
         'mail': 0xe071,
         'scratchpad': 0xe022,
         'music': 0xe05c,
+        'yazi' : 0x00e1d9,
     }
     index_str = str(self.index + 1)
     if index_str != self.name:
@@ -228,22 +229,17 @@ lemonbar_options = {
 }
 
 if is_hidpi:
-    lemonbar_options['font'] = 'Bitstream Vera Sans Mono:size=8'
     lemonbar_options['font'] = 'Source Code Pro:size=8'
+    lemonbar_options['font'] = 'Terminus (TTF):size=8'
     lemonbar_options['symbol_font'] = \
         '-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1'
-    lemonbar_options['spacing_font'] = (0.5, 'Terminus:size=1')
+    lemonbar_options['spacing_font'] = (0.5, 'Source Code Pro:size=1')
     lemonbar_options['symbol_vert_offset'] = 4
     tag_renderer = simple_tag_renderer
 else:
     tag_renderer = simple_tag_renderer
     # tag_renderer = hlwm.underlined_tags
     # tag_renderer.activecolor = 'red'
-
-def run_gdmflexi(button):
-    cmd = ['alacritty']
-    cmd = ['gdmflexiserver']
-    os.spawnvpe(os.P_NOWAIT, cmd[0], cmd, os.environ)
 
 def run_cyberghost(button):
     cmd = ['cyberghostvpn-gui']
@@ -256,31 +252,6 @@ cyberghost = W.RawLabel('')
 #     gdmflexiserver = W.Button('[Nutzer Wechseln] ')
 #     gdmflexiserver.callback = run_gdmflexi
 
-# Make this cyberghost VPN GUI
-class Jgmenu(W.Widget):
-    def __init__(self):
-        super(Jgmenu,self).__init__()
-        self.buttons = [ 1 ]
-
-    def render(self, painter):
-        painter.bg('#243423')
-        painter.fg('#efefef')
-        if is_hidpi:
-            painter.space(1)
-        painter.symbol(0xe142)  # ghost
-        painter.space(2)
-        painter.bg(None)
-        painter.space(2)
-        painter.fg('#878787')
-        painter.symbol(0xe1aa)  # separator
-        painter.space(2)
-
-    def on_click(self, button):
-        menu = os.path.expanduser('~/.config/jgmenu/menu.py')
-        cmd = [menu, '--target=jgmenu']
-        os.spawnvpe(os.P_NOWAIT, cmd[0], cmd, os.environ)
-
-# Make this cyberghost VPN GUI
 class CyberGhost(W.Widget):
     def __init__(self):
         super(CyberGhost,self).__init__()
@@ -303,7 +274,6 @@ class CyberGhost(W.Widget):
         app = os.path.expanduser('/usr/bin/cyberghostvpn-gui')
         cmd = [app, '--target=cyberghostvpn-gui']
         os.spawnvpe(os.P_NOWAIT, cmd[0], cmd, os.environ)
-
 
 
 bar = lemonbar.Lemonbar(**lemonbar_options)
@@ -338,7 +308,6 @@ else:
             hlwm.HLWMMonitorFocusLayout(hc, monitor,
                 # this widget is shown on the focused monitor:
                 grey_frame(hlwm.HLWMWindowTitle(hc, maxlen = 70)),
-                #conky_widget,
                 # this widget is shown on all unfocused monitors:
                 conky_widget,
             )]),

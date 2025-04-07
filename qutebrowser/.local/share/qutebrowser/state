@@ -1,7 +1,7 @@
 [general]
-qt_version = 6.8.3
-qtwe_version = 6.8.3
-chromium_version = 122
+qt_version = 6.9.0
+qtwe_version = 6.9
+chromium_version = 130
 version = 3.4.0
 session-warning-shown = 1
 quickstart-done = 1

@@ -6,149 +6,83 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2025-04-01T10:45:31'
+      last_visited: '2025-04-07T15:04:06'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: (1) New Messages!
-      url: https://www.pluralsight.com/resources/blog/cloud/tmux-cheat-sheet
+      title: 'kassio/neoterm: Wrapper of some vim/neovim''s :terminal functions.'
+      url: https://github.com/kassio/neoterm
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2025-04-01T10:45:32'
+      last_visited: '2025-04-07T15:04:06'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: filechoose qutebrowser - Google Search
-      url: https://www.google.com/search?q=filechoose%20qutebrowser
+      title: neoterm/doc/neoterm.txt at master · kassio/neoterm
+      url: https://github.com/kassio/neoterm/blob/master/doc/neoterm.txt
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2025-04-01T10:45:31'
+      last_visited: '2025-04-07T15:04:06'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: NetworkManager - ArchWiki
-      url: https://wiki.archlinux.org/title/NetworkManager
+      title: 'tmux-plugins/tmux-cpu: Plug and play cpu percentage and icon indicator
+        for Tmux.'
+      url: https://github.com/tmux-plugins/tmux-cpu
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2025-04-01T10:45:31'
+      last_visited: '2025-04-07T15:04:05'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'systray error: failed to register: The name is not activatable - Google
-        Search'
-      url: https://www.google.com/search?q=+systray+error%3A+failed+to+register%3A+The+name+is+not+activatable&sca_esv=6cae8d09a1050544&sxsrf=AHTn8zo4lRit6twGQH3oeLdqiOiYkgtyiA%3A1743443089076&ei=kdTqZ-anBKSA5OMP68ScgAs&ved=0ahUKEwimtIrQ77SMAxUkAHkGHWsiB7AQ4dUDCBA&uact=5&oq=+systray+error%3A+failed+to+register%3A+The+name+is+not+activatable&gs_lp=Egxnd3Mtd2l6LXNlcnAiPyBzeXN0cmF5IGVycm9yOiBmYWlsZWQgdG8gcmVnaXN0ZXI6IFRoZSBuYW1lIGlzIG5vdCBhY3RpdmF0YWJsZTIEEAAYHkjfGVCGClibFHABeAGQAQCYAdkBoAHqC6oBBTAuNi4zuAEDyAEA-AEBmAICoALeAcICChAAGLADGNYEGEeYAwCIBgGQBgiSBwUxLjAuMaAHyAY&sclient=gws-wiz-serp
+      title: Tmux Cheat Sheet & Quick Reference | Session, window, pane and more
+      url: https://tmuxcheatsheet.com/
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2025-04-01T10:45:31'
+      last_visited: '2025-04-07T15:04:05'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'How can I set yazi as default file/folder picker? · sxyazi/yazi · Discussion
-        #281'
-      url: https://github.com/sxyazi/yazi/discussions/281
+      title: sys — System-specific parameters and functions — Python 3.13.2 documentation
+      url: https://docs.python.org/3/library/sys.html
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2025-04-01T10:45:31'
+      last_visited: '2025-04-07T15:04:06'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: xdg-desktop-portal-termfilechooser/contrib/yazi-wrapper.sh at 3ca52f7b0135eed375b05d5fed84d589f0620af5
-        · boydaihungst/xdg-desktop-portal-termfilechooser
-      url: https://github.com/boydaihungst/xdg-desktop-portal-termfilechooser/blob/3ca52f7b0135eed375b05d5fed84d589f0620af5/contrib/yazi-wrapper.sh
+      title: python linux os module - Google Search
+      url: https://www.google.com/search?q=python%20linux%20os%20module
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2025-04-01T10:45:32'
+      last_visited: '2025-04-07T15:04:06'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: boydaihungst/xdg-desktop-portal-termfilechooser at 3ca52f7b0135eed375b05d5fed84d589f0620af5
-      url: https://github.com/boydaihungst/xdg-desktop-portal-termfilechooser/tree/3ca52f7b0135eed375b05d5fed84d589f0620af5
-      zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2025-04-01T10:45:32'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'picharly/cyberghostvpn-gui: Cyberghost VPN Linux GUI written in Go.'
-      url: https://github.com/picharly/cyberghostvpn-gui
-      zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2025-04-01T10:45:32'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'pizzaMan5000/CyberGhostLinuxGUI: Simple java frontend for the Linux
-        command-line app for CyberGhost VPN.'
-      url: https://github.com/pizzaMan5000/CyberGhostLinuxGUI
-      zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2025-04-01T10:45:31'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: exquo
-      url: https://github.com/exquo
-      zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2025-04-01T10:45:32'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'How can I set yazi as default file/folder picker? · sxyazi/yazi · Discussion
-        #281'
-      url: https://github.com/sxyazi/yazi/discussions/281
-      zoom: 1.0
-  - history:
-    - last_visited: '2025-04-01T10:45:32'
-      pinned: false
-      title: adding trayer to barpyrus - Google Search
-      url: https://www.google.com/search?q=adding%20trayer%20to%20barpyrus
-    - last_visited: '2025-04-01T10:46:06'
-      pinned: false
-      title: tmux split horizontal - Google Search
-      url: https://www.google.com/search?q=tmux%20split%20horizontal
-    - last_visited: '2025-04-01T11:54:10'
-      pinned: false
-      title: gmrun - Google Search
-      url: https://www.google.com/search?q=gmrun
-    - active: true
-      last_visited: '2025-04-01T11:54:19'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 1520
-      title: Gmrun - ArchWiki
-      url: https://wiki.archlinux.org/title/Gmrun
+      title: getting temps from lm senosr for conky - Google Search
+      url: https://www.google.com/search?q=getting+temps+from+lm+senosr+for+conky&sca_esv=4f7b8728d565568a&sxsrf=AHTn8zqN6XaScgSunFZsJzsZBt5cR8xQWw%3A1744051162937&ei=2hv0Z-rxOLubptQP9suckQQ&ved=0ahUKEwjqxqXwyMaMAxW7jYkEHfYlJ0IQ4dUDCBI&uact=5&oq=getting+temps+from+lm+senosr+for+conky&gs_lp=Egxnd3Mtd2l6LXNlcnAiJmdldHRpbmcgdGVtcHMgZnJvbSBsbSBzZW5vc3IgZm9yIGNvbmt5MgUQABjvBTIIEAAYgAQYogQyCBAAGIAEGKIEMgUQABjvBTIIEAAYogQYiQVIvxVQsBJYsBJwAXgBkAEAmAGhAaABoQGqAQMwLjG4AQPIAQD4AQGYAgKgAqcBwgIKEAAYsAMY1gQYR5gDAOIDBRIBMSBAiAYBkAYIkgcDMS4xoAfGBLIHAzAuMbgHowE&sclient=gws-wiz-serp
       zoom: 1.0
   - active: true
     history:
     - active: true
-      last_visited: '2025-04-01T11:54:17'
+      last_visited: '2025-04-07T15:04:07'
       pinned: false
       scroll-pos:
         x: 0
-        y: 1440
-      title: 'wdlkmpx/gmrun: A run utiliy featuring a slim design and bash style auto-completion.'
-      url: https://github.com/wdlkmpx/gmrun
+        y: 0
+      title: get correct font names arch - Google Search
+      url: https://www.google.com/search?q=get%20correct%20font%20names%20%20arch
       zoom: 1.0

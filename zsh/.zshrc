@@ -1,3 +1,10 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 # _______| |__  _ __ ___
 # |_  / __| '_ \| '__/ __|
 #  / /\__ \ | | | | | (__ 
@@ -132,7 +139,8 @@ SPACESHIP_PYENV_SYMBOL=""
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 # ZSH_THEME="robbyrussell"
-ZSH_THEME="spaceship"
+#ZSH_THEME="spaceship"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -173,7 +181,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(archlinux colorize colored-man-pages copyfile cp common-aliases dirhistory fzf github git-prompt history pip taskwarrior rsync sudo systemd systemadmin z zsh-interactive-cd zsh-autosuggestions zsh-syntax-highlighting zsh-history-substring-search herbstclient)
+plugins=(archlinux colorize colored-man-pages copyfile cp common-aliases dirhistory fzf github git-prompt history pip taskwarrior tmux rsync sudo systemd systemadmin z zsh-interactive-cd zsh-autosuggestions zsh-syntax-highlighting zsh-history-substring-search herbstclient)
 source $ZSH/oh-my-zsh.sh
 
 autoload -Uz compinit compinit promptinit run-help
@@ -357,6 +365,9 @@ zstyle -e ':completion:*:default' list-colors 'reply=("${PREFIX:+=(#bi)($PREFIX:
 export BW_SESSION=ER/HzwSgs5zAHvnK/a/GhW8ckdR7M7dLmW/VEoXI+EDhHzO9EiJ2wQGF466yd6VvAHMcrD1sM8ENkKsCyDk52Q==
 export BW_SESSION=ER/HzwSgs5zAHvnK/a/GhW8ckdR7M7dLmW/VEoXI+EDhHzO9EiJ2wQGF466yd6VvAHMcrD1sM8ENkKsCyDk52Q==
 
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # enable fasd
@@ -365,4 +376,3 @@ eval "$(fasd --init auto)"
 # syntax highlight source ######################### MUST BE LAST LINE IN FILE ###################
 source ~/.oh-my-zsh/plugins/zsh-interactive-cd/zsh-interactive-cd.plugin.zsh
 source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
