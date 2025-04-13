@@ -1,46 +1,3 @@
-:dictcli.py
-:open qutebrowser and bitwarden
-:open -t autozone
-:open tmux keybindings
-:open coppy from qutebrowser to terminal
-:open qutebrowser yazxi as a file chooser
-/prompt-file
-:open codeselect qutebrowser
-:open plex linux client download
-:open qutebrowser not coping to clipboard
-:open paste text to alacritty
-:open arch failed to receive extra.db
-:open -t refector arch
-:open reflector newest fastest mirrors
-:open qutebrowser using nvim as editor with alacritty
-:open how to use editor in qutebroweser
-:config-edit
-:config-edit 
-:open filechooser qutebrowser yazi
-:open open yazi in a specific directoy
-:open filechoose qutebrowser
-:open filechooser qutebrowser
-:open set default filechooser yazi xdg
-:open -t gstreamer
-:open barpyrus changing clock formaT
-:open date time format for 12 hour format
-:open where does barpyrus set the time and date format for lemonbar
-:open hopw to find my fans arch linux 
-:open conky fans
-:open -t dunst arch 
-:open pacman clean remove orpohaneds
-:open adding trayer to barpyrus
-:open copy text from one tmux to another
-:open get window class
-:open sudo password not working arch
-:open cyberghost vpn gui linux 
-:open -t trayer systray error
-:open trayer linux
-:open make a window float herbstluftwm
-:open dropbox arch linux 
-:open rclone tray icon
-:open copy text alacritty
-:open what is the tree style in herbstluftwm
 :open name tags herbstluftwm
 :open python no module named gi
 :open networkmanager arch linux
@@ -98,3 +55,47 @@
 :open creating arrays in bash
 :open siji fonts
 :open get correct font names  arch
+:open arcvh linux wallpapers
+:open blackarch linux wallpapers
+:open rtorrebt ps
+:open adding an alias to a zsh completion plugin
+:open pythoin os module
+:open -t bash programming tut
+:open bash progamming
+:open how tmux works
+:open differnce between sessions and windows and panes tmux
+:open open all tmux terminals in the same session
+:open when you open tmux does it automoatcily use the samer sesion
+:open starting tmux from zshrc
+:open ascii from text linux terminal
+:open -t bash and condition
+:open bash if and not condition
+:open select text nvim to copy
+:home
+:open tmux open new window
+:open tmux cheatsheet
+:open tmux close all windows except one in
+:open googler surfraw elvi
+:open dropbox
+:open rclone setup dropbox
+:open http://127.0.0.1:53682/auth?state=nSi-taX9K_NvEMjjKt_h9w
+
+:open http://127.0.0.1:53682/auth?state=nSi-taX9K_NvEMjjKt_h9w
+:open rclone copy
+:open rclone bisync
+:open bisync rclone arch linux
+:open copy paste in yazi
+:open how to use libraries in bash
+:open -t nucurses with bash tutorial
+:open -t setting up rtorrent-ps
+:open -t exit ouit of rtorrent
+:open setting rtorrent-ps arch linux
+:open pyrocore install arch linux
+:open rtorrenbt-ps-ch
+:open installing pyrocore arch linux
+:open pycore install rtorrent
+:clear-messages
+:download-clear
+:open create new window tmux
+:open open tmux with a new window if its alreadey rujnning
+:open tmux bind keys to move between windows

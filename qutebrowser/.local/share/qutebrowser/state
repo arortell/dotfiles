@@ -5,6 +5,7 @@ chromium_version = 130
 version = 3.4.0
 session-warning-shown = 1
 quickstart-done = 1
+contact-info = 
 session = default
 
 [geometry]

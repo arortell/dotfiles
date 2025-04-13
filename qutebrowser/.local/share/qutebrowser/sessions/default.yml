@@ -5,84 +5,175 @@ windows:
     FgAAB3wAAAQ0
   tabs:
   - history:
+    - last_visited: '2025-04-08T08:49:53'
+      pinned: false
+      title: tmux shortcuts & cheatsheet
+      url: https://gist.github.com/MohamedAlaa/2961058
+    - last_visited: '2025-04-08T09:23:11'
+      pinned: false
+      title: bisync rclone arch linux - Google Search
+      url: https://www.google.com/search?q=bisync%20rclone%20arch%20linux
+    - last_visited: '2025-04-08T09:35:17'
+      pinned: false
+      title: Gunther-Schulz/rclone-bisync-manager
+      url: https://github.com/Gunther-Schulz/rclone-bisync-manager
+    - last_visited: '2025-04-08T09:39:09'
+      pinned: false
+      title: rclone-bisync-manager/examples at main · Gunther-Schulz/rclone-bisync-manager
+      url: https://github.com/Gunther-Schulz/rclone-bisync-manager/tree/main/examples
+    - last_visited: '2025-04-08T09:39:14'
+      pinned: false
+      title: rclone-bisync-manager/examples/config.yaml.example at main · Gunther-Schulz/rclone-bisync-manager
+      url: https://github.com/Gunther-Schulz/rclone-bisync-manager/blob/main/examples/config.yaml.example
+    - last_visited: '2025-04-08T09:39:20'
+      pinned: false
+      title: rclone-bisync-manager/examples at main · Gunther-Schulz/rclone-bisync-manager
+      url: https://github.com/Gunther-Schulz/rclone-bisync-manager/tree/main/examples
+    - last_visited: '2025-04-08T09:39:22'
+      pinned: false
+      title: rclone-bisync-manager/ at main · Gunther-Schulz/rclone-bisync-manager
+      url: https://github.com/Gunther-Schulz/rclone-bisync-manager/tree/main
+    - last_visited: '2025-04-08T09:39:25'
+      pinned: false
+      title: rclone-bisync-manager/desktop at main · Gunther-Schulz/rclone-bisync-manager
+      url: https://github.com/Gunther-Schulz/rclone-bisync-manager/tree/main/desktop
+    - last_visited: '2025-04-08T09:39:27'
+      pinned: false
+      title: rclone-bisync-manager/desktop/rclone-bisync-manager.svg at main · Gunther-Schulz/rclone-bisync-manager
+      url: https://github.com/Gunther-Schulz/rclone-bisync-manager/blob/main/desktop/rclone-bisync-manager.svg
+    - last_visited: '2025-04-08T09:39:32'
+      pinned: false
+      title: Gunther-Schulz/rclone-bisync-manager
+      url: https://github.com/Gunther-Schulz/rclone-bisync-manager/tree/main
+    - last_visited: '2025-04-08T09:47:32'
+      pinned: false
+      title: copy paste in yazi - Google Search
+      url: https://www.google.com/search?q=copy%20paste%20in%20yazi
+    - last_visited: '2025-04-08T09:49:58'
+      pinned: false
+      title: how to use libraries in bash - Google Search
+      url: https://www.google.com/search?q=how%20to%20use%20libraries%20in%20bash
+    - last_visited: '2025-04-08T11:43:39'
+      pinned: false
+      title: create new window tmux - Google Search
+      url: https://www.google.com/search?q=create%20new%20window%20tmux
+    - last_visited: '2025-04-08T11:46:55'
+      pinned: false
+      title: shell - How to create a tmux session with two windows with specific name
+        and run specific scripts in each window? - Super User
+      url: https://superuser.com/questions/1601279/how-to-create-a-tmux-session-with-two-windows-with-specific-name-and-run-specifi
+    - last_visited: '2025-04-08T11:47:47'
+      pinned: false
+      title: open tmux with a new window if its alreadey rujnning - Google Search
+      url: https://www.google.com/search?q=open%20tmux%20with%20a%20new%20window%20if%20its%20alreadey%20rujnning
+    - last_visited: '2025-04-08T11:48:19'
+      pinned: false
+      title: 'Launching Tmux with a new window in Alacritty : r/swaywm'
+      url: https://www.reddit.com/r/swaywm/comments/ojxikq/launching_tmux_with_a_new_window_in_alacritty/
     - active: true
-      last_visited: '2025-04-07T15:04:06'
+      last_visited: '2025-04-08T12:17:45'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'kassio/neoterm: Wrapper of some vim/neovim''s :terminal functions.'
-      url: https://github.com/kassio/neoterm
+      title: tmux bind keys to move between windows - Google Search
+      url: https://www.google.com/search?q=tmux%20bind%20keys%20to%20move%20between%20windows
       zoom: 1.0
   - history:
-    - active: true
-      last_visited: '2025-04-07T15:04:06'
+    - last_visited: '2025-04-08T08:49:55'
       pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: neoterm/doc/neoterm.txt at master · kassio/neoterm
-      url: https://github.com/kassio/neoterm/blob/master/doc/neoterm.txt
-      zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2025-04-07T15:04:06'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'tmux-plugins/tmux-cpu: Plug and play cpu percentage and icon indicator
-        for Tmux.'
-      url: https://github.com/tmux-plugins/tmux-cpu
-      zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2025-04-07T15:04:05'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
       title: Tmux Cheat Sheet & Quick Reference | Session, window, pane and more
       url: https://tmuxcheatsheet.com/
-      zoom: 1.0
-  - history:
+    - last_visited: '2025-04-08T08:51:29'
+      pinned: false
+      title: tmux close all windows except one in - Google Search
+      url: https://www.google.com/search?q=tmux%20close%20all%20windows%20except%20one%20in
+    - last_visited: '2025-04-08T09:02:56'
+      pinned: false
+      title: googler surfraw elvi - Google Search
+      url: https://www.google.com/search?q=googler%20surfraw%20elvi
+    - last_visited: '2025-04-08T09:03:57'
+      pinned: false
+      title: dropbox - Google Search
+      url: https://www.google.com/search?q=dropbox
+    - last_visited: '2025-04-08T09:04:00'
+      pinned: false
+      title: Login or Sign Up - Dropbox
+      url: https://www.dropbox.com/login
+    - last_visited: '2025-04-08T09:04:15'
+      pinned: false
+      title: Files - Dropbox
+      url: https://www.dropbox.com/home
+    - last_visited: '2025-04-08T09:04:49'
+      pinned: false
+      title: bin - Dropbox
+      url: https://www.dropbox.com/home/bin
+    - last_visited: '2025-04-08T09:05:17'
+      pinned: false
+      title: Files - Dropbox
+      url: https://www.dropbox.com/home?_tk=web_left_nav_bar&di=left_nav
+    - last_visited: '2025-04-08T09:06:07'
+      pinned: false
+      title: rclone setup dropbox - Google Search
+      url: https://www.google.com/search?q=rclone%20setup%20dropbox
+    - last_visited: '2025-04-08T09:07:19'
+      pinned: false
+      title: Dropbox
+      url: https://rclone.org/dropbox/
+    - last_visited: '2025-04-08T09:12:02'
+      pinned: false
+      title: rclone copy - Google Search
+      url: https://www.google.com/search?q=rclone%20copy
+    - last_visited: '2025-04-08T09:12:05'
+      pinned: false
+      title: rclone copy
+      url: https://rclone.org/commands/rclone_copy/
+    - last_visited: '2025-04-08T09:21:32'
+      pinned: false
+      title: rclone bisync - Google Search
+      url: https://www.google.com/search?q=rclone%20bisync
     - active: true
-      last_visited: '2025-04-07T15:04:05'
+      last_visited: '2025-04-08T09:21:36'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: sys — System-specific parameters and functions — Python 3.13.2 documentation
-      url: https://docs.python.org/3/library/sys.html
+        y: 80
+      title: Bisync
+      url: https://rclone.org/bisync/
       zoom: 1.0
   - history:
+    - last_visited: '2025-04-08T09:55:58'
+      pinned: false
+      title: nucurses with bash tutorial - Google Search
+      url: https://www.google.com/search?q=nucurses%20with%20bash%20tutorial
     - active: true
-      last_visited: '2025-04-07T15:04:06'
+      last_visited: '2025-04-08T10:18:49'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: python linux os module - Google Search
-      url: https://www.google.com/search?q=python%20linux%20os%20module
+        y: 680
+      title: 'metal3d/bashsimplecurses: A simple curses library made in bash to draw
+        terminal interfaces'
+      url: https://github.com/metal3d/bashsimplecurses
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2025-04-07T15:04:06'
+      last_visited: '2025-04-08T10:21:12'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: getting temps from lm senosr for conky - Google Search
-      url: https://www.google.com/search?q=getting+temps+from+lm+senosr+for+conky&sca_esv=4f7b8728d565568a&sxsrf=AHTn8zqN6XaScgSunFZsJzsZBt5cR8xQWw%3A1744051162937&ei=2hv0Z-rxOLubptQP9suckQQ&ved=0ahUKEwjqxqXwyMaMAxW7jYkEHfYlJ0IQ4dUDCBI&uact=5&oq=getting+temps+from+lm+senosr+for+conky&gs_lp=Egxnd3Mtd2l6LXNlcnAiJmdldHRpbmcgdGVtcHMgZnJvbSBsbSBzZW5vc3IgZm9yIGNvbmt5MgUQABjvBTIIEAAYgAQYogQyCBAAGIAEGKIEMgUQABjvBTIIEAAYogQYiQVIvxVQsBJYsBJwAXgBkAEAmAGhAaABoQGqAQMwLjG4AQPIAQD4AQGYAgKgAqcBwgIKEAAYsAMY1gQYR5gDAOIDBRIBMSBAiAYBkAYIkgcDMS4xoAfGBLIHAzAuMbgHowE&sclient=gws-wiz-serp
+        y: 164
+      title: Tricks and tips - Bash Simple Curses
+      url: https://bashsimplecurses.readthedocs.io/en/master/tips/
       zoom: 1.0
   - active: true
     history:
     - active: true
-      last_visited: '2025-04-07T15:04:07'
+      last_visited: '2025-04-08T10:18:38'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: get correct font names arch - Google Search
-      url: https://www.google.com/search?q=get%20correct%20font%20names%20%20arch
+        y: 15480
+      title: How to use ncurses widgets in shell scripts on Linux - LinuxConfig
+      url: https://linuxconfig.org/how-to-use-ncurses-widgets-in-shell-scripts-on-linux
       zoom: 1.0

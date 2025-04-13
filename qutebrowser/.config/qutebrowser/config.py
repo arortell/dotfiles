@@ -657,7 +657,7 @@ c.completion.show = 'always'
 ##   - multiple-tabs: Show a confirmation if multiple tabs are opened.
 ##   - downloads: Show a confirmation if downloads are running
 ##   - never: Never show a confirmation.
-# c.confirm_quit = ['never']
+c.confirm_quit = ['downloads']
 
 ## Automatically start playing `<video>` elements.
 ## Type: Bool
@@ -1160,12 +1160,12 @@ c.content.pdfjs = True
 ## Directory to save downloads to. If unset, a sensible OS-specific
 ## default is used.
 ## Type: Directory
-# c.downloads.location.directory = None
+c.downloads.location.directory = '$HOME/downloads'
 
 ## Prompt the user for the download location. If set to false,
 ## `downloads.location.directory` will be used.
 ## Type: Bool
-# c.downloads.location.prompt = True
+c.downloads.location.prompt = True
 
 ## Remember the last used download directory.
 ## Type: Bool
@@ -1177,7 +1177,7 @@ c.content.pdfjs = True
 ##   - path: Show only the download path.
 ##   - filename: Show only download filename.
 ##   - both: Show download path and filename.
-# c.downloads.location.suggestion = 'path'
+c.downloads.location.suggestion = 'path'
 
 ## Default program used to open downloads. If null, the default internal
 ## handler is used. Any `{}` in the string will be expanded to the
@@ -2205,6 +2205,7 @@ config.bind('<Shift-Left>', 'tab-prev')
 config.bind('<Shift-Down>', 'back')
 config.bind('<Shift-Up>', 'forward')
 config.bind('<Shift-Right>', 'tab-next')
+config.bind('<Delete>', 'tab-close')
 
 # Open videos in MPV
 config.bind(',M', 'hint links spawn mpv {hint-url}')
@@ -2214,7 +2215,7 @@ config.bind('<Ctrl+/>', 'hint links spawn --detach mpv {hint-url}')
 #config.bind('a', 'set-cmd-text -s', 'spawn userscript taskadd')
 
 
-# config.bind('<Alt-E>', 'prompt-fileselect-external', mode='prompt')
+config.bind('<Alt-E>', 'prompt-fileselect-external', mode='prompt')
 
 
 
