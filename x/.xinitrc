@@ -29,9 +29,8 @@ setxkbmap -layout us -option ctrl:nocaps 2>/dev/null
 #echo "starting gpg-agent daemon" >> ~/.logs/xinit.log
 gpg-agent --daemon --pinentry-program /usr/bin/pinentry-rofi &
 
-# THIS WILL BE -SETROOT-  NOW ====> READ MAN PAGE
-setroot -f /diskb/onedrive/Pictures/Wallpapers/JaiuQL.jpg
-
+# set Wallpaper
+setroot -f /diskb/onedrive/Pictures/Wallpapers/blackarch/wallpaper-NINJARCH-code.png
 
 
 # Turn off Screen Blanking
@@ -42,8 +41,5 @@ xset -dpms
 # Only needed for siji font
 xset +fp /home/b14ckr41n/.local/share/fonts
 xset fp rehash
-
-# Auto mount USB
-#udiskie > ~/.logs/xinit.log &
 
 exec herbstluftwm --locked

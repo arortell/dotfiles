@@ -1,3 +1,3 @@
-2025/04/07-15:03:51.972 362260 Reusing MANIFEST /home/adam/.local/share/qutebrowser/webengine/Local Storage/leveldb/MANIFEST-000001
-2025/04/07-15:03:51.981 362260 Recovering log #102
-2025/04/07-15:03:51.981 362260 Reusing old log /home/adam/.local/share/qutebrowser/webengine/Local Storage/leveldb/000102.log 
+2025/04/08-08:34:48.884 3cf32a Reusing MANIFEST /home/adam/.local/share/qutebrowser/webengine/Local Storage/leveldb/MANIFEST-000001
+2025/04/08-08:34:48.894 3cf32a Recovering log #111
+2025/04/08-08:34:48.894 3cf32a Reusing old log /home/adam/.local/share/qutebrowser/webengine/Local Storage/leveldb/000111.log 

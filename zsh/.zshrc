@@ -1,17 +1,15 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-
 # _______| |__  _ __ ___
 # |_  / __| '_ \| '__/ __|
 #  / /\__ \ | | | | | (__ 
 # /___|___/_| |_|_|  \___|
 # =============== Config =
 
-# If you come from bash you might have to change your $PATH.
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
 
 # Adding bin to path
 export PATH="$HOME/.dotfiles/bin:$PATH"
@@ -24,11 +22,8 @@ export BROWSER=qutebrowser
 export EDITOR=nvim
 export VISUAL=nvim
 
-
 # Read Man pages from neovim
 export MANPAGER='nvim +Man!'
-
-dotfiles="$HOME/.dotfiles"
 
 # enable fasd
 eval "$(fasd --init auto)"
@@ -38,7 +33,6 @@ unsetopt MULTIBYTE
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
-
 
 # enable googler elvis
 #source ~/.config/Dropbox/source/googler_at
@@ -51,7 +45,6 @@ cdpath+=(~)
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-#SPACESHIP CONFIG
 SPACESHIP_PROMPT_ORDER=(
   time     #
   vi_mode  # these sections will be
@@ -181,7 +174,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(archlinux colorize colored-man-pages copyfile cp common-aliases dirhistory fzf github git-prompt history pip taskwarrior tmux rsync sudo systemd systemadmin z zsh-interactive-cd zsh-autosuggestions zsh-syntax-highlighting zsh-history-substring-search herbstclient)
+plugins=(archlinux colorize colored-man-pages copyfile cp common-aliases dirhistory fzf fasd github git-prompt history pip taskwarrior tmux rsync sudo systemd systemadmin z zsh-interactive-cd zsh-autosuggestions zsh-syntax-highlighting zsh-history-substring-search herbstclient)
 source $ZSH/oh-my-zsh.sh
 
 autoload -Uz compinit compinit promptinit run-help
@@ -300,16 +293,17 @@ alias mv='amv -g'
 alias cp="acp -g"
 alias dd='dd status=progress'
 alias ncdu='ncdu --color dark'
-alias def="/usr/bin/sdcv"
 alias sa='sudoedit $1'
 alias reload='source ~/.zshrc'
+alias hc='herbstclient'
 
-# FIX THESE FOR DOTFILES
+# shortcuts for dotfile editing
 alias cfg-term='$EDITOR ~/.config/alacritty/alacritty.toml'
+alias cfg-tmux='$EDITOR ~/.config/tmux/tmux.conf.local'
+alias cfg-bar='$EDITOR ~/.config/barpyrus/config.py'
 alias cfg-qute='$EDITOR ~/.config/qutebrowser/config.py'
 alias cfg-herb='$EDITOR ~/.config/herbstluftwm/autostart'
 alias cfg-zsh='$EDITOR ~/.zshrc'
-
 
 alias free='free -h'
 alias vdir='vdir --color=auto'
