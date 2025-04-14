@@ -18,6 +18,7 @@ then
 fi
 
 unclutter &
+udiskie &
 picom &
 
 # Setting Cursor
