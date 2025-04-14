@@ -1,179 +1,103 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAABAAAAFAAAB34AAAQ2AAAAAwAAABYAAAd8AAAENAAAAAAAAAAAB4AAAAADAAAA
-    FgAAB3wAAAQ0
+    AdnQywADAAAAAAACAAAAGQAAB30AAAQ1AAAAAwAAABoAAAd8AAAENAAAAAAAAAAAB4AAAAADAAAA
+    GgAAB3wAAAQ0
   tabs:
   - history:
-    - last_visited: '2025-04-08T08:49:53'
-      pinned: false
-      title: tmux shortcuts & cheatsheet
-      url: https://gist.github.com/MohamedAlaa/2961058
-    - last_visited: '2025-04-08T09:23:11'
-      pinned: false
-      title: bisync rclone arch linux - Google Search
-      url: https://www.google.com/search?q=bisync%20rclone%20arch%20linux
-    - last_visited: '2025-04-08T09:35:17'
-      pinned: false
-      title: Gunther-Schulz/rclone-bisync-manager
-      url: https://github.com/Gunther-Schulz/rclone-bisync-manager
-    - last_visited: '2025-04-08T09:39:09'
-      pinned: false
-      title: rclone-bisync-manager/examples at main · Gunther-Schulz/rclone-bisync-manager
-      url: https://github.com/Gunther-Schulz/rclone-bisync-manager/tree/main/examples
-    - last_visited: '2025-04-08T09:39:14'
-      pinned: false
-      title: rclone-bisync-manager/examples/config.yaml.example at main · Gunther-Schulz/rclone-bisync-manager
-      url: https://github.com/Gunther-Schulz/rclone-bisync-manager/blob/main/examples/config.yaml.example
-    - last_visited: '2025-04-08T09:39:20'
-      pinned: false
-      title: rclone-bisync-manager/examples at main · Gunther-Schulz/rclone-bisync-manager
-      url: https://github.com/Gunther-Schulz/rclone-bisync-manager/tree/main/examples
-    - last_visited: '2025-04-08T09:39:22'
-      pinned: false
-      title: rclone-bisync-manager/ at main · Gunther-Schulz/rclone-bisync-manager
-      url: https://github.com/Gunther-Schulz/rclone-bisync-manager/tree/main
-    - last_visited: '2025-04-08T09:39:25'
-      pinned: false
-      title: rclone-bisync-manager/desktop at main · Gunther-Schulz/rclone-bisync-manager
-      url: https://github.com/Gunther-Schulz/rclone-bisync-manager/tree/main/desktop
-    - last_visited: '2025-04-08T09:39:27'
-      pinned: false
-      title: rclone-bisync-manager/desktop/rclone-bisync-manager.svg at main · Gunther-Schulz/rclone-bisync-manager
-      url: https://github.com/Gunther-Schulz/rclone-bisync-manager/blob/main/desktop/rclone-bisync-manager.svg
-    - last_visited: '2025-04-08T09:39:32'
-      pinned: false
-      title: Gunther-Schulz/rclone-bisync-manager
-      url: https://github.com/Gunther-Schulz/rclone-bisync-manager/tree/main
-    - last_visited: '2025-04-08T09:47:32'
-      pinned: false
-      title: copy paste in yazi - Google Search
-      url: https://www.google.com/search?q=copy%20paste%20in%20yazi
-    - last_visited: '2025-04-08T09:49:58'
-      pinned: false
-      title: how to use libraries in bash - Google Search
-      url: https://www.google.com/search?q=how%20to%20use%20libraries%20in%20bash
-    - last_visited: '2025-04-08T11:43:39'
-      pinned: false
-      title: create new window tmux - Google Search
-      url: https://www.google.com/search?q=create%20new%20window%20tmux
-    - last_visited: '2025-04-08T11:46:55'
-      pinned: false
-      title: shell - How to create a tmux session with two windows with specific name
-        and run specific scripts in each window? - Super User
-      url: https://superuser.com/questions/1601279/how-to-create-a-tmux-session-with-two-windows-with-specific-name-and-run-specifi
-    - last_visited: '2025-04-08T11:47:47'
-      pinned: false
-      title: open tmux with a new window if its alreadey rujnning - Google Search
-      url: https://www.google.com/search?q=open%20tmux%20with%20a%20new%20window%20if%20its%20alreadey%20rujnning
-    - last_visited: '2025-04-08T11:48:19'
-      pinned: false
-      title: 'Launching Tmux with a new window in Alacritty : r/swaywm'
-      url: https://www.reddit.com/r/swaywm/comments/ojxikq/launching_tmux_with_a_new_window_in_alacritty/
     - active: true
-      last_visited: '2025-04-08T12:17:45'
+      last_visited: '2025-04-13T16:23:55'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: tmux bind keys to move between windows - Google Search
-      url: https://www.google.com/search?q=tmux%20bind%20keys%20to%20move%20between%20windows
-      zoom: 1.0
-  - history:
-    - last_visited: '2025-04-08T08:49:55'
-      pinned: false
-      title: Tmux Cheat Sheet & Quick Reference | Session, window, pane and more
-      url: https://tmuxcheatsheet.com/
-    - last_visited: '2025-04-08T08:51:29'
-      pinned: false
-      title: tmux close all windows except one in - Google Search
-      url: https://www.google.com/search?q=tmux%20close%20all%20windows%20except%20one%20in
-    - last_visited: '2025-04-08T09:02:56'
-      pinned: false
-      title: googler surfraw elvi - Google Search
-      url: https://www.google.com/search?q=googler%20surfraw%20elvi
-    - last_visited: '2025-04-08T09:03:57'
-      pinned: false
-      title: dropbox - Google Search
-      url: https://www.google.com/search?q=dropbox
-    - last_visited: '2025-04-08T09:04:00'
-      pinned: false
-      title: Login or Sign Up - Dropbox
-      url: https://www.dropbox.com/login
-    - last_visited: '2025-04-08T09:04:15'
-      pinned: false
-      title: Files - Dropbox
-      url: https://www.dropbox.com/home
-    - last_visited: '2025-04-08T09:04:49'
-      pinned: false
-      title: bin - Dropbox
-      url: https://www.dropbox.com/home/bin
-    - last_visited: '2025-04-08T09:05:17'
-      pinned: false
-      title: Files - Dropbox
-      url: https://www.dropbox.com/home?_tk=web_left_nav_bar&di=left_nav
-    - last_visited: '2025-04-08T09:06:07'
-      pinned: false
-      title: rclone setup dropbox - Google Search
-      url: https://www.google.com/search?q=rclone%20setup%20dropbox
-    - last_visited: '2025-04-08T09:07:19'
-      pinned: false
-      title: Dropbox
-      url: https://rclone.org/dropbox/
-    - last_visited: '2025-04-08T09:12:02'
-      pinned: false
-      title: rclone copy - Google Search
-      url: https://www.google.com/search?q=rclone%20copy
-    - last_visited: '2025-04-08T09:12:05'
-      pinned: false
-      title: rclone copy
-      url: https://rclone.org/commands/rclone_copy/
-    - last_visited: '2025-04-08T09:21:32'
-      pinned: false
-      title: rclone bisync - Google Search
-      url: https://www.google.com/search?q=rclone%20bisync
-    - active: true
-      last_visited: '2025-04-08T09:21:36'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 80
-      title: Bisync
-      url: https://rclone.org/bisync/
-      zoom: 1.0
-  - history:
-    - last_visited: '2025-04-08T09:55:58'
-      pinned: false
-      title: nucurses with bash tutorial - Google Search
-      url: https://www.google.com/search?q=nucurses%20with%20bash%20tutorial
-    - active: true
-      last_visited: '2025-04-08T10:18:49'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 680
-      title: 'metal3d/bashsimplecurses: A simple curses library made in bash to draw
-        terminal interfaces'
-      url: https://github.com/metal3d/bashsimplecurses
+      title: Extra keyboard keys - ArchWiki
+      url: https://wiki.archlinux.org/title/Extra_keyboard_keys#Non-standard_keyboards
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2025-04-08T10:21:12'
+      last_visited: '2025-04-13T16:23:55'
       pinned: false
       scroll-pos:
         x: 0
-        y: 164
-      title: Tricks and tips - Bash Simple Curses
-      url: https://bashsimplecurses.readthedocs.io/en/master/tips/
+        y: 0
+      title: Configuring keyboards - LQWiki
+      url: https://wiki.linuxquestions.org/wiki/Configuring_keyboards#Enabling_Keyboard_Multimedia_Keys
       zoom: 1.0
   - active: true
     history:
+    - last_visited: '2025-04-13T16:23:56'
+      pinned: false
+      title: prevent picom from making lemobar ttransparent - Google Search
+      url: https://www.google.com/search?q=prevent%20picom%20from%20making%20lemobar%20ttransparent
     - active: true
-      last_visited: '2025-04-08T10:18:38'
+      last_visited: '2025-04-13T16:24:06'
       pinned: false
       scroll-pos:
         x: 0
-        y: 15480
-      title: How to use ncurses widgets in shell scripts on Linux - LinuxConfig
-      url: https://linuxconfig.org/how-to-use-ncurses-widgets-in-shell-scripts-on-linux
+        y: 240
+      title: command to lock from terminal - Google Search
+      url: https://www.google.com/search?q=command%20to%20lock%20from%20terminal
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-04-13T16:23:57'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'eza-community/eza: A modern alternative to ls'
+      url: https://github.com/eza-community/eza
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-04-13T16:23:57'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'mihalea/bitwarden-pyro: Bitwarden python interface built on Rofi, allowing
+        for fast selection and insertion of passwords'
+      url: https://github.com/mihalea/bitwarden-pyro
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-04-13T16:23:55'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: ~steef/snixembed - proxy StatusNotifierItems as XEmbedded systemtray-spec
+        icons - sourcehut git
+      url: https://git.sr.ht/~steef/snixembed
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-04-13T16:23:56'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: windoiwtype of lemonbar - Google Search
+      url: https://www.google.com/search?q=windoiwtype%20of%20lemonbar
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-04-13T16:23:58'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'domsson/succade: Run, feed and style your Lemonbar with ease'
+      url: https://github.com/domsson/succade
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-04-13T16:23:56'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: what is the wintype of a panel lemonbar - Google Search
+      url: https://www.google.com/search?q=what%20is%20the%20wintype%20of%20a%20panel%20lemonbar
       zoom: 1.0

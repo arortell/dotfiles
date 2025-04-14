@@ -1,55 +1,3 @@
-:open name tags herbstluftwm
-:open python no module named gi
-:open networkmanager arch linux
-:open -t networkmanager cyberghost vpn arch linux
-:open using scrot like widows snippet
-:open usinf scrot --select in a script with rofi
-:open netctl
-:open wpa supplicant arch linux
-:open avahi arch linux
-:open -t wikifeet.com
-:open editing resolv.conf for avahi
-:open -t what does avahi do
-:open avahi ssh server browser
-:open using avahi to find a oprinter
-:open tmux split horizontal
-:open setting nvim as editor for xdg-open
-:open bash if
-:open jgmenu
-:open gmrun
-:open tmux plugins
-:open tm,ux vim keybindings
-:open tmux command prompt
-:open nvim yazi
-:open yazi vim vim-plug
-:open can you use lazy,nvim with vim-plug
-:bookmark-add
-:open -t copy from nvim to clipboard
-:open nvim automate rshada wshada 
-:open leader key nvim
-:open nvim default  leader key
-:open nvim copy to clipboard
-:open alienware mouse linux
-:open linux change mouse dpi
-:open ratbag
-:open ratbag mouse
-:open lian li aio linux
-:open -t oh my tmux
-:open tpm keeps deleting plugins
-:open tpm keeps deleting tmux plugins
-:open whete does tpm download pluginds totmux
-:open oh my tmux
-:open tmux zsh plugin
-:open launch trmux attach from keybinding
-:open https://dev.to/andrenbrandao/terminal-setup-with-zsh-tmux-dracula-theme-48lm
-:open python linux os module
-:open pythoon sys module
-:open tmux open new pane
-:open tmux open new window
-:open nvim terminal
-:open nvim terminal on the bottom
-:open neoterm
-:open -t arch linux ibm termals
 :open what is normally in /proc/acpi/ibm/thermal directoy
 :open getting temps from lm senosr for conbky
 :open creating arrays in bash
@@ -99,3 +47,54 @@
 :open create new window tmux
 :open open tmux with a new window if its alreadey rujnning
 :open tmux bind keys to move between windows
+:open floating scratchpad herbstluftwm
+:open open youtube video in mpv qutebrowser
+:open switch sound cards alsa cmd
+:open  sound hdmi 
+:open -t libkmod missing
+:open arch libkmod not loaded by alsa no sound
+:open -t kmod module not found arch linux
+:open set card and device for alsa
+:open -t scratchpads herbstluftwm
+:open open videos in mpv qutebrowers
+:bookmark-del
+:open -t unbin a key qutebrowser
+:bookmark-del
+:open qutebrowser youtube dl
+:open taskadd user script qutebrowser
+:spawn --userscript taskadd
+:open -t herbstluftwm ricing
+:open -t qutebrowser cant unbind M
+:process 1895474
+:open bind a key to open a terminal in current tmux session
+:open open a new terminal in current tmux session
+:open get name of key pressed linux
+:open corasir keyboard multimedia keys arch linux xev says keys are the same
+:open -t herb open all tags in horizonatl layout
+:open github arortell dotfiles
+:open adam ortell github dotfiles
+:open https://github.com/arortell/dotfiles
+:open systray error: failed to register: the name is not activatable
+:open stalonetray systemnotifer tray icons
+:open trayer or stalonetray
+:open how to test if systray is runniung correctly
+:open check if stalontray is working correctly
+:open stalonetrayrc file exampkle
+:open fvwm
+:openrclone bi sync tray managher
+:open rclone bisync tray icon
+:open cyberghostvpn-gui github
+:open bitwarden-=pyro
+:open lightweight tray icon to test stalonetray on linux
+:open pygtk arch no mudle named pygtk
+:open simple python scipt to generate a tray icon
+:open eza linux
+:open copy paste yazi
+:open how to cop[y and paste files in yazi
+:open prevent picom from making lemobar ttransparent
+:open -t windoiwtype of lemonbar
+:open -t succade
+:succade lemonbar
+:open succade lemonbar
+:open -t what is the wintype of a panel lemonbar
+:open command to lock from terminal

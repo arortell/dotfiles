@@ -162,6 +162,7 @@ def simple_tag_renderer(self, painter): # self is a HLWMTagInfo object
         'web': 0xe19c,
         'mail': 0xe071,
         'scratchpad': 0xe022,
+        'q3terminal': 0xe022,
         'music': 0xe05c,
         'yazi' : 0x00e1d9,
     }

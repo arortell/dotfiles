@@ -26,6 +26,9 @@ xsetroot -cursor_name left_ptr 2>&1 &
 # Remap Capslock to ctrl
 setxkbmap -layout us -option ctrl:nocaps 2>/dev/null
 
+# Needed for media keys on th corsair keyboard
+xmodmap ~/.dotfiles/xmodmap/xmodmap.conf &
+
 #echo "starting gpg-agent daemon" >> ~/.logs/xinit.log
 gpg-agent --daemon --pinentry-program /usr/bin/pinentry-rofi &
 
