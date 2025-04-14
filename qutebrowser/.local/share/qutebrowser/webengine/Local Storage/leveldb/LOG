@@ -1,5 +1,20 @@
-2025/04/13-16:23:54.952 d299 Reusing MANIFEST /home/adam/.local/share/qutebrowser/webengine/Local Storage/leveldb/MANIFEST-000001
-2025/04/13-16:23:54.961 d299 Recovering log #172
-2025/04/13-16:23:54.961 d299 Reusing old log /home/adam/.local/share/qutebrowser/webengine/Local Storage/leveldb/000172.log 
-2025/04/13-16:24:19.769 d2a1 Level-0 table #176: started
-2025/04/13-16:24:19.771 d2a1 Level-0 table #176: 110328 bytes OK
+2025/04/14-12:31:15.139 3370 Reusing MANIFEST /home/adam/.local/share/qutebrowser/webengine/Local Storage/leveldb/MANIFEST-000001
+2025/04/14-12:31:15.148 3370 Recovering log #172
+2025/04/14-12:31:15.148 3370 Level-0 table #175: started
+2025/04/14-12:31:15.150 3370 Level-0 table #175: 110328 bytes OK
+2025/04/14-12:31:15.150 3370 Recovering log #175
+2025/04/14-12:31:15.150 3370 Reusing old log /home/adam/.local/share/qutebrowser/webengine/Local Storage/leveldb/000175.log 
+2025/04/14-12:31:15.152 3370 Delete type=0 #172
+2025/04/14-12:31:15.152 3370 Delete type=2 #176
+2025/04/14-12:31:46.025 3369 Level-0 table #177: started
+2025/04/14-12:31:46.029 3369 Level-0 table #177: 91857 bytes OK
+2025/04/14-12:31:46.031 3369 Delete type=0 #175
+2025/04/14-12:31:46.032 3369 Compacting 4@0 + 1@1 files
+2025/04/14-12:31:46.057 3369 Generated table #178@0: 387 keys, 778458 bytes
+2025/04/14-12:31:46.057 3369 Compacted 4@0 + 1@1 files => 778458 bytes
+2025/04/14-12:31:46.058 3369 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/04/14-12:31:46.058 3369 Delete type=2 #168
+2025/04/14-12:31:46.059 3369 Delete type=2 #170
+2025/04/14-12:31:46.059 3369 Delete type=2 #173
+2025/04/14-12:31:46.059 3369 Delete type=2 #175
+2025/04/14-12:31:46.059 3369 Delete type=2 #177

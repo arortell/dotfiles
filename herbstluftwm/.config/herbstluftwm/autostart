@@ -229,10 +229,15 @@ hc rule focus=on # normally focus new clients
 hc rule switchtag=on #switch to tag just opened
 hc rule class=_scratch fullscreen=on
 hc rule class='[Tt]rayer' manage=off
+hc rule class='zenity' floating=on floatplacement=center
+hc rule fixedsize floating=on
+
 
 # Trying to make popups float
-hc rule windowtype~'_NET_WM_WINDOW_TYPE_(DIALOG|UTILITY|SPLASH)' manage=off focus=on
-hc rule windowtype~'_NET_WM_WINDOW_TYPE_(NOTIFICATION|DOCK|DESKTOP)' manage=off focus=off
+hc rule windowtype~'_NET_WM_WINDOW_TYPE_(DIALOG|UTILITY|SPLASH)' manage=off focus=on floating=on floatplacement=center
+hc rule windowtype~'_NET_WM_WINDOW_TYPE_(NOTIFICATION|DOCK|DESKTOP)' manage=off focus=off floatplacement=center
+hc rule windowtype='_NET_WM_WINDOW_TYPE_DIALOG' focus=on floatplacement=center
+hc rule windowtype~'_NET_WM_WINDOW_TYPE_(NOTIFICATION|DOCK|DESKTOP)' manage=off
 
 hc set tree_style '╾│ ├└╼─┐'
 #herbstclient set tree_style '╾│ ├╰╼─╮'
