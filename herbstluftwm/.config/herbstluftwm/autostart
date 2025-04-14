@@ -37,13 +37,13 @@ hc keybind $Mod-Shift-Escape quit
 hc keybind $Mod-Escape reload
 hc keybind $Mod-Delete close
 hc keybind $Mod-Shift-Delete close_and_remove
-hc keybind $Mod-Return spawn alacritty -e tmux_new_instance
+hc keybind $Mod-Return spawn alacritty
 hc keybind $Mod-Alt-Return spawn alacritty -e tmux new-session -t feet
 hc keybind $Mod-v spawn cyberghostvpn-gui
 hc keybind $Mod-y spawn alacritty -e yazi
 hc keybind $Mod+Shift+Return spawn qutebrowser
 hc keybind $Mod+e spawn alacritty -e nvim
-hc keybind $Mod+l spawn i3lock-fancy -t "Fuck You" -f 'Terminus-(TTF)'
+hc keybind $Mod+l spawn i3lock-fancy -t "Whats My Password?" -f 'Terminus-(TTF)'
 
 
 # <====================Menus ================== 
@@ -138,10 +138,12 @@ for i in "${!tag_names[@]}" ; do
     fi
 done
 
-# have all tags start in horizontal
-for i in "${tag_names[@]}"; do
-    hc set_layout horizontal
-done
+# open all tags in horizontal layout
+hc default_frame_layout horizontal
+hc substitute ALGO settings.default_frame_layout \
+    foreach T tags.by-name. \
+    sprintf ATTR '%c.tiling.root.algorithm' T \
+    set_attr ATTR ALGO
 
 # cycle through tags
 hc keybind $Mod-period use_index +1 --skip-visible
@@ -174,7 +176,6 @@ hc keybind $Mod-Shift-Tab     cycle_all -1
 hc keybind $Mod+Shift-c cycle
 hc keybind $Mod-i jumpto urgent
 
-
 # Audio Keys
 hc keybind XF86AudioRaiseVolume spawn amixer set Master 2%+
 hc keybind XF86AudioLowerVolume spawn amixer set Master 2%-
@@ -185,7 +186,7 @@ hc keybind $Mod+Shift+m spawn "$BIN"/maximize.sh # similar monocle in bspwm
 
 # ScratchPads
 hc keybind F1 spawn "$BIN"/q3terminal.sh
-hc keybind F12 spawn "$BIN"/yazi.sh
+hc keybind F12 spawn "$BIN"/scratchpad.sh
 
 # theme
 hc attr theme.tiling.reset 1
@@ -200,14 +201,14 @@ hc set frame_bg_transparent 1
 hc set frame_transparent_width 0
 
 ##### might need to change back to 0
-hc set frame_gap 1
+#hc set frame_gap 
 
 hc attr theme.active.color '#8888FF'
 hc attr theme.normal.color '#000000'
 hc attr theme.urgent.color '#FF0000'
 hc attr theme.inner_width   0
 hc attr theme.inner_color   0
-hc attr theme.border_width  2 
+hc attr theme.border_width  1 
 hc attr theme.floating.border_width 0
 hc attr theme.floating.outer_width 0
 hc attr theme.floating.outer_color black
@@ -215,7 +216,7 @@ hc attr theme.active.inner_color '#3E4A00'
 hc attr theme.active.outer_color '#3E4A00'
 hc attr theme.background_color '#141414'
 
-hc set window_gap 1
+hc set window_gap 2
 hc set frame_padding 0
 hc set smart_window_surroundings 0
 hc set smart_frame_surroundings 1
@@ -225,6 +226,7 @@ hc set mouse_recenter_gap 0
 hc unrule -F
 hc rule class=qutebrowser tag=web 
 hc rule focus=on # normally focus new clients
+hc rule switchtag=on #switch to tag just opened
 hc rule class=_scratch fullscreen=on
 hc rule class='[Tt]rayer' manage=off
 
@@ -232,14 +234,16 @@ hc rule class='[Tt]rayer' manage=off
 hc rule windowtype~'_NET_WM_WINDOW_TYPE_(DIALOG|UTILITY|SPLASH)' manage=off focus=on
 hc rule windowtype~'_NET_WM_WINDOW_TYPE_(NOTIFICATION|DOCK|DESKTOP)' manage=off focus=off
 
-# give focus to most common terminals
-#hc rule class~'(.*[Rr]xvt.*|.*[Tt]erm|Konsole)' focus=on
-
 hc set tree_style '╾│ ├└╼─┐'
 #herbstclient set tree_style '╾│ ├╰╼─╮'
 #herbstclient set tree_style '*| +`>-.'
 #herbstclient set tree_style '*| +`-->'
 
+
+# have all tags start in horizontal
+for i in "${tag_names[@]}"; do
+    hc set_layout horizontal
+done
 
 # unlock, just to be sure
 hc unlock

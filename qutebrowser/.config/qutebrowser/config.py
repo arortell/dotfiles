@@ -2201,6 +2201,19 @@ c.url.searchengines = {'DEFAULT': 'https://google.com/search?q={}',
 ## Type: Bool
 # c.zoom.text_only = False
 
+####### BookMarks
+config.unbind('M', mode='normal')
+config.unbind('m', mode='normal')
+config.unbind('b', mode='normal')
+
+config.bind('B', 'bookmark-add')
+config.bind('<Ctrl-B>', 'bookmark-del')
+config.bind('q', 'quickmark-save')
+config.bind('<Ctrl-q>', 'quickmark-del')
+
+#########
+
+# Tab Navagation
 config.bind('<Shift-Left>', 'tab-prev')
 config.bind('<Shift-Down>', 'back')
 config.bind('<Shift-Up>', 'forward')
@@ -2208,11 +2221,11 @@ config.bind('<Shift-Right>', 'tab-next')
 config.bind('<Delete>', 'tab-close')
 
 # Open videos in MPV
-config.bind(',M', 'hint links spawn mpv {hint-url}')
-config.bind(',m', 'hint spawn mpv {url}')
-config.bind('<Ctrl+/>', 'hint links spawn --detach mpv {hint-url}')
+config.bind('M', 'hint links spawn mpv {hint-url}')
+config.bind(';M', 'spawn --detach mpv {url}')
 
-#config.bind('a', 'set-cmd-text -s', 'spawn userscript taskadd')
+# adds a task with the URL
+config.bind('a', 'spawn --userscript taskadd')
 
 
 config.bind('<Alt-E>', 'prompt-fileselect-external', mode='prompt')
@@ -2231,7 +2244,7 @@ c.hints.selectors["code"] = [
     "pre"
 ]
 
-# Set VIFM as file picker.
+# Set Yazi as file picker.
 config.set("fileselect.handler", "external")
 config.set("fileselect.single_file.command", ['alacritty', '--class', 'yazi,yazi', '-e', 'yazi', '--choose-files', '{}'])
 config.set("fileselect.multiple_files.command", ['alacritty', '--class', 'yazi,yazi', '-e', 'yazi', '--choose-files', '{}'])
@@ -2321,7 +2334,6 @@ config.source('themes/gruvbox.py')
 # config.bind('J', 'tab-next')
 # config.bind('K', 'tab-prev')
 # config.bind('L', 'forward')
-# config.bind('M', 'bookmark-add')
 # config.bind('N', 'search-prev')
 # config.bind('O', 'cmd-set-text -s :open -t')
 # config.bind('PP', 'open -t -- {primary}')

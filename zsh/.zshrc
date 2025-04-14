@@ -282,15 +282,16 @@ setopt extendedglob
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 
-unalias cp 
-alias l="ls -CF --color=auto"
-alias ll="ls -ClF --color=auto"
-alias la="ls -CAF --color=auto"
-alias ls="ls -F --color=auto"
-alias c="clear"
-alias vi="nvim"
+unalias cp
+alias ls='eza'
+alias l='eza '
+alias ll='eza -l'
+alias la='eza -a'
+alias lt='eza -T'
+alias c='clear'
+alias vi='nvim'
 alias mv='amv -g'
-alias cp="acp -g"
+alias cp='acp -g'
 alias dd='dd status=progress'
 alias ncdu='ncdu --color dark'
 alias sa='sudoedit $1'
@@ -316,6 +317,14 @@ alias quit='systemctl poweroff'
 alias gc='git clone $@'
 alias cat='bat'
 
+
+alias ts='tmux-reattachloop.sh tmux new-session -A -D -s shell'
+
+# fzf surfraw
+fzf-surfraw() { 
+    surfraw "$(cat ~/.config/surfraw/bookmarks | sed '/^$/d' | sort -n | fzf -e)" ;
+}
+
 # Wrapper for sdcv
 function def() {
     sdcv -n --utf8-output --color "$@" 2>&1 | \
@@ -323,11 +332,17 @@ function def() {
     less --quit-if-one-screen -Rx
 }
 
+
+::() {
+    echo -e "\e[1;33m:: \e[0;32m$*\e[0m" >&2
+    "$@"
+}
+
 # add some color to grep
 export GREP_COLORS='sl=49;39:cx=49;39:mt=49;31;1:fn=49;35:ln=49;32;1:bn=49;32;3;4:se=49;36';
 
 # Show tasks on terminal open
-task next
+task
 
 setopt AUTO_PUSHD PUSHD_SILENT PUSHD_TO_HOME
 
