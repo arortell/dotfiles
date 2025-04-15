@@ -331,8 +331,10 @@ fzf-surfraw() {
 function def() {
     sdcv -n --utf8-output --color "$@" 2>&1 | \
     fold --width=$(tput cols) | \
-    less --quit-if-one-screen -Rx
+    less --quit-if-one-screen -RX
 }
+
+SDCV_PAGER='less --quit-if-one-screen -RX'
 
 
 ::() {

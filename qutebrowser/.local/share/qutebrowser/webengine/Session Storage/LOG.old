@@ -1,15 +1,3 @@
-2025/04/13-16:23:55.472 d298 Reusing MANIFEST /home/adam/.local/share/qutebrowser/webengine/Session Storage/MANIFEST-000001
-2025/04/13-16:23:55.473 d298 Recovering log #64
-2025/04/13-16:23:55.474 d298 Reusing old log /home/adam/.local/share/qutebrowser/webengine/Session Storage/000064.log 
-2025/04/13-16:24:01.108 d298 Level-0 table #68: started
-2025/04/13-16:24:01.110 d298 Level-0 table #68: 19781 bytes OK
-2025/04/13-16:24:01.112 d298 Delete type=0 #64
-2025/04/13-16:24:01.112 d298 Compacting 4@0 + 1@1 files
-2025/04/13-16:24:01.117 d298 Generated table #69@0: 3721 keys, 72279 bytes
-2025/04/13-16:24:01.117 d298 Compacted 4@0 + 1@1 files => 72279 bytes
-2025/04/13-16:24:01.119 d298 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/04/13-16:24:01.119 d298 Delete type=2 #56
-2025/04/13-16:24:01.119 d298 Delete type=2 #59
-2025/04/13-16:24:01.119 d298 Delete type=2 #62
-2025/04/13-16:24:01.119 d298 Delete type=2 #65
-2025/04/13-16:24:01.119 d298 Delete type=2 #68
+2025/04/14-21:28:25.320 1f016 Reusing MANIFEST /home/adam/.local/share/qutebrowser/webengine/Session Storage/MANIFEST-000001
+2025/04/14-21:28:25.320 1f016 Recovering log #67
+2025/04/14-21:28:25.321 1f016 Reusing old log /home/adam/.local/share/qutebrowser/webengine/Session Storage/000067.log 

@@ -17,9 +17,11 @@ then
 	unset f
 fi
 
-unclutter &
-udiskie &
-picom &
+# Start everything and dump output to a log
+unclutter > ~/.local/share/xorg/startup.log &
+udiskie >> ~/.local/share/xorg/startup.log &
+dunst >> ~/.local/share/xorg/startup.log &
+picom >> ~/.local/share/xorg/startup.log &
 
 # Setting Cursor
 xsetroot -cursor_name left_ptr 2>&1 &
@@ -35,7 +37,6 @@ gpg-agent --daemon --pinentry-program /usr/bin/pinentry-rofi &
 
 # set Wallpaper
 setroot -f /diskb/onedrive/Pictures/Wallpapers/blackarch/wallpaper-NINJARCH-code.png
-
 
 # Turn off Screen Blanking
 xset s off
