@@ -1,18 +1,45 @@
-2025/04/14-21:58:26.268 25538 Reusing MANIFEST /home/adam/.local/share/qutebrowser/webengine/Local Storage/leveldb/MANIFEST-000001
-2025/04/14-21:58:26.286 25538 Recovering log #182
-2025/04/14-21:58:26.286 25538 Reusing old log /home/adam/.local/share/qutebrowser/webengine/Local Storage/leveldb/000182.log 
-2025/04/14-21:58:39.572 25536 Level-0 table #186: started
-2025/04/14-21:58:39.577 25536 Level-0 table #186: 92410 bytes OK
-2025/04/14-21:58:39.579 25536 Delete type=0 #182
-2025/04/14-22:06:00.090 25534 Level-0 table #188: started
-2025/04/14-22:06:00.092 25534 Level-0 table #188: 31715 bytes OK
-2025/04/14-22:06:00.094 25534 Delete type=0 #185
-2025/04/14-22:06:00.094 25534 Compacting 4@0 + 1@1 files
-2025/04/14-22:06:00.105 25534 Generated table #189@0: 389 keys, 796574 bytes
-2025/04/14-22:06:00.105 25534 Compacted 4@0 + 1@1 files => 796574 bytes
-2025/04/14-22:06:00.106 25534 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/04/14-22:06:00.106 25534 Delete type=2 #178
-2025/04/14-22:06:00.106 25534 Delete type=2 #181
-2025/04/14-22:06:00.106 25534 Delete type=2 #183
-2025/04/14-22:06:00.106 25534 Delete type=2 #186
-2025/04/14-22:06:00.106 25534 Delete type=2 #188
+2025/04/15-09:01:12.239 3f52 Reusing MANIFEST /home/adam/.local/share/qutebrowser/webengine/Local Storage/leveldb/MANIFEST-000001
+2025/04/15-09:01:12.241 3f52 Recovering log #200
+2025/04/15-09:01:12.241 3f52 Reusing old log /home/adam/.local/share/qutebrowser/webengine/Local Storage/leveldb/000200.log 
+2025/04/15-09:10:18.157 3f52 Level-0 table #204: started
+2025/04/15-09:10:18.159 3f52 Level-0 table #204: 23379 bytes OK
+2025/04/15-09:10:18.161 3f52 Delete type=0 #200
+2025/04/15-10:21:25.746 3f54 Level-0 table #206: started
+2025/04/15-10:21:25.750 3f54 Level-0 table #206: 18523 bytes OK
+2025/04/15-10:21:25.752 3f54 Delete type=0 #203
+2025/04/15-10:22:51.501 3f52 Level-0 table #208: started
+2025/04/15-10:22:51.503 3f52 Level-0 table #208: 37716 bytes OK
+2025/04/15-10:22:51.505 3f52 Delete type=0 #205
+2025/04/15-10:22:51.506 3f52 Compacting 4@0 + 1@1 files
+2025/04/15-10:22:51.526 3f52 Generated table #209@0: 404 keys, 804608 bytes
+2025/04/15-10:22:51.526 3f52 Compacted 4@0 + 1@1 files => 804608 bytes
+2025/04/15-10:22:51.527 3f52 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/04/15-10:22:51.527 3f52 Delete type=2 #199
+2025/04/15-10:22:51.527 3f52 Delete type=2 #201
+2025/04/15-10:22:51.527 3f52 Delete type=2 #204
+2025/04/15-10:22:51.527 3f52 Delete type=2 #206
+2025/04/15-10:22:51.527 3f52 Delete type=2 #208
+2025/04/15-11:06:47.936 3f54 Level-0 table #211: started
+2025/04/15-11:06:47.937 3f54 Level-0 table #211: 19861 bytes OK
+2025/04/15-11:06:47.939 3f54 Delete type=0 #207
+2025/04/15-11:25:03.086 3f54 Level-0 table #213: started
+2025/04/15-11:25:03.089 3f54 Level-0 table #213: 34385 bytes OK
+2025/04/15-11:25:03.091 3f54 Delete type=0 #210
+2025/04/15-11:28:40.715 3f52 Level-0 table #215: started
+2025/04/15-11:28:40.718 3f52 Level-0 table #215: 23779 bytes OK
+2025/04/15-11:28:40.720 3f52 Delete type=0 #212
+2025/04/15-11:29:36.257 3f54 Level-0 table #217: started
+2025/04/15-11:29:36.260 3f54 Level-0 table #217: 20337 bytes OK
+2025/04/15-11:29:36.263 3f54 Delete type=0 #214
+2025/04/15-11:29:36.264 3f54 Compacting 4@0 + 1@1 files
+2025/04/15-11:29:36.274 3f54 Generated table #218@0: 407 keys, 783713 bytes
+2025/04/15-11:29:36.274 3f54 Compacted 4@0 + 1@1 files => 783713 bytes
+2025/04/15-11:29:36.276 3f54 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/04/15-11:29:36.276 3f54 Delete type=2 #209
+2025/04/15-11:29:36.276 3f54 Delete type=2 #211
+2025/04/15-11:29:36.276 3f54 Delete type=2 #213
+2025/04/15-11:29:36.276 3f54 Delete type=2 #215
+2025/04/15-11:29:36.276 3f54 Delete type=2 #217
+2025/04/15-11:39:54.428 3f52 Level-0 table #220: started
+2025/04/15-11:39:54.430 3f52 Level-0 table #220: 24183 bytes OK
+2025/04/15-11:39:54.432 3f52 Delete type=0 #216

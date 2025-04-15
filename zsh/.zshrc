@@ -174,7 +174,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(archlinux colorize colored-man-pages copyfile cp common-aliases dirhistory fzf fasd github git-prompt history pip taskwarrior tmux rsync sudo systemd systemadmin z zsh-interactive-cd zsh-autosuggestions zsh-syntax-highlighting zsh-history-substring-search herbstclient)
+plugins=(archlinux colorize colored-man-pages copyfile cp common-aliases dirhistory fzf fasd github git-prompt history pip taskwarrior tmux rsync sudo systemd systemadmin z zsh-interactive-cd zsh-autosuggestions zsh-syntax-highlighting zsh-history-substring-search herbstclient yazi)
 source $ZSH/oh-my-zsh.sh
 
 autoload -Uz compinit compinit promptinit run-help
@@ -289,6 +289,8 @@ alias ll='eza -l'
 alias la='eza -a'
 alias lla='eza -al'
 alias lt='eza -T'
+alias lh='eza --header'
+alias lth='eza -l -T --header'
 alias c='clear'
 alias vi='nvim'
 alias vim='nvim'
