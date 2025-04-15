@@ -1,20 +1,18 @@
-2025/04/14-12:31:15.139 3370 Reusing MANIFEST /home/adam/.local/share/qutebrowser/webengine/Local Storage/leveldb/MANIFEST-000001
-2025/04/14-12:31:15.148 3370 Recovering log #172
-2025/04/14-12:31:15.148 3370 Level-0 table #175: started
-2025/04/14-12:31:15.150 3370 Level-0 table #175: 110328 bytes OK
-2025/04/14-12:31:15.150 3370 Recovering log #175
-2025/04/14-12:31:15.150 3370 Reusing old log /home/adam/.local/share/qutebrowser/webengine/Local Storage/leveldb/000175.log 
-2025/04/14-12:31:15.152 3370 Delete type=0 #172
-2025/04/14-12:31:15.152 3370 Delete type=2 #176
-2025/04/14-12:31:46.025 3369 Level-0 table #177: started
-2025/04/14-12:31:46.029 3369 Level-0 table #177: 91857 bytes OK
-2025/04/14-12:31:46.031 3369 Delete type=0 #175
-2025/04/14-12:31:46.032 3369 Compacting 4@0 + 1@1 files
-2025/04/14-12:31:46.057 3369 Generated table #178@0: 387 keys, 778458 bytes
-2025/04/14-12:31:46.057 3369 Compacted 4@0 + 1@1 files => 778458 bytes
-2025/04/14-12:31:46.058 3369 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/04/14-12:31:46.058 3369 Delete type=2 #168
-2025/04/14-12:31:46.059 3369 Delete type=2 #170
-2025/04/14-12:31:46.059 3369 Delete type=2 #173
-2025/04/14-12:31:46.059 3369 Delete type=2 #175
-2025/04/14-12:31:46.059 3369 Delete type=2 #177
+2025/04/14-21:58:26.268 25538 Reusing MANIFEST /home/adam/.local/share/qutebrowser/webengine/Local Storage/leveldb/MANIFEST-000001
+2025/04/14-21:58:26.286 25538 Recovering log #182
+2025/04/14-21:58:26.286 25538 Reusing old log /home/adam/.local/share/qutebrowser/webengine/Local Storage/leveldb/000182.log 
+2025/04/14-21:58:39.572 25536 Level-0 table #186: started
+2025/04/14-21:58:39.577 25536 Level-0 table #186: 92410 bytes OK
+2025/04/14-21:58:39.579 25536 Delete type=0 #182
+2025/04/14-22:06:00.090 25534 Level-0 table #188: started
+2025/04/14-22:06:00.092 25534 Level-0 table #188: 31715 bytes OK
+2025/04/14-22:06:00.094 25534 Delete type=0 #185
+2025/04/14-22:06:00.094 25534 Compacting 4@0 + 1@1 files
+2025/04/14-22:06:00.105 25534 Generated table #189@0: 389 keys, 796574 bytes
+2025/04/14-22:06:00.105 25534 Compacted 4@0 + 1@1 files => 796574 bytes
+2025/04/14-22:06:00.106 25534 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/04/14-22:06:00.106 25534 Delete type=2 #178
+2025/04/14-22:06:00.106 25534 Delete type=2 #181
+2025/04/14-22:06:00.106 25534 Delete type=2 #183
+2025/04/14-22:06:00.106 25534 Delete type=2 #186
+2025/04/14-22:06:00.106 25534 Delete type=2 #188

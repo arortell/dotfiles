@@ -6,7 +6,7 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2025-04-13T16:23:55'
+      last_visited: '2025-04-14T21:28:27'
       pinned: false
       scroll-pos:
         x: 0
@@ -16,7 +16,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2025-04-13T16:23:55'
+      last_visited: '2025-04-14T21:28:25'
       pinned: false
       scroll-pos:
         x: 0
@@ -26,22 +26,40 @@ windows:
       zoom: 1.0
   - active: true
     history:
-    - last_visited: '2025-04-13T16:23:56'
+    - last_visited: '2025-04-14T21:28:43'
       pinned: false
-      title: prevent picom from making lemobar ttransparent - Google Search
-      url: https://www.google.com/search?q=prevent%20picom%20from%20making%20lemobar%20ttransparent
+      title: 'floating window not working anymore · Issue #1585 · herbstluftwm/herbstluftwm'
+      url: https://github.com/herbstluftwm/herbstluftwm/issues/1585
+    - last_visited: '2025-04-14T21:33:34'
+      pinned: false
+      title: blackarch installer - Google Search
+      url: https://www.google.com/search?q=blackarch%20installer
+    - last_visited: '2025-04-14T21:34:25'
+      pinned: false
+      title: 'BlackArch/blackarch-installer: The official BlackArch Linux installer'
+      url: https://github.com/BlackArch/blackarch-installer
     - active: true
-      last_visited: '2025-04-13T16:24:06'
+      last_visited: '2025-04-14T21:34:34'
       pinned: false
       scroll-pos:
         x: 0
-        y: 240
-      title: command to lock from terminal - Google Search
-      url: https://www.google.com/search?q=command%20to%20lock%20from%20terminal
+        y: 33161
+      title: blackarch-installer/blackarch-install at master · BlackArch/blackarch-installer
+      url: https://github.com/BlackArch/blackarch-installer/blob/master/blackarch-install
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2025-04-13T16:23:57'
+      last_visited: '2025-04-14T21:28:25'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Floating dialogs : r/herbstluftwm'
+      url: https://www.reddit.com/r/herbstluftwm/comments/i2x9yt/floating_dialogs/
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-04-14T21:28:32'
       pinned: false
       scroll-pos:
         x: 0
@@ -51,7 +69,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2025-04-13T16:23:57'
+      last_visited: '2025-04-14T21:28:32'
       pinned: false
       scroll-pos:
         x: 0
@@ -62,7 +80,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2025-04-13T16:23:55'
+      last_visited: '2025-04-14T21:28:25'
       pinned: false
       scroll-pos:
         x: 0
@@ -73,7 +91,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2025-04-13T16:23:56'
+      last_visited: '2025-04-14T21:28:33'
       pinned: false
       scroll-pos:
         x: 0
@@ -83,7 +101,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2025-04-13T16:23:58'
+      last_visited: '2025-04-14T21:28:32'
       pinned: false
       scroll-pos:
         x: 0
@@ -93,7 +111,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2025-04-13T16:23:56'
+      last_visited: '2025-04-14T21:28:33'
       pinned: false
       scroll-pos:
         x: 0

@@ -184,9 +184,9 @@ hc keybind XF86AudioMute spawn amixer set Master toggle
 # Scripts
 hc keybind $Mod+Shift+m spawn "$BIN"/maximize.sh # similar monocle in bspwm
 
-# ScratchPads
+# Dropdown Terminals
 hc keybind F1 spawn "$BIN"/q3terminal.sh
-hc keybind F12 spawn "$BIN"/scratchpad.sh
+hc keybind F12 spawn "$BIN"/yazi.sh
 
 # theme
 hc attr theme.tiling.reset 1
@@ -228,8 +228,9 @@ hc rule class=qutebrowser tag=web
 hc rule focus=on # normally focus new clients
 hc rule switchtag=on #switch to tag just opened
 hc rule class=_scratch fullscreen=on
-hc rule class='[Tt]rayer' manage=off
+hc rule class='stalonetray' manage=off
 hc rule class='zenity' floating=on floatplacement=center
+hc rule class='Dunst' floating=on floatplacement=center
 hc rule fixedsize floating=on
 
 
