@@ -177,9 +177,11 @@ hc keybind $Mod+Shift-c cycle
 hc keybind $Mod-i jumpto urgent
 
 # Audio Keys
-hc keybind XF86AudioRaiseVolume spawn amixer set Master 2%+
-hc keybind XF86AudioLowerVolume spawn amixer set Master 2%-
-hc keybind XF86AudioMute spawn amixer set Master toggle
+# Call a script to display bar in dunst
+hc keybind XF86AudioRaiseVolume spawn changeVolume 2dB+ unmute
+hc keybind XF86AudioLowerVolume spawn changeVolume 2dB- unmute
+hc keybind XF86AudioMute spawn changeVolume toggle
+ 
 
 # Scripts
 hc keybind $Mod+Shift+m spawn "$BIN"/maximize.sh # similar monocle in bspwm
@@ -201,7 +203,7 @@ hc set frame_bg_transparent 1
 hc set frame_transparent_width 0
 
 ##### might need to change back to 0
-#hc set frame_gap 
+hc set frame_gap 1 
 
 hc attr theme.active.color '#8888FF'
 hc attr theme.normal.color '#000000'
@@ -216,7 +218,7 @@ hc attr theme.active.inner_color '#3E4A00'
 hc attr theme.active.outer_color '#3E4A00'
 hc attr theme.background_color '#141414'
 
-hc set window_gap 2
+hc set window_gap 1
 hc set frame_padding 0
 hc set smart_window_surroundings 0
 hc set smart_frame_surroundings 1
