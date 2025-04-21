@@ -501,13 +501,13 @@ c.backend = 'webengine'
 ##   - lightness-cielab: Modify colors by converting them to CIELAB color space and inverting the L value. Not available with Qt < 5.14.
 ##   - lightness-hsl: Modify colors by converting them to the HSL color space and inverting the lightness (i.e. the "L" in HSL).
 ##   - brightness-rgb: Modify colors by subtracting each of r, g, and b from their maximum value.
-c.colors.webpage.darkmode.algorithm = 'lightness-cielab'
+#c.colors.webpage.darkmode.algorithm = 'lightness-cielab'
 
 ## Contrast for dark mode. This only has an effect when
 ## `colors.webpage.darkmode.algorithm` is set to `lightness-hsl` or
 ## `brightness-rgb`.
 ## Type: Float
-c.colors.webpage.darkmode.contrast = 0.0
+#c.colors.webpage.darkmode.contrast = 0.0
 
 ## Render all web contents using a dark theme. On QtWebEngine < 6.7, this
 ## setting requires a restart and does not support URL patterns, only the
@@ -526,7 +526,7 @@ c.colors.webpage.darkmode.enabled = True
 ##   - never: Never apply dark mode filter to any images.
 ##   - smart: Apply dark mode based on image content. Not available with Qt 5.15.0.
 ##   - smart-simple: On QtWebEngine 6.6, use a simpler algorithm for smart mode (based on numbers of colors and transparency), rather than an ML-based model. Same as 'smart' on older QtWebEnigne versions.
-c.colors.webpage.darkmode.policy.images = 'smart'
+#c.colors.webpage.darkmode.policy.images = 'smart'
 
 ## Which pages to apply dark mode to. The underlying Chromium setting has
 ## been removed in QtWebEngine 5.15.3, thus this setting is ignored
@@ -544,14 +544,14 @@ c.colors.webpage.darkmode.policy.page = 'smart'
 ## behavior is the opposite of
 ## `colors.webpage.darkmode.threshold.foreground`!
 ## Type: Int
-c.colors.webpage.darkmode.threshold.background = 0
+#c.colors.webpage.darkmode.threshold.background = 0
 
 ## Threshold for inverting text with dark mode. Text colors with
 ## brightness below this threshold will be inverted, and above it will be
 ## left as in the original, non-dark-mode page. Set to 256 to always
 ## invert text color or to 0 to never invert text color.
 ## Type: Int
-c.colors.webpage.darkmode.threshold.foreground = 256
+#c.colors.webpage.darkmode.threshold.foreground = 256
 
 ## Value to use for `prefers-color-scheme:` for websites. The "light"
 ## value is only available with QtWebEngine 5.15.2+. On older versions,
@@ -2259,8 +2259,7 @@ config.bind('<Ctrl-f>', 'prompt-fileselect-external', mode='prompt')
 config.bind('<Shift-C>', 'hint code userscript code_select.py')
 
 # Theme
-config.source('themes/gruvbox.py')
-
+config.source('themes/onedark.py')
 
 
 # config.bind("'", 'mode-enter jump_mark')
