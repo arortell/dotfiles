@@ -14,158 +14,88 @@ windows:
       title: ⚙️ Configuration | LazyVim
       url: http://www.lazyvim.org/configuration
       zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2025-04-22T09:10:58'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Core Plugins | LazyVim
-      url: http://www.lazyvim.org/plugins
-      zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2025-04-22T09:10:58'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 120
-      title: "\U0001F4F0 What's new? | LazyVim"
-      url: http://www.lazyvim.org/news
-      zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2025-04-22T09:10:53'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: ⌨️ Keymaps | LazyVim
-      url: http://www.lazyvim.org/keymaps
-      zoom: 1.0
   - active: true
     history:
-    - last_visited: '2025-04-22T09:25:18'
+    - last_visited: '2025-04-22T11:47:58'
+      pinned: false
+      title: python os functions - Google Search
+      url: https://www.google.com/search?q=python%20os%20functions
+    - last_visited: '2025-04-22T11:49:13'
+      pinned: false
+      title: git lfs is not pushoingf - Google Search
+      url: https://www.google.com/search?q=git%20lfs%20is%20not%20pushoingf
+    - last_visited: '2025-04-22T11:49:19'
+      pinned: false
+      title: git - LFS File not pushing - Stack Overflow
+      url: https://stackoverflow.com/questions/70441254/lfs-file-not-pushing
+    - last_visited: '2025-04-22T12:02:22'
+      pinned: false
+      title: arortell (Adam ortell)
+      url: https://github.com/arortell
+    - last_visited: '2025-04-22T12:02:28'
       pinned: false
       title: 'arortell/dotfiles: My dotfiles'
       url: https://github.com/arortell/dotfiles
-    - last_visited: '2025-04-22T09:26:20'
+    - last_visited: '2025-04-22T12:02:55'
       pinned: false
-      title: adding new files to git - Google Search
-      url: https://www.google.com/search?q=adding%20new%20files%20to%20git
-    - last_visited: '2025-04-22T09:26:30'
+      title: dotfiles/nvim at master · arortell/dotfiles
+      url: https://github.com/arortell/dotfiles/tree/master/nvim
+    - last_visited: '2025-04-22T12:02:58'
       pinned: false
-      title: Adding a file to a repository - GitHub Docs
-      url: https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
-    - last_visited: '2025-04-22T10:49:37'
+      title: dotfiles/nvim/.config/nvim at master · arortell/dotfiles
+      url: https://github.com/arortell/dotfiles/tree/master/nvim/.config/nvim
+    - last_visited: '2025-04-22T12:03:02'
       pinned: false
-      title: how big can a git repo be - Google Search
-      url: https://www.google.com/search?q=how%20big%20can%20a%20git%20repo%20be
-    - last_visited: '2025-04-22T10:50:03'
+      title: dotfiles/nvim/.config/nvim/lua at master · arortell/dotfiles
+      url: https://github.com/arortell/dotfiles/tree/master/nvim/.config/nvim/lua
+    - last_visited: '2025-04-22T12:03:05'
       pinned: false
-      title: ohow to use git lfs - Google Search
-      url: https://www.google.com/search?q=ohow%20to%20use%20git%20lfs
+      title: dotfiles/nvim/.config/nvim at master · arortell/dotfiles
+      url: https://github.com/arortell/dotfiles/tree/master/nvim/.config/nvim
+    - last_visited: '2025-04-22T12:03:06'
+      pinned: false
+      title: dotfiles/nvim/.config at master · arortell/dotfiles
+      url: https://github.com/arortell/dotfiles/tree/master/nvim/.config
+    - last_visited: '2025-04-22T12:03:07'
+      pinned: false
+      title: dotfiles/nvim at master · arortell/dotfiles
+      url: https://github.com/arortell/dotfiles/tree/master/nvim
     - active: true
-      last_visited: '2025-04-22T11:07:02'
+      last_visited: '2025-04-22T12:03:10'
       pinned: false
       scroll-pos:
         x: 0
-        y: 1460
-      title: Git Large File Storage | Git Large File Storage (LFS) replaces large
-        files such as audio samples, videos, datasets, and graphics with text pointers
-        inside Git, while storing the file contents on a remote server like GitHub.com
-        or GitHub Enterprise.
-      url: https://git-lfs.com/
+        y: 60
+      title: dotfiles/ at master · arortell/dotfiles
+      url: https://github.com/arortell/dotfiles/tree/master
       zoom: 1.0
   - history:
-    - last_visited: '2025-04-22T10:11:01'
+    - last_visited: '2025-04-22T11:48:14'
       pinned: false
-      title: what is lean language - Google Search
-      url: https://www.google.com/search?q=what%20is%20lean%20language
-    - last_visited: '2025-04-22T10:11:22'
-      pinned: false
-      title: what is markdown lang - Google Search
-      url: https://www.google.com/search?q=what%20is%20markdown%20lang
-    - last_visited: '2025-04-22T10:11:36'
-      pinned: false
-      title: markdown linux arch - Google Search
-      url: https://www.google.com/search?q=markdown%20linux%20arch
-    - last_visited: '2025-04-22T10:11:55'
-      pinned: false
-      title: does markdown need to be installed arch linux - Google Search
-      url: https://www.google.com/search?q=does%20markdown%20need%20to%20be%20installed%20arch%20linux
-    - last_visited: '2025-04-22T10:14:11'
-      pinned: false
-      title: mason lsp faile to install nl lazy nvim - Google Search
-      url: https://www.google.com/search?q=mason%20lsp%20faile%20to%20install%20nl%20lazy%20nvim
-    - last_visited: '2025-04-22T10:14:34'
-      original-url: https://lazyvim.github.io/plugins/lsp
-      pinned: false
-      title: LSP | LazyVim
-      url: http://www.lazyvim.org/plugins/lsp
-    - last_visited: '2025-04-22T10:15:24'
-      pinned: false
-      title: what is the leader key lazy vim - Google Search
-      url: https://www.google.com/search?q=what%20is%20the%20leader%20key%20lazy%20vim
+      title: OS Module in Python with Examples | GeeksforGeeks
+      url: https://www.geeksforgeeks.org/os-module-python-examples/
     - active: true
-      last_visited: '2025-04-22T10:16:25'
+      last_visited: '2025-04-22T12:01:10'
       pinned: false
       scroll-pos:
         x: 0
-        y: 720
-      title: ⌨️ Keymaps | LazyVim
-      url: http://www.lazyvim.org/keymaps
+        y: 1640
+      title: OS Module in Python with Examples | GeeksforGeeks
+      url: https://www.geeksforgeeks.org/os-module-python-examples/#
       zoom: 1.0
   - history:
-    - last_visited: '2025-04-22T10:36:12'
+    - last_visited: '2025-04-22T11:55:48'
       pinned: false
-      title: https://windsurf.com/profile?response_type=token&redirect_uri=vim-show-auth-token&state=cb9c1a5b-6910-4fb2-b457-a9c72a392d90&scope=openid%20profile%20email&redirect_parameters_type=query
-      url: https://windsurf.com/profile?response_type=token&redirect_uri=vim-show-auth-token&state=cb9c1a5b-6910-4fb2-b457-a9c72a392d90&scope=openid%20profile%20email&redirect_parameters_type=query
+      title: updates were rejected becauyse the tip of your current is behind - Google
+        Search
+      url: https://www.google.com/search?q=updates%20were%20rejected%20becauyse%20the%20tip%20of%20your%20current%20is%20behind
     - active: true
-      last_visited: '2025-04-22T10:36:13'
+      last_visited: '2025-04-22T11:56:03'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: Provide Authentication Token to Vim / Neovim | Windsurf (formerly Codeium)
-      url: https://windsurf.com/vim-show-auth-token?state=cb9c1a5b-6910-4fb2-b457-a9c72a392d90&access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NzA4MWNhOWNiYjM3YzIzNDk4ZGQzOTQzYmYzNzFhMDU4ODNkMjgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZXhhMi1mYjE3MCIsImF1ZCI6ImV4YTItZmIxNzAiLCJhdXRoX3RpbWUiOjE3NDUzMzEzMzIsInVzZXJfaWQiOiJ2dzZFZnpuN044VmUya3Q1MDdzczlnTzZVbGwyIiwic3ViIjoidnc2RWZ6bjdOOFZlMmt0NTA3c3M5Z082VWxsMiIsImlhdCI6MTc0NTMzNjE3MSwiZXhwIjoxNzQ1MzM5NzcxLCJlbWFpbCI6ImIxNGNrNXQ0ckBwcm90b24ubWUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJiMTRjazV0NHJAcHJvdG9uLm1lIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.N7dWqJCxDzvbTwheqIx7kY8tmMpC-V98QkJNdHQ7vP85iXMIh_-SIU-z5GXGNXa_VVn0G_W0dpFVCeGmtlcquqoC02g0j57zfqnUPmaQa_kueAGcuBAkHuJsjaiJ0FnoqUheIXzknxbte3fCykuEUXFdGmY2Sy7wF6DVLyg3V2WPgJ514swJ9BB5PUzFxfypncTLO1vWJYDB5yrl-4dH1oF7foR__KDl_W80rPfBdsYMVH4W_dmv6pwOnav-pEracTDGHF0fHajzuNRWVDVeteWuwELwmKcwpcMDs317VA-S9SiBjJOJ4H-z5sPACJ8toKdVL4zzPjzfCng_ksr1MQ
-      zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2025-04-22T10:36:49'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 820
-      title: codeium keeps saying tok is incorrect - Google Search
-      url: https://www.google.com/search?q=codeium%20keeps%20saying%20tok%20is%20incorrect
-      zoom: 1.0
-  - history:
-    - last_visited: '2025-04-22T10:37:28'
-      pinned: false
-      title: https://windsurf.com/profile?response_type=token&redirect_uri=vim-show-auth-token&state=cb9c1a5b-6910-4fb2-b457-a9c72a392d90&scope=openid%20profile%20email&redirect_parameters_type=query
-      url: https://windsurf.com/profile?response_type=token&redirect_uri=vim-show-auth-token&state=cb9c1a5b-6910-4fb2-b457-a9c72a392d90&scope=openid%20profile%20email&redirect_parameters_type=query
-    - active: true
-      last_visited: '2025-04-22T10:37:29'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Provide Authentication Token to Vim / Neovim | Windsurf (formerly Codeium)
-      url: https://windsurf.com/vim-show-auth-token?state=cb9c1a5b-6910-4fb2-b457-a9c72a392d90&access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NzA4MWNhOWNiYjM3YzIzNDk4ZGQzOTQzYmYzNzFhMDU4ODNkMjgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZXhhMi1mYjE3MCIsImF1ZCI6ImV4YTItZmIxNzAiLCJhdXRoX3RpbWUiOjE3NDUzMzEzMzIsInVzZXJfaWQiOiJ2dzZFZnpuN044VmUya3Q1MDdzczlnTzZVbGwyIiwic3ViIjoidnc2RWZ6bjdOOFZlMmt0NTA3c3M5Z082VWxsMiIsImlhdCI6MTc0NTMzNjI0NywiZXhwIjoxNzQ1MzM5ODQ3LCJlbWFpbCI6ImIxNGNrNXQ0ckBwcm90b24ubWUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJiMTRjazV0NHJAcHJvdG9uLm1lIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.SNHR5Ilod6uGNeRJKn7G7jxnANcd_I5T9hs27jrAE2tOZaxgLCyFOJMtydlk_EUABopTHTbcU1pRX3JHno73VssofTXgxtBgqW3hINgJ8od5h9BHUr24mOkge-N-lItb09EvhAVpNRVAGIo9ioRI96-QnoLyahtaCFdJDWOzVaPV0KUCtu74y5WLRcjRBzi9NUdMxIsTxLnSBFeTTd6WFWIMnSTSowDoNEKrThy5bCqLL2A50NoHxIr9gRgmnLLTnAB28Fxg4mbMGaXz3dDvbYFTPskHB-t0itfEUzJQHAedTkkf_R0NvS9y6obfYoMt1qQllt5-dAosdTicgfIpvQ
-      zoom: 1.0
-  - history:
-    - last_visited: '2025-04-22T11:04:11'
-      pinned: false
-      title: https://windsurf.com/profile?response_type=token&redirect_uri=vim-show-auth-token&state=9c1a5b69-10fb-42f4-97a9-c72a392d90d0&scope=openid%20profile%20email&redirect_parameters_type=query
-      url: https://windsurf.com/profile?response_type=token&redirect_uri=vim-show-auth-token&state=9c1a5b69-10fb-42f4-97a9-c72a392d90d0&scope=openid%20profile%20email&redirect_parameters_type=query
-    - active: true
-      last_visited: '2025-04-22T11:04:15'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Provide Authentication Token to Vim / Neovim | Windsurf (formerly Codeium)
-      url: https://windsurf.com/vim-show-auth-token?state=9c1a5b69-10fb-42f4-97a9-c72a392d90d0&access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NzA4MWNhOWNiYjM3YzIzNDk4ZGQzOTQzYmYzNzFhMDU4ODNkMjgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZXhhMi1mYjE3MCIsImF1ZCI6ImV4YTItZmIxNzAiLCJhdXRoX3RpbWUiOjE3NDUzMzEzMzIsInVzZXJfaWQiOiJ2dzZFZnpuN044VmUya3Q1MDdzczlnTzZVbGwyIiwic3ViIjoidnc2RWZ6bjdOOFZlMmt0NTA3c3M5Z082VWxsMiIsImlhdCI6MTc0NTMzNzg1MywiZXhwIjoxNzQ1MzQxNDUzLCJlbWFpbCI6ImIxNGNrNXQ0ckBwcm90b24ubWUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJiMTRjazV0NHJAcHJvdG9uLm1lIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.bHJiKu-qq--cNXxRryKZT37Z8Qna3z3vg8PRg9p9QJlwkuteg7Sj4UNiBEpCXiplAnWgUZ3ehJ0mxqbT5nacS12YYjZRsqkOKzYGIG3sEdivANoQp8a8xVq7dKbs6WHmA-W7tCfpsk6QrAyzCeskfcQX0E2Tvtjxw5ww1b-ssdxFMwpYKKaKiX4zVZbfFZZZvJvzR0UpfEFy-ULeC04HRYVY2cgXIlM7CvtLtxqWLUXVsewCpe5xhH4wUB61rBJrEIcSwH5N3lOpqs6lKTlXXFOMXJepnRlN9rIFwNNIyZCI72hwdMyvqumExGAQA8desKeU2AcdayN9KrnlnRTBDw
+        y: 600
+      title: git - Updates were rejected because the tip of your current branch is
+        behind its remote counterpart - Stack Overflow
+      url: https://stackoverflow.com/questions/39399804/updates-were-rejected-because-the-tip-of-your-current-branch-is-behind-its-remot
       zoom: 1.0

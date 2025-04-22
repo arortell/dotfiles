@@ -1,9 +1,3 @@
-:open succade lemonbar
-:open -t what is the wintype of a panel lemonbar
-:open command to lock from terminal
-:open make zenity dialogs float herbsluftwm
-:open blackarch installer
-:open theming dunst dark theme
 :open gruvbox dunst
 :open changing dunst colors
 :open red hexadecimal color
@@ -98,3 +92,9 @@
 :open how big can a git repo be
 :open ohow to use git lfs
 :openlazy vim codeium keepos saying invalid tok
+:open  git lsf will not push my repo
+:open -t Updates were rejected because the tip of your current branch is behind
+:open -t python os functions
+:open git lfs is not pushoingf
+:open -t updates were rejected becauyse the tip of your current is behind
+:open github.com/arortell
