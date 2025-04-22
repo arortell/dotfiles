@@ -1,4 +1,3 @@
-:succade lemonbar
 :open succade lemonbar
 :open -t what is the wintype of a panel lemonbar
 :open command to lock from terminal
@@ -98,3 +97,4 @@
 :open -t codeium keeps saying tok is incorrect
 :open how big can a git repo be
 :open ohow to use git lfs
+:openlazy vim codeium keepos saying invalid tok

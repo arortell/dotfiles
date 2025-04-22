@@ -1,5 +1,6 @@
 windows:
-- geometry: !!binary |
+- active: true
+  geometry: !!binary |
     AdnQywADAAAAAAABAAAAFAAAA74AAAQ2AAAAAgAAABUAAAO9AAAENQAAAAAAAAAAB4AAAAACAAAA
     FQAAA70AAAQ1
   tabs:
@@ -61,14 +62,21 @@ windows:
       pinned: false
       title: how big can a git repo be - Google Search
       url: https://www.google.com/search?q=how%20big%20can%20a%20git%20repo%20be
+    - last_visited: '2025-04-22T10:50:03'
+      pinned: false
+      title: ohow to use git lfs - Google Search
+      url: https://www.google.com/search?q=ohow%20to%20use%20git%20lfs
     - active: true
-      last_visited: '2025-04-22T10:50:03'
+      last_visited: '2025-04-22T11:07:02'
       pinned: false
       scroll-pos:
         x: 0
-        y: 1720
-      title: ohow to use git lfs - Google Search
-      url: https://www.google.com/search?q=ohow%20to%20use%20git%20lfs
+        y: 1460
+      title: Git Large File Storage | Git Large File Storage (LFS) replaces large
+        files such as audio samples, videos, datasets, and graphics with text pointers
+        inside Git, while storing the file contents on a remote server like GitHub.com
+        or GitHub Enterprise.
+      url: https://git-lfs.com/
       zoom: 1.0
   - history:
     - last_visited: '2025-04-22T10:11:01'
@@ -146,4 +154,18 @@ windows:
         y: 0
       title: Provide Authentication Token to Vim / Neovim | Windsurf (formerly Codeium)
       url: https://windsurf.com/vim-show-auth-token?state=cb9c1a5b-6910-4fb2-b457-a9c72a392d90&access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NzA4MWNhOWNiYjM3YzIzNDk4ZGQzOTQzYmYzNzFhMDU4ODNkMjgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZXhhMi1mYjE3MCIsImF1ZCI6ImV4YTItZmIxNzAiLCJhdXRoX3RpbWUiOjE3NDUzMzEzMzIsInVzZXJfaWQiOiJ2dzZFZnpuN044VmUya3Q1MDdzczlnTzZVbGwyIiwic3ViIjoidnc2RWZ6bjdOOFZlMmt0NTA3c3M5Z082VWxsMiIsImlhdCI6MTc0NTMzNjI0NywiZXhwIjoxNzQ1MzM5ODQ3LCJlbWFpbCI6ImIxNGNrNXQ0ckBwcm90b24ubWUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJiMTRjazV0NHJAcHJvdG9uLm1lIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.SNHR5Ilod6uGNeRJKn7G7jxnANcd_I5T9hs27jrAE2tOZaxgLCyFOJMtydlk_EUABopTHTbcU1pRX3JHno73VssofTXgxtBgqW3hINgJ8od5h9BHUr24mOkge-N-lItb09EvhAVpNRVAGIo9ioRI96-QnoLyahtaCFdJDWOzVaPV0KUCtu74y5WLRcjRBzi9NUdMxIsTxLnSBFeTTd6WFWIMnSTSowDoNEKrThy5bCqLL2A50NoHxIr9gRgmnLLTnAB28Fxg4mbMGaXz3dDvbYFTPskHB-t0itfEUzJQHAedTkkf_R0NvS9y6obfYoMt1qQllt5-dAosdTicgfIpvQ
+      zoom: 1.0
+  - history:
+    - last_visited: '2025-04-22T11:04:11'
+      pinned: false
+      title: https://windsurf.com/profile?response_type=token&redirect_uri=vim-show-auth-token&state=9c1a5b69-10fb-42f4-97a9-c72a392d90d0&scope=openid%20profile%20email&redirect_parameters_type=query
+      url: https://windsurf.com/profile?response_type=token&redirect_uri=vim-show-auth-token&state=9c1a5b69-10fb-42f4-97a9-c72a392d90d0&scope=openid%20profile%20email&redirect_parameters_type=query
+    - active: true
+      last_visited: '2025-04-22T11:04:15'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Provide Authentication Token to Vim / Neovim | Windsurf (formerly Codeium)
+      url: https://windsurf.com/vim-show-auth-token?state=9c1a5b69-10fb-42f4-97a9-c72a392d90d0&access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NzA4MWNhOWNiYjM3YzIzNDk4ZGQzOTQzYmYzNzFhMDU4ODNkMjgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZXhhMi1mYjE3MCIsImF1ZCI6ImV4YTItZmIxNzAiLCJhdXRoX3RpbWUiOjE3NDUzMzEzMzIsInVzZXJfaWQiOiJ2dzZFZnpuN044VmUya3Q1MDdzczlnTzZVbGwyIiwic3ViIjoidnc2RWZ6bjdOOFZlMmt0NTA3c3M5Z082VWxsMiIsImlhdCI6MTc0NTMzNzg1MywiZXhwIjoxNzQ1MzQxNDUzLCJlbWFpbCI6ImIxNGNrNXQ0ckBwcm90b24ubWUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJiMTRjazV0NHJAcHJvdG9uLm1lIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.bHJiKu-qq--cNXxRryKZT37Z8Qna3z3vg8PRg9p9QJlwkuteg7Sj4UNiBEpCXiplAnWgUZ3ehJ0mxqbT5nacS12YYjZRsqkOKzYGIG3sEdivANoQp8a8xVq7dKbs6WHmA-W7tCfpsk6QrAyzCeskfcQX0E2Tvtjxw5ww1b-ssdxFMwpYKKaKiX4zVZbfFZZZvJvzR0UpfEFy-ULeC04HRYVY2cgXIlM7CvtLtxqWLUXVsewCpe5xhH4wUB61rBJrEIcSwH5N3lOpqs6lKTlXXFOMXJepnRlN9rIFwNNIyZCI72hwdMyvqumExGAQA8desKeU2AcdayN9KrnlnRTBDw
       zoom: 1.0
