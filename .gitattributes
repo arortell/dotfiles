@@ -1,2 +1,4 @@
+nvim/.local/share/nvim/mason/packages/codelldb/extension/lldb/lib/liblldb.so filter=lfs diff=lfs merge=lfs -text
+nvim/.local/share/nvim/mason/packages/clangd/clangd_20.1.0/bin/clangd filter=lfs diff=lfs merge=lfs -text
 *.so filter=lfs diff=lfs merge=lfs -text
 clangd filter=lfs diff=lfs merge=lfs -text
