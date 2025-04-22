@@ -1,0 +1,65 @@
+#!/usr/bin/env bash
+# ===============================================================================
+#
+#        AUTHOR: b14ckr41n
+#          FILE:
+#   DESCRIPTION:
+#       OPTIONS:
+#  DEPENDENCIES:
+#       CREATED:
+#      REVISION:
+#          TODO: Add Some Icons, FIND AND OPEN A FILE IN EMACS
+#         FIXME:
+# ===============================================================================
+set -o nounset                                  # Treat unset variables as an error
+
+# Menu Options
+main="* Main Menu"
+man="* Man Pages"
+sr="* Surfraw"
+bit="* BitWarden"
+screen="* ScreenShot"
+usb="* Udiskie"
+sys="* Systemd Services"
+lock="* Lock"
+logout="* Logout"
+shutdown="* Shutdown"
+
+# string to pass to rofi
+options="$main\n$man\n$sr\n$bit\n$screen\n$usb\n$sys\n$lock\n$logout\n$shutdown"
+selected="$(echo -e "$options" | rofi "Control+space" -dmenu -i -p "CPU: $(usedcpu -i) RAM: $(usedram -i)")"
+
+[ -z "$selected" ] && exit 0
+
+case "$selected" in
+    "$main")
+        run-rofi
+        ;;
+    "$man")
+        rofi-man
+        ;;
+    "$sr")
+        rofi-surfraw
+        ;;
+    "$bit")
+        bwmenu
+        ;;
+    "$screen")
+        scrotmenu
+        ;;
+    "$usb")
+        udiskie-dmenu
+        ;;
+    "$sys")
+        dctl
+        ;;
+    "$lock")
+        i3lock-fancy -t "Fuck You" -f "Terminus-(TTF)"
+        ;;
+    "$logout")
+        herbstclient quit
+        ;;
+    "$shutdown")
+        systemctl poweroff
+        ;;
+esac

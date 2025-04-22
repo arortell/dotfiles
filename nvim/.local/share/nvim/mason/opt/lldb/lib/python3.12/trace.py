@@ -1,0 +1,1 @@
+/home/adam/.local/share/nvim/mason/packages/codelldb/extension/lldb/lib/python3.12/trace.py

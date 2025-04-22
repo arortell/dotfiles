@@ -1,0 +1,35 @@
+#!/bin/bash -
+#===============================================================================
+#
+#          FILE: nm_connect.sh
+#
+#         USAGE: ./nm_connect.sh
+#
+#   DESCRIPTION: 
+#
+#       OPTIONS: ---
+#  REQUIREMENTS: ---
+#          BUGS: ---
+#         NOTES: ---
+#        AUTHOR: Adam Ortell (), arortell80@gmail.com
+#  ORGANIZATION: 
+#       CREATED: 08/23/2018 12:10:47 PM
+#      REVISION:  ---
+#===============================================================================
+
+set -o nounset                                  # Treat unset variables as an error
+set -eo pipefail                                # exit if ANY command fails,errors from pipe
+
+progname="$(basename "$0")"                     # name of script
+
+if [ $# -ne 2 ]; then
+  echo 'Usage ./nm_connect ssid password'
+  exit 1
+fi 
+
+if nmcli device wifi connect "$1" password "$2"; then
+    echo "Connected.."
+
+else 
+  echo "Connection failed.."
+fi

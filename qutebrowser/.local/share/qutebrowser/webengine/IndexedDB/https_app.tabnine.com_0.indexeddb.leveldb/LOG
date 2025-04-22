@@ -1,0 +1,13 @@
+2025/04/21-22:57:24.608 2bb2 Reusing MANIFEST /home/adam/.local/share/qutebrowser/webengine/IndexedDB/https_app.tabnine.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/21-22:57:24.608 2bb2 Recovering log #11
+2025/04/21-22:57:24.608 2bb2 Reusing old log /home/adam/.local/share/qutebrowser/webengine/IndexedDB/https_app.tabnine.com_0.indexeddb.leveldb/000011.log 
+2025/04/21-22:57:24.612 2bbb Level-0 table #16: started
+2025/04/21-22:57:24.613 2bbb Level-0 table #16: 6708 bytes OK
+2025/04/21-22:57:24.614 2bbb Delete type=0 #11
+2025/04/21-22:57:24.614 2bb3 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/04/21-22:58:11.869 2bab Compacting 1@1 + 1@2 files
+2025/04/21-22:58:11.872 2bab Generated table #17@1: 40 keys, 3149 bytes
+2025/04/21-22:58:11.872 2bab Compacted 1@1 + 1@2 files => 3149 bytes
+2025/04/21-22:58:11.874 2bab compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/21-22:58:11.874 2bab Delete type=2 #13
+2025/04/21-22:58:11.874 2bab Delete type=2 #16

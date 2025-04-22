@@ -1,188 +1,73 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAABAAAAFAAAB34AAAQ2AAAAAgAAABUAAAd9AAAENQAAAAAAAAAAB4AAAAACAAAA
-    FQAAB30AAAQ1
+    AdnQywADAAAAAAABAAAAFAAAA74AAAQ2AAAAAgAAABUAAAO9AAAENQAAAAAAAAAAB4AAAAACAAAA
+    FQAAA70AAAQ1
   tabs:
   - history:
     - active: true
-      last_visited: '2025-04-21T16:03:57'
+      last_visited: '2025-04-22T00:51:36'
       pinned: false
       scroll-pos:
         x: 0
-        y: 2440
+        y: 0
+      title: ⚙️ Configuration | LazyVim
+      url: http://www.lazyvim.org/configuration
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-04-22T00:51:36'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Core Plugins | LazyVim
+      url: http://www.lazyvim.org/plugins
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-04-22T00:51:36'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: os — Miscellaneous operating system interfaces — Python 3.13.3 documentation
+      url: https://docs.python.org/3/library/os.html
+      zoom: 1.0
+  - active: true
+    history:
+    - last_visited: '2025-04-22T00:51:37'
+      pinned: false
+      title: alsamixer not cahnging volume on mpv - Google Search
+      url: https://www.google.com/search?q=alsamixer%20not%20cahnging%20volume%20on%20mpv
+    - last_visited: '2025-04-22T00:52:03'
+      pinned: false
+      title: "\U0001F6E0️ Installation | LazyVim"
+      url: http://www.lazyvim.org/installation
+    - active: true
+      last_visited: '2025-04-22T04:14:10'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 40
       title: "\U0001F4F0 What's new? | LazyVim"
       url: http://www.lazyvim.org/news
       zoom: 1.0
   - history:
-    - last_visited: '2025-04-21T16:05:01'
+    - last_visited: '2025-04-22T08:56:14'
       pinned: false
-      title: enabling plugins lazy nvim - Google Search
-      url: https://www.google.com/search?q=enabling%20plugins%20lazy%20nvim
+      title: install R arch linux - Google Search
+      url: https://www.google.com/search?q=install%20R%20arch%20linux
+    - last_visited: '2025-04-22T09:04:18'
+      pinned: false
+      title: leader key ;azy vim - Google Search
+      url: https://www.google.com/search?q=leader%20key%20%3Bazy%20vim
     - active: true
-      last_visited: '2025-04-21T16:09:43'
-      original-url: https://lazyvim.github.io/configuration/plugins
+      last_visited: '2025-04-22T09:04:30'
       pinned: false
       scroll-pos:
         x: 0
-        y: 240
-      title: Plugins | LazyVim
-      url: http://www.lazyvim.org/configuration/plugins
-      zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2025-04-21T16:09:40'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 320
-      title: 'How to add a plugin with lazy.nvim : r/neovim'
-      url: https://www.reddit.com/r/neovim/comments/19btael/how_to_add_a_plugin_with_lazynvim/
-      zoom: 1.0
-  - history:
-    - last_visited: '2025-04-21T16:19:34'
-      pinned: false
-      title: python ide with lazy nvim - Google Search
-      url: https://www.google.com/search?q=python%20ide%20with%20lazy%20nvim
-    - last_visited: '2025-04-21T16:29:58'
-      original-url: https://lazyvim.github.io/extras/lang/python
-      pinned: false
-      title: Python | LazyVim
-      url: http://www.lazyvim.org/extras/lang/python
-    - last_visited: '2025-04-21T16:44:22'
-      pinned: false
-      title: Verify Session
-      url: https://github.com/login/device/select_account
-    - last_visited: '2025-04-21T16:44:26'
-      pinned: false
-      title: Device Activation
-      url: https://github.com/login/device?skip_account_picker=true
-    - last_visited: '2025-04-21T16:44:45'
-      pinned: false
-      title: Authorize GitHub Copilot Plugin
-      url: https://github.com/login/device/confirmation
-    - active: true
-      last_visited: '2025-04-21T16:44:50'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 1520
-      title: Device Activation
-      url: https://github.com/login/device/success
-      zoom: 1.0
-  - history:
-    - last_visited: '2025-04-21T16:45:12'
-      pinned: false
-      title: AI Code Completions for Developers & Teams | Tabnine
-      url: https://app.tabnine.com/auth/sign-up?tabnineUrl=http%3A%2F%2F127.0.0.1%3A1123%2Fsec-cvwmpbglflczzldbfoxl&sync=false&hubSiteUrl=https%3A%2F%2Fhub.tabnine.com%2Fv9%2F%3FtabnineUrl%3Dhttp%3A%2F%2F127.0.0.1%3A1123%2Fsec-cvwmpbglflczzldbfoxl&clientName=nvim&timeStamp=1745271906261816375&action=welcome
-    - last_visited: '2025-04-21T16:45:12'
-      pinned: false
-      title: AI Code Completions for Developers & Teams | Tabnine
-      url: https://app.tabnine.com/signup
-    - last_visited: '2025-04-21T16:45:28'
-      pinned: false
-      title: AI Code Completions for Developers & Teams | Tabnine
-      url: https://app.tabnine.com/auth/sign-up?tabnineUrl=http%3A%2F%2F127.0.0.1%3A1123%2Fsec-cvwmpbglflczzldbfoxl&sync=false&hubSiteUrl=https%3A%2F%2Fhub.tabnine.com%2Fv9%2F%3FtabnineUrl%3Dhttp%3A%2F%2F127.0.0.1%3A1123%2Fsec-cvwmpbglflczzldbfoxl&clientName=nvim&timeStamp=1745271906261816375&action=welcome
-    - active: true
-      last_visited: '2025-04-21T16:45:29'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: AI Code Completions for Developers & Teams | Tabnine
-      url: https://app.tabnine.com/auth/success
-      zoom: 1.0
-  - history:
-    - last_visited: '2025-04-21T16:46:24'
-      pinned: false
-      title: Supermaven
-      url: https://supermaven.com/activate-extension?linkId=3EqFeaqjzmFhftAo45HXwPGdGoxdK8iq
-    - last_visited: '2025-04-21T16:46:27'
-      pinned: false
-      title: Supermaven
-      url: https://supermaven.com/login
-    - last_visited: '2025-04-21T16:46:32'
-      pinned: false
-      title: Authorize application
-      url: https://github.com/login/oauth/authorize?client_id=a235bc929517ea01dd8d&redirect_to=https%3A%2F%2Fsupermaven.com%2Fauth&redirect_uri=https%3A%2F%2Fauth.supermaven.com%2Fauth%2Fv1%2Fcallback&response_type=code&scope=user%3Aemail&state=eyJhbGciOiJIUzI1NiIsImtpZCI6IldIemZLUlRFbGcvWnFtRGoiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NDUyNzIyOTEsInNpdGVfdXJsIjoiaHR0cHM6Ly9zdXBlcm1hdmVuLmNvbSIsImlkIjoiMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwIiwiZnVuY3Rpb25faG9va3MiOm51bGwsInByb3ZpZGVyIjoiZ2l0aHViIiwicmVmZXJyZXIiOiJodHRwczovL3N1cGVybWF2ZW4uY29tL2F1dGgiLCJmbG93X3N0YXRlX2lkIjoiY2EwMjcyNjUtOTY2NC00ZTVmLWJiNzYtMjVkMGU0YjU3NTI3In0.4fpeXWbn7icDO9BJ9JLDewYPTEWPjBc8WqWNZaiz0dc
-    - last_visited: '2025-04-21T16:46:39'
-      pinned: false
-      title: Supermaven
-      url: https://supermaven.com/auth?code=be5574e7-2461-4222-8137-f571b08d7952
-    - last_visited: '2025-04-21T16:46:40'
-      pinned: false
-      title: 'Supermaven: Free AI Code Completion'
-      url: https://supermaven.com/
-    - last_visited: '2025-04-21T16:46:41'
-      pinned: false
-      title: Supermaven
-      url: https://supermaven.com/successful-link-extension
-    - last_visited: '2025-04-21T16:56:27'
-      pinned: false
-      title: About Supermaven
-      url: https://supermaven.com/about
-    - last_visited: '2025-04-21T16:56:59'
-      pinned: false
-      title: copiolt AI linux nvim - Google Search
-      url: https://www.google.com/search?q=copiolt%20AI%20linux%20nvim
-    - last_visited: '2025-04-21T16:57:56'
-      pinned: false
-      title: lazy nvim using tab for comnpletion instead of enter - Google Search
-      url: https://www.google.com/search?q=lazy%20nvim%20using%20tab%20for%20comnpletion%20instead%20of%20enter
-    - active: true
-      last_visited: '2025-04-21T16:58:04'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 560
-      title: 'Adding tab completion to LazyVim : r/neovim'
-      url: https://www.reddit.com/r/neovim/comments/10hqu4v/adding_tab_completion_to_lazyvim/
-      zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2025-04-21T16:58:25'
-      original-url: https://lazyvim.github.io/configuration/examples#:~:text=setup%20supertab%20in%20cmp
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Examples | LazyVim
-      url: http://www.lazyvim.org/configuration/examples#:~:text=setup%20supertab%20in%20cmp
-      zoom: 1.0
-  - active: true
-    history:
-    - active: true
-      last_visited: '2025-04-21T17:06:03'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Provide Authentication Token to Vim / Neovim | Windsurf (formerly Codeium)
-      url: https://windsurf.com/vim-show-auth-token?response_type=token&redirect_uri=vim-show-auth-token&state=cb9c1a5b-6910-4fb2-b457-a9c72a392d90&scope=openid+profile+email&redirect_parameters_type=query&access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NzA4MWNhOWNiYjM3YzIzNDk4ZGQzOTQzYmYzNzFhMDU4ODNkMjgiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQWRhbSBvcnRlbGwiLCJwaWN0dXJlIjoiaHR0cHM6Ly9hdmF0YXJzLmdpdGh1YnVzZXJjb250ZW50LmNvbS91Lzc1NTIxNzk_dj00IiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2V4YTItZmIxNzAiLCJhdWQiOiJleGEyLWZiMTcwIiwiYXV0aF90aW1lIjoxNzQ1MjczMTYyLCJ1c2VyX2lkIjoiTWFMWFRjRlZsb2JQbkJkZUpaTkhCMWdVSWdFMyIsInN1YiI6Ik1hTFhUY0ZWbG9iUG5CZGVKWk5IQjFnVUlnRTMiLCJpYXQiOjE3NDUyNzMxNjMsImV4cCI6MTc0NTI3Njc2MywiZW1haWwiOiJhcm9ydGVsbDgwQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnaXRodWIuY29tIjpbIjc1NTIxNzkiXSwiZW1haWwiOlsiYXJvcnRlbGw4MEBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnaXRodWIuY29tIn19.pNI55nwyir66qgVTJ-TyXrV8bDHaoNqV391rCQZnmaLV55KlF8V1fAQeobsGzFek9cjfSI3gTrl9Zg8g-VoMrt-4vqb0WE9o7587MXGvpp_tnXjonIqgP0cB4BHSNEUCVJIVPtvdFByxrEUPW2d1gx5O8Ko5X5XhY2nR5RtXw77U1SnOvYMDIvZJDUz_CxrMi1q3zzKRsP3AS45oVWv2EjpQW_5qbsccOlEunKKsDyarYuH6h49ktHcn1H2VZ_1CyBm7TLnlJvw5DZfSZy0s1HBUvbqttpt1kiDro5gq_Qtsj-20TEO4yiQ4MPdD8LB7KivhxQjh3zIvdGAPOjeiug
-      zoom: 1.0
-  - history:
-    - last_visited: '2025-04-21T17:50:00'
-      pinned: false
-      title: https://windsurf.com/profile?response_type=token&redirect_uri=vim-show-auth-token&state=cb9c1a5b-6910-4fb2-b457-a9c72a392d90&scope=openid%20profile%20email&redirect_parameters_type=query
-      url: https://windsurf.com/profile?response_type=token&redirect_uri=vim-show-auth-token&state=cb9c1a5b-6910-4fb2-b457-a9c72a392d90&scope=openid%20profile%20email&redirect_parameters_type=query
-    - last_visited: '2025-04-21T17:50:02'
-      pinned: false
-      title: Provide Authentication Token to Vim / Neovim | Windsurf (formerly Codeium)
-      url: https://windsurf.com/vim-show-auth-token?state=cb9c1a5b-6910-4fb2-b457-a9c72a392d90&access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NzA4MWNhOWNiYjM3YzIzNDk4ZGQzOTQzYmYzNzFhMDU4ODNkMjgiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQWRhbSBvcnRlbGwiLCJwaWN0dXJlIjoiaHR0cHM6Ly9hdmF0YXJzLmdpdGh1YnVzZXJjb250ZW50LmNvbS91Lzc1NTIxNzk_dj00IiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2V4YTItZmIxNzAiLCJhdWQiOiJleGEyLWZiMTcwIiwiYXV0aF90aW1lIjoxNzQ1MjczMTYyLCJ1c2VyX2lkIjoiTWFMWFRjRlZsb2JQbkJkZUpaTkhCMWdVSWdFMyIsInN1YiI6Ik1hTFhUY0ZWbG9iUG5CZGVKWk5IQjFnVUlnRTMiLCJpYXQiOjE3NDUyNzU4MDEsImV4cCI6MTc0NTI3OTQwMSwiZW1haWwiOiJhcm9ydGVsbDgwQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnaXRodWIuY29tIjpbIjc1NTIxNzkiXSwiZW1haWwiOlsiYXJvcnRlbGw4MEBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnaXRodWIuY29tIn19.CYZGZCdvbHJFDtRxTvxiAUm3rRCuqUF8ZR2wD4UwNQWzT66_CFsOTluv_BeFJlFAs7NJsj57WOwqs_DAXuZakS5w-JEeIPuDDWqr4b4dehr9AuXH4nYoI162OV38Rim8HDSb-ZD99pKOaiDX8jkttLngoeahX1Z8Wz0eWYkZ30FQPhN01Of1jIt9L5E9AudV5T1BZtoBymOPQpYjmgtTnF7j3Goz1SEXOQOY4zCf_jMRWbnHwVrAN9KbnNaPUjGMpTnYmAu4D1sHjxrDH1T1tWmW5q5IJIaVWy66f_Ygyy7O8xTwmyFuOkpo0g0WwGOue1_KjFXkM8yl_in27g5cDw
-    - last_visited: '2025-04-21T17:50:29'
-      pinned: false
-      title: codium nvim plgin - Google Search
-      url: https://www.google.com/search?q=codium%20nvim%20plgin
-    - last_visited: '2025-04-21T17:51:25'
-      pinned: false
-      title: 'Exafunction/windsurf.nvim: A native neovim extension for Codeium'
-      url: https://github.com/Exafunction/windsurf.nvim?tab=readme-ov-file
-    - active: true
-      last_visited: '2025-04-21T17:51:26'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 1320
-      title: Windsurf (formerly Codeium) - The most powerful AI Code Editor
-      url: https://windsurf.com/
+        y: 6680
+      title: ⌨️ Keymaps | LazyVim
+      url: http://www.lazyvim.org/keymaps
       zoom: 1.0

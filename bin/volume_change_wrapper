@@ -1,0 +1,37 @@
+#!/bin/bash -
+#===============================================================================
+#
+#          FILE: volume_change_wrapper.sh
+#
+#         USAGE: ./volume_change_wrapper.sh
+#
+#   DESCRIPTION: 
+#
+#       OPTIONS: ---
+#  REQUIREMENTS: ---
+#          BUGS: ---
+#         NOTES: ---
+#        AUTHOR: Adam Ortell (), arortell80@gmail.com
+#  ORGANIZATION: 
+#       CREATED: 11/08/2018 06:45:05 PM
+#      REVISION:  ---
+#===============================================================================
+
+set -eo pipefail                                # exit if ANY command fails,errors from pipe
+
+progname="$(basename "$0")"                     # name of script
+
+case "$1" in
+  '-' )
+    amixer set Master 2%- && twmnc "Volume lowered to "$(alsavol -d)""
+    ;;
+  '+' ) 
+    amixer set Master 2%+ && twmnc "Volume raised to "$(alsavol -d)""
+    ;;
+  'm' )
+    amixer set Master toogle && twmnc "Volume muted"
+    ;;
+  *)
+    twmnc  "====== ERROR Must pass [-,+m] ======="
+    ;;
+esac

@@ -1,0 +1,406 @@
+2025-03-31 15:54:30 us=107646 DEPRECATED OPTION: --cipher set to 'AES-256-CBC' but missing in --data-ciphers (AES-256-GCM:AES-128-GCM:CHACHA20-POLY1305). OpenVPN ignores --cipher for cipher negotiations. 
+2025-03-31 15:54:30 us=108546 Note: Kernel support for ovpn-dco missing, disabling data channel offload.
+2025-03-31 15:54:30 us=108563 WARNING: file '/usr/local/cyberghost/certs/openvpn/client.key' is group or others accessible
+2025-03-31 15:54:30 us=108572 Current Parameter Settings:
+2025-03-31 15:54:30 us=108576   config = '[UNDEF]'
+2025-03-31 15:54:30 us=108579   mode = 0
+2025-03-31 15:54:30 us=108582   persist_config = DISABLED
+2025-03-31 15:54:30 us=108586   persist_mode = 1
+2025-03-31 15:54:30 us=108589   show_ciphers = DISABLED
+2025-03-31 15:54:30 us=108592   show_digests = DISABLED
+2025-03-31 15:54:30 us=108595   show_engines = DISABLED
+2025-03-31 15:54:30 us=108598   genkey = DISABLED
+2025-03-31 15:54:30 us=108601   genkey_filename = '[UNDEF]'
+2025-03-31 15:54:30 us=108604   key_pass_file = '[UNDEF]'
+2025-03-31 15:54:30 us=108607   show_tls_ciphers = DISABLED
+2025-03-31 15:54:30 us=108610   connect_retry_max = 0
+2025-03-31 15:54:30 us=108613 Connection profiles [0]:
+2025-03-31 15:54:30 us=108616   proto = tcp-client
+2025-03-31 15:54:30 us=108619   local = '[UNDEF]'
+2025-03-31 15:54:30 us=108622   local_port = '[UNDEF]'
+2025-03-31 15:54:30 us=108625   remote = 'vancouver-s401-i09.cg-dialup.net'
+2025-03-31 15:54:30 us=108628   remote_port = '443'
+2025-03-31 15:54:30 us=108630   remote_float = DISABLED
+2025-03-31 15:54:30 us=108633   bind_defined = DISABLED
+2025-03-31 15:54:30 us=108636   bind_local = DISABLED
+2025-03-31 15:54:30 us=108639   bind_ipv6_only = DISABLED
+2025-03-31 15:54:30 us=108642   connect_retry_seconds = 1
+2025-03-31 15:54:30 us=108645   connect_timeout = 120
+2025-03-31 15:54:30 us=108648   socks_proxy_server = '[UNDEF]'
+2025-03-31 15:54:30 us=108651   socks_proxy_port = '[UNDEF]'
+2025-03-31 15:54:30 us=108654   tun_mtu = 1500
+2025-03-31 15:54:30 us=108657   tun_mtu_defined = ENABLED
+2025-03-31 15:54:30 us=108660   link_mtu = 1500
+2025-03-31 15:54:30 us=108662   link_mtu_defined = DISABLED
+2025-03-31 15:54:30 us=108665   tun_mtu_extra = 0
+2025-03-31 15:54:30 us=108668   tun_mtu_extra_defined = DISABLED
+2025-03-31 15:54:30 us=108671   tls_mtu = 1250
+2025-03-31 15:54:30 us=108674   mtu_discover_type = -1
+2025-03-31 15:54:30 us=108677   fragment = 0
+2025-03-31 15:54:30 us=108680   mssfix = 1492
+2025-03-31 15:54:30 us=108683   mssfix_encap = ENABLED
+2025-03-31 15:54:30 us=108686   mssfix_fixed = DISABLED
+2025-03-31 15:54:30 us=108691   explicit_exit_notification = 0
+2025-03-31 15:54:30 us=108694   tls_auth_file = '[UNDEF]'
+2025-03-31 15:54:30 us=108697   key_direction = not set
+2025-03-31 15:54:30 us=108700   tls_crypt_file = '[UNDEF]'
+2025-03-31 15:54:30 us=108702   tls_crypt_v2_file = '[UNDEF]'
+2025-03-31 15:54:30 us=108705 Connection profiles END
+2025-03-31 15:54:30 us=108708   remote_random = DISABLED
+2025-03-31 15:54:30 us=108711   ipchange = '[UNDEF]'
+2025-03-31 15:54:30 us=108714   dev = 'tun'
+2025-03-31 15:54:30 us=108717   dev_type = '[UNDEF]'
+2025-03-31 15:54:30 us=108720   dev_node = '[UNDEF]'
+2025-03-31 15:54:30 us=108723   tuntap_options.disable_dco = ENABLED
+2025-03-31 15:54:30 us=108726   lladdr = '[UNDEF]'
+2025-03-31 15:54:30 us=108729   topology = 1
+2025-03-31 15:54:30 us=108732   ifconfig_local = '[UNDEF]'
+2025-03-31 15:54:30 us=108734   ifconfig_remote_netmask = '[UNDEF]'
+2025-03-31 15:54:30 us=108737   ifconfig_noexec = DISABLED
+2025-03-31 15:54:30 us=108740   ifconfig_nowarn = DISABLED
+2025-03-31 15:54:30 us=108743   ifconfig_ipv6_local = '[UNDEF]'
+2025-03-31 15:54:30 us=108746   ifconfig_ipv6_netbits = 0
+2025-03-31 15:54:30 us=108749   ifconfig_ipv6_remote = '[UNDEF]'
+2025-03-31 15:54:30 us=108752   shaper = 0
+2025-03-31 15:54:30 us=108755   mtu_test = 0
+2025-03-31 15:54:30 us=108758   mlock = DISABLED
+2025-03-31 15:54:30 us=108760   keepalive_ping = 0
+2025-03-31 15:54:30 us=108763   keepalive_timeout = 0
+2025-03-31 15:54:30 us=108766   inactivity_timeout = 0
+2025-03-31 15:54:30 us=108769   session_timeout = 0
+2025-03-31 15:54:30 us=108776   inactivity_minimum_bytes = 0
+2025-03-31 15:54:30 us=108782   ping_send_timeout = 15
+2025-03-31 15:54:30 us=108785   ping_rec_timeout = 60
+2025-03-31 15:54:30 us=108788   ping_rec_timeout_action = 2
+2025-03-31 15:54:30 us=108791   ping_timer_remote = DISABLED
+2025-03-31 15:54:30 us=108794   remap_sigusr1 = 0
+2025-03-31 15:54:30 us=108797   persist_tun = ENABLED
+2025-03-31 15:54:30 us=108800   persist_local_ip = DISABLED
+2025-03-31 15:54:30 us=108803   persist_remote_ip = DISABLED
+2025-03-31 15:54:30 us=108807   persist_key = ENABLED
+2025-03-31 15:54:30 us=108810   passtos = DISABLED
+2025-03-31 15:54:30 us=108813   resolve_retry_seconds = 1000000000
+2025-03-31 15:54:30 us=108816   resolve_in_advance = DISABLED
+2025-03-31 15:54:30 us=108819   username = '[UNDEF]'
+2025-03-31 15:54:30 us=108822   groupname = '[UNDEF]'
+2025-03-31 15:54:30 us=108825   chroot_dir = '[UNDEF]'
+2025-03-31 15:54:30 us=108828   cd_dir = '[UNDEF]'
+2025-03-31 15:54:30 us=108831   writepid = '[UNDEF]'
+2025-03-31 15:54:30 us=108834   up_script = '/usr/local/cyberghost/update-systemd-resolved'
+2025-03-31 15:54:30 us=108837   down_script = '/usr/local/cyberghost/update-systemd-resolved'
+2025-03-31 15:54:30 us=108840   down_pre = ENABLED
+2025-03-31 15:54:30 us=108843   up_restart = ENABLED
+2025-03-31 15:54:30 us=108846   up_delay = DISABLED
+2025-03-31 15:54:30 us=108849   daemon = ENABLED
+2025-03-31 15:54:30 us=108852   log = ENABLED
+2025-03-31 15:54:30 us=108855   suppress_timestamps = DISABLED
+2025-03-31 15:54:30 us=108858   machine_readable_output = DISABLED
+2025-03-31 15:54:30 us=108861   nice = 0
+2025-03-31 15:54:30 us=108865   verbosity = 4
+2025-03-31 15:54:30 us=108867   mute = 0
+2025-03-31 15:54:30 us=108871   gremlin = 0
+2025-03-31 15:54:30 us=108874   status_file = '[UNDEF]'
+2025-03-31 15:54:30 us=108877   status_file_version = 1
+2025-03-31 15:54:30 us=108880   status_file_update_freq = 60
+2025-03-31 15:54:30 us=108883   occ = ENABLED
+2025-03-31 15:54:30 us=108886   rcvbuf = 0
+2025-03-31 15:54:30 us=108889   sndbuf = 0
+2025-03-31 15:54:30 us=108892   mark = 0
+2025-03-31 15:54:30 us=108895   sockflags = 0
+2025-03-31 15:54:30 us=108898   fast_io = DISABLED
+2025-03-31 15:54:30 us=108901   comp.alg = 0
+2025-03-31 15:54:30 us=108904   comp.flags = 24
+2025-03-31 15:54:30 us=108907   route_script = '[UNDEF]'
+2025-03-31 15:54:30 us=108910   route_default_gateway = '[UNDEF]'
+2025-03-31 15:54:30 us=108913   route_default_metric = 0
+2025-03-31 15:54:30 us=108916   route_noexec = DISABLED
+2025-03-31 15:54:30 us=108919   route_delay = 5
+2025-03-31 15:54:30 us=108922   route_delay_window = 20
+2025-03-31 15:54:30 us=108925   route_delay_defined = ENABLED
+2025-03-31 15:54:30 us=108928   route_nopull = DISABLED
+2025-03-31 15:54:30 us=108931   route_gateway_via_dhcp = DISABLED
+2025-03-31 15:54:30 us=108934   allow_pull_fqdn = DISABLED
+2025-03-31 15:54:30 us=108937   management_addr = '[UNDEF]'
+2025-03-31 15:54:30 us=108940   management_port = '[UNDEF]'
+2025-03-31 15:54:30 us=108943   management_user_pass = '[UNDEF]'
+2025-03-31 15:54:30 us=108946   management_log_history_cache = 250
+2025-03-31 15:54:30 us=108949   management_echo_buffer_size = 100
+2025-03-31 15:54:30 us=108952   management_client_user = '[UNDEF]'
+2025-03-31 15:54:30 us=108955   management_client_group = '[UNDEF]'
+2025-03-31 15:54:30 us=108958   management_flags = 0
+2025-03-31 15:54:30 us=108961   shared_secret_file = '[UNDEF]'
+2025-03-31 15:54:30 us=108964   key_direction = not set
+2025-03-31 15:54:30 us=108967   ciphername = 'AES-256-CBC'
+2025-03-31 15:54:30 us=108970   ncp_ciphers = 'AES-256-GCM:AES-128-GCM:CHACHA20-POLY1305'
+2025-03-31 15:54:30 us=108973   authname = 'SHA256'
+2025-03-31 15:54:30 us=108976   engine = DISABLED
+2025-03-31 15:54:30 us=108979   replay = ENABLED
+2025-03-31 15:54:30 us=108982   mute_replay_warnings = ENABLED
+2025-03-31 15:54:30 us=108985   replay_window = 64
+2025-03-31 15:54:30 us=108988   replay_time = 15
+2025-03-31 15:54:30 us=108991   packet_id_file = '[UNDEF]'
+2025-03-31 15:54:30 us=108994   test_crypto = DISABLED
+2025-03-31 15:54:30 us=108999   tls_server = DISABLED
+2025-03-31 15:54:30 us=109004   tls_client = ENABLED
+2025-03-31 15:54:30 us=109007   ca_file = '/usr/local/cyberghost/certs/openvpn/ca.crt'
+2025-03-31 15:54:30 us=109010   ca_path = '[UNDEF]'
+2025-03-31 15:54:30 us=109013   dh_file = '[UNDEF]'
+2025-03-31 15:54:30 us=109016   cert_file = '/usr/local/cyberghost/certs/openvpn/client.crt'
+2025-03-31 15:54:30 us=109019   extra_certs_file = '[UNDEF]'
+2025-03-31 15:54:30 us=109022   priv_key_file = '/usr/local/cyberghost/certs/openvpn/client.key'
+2025-03-31 15:54:30 us=109025   pkcs12_file = '[UNDEF]'
+2025-03-31 15:54:30 us=109028   cipher_list = '[UNDEF]'
+2025-03-31 15:54:30 us=109031   cipher_list_tls13 = '[UNDEF]'
+2025-03-31 15:54:30 us=109034   tls_cert_profile = '[UNDEF]'
+2025-03-31 15:54:30 us=109037   tls_verify = '[UNDEF]'
+2025-03-31 15:54:30 us=109040   tls_export_peer_cert_dir = '[UNDEF]'
+2025-03-31 15:54:30 us=109044   verify_x509_type = 0
+2025-03-31 15:54:30 us=109047   verify_x509_name = '[UNDEF]'
+2025-03-31 15:54:30 us=109050   crl_file = '[UNDEF]'
+2025-03-31 15:54:30 us=109053   ns_cert_type = 0
+2025-03-31 15:54:30 us=109056   remote_cert_ku[i] = 65535
+2025-03-31 15:54:30 us=109059   remote_cert_ku[i] = 0
+2025-03-31 15:54:30 us=109061   remote_cert_ku[i] = 0
+2025-03-31 15:54:30 us=109064   remote_cert_ku[i] = 0
+2025-03-31 15:54:30 us=109067   remote_cert_ku[i] = 0
+2025-03-31 15:54:30 us=109070   remote_cert_ku[i] = 0
+2025-03-31 15:54:30 us=109073   remote_cert_ku[i] = 0
+2025-03-31 15:54:30 us=109076   remote_cert_ku[i] = 0
+2025-03-31 15:54:30 us=109079   remote_cert_ku[i] = 0
+2025-03-31 15:54:30 us=109082   remote_cert_ku[i] = 0
+2025-03-31 15:54:30 us=109085   remote_cert_ku[i] = 0
+2025-03-31 15:54:30 us=109088   remote_cert_ku[i] = 0
+2025-03-31 15:54:30 us=109091   remote_cert_ku[i] = 0
+2025-03-31 15:54:30 us=109094   remote_cert_ku[i] = 0
+2025-03-31 15:54:30 us=109097   remote_cert_ku[i] = 0
+2025-03-31 15:54:30 us=109100   remote_cert_ku[i] = 0
+2025-03-31 15:54:30 us=109103   remote_cert_eku = 'TLS Web Server Authentication'
+2025-03-31 15:54:30 us=109106   ssl_flags = 192
+2025-03-31 15:54:30 us=109109   tls_timeout = 2
+2025-03-31 15:54:30 us=109112   renegotiate_bytes = -1
+2025-03-31 15:54:30 us=109115   renegotiate_packets = 0
+2025-03-31 15:54:30 us=109118   renegotiate_seconds = 3600
+2025-03-31 15:54:30 us=109121   handshake_window = 60
+2025-03-31 15:54:30 us=109124   transition_window = 3600
+2025-03-31 15:54:30 us=109127   single_session = DISABLED
+2025-03-31 15:54:30 us=109130   push_peer_info = DISABLED
+2025-03-31 15:54:30 us=109133   tls_exit = DISABLED
+2025-03-31 15:54:30 us=109136   tls_crypt_v2_metadata = '[UNDEF]'
+2025-03-31 15:54:30 us=109139   pkcs11_protected_authentication = DISABLED
+2025-03-31 15:54:30 us=109142   pkcs11_protected_authentication = DISABLED
+2025-03-31 15:54:30 us=109145   pkcs11_protected_authentication = DISABLED
+2025-03-31 15:54:30 us=109148   pkcs11_protected_authentication = DISABLED
+2025-03-31 15:54:30 us=109151   pkcs11_protected_authentication = DISABLED
+2025-03-31 15:54:30 us=109154   pkcs11_protected_authentication = DISABLED
+2025-03-31 15:54:30 us=109157   pkcs11_protected_authentication = DISABLED
+2025-03-31 15:54:30 us=109160   pkcs11_protected_authentication = DISABLED
+2025-03-31 15:54:30 us=109163   pkcs11_protected_authentication = DISABLED
+2025-03-31 15:54:30 us=109166   pkcs11_protected_authentication = DISABLED
+2025-03-31 15:54:30 us=109169   pkcs11_protected_authentication = DISABLED
+2025-03-31 15:54:30 us=109173   pkcs11_protected_authentication = DISABLED
+2025-03-31 15:54:30 us=109176   pkcs11_protected_authentication = DISABLED
+2025-03-31 15:54:30 us=109179   pkcs11_protected_authentication = DISABLED
+2025-03-31 15:54:30 us=109182   pkcs11_protected_authentication = DISABLED
+2025-03-31 15:54:30 us=109185   pkcs11_protected_authentication = DISABLED
+2025-03-31 15:54:30 us=109188   pkcs11_private_mode = 00000000
+2025-03-31 15:54:30 us=109191   pkcs11_private_mode = 00000000
+2025-03-31 15:54:30 us=109198   pkcs11_private_mode = 00000000
+2025-03-31 15:54:30 us=109202   pkcs11_private_mode = 00000000
+2025-03-31 15:54:30 us=109207   pkcs11_private_mode = 00000000
+2025-03-31 15:54:30 us=109212   pkcs11_private_mode = 00000000
+2025-03-31 15:54:30 us=109215   pkcs11_private_mode = 00000000
+2025-03-31 15:54:30 us=109218   pkcs11_private_mode = 00000000
+2025-03-31 15:54:30 us=109221   pkcs11_private_mode = 00000000
+2025-03-31 15:54:30 us=109224   pkcs11_private_mode = 00000000
+2025-03-31 15:54:30 us=109227   pkcs11_private_mode = 00000000
+2025-03-31 15:54:30 us=109230   pkcs11_private_mode = 00000000
+2025-03-31 15:54:30 us=109233   pkcs11_private_mode = 00000000
+2025-03-31 15:54:30 us=109236   pkcs11_private_mode = 00000000
+2025-03-31 15:54:30 us=109239   pkcs11_private_mode = 00000000
+2025-03-31 15:54:30 us=109242   pkcs11_private_mode = 00000000
+2025-03-31 15:54:30 us=109245   pkcs11_cert_private = DISABLED
+2025-03-31 15:54:30 us=109248   pkcs11_cert_private = DISABLED
+2025-03-31 15:54:30 us=109250   pkcs11_cert_private = DISABLED
+2025-03-31 15:54:30 us=109253   pkcs11_cert_private = DISABLED
+2025-03-31 15:54:30 us=109256   pkcs11_cert_private = DISABLED
+2025-03-31 15:54:30 us=109259   pkcs11_cert_private = DISABLED
+2025-03-31 15:54:30 us=109262   pkcs11_cert_private = DISABLED
+2025-03-31 15:54:30 us=109265   pkcs11_cert_private = DISABLED
+2025-03-31 15:54:30 us=109268   pkcs11_cert_private = DISABLED
+2025-03-31 15:54:30 us=109271   pkcs11_cert_private = DISABLED
+2025-03-31 15:54:30 us=109274   pkcs11_cert_private = DISABLED
+2025-03-31 15:54:30 us=109276   pkcs11_cert_private = DISABLED
+2025-03-31 15:54:30 us=109279   pkcs11_cert_private = DISABLED
+2025-03-31 15:54:30 us=109282   pkcs11_cert_private = DISABLED
+2025-03-31 15:54:30 us=109285   pkcs11_cert_private = DISABLED
+2025-03-31 15:54:30 us=109288   pkcs11_cert_private = DISABLED
+2025-03-31 15:54:30 us=109291   pkcs11_pin_cache_period = -1
+2025-03-31 15:54:30 us=109294   pkcs11_id = '[UNDEF]'
+2025-03-31 15:54:30 us=109297   pkcs11_id_management = DISABLED
+2025-03-31 15:54:30 us=109302   server_network = 0.0.0.0
+2025-03-31 15:54:30 us=109305   server_netmask = 0.0.0.0
+2025-03-31 15:54:30 us=109308   server_network_ipv6 = ::
+2025-03-31 15:54:30 us=109311   server_netbits_ipv6 = 0
+2025-03-31 15:54:30 us=109315   server_bridge_ip = 0.0.0.0
+2025-03-31 15:54:30 us=109318   server_bridge_netmask = 0.0.0.0
+2025-03-31 15:54:30 us=109322   server_bridge_pool_start = 0.0.0.0
+2025-03-31 15:54:30 us=109325   server_bridge_pool_end = 0.0.0.0
+2025-03-31 15:54:30 us=109328   ifconfig_pool_defined = DISABLED
+2025-03-31 15:54:30 us=109332   ifconfig_pool_start = 0.0.0.0
+2025-03-31 15:54:30 us=109335   ifconfig_pool_end = 0.0.0.0
+2025-03-31 15:54:30 us=109338   ifconfig_pool_netmask = 0.0.0.0
+2025-03-31 15:54:30 us=109342   ifconfig_pool_persist_filename = '[UNDEF]'
+2025-03-31 15:54:30 us=109345   ifconfig_pool_persist_refresh_freq = 600
+2025-03-31 15:54:30 us=109348   ifconfig_ipv6_pool_defined = DISABLED
+2025-03-31 15:54:30 us=109351   ifconfig_ipv6_pool_base = ::
+2025-03-31 15:54:30 us=109354   ifconfig_ipv6_pool_netbits = 0
+2025-03-31 15:54:30 us=109357   n_bcast_buf = 256
+2025-03-31 15:54:30 us=109360   tcp_queue_limit = 64
+2025-03-31 15:54:30 us=109363   real_hash_size = 256
+2025-03-31 15:54:30 us=109366   virtual_hash_size = 256
+2025-03-31 15:54:30 us=109369   client_connect_script = '[UNDEF]'
+2025-03-31 15:54:30 us=109372   learn_address_script = '[UNDEF]'
+2025-03-31 15:54:30 us=109375   client_disconnect_script = '[UNDEF]'
+2025-03-31 15:54:30 us=109378   client_crresponse_script = '[UNDEF]'
+2025-03-31 15:54:30 us=109381   client_config_dir = '[UNDEF]'
+2025-03-31 15:54:30 us=109384   ccd_exclusive = DISABLED
+2025-03-31 15:54:30 us=109388   tmp_dir = '/tmp'
+2025-03-31 15:54:30 us=109391   push_ifconfig_defined = DISABLED
+2025-03-31 15:54:30 us=109394   push_ifconfig_local = 0.0.0.0
+2025-03-31 15:54:30 us=109398   push_ifconfig_remote_netmask = 0.0.0.0
+2025-03-31 15:54:30 us=109401   push_ifconfig_ipv6_defined = DISABLED
+2025-03-31 15:54:30 us=109404   push_ifconfig_ipv6_local = ::/0
+2025-03-31 15:54:30 us=109408   push_ifconfig_ipv6_remote = ::
+2025-03-31 15:54:30 us=109413   enable_c2c = DISABLED
+2025-03-31 15:54:30 us=109417   duplicate_cn = DISABLED
+2025-03-31 15:54:30 us=109420   cf_max = 0
+2025-03-31 15:54:30 us=109424   cf_per = 0
+2025-03-31 15:54:30 us=109427   cf_initial_max = 100
+2025-03-31 15:54:30 us=109430   cf_initial_per = 10
+2025-03-31 15:54:30 us=109432   max_clients = 1024
+2025-03-31 15:54:30 us=109435   max_routes_per_client = 256
+2025-03-31 15:54:30 us=109438   auth_user_pass_verify_script = '[UNDEF]'
+2025-03-31 15:54:30 us=109441   auth_user_pass_verify_script_via_file = DISABLED
+2025-03-31 15:54:30 us=109444   auth_token_generate = DISABLED
+2025-03-31 15:54:30 us=109447   force_key_material_export = DISABLED
+2025-03-31 15:54:30 us=109450   auth_token_lifetime = 0
+2025-03-31 15:54:30 us=109453   auth_token_secret_file = '[UNDEF]'
+2025-03-31 15:54:30 us=109456   port_share_host = '[UNDEF]'
+2025-03-31 15:54:30 us=109459   port_share_port = '[UNDEF]'
+2025-03-31 15:54:30 us=109462   vlan_tagging = DISABLED
+2025-03-31 15:54:30 us=109465   vlan_accept = all
+2025-03-31 15:54:30 us=109468   vlan_pvid = 1
+2025-03-31 15:54:30 us=109471   client = ENABLED
+2025-03-31 15:54:30 us=109474   pull = ENABLED
+2025-03-31 15:54:30 us=109477   auth_user_pass_file = '/home/adam/.cyberghost/openvpn/auth'
+2025-03-31 15:54:30 us=109481 OpenVPN 2.6.13 [git:makepkg/5662b3a8eb9e5744+] x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] [DCO] built on Jan 15 2025
+2025-03-31 15:54:30 us=109487 library versions: OpenSSL 3.4.1 11 Feb 2025, LZO 2.10
+2025-03-31 15:54:30 us=109494 DCO version: N/A
+2025-03-31 15:54:30 us=109821 NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+2025-03-31 15:54:30 us=110641 Control Channel MTU parms [ mss_fix:0 max_frag:0 tun_mtu:1250 tun_max_mtu:0 headroom:126 payload:1600 tailroom:126 ET:0 ]
+2025-03-31 15:54:35 us=406888 Data Channel MTU parms [ mss_fix:0 max_frag:0 tun_mtu:1500 tun_max_mtu:1600 headroom:136 payload:1768 tailroom:562 ET:0 ]
+2025-03-31 15:54:35 us=406933 TCP/UDP: Preserving recently used remote address: [AF_INET]181.214.153.18:443
+2025-03-31 15:54:35 us=406945 Socket Buffers: R=[1048576->1048576] S=[65536->65536]
+2025-03-31 15:54:35 us=406947 Attempting to establish TCP connection with [AF_INET]181.214.153.18:443
+2025-03-31 15:54:35 us=491490 TCP connection established with [AF_INET]181.214.153.18:443
+2025-03-31 15:54:35 us=491508 TCPv4_CLIENT link local: (not bound)
+2025-03-31 15:54:35 us=491511 TCPv4_CLIENT link remote: [AF_INET]181.214.153.18:443
+2025-03-31 15:54:35 us=581479 TLS: Initial packet from [AF_INET]181.214.153.18:443, sid=b1efb175 0fd08044
+2025-03-31 15:54:35 us=581526 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
+2025-03-31 15:54:35 us=761256 VERIFY OK: depth=1, C=RO, L=Bucharest, O=CyberGhost S.A., CN=CyberGhost Root CA, emailAddress=info@cyberghost.ro
+2025-03-31 15:54:35 us=761359 VERIFY KU OK
+2025-03-31 15:54:35 us=761362 Validating certificate extended key usage
+2025-03-31 15:54:35 us=761364 ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+2025-03-31 15:54:35 us=761365 VERIFY EKU OK
+2025-03-31 15:54:35 us=761366 VERIFY OK: depth=0, CN=vancouver-rack401.nodes.gen4.ninja
+2025-03-31 15:54:36 us=175844 Control Channel: TLSv1.3, cipher TLSv1.3 TLS_AES_256_GCM_SHA384, peer certificate: 4096 bits RSA, signature: RSA-SHA256, peer temporary key: 253 bits X25519
+2025-03-31 15:54:36 us=175872 [vancouver-rack401.nodes.gen4.ninja] Peer Connection Initiated with [AF_INET]181.214.153.18:443
+2025-03-31 15:54:36 us=175876 TLS: move_session: dest=TM_ACTIVE src=TM_INITIAL reinit_src=1
+2025-03-31 15:54:36 us=175908 TLS: tls_multi_process: initial untrusted session promoted to trusted
+2025-03-31 15:54:36 us=244614 PUSH: Received control message: 'PUSH_REPLY,redirect-gateway def1,route-ipv6 2000::/3,dhcp-option DNS 10.0.0.243,route-gateway 10.39.5.1,topology subnet,ifconfig 10.39.5.53 255.255.255.0,peer-id 0,cipher AES-128-GCM'
+2025-03-31 15:54:36 us=244684 OPTIONS IMPORT: --ifconfig/up options modified
+2025-03-31 15:54:36 us=244693 OPTIONS IMPORT: route options modified
+2025-03-31 15:54:36 us=244696 OPTIONS IMPORT: route-related options modified
+2025-03-31 15:54:36 us=244698 OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+2025-03-31 15:54:36 us=244706 net_route_v4_best_gw query: dst 0.0.0.0
+2025-03-31 15:54:36 us=244748 net_route_v4_best_gw result: via 192.168.12.1 dev eno1
+2025-03-31 15:54:36 us=244762 ROUTE_GATEWAY 192.168.12.1/255.255.255.0 IFACE=eno1 HWADDR=08:bf:b8:31:cf:49
+2025-03-31 15:54:36 us=244767 GDG6: remote_host_ipv6=n/a
+2025-03-31 15:54:36 us=244770 net_route_v6_best_gw query: dst ::
+2025-03-31 15:54:36 us=244779 sitnl_send: rtnl: generic error (-101): Network is unreachable
+2025-03-31 15:54:36 us=244783 ROUTE6: default_gateway=UNDEF
+2025-03-31 15:54:36 us=244915 TUN/TAP device tun0 opened
+2025-03-31 15:54:36 us=244920 do_ifconfig, ipv4=1, ipv6=0
+2025-03-31 15:54:36 us=244926 net_iface_mtu_set: mtu 1500 for tun0
+2025-03-31 15:54:36 us=244937 net_iface_up: set tun0 up
+2025-03-31 15:54:36 us=244961 net_addr_v4_add: 10.39.5.53/24 dev tun0
+2025-03-31 15:54:36 us=244996 /usr/local/cyberghost/update-systemd-resolved tun0 1500 0 10.39.5.53 255.255.255.0 init
+dhcp-option DOMAIN-ROUTE .
+dhcp-option DNS 10.0.0.243
+2025-03-31 15:54:36 us=247148 Data Channel MTU parms [ mss_fix:1386 max_frag:0 tun_mtu:1500 tun_max_mtu:1600 headroom:136 payload:1768 tailroom:562 ET:0 ]
+2025-03-31 15:54:36 us=247254 Outgoing Data Channel: Cipher 'AES-128-GCM' initialized with 128 bit key
+2025-03-31 15:54:36 us=247258 Incoming Data Channel: Cipher 'AES-128-GCM' initialized with 128 bit key
+2025-03-31 15:54:36 us=247263 Data Channel: cipher 'AES-128-GCM', peer-id: 0
+2025-03-31 15:54:36 us=247266 Timers: ping 15, ping-restart 60
+2025-03-31 15:54:41 us=345472 net_route_v4_add: 181.214.153.18/32 via 192.168.12.1 dev [NULL] table 0 metric -1
+2025-03-31 15:54:41 us=345572 net_route_v4_add: 0.0.0.0/1 via 10.39.5.1 dev [NULL] table 0 metric -1
+2025-03-31 15:54:41 us=345582 net_route_v4_add: 128.0.0.0/1 via 10.39.5.1 dev [NULL] table 0 metric -1
+2025-03-31 15:54:41 us=345595 WARNING: OpenVPN was configured to add an IPv6 route. However, no IPv6 has been configured for tun0, therefore the route installation may fail or may not work as expected.
+2025-03-31 15:54:41 us=345599 add_route_ipv6(2000::/3 -> :: metric -1) dev tun0
+2025-03-31 15:54:41 us=345601 net_route_v6_add: 2000::/3 via :: dev tun0 table 0 metric -1
+2025-03-31 15:54:41 us=345615 sitnl_send: rtnl: generic error (-13): Permission denied
+2025-03-31 15:54:41 us=345617 ERROR: Linux route add command failed
+2025-03-31 15:54:41 us=345624 Initialization Sequence Completed
+2025-03-31 15:55:36 us=817208 [vancouver-rack401.nodes.gen4.ninja] Inactivity timeout (--ping-restart), restarting
+2025-03-31 15:55:36 us=817300 TCP/UDP: Closing socket
+2025-03-31 15:55:36 us=817330 /usr/local/cyberghost/update-systemd-resolved tun0 1500 0 10.39.5.53 255.255.255.0 restart
+2025-03-31 15:55:36 us=820098 SIGUSR1[soft,ping-restart] received, process restarting
+2025-03-31 15:55:36 us=820113 Restart pause, 1 second(s)
+2025-03-31 15:55:37 us=820219 NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+2025-03-31 15:55:37 us=820302 Re-using SSL/TLS context
+2025-03-31 15:55:37 us=820529 Control Channel MTU parms [ mss_fix:0 max_frag:0 tun_mtu:1250 tun_max_mtu:0 headroom:126 payload:1600 tailroom:126 ET:0 ]
+2025-03-31 15:55:37 us=820552 Data Channel MTU parms [ mss_fix:0 max_frag:0 tun_mtu:1500 tun_max_mtu:1600 headroom:136 payload:1768 tailroom:562 ET:0 ]
+2025-03-31 15:55:37 us=820620 TCP/UDP: Preserving recently used remote address: [AF_INET]181.214.153.18:443
+2025-03-31 15:55:37 us=820658 Socket Buffers: R=[1048576->1048576] S=[65536->65536]
+2025-03-31 15:55:37 us=820667 Attempting to establish TCP connection with [AF_INET]181.214.153.18:443
+2025-03-31 15:55:37 us=897030 TCP connection established with [AF_INET]181.214.153.18:443
+2025-03-31 15:55:37 us=897091 TCPv4_CLIENT link local: (not bound)
+2025-03-31 15:55:37 us=897118 TCPv4_CLIENT link remote: [AF_INET]181.214.153.18:443
+2025-03-31 15:55:37 us=972115 TLS: Initial packet from [AF_INET]181.214.153.18:443, sid=912ed8c7 4477d2fd
+2025-03-31 15:55:38 us=156571 VERIFY OK: depth=1, C=RO, L=Bucharest, O=CyberGhost S.A., CN=CyberGhost Root CA, emailAddress=info@cyberghost.ro
+2025-03-31 15:55:38 us=156655 VERIFY KU OK
+2025-03-31 15:55:38 us=156658 Validating certificate extended key usage
+2025-03-31 15:55:38 us=156660 ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+2025-03-31 15:55:38 us=156661 VERIFY EKU OK
+2025-03-31 15:55:38 us=156663 VERIFY OK: depth=0, CN=vancouver-rack401.nodes.gen4.ninja
+2025-03-31 15:55:38 us=451359 Control Channel: TLSv1.3, cipher TLSv1.3 TLS_AES_256_GCM_SHA384, peer certificate: 4096 bits RSA, signature: RSA-SHA256, peer temporary key: 253 bits X25519
+2025-03-31 15:55:38 us=451433 [vancouver-rack401.nodes.gen4.ninja] Peer Connection Initiated with [AF_INET]181.214.153.18:443
+2025-03-31 15:55:38 us=451451 TLS: move_session: dest=TM_ACTIVE src=TM_INITIAL reinit_src=1
+2025-03-31 15:55:38 us=451533 TLS: tls_multi_process: initial untrusted session promoted to trusted
+2025-03-31 15:55:38 us=606648 PUSH: Received control message: 'PUSH_REPLY,redirect-gateway def1,route-ipv6 2000::/3,dhcp-option DNS 10.0.0.243,route-gateway 10.39.5.1,topology subnet,ifconfig 10.39.5.53 255.255.255.0,peer-id 0,cipher AES-128-GCM'
+2025-03-31 15:55:38 us=606867 OPTIONS IMPORT: --ifconfig/up options modified
+2025-03-31 15:55:38 us=606879 OPTIONS IMPORT: route options modified
+2025-03-31 15:55:38 us=606886 OPTIONS IMPORT: route-related options modified
+2025-03-31 15:55:38 us=606893 OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+2025-03-31 15:55:38 us=606901 Preserving previous TUN/TAP instance: tun0
+2025-03-31 15:55:38 us=606934 /usr/local/cyberghost/update-systemd-resolved tun0 1500 0 10.39.5.53 255.255.255.0 restart
+dhcp-option DOMAIN-ROUTE .
+dhcp-option DNS 10.0.0.243
+2025-03-31 15:55:38 us=615276 Data Channel MTU parms [ mss_fix:1386 max_frag:0 tun_mtu:1500 tun_max_mtu:1600 headroom:136 payload:1768 tailroom:562 ET:0 ]
+2025-03-31 15:55:38 us=615558 Outgoing Data Channel: Cipher 'AES-128-GCM' initialized with 128 bit key
+2025-03-31 15:55:38 us=615574 Incoming Data Channel: Cipher 'AES-128-GCM' initialized with 128 bit key
+2025-03-31 15:55:38 us=615587 Initialization Sequence Completed
+2025-03-31 15:55:38 us=615589 Data Channel: cipher 'AES-128-GCM', peer-id: 0
+2025-03-31 15:55:38 us=615591 Timers: ping 15, ping-restart 60
+2025-03-31 15:56:38 us=806289 [vancouver-rack401.nodes.gen4.ninja] Inactivity timeout (--ping-restart), restarting
+2025-03-31 15:56:38 us=806372 TCP/UDP: Closing socket
+2025-03-31 15:56:38 us=806393 /usr/local/cyberghost/update-systemd-resolved tun0 1500 0 10.39.5.53 255.255.255.0 restart
+2025-03-31 15:56:38 us=809081 SIGUSR1[soft,ping-restart] received, process restarting
+2025-03-31 15:56:38 us=809096 Restart pause, 1 second(s)
+2025-03-31 15:56:39 us=611058 net_route_v4_del: 181.214.153.18/32 via 192.168.12.1 dev [NULL] table 0 metric -1
+2025-03-31 15:56:39 us=611100 net_route_v4_del: 0.0.0.0/1 via 10.39.5.1 dev [NULL] table 0 metric -1
+2025-03-31 15:56:39 us=611107 net_route_v4_del: 128.0.0.0/1 via 10.39.5.1 dev [NULL] table 0 metric -1
+2025-03-31 15:56:39 us=611116 /usr/local/cyberghost/update-systemd-resolved tun0 0 0 10.39.5.53 255.255.255.0 init
+2025-03-31 15:56:39 us=613183 Closing TUN/TAP interface
+2025-03-31 15:56:39 us=613188 net_addr_v4_del: 10.39.5.53 dev tun0
+2025-03-31 15:56:39 us=626236 SIGTERM[hard,init_instance] received, process exiting

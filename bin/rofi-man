@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+
+# ===============================================================================
+#
+#        AUTHOR: b14ckr41n
+#          FILE:
+#   DESCRIPTION:
+#       OPTIONS:
+#  DEPENDENCIES:
+#       CREATED:
+#      REVISION:
+#          TODO: Start with a list of man pages
+#                narrow down search as I type
+#
+#
+#         FIXME:
+# ===============================================================================
+set -o nounset                                  # Treat unset variables as an error
+
+
+# this lists all man pages and pipes them to dmenu
+man_cmd=$(apropos . | awk '{print $1}' | rofi -dmenu -P "Man Pages" -sort)
+
+
+# display man page in fullscreen using old config
+
+if ! [ -z "$man_cmd" ]; then
+
+    man "$man_cmd" | rofi -dmenu -P "Manual"
+else
+    rofi -dmenu -P "No Man Page Was Selected"
+fi

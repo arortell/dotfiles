@@ -1,0 +1,1 @@
+{"metrics":{"completion_time":1745272706518,"start_time":1745272694872},"links":{"share":{},"opt":{},"bin":{"yaml-language-server":"node_modules/.bin/yaml-language-server"}},"secondary_sources":[],"schema_version":"1.1","primary_source":{"id":"pkg:npm/yaml-language-server@1.17.0","type":"registry+v1"},"name":"yaml-language-server"}

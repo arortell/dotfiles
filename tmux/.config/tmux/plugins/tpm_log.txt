@@ -1,0 +1,709 @@
+[2025-04-11 16:18:53.430]	List of discovered tpm plugins: sainnhe/tmux-fzf
+[2025-04-11 16:18:53.440]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-11 16:18:53.472]	Installing "tmux-fzf"
+[2025-04-11 16:18:53.626]	List of discovered tpm plugins: sainnhe/tmux-fzf
+[2025-04-11 16:18:53.633]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-11 16:18:53.664]	Already installed "tmux-fzf"
+[2025-04-11 16:18:53.673]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-11 16:18:53.693]	Updating all plugins!
+[2025-04-11 16:18:53.701]	
+[2025-04-11 16:18:58.908]	  "tmux-fzf" download success
+[2025-04-11 16:18:58.915]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-11 16:18:58.936]	Updating all plugins!
+[2025-04-11 16:18:58.942]	
+[2025-04-11 16:18:59.028]	  "tmux-fzf" update fail
+[2025-04-11 16:18:59.036]	    | From https://github.com/sainnhe/tmux-fzf
+[2025-04-11 16:18:59.043]	    |  * branch            HEAD       -> FETCH_HEAD
+[2025-04-11 16:18:59.052]	    | error: The following untracked working tree files would be overwritten by merge:
+[2025-04-11 16:18:59.060]	    | 	Anti-996-LICENSE
+[2025-04-11 16:18:59.067]	    | 	LICENSE
+[2025-04-11 16:18:59.074]	    | 	README.md
+[2025-04-11 16:18:59.083]	    | 	main.sh
+[2025-04-11 16:18:59.092]	    | 	main.tmux
+[2025-04-11 16:18:59.101]	    | 	scripts/.envs
+[2025-04-11 16:18:59.107]	    | 	scripts/.fzf-tmux
+[2025-04-11 16:18:59.116]	    | 	scripts/.preview
+[2025-04-11 16:18:59.124]	    | 	scripts/clipboard.sh
+[2025-04-11 16:18:59.133]	    | 	scripts/command.sh
+[2025-04-11 16:18:59.139]	    | 	scripts/copy-mode.sh
+[2025-04-11 16:18:59.148]	    | 	scripts/keybinding.sh
+[2025-04-11 16:18:59.156]	    | 	scripts/menu.sh
+[2025-04-11 16:18:59.162]	    | 	scripts/pane.sh
+[2025-04-11 16:18:59.170]	    | 	scripts/process.sh
+[2025-04-11 16:18:59.179]	    | 	scripts/session.sh
+[2025-04-11 16:18:59.186]	    | 	scripts/window.sh
+[2025-04-11 16:18:59.193]	    | Please move or remove them before you merge.
+[2025-04-11 16:18:59.199]	    | Aborting
+[2025-04-11 16:18:59.206]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-11 16:18:59.236]	Done.
+
+[2025-04-11 16:19:04.367]	  "tmux-fzf" update success
+[2025-04-11 16:19:04.377]	    | Already up to date.
+[2025-04-11 16:19:04.386]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-11 16:19:04.413]	Removing "tmux-fzf"
+[2025-04-11 16:19:04.419]	  "tmux-fzf" clean success
+[2025-04-11 16:19:04.429]	Done.
+
+[2025-04-11 16:28:29.092]	List of discovered tpm plugins: tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-open tmux-plugins/tmux-copycat tmux-plugins/tmux-yank christoomey/vim-tmux-navigator sainnhe/tmux-fzf
+[2025-04-11 16:28:29.099]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-11 16:28:29.130]	Installing "tmux-prefix-highlight"
+[2025-04-11 16:28:29.137]	Installing "tmux-open"
+[2025-04-11 16:28:29.144]	Installing "tmux-copycat"
+[2025-04-11 16:28:29.154]	Installing "tmux-yank"
+[2025-04-11 16:28:29.162]	Installing "vim-tmux-navigator"
+[2025-04-11 16:28:29.168]	Installing "tmux-fzf"
+[2025-04-11 16:28:29.342]	List of discovered tpm plugins: tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-open tmux-plugins/tmux-copycat tmux-plugins/tmux-yank christoomey/vim-tmux-navigator sainnhe/tmux-fzf
+[2025-04-11 16:28:29.353]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-11 16:28:29.386]	Already installed "tmux-prefix-highlight"
+[2025-04-11 16:28:29.397]	Already installed "tmux-open"
+[2025-04-11 16:28:29.405]	Already installed "tmux-yank"
+[2025-04-11 16:28:29.412]	Already installed "tmux-copycat"
+[2025-04-11 16:28:29.421]	Already installed "vim-tmux-navigator"
+[2025-04-11 16:28:29.431]	Already installed "tmux-fzf"
+[2025-04-11 16:28:29.440]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-11 16:28:29.461]	Updating all plugins!
+[2025-04-11 16:28:29.470]	
+[2025-04-11 16:28:34.614]	  "tmux-fzf" download success
+[2025-04-11 16:28:34.620]	  "vim-tmux-navigator" download success
+[2025-04-11 16:28:34.662]	  "tmux-prefix-highlight" download success
+[2025-04-11 16:28:34.673]	  "tmux-yank" download success
+[2025-04-11 16:28:34.692]	  "tmux-open" download success
+[2025-04-11 16:28:34.718]	  "tmux-copycat" download success
+[2025-04-11 16:28:34.728]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-11 16:28:34.746]	Updating all plugins!
+[2025-04-11 16:28:34.756]	
+[2025-04-11 16:28:34.793]	  "tmux-fzf" update fail
+[2025-04-11 16:28:34.803]	  "vim-tmux-navigator" update fail
+[2025-04-11 16:28:34.809]	  "tmux-prefix-highlight" update fail
+[2025-04-11 16:28:34.817]	    | From https://github.com/sainnhe/tmux-fzf
+[2025-04-11 16:28:34.827]	    |  * branch            HEAD       -> FETCH_HEAD
+[2025-04-11 16:28:34.834]	    | error: The following untracked working tree files would be overwritten by merge:
+[2025-04-11 16:28:34.841]	    | 	Anti-996-LICENSE
+[2025-04-11 16:28:34.849]	    | 	LICENSE
+[2025-04-11 16:28:34.858]	    | 	README.md
+[2025-04-11 16:28:34.865]	    | 	main.sh
+[2025-04-11 16:28:34.871]	    | 	main.tmux
+[2025-04-11 16:28:34.878]	    | 	scripts/.envs
+[2025-04-11 16:28:34.885]	    | 	scripts/.fzf-tmux
+[2025-04-11 16:28:34.891]	    | 	scripts/.preview
+[2025-04-11 16:28:34.900]	    | 	scripts/clipboard.sh
+[2025-04-11 16:28:34.907]	    | 	scripts/command.sh
+[2025-04-11 16:28:34.916]	    | 	scripts/copy-mode.sh
+[2025-04-11 16:28:34.923]	    | 	scripts/keybinding.sh
+[2025-04-11 16:28:34.930]	    | 	scripts/menu.sh
+[2025-04-11 16:28:34.937]	    | 	scripts/pane.sh
+[2025-04-11 16:28:34.943]	    | 	scripts/process.sh
+[2025-04-11 16:28:34.949]	    | 	scripts/session.sh
+[2025-04-11 16:28:34.955]	    | 	scripts/window.sh
+[2025-04-11 16:28:34.964]	    | Please move or remove them before you merge.
+[2025-04-11 16:28:34.970]	    | Aborting
+[2025-04-11 16:28:34.978]	  "tmux-yank" update fail
+[2025-04-11 16:28:34.986]	    | From https://github.com/christoomey/vim-tmux-navigator
+[2025-04-11 16:28:34.993]	    |  * branch            HEAD       -> FETCH_HEAD
+[2025-04-11 16:28:34.999]	    | error: The following untracked working tree files would be overwritten by merge:
+[2025-04-11 16:28:35.005]	    | 	.gitignore
+[2025-04-11 16:28:35.011]	    | 	License.md
+[2025-04-11 16:28:35.018]	    | 	README.md
+[2025-04-11 16:28:35.025]	    | 	doc/tmux-navigator.txt
+[2025-04-11 16:28:35.034]	    | 	pattern-check
+[2025-04-11 16:28:35.041]	    | 	plugin/tmux_navigator.vim
+[2025-04-11 16:28:35.050]	    | 	vim-tmux-navigator.tmux
+[2025-04-11 16:28:35.056]	    | Please move or remove them before you merge.
+[2025-04-11 16:28:35.063]	    | Aborting
+[2025-04-11 16:28:35.069]	    | From https://github.com/tmux-plugins/tmux-prefix-highlight
+[2025-04-11 16:28:35.075]	    |  * branch            HEAD       -> FETCH_HEAD
+[2025-04-11 16:28:35.083]	    | error: The following untracked working tree files would be overwritten by merge:
+[2025-04-11 16:28:35.090]	    | 	LICENSE
+[2025-04-11 16:28:35.097]	    | 	README.md
+[2025-04-11 16:28:35.103]	    | 	prefix_highlight.tmux
+[2025-04-11 16:28:35.111]	    | 	screenshots/prefix_off.png
+[2025-04-11 16:28:35.117]	    | 	screenshots/prefix_on.png
+[2025-04-11 16:28:35.123]	    | Please move or remove them before you merge.
+[2025-04-11 16:28:35.129]	    | Aborting
+[2025-04-11 16:28:35.135]	    | From https://github.com/tmux-plugins/tmux-yank
+[2025-04-11 16:28:35.144]	    |  * branch            HEAD       -> FETCH_HEAD
+[2025-04-11 16:28:35.150]	    | error: The following untracked working tree files would be overwritten by merge:
+[2025-04-11 16:28:35.157]	    | 	.editorconfig
+[2025-04-11 16:28:35.165]	    | 	.gitattributes
+[2025-04-11 16:28:35.171]	    | 	.gitignore
+[2025-04-11 16:28:35.179]	    | 	.travis.yml
+[2025-04-11 16:28:35.186]	    | 	CHANGELOG.md
+[2025-04-11 16:28:35.193]	    | 	LICENSE.md
+[2025-04-11 16:28:35.199]	    | 	README.md
+[2025-04-11 16:28:35.205]	    | 	Vagrantfile
+[2025-04-11 16:28:35.212]	    | 	_config.yml
+[2025-04-11 16:28:35.219]	    | 	citest
+[2025-04-11 16:28:35.226]	    | 	scripts/copy_line.sh
+[2025-04-11 16:28:35.232]	    | 	scripts/copy_pane_pwd.sh
+[2025-04-11 16:28:35.238]	    | 	scripts/helpers.sh
+[2025-04-11 16:28:35.245]	    | 	vagrant_provisioning.sh
+[2025-04-11 16:28:35.253]	    | 	video/README.md
+[2025-04-11 16:28:35.260]	    | 	video/screencast_img.png
+[2025-04-11 16:28:35.267]	    | 	video/script.md
+[2025-04-11 16:28:35.275]	    | 	yank.tmux
+[2025-04-11 16:28:35.282]	    | Please move or remove them before you merge.
+[2025-04-11 16:28:35.290]	    | Aborting
+[2025-04-11 16:28:35.297]	  "tmux-open" update fail
+[2025-04-11 16:28:35.306]	  "tmux-copycat" update fail
+[2025-04-11 16:28:35.313]	    | From https://github.com/tmux-plugins/tmux-open
+[2025-04-11 16:28:35.321]	    |  * branch            HEAD       -> FETCH_HEAD
+[2025-04-11 16:28:35.327]	    | error: The following untracked working tree files would be overwritten by merge:
+[2025-04-11 16:28:35.333]	    | 	.gitattributes
+[2025-04-11 16:28:35.342]	    | 	CHANGELOG.md
+[2025-04-11 16:28:35.349]	    | 	LICENSE.md
+[2025-04-11 16:28:35.356]	    | 	README.md
+[2025-04-11 16:28:35.363]	    | 	open.tmux
+[2025-04-11 16:28:35.373]	    | 	scripts/helpers.sh
+[2025-04-11 16:28:35.379]	    | 	scripts/tmux_open_error_message.sh
+[2025-04-11 16:28:35.386]	    | 	video/screencast_img.png
+[2025-04-11 16:28:35.392]	    | 	video/script.md
+[2025-04-11 16:28:35.398]	    | Please move or remove them before you merge.
+[2025-04-11 16:28:35.407]	    | Aborting
+[2025-04-11 16:28:35.414]	    | From https://github.com/tmux-plugins/tmux-copycat
+[2025-04-11 16:28:35.420]	    |  * branch            HEAD       -> FETCH_HEAD
+[2025-04-11 16:28:35.426]	    | error: The following untracked working tree files would be overwritten by merge:
+[2025-04-11 16:28:35.436]	    | 	.gitattributes
+[2025-04-11 16:28:35.444]	    | 	.gitignore
+[2025-04-11 16:28:35.451]	    | 	.travis.yml
+[2025-04-11 16:28:35.458]	    | 	CHANGELOG.md
+[2025-04-11 16:28:35.464]	    | 	LICENSE.md
+[2025-04-11 16:28:35.474]	    | 	README.md
+[2025-04-11 16:28:35.482]	    | 	Vagrantfile
+[2025-04-11 16:28:35.488]	    | 	copycat.tmux
+[2025-04-11 16:28:35.495]	    | 	docs/customizations.md
+[2025-04-11 16:28:35.503]	    | 	docs/defining_new_stored_searches.md
+[2025-04-11 16:28:35.512]	    | 	docs/installation_for_tmux_2.3.md
+[2025-04-11 16:28:35.519]	    | 	docs/limitations.md
+[2025-04-11 16:28:35.526]	    | 	run-tests
+[2025-04-11 16:28:35.535]	    | 	scripts/check_tmux_version.sh
+[2025-04-11 16:28:35.542]	    | 	scripts/copycat_generate_results.sh
+[2025-04-11 16:28:35.548]	    | 	scripts/copycat_git_special.sh
+[2025-04-11 16:28:35.554]	    | 	scripts/copycat_jump.sh
+[2025-04-11 16:28:35.564]	    | 	scripts/copycat_mode_bindings.sh
+[2025-04-11 16:28:35.571]	    | 	scripts/copycat_mode_quit.sh
+[2025-04-11 16:28:35.578]	    | 	scripts/copycat_mode_start.sh
+[2025-04-11 16:28:35.584]	    | 	scripts/copycat_search.sh
+[2025-04-11 16:28:35.591]	    | 	scripts/helpers.sh
+[2025-04-11 16:28:35.597]	    | 	scripts/stored_search_helpers.sh
+[2025-04-11 16:28:35.607]	    | 	scripts/variables.sh
+[2025-04-11 16:28:35.615]	    | 	test/README.md
+[2025-04-11 16:28:35.622]	    | 	test/helpers/expect_copycat_assertions.exp
+[2025-04-11 16:28:35.632]	    | 	test/helpers/expect_copycat_helpers.exp
+[2025-04-11 16:28:35.638]	    | 	test/helpers/expect_helpers.exp
+[2025-04-11 16:28:35.646]	    | 	test/helpers/run_tmux.exp
+[2025-04-11 16:28:35.654]	    | 	test/helpers/setup.exp
+[2025-04-11 16:28:35.662]	    | 	test/helpers/setup_tmux_conf.sh
+[2025-04-11 16:28:35.670]	    | 	test/helpers/setup_tmux_conf_with_custom_searches.sh
+[2025-04-11 16:28:35.676]	    | 	test/helpers/setup_with_custom_searches.exp
+[2025-04-11 16:28:35.683]	    | 	test/helpers/test.exp
+[2025-04-11 16:28:35.689]	    | 	test/run-tests-within-vm
+[2025-04-11 16:28:35.697]	    | 	test/test_digit_search.exp
+[2025-04-11 16:28:35.703]	    | 	test/test_file_search.exp
+[2025-04-11 16:28:35.710]	    | 	test/test_free_search.exp
+[2025-04-11 16:28:35.718]	    | 	test/test_git_hash_search.exp
+[2025-04-11 16:28:35.727]	    | 	test/test_git_status_search.exp
+[2025-04-11 16:28:35.734]	    | 	test/test_url_search.exp
+[2025-04-11 16:28:35.742]	    | 	test/test_user_defined_search.exp
+[2025-04-11 16:28:35.748]	    | 	vagrant_ubuntu_provisioning_two_five.sh
+[2025-04-11 16:28:35.758]	    | 	video/README.md
+[2025-04-11 16:28:35.767]	    | 	video/screencast_img.png
+[2025-04-11 16:28:35.774]	    | 	video/script.md
+[2025-04-11 16:28:35.780]	    | Please move or remove them before you merge.
+[2025-04-11 16:28:35.790]	    | Aborting
+[2025-04-11 16:28:35.800]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-11 16:28:35.834]	Done.
+
+[2025-04-11 16:28:40.102]	  "tmux-prefix-highlight" update success
+[2025-04-11 16:28:40.112]	  "tmux-copycat" update success
+[2025-04-11 16:28:40.122]	    | Already up to date.
+[2025-04-11 16:28:40.128]	    | Already up to date.
+[2025-04-11 16:28:40.135]	  "tmux-fzf" update success
+[2025-04-11 16:28:40.143]	  "vim-tmux-navigator" update success
+[2025-04-11 16:28:40.153]	    | Already up to date.
+[2025-04-11 16:28:40.160]	    | Already up to date.
+[2025-04-11 16:28:40.167]	  "tmux-yank" update success
+[2025-04-11 16:28:40.175]	    | Already up to date.
+[2025-04-11 16:28:40.185]	  "tmux-open" update success
+[2025-04-11 16:28:40.192]	    | Already up to date.
+[2025-04-11 16:28:40.199]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-11 16:28:40.227]	Removing "tmux-copycat"
+[2025-04-11 16:28:40.233]	  "tmux-copycat" clean success
+[2025-04-11 16:28:40.240]	Removing "tmux-fzf"
+[2025-04-11 16:28:40.248]	  "tmux-fzf" clean success
+[2025-04-11 16:28:40.254]	Removing "tmux-open"
+[2025-04-11 16:28:40.262]	  "tmux-open" clean success
+[2025-04-11 16:28:40.269]	Removing "tmux-prefix-highlight"
+[2025-04-11 16:28:40.275]	  "tmux-prefix-highlight" clean success
+[2025-04-11 16:28:40.283]	Removing "tmux-yank"
+[2025-04-11 16:28:40.289]	  "tmux-yank" clean success
+[2025-04-11 16:28:40.296]	Removing "vim-tmux-navigator"
+[2025-04-11 16:28:40.303]	  "vim-tmux-navigator" clean success
+[2025-04-11 16:28:40.310]	Done.
+
+[2025-04-11 16:32:57.094]	List of discovered tpm plugins: tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-open tmux-plugins/tmux-copycat tmux-plugins/tmux-yank christoomey/vim-tmux-navigator sainnhe/tmux-fzf
+[2025-04-11 16:32:57.104]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-11 16:32:57.136]	Installing "tmux-prefix-highlight"
+[2025-04-11 16:32:57.144]	Installing "tmux-open"
+[2025-04-11 16:32:57.150]	Installing "tmux-copycat"
+[2025-04-11 16:32:57.157]	Installing "tmux-yank"
+[2025-04-11 16:32:57.167]	Installing "vim-tmux-navigator"
+[2025-04-11 16:32:57.177]	Installing "tmux-fzf"
+[2025-04-11 16:32:57.283]	List of discovered tpm plugins: tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-open tmux-plugins/tmux-copycat tmux-plugins/tmux-yank christoomey/vim-tmux-navigator sainnhe/tmux-fzf
+[2025-04-11 16:32:57.292]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-11 16:32:57.323]	Already installed "tmux-prefix-highlight"
+[2025-04-11 16:32:57.329]	Already installed "tmux-open"
+[2025-04-11 16:32:57.339]	Already installed "tmux-copycat"
+[2025-04-11 16:32:57.345]	Already installed "tmux-yank"
+[2025-04-11 16:32:57.353]	Already installed "vim-tmux-navigator"
+[2025-04-11 16:32:57.360]	Already installed "tmux-fzf"
+[2025-04-11 16:32:57.370]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-11 16:32:57.388]	Updating all plugins!
+[2025-04-11 16:32:57.398]	
+[2025-04-11 16:33:02.623]	  "vim-tmux-navigator" download success
+[2025-04-11 16:33:02.632]	  "tmux-fzf" download success
+[2025-04-11 16:33:02.639]	  "tmux-prefix-highlight" download success
+[2025-04-11 16:33:02.669]	  "tmux-yank" download success
+[2025-04-11 16:33:02.675]	  "tmux-open" download success
+[2025-04-11 16:33:02.704]	  "tmux-copycat" download success
+[2025-04-11 16:33:02.714]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-11 16:33:02.725]	  "vim-tmux-navigator" update fail
+[2025-04-11 16:33:02.732]	    | From https://github.com/christoomey/vim-tmux-navigator
+[2025-04-11 16:33:02.732]	Updating all plugins!
+[2025-04-11 16:33:02.740]	    |  * branch            HEAD       -> FETCH_HEAD
+[2025-04-11 16:33:02.742]	
+[2025-04-11 16:33:02.750]	    | error: The following untracked working tree files would be overwritten by merge:
+[2025-04-11 16:33:02.760]	    | 	.gitignore
+[2025-04-11 16:33:02.766]	    | 	License.md
+[2025-04-11 16:33:02.777]	    | 	README.md
+[2025-04-11 16:33:02.787]	    | 	doc/tmux-navigator.txt
+[2025-04-11 16:33:02.795]	    | 	pattern-check
+[2025-04-11 16:33:02.801]	    | 	plugin/tmux_navigator.vim
+[2025-04-11 16:33:02.811]	    | 	vim-tmux-navigator.tmux
+[2025-04-11 16:33:02.817]	    | Please move or remove them before you merge.
+[2025-04-11 16:33:02.823]	    | Aborting
+[2025-04-11 16:33:02.831]	  "tmux-prefix-highlight" update fail
+[2025-04-11 16:33:02.841]	  "tmux-yank" update fail
+[2025-04-11 16:33:02.848]	    | From https://github.com/tmux-plugins/tmux-prefix-highlight
+[2025-04-11 16:33:02.854]	    |  * branch            HEAD       -> FETCH_HEAD
+[2025-04-11 16:33:02.861]	    | error: The following untracked working tree files would be overwritten by merge:
+[2025-04-11 16:33:02.867]	    | 	LICENSE
+[2025-04-11 16:33:02.876]	    | 	README.md
+[2025-04-11 16:33:02.883]	    | 	prefix_highlight.tmux
+[2025-04-11 16:33:02.889]	    | 	screenshots/prefix_off.png
+[2025-04-11 16:33:02.896]	    | 	screenshots/prefix_on.png
+[2025-04-11 16:33:02.904]	    | Please move or remove them before you merge.
+[2025-04-11 16:33:02.914]	    | Aborting
+[2025-04-11 16:33:02.920]	    | From https://github.com/tmux-plugins/tmux-yank
+[2025-04-11 16:33:02.927]	    |  * branch            HEAD       -> FETCH_HEAD
+[2025-04-11 16:33:02.933]	    | error: The following untracked working tree files would be overwritten by merge:
+[2025-04-11 16:33:02.940]	    | 	.editorconfig
+[2025-04-11 16:33:02.947]	    | 	.gitattributes
+[2025-04-11 16:33:02.953]	    | 	.gitignore
+[2025-04-11 16:33:02.960]	    | 	.travis.yml
+[2025-04-11 16:33:02.966]	    | 	CHANGELOG.md
+[2025-04-11 16:33:02.976]	    | 	LICENSE.md
+[2025-04-11 16:33:02.984]	    | 	README.md
+[2025-04-11 16:33:02.990]	    | 	Vagrantfile
+[2025-04-11 16:33:02.997]	    | 	_config.yml
+[2025-04-11 16:33:03.006]	    | 	citest
+[2025-04-11 16:33:03.014]	    | 	scripts/copy_line.sh
+[2025-04-11 16:33:03.021]	    | 	scripts/copy_pane_pwd.sh
+[2025-04-11 16:33:03.029]	    | 	scripts/helpers.sh
+[2025-04-11 16:33:03.036]	    | 	vagrant_provisioning.sh
+[2025-04-11 16:33:03.043]	    | 	video/README.md
+[2025-04-11 16:33:03.050]	    | 	video/screencast_img.png
+[2025-04-11 16:33:03.057]	    | 	video/script.md
+[2025-04-11 16:33:03.063]	    | 	yank.tmux
+[2025-04-11 16:33:03.073]	    | Please move or remove them before you merge.
+[2025-04-11 16:33:03.081]	    | Aborting
+[2025-04-11 16:33:03.088]	  "tmux-open" update fail
+[2025-04-11 16:33:03.095]	    | From https://github.com/tmux-plugins/tmux-open
+[2025-04-11 16:33:03.103]	    |  * branch            HEAD       -> FETCH_HEAD
+[2025-04-11 16:33:03.111]	    | error: The following untracked working tree files would be overwritten by merge:
+[2025-04-11 16:33:03.118]	    | 	.gitattributes
+[2025-04-11 16:33:03.124]	    | 	CHANGELOG.md
+[2025-04-11 16:33:03.132]	    | 	LICENSE.md
+[2025-04-11 16:33:03.138]	    | 	README.md
+[2025-04-11 16:33:03.148]	    | 	open.tmux
+[2025-04-11 16:33:03.155]	    | 	scripts/helpers.sh
+[2025-04-11 16:33:03.162]	    | 	scripts/tmux_open_error_message.sh
+[2025-04-11 16:33:03.169]	    | 	video/screencast_img.png
+[2025-04-11 16:33:03.177]	    | 	video/script.md
+[2025-04-11 16:33:03.183]	    | Please move or remove them before you merge.
+[2025-04-11 16:33:03.190]	    | Aborting
+[2025-04-11 16:33:03.199]	  "tmux-fzf" update fail
+[2025-04-11 16:33:03.207]	    | From https://github.com/sainnhe/tmux-fzf
+[2025-04-11 16:33:03.216]	    |  * branch            HEAD       -> FETCH_HEAD
+[2025-04-11 16:33:03.224]	    | error: The following untracked working tree files would be overwritten by merge:
+[2025-04-11 16:33:03.231]	    | 	Anti-996-LICENSE
+[2025-04-11 16:33:03.241]	    | 	LICENSE
+[2025-04-11 16:33:03.247]	    | 	README.md
+[2025-04-11 16:33:03.254]	    | 	main.sh
+[2025-04-11 16:33:03.263]	    | 	main.tmux
+[2025-04-11 16:33:03.272]	    | 	scripts/.envs
+[2025-04-11 16:33:03.281]	    | 	scripts/.fzf-tmux
+[2025-04-11 16:33:03.288]	    | 	scripts/.preview
+[2025-04-11 16:33:03.295]	    | 	scripts/clipboard.sh
+[2025-04-11 16:33:03.304]	    | 	scripts/command.sh
+[2025-04-11 16:33:03.313]	    | 	scripts/copy-mode.sh
+[2025-04-11 16:33:03.320]	    | 	scripts/keybinding.sh
+[2025-04-11 16:33:03.328]	    | 	scripts/menu.sh
+[2025-04-11 16:33:03.337]	    | 	scripts/pane.sh
+[2025-04-11 16:33:03.343]	    | 	scripts/process.sh
+[2025-04-11 16:33:03.349]	    | 	scripts/session.sh
+[2025-04-11 16:33:03.356]	    | 	scripts/window.sh
+[2025-04-11 16:33:03.366]	    | Please move or remove them before you merge.
+[2025-04-11 16:33:03.372]	    | Aborting
+[2025-04-11 16:33:03.378]	  "tmux-copycat" update fail
+[2025-04-11 16:33:03.385]	    | From https://github.com/tmux-plugins/tmux-copycat
+[2025-04-11 16:33:03.395]	    |  * branch            HEAD       -> FETCH_HEAD
+[2025-04-11 16:33:03.403]	    | error: The following untracked working tree files would be overwritten by merge:
+[2025-04-11 16:33:03.409]	    | 	.gitattributes
+[2025-04-11 16:33:03.415]	    | 	.gitignore
+[2025-04-11 16:33:03.423]	    | 	.travis.yml
+[2025-04-11 16:33:03.433]	    | 	CHANGELOG.md
+[2025-04-11 16:33:03.439]	    | 	LICENSE.md
+[2025-04-11 16:33:03.446]	    | 	README.md
+[2025-04-11 16:33:03.453]	    | 	Vagrantfile
+[2025-04-11 16:33:03.459]	    | 	copycat.tmux
+[2025-04-11 16:33:03.466]	    | 	docs/customizations.md
+[2025-04-11 16:33:03.474]	    | 	docs/defining_new_stored_searches.md
+[2025-04-11 16:33:03.480]	    | 	docs/installation_for_tmux_2.3.md
+[2025-04-11 16:33:03.488]	    | 	docs/limitations.md
+[2025-04-11 16:33:03.497]	    | 	run-tests
+[2025-04-11 16:33:03.505]	    | 	scripts/check_tmux_version.sh
+[2025-04-11 16:33:03.511]	    | 	scripts/copycat_generate_results.sh
+[2025-04-11 16:33:03.519]	    | 	scripts/copycat_git_special.sh
+[2025-04-11 16:33:03.529]	    | 	scripts/copycat_jump.sh
+[2025-04-11 16:33:03.535]	    | 	scripts/copycat_mode_bindings.sh
+[2025-04-11 16:33:03.542]	    | 	scripts/copycat_mode_quit.sh
+[2025-04-11 16:33:03.548]	    | 	scripts/copycat_mode_start.sh
+[2025-04-11 16:33:03.555]	    | 	scripts/copycat_search.sh
+[2025-04-11 16:33:03.562]	    | 	scripts/helpers.sh
+[2025-04-11 16:33:03.569]	    | 	scripts/stored_search_helpers.sh
+[2025-04-11 16:33:03.575]	    | 	scripts/variables.sh
+[2025-04-11 16:33:03.583]	    | 	test/README.md
+[2025-04-11 16:33:03.590]	    | 	test/helpers/expect_copycat_assertions.exp
+[2025-04-11 16:33:03.597]	    | 	test/helpers/expect_copycat_helpers.exp
+[2025-04-11 16:33:03.603]	    | 	test/helpers/expect_helpers.exp
+[2025-04-11 16:33:03.610]	    | 	test/helpers/run_tmux.exp
+[2025-04-11 16:33:03.617]	    | 	test/helpers/setup.exp
+[2025-04-11 16:33:03.626]	    | 	test/helpers/setup_tmux_conf.sh
+[2025-04-11 16:33:03.633]	    | 	test/helpers/setup_tmux_conf_with_custom_searches.sh
+[2025-04-11 16:33:03.639]	    | 	test/helpers/setup_with_custom_searches.exp
+[2025-04-11 16:33:03.648]	    | 	test/helpers/test.exp
+[2025-04-11 16:33:03.657]	    | 	test/run-tests-within-vm
+[2025-04-11 16:33:03.663]	    | 	test/test_digit_search.exp
+[2025-04-11 16:33:03.670]	    | 	test/test_file_search.exp
+[2025-04-11 16:33:03.679]	    | 	test/test_free_search.exp
+[2025-04-11 16:33:03.689]	    | 	test/test_git_hash_search.exp
+[2025-04-11 16:33:03.697]	    | 	test/test_git_status_search.exp
+[2025-04-11 16:33:03.703]	    | 	test/test_url_search.exp
+[2025-04-11 16:33:03.712]	    | 	test/test_user_defined_search.exp
+[2025-04-11 16:33:03.718]	    | 	vagrant_ubuntu_provisioning_two_five.sh
+[2025-04-11 16:33:03.724]	    | 	video/README.md
+[2025-04-11 16:33:03.730]	    | 	video/screencast_img.png
+[2025-04-11 16:33:03.737]	    | 	video/script.md
+[2025-04-11 16:33:03.744]	    | Please move or remove them before you merge.
+[2025-04-11 16:33:03.751]	    | Aborting
+[2025-04-11 16:33:03.760]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-11 16:33:03.770]	/home/adam/.config/tmux/plugins/tpm/bin/clean_plugins: line 12: /home/adam/.config/tmux/plugins/tpm/bin/../scripts/clean_plugins.sh: No such file or directory
+[2025-04-11 16:33:03.777]	Done.
+
+[2025-04-11 16:33:08.145]	  "tmux-fzf" update success
+[2025-04-11 16:33:08.152]	  "tmux-prefix-highlight" update success
+[2025-04-11 16:33:08.159]	    | Already up to date.
+[2025-04-11 16:33:08.165]	  "vim-tmux-navigator" update success
+[2025-04-11 16:33:08.172]	    | Already up to date.
+[2025-04-11 16:33:08.178]	  "tmux-copycat" update success
+[2025-04-11 16:33:08.184]	    | Already up to date.
+[2025-04-11 16:33:08.190]	  "tmux-open" update success
+[2025-04-11 16:33:08.199]	  "tmux-yank" update success
+[2025-04-11 16:33:08.205]	    | Already up to date.
+[2025-04-11 16:33:08.212]	    | Already up to date.
+[2025-04-11 16:33:08.220]	    | Already up to date.
+[2025-04-11 16:33:08.228]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-11 16:33:08.236]	main: line 1764: /home/adam/.config/tmux/plugins/tpm/bin/clean_plugins: No such file or directory
+[2025-04-11 16:33:08.243]	Done.
+
+[2025-04-12 18:16:35.821]	List of discovered tpm plugins: tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-open tmux-plugins/tmux-copycat tmux-plugins/tmux-yank christoomey/vim-tmux-navigator sainnhe/tmux-fzf kiyoon/treemux
+[2025-04-12 18:16:35.829]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-12 18:16:35.860]	Installing "treemux"
+[2025-04-12 18:16:35.867]	Already installed "tmux-prefix-highlight"
+[2025-04-12 18:16:35.877]	Already installed "tmux-open"
+[2025-04-12 18:16:35.877]	List of discovered tpm plugins: tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-open tmux-plugins/tmux-copycat tmux-plugins/tmux-yank christoomey/vim-tmux-navigator sainnhe/tmux-fzf kiyoon/treemux
+[2025-04-12 18:16:35.884]	Already installed "tmux-yank"
+[2025-04-12 18:16:35.888]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-12 18:16:35.892]	Already installed "vim-tmux-navigator"
+[2025-04-12 18:16:35.899]	Already installed "tmux-fzf"
+[2025-04-12 18:16:35.905]	Already installed "tmux-copycat"
+[2025-04-12 18:16:35.919]	Already installed "tmux-prefix-highlight"
+[2025-04-12 18:16:35.926]	Already installed "tmux-open"
+[2025-04-12 18:16:35.932]	Already installed "tmux-copycat"
+[2025-04-12 18:16:35.938]	Already installed "tmux-yank"
+[2025-04-12 18:16:35.948]	Already installed "vim-tmux-navigator"
+[2025-04-12 18:16:35.957]	Already installed "tmux-fzf"
+[2025-04-12 18:16:35.963]	Already installed "treemux"
+[2025-04-12 18:16:35.970]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-12 18:16:35.989]	Updating all plugins!
+[2025-04-12 18:16:35.995]	
+[2025-04-12 18:16:41.611]	  "treemux" download success
+[2025-04-12 18:16:41.611]	  "vim-tmux-navigator" update success
+[2025-04-12 18:16:41.617]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-12 18:16:41.621]	  "tmux-open" update success
+[2025-04-12 18:16:41.627]	  "tmux-copycat" update success
+[2025-04-12 18:16:41.637]	    | Already up to date.
+[2025-04-12 18:16:41.638]	Updating all plugins!
+[2025-04-12 18:16:41.648]	    | Already up to date.
+[2025-04-12 18:16:41.648]	
+[2025-04-12 18:16:41.658]	    | Already up to date.
+[2025-04-12 18:16:41.668]	  "tmux-fzf" update success
+[2025-04-12 18:16:41.675]	  "tmux-yank" update success
+[2025-04-12 18:16:41.681]	  "tmux-prefix-highlight" update success
+[2025-04-12 18:16:41.688]	    | Already up to date.
+[2025-04-12 18:16:41.698]	    | Already up to date.
+[2025-04-12 18:16:41.706]	    | Already up to date.
+[2025-04-12 18:16:42.461]	  "treemux" update fail
+[2025-04-12 18:16:42.468]	    | From https://github.com/kiyoon/treemux
+[2025-04-12 18:16:42.474]	    |  * branch            HEAD       -> FETCH_HEAD
+[2025-04-12 18:16:42.484]	    | error: The following untracked working tree files would be overwritten by merge:
+[2025-04-12 18:16:42.494]	    | 	.gitattributes
+[2025-04-12 18:16:42.500]	    | 	.github/FUNDING.yml
+[2025-04-12 18:16:42.508]	    | 	.stylua.toml
+[2025-04-12 18:16:42.519]	    | 	LICENSE.md
+[2025-04-12 18:16:42.526]	    | 	README.md
+[2025-04-12 18:16:42.533]	    | 	configs/treemux_init.lua
+[2025-04-12 18:16:42.539]	    | 	docs/options.md
+[2025-04-12 18:16:42.549]	    | 	scripts/bin/treemux-nvim
+[2025-04-12 18:16:42.559]	    | 	scripts/check_tmux_version.sh
+[2025-04-12 18:16:42.565]	    | 	scripts/helpers.sh
+[2025-04-12 18:16:42.572]	    | 	scripts/nvim_command.py
+[2025-04-12 18:16:42.582]	    | 	scripts/nvimtree/awk_helper.sh
+[2025-04-12 18:16:42.592]	    | 	scripts/nvimtree/change_root.py
+[2025-04-12 18:16:42.598]	    | 	scripts/nvimtree/go_child.py
+[2025-04-12 18:16:42.608]	    | 	scripts/nvimtree/go_parent.py
+[2025-04-12 18:16:42.618]	    | 	scripts/nvimtree/go_random_within_rootdir.py
+[2025-04-12 18:16:42.625]	    | 	scripts/nvimtree/wait_nvimtreeinit_and_open_dir.py
+[2025-04-12 18:16:42.631]	    | 	scripts/nvimtree/watch_and_update.sh
+[2025-04-12 18:16:42.638]	    | 	scripts/register_sidebar.sh
+[2025-04-12 18:16:42.646]	    | 	scripts/save_sidebar_width.sh
+[2025-04-12 18:16:42.654]	    | 	scripts/tmux_current_window_nvim_addr.sh
+[2025-04-12 18:16:42.661]	    | 	scripts/toggle.sh
+[2025-04-12 18:16:42.668]	    | 	scripts/tree_helpers.sh
+[2025-04-12 18:16:42.678]	    | 	scripts/variables.sh
+[2025-04-12 18:16:42.685]	    | 	sidebar.tmux
+[2025-04-12 18:16:42.693]	    | Please move or remove them before you merge.
+[2025-04-12 18:16:42.699]	    | Aborting
+[2025-04-12 18:16:42.710]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-12 18:16:42.720]	main: line 1764: /home/adam/.config/tmux/plugins/tpm/bin/clean_plugins: No such file or directory
+[2025-04-12 18:16:42.726]	Done.
+
+[2025-04-12 18:16:47.072]	  "tmux-prefix-highlight" update success
+[2025-04-12 18:16:47.078]	    | Already up to date.
+[2025-04-12 18:16:47.088]	  "tmux-yank" update success
+[2025-04-12 18:16:47.098]	  "vim-tmux-navigator" update success
+[2025-04-12 18:16:47.106]	  "tmux-open" update success
+[2025-04-12 18:16:47.115]	    | Already up to date.
+[2025-04-12 18:16:47.121]	    | Already up to date.
+[2025-04-12 18:16:47.127]	    | Already up to date.
+[2025-04-12 18:16:47.137]	  "treemux" update success
+[2025-04-12 18:16:47.146]	    | Already up to date.
+[2025-04-12 18:16:47.153]	  "tmux-copycat" update success
+[2025-04-12 18:16:47.159]	    | Already up to date.
+[2025-04-12 18:16:47.169]	  "tmux-fzf" update success
+[2025-04-12 18:16:47.175]	    | Already up to date.
+[2025-04-12 18:16:47.181]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-12 18:16:47.188]	main: line 1764: /home/adam/.config/tmux/plugins/tpm/bin/clean_plugins: No such file or directory
+[2025-04-12 18:16:47.198]	Done.
+
+[2025-04-12 18:19:37.404]	List of discovered tpm plugins: tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-open tmux-plugins/tmux-copycat tmux-plugins/tmux-yank christoomey/vim-tmux-navigator sainnhe/tmux-fzf wfxr/tmux-fzf-url tmux-plugins/tmux-online-status tmux-plugins/tmux-cpu kiyoon/treemux
+[2025-04-12 18:19:37.415]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-12 18:19:37.444]	List of discovered tpm plugins: tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-open tmux-plugins/tmux-copycat tmux-plugins/tmux-yank christoomey/vim-tmux-navigator sainnhe/tmux-fzf wfxr/tmux-fzf-url tmux-plugins/tmux-online-status tmux-plugins/tmux-cpu kiyoon/treemux
+[2025-04-12 18:19:37.449]	Already installed "vim-tmux-navigator"
+[2025-04-12 18:19:37.454]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-12 18:19:37.459]	Already installed "tmux-copycat"
+[2025-04-12 18:19:37.470]	Already installed "tmux-open"
+[2025-04-12 18:19:37.480]	Already installed "tmux-prefix-highlight"
+[2025-04-12 18:19:37.486]	Already installed "tmux-open"
+[2025-04-12 18:19:37.490]	Installing "tmux-fzf-url"
+[2025-04-12 18:19:37.494]	Already installed "tmux-prefix-highlight"
+[2025-04-12 18:19:37.496]	Already installed "tmux-fzf"
+[2025-04-12 18:19:37.500]	Already installed "vim-tmux-navigator"
+[2025-04-12 18:19:37.502]	Installing "tmux-cpu"
+[2025-04-12 18:19:37.510]	Installing "tmux-online-status"
+[2025-04-12 18:19:37.510]	Already installed "tmux-fzf"
+[2025-04-12 18:19:37.517]	Already installed "tmux-yank"
+[2025-04-12 18:19:37.520]	Already installed "tmux-copycat"
+[2025-04-12 18:19:37.526]	Already installed "treemux"
+[2025-04-12 18:19:37.528]	Already installed "tmux-yank"
+[2025-04-12 18:19:37.537]	Already installed "treemux"
+[2025-04-12 18:19:37.547]	Already installed "tmux-fzf-url"
+[2025-04-12 18:19:37.557]	Already installed "tmux-online-status"
+[2025-04-12 18:19:37.563]	Already installed "tmux-cpu"
+[2025-04-12 18:19:37.571]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-12 18:19:37.590]	Updating all plugins!
+[2025-04-12 18:19:37.601]	
+[2025-04-12 18:19:43.197]	  "tmux-cpu" update fail
+[2025-04-12 18:19:43.200]	  "tmux-cpu" download success
+[2025-04-12 18:19:43.207]	    | From https://github.com/tmux-plugins/tmux-cpu
+[2025-04-12 18:19:43.217]	    |  * branch            HEAD       -> FETCH_HEAD
+[2025-04-12 18:19:43.226]	    | error: The following untracked working tree files would be overwritten by merge:
+[2025-04-12 18:19:43.232]	    | 	.editorconfig
+[2025-04-12 18:19:43.242]	    | 	.github/workflows/check.yml
+[2025-04-12 18:19:43.252]	    | 	.mailmap
+[2025-04-12 18:19:43.261]	    | 	LICENSE
+[2025-04-12 18:19:43.268]	    | 	README.md
+[2025-04-12 18:19:43.278]	    | 	cpu.tmux
+[2025-04-12 18:19:43.280]	  "tmux-fzf-url" download success
+[2025-04-12 18:19:43.288]	    | 	screenshots/high_bg.png
+[2025-04-12 18:19:43.294]	    | 	screenshots/high_fg.png
+[2025-04-12 18:19:43.301]	    | 	screenshots/high_icon.png
+[2025-04-12 18:19:43.311]	    | 	screenshots/low_bg.png
+[2025-04-12 18:19:43.321]	    | 	screenshots/low_fg.png
+[2025-04-12 18:19:43.327]	    | 	screenshots/low_icon.png
+[2025-04-12 18:19:43.333]	    | 	screenshots/medium_bg.png
+[2025-04-12 18:19:43.343]	    | 	screenshots/medium_fg.png
+[2025-04-12 18:19:43.349]	    | 	screenshots/medium_icon.png
+[2025-04-12 18:19:43.357]	    | 	scripts/cpu_bg_color.sh
+[2025-04-12 18:19:43.363]	    | 	scripts/cpu_fg_color.sh
+[2025-04-12 18:19:43.371]	    | 	scripts/cpu_icon.sh
+[2025-04-12 18:19:43.381]	    | 	scripts/cpu_percentage.sh
+[2025-04-12 18:19:43.388]	    | 	scripts/cpu_temp.sh
+[2025-04-12 18:19:43.395]	    | 	scripts/cpu_temp_bg_color.sh
+[2025-04-12 18:19:43.405]	    | 	scripts/cpu_temp_fg_color.sh
+[2025-04-12 18:19:43.411]	    | 	scripts/cpu_temp_icon.sh
+[2025-04-12 18:19:43.419]	    | 	scripts/gpu_bg_color.sh
+[2025-04-12 18:19:43.422]	  "tmux-online-status" download success
+[2025-04-12 18:19:43.425]	    | 	scripts/gpu_fg_color.sh
+[2025-04-12 18:19:43.429]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-12 18:19:43.431]	    | 	scripts/gpu_icon.sh
+[2025-04-12 18:19:43.437]	    | 	scripts/gpu_percentage.sh
+[2025-04-12 18:19:43.443]	    | 	scripts/gpu_temp.sh
+[2025-04-12 18:19:43.450]	Updating all plugins!
+[2025-04-12 18:19:43.453]	    | 	scripts/gpu_temp_bg_color.sh
+[2025-04-12 18:19:43.456]	
+[2025-04-12 18:19:43.463]	    | 	scripts/gpu_temp_fg_color.sh
+[2025-04-12 18:19:43.474]	    | 	scripts/gpu_temp_icon.sh
+[2025-04-12 18:19:43.484]	    | 	scripts/gram_bg_color.sh
+[2025-04-12 18:19:43.491]	    | 	scripts/gram_fg_color.sh
+[2025-04-12 18:19:43.497]	    | 	scripts/gram_icon.sh
+[2025-04-12 18:19:43.505]	    | 	scripts/gram_percentage.sh
+[2025-04-12 18:19:43.515]	    | 	scripts/helpers.sh
+[2025-04-12 18:19:43.521]	    | 	scripts/ram_bg_color.sh
+[2025-04-12 18:19:43.528]	    | 	scripts/ram_fg_color.sh
+[2025-04-12 18:19:43.537]	    | 	scripts/ram_icon.sh
+[2025-04-12 18:19:43.547]	    | 	scripts/ram_percentage.sh
+[2025-04-12 18:19:43.555]	    | Please move or remove them before you merge.
+[2025-04-12 18:19:43.561]	    | Aborting
+[2025-04-12 18:19:43.569]	  "vim-tmux-navigator" update success
+[2025-04-12 18:19:43.578]	    | Already up to date.
+[2025-04-12 18:19:43.584]	  "tmux-open" update success
+[2025-04-12 18:19:43.592]	  "tmux-fzf" update success
+[2025-04-12 18:19:43.598]	  "treemux" update success
+[2025-04-12 18:19:43.608]	    | Already up to date.
+[2025-04-12 18:19:43.615]	    | Already up to date.
+[2025-04-12 18:19:43.622]	    | From https://github.com/kiyoon/treemux
+[2025-04-12 18:19:43.632]	    |  * [new tag]         v0.1.0     -> v0.1.0
+[2025-04-12 18:19:43.642]	    |  * [new tag]         v0.1.1     -> v0.1.1
+[2025-04-12 18:19:43.648]	    | Already up to date.
+[2025-04-12 18:19:43.655]	  "tmux-yank" update success
+[2025-04-12 18:19:43.663]	    | Already up to date.
+[2025-04-12 18:19:44.081]	  "tmux-online-status" update fail
+[2025-04-12 18:19:44.099]	    | From https://github.com/tmux-plugins/tmux-online-status
+[2025-04-12 18:19:44.109]	    |  * branch            HEAD       -> FETCH_HEAD
+[2025-04-12 18:19:44.119]	    | error: The following untracked working tree files would be overwritten by merge:
+[2025-04-12 18:19:44.127]	    | 	.gitattributes
+[2025-04-12 18:19:44.137]	    | 	CHANGELOG.md
+[2025-04-12 18:19:44.144]	    | 	LICENSE.md
+[2025-04-12 18:19:44.154]	    | 	README.md
+[2025-04-12 18:19:44.164]	    | 	online_status.tmux
+[2025-04-12 18:19:44.174]	    | 	screenshots/offline_indicator.png
+[2025-04-12 18:19:44.183]	    | 	screenshots/offline_indicator_linux.png
+[2025-04-12 18:19:44.192]	    | 	screenshots/online_indicator.png
+[2025-04-12 18:19:44.201]	    | 	screenshots/online_indicator_linux.png
+[2025-04-12 18:19:44.208]	    | 	scripts/online_status_icon.sh
+[2025-04-12 18:19:44.218]	    | 	scripts/shared.sh
+[2025-04-12 18:19:44.228]	    | Please move or remove them before you merge.
+[2025-04-12 18:19:44.237]	    | Aborting
+[2025-04-12 18:19:44.244]	  "tmux-copycat" update success
+[2025-04-12 18:19:44.254]	    | Already up to date.
+[2025-04-12 18:19:44.261]	  "tmux-prefix-highlight" update success
+[2025-04-12 18:19:44.270]	    | Already up to date.
+[2025-04-12 18:19:44.772]	  "tmux-fzf-url" update fail
+[2025-04-12 18:19:44.780]	    | From https://github.com/wfxr/tmux-fzf-url
+[2025-04-12 18:19:44.787]	    |  * branch            HEAD       -> FETCH_HEAD
+[2025-04-12 18:19:44.794]	    | error: The following untracked working tree files would be overwritten by merge:
+[2025-04-12 18:19:44.802]	    | 	FUNDING.yml
+[2025-04-12 18:19:44.810]	    | 	LICENSE.txt
+[2025-04-12 18:19:44.818]	    | 	README.md
+[2025-04-12 18:19:44.825]	    | 	fzf-url.sh
+[2025-04-12 18:19:44.835]	    | 	fzf-url.tmux
+[2025-04-12 18:19:44.842]	    | Please move or remove them before you merge.
+[2025-04-12 18:19:44.849]	    | Aborting
+[2025-04-12 18:19:44.857]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-12 18:19:44.867]	/home/adam/.config/tmux/plugins/tpm/bin/clean_plugins: line 12: /home/adam/.config/tmux/plugins/tpm/bin/../scripts/clean_plugins.sh: No such file or directory
+[2025-04-12 18:19:44.874]	Done.
+
+[2025-04-12 18:19:48.843]	  "tmux-prefix-highlight" update success
+[2025-04-12 18:19:48.850]	    | Already up to date.
+[2025-04-12 18:19:48.871]	  "tmux-yank" update success
+[2025-04-12 18:19:48.877]	    | Already up to date.
+[2025-04-12 18:19:48.884]	  "tmux-open" update success
+[2025-04-12 18:19:48.892]	  "tmux-copycat" update success
+[2025-04-12 18:19:48.898]	  "vim-tmux-navigator" update success
+[2025-04-12 18:19:48.908]	    | Already up to date.
+[2025-04-12 18:19:48.914]	  "tmux-cpu" update success
+[2025-04-12 18:19:48.920]	  "tmux-fzf" update success
+[2025-04-12 18:19:48.928]	    | Already up to date.
+[2025-04-12 18:19:48.938]	    | Already up to date.
+[2025-04-12 18:19:48.945]	    | Already up to date.
+[2025-04-12 18:19:48.952]	    | Already up to date.
+[2025-04-12 18:19:48.958]	  "treemux" update success
+[2025-04-12 18:19:48.965]	    | Already up to date.
+[2025-04-12 18:19:48.972]	  "tmux-fzf-url" update success
+[2025-04-12 18:19:48.979]	  "tmux-online-status" update success
+[2025-04-12 18:19:48.984]	    | Already up to date.
+[2025-04-12 18:19:48.990]	    | Already up to date.
+[2025-04-12 18:19:49.001]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-12 18:19:49.008]	main: line 1764: /home/adam/.config/tmux/plugins/tpm/bin/clean_plugins: No such file or directory
+[2025-04-12 18:19:49.014]	Done.
+
+[2025-04-12 19:29:33.737]	List of discovered tpm plugins: tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-open tmux-plugins/tmux-copycat tmux-plugins/tmux-yank christoomey/vim-tmux-navigator sainnhe/tmux-fzf wfxr/tmux-fzf-url tmux-plugins/tmux-online-status tmux-plugins/tmux-cpu kiyoon/treemux
+[2025-04-12 19:29:33.743]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-04-12 19:29:33.773]	Already installed "tmux-prefix-highlight"
+[2025-04-12 19:29:33.783]	Already installed "tmux-copycat"
+[2025-04-12 19:29:33.789]	Already installed "tmux-open"
+[2025-04-12 19:29:33.799]	Already installed "tmux-fzf-url"
+[2025-04-12 19:29:33.805]	Already installed "tmux-yank"
+[2025-04-12 19:29:33.812]	Already installed "tmux-fzf"
+[2025-04-12 19:29:33.819]	Already installed "vim-tmux-navigator"
+[2025-04-12 19:29:33.828]	Already installed "tmux-online-status"
+[2025-04-12 19:29:33.834]	Already installed "tmux-cpu"
+[2025-04-12 19:29:33.841]	Already installed "treemux"
+[2025-04-12 19:29:33.849]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-04-12 19:29:33.870]	Updating all plugins!
+[2025-04-12 19:29:33.880]	
+[2025-04-12 19:29:39.266]	  "tmux-copycat" update success
+[2025-04-12 19:29:39.277]	  "tmux-open" update success
+[2025-04-12 19:29:39.283]	    | Already up to date.
+[2025-04-12 19:29:39.293]	    | Already up to date.
+[2025-04-12 19:29:39.300]	  "tmux-prefix-highlight" update success
+[2025-04-12 19:29:39.306]	    | Already up to date.
+[2025-04-12 19:29:39.317]	  "tmux-fzf" update success
+[2025-04-12 19:29:39.327]	    | Already up to date.
+[2025-04-12 19:29:39.333]	  "vim-tmux-navigator" update success
+[2025-04-12 19:29:39.339]	    | Already up to date.
+[2025-04-12 19:29:39.349]	  "tmux-fzf-url" update success
+[2025-04-12 19:29:39.359]	    | Already up to date.
+[2025-04-12 19:29:39.366]	  "tmux-online-status" update success
+[2025-04-12 19:29:39.375]	    | Already up to date.
+[2025-04-12 19:29:39.385]	  "tmux-cpu" update success
+[2025-04-12 19:29:39.392]	    | Already up to date.
+[2025-04-12 19:29:39.398]	  "treemux" update success
+[2025-04-12 19:29:39.404]	    | Already up to date.
+[2025-04-12 19:29:44.608]	  "tmux-yank" update success
+[2025-04-12 19:29:44.615]	    | Already up to date.
+[2025-04-12 19:29:44.624]	Invoking /home/adam/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-12 19:29:44.631]	main: line 1764: /home/adam/.config/tmux/plugins/tpm/bin/clean_plugins: No such file or directory
+[2025-04-12 19:29:44.641]	Done.
+

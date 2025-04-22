@@ -1,0 +1,14 @@
+#! /bin/sh
+#
+# tmux_new_instance.sh
+# Copyright (C) 2025 adam <adam@NAS>
+#
+# Distributed under terms of the MIT license.
+#
+
+
+if tmux has-session -t feet; then
+    tmux new-window -t feet;
+else
+    tmux new-session -t feet;
+fi

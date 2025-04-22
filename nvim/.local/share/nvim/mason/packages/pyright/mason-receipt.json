@@ -1,0 +1,1 @@
+{"metrics":{"start_time":1745270908046,"completion_time":1745270925012},"name":"pyright","secondary_sources":[],"schema_version":"1.1","links":{"opt":{},"bin":{"pyright":"node_modules/.bin/pyright","pyright-langserver":"node_modules/.bin/pyright-langserver"},"share":{}},"primary_source":{"id":"pkg:npm/pyright@1.1.399","type":"registry+v1"}}

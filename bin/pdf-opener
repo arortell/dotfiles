@@ -1,0 +1,18 @@
+#!/bin/env bash
+
+# Get all the PDFs in the home directory.
+FILES="$(find /home/yandex-disk/documents/Books -name "*.pdf")"
+
+
+# Filter out the beginning of the paths and the file extension
+# and pass those files to rofi for the user to select from.
+FILE_INDEX=$(echo "$FILES" \
+  | sed -e 's/.*\///' -e 's/.pdf//' \
+  | rofi -dmenu -sort -i -P "Books" -format d)
+
+# If the user selected a file, open it up!
+case $FILE_INDEX in
+  -1) ;;
+  "") ;;
+  *) zathura "$(echo "$FILES" | sed -n "${FILE_INDEX}"p)" ;;
+esac

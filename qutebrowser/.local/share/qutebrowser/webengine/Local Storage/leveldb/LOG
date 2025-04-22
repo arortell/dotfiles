@@ -1,6 +1,6 @@
-2025/04/21-21:14:55.031 2f1aa4 Reusing MANIFEST /home/adam/.local/share/qutebrowser/webengine/Local Storage/leveldb/MANIFEST-000001
-2025/04/21-21:14:55.040 2f1aa4 Recovering log #239
-2025/04/21-21:14:55.040 2f1aa4 Reusing old log /home/adam/.local/share/qutebrowser/webengine/Local Storage/leveldb/000239.log 
-2025/04/21-21:36:00.721 2f1aa2 Level-0 table #243: started
-2025/04/21-21:36:00.724 2f1aa2 Level-0 table #243: 37317 bytes OK
-2025/04/21-21:36:00.726 2f1aa2 Delete type=0 #239
+2025/04/22-09:10:53.396 1f394 Reusing MANIFEST /home/adam/.local/share/qutebrowser/webengine/Local Storage/leveldb/MANIFEST-000001
+2025/04/22-09:10:53.397 1f394 Recovering log #252
+2025/04/22-09:10:53.397 1f394 Reusing old log /home/adam/.local/share/qutebrowser/webengine/Local Storage/leveldb/000252.log 
+2025/04/22-09:25:31.175 1f396 Level-0 table #256: started
+2025/04/22-09:25:31.177 1f396 Level-0 table #256: 37471 bytes OK
+2025/04/22-09:25:31.179 1f396 Delete type=0 #252

@@ -1,0 +1,1 @@
+{"metrics":{"completion_time":1745272680007,"start_time":1745272673542},"links":{"share":{},"opt":{},"bin":{"neocmakelsp":"neocmakelsp-x86_64-unknown-linux-musl"}},"secondary_sources":[],"schema_version":"1.1","primary_source":{"id":"pkg:github/neocmakelsp/neocmakelsp@v0.8.22","type":"registry+v1"},"name":"neocmakelsp"}

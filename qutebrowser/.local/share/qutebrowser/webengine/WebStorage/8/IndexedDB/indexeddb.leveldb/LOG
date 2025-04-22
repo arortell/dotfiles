@@ -1,0 +1,25 @@
+2025/04/15-10:01:22.300 3f5f Reusing MANIFEST /home/adam/.local/share/qutebrowser/webengine/WebStorage/8/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/04/15-10:01:22.300 3f5f Recovering log #4
+2025/04/15-10:01:22.307 3f5f Reusing old log /home/adam/.local/share/qutebrowser/webengine/WebStorage/8/IndexedDB/indexeddb.leveldb/000004.log 
+2025/04/15-10:01:22.877 3f52 Level-0 table #8: started
+2025/04/15-10:01:22.885 3f52 Level-0 table #8: 1419487 bytes OK
+2025/04/15-10:01:22.887 3f52 Delete type=0 #4
+2025/04/15-10:01:27.416 3f54 Level-0 table #10: started
+2025/04/15-10:01:27.420 3f54 Level-0 table #10: 45093 bytes OK
+2025/04/15-10:01:27.422 3f54 Delete type=0 #7
+2025/04/15-10:01:27.423 3f54 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x02\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xa0\xfd\x1d\x0bayB\x00\x03\x00\x00\x00\x00\x00\x80G@' @ 5422 : 1
+2025/04/15-10:01:27.423 3f54 Compacting 1@0 + 1@1 files
+2025/04/15-10:01:27.436 3f54 Generated table #11@0: 1210 keys, 26340 bytes
+2025/04/15-10:01:27.437 3f54 Compacted 1@0 + 1@1 files => 26340 bytes
+2025/04/15-10:01:27.438 3f54 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/04/15-10:01:27.438 3f54 Delete type=2 #8
+2025/04/15-10:01:27.438 3f54 Delete type=2 #10
+2025/04/15-10:01:27.439 3f54 Manual compaction at level-0 from '\x00\x02\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xa0\xfd\x1d\x0bayB\x00\x03\x00\x00\x00\x00\x00\x80G@' @ 5422 : 1 .. (end); will stop at (end)
+2025/04/15-10:01:27.439 3f54 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x00\x00\xc8\x0b\x00S\x00W\x00H\x00e\x00a\x00l\x00t\x00h\x00L\x00o\x00g' @ 2850 : 1
+2025/04/15-10:01:27.439 3f54 Compacting 1@1 + 1@2 files
+2025/04/15-10:01:27.442 3f54 Generated table #12@1: 72 keys, 16095 bytes
+2025/04/15-10:01:27.442 3f54 Compacted 1@1 + 1@2 files => 16095 bytes
+2025/04/15-10:01:27.443 3f54 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/15-10:01:27.443 3f54 Delete type=2 #5
+2025/04/15-10:01:27.443 3f54 Delete type=2 #11
+2025/04/15-10:01:27.444 3f54 Manual compaction at level-1 from '\x00\x03\x00\x00\xc8\x0b\x00S\x00W\x00H\x00e\x00a\x00l\x00t\x00h\x00L\x00o\x00g' @ 2850 : 1 .. (end); will stop at (end)

@@ -1,27 +1,25 @@
 #!/bin/env bash
 #       _       _ _
-# __  _(_)_ __ (_) |_ _ __ ___ 
+# __  _(_)_ __ (_) |_ _ __ ___
 # \ \/ / | '_ \| | __| '__/ __|
-#  >  <| | | | | | |_| | | (__ 
+#  >  <| | | | | | |_| | | (__
 # /_/\_\_|_| |_|_|\__|_|  \___|
 #================== xorg init =
 
-#export QT_QPA_PLATFORMTHEME=gtk2
+#export QT_QPA_PLATFORMTHEME=gtk3
 
-if [ -d /etc/X11/xinit/xinitrc.d ]
-then
-	for f in /etc/X11/xinit/xinitrc.d/?*.sh
-	do
+if [ -d /etc/X11/xinit/xinitrc.d ]; then
+	for f in /etc/X11/xinit/xinitrc.d/?*.sh; do
 		[ -x "$f" ] && . "$f"
 	done
 	unset f
 fi
 
-# Start everything and dump output to a log
-unclutter > ~/.local/share/xorg/startup.log &
-udiskie >> ~/.local/share/xorg/startup.log &
-dunst >> ~/.local/share/xorg/startup.log &
-picom >> ~/.local/share/xorg/startup.log &
+# Start background stuff
+unclutter &
+udiskie &
+dunst &
+picom &
 
 # Setting Cursor
 xsetroot -cursor_name left_ptr 2>&1 &
@@ -29,10 +27,10 @@ xsetroot -cursor_name left_ptr 2>&1 &
 # Remap Capslock to ctrl
 setxkbmap -layout us -option ctrl:nocaps 2>/dev/null
 
-# Needed for media keys on th corsair keyboard
+# Needed for media keys on the corsair keyboard
 xmodmap ~/.dotfiles/xmodmap/xmodmap.conf &
 
-#echo "starting gpg-agent daemon" >> ~/.logs/xinit.log
+# Starting gpg-agent daemon
 gpg-agent --daemon --pinentry-program /usr/bin/pinentry-rofi &
 
 # set Wallpaper

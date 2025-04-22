@@ -1,0 +1,25 @@
+#!/bin/bash
+
+img_path="/diskb/onedrive/Pictures/Screenshots"
+
+
+# scrot -s select with mouse
+# scrot -u select currectly focused window
+
+# options to be displayed
+option0="♠ Screen"
+option1="♥ Area"
+option2="♦ Window"
+
+# options to be displyed
+options="$option0\n$option1\n$option2"
+
+selected="$(echo -e "$options" | rofi -lines 3 -dmenu -p "scrot")"
+case "$selected" in
+    "$option0")
+        cd $img_path && sleep 1 && scrot;;
+    "$option1")
+        cd $img_path && scrot -s;;
+    "$option2")
+        cd $img_path && sleep 1 && scrot -u;;
+esac
