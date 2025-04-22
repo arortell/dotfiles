@@ -1,5 +1,3 @@
-:open -t windoiwtype of lemonbar
-:open -t succade
 :succade lemonbar
 :open succade lemonbar
 :open -t what is the wintype of a panel lemonbar
@@ -98,3 +96,5 @@
 :open using supermaven lazy vim 
 :open supermaven
 :open -t codeium keeps saying tok is incorrect
+:open how big can a git repo be
+:open ohow to use git lfs
