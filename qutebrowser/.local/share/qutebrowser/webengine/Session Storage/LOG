@@ -1,3 +1,6 @@
 2025/04/22-09:10:53.471 1f394 Reusing MANIFEST /home/adam/.local/share/qutebrowser/webengine/Session Storage/MANIFEST-000001
 2025/04/22-09:10:53.471 1f394 Recovering log #91
 2025/04/22-09:10:53.471 1f394 Reusing old log /home/adam/.local/share/qutebrowser/webengine/Session Storage/000091.log 
+2025/04/22-10:11:22.472 1f394 Level-0 table #97: started
+2025/04/22-10:11:22.473 1f394 Level-0 table #97: 19766 bytes OK
+2025/04/22-10:11:22.474 1f394 Delete type=0 #91

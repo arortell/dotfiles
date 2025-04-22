@@ -1,5 +1,6 @@
 windows:
-- geometry: !!binary |
+- active: true
+  geometry: !!binary |
     AdnQywADAAAAAAABAAAAFAAAA74AAAQ2AAAAAgAAABUAAAO9AAAENQAAAAAAAAAAB4AAAAACAAAA
     FQAAA70AAAQ1
   tabs:
@@ -24,30 +25,12 @@ windows:
       url: http://www.lazyvim.org/plugins
       zoom: 1.0
   - history:
-    - last_visited: '2025-04-22T09:10:58'
-      pinned: false
-      title: os — Miscellaneous operating system interfaces — Python 3.13.3 documentation
-      url: https://docs.python.org/3/library/os.html
-    - last_visited: '2025-04-22T09:24:02'
-      pinned: false
-      title: codeium syas tok ius wrong - Google Search
-      url: https://www.google.com/search?q=codeium%20syas%20tok%20ius%20wrong
-    - active: true
-      last_visited: '2025-04-22T09:24:32'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 360
-      title: 'Invalid token please try again · Issue #62 · Exafunction/windsurf.vim'
-      url: https://github.com/Exafunction/windsurf.vim/issues/62
-      zoom: 1.0
-  - history:
     - active: true
       last_visited: '2025-04-22T09:10:58'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
+        y: 120
       title: "\U0001F4F0 What's new? | LazyVim"
       url: http://www.lazyvim.org/news
       zoom: 1.0
@@ -91,8 +74,7 @@ windows:
       title: Vim / Neovim Tutorial | Windsurf (formerly Codeium)
       url: https://windsurf.com/vim_tutorial?page=editor&extensionName=neovim&access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NzA4MWNhOWNiYjM3YzIzNDk4ZGQzOTQzYmYzNzFhMDU4ODNkMjgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZXhhMi1mYjE3MCIsImF1ZCI6ImV4YTItZmIxNzAiLCJhdXRoX3RpbWUiOjE3NDUzMzEzMzIsInVzZXJfaWQiOiJ2dzZFZnpuN044VmUya3Q1MDdzczlnTzZVbGwyIiwic3ViIjoidnc2RWZ6bjdOOFZlMmt0NTA3c3M5Z082VWxsMiIsImlhdCI6MTc0NTMzMTM0MCwiZXhwIjoxNzQ1MzM0OTQwLCJlbWFpbCI6ImIxNGNrNXQ0ckBwcm90b24ubWUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJiMTRjazV0NHJAcHJvdG9uLm1lIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.Zv3ag7DxjwtK4bojzlA2Pxi9H-qvhymYOzD0mf9ka1Rbyxg41hXLKY3qYS0rnRZ6Ioyqu6HZ2UK2GFjV9uMYOl_PRcln2HdqYUTEnD4CNKfyGaeA30TWR19kgRC0GytoQVEHzH1pk0UIWOjsVCnzxDUkNj68TjTN5O9BRBERufiyjKFG0WyaO5yPA3Hi18zp7RdgHYDwI3XzweVS33e_V6r4u_8tN9ggDpoCUn0LE2ULqRRlLfXh4xTJWHATzTfBaERElzM5hIj-6Y13Ak_Sfol1aHEcGEpuGUayLyS-L4JyQv6fvlS3tDLi3hBLryh2x3yKG1YSmCoMKkiRj2Ih_w
       zoom: 1.0
-  - active: true
-    history:
+  - history:
     - last_visited: '2025-04-22T09:25:18'
       pinned: false
       title: 'arortell/dotfiles: My dotfiles'
@@ -106,7 +88,95 @@ windows:
       pinned: false
       scroll-pos:
         x: 0
-        y: 1680
+        y: 1720
       title: Adding a file to a repository - GitHub Docs
       url: https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
+      zoom: 1.0
+  - history:
+    - last_visited: '2025-04-22T10:11:01'
+      pinned: false
+      title: what is lean language - Google Search
+      url: https://www.google.com/search?q=what%20is%20lean%20language
+    - last_visited: '2025-04-22T10:11:22'
+      pinned: false
+      title: what is markdown lang - Google Search
+      url: https://www.google.com/search?q=what%20is%20markdown%20lang
+    - last_visited: '2025-04-22T10:11:36'
+      pinned: false
+      title: markdown linux arch - Google Search
+      url: https://www.google.com/search?q=markdown%20linux%20arch
+    - last_visited: '2025-04-22T10:11:55'
+      pinned: false
+      title: does markdown need to be installed arch linux - Google Search
+      url: https://www.google.com/search?q=does%20markdown%20need%20to%20be%20installed%20arch%20linux
+    - last_visited: '2025-04-22T10:14:11'
+      pinned: false
+      title: mason lsp faile to install nl lazy nvim - Google Search
+      url: https://www.google.com/search?q=mason%20lsp%20faile%20to%20install%20nl%20lazy%20nvim
+    - last_visited: '2025-04-22T10:14:34'
+      original-url: https://lazyvim.github.io/plugins/lsp
+      pinned: false
+      title: LSP | LazyVim
+      url: http://www.lazyvim.org/plugins/lsp
+    - last_visited: '2025-04-22T10:15:24'
+      pinned: false
+      title: what is the leader key lazy vim - Google Search
+      url: https://www.google.com/search?q=what%20is%20the%20leader%20key%20lazy%20vim
+    - active: true
+      last_visited: '2025-04-22T10:16:25'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 720
+      title: ⌨️ Keymaps | LazyVim
+      url: http://www.lazyvim.org/keymaps
+      zoom: 1.0
+  - history:
+    - last_visited: '2025-04-22T10:36:12'
+      pinned: false
+      title: https://windsurf.com/profile?response_type=token&redirect_uri=vim-show-auth-token&state=cb9c1a5b-6910-4fb2-b457-a9c72a392d90&scope=openid%20profile%20email&redirect_parameters_type=query
+      url: https://windsurf.com/profile?response_type=token&redirect_uri=vim-show-auth-token&state=cb9c1a5b-6910-4fb2-b457-a9c72a392d90&scope=openid%20profile%20email&redirect_parameters_type=query
+    - active: true
+      last_visited: '2025-04-22T10:36:13'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Provide Authentication Token to Vim / Neovim | Windsurf (formerly Codeium)
+      url: https://windsurf.com/vim-show-auth-token?state=cb9c1a5b-6910-4fb2-b457-a9c72a392d90&access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NzA4MWNhOWNiYjM3YzIzNDk4ZGQzOTQzYmYzNzFhMDU4ODNkMjgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZXhhMi1mYjE3MCIsImF1ZCI6ImV4YTItZmIxNzAiLCJhdXRoX3RpbWUiOjE3NDUzMzEzMzIsInVzZXJfaWQiOiJ2dzZFZnpuN044VmUya3Q1MDdzczlnTzZVbGwyIiwic3ViIjoidnc2RWZ6bjdOOFZlMmt0NTA3c3M5Z082VWxsMiIsImlhdCI6MTc0NTMzNjE3MSwiZXhwIjoxNzQ1MzM5NzcxLCJlbWFpbCI6ImIxNGNrNXQ0ckBwcm90b24ubWUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJiMTRjazV0NHJAcHJvdG9uLm1lIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.N7dWqJCxDzvbTwheqIx7kY8tmMpC-V98QkJNdHQ7vP85iXMIh_-SIU-z5GXGNXa_VVn0G_W0dpFVCeGmtlcquqoC02g0j57zfqnUPmaQa_kueAGcuBAkHuJsjaiJ0FnoqUheIXzknxbte3fCykuEUXFdGmY2Sy7wF6DVLyg3V2WPgJ514swJ9BB5PUzFxfypncTLO1vWJYDB5yrl-4dH1oF7foR__KDl_W80rPfBdsYMVH4W_dmv6pwOnav-pEracTDGHF0fHajzuNRWVDVeteWuwELwmKcwpcMDs317VA-S9SiBjJOJ4H-z5sPACJ8toKdVL4zzPjzfCng_ksr1MQ
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-04-22T10:36:49'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 820
+      title: codeium keeps saying tok is incorrect - Google Search
+      url: https://www.google.com/search?q=codeium%20keeps%20saying%20tok%20is%20incorrect
+      zoom: 1.0
+  - active: true
+    history:
+    - active: true
+      last_visited: '2025-04-22T10:41:31'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Dear Codeium: Please take responsibility and fix it! : r/Codeium'
+      url: https://www.reddit.com/r/Codeium/comments/1hxloic/dear_codeium_please_take_responsibility_and_fix_it/
+      zoom: 1.0
+  - history:
+    - last_visited: '2025-04-22T10:37:28'
+      pinned: false
+      title: https://windsurf.com/profile?response_type=token&redirect_uri=vim-show-auth-token&state=cb9c1a5b-6910-4fb2-b457-a9c72a392d90&scope=openid%20profile%20email&redirect_parameters_type=query
+      url: https://windsurf.com/profile?response_type=token&redirect_uri=vim-show-auth-token&state=cb9c1a5b-6910-4fb2-b457-a9c72a392d90&scope=openid%20profile%20email&redirect_parameters_type=query
+    - active: true
+      last_visited: '2025-04-22T10:37:29'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Provide Authentication Token to Vim / Neovim | Windsurf (formerly Codeium)
+      url: https://windsurf.com/vim-show-auth-token?state=cb9c1a5b-6910-4fb2-b457-a9c72a392d90&access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NzA4MWNhOWNiYjM3YzIzNDk4ZGQzOTQzYmYzNzFhMDU4ODNkMjgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZXhhMi1mYjE3MCIsImF1ZCI6ImV4YTItZmIxNzAiLCJhdXRoX3RpbWUiOjE3NDUzMzEzMzIsInVzZXJfaWQiOiJ2dzZFZnpuN044VmUya3Q1MDdzczlnTzZVbGwyIiwic3ViIjoidnc2RWZ6bjdOOFZlMmt0NTA3c3M5Z082VWxsMiIsImlhdCI6MTc0NTMzNjI0NywiZXhwIjoxNzQ1MzM5ODQ3LCJlbWFpbCI6ImIxNGNrNXQ0ckBwcm90b24ubWUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJiMTRjazV0NHJAcHJvdG9uLm1lIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.SNHR5Ilod6uGNeRJKn7G7jxnANcd_I5T9hs27jrAE2tOZaxgLCyFOJMtydlk_EUABopTHTbcU1pRX3JHno73VssofTXgxtBgqW3hINgJ8od5h9BHUr24mOkge-N-lItb09EvhAVpNRVAGIo9ioRI96-QnoLyahtaCFdJDWOzVaPV0KUCtu74y5WLRcjRBzi9NUdMxIsTxLnSBFeTTd6WFWIMnSTSowDoNEKrThy5bCqLL2A50NoHxIr9gRgmnLLTnAB28Fxg4mbMGaXz3dDvbYFTPskHB-t0itfEUzJQHAedTkkf_R0NvS9y6obfYoMt1qQllt5-dAosdTicgfIpvQ
       zoom: 1.0
