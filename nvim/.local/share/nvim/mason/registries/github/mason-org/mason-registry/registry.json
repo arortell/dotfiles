@@ -502,7 +502,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/forcedotcom/salesforcedx-vscode@v63.9.2",
+      "id": "pkg:github/forcedotcom/salesforcedx-vscode@v63.10.0",
       "asset": {
         "file": "salesforcedx-vscode-apex-{{ version | strip_prefix \"v\" }}.vsix"
       }
@@ -3085,7 +3085,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:npm/%40neo4j-cypher/language-server@2.0.0-next.19"
+      "id": "pkg:npm/%40neo4j-cypher/language-server@2.0.0-next.20"
     },
     "bin": {
       "cypher-language-server": "npm:cypher-language-server"
@@ -10676,7 +10676,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:composer/vimeo/psalm@6.10.0"
+      "id": "pkg:composer/vimeo/psalm@6.10.1"
     },
     "bin": {
       "psalm": "composer:psalm",
@@ -11317,7 +11317,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/styrainc/regal@v0.32.0",
+      "id": "pkg:github/styrainc/regal@v0.33.1",
       "asset": [
         {
           "target": "darwin_arm64",
@@ -11667,7 +11667,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:gem/rubocop@1.75.2"
+      "id": "pkg:gem/rubocop@1.75.3"
     },
     "bin": {
       "rubocop": "gem:rubocop"
@@ -12967,7 +12967,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:gem/sorbet@0.5.12026",
+      "id": "pkg:gem/sorbet@0.5.12028",
       "supported_platforms": [
         "unix"
       ]
@@ -13471,7 +13471,7 @@
       "Formatter"
     ],
     "source": {
-      "id": "pkg:github/johnnymorganz/stylua@v2.0.2",
+      "id": "pkg:github/johnnymorganz/stylua@v2.1.0",
       "asset": [
         {
           "target": "darwin_arm64",
@@ -15763,7 +15763,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/forcedotcom/salesforcedx-vscode@v63.9.2",
+      "id": "pkg:github/forcedotcom/salesforcedx-vscode@v63.10.0",
       "asset": {
         "file": "salesforcedx-vscode-visualforce-{{ version | strip_prefix \"v\" }}.vsix"
       }

@@ -1,9 +1,3 @@
-:open gruvbox dunst
-:open changing dunst colors
-:open red hexadecimal color
-:open -t bitwarden pyro 
-:open module collections has no attribute mutablewmapping
-:open es the dvdrom need to be in fstab to be automounted
 :open odunst arch l;inux
 :open -t libcanberrs
 :open canberra-gtk-play
@@ -98,3 +92,9 @@
 :open git lfs is not pushoingf
 :open -t updates were rejected becauyse the tip of your current is behind
 :open github.com/arortell
+:open -t https://github.com/arortell/dotfiles/security/dependabot/1
+:opefzf-lua will not install lazy vim
+:open fzf-lua will not instalkl lazy vim
+:open codeuim will not accept api key lazy vim
+:open -t what code completions can be used togfether on lazy vim
+:home

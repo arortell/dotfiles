@@ -10,6 +10,8 @@ settings:
     https://github.com: access-paste
     https://platform.openai.com: access-paste
     https://windsurf.com: access-paste
+  content.register_protocol_handler:
+    https://mail.google.com?extsrc=mailto&url=%25s: true
   fonts.default_family:
     global: Terminus
   url.start_pages:
