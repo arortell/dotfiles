@@ -844,7 +844,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:cargo/bacon-ls@0.19.0"
+      "id": "pkg:cargo/bacon-ls@0.20.0"
     },
     "bin": {
       "bacon-ls": "cargo:bacon-ls"
@@ -904,7 +904,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:pypi/basedpyright@1.29.0"
+      "id": "pkg:pypi/basedpyright@1.29.1"
     },
     "schemas": {
       "lsp": "vscode:https://raw.githubusercontent.com/DetachHead/basedpyright/v{{version}}/packages/vscode-pyright/package.json"
@@ -1287,7 +1287,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:npm/brighterscript@0.69.6"
+      "id": "pkg:npm/brighterscript@0.69.7"
     },
     "bin": {
       "bsc": "npm:bsc"
@@ -1351,7 +1351,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:npm/%40rokucommunity/bslint@0.8.28"
+      "id": "pkg:npm/%40rokucommunity/bslint@0.8.29"
     },
     "bin": {
       "bslint": "npm:bslint"
@@ -1664,7 +1664,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:pypi/cfn-lint@1.34.1"
+      "id": "pkg:pypi/cfn-lint@1.34.2"
     },
     "bin": {
       "cfn-lint": "pypi:cfn-lint"
@@ -2116,7 +2116,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/clojure-lsp/clojure-lsp@2025.03.27-20.21.36",
+      "id": "pkg:github/clojure-lsp/clojure-lsp@2025.04.23-18.16.46",
       "asset": [
         {
           "target": "darwin_arm64",
@@ -2383,7 +2383,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/github/codeql-cli-binaries@v2.21.0",
+      "id": "pkg:github/github/codeql-cli-binaries@v2.21.1",
       "asset": [
         {
           "target": [
@@ -2549,7 +2549,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:npm/%40github/copilot-language-server@1.304.0"
+      "id": "pkg:npm/%40github/copilot-language-server@1.308.0"
     },
     "bin": {
       "copilot-language-server": "npm:copilot-language-server"
@@ -2851,10 +2851,10 @@
       "Formatter"
     ],
     "source": {
-      "id": "pkg:nuget/csharpier@0.30.6"
+      "id": "pkg:nuget/csharpier@1.0.0"
     },
     "bin": {
-      "dotnet-csharpier": "nuget:dotnet-csharpier"
+      "csharpier": "nuget:csharpier"
     }
   },
   {
@@ -3235,7 +3235,7 @@
       "Runtime"
     ],
     "source": {
-      "id": "pkg:github/denoland/deno@v2.2.11",
+      "id": "pkg:github/denoland/deno@v2.2.12",
       "asset": [
         {
           "target": "darwin_arm64",
@@ -3754,7 +3754,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:composer/symplify/easy-coding-standard@12.5.11"
+      "id": "pkg:composer/symplify/easy-coding-standard@12.5.12"
     },
     "bin": {
       "ecs": "composer:ecs"
@@ -4961,7 +4961,7 @@
     "languages": [],
     "categories": [],
     "source": {
-      "id": "pkg:github/cli/cli@v2.70.0",
+      "id": "pkg:github/cli/cli@v2.71.2",
       "asset": [
         {
           "target": "darwin_x64",
@@ -5724,7 +5724,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:github/golangci/golangci-lint@v2.1.2",
+      "id": "pkg:github/golangci/golangci-lint@v2.1.5",
       "asset": [
         {
           "target": "linux_armv6l",
@@ -6117,7 +6117,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/elijah-potter/harper@v0.29.1",
+      "id": "pkg:github/elijah-potter/harper@v0.30.0",
       "asset": [
         {
           "target": "linux_x64_gnu",
@@ -6572,7 +6572,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:golang/github.com/hyprland-community/hyprls@v0.5.2#cmd/hyprls"
+      "id": "pkg:golang/github.com/hyprland-community/hyprls@v0.6.0#cmd/hyprls"
     },
     "bin": {
       "hyprls": "golang:hyprls"
@@ -7545,7 +7545,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:npm/%40mistweaverco/kulala-fmt@2.9.0"
+      "id": "pkg:npm/%40mistweaverco/kulala-fmt@2.10.0"
     },
     "bin": {
       "kulala-fmt": "npm:kulala-fmt"
@@ -8185,7 +8185,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/JohnnyMorganz/luau-lsp@1.43.0",
+      "id": "pkg:github/JohnnyMorganz/luau-lsp@1.44.1",
       "asset": [
         {
           "target": [
@@ -9012,13 +9012,13 @@
       "GPL-3.0-or-later"
     ],
     "languages": [
-      "Nginx"
+      "nginx"
     ],
     "categories": [
       "LSP"
     ],
     "source": {
-      "id": "pkg:pypi/nginx-language-server@0.8.0"
+      "id": "pkg:pypi/nginx-language-server@0.9.0"
     },
     "bin": {
       "nginx-language-server": "pypi:nginx-language-server"
@@ -10013,7 +10013,7 @@
       "DAP"
     ],
     "source": {
-      "id": "pkg:github/xdebug/vscode-php-debug@v1.36.0",
+      "id": "pkg:github/xdebug/vscode-php-debug@v1.36.1",
       "asset": {
         "file": "php-debug-{{ version | strip_prefix \"v\" }}.vsix"
       }
@@ -10222,7 +10222,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/apple/pkl-lsp@0.3.1",
+      "id": "pkg:github/apple/pkl-lsp@0.3.2",
       "asset": {
         "file": "pkl-lsp-{{ version }}.jar"
       }
@@ -10250,7 +10250,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:github/supabase-community/postgres-language-server@0.5.0",
+      "id": "pkg:github/supabase-community/postgres-language-server@0.6.1",
       "asset": [
         {
           "target": "darwin_arm64",
@@ -11031,7 +11031,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:npm/pyright@1.1.399"
+      "id": "pkg:npm/pyright@1.1.400"
     },
     "schemas": {
       "lsp": "vscode:https://raw.githubusercontent.com/microsoft/pyright/{{version}}/packages/vscode-pyright/package.json"
@@ -11687,7 +11687,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:gem/ruby-lsp@0.23.14",
+      "id": "pkg:gem/ruby-lsp@0.23.15",
       "extra_packages": [
         "ruby-lsp-rails"
       ]
@@ -11773,6 +11773,10 @@
     "categories": [
       "LSP"
     ],
+    "deprecation": {
+      "since": "v0.0.61",
+      "message": "please use the mason package `ruff` as replacement. The command `ruff server` supports the same feature set as ruff-lsp, but with superior performance and no installation required. ruff server was marked as stable in Ruff v0.5.3."
+    },
     "source": {
       "id": "pkg:pypi/ruff-lsp@0.0.62"
     },
@@ -11796,7 +11800,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:pypi/ruff@0.11.6"
+      "id": "pkg:pypi/ruff@0.11.7"
     },
     "bin": {
       "ruff": "pypi:ruff"
@@ -12100,7 +12104,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:pypi/semgrep@1.119.0",
+      "id": "pkg:pypi/semgrep@1.120.0",
       "supported_platforms": [
         "unix"
       ]
@@ -12402,7 +12406,7 @@
       "Compiler"
     ],
     "source": {
-      "id": "pkg:github/shader-slang/slang@v2025.6.4",
+      "id": "pkg:github/shader-slang/slang@v2025.7.1",
       "asset": [
         {
           "target": "linux_x64_gnu",
@@ -12486,7 +12490,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/slint-ui/slint@v1.10.0",
+      "id": "pkg:github/slint-ui/slint@v1.11.0",
       "asset": [
         {
           "target": "linux_x64",
@@ -12529,17 +12533,32 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/awslabs/smithy-language-server@0.6.0",
+      "id": "pkg:github/awslabs/smithy-language-server@0.7.0",
       "asset": [
         {
-          "target": "unix",
-          "file": "smithy-language-server-{{version}}.zip",
-          "bin": "smithy-language-server-{{version}}/bin/smithy-language-server"
+          "target": "darwin_x64",
+          "file": "smithy-language-server-darwin-x86_64.zip",
+          "bin": "smithy-language-server-darwin-x86_64/bin/smithy-language-server"
         },
         {
-          "target": "win",
-          "file": "smithy-language-server-{{version}}.zip",
-          "bin": "smithy-language-server-{{version}}/bin/smithy-language-server.bat"
+          "target": "darwin_arm64",
+          "file": "smithy-language-server-darwin-aarch64.zip",
+          "bin": "smithy-language-server-darwin-aarch64/bin/smithy-language-server"
+        },
+        {
+          "target": "linux_x64",
+          "file": "smithy-language-server-linux-x86_64.zip",
+          "bin": "smithy-language-server-linux-x86_64/bin/smithy-language-server"
+        },
+        {
+          "target": "linux_arm64",
+          "file": "smithy-language-server-linux-aarch64.zip",
+          "bin": "smithy-language-server-linux-aarch64/bin/smithy-language-server"
+        },
+        {
+          "target": "win_x64",
+          "file": "smithy-language-server-windows-x64.zip",
+          "bin": "smithy-language-server-windows-x64/bin/smithy-language-server.bat"
         }
       ]
     },
@@ -12967,7 +12986,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:gem/sorbet@0.5.12028",
+      "id": "pkg:gem/sorbet@0.5.12039",
       "supported_platforms": [
         "unix"
       ]
@@ -13084,7 +13103,7 @@
       "Formatter"
     ],
     "source": {
-      "id": "pkg:npm/sql-formatter@15.6.0"
+      "id": "pkg:npm/sql-formatter@15.6.1"
     },
     "bin": {
       "sql-formatter": "npm:sql-formatter"
@@ -13450,7 +13469,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:npm/stylelint@16.18.0"
+      "id": "pkg:npm/stylelint@16.19.1"
     },
     "bin": {
       "stylelint": "npm:stylelint"
@@ -13852,7 +13871,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:npm/%40tailwindcss/language-server@0.14.15"
+      "id": "pkg:npm/%40tailwindcss/language-server@0.14.16"
     },
     "schemas": {
       "lsp": "https://raw.githubusercontent.com/tailwindlabs/tailwindcss-intellisense/v{{version}}/packages/vscode-tailwindcss/package.json"
@@ -15538,7 +15557,7 @@
       "Formatter"
     ],
     "source": {
-      "id": "pkg:github/chipsalliance/verible@v0.0-3967-gd0f83bfd",
+      "id": "pkg:github/chipsalliance/verible@v0.0-3969-g6a70680a",
       "asset": [
         {
           "target": "linux_x64",

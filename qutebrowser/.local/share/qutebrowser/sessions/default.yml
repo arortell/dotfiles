@@ -1,73 +1,47 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAABAAAAFAAAA74AAAQ2AAAAAgAAABUAAAO9AAAENQAAAAAAAAAAB4AAAAACAAAA
-    FQAAA70AAAQ1
+    AdnQywADAAAAAAABAAAAFAAAB34AAAQ2AAAAAgAAABUAAAd9AAAENQAAAAAAAAAAB4AAAAACAAAA
+    FQAAB30AAAQ1
   tabs:
   - history:
     - active: true
-      last_visited: '2025-04-22T00:51:36'
+      last_visited: '2025-04-25T19:43:32'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: ⚙️ Configuration | LazyVim
-      url: http://www.lazyvim.org/configuration
+      title: User Input - Bash Scripting Tutorial
+      url: https://ryanstutorials.net/bash-scripting-tutorial/bash-input.php
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2025-04-22T00:51:36'
+      last_visited: '2025-04-25T19:43:34'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Core Plugins | LazyVim
-      url: http://www.lazyvim.org/plugins
-      zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2025-04-22T00:51:36'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: os — Miscellaneous operating system interfaces — Python 3.13.3 documentation
-      url: https://docs.python.org/3/library/os.html
+      title: 'mikavilpas/yazi.nvim: A Neovim Plugin for the yazi terminal file manager'
+      url: https://github.com/mikavilpas/yazi.nvim
       zoom: 1.0
   - active: true
     history:
-    - last_visited: '2025-04-22T00:51:37'
-      pinned: false
-      title: alsamixer not cahnging volume on mpv - Google Search
-      url: https://www.google.com/search?q=alsamixer%20not%20cahnging%20volume%20on%20mpv
-    - last_visited: '2025-04-22T00:52:03'
-      pinned: false
-      title: "\U0001F6E0️ Installation | LazyVim"
-      url: http://www.lazyvim.org/installation
     - active: true
-      last_visited: '2025-04-22T04:14:10'
+      last_visited: '2025-04-25T19:43:34'
       pinned: false
       scroll-pos:
         x: 0
-        y: 40
-      title: "\U0001F4F0 What's new? | LazyVim"
-      url: http://www.lazyvim.org/news
+        y: 840
+      title: yazi.nvim/documentation/plugin-management.md at main · mikavilpas/yazi.nvim
+      url: https://github.com/mikavilpas/yazi.nvim/blob/main/documentation/plugin-management.md
       zoom: 1.0
   - history:
-    - last_visited: '2025-04-22T08:56:14'
-      pinned: false
-      title: install R arch linux - Google Search
-      url: https://www.google.com/search?q=install%20R%20arch%20linux
-    - last_visited: '2025-04-22T09:04:18'
-      pinned: false
-      title: leader key ;azy vim - Google Search
-      url: https://www.google.com/search?q=leader%20key%20%3Bazy%20vim
     - active: true
-      last_visited: '2025-04-22T09:04:30'
+      last_visited: '2025-04-25T19:43:33'
       pinned: false
       scroll-pos:
         x: 0
-        y: 6680
-      title: ⌨️ Keymaps | LazyVim
-      url: http://www.lazyvim.org/keymaps
+        y: 3000
+      title: Configuration | Starship
+      url: https://starship.rs/config/
       zoom: 1.0

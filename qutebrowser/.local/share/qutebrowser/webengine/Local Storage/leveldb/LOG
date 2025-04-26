@@ -1,21 +1,21 @@
-2025/04/22-09:10:53.396 1f394 Reusing MANIFEST /home/adam/.local/share/qutebrowser/webengine/Local Storage/leveldb/MANIFEST-000001
-2025/04/22-09:10:53.397 1f394 Recovering log #252
-2025/04/22-09:10:53.397 1f394 Reusing old log /home/adam/.local/share/qutebrowser/webengine/Local Storage/leveldb/000252.log 
-2025/04/22-09:25:31.175 1f396 Level-0 table #256: started
-2025/04/22-09:25:31.177 1f396 Level-0 table #256: 37471 bytes OK
-2025/04/22-09:25:31.179 1f396 Delete type=0 #252
-2025/04/22-10:14:17.083 1f396 Level-0 table #258: started
-2025/04/22-10:14:17.086 1f396 Level-0 table #258: 37249 bytes OK
-2025/04/22-10:14:17.088 1f396 Delete type=0 #255
-2025/04/22-10:31:20.713 1f396 Level-0 table #260: started
-2025/04/22-10:31:20.715 1f396 Level-0 table #260: 29615 bytes OK
-2025/04/22-10:31:20.717 1f396 Delete type=0 #257
-2025/04/22-10:31:20.717 1f396 Compacting 4@0 + 1@1 files
-2025/04/22-10:31:20.734 1f396 Generated table #261@0: 552 keys, 786830 bytes
-2025/04/22-10:31:20.734 1f396 Compacted 4@0 + 1@1 files => 786830 bytes
-2025/04/22-10:31:20.735 1f396 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/04/22-10:31:20.735 1f396 Delete type=2 #250
-2025/04/22-10:31:20.735 1f396 Delete type=2 #253
-2025/04/22-10:31:20.735 1f396 Delete type=2 #256
-2025/04/22-10:31:20.735 1f396 Delete type=2 #258
-2025/04/22-10:31:20.735 1f396 Delete type=2 #260
+2025/04/26-08:40:08.477 18d6a3 Reusing MANIFEST /home/adam/.local/share/qutebrowser/webengine/Local Storage/leveldb/MANIFEST-000001
+2025/04/26-08:40:08.486 18d6a3 Recovering log #8
+2025/04/26-08:40:08.487 18d6a3 Reusing old log /home/adam/.local/share/qutebrowser/webengine/Local Storage/leveldb/000008.log 
+2025/04/26-08:40:35.288 18d6a3 Level-0 table #12: started
+2025/04/26-08:40:35.290 18d6a3 Level-0 table #12: 27057 bytes OK
+2025/04/26-08:40:35.292 18d6a3 Delete type=0 #8
+2025/04/26-09:15:24.687 18d6a3 Level-0 table #14: started
+2025/04/26-09:15:24.690 18d6a3 Level-0 table #14: 52150 bytes OK
+2025/04/26-09:15:24.692 18d6a3 Delete type=0 #11
+2025/04/26-09:44:50.871 18d6a3 Level-0 table #16: started
+2025/04/26-09:44:50.874 18d6a3 Level-0 table #16: 57894 bytes OK
+2025/04/26-09:44:50.876 18d6a3 Delete type=0 #13
+2025/04/26-09:44:50.876 18d6a3 Compacting 4@0 + 1@1 files
+2025/04/26-09:44:50.879 18d6a3 Generated table #17@0: 44 keys, 23170 bytes
+2025/04/26-09:44:50.879 18d6a3 Compacted 4@0 + 1@1 files => 23170 bytes
+2025/04/26-09:44:50.880 18d6a3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/04/26-09:44:50.881 18d6a3 Delete type=2 #7
+2025/04/26-09:44:50.881 18d6a3 Delete type=2 #9
+2025/04/26-09:44:50.881 18d6a3 Delete type=2 #12
+2025/04/26-09:44:50.881 18d6a3 Delete type=2 #14
+2025/04/26-09:44:50.881 18d6a3 Delete type=2 #16

@@ -4,355 +4,197 @@ windows:
     FQAAA70AAAQ1
   tabs:
   - history:
-    - last_visited: '2025-04-22T09:10:58'
+    - last_visited: '2025-04-26T08:40:15'
       pinned: false
-      title: ⚙️ Configuration | LazyVim
-      url: http://www.lazyvim.org/configuration
-    - last_visited: '2025-04-22T12:40:20'
+      title: 'mikavilpas/yazi.nvim: A Neovim Plugin for the yazi terminal file manager'
+      url: https://github.com/mikavilpas/yazi.nvim
+    - last_visited: '2025-04-26T09:15:45'
       pinned: false
-      title: codeuim will not accept api key lazy vim - Google Search
-      url: https://www.google.com/search?q=codeuim%20will%20not%20accept%20api%20key%20lazy%20vim
-    - last_visited: '2025-04-22T12:55:51'
-      original-url: https://lazyvim.github.io/plugins/coding
-      pinned: false
-      title: Coding | LazyVim
-      url: http://www.lazyvim.org/plugins/coding
+      title: starship prompt exampkles - Google Search
+      url: https://www.google.com/search?q=starship%20prompt%20exampkles
     - active: true
-      last_visited: '2025-04-22T12:56:34'
+      last_visited: '2025-04-26T09:15:51'
       pinned: false
       scroll-pos:
         x: 0
-        y: 760
-      title: Colorscheme | LazyVim
-      url: http://www.lazyvim.org/plugins/colorscheme
+        y: 6127
+      title: Presets | Starship
+      url: https://starship.rs/presets/
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2025-04-22T12:57:11'
+      last_visited: '2025-04-26T09:16:32'
       pinned: false
       scroll-pos:
         x: 0
-        y: 1440
-      title: "catppuccin/nvim: \U0001F368 Soothing pastel theme for (Neo)vim"
-      url: https://github.com/catppuccin/nvim?tab=readme-ov-file
+        y: 40
+      title: Bracketed Segments Preset | Starship
+      url: https://starship.rs/presets/bracketed-segments
       zoom: 1.0
   - history:
-    - last_visited: '2025-04-22T12:43:44'
+    - last_visited: '2025-04-26T09:16:51'
       pinned: false
-      title: 'LazyVim error · Issue #295 · Exafunction/windsurf.nvim'
-      url: https://github.com/Exafunction/windsurf.nvim/issues/295
-    - last_visited: '2025-04-22T12:58:19'
+      title: No Runtime Versions Preset | Starship
+      url: https://starship.rs/presets/no-runtimes
+    - last_visited: '2025-04-26T09:41:59'
       pinned: false
-      title: Google
-      url: https://www.google.com/
-    - last_visited: '2025-04-22T12:58:29'
+      title: converting a poyqt5 project to pyqt6 - Google Search
+      url: https://www.google.com/search?q=converting%20a%20poyqt5%20project%20to%20pyqt6
+    - last_visited: '2025-04-26T09:43:37'
       pinned: false
-      title: Inbox (6) - arortell80@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#inbox
-    - last_visited: '2025-04-22T12:58:35'
+      title: what is a toc file - Google Search
+      url: https://www.google.com/search?q=what%20is%20a%20toc%20file
+    - last_visited: '2025-04-26T09:43:59'
       pinned: false
-      title: Verify your email for Windsurf - arortell80@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#inbox/FMfcgzQbdrLnQkhqFhcXfWXVLvgNrSnL
-    - last_visited: '2025-04-22T12:58:54'
+      title: what is a .toc file - Google Search
+      url: https://www.google.com/search?q=what%20is%20a%20.toc%20file
+    - last_visited: '2025-04-26T09:44:39'
       pinned: false
-      title: Inbox (5) - arortell80@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#inbox
-    - last_visited: '2025-04-22T12:58:56'
+      title: does wingide us toc files - Google Search
+      url: https://www.google.com/search?q=does%20wingide%20us%20toc%20files
+    - last_visited: '2025-04-26T09:46:51'
       pinned: false
-      title: '[arortell/dotfiles] Your repository has dependencies with security vulnerabilities
-        - arortell80@gmail.com - Gmail'
-      url: https://mail.google.com/mail/u/0/#inbox/FMfcgzQbdrLnQgJdGwVfXvXgTmXHmfMV
-    - last_visited: '2025-04-22T12:59:00'
+      title: convert pycharm progect to nvim - Google Search
+      url: https://www.google.com/search?q=convert%20pycharm%20progect%20to%20nvim
+    - last_visited: '2025-04-26T09:46:57'
       pinned: false
-      title: Inbox (4) - arortell80@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#inbox
-    - last_visited: '2025-04-22T12:59:01'
-      pinned: false
-      title: Welcome to Tabnine! - arortell80@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#inbox/FMfcgzQbdrKfhnfqgVJCsZBsWqfgLVKp
-    - last_visited: '2025-04-22T12:59:12'
-      pinned: false
-      title: Inbox (3) - arortell80@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#inbox
-    - last_visited: '2025-04-22T12:59:14'
-      pinned: false
-      title: '[GitHub] A third-party OAuth application has been added to your account
-        - arortell80@gmail.com - Gmail'
-      url: https://mail.google.com/mail/u/0/#inbox/FMfcgzQbdrKfhlPnZqHDwkzJWBgBjrhR
-    - last_visited: '2025-04-22T12:59:17'
-      pinned: false
-      title: Inbox (2) - arortell80@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#inbox
-    - last_visited: '2025-04-22T12:59:19'
-      pinned: false
-      title: "GitHub Copilot: What’s in your free plan \U0001F916 - arortell80@gmail.com
-        - Gmail"
-      url: https://mail.google.com/mail/u/0/#inbox/FMfcgzQbdrKfhlPnVWKfwLRdqgMhbgjs
-    - last_visited: '2025-04-22T12:59:30'
-      pinned: false
-      title: Gmail
-      url: https://mail.google.com/mail/u/0/#chat/space/AAAAERN93z0
-    - last_visited: '2025-04-22T12:59:43'
-      pinned: false
-      title: Gmail
-      url: https://mail.google.com/mail/u/0/#chat/space/AAAAODSFLts
-    - last_visited: '2025-04-22T12:59:55'
-      pinned: false
-      title: "GitHub Copilot: What’s in your free plan \U0001F916 - arortell80@gmail.com
-        - Gmail"
-      url: https://mail.google.com/mail/u/0/#inbox/FMfcgzQbdrKfhlPnVWKfwLRdqgMhbgjs
+      title: 'Switching from Pycharm to Neovim | Issue with project setup. : r/neovim'
+      url: https://www.reddit.com/r/neovim/comments/1hekqj2/switching_from_pycharm_to_neovim_issue_with/
     - active: true
-      last_visited: '2025-04-22T12:59:57'
+      last_visited: '2025-04-26T09:48:19'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: Inbox (1) - arortell80@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#inbox
+        y: 1520
+      title: run pyqt6 project nvim - Google Search
+      url: https://www.google.com/search?q=run%20pyqt6%20project%20nvim
       zoom: 1.0
   - history:
-    - last_visited: '2025-04-22T11:47:58'
+    - last_visited: '2025-04-26T09:50:41'
       pinned: false
-      title: python os functions - Google Search
-      url: https://www.google.com/search?q=python%20os%20functions
-    - last_visited: '2025-04-22T11:49:13'
-      pinned: false
-      title: git lfs is not pushoingf - Google Search
-      url: https://www.google.com/search?q=git%20lfs%20is%20not%20pushoingf
-    - last_visited: '2025-04-22T11:49:19'
-      pinned: false
-      title: git - LFS File not pushing - Stack Overflow
-      url: https://stackoverflow.com/questions/70441254/lfs-file-not-pushing
-    - last_visited: '2025-04-22T12:02:22'
-      pinned: false
-      title: arortell (Adam ortell)
-      url: https://github.com/arortell
-    - last_visited: '2025-04-22T12:02:28'
-      pinned: false
-      title: 'arortell/dotfiles: My dotfiles'
-      url: https://github.com/arortell/dotfiles
-    - last_visited: '2025-04-22T12:02:55'
-      pinned: false
-      title: dotfiles/nvim at master · arortell/dotfiles
-      url: https://github.com/arortell/dotfiles/tree/master/nvim
-    - last_visited: '2025-04-22T12:02:58'
-      pinned: false
-      title: dotfiles/nvim/.config/nvim at master · arortell/dotfiles
-      url: https://github.com/arortell/dotfiles/tree/master/nvim/.config/nvim
-    - last_visited: '2025-04-22T12:03:02'
-      pinned: false
-      title: dotfiles/nvim/.config/nvim/lua at master · arortell/dotfiles
-      url: https://github.com/arortell/dotfiles/tree/master/nvim/.config/nvim/lua
-    - last_visited: '2025-04-22T12:03:05'
-      pinned: false
-      title: dotfiles/nvim/.config/nvim at master · arortell/dotfiles
-      url: https://github.com/arortell/dotfiles/tree/master/nvim/.config/nvim
-    - last_visited: '2025-04-22T12:03:06'
-      pinned: false
-      title: dotfiles/nvim/.config at master · arortell/dotfiles
-      url: https://github.com/arortell/dotfiles/tree/master/nvim/.config
-    - last_visited: '2025-04-22T12:03:07'
-      pinned: false
-      title: dotfiles/nvim at master · arortell/dotfiles
-      url: https://github.com/arortell/dotfiles/tree/master/nvim
+      title: 'coffebar/neovim-project: Neovim project plugin simplifies project management
+        by maintaining project history and providing quick access to projects via
+        Telescope or fzf-lua..'
+      url: https://neovimcraft.com/plugin/coffebar/neovim-project/
     - active: true
-      last_visited: '2025-04-22T12:03:10'
+      last_visited: '2025-04-26T09:51:55'
       pinned: false
       scroll-pos:
         x: 0
-        y: 169
-      title: dotfiles/ at master · arortell/dotfiles
-      url: https://github.com/arortell/dotfiles/tree/master
-      zoom: 1.0
-  - history:
-    - last_visited: '2025-04-22T11:48:14'
-      pinned: false
-      title: OS Module in Python with Examples | GeeksforGeeks
-      url: https://www.geeksforgeeks.org/os-module-python-examples/
-    - active: true
-      last_visited: '2025-04-22T12:01:10'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 1640
-      title: OS Module in Python with Examples | GeeksforGeeks
-      url: https://www.geeksforgeeks.org/os-module-python-examples/#
-      zoom: 1.0
-  - history:
-    - last_visited: '2025-04-22T12:07:46'
-      pinned: false
-      title: 'Command Injection in lodash · Dependabot alert #1 · arortell/dotfiles'
-      url: https://github.com/arortell/dotfiles/security/dependabot/1
-    - last_visited: '2025-04-22T12:08:07'
-      pinned: false
-      title: Comparing 9529a1f614...067c3a2ad5 · arortell/dotfiles
-      url: https://github.com/arortell/dotfiles/compare/9529a1f614...067c3a2ad5
-    - last_visited: '2025-04-22T12:08:14'
-      pinned: false
-      title: 'arortell/dotfiles: My dotfiles'
-      url: https://github.com/arortell/dotfiles
-    - last_visited: '2025-04-22T12:08:28'
-      pinned: false
-      title: dotfiles/networkmanager-dmenu at master · arortell/dotfiles
-      url: https://github.com/arortell/dotfiles/tree/master/networkmanager-dmenu
-    - last_visited: '2025-04-22T12:08:37'
-      pinned: false
-      title: dotfiles/networkmanager-dmenu/.config/networkmanager-dmenu at master
-        · arortell/dotfiles
-      url: https://github.com/arortell/dotfiles/tree/master/networkmanager-dmenu/.config/networkmanager-dmenu
-    - last_visited: '2025-04-22T12:08:40'
-      pinned: false
-      title: dotfiles/networkmanager-dmenu/.config/networkmanager-dmenu/config.ini
-        at master · arortell/dotfiles
-      url: https://github.com/arortell/dotfiles/blob/master/networkmanager-dmenu/.config/networkmanager-dmenu/config.ini
-    - last_visited: '2025-04-22T12:08:46'
-      pinned: false
-      title: 'arortell/dotfiles: My dotfiles'
-      url: https://github.com/arortell/dotfiles/tree/master
-    - last_visited: '2025-04-22T12:11:57'
-      pinned: false
-      title: fzf-lua will not instalkl lazy vim - Google Search
-      url: https://www.google.com/search?q=fzf-lua%20will%20not%20instalkl%20lazy%20vim
-    - active: true
-      last_visited: '2025-04-22T12:12:32'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 1341
-      title: 'bug: enabling fzf extra via config doesn''t work (install telescope
-        specs) · Issue #3626 · LazyVim/LazyVim'
-      url: https://github.com/LazyVim/LazyVim/issues/3626
-      zoom: 1.0
-  - history:
-    - last_visited: '2025-04-22T12:32:53'
-      pinned: false
-      title: https://windsurf.com/profile?response_type=token&redirect_uri=vim-show-auth-token&state=9c1a5b69-10fb-42f4-97a9-c72a392d90d0&scope=openid%20profile%20email&redirect_parameters_type=query
-      url: https://windsurf.com/profile?response_type=token&redirect_uri=vim-show-auth-token&state=9c1a5b69-10fb-42f4-97a9-c72a392d90d0&scope=openid%20profile%20email&redirect_parameters_type=query
-    - last_visited: '2025-04-22T12:32:55'
-      pinned: false
-      title: Provide Authentication Token to Vim / Neovim | Windsurf (formerly Codeium)
-      url: https://windsurf.com/vim-show-auth-token?state=9c1a5b69-10fb-42f4-97a9-c72a392d90d0&access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NzA4MWNhOWNiYjM3YzIzNDk4ZGQzOTQzYmYzNzFhMDU4ODNkMjgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZXhhMi1mYjE3MCIsImF1ZCI6ImV4YTItZmIxNzAiLCJhdXRoX3RpbWUiOjE3NDUzMzEzMzIsInVzZXJfaWQiOiJ2dzZFZnpuN044VmUya3Q1MDdzczlnTzZVbGwyIiwic3ViIjoidnc2RWZ6bjdOOFZlMmt0NTA3c3M5Z082VWxsMiIsImlhdCI6MTc0NTM0MzE3MiwiZXhwIjoxNzQ1MzQ2NzcyLCJlbWFpbCI6ImIxNGNrNXQ0ckBwcm90b24ubWUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJiMTRjazV0NHJAcHJvdG9uLm1lIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.m7l-h3-pWWMuQUvREBch-C3RR8KdQC1ZhRe7R_qS3AP07kPyLZXUSSPuGJdTeVpof7qZsEpcwSvwolLpZETfLdrqrIWfnqwLRP_45yfeVxeaQ_b8SoLB3-_K6YffYaLlsDpkaeWyLXz9Q2GOdZuWNIjz9p11INhBcWqHVNWOpDShWuUA8p04jxJSLen_80KnQHahb0jZ07ZWgLQ2Dywt8KkAGtZ0Pv6fCZcMXK2LVOFibWMyBVC9ifB1y-3GUA8NLfhudAdMwvwFi8qOO0MVHhOLVJa0VAfPYZDgnsJ7vm9BFf9_g8RjDUadqr2VnS1PIN0Zw-L7qTILwl197_YZ_w
-    - active: true
-      last_visited: '2025-04-22T12:57:42'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: windsurf.com/notifications
-      url: https://windsurf.com/notifications
-      zoom: 1.0
-  - history:
-    - last_visited: '2025-04-22T12:34:06'
-      pinned: false
-      title: FAQ | Windsurf (formerly Codeium)
-      url: https://windsurf.com/faq
-    - last_visited: '2025-04-22T12:35:07'
-      pinned: false
-      title: Support | Windsurf (formerly Codeium)
-      url: https://windsurf.com/support
-    - last_visited: '2025-04-22T12:37:52'
-      pinned: false
-      title: https://windsurf.com/profile
-      url: https://windsurf.com/profile
-    - last_visited: '2025-04-22T12:38:06'
-      pinned: false
-      title: https://windsurf.com/settings
-      url: https://windsurf.com/settings
-    - last_visited: '2025-04-22T12:38:20'
-      pinned: false
-      title: Login | Windsurf (formerly Codeium)
-      url: https://windsurf.com/account/login
-    - active: true
-      last_visited: '2025-04-22T12:38:25'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: windsurf.com/account/onboarding?page=editor
-      url: https://windsurf.com/account/onboarding?page=editor
-      zoom: 1.0
-  - history:
-    - last_visited: '2025-04-22T12:34:10'
-      pinned: false
-      title: Windsurf - Getting Started
-      url: https://docs.windsurf.com/windsurf/getting-started
-    - active: true
-      last_visited: '2025-04-22T12:38:36'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Terminal - Windsurf Docs
-      url: https://docs.windsurf.com/windsurf/terminal
-      zoom: 1.0
-  - history:
-    - last_visited: '2025-04-22T12:36:09'
-      pinned: false
-      title: https://windsurf.com/profile?response_type=token&redirect_uri=vim-show-auth-token&state=15e0ab81-207b-48d2-8ecb-ad00c6ff644e&scope=openid%20profile%20email&redirect_parameters_type=query
-      url: https://windsurf.com/profile?response_type=token&redirect_uri=vim-show-auth-token&state=15e0ab81-207b-48d2-8ecb-ad00c6ff644e&scope=openid%20profile%20email&redirect_parameters_type=query
-    - active: true
-      last_visited: '2025-04-22T12:36:10'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Provide Authentication Token to Vim / Neovim | Windsurf (formerly Codeium)
-      url: https://windsurf.com/vim-show-auth-token?state=15e0ab81-207b-48d2-8ecb-ad00c6ff644e&access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NzA4MWNhOWNiYjM3YzIzNDk4ZGQzOTQzYmYzNzFhMDU4ODNkMjgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZXhhMi1mYjE3MCIsImF1ZCI6ImV4YTItZmIxNzAiLCJhdXRoX3RpbWUiOjE3NDUzMzEzMzIsInVzZXJfaWQiOiJ2dzZFZnpuN044VmUya3Q1MDdzczlnTzZVbGwyIiwic3ViIjoidnc2RWZ6bjdOOFZlMmt0NTA3c3M5Z082VWxsMiIsImlhdCI6MTc0NTM0MzM2OCwiZXhwIjoxNzQ1MzQ2OTY4LCJlbWFpbCI6ImIxNGNrNXQ0ckBwcm90b24ubWUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJiMTRjazV0NHJAcHJvdG9uLm1lIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.k6KNtAfJIDQ9nUo3yA6t-Vi7Ry5dJIvLhXt5XceHC6YWe-t3o6CdBUaecc_yQRvBgOgV1HZrxEw9dNTEeJsfN1WyUN4hSaSOVU60jfWWXjdYmzK8LY4wG39vRGmVcXfgSiQcHqlL-5neD4E7MPAKZMwHnnWcypurI5RHquTLbhfNiqwZOfW7oVmJXPTp_ycalsS8rCpkaIjn2wcaQtbE_Eaa1m0V7iknwxp-402-efxpwsMUPUx6AWWLMfyGBKOulXMBaFNzDJxmfuhyZW4E6Ymjk2MYwh_Ls1qNfPiiLxC9uFfLMoLqGK4qmXmtYR11QzdF9uwT4xsid4aTnKF9pg
-      zoom: 1.0
-  - history:
-    - last_visited: '2025-04-22T12:39:01'
-      pinned: false
-      title: https://windsurf.com/profile?response_type=token&redirect_uri=vim-show-auth-token&state=2032694d-432c-40cb-aec6-c1a8c18b81a1&scope=openid%20profile%20email&redirect_parameters_type=query
-      url: https://windsurf.com/profile?response_type=token&redirect_uri=vim-show-auth-token&state=2032694d-432c-40cb-aec6-c1a8c18b81a1&scope=openid%20profile%20email&redirect_parameters_type=query
-    - active: true
-      last_visited: '2025-04-22T12:39:02'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Provide Authentication Token to Vim / Neovim | Windsurf (formerly Codeium)
-      url: https://windsurf.com/vim-show-auth-token?state=2032694d-432c-40cb-aec6-c1a8c18b81a1&access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NzA4MWNhOWNiYjM3YzIzNDk4ZGQzOTQzYmYzNzFhMDU4ODNkMjgiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQWRhbSBvcnRlbGwiLCJwaWN0dXJlIjoiaHR0cHM6Ly9hdmF0YXJzLmdpdGh1YnVzZXJjb250ZW50LmNvbS91Lzc1NTIxNzk_dj00IiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2V4YTItZmIxNzAiLCJhdWQiOiJleGEyLWZiMTcwIiwiYXV0aF90aW1lIjoxNzQ1MzQzNTAzLCJ1c2VyX2lkIjoiN1Ftcnh5U1czN1BidXdXMGd4Q08zYmVOazJrMSIsInN1YiI6IjdRbXJ4eVNXMzdQYnV3VzBneENPM2JlTmsyazEiLCJpYXQiOjE3NDUzNDM1NDAsImV4cCI6MTc0NTM0NzE0MCwiZW1haWwiOiJhcm9ydGVsbDgwQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnaXRodWIuY29tIjpbIjc1NTIxNzkiXSwiZW1haWwiOlsiYXJvcnRlbGw4MEBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnaXRodWIuY29tIn19.EDrDkuCNwpsLP_CXR44UlDJ0iQfRAy9bXB80VpOzzur8ZymJGUVUswA9FsEB2bFEz8tb9xAmSHvGmwVnSiOqpm_YTmZNCW09hjYJRcq1C3TujBz9npFKfWsK9OojeM1RAlyxoRRXm8L0bUPEojtmIFAx9678NSVKbzOqz7pf1DEfsRwaZe3r-zwgLGu9HqdErqOn3KkBsCd3RvKMtnWGCCHAxDB7yIeaqs0rPeyLGqwteypWc5TkJTKyZWCAZiB9_OBtmJAEouU9TIB6vQ6OZ0bmBzOyBsb9M0A1bQZ4_yHT-qibotKXCS_Tv_FpndgaRzdJXurSznXVpAhmPweWVw
-      zoom: 1.0
-  - history:
-    - last_visited: '2025-04-22T12:39:43'
-      pinned: false
-      title: https://windsurf.com/profile?response_type=token&redirect_uri=vim-show-auth-token&state=2032694d-432c-40cb-aec6-c1a8c18b81a1&scope=openid%20profile%20email&redirect_parameters_type=query
-      url: https://windsurf.com/profile?response_type=token&redirect_uri=vim-show-auth-token&state=2032694d-432c-40cb-aec6-c1a8c18b81a1&scope=openid%20profile%20email&redirect_parameters_type=query
-    - active: true
-      last_visited: '2025-04-22T12:39:43'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Provide Authentication Token to Vim / Neovim | Windsurf (formerly Codeium)
-      url: https://windsurf.com/vim-show-auth-token?state=2032694d-432c-40cb-aec6-c1a8c18b81a1&access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NzA4MWNhOWNiYjM3YzIzNDk4ZGQzOTQzYmYzNzFhMDU4ODNkMjgiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQWRhbSBvcnRlbGwiLCJwaWN0dXJlIjoiaHR0cHM6Ly9hdmF0YXJzLmdpdGh1YnVzZXJjb250ZW50LmNvbS91Lzc1NTIxNzk_dj00IiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2V4YTItZmIxNzAiLCJhdWQiOiJleGEyLWZiMTcwIiwiYXV0aF90aW1lIjoxNzQ1MzQzNTAzLCJ1c2VyX2lkIjoiN1Ftcnh5U1czN1BidXdXMGd4Q08zYmVOazJrMSIsInN1YiI6IjdRbXJ4eVNXMzdQYnV3VzBneENPM2JlTmsyazEiLCJpYXQiOjE3NDUzNDM1ODEsImV4cCI6MTc0NTM0NzE4MSwiZW1haWwiOiJhcm9ydGVsbDgwQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnaXRodWIuY29tIjpbIjc1NTIxNzkiXSwiZW1haWwiOlsiYXJvcnRlbGw4MEBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnaXRodWIuY29tIn19.PYdODGcQGuiMpB0FZNg6W9QjRSM7zCVTj-vWijgRzsKrepX_ocHVPAEoA6qgHDEpyrxbhdC-kgVS1aUIyN30Uiv68lL-MwvTxi_lhdyMUghoN_0L3kqzfvcM_KbwbST0ufd2vF2iqQMlff5M1egB4eT8OMVQZ90TSfejFf8Tkjvxcw_tltd2fXvFlXtWGCYui-1D4-Gi9LmTTmloMlgv06oSj0lpaUE6zTKmmZ1Tzkhg7rpBvETDbgzh-Uw5ZR3UnTu5rtrbElRX5VJ7LFIvD-0CGfyuUBMRu1GqR0onUfwUNw0RWILVlpfpKh4-EQ7A3ouTyZbgrLWlgyu9JZpIug
+        y: 40
+      title: convert pycharm project to neovim project - Google Search
+      url: https://www.google.com/search?q=convert%20pycharm%20project%20to%20neovim%20project
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2025-04-22T12:55:45'
+      last_visited: '2025-04-26T09:52:03'
       pinned: false
       scroll-pos:
         x: 0
-        y: 1240
-      title: what code completions can be used togfether on lazy vim - Google Search
-      url: https://www.google.com/search?q=what%20code%20completions%20can%20be%20used%20togfether%20on%20lazy%20vim
+        y: 2040
+      title: 'how to get pycharm features in nvim : r/neovim'
+      url: https://www.reddit.com/r/neovim/comments/1fug9p2/how_to_get_pycharm_features_in_nvim/
       zoom: 1.0
-    - last_visited: '2025-04-22T12:44:58'
-      pinned: false
-      title: 'Code completion and autocomplete not working in lazyvim setup : r/neovim'
-      url: https://www.reddit.com/r/neovim/comments/1gkvve7/code_completion_and_autocomplete_not_working_in/
   - active: true
     history:
-    - last_visited: '2025-04-22T13:01:22'
+    - last_visited: '2025-04-26T09:56:58'
       pinned: false
-      title: https://windsurf.com/profile?response_type=token&redirect_uri=vim-show-auth-token&state=cb9c1a5b-6910-4fb2-b457-a9c72a392d90&scope=openid%20profile%20email&redirect_parameters_type=query
-      url: https://windsurf.com/profile?response_type=token&redirect_uri=vim-show-auth-token&state=cb9c1a5b-6910-4fb2-b457-a9c72a392d90&scope=openid%20profile%20email&redirect_parameters_type=query
+      title: Neovim python dap neotest lazy config
+      url: https://gist.github.com/caspersg/96cfd0276f5713a59ce16370fbe99902
+    - last_visited: '2025-04-26T10:09:32'
+      pinned: false
+      title: python debugger lazy vim - Google Search
+      url: https://www.google.com/search?q=python%20debugger%20lazy%20vim
     - active: true
-      last_visited: '2025-04-22T13:01:23'
+      last_visited: '2025-04-26T10:09:47'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 120
+      title: "LazyVim Python Debug Setup \U0001F618 : r/neovim"
+      url: https://www.reddit.com/r/neovim/comments/1fgq6rq/lazyvim_python_debug_setup/
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-04-26T10:09:50'
+      original-url: https://lazyvim.github.io/extras/lang/python
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Provide Authentication Token to Vim / Neovim | Windsurf (formerly Codeium)
-      url: https://windsurf.com/vim-show-auth-token?state=cb9c1a5b-6910-4fb2-b457-a9c72a392d90&access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NzA4MWNhOWNiYjM3YzIzNDk4ZGQzOTQzYmYzNzFhMDU4ODNkMjgiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQWRhbSBvcnRlbGwiLCJwaWN0dXJlIjoiaHR0cHM6Ly9hdmF0YXJzLmdpdGh1YnVzZXJjb250ZW50LmNvbS91Lzc1NTIxNzk_dj00IiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2V4YTItZmIxNzAiLCJhdWQiOiJleGEyLWZiMTcwIiwiYXV0aF90aW1lIjoxNzQ1MzQzNTAzLCJ1c2VyX2lkIjoiN1Ftcnh5U1czN1BidXdXMGd4Q08zYmVOazJrMSIsInN1YiI6IjdRbXJ4eVNXMzdQYnV3VzBneENPM2JlTmsyazEiLCJpYXQiOjE3NDUzNDQ4ODEsImV4cCI6MTc0NTM0ODQ4MSwiZW1haWwiOiJhcm9ydGVsbDgwQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImdpdGh1Yi5jb20iOlsiNzU1MjE3OSJdLCJlbWFpbCI6WyJhcm9ydGVsbDgwQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6ImdpdGh1Yi5jb20ifX0.DcVZBp4ylXWEaH3HhC5jIkjyITIJMkd21Lct6qpNkQ132q72lfVpTQcibnFDfy6L8Ljr7rtlKJGkJ59OrFvJ_2sg6VKheScd9-9hiyRyD5iUKVzJs9KSAchrAnlnshvZeeGi8WNlZvy-EJ-UEPjO6k2U4wapFAPUv7Df6D46x3aiJYChbGDAlKILfw1MKewW56vlTy1dUzrtON3kQ3COAYRxpMc40azdu8jgWDb4Cl7KrUYsXi3Ibqkbw1pAO_aWtLKKQp_zss0dCZHGY6aP9q77rsAEQQJeVpXM1MC_UvWQMlq4GQhQ1oMTIpqjNh7rlL9m_nqg1Yc5eX2Gzowacg
+      title: Python | LazyVim
+      url: http://www.lazyvim.org/extras/lang/python
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-04-26T09:17:34'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Jetpack Preset | Starship
+      url: https://starship.rs/presets/jetpack
+      zoom: 1.0
+  - history:
+    - last_visited: '2025-04-26T08:40:14'
+      pinned: false
+      title: yazi.nvim/documentation/plugin-management.md at main · mikavilpas/yazi.nvim
+      url: https://github.com/mikavilpas/yazi.nvim/blob/main/documentation/plugin-management.md
+    - last_visited: '2025-04-26T08:40:30'
+      pinned: false
+      title: starship prompt symbol for unix termin not displayed - Google Search
+      url: https://www.google.com/search?q=starship%20prompt%20symbol%20for%20unix%20termin%20not%20displayed
+    - active: true
+      last_visited: '2025-04-26T08:40:43'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 3434
+      title: starship prompt missing some symbols / System Administration / Arch Linux
+        Forums
+      url: https://bbs.archlinux.org/viewtopic.php?id=294667
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-04-26T08:40:14'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 5800
+      title: Configuration | Starship
+      url: https://starship.rs/config/
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-04-26T09:08:25'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 7846
+      title: Configuration | Starship
+      url: https://starship.rs/config/#default-prompt-format
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-04-26T09:08:28'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 7151
+      title: Advanced Configuration | Starship
+      url: https://starship.rs/advanced-config/#enable-right-prompt
+      zoom: 1.0
+  - history:
+    - last_visited: '2025-04-26T09:02:44'
+      pinned: false
+      title: what nerd fonts show all symbols in starship prompt - Google Search
+      url: https://www.google.com/search?q=what%20nerd%20fonts%20show%20all%20symbols%20in%20starship%20prompt
+    - active: true
+      last_visited: '2025-04-26T09:02:51'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1732
+      title: Nerd Font Symbols Preset | Starship
+      url: https://starship.rs/presets/nerd-font
       zoom: 1.0

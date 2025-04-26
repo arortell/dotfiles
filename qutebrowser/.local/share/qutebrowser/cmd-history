@@ -1,30 +1,3 @@
-:open odunst arch l;inux
-:open -t libcanberrs
-:open canberra-gtk-play
-:open toogle mute dunst amixer
-:open time that dunst notifications stay on screen
-:open canberra-gtk-play arch linux
-:open -t pacman -=list orphganed depenencies
-:open tmux open a terminal in a new window of the same session
-:open tmux differnce sessions and winbdows
-:open open a terminal in same tmux session but a differnt window
-:open bash -n
-:open bash programming tutorial
-:open bash programming  $@
-:open copy multplie file in yazi
-:open -t copy paste in yazi
-:open yazi caopy paste not working
-:open nnn linux
-:open copy paste in yazi
-:open select multiple files in yazi
-:open yazi plugins
-:open -t yazi coni fig file example
-:open 64 x64 foot icon
-:open 64 x  64 icon of a womans foot
-:open  free 64 x 64 icons
-:open get path in python
-:open python pstray library
-:open using an image as icon with pysystray library
 :open white 64 x64 foot icon
 :open cyberghostvpngiu arch linux
 :open -t switching from vim-pluig to lazy  nvim
@@ -98,3 +71,30 @@
 :open codeuim will not accept api key lazy vim
 :open -t what code completions can be used togfether on lazy vim
 :home
+:open https://github.com/arortell
+:open https://www.w3schools.com/python/module_os.asp
+:open -t lazy vim split terminal on the bottom
+:open lazy vim error executing vim.schedule lua callback
+:open lazy vim lua attemp to index local root a nil value
+:open yazi nvim
+:open maplemono in alacritty
+:open where does lazy vim keep its log files
+:open what is the leaderkey in lazy vim
+:open navaget tabs in lazyvim
+:open layvim neotree wont load
+:open change yazi help keybindings
+:open get input from shel bash
+:open starship on oh my zsh
+:open cant get rid of powerline10k prompt zsh
+:open starship prompt symbol for unix termin not displayed
+:open -t what nerd fonts show all symbols in starship prompt
+:open -t what is guix shell
+:open starship prompt exampkles
+:open converting a poyqt5 project to pyqt6
+:open what is a toc file
+:open what is a .toc file
+:open  does wingide us toc files
+:open convert pycharm progect to nvim
+:open run pyqt6 project nvim
+:open convert pycharm project to neovim project
+:open python debugger lazy vim

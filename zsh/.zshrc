@@ -7,9 +7,9 @@
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
+#if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+#  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+#fi
 
 # Adding bin to path
 export PATH="$HOME/.dotfiles/bin:$PATH"
@@ -131,9 +131,9 @@ SPACESHIP_PYENV_SYMBOL=""
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-# ZSH_THEME="robbyrussell"
+#ZSH_THEME=""
 #ZSH_THEME="spaceship"
-ZSH_THEME="powerlevel10k/powerlevel10k"
+##ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -174,7 +174,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(archlinux colorize colored-man-pages copyfile cp common-aliases dirhistory fzf fasd github git-prompt history pip taskwarrior tmux rsync sudo systemd systemadmin z zsh-interactive-cd zsh-autosuggestions zsh-syntax-highlighting zsh-history-substring-search herbstclient yazi)
+plugins=(starship archlinux colorize colored-man-pages copyfile cp common-aliases dirhistory fzf fasd github git-prompt history pip taskwarrior tmux rsync sudo systemd systemadmin z zsh-interactive-cd zsh-autosuggestions zsh-syntax-highlighting zsh-history-substring-search herbstclient yazi)
 source $ZSH/oh-my-zsh.sh
 
 autoload -Uz compinit compinit promptinit run-help
@@ -319,10 +319,7 @@ alias spell='aspell -a $@'
 alias how='function hdi(){ howdoi $* -c -n 5; }; hdi'
 alias quit='systemctl poweroff'
 alias gc='git clone $@'
-alias cat='bat'
-
-
-alias ts='tmux-reattachloop.sh tmux new-session -A -D -s shell'
+alias ct='bat'
 
 # fzf surfraw
 fzf-surfraw() { 
@@ -381,9 +378,11 @@ export BW_SESSION=ER/HzwSgs5zAHvnK/a/GhW8ckdR7M7dLmW/VEoXI+EDhHzO9EiJ2wQGF466yd6
 export BW_SESSION=ER/HzwSgs5zAHvnK/a/GhW8ckdR7M7dLmW/VEoXI+EDhHzO9EiJ2wQGF466yd6VvAHMcrD1sM8ENkKsCyDk52Q==
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+#[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+eval "$(starship init zsh)"
 
 # enable fasd
 eval "$(fasd --init auto)"
@@ -391,3 +390,4 @@ eval "$(fasd --init auto)"
 # syntax highlight source ######################### MUST BE LAST LINE IN FILE ###################
 source ~/.oh-my-zsh/plugins/zsh-interactive-cd/zsh-interactive-cd.plugin.zsh
 source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+

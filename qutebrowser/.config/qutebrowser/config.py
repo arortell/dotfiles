@@ -53,7 +53,7 @@ c.auto_save.session = True
 ## Valid values:
 ##   - webengine: Use QtWebEngine (based on Chromium - recommended).
 ##   - webkit: Use QtWebKit (based on WebKit, similar to Safari - many known security issues!).
-c.backend = 'webengine'
+c.backend = "webengine"
 
 ## Map keys to other keys, so that they are equivalent in all modes. When
 ## the key used as dictionary-key is pressed, the binding for the key
@@ -501,13 +501,13 @@ c.backend = 'webengine'
 ##   - lightness-cielab: Modify colors by converting them to CIELAB color space and inverting the L value. Not available with Qt < 5.14.
 ##   - lightness-hsl: Modify colors by converting them to the HSL color space and inverting the lightness (i.e. the "L" in HSL).
 ##   - brightness-rgb: Modify colors by subtracting each of r, g, and b from their maximum value.
-#c.colors.webpage.darkmode.algorithm = 'lightness-cielab'
+# c.colors.webpage.darkmode.algorithm = 'lightness-cielab'
 
 ## Contrast for dark mode. This only has an effect when
 ## `colors.webpage.darkmode.algorithm` is set to `lightness-hsl` or
 ## `brightness-rgb`.
 ## Type: Float
-#c.colors.webpage.darkmode.contrast = 0.0
+# c.colors.webpage.darkmode.contrast = 0.0
 
 ## Render all web contents using a dark theme. On QtWebEngine < 6.7, this
 ## setting requires a restart and does not support URL patterns, only the
@@ -526,7 +526,7 @@ c.colors.webpage.darkmode.enabled = True
 ##   - never: Never apply dark mode filter to any images.
 ##   - smart: Apply dark mode based on image content. Not available with Qt 5.15.0.
 ##   - smart-simple: On QtWebEngine 6.6, use a simpler algorithm for smart mode (based on numbers of colors and transparency), rather than an ML-based model. Same as 'smart' on older QtWebEnigne versions.
-#c.colors.webpage.darkmode.policy.images = 'smart'
+# c.colors.webpage.darkmode.policy.images = 'smart'
 
 ## Which pages to apply dark mode to. The underlying Chromium setting has
 ## been removed in QtWebEngine 5.15.3, thus this setting is ignored
@@ -535,7 +535,7 @@ c.colors.webpage.darkmode.enabled = True
 ## Valid values:
 ##   - always: Apply dark mode filter to all frames, regardless of content.
 ##   - smart: Apply dark mode filter to frames based on background color.
-c.colors.webpage.darkmode.policy.page = 'smart'
+c.colors.webpage.darkmode.policy.page = "smart"
 
 ## Threshold for inverting background elements with dark mode. Background
 ## elements with brightness above this threshold will be inverted, and
@@ -544,14 +544,14 @@ c.colors.webpage.darkmode.policy.page = 'smart'
 ## behavior is the opposite of
 ## `colors.webpage.darkmode.threshold.foreground`!
 ## Type: Int
-#c.colors.webpage.darkmode.threshold.background = 0
+# c.colors.webpage.darkmode.threshold.background = 0
 
 ## Threshold for inverting text with dark mode. Text colors with
 ## brightness below this threshold will be inverted, and above it will be
 ## left as in the original, non-dark-mode page. Set to 256 to always
 ## invert text color or to 0 to never invert text color.
 ## Type: Int
-#c.colors.webpage.darkmode.threshold.foreground = 256
+# c.colors.webpage.darkmode.threshold.foreground = 256
 
 ## Value to use for `prefers-color-scheme:` for websites. The "light"
 ## value is only available with QtWebEngine 5.15.2+. On older versions,
@@ -563,7 +563,7 @@ c.colors.webpage.darkmode.policy.page = 'smart'
 ##   - auto: Use the system-wide color scheme setting.
 ##   - light: Force a light theme.
 ##   - dark: Force a dark theme.
-c.colors.webpage.preferred_color_scheme = 'auto'
+c.colors.webpage.preferred_color_scheme = "auto"
 
 ## Number of commands to save in the command history. 0: no history / -1:
 ## unlimited
@@ -618,7 +618,7 @@ c.colors.webpage.preferred_color_scheme = 'auto'
 ##   - always: Whenever a completion is available.
 ##   - auto: Whenever a completion is requested.
 ##   - never: Never.
-c.completion.show = 'always'
+c.completion.show = "always"
 
 ## Shrink the completion to be smaller than the configured size if there
 ## are no scrollbars.
@@ -657,7 +657,7 @@ c.completion.show = 'always'
 ##   - multiple-tabs: Show a confirmation if multiple tabs are opened.
 ##   - downloads: Show a confirmation if downloads are running
 ##   - never: Never show a confirmation.
-c.confirm_quit = ['downloads']
+c.confirm_quit = ["downloads"]
 
 ## Automatically start playing `<video>` elements.
 ## Type: Bool
@@ -1160,7 +1160,7 @@ c.content.pdfjs = True
 ## Directory to save downloads to. If unset, a sensible OS-specific
 ## default is used.
 ## Type: Directory
-c.downloads.location.directory = '$HOME/downloads'
+c.downloads.location.directory = "$HOME/downloads"
 
 ## Prompt the user for the download location. If set to false,
 ## `downloads.location.directory` will be used.
@@ -1177,7 +1177,7 @@ c.downloads.location.prompt = True
 ##   - path: Show only the download path.
 ##   - filename: Show only download filename.
 ##   - both: Show download path and filename.
-c.downloads.location.suggestion = 'path'
+c.downloads.location.suggestion = "path"
 
 ## Default program used to open downloads. If null, the default internal
 ## handler is used. Any `{}` in the string will be expanded to the
@@ -1211,7 +1211,14 @@ c.downloads.location.suggestion = 'path'
 ## `{line0}`: Same as `{line}`, but starting from index 0. * `{column0}`:
 ## Same as `{column}`, but starting from index 0.
 ## Type: ShellCommand
-c.editor.command = ["alacritty", "-e", "nvim", "{file}", "-c", "normal {line}G{column0}l"]
+c.editor.command = [
+    "alacritty",
+    "-e",
+    "nvim",
+    "{file}",
+    "-c",
+    "normal {line}G{column0}l",
+]
 
 ## Encoding to use for the editor.
 ## Type: Encoding
@@ -1278,14 +1285,14 @@ c.editor.command = ["alacritty", "-e", "nvim", "{file}", "-c", "normal {line}G{c
 ## font setting, it's replaced with the fonts listed here. If set to an
 ## empty value, a system-specific monospace default is used.
 ## Type: List of Font, or Font
-c.fonts.default_family = 'Terminus'
+c.fonts.default_family = "TerminessNerdFontMono"
 
 ## Default font size to use. Whenever "default_size" is used in a font
 ## setting, it's replaced with the size listed here. Valid values are
 ## either a float value with a "pt" suffix, or an integer value with a
 ## "px" suffix.
 ## Type: String
-# c.fonts.default_size = '10pt'
+c.fonts.default_size = "12pt"
 
 ## Font used for the downloadbar.
 ## Type: Font
@@ -2155,8 +2162,11 @@ c.spellcheck.languages = ["en-US"]
 ## the search engine name to the search term, e.g. `:open google
 ## qutebrowser`.
 ## Type: Dict
-c.url.searchengines = {'DEFAULT': 'https://google.com/search?q={}',
-                       'wa': 'https://wiki.archlinux.org/?search={}', 'wf': 'http://www.wikifeet.com/search/?x=-1360&y=-15&query={}'}
+c.url.searchengines = {
+    "DEFAULT": "https://google.com/search?q={}",
+    "wa": "https://wiki.archlinux.org/?search={}",
+    "wf": "http://www.wikifeet.com/search/?x=-1360&y=-15&query={}",
+}
 
 ## Page(s) to open at the start.
 ## Type: List of FuzzyUrl, or FuzzyUrl
@@ -2202,64 +2212,71 @@ c.url.searchengines = {'DEFAULT': 'https://google.com/search?q={}',
 # c.zoom.text_only = False
 
 ####### BookMarks
-config.unbind('M', mode='normal')
-config.unbind('m', mode='normal')
-config.unbind('b', mode='normal')
+config.unbind("M", mode="normal")
+config.unbind("m", mode="normal")
+config.unbind("b", mode="normal")
 
-config.bind('B', 'bookmark-add')
-config.bind('<Ctrl-B>', 'bookmark-del')
-config.bind('q', 'quickmark-save')
-config.bind('<Ctrl-q>', 'quickmark-del')
+config.bind("B", "bookmark-add")
+config.bind("<Ctrl-B>", "bookmark-del")
+config.bind("q", "quickmark-save")
+config.bind("<Ctrl-q>", "quickmark-del")
 
 #########
 
 # Tab Navagation
-config.bind('<Shift-Left>', 'tab-prev')
-config.bind('<Shift-Down>', 'back')
-config.bind('<Shift-Up>', 'forward')
-config.bind('<Shift-Right>', 'tab-next')
-config.bind('<Delete>', 'tab-close')
+config.bind("<Shift-Left>", "tab-prev")
+config.bind("<Shift-Down>", "back")
+config.bind("<Shift-Up>", "forward")
+config.bind("<Shift-Right>", "tab-next")
+config.bind("<Delete>", "tab-close")
 
 # Open videos in MPV
-config.bind('M', 'hint links spawn mpv {hint-url}')
-config.bind(';M', 'spawn --detach mpv {url}')
+config.bind("M", "hint links spawn mpv {hint-url}")
+config.bind(";M", "spawn --detach mpv {url}")
 
 # adds a task with the URL
-config.bind('a', 'spawn --userscript taskadd')
+config.bind("a", "spawn --userscript taskadd")
 
 
-config.bind('<Alt-E>', 'prompt-fileselect-external', mode='prompt')
-
+config.bind("<Alt-E>", "prompt-fileselect-external", mode="prompt")
 
 
 ################### THIS IS VERY COOL ######################
 # Depends on:
 # ~/.local/share/qutebrowser/userscripts/code_select.py
-# install pyperclip 
+# install pyperclip
 
 # Copy Formatted Code
 c.hints.selectors["code"] = [
     # Selects all code tags whose direct parent is not a pre tag
     ":not(pre) > code",
-    "pre"
+    "pre",
 ]
 
 # Set Yazi as file picker.
 config.set("fileselect.handler", "external")
-config.set("fileselect.single_file.command", ['alacritty', '--class', 'yazi,yazi', '-e', 'yazi', '--choose-files', '{}'])
-config.set("fileselect.multiple_files.command", ['alacritty', '--class', 'yazi,yazi', '-e', 'yazi', '--choose-files', '{}'])
-config.set("fileselect.folder.command", ['alacritty', '--class', 'yazi,yazi', '-e', 'yazi', '--choose-dir', '{}'])
+config.set(
+    "fileselect.single_file.command",
+    ["alacritty", "--class", "yazi,yazi", "-e", "yazi", "--choose-files", "{}"],
+)
+config.set(
+    "fileselect.multiple_files.command",
+    ["alacritty", "--class", "yazi,yazi", "-e", "yazi", "--choose-files", "{}"],
+)
+config.set(
+    "fileselect.folder.command",
+    ["alacritty", "--class", "yazi,yazi", "-e", "yazi", "--choose-dir", "{}"],
+)
 
 # Use ctrl-f to select save location using external file picker.
 config.unbind("<Ctrl-f>", mode="prompt")
-config.bind('<Ctrl-f>', 'prompt-fileselect-external', mode='prompt')
+config.bind("<Ctrl-f>", "prompt-fileselect-external", mode="prompt")
 
 
-
-config.bind('<Shift-C>', 'hint code userscript code_select.py')
+config.bind("<Shift-C>", "hint code userscript code_select.py")
 
 # Theme
-config.source('themes/onedark.py')
+config.source("themes/onedark.py")
 
 
 # config.bind("'", 'mode-enter jump_mark')
@@ -2572,4 +2589,3 @@ config.source('themes/onedark.py')
 # config.bind('Y', 'prompt-accept --save yes', mode='yesno')
 # config.bind('n', 'prompt-accept no', mode='yesno')
 # config.bind('y', 'prompt-accept yes', mode='yesno')
-
