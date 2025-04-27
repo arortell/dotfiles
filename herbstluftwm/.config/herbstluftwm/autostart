@@ -17,9 +17,12 @@ hc() {
 hc emit_hook reload
 
 # Start background apps ONLY if not alreadly running
-#f hc silent new_attr bool my_not_first_autostart; then
-
-#fi
+if hc silent new_attr bool my_not_first_autostart; then
+	udiskie &
+	picom &
+	dunst &
+	unclutter &
+fi
 
 pkill conky
 pkill lemonbar
@@ -29,14 +32,14 @@ hc keyunbind --all
 
 # keybindings
 Mod=Mod4 # Use the super key as the main modifier
-TERMINAL=alacritty
+TERMINAL=kitty
 
 # <==================== Apps ====================
 hc keybind $Mod-Shift-Escape quit
 hc keybind $Mod-Escape reload
 hc keybind $Mod-Delete close
 hc keybind $Mod-Shift-Delete close_and_remove
-hc keybind $Mod-Return spawn alacritty
+hc keybind $Mod-Return spawn ${TERMINAL:-alacritty}
 hc keybind $Mod-Alt-Return spawn alacritty -e tmux new-session -t feet
 hc keybind $Mod-v spawn cyberghostvpn-gui
 hc keybind $Mod-y spawn alacritty -e yazi

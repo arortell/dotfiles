@@ -174,7 +174,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(starship archlinux colorize colored-man-pages copyfile cp common-aliases dirhistory fzf fasd github git-prompt history pip taskwarrior tmux rsync sudo systemd systemadmin z zsh-interactive-cd zsh-autosuggestions zsh-syntax-highlighting zsh-history-substring-search herbstclient yazi)
+plugins=(starship archlinux colorize colored-man-pages copyfile cp common-aliases dirhistory fzf fasd github git-prompt history pip taskwarrior rsync sudo systemd systemadmin z zsh-interactive-cd zsh-autosuggestions zsh-syntax-highlighting zsh-history-substring-search herbstclient yazi)
 source $ZSH/oh-my-zsh.sh
 
 autoload -Uz compinit compinit promptinit run-help
@@ -303,7 +303,7 @@ alias reload='source ~/.zshrc'
 alias hc='herbstclient'
 
 # shortcuts for dotfile editing
-alias cfg-term='$EDITOR ~/.config/alacritty/alacritty.toml'
+alias cfg-term='$EDITOR ~/.config/kitty/kitty.conf'
 alias cfg-tmux='$EDITOR ~/.config/tmux/tmux.conf.local'
 alias cfg-bar='$EDITOR ~/.config/barpyrus/config.py'
 alias cfg-qute='$EDITOR ~/.config/qutebrowser/config.py'

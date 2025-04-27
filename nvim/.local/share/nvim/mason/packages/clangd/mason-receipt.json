@@ -1,1 +1,1 @@
-{"metrics":{"completion_time":1745272770961,"start_time":1745272670706},"links":{"share":{},"opt":{},"bin":{"clangd":"clangd_20.1.0/bin/clangd"}},"secondary_sources":[],"schema_version":"1.1","primary_source":{"id":"pkg:github/clangd/clangd@20.1.0","type":"registry+v1"},"name":"clangd"}
+{"links":{"opt":{},"bin":{"clangd":"clangd_20.1.0/bin/clangd"},"share":{}},"name":"clangd","metrics":{"completion_time":1745784388710,"start_time":1745784200671},"primary_source":{"type":"registry+v1","id":"pkg:github/clangd/clangd@20.1.0"},"schema_version":"1.1","secondary_sources":[]}

@@ -1,37 +1,61 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAPAAAAAFAAAB34AAAQ2AAADwQAAABUAAAd9AAAENQAAAAAAAAAAB4AAAAPBAAAA
+    AdnQywADAAAAAAABAAAAFAAAB34AAAQ2AAAAAgAAABUAAAd9AAAENQAAAAAAAAAAB4AAAAACAAAA
     FQAAB30AAAQ1
   tabs:
-  - history:
-    - active: true
-      last_visited: '2025-04-26T21:45:21'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Bash Scripting Tutorial - Ryans Tutorials
-      url: https://ryanstutorials.net/bash-scripting-tutorial/
-      zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2025-04-26T21:45:21'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: usinmg yazi as filepicker qutebrowser - Google Search
-      url: https://www.google.com/search?q=usinmg%20yazi%20as%20filepicker%20qutebrowser
-      zoom: 1.0
   - active: true
     history:
+    - last_visited: '2025-04-26T21:54:23'
+      pinned: false
+      title: Google
+      url: https://www.google.com/
+    - last_visited: '2025-04-26T21:54:34'
+      pinned: false
+      title: 'sainnhe/tmux-fzf: Use fzf to manage your tmux work environment!'
+      url: https://github.com/sainnhe/tmux-fzf
+    - last_visited: '2025-04-26T21:54:50'
+      pinned: false
+      title: tmux-fzf/main.tmux at master · sainnhe/tmux-fzf
+      url: https://github.com/sainnhe/tmux-fzf/blob/master/main.tmux
+    - last_visited: '2025-04-26T21:55:23'
+      pinned: false
+      title: Google
+      url: https://www.google.com/
+    - last_visited: '2025-04-26T21:58:02'
+      pinned: false
+      title: arortell - Google Search
+      url: https://www.google.com/search?q=arortell
+    - last_visited: '2025-04-26T22:03:53'
+      pinned: false
+      title: arortell (Adam ortell)
+      url: https://github.com/arortell
+    - last_visited: '2025-04-26T22:13:12'
+      pinned: false
+      title: Who You’re Following
+      url: https://github.com/arortell?tab=following
+    - last_visited: '2025-04-26T22:13:19'
+      pinned: false
+      title: The-Compiler (Florian Bruhin)
+      url: https://github.com/The-Compiler
+    - last_visited: '2025-04-26T22:14:35'
+      pinned: false
+      title: The-Compiler (The-Compiler) / Repositories
+      url: https://github.com/The-Compiler?tab=repositories
+    - last_visited: '2025-04-26T22:14:42'
+      pinned: false
+      title: 'The-Compiler/dotfiles: New config file repo'
+      url: https://github.com/The-Compiler/dotfiles
+    - last_visited: '2025-04-26T22:14:59'
+      pinned: false
+      title: dotfiles/herbstluftwm at master · The-Compiler/dotfiles
+      url: https://github.com/The-Compiler/dotfiles/tree/master/herbstluftwm
     - active: true
-      last_visited: '2025-04-26T21:45:21'
+      last_visited: '2025-04-26T22:15:03'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: dots/src/dot_config/qutebrowser/config.py at main · dogeystamp/dots
-      url: https://github.com/dogeystamp/dots/blob/main/src/dot_config/qutebrowser/config.py
+        y: 2970
+      title: dotfiles/herbstluftwm/autostart at master · The-Compiler/dotfiles
+      url: https://github.com/The-Compiler/dotfiles/blob/master/herbstluftwm/autostart
       zoom: 1.0

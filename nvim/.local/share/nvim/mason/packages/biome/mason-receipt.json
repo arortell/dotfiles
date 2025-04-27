@@ -1,1 +1,1 @@
-{"metrics":{"completion_time":1745272558380,"start_time":1745272545944},"name":"biome","secondary_sources":[],"schema_version":"1.1","links":{"share":{},"bin":{"biome":"node_modules/.bin/biome"},"opt":{}},"primary_source":{"type":"registry+v1","id":"pkg:npm/%40biomejs/biome@1.9.4"}}
+{"links":{"opt":{},"bin":{"biome":"node_modules/.bin/biome"},"share":{}},"name":"biome","metrics":{"completion_time":1745784180100,"start_time":1745784163065},"primary_source":{"type":"registry+v1","id":"pkg:npm/%40biomejs/biome@1.9.4"},"schema_version":"1.1","secondary_sources":[]}

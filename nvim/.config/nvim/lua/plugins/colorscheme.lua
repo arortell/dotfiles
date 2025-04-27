@@ -11,18 +11,6 @@ return {
   },
 }
 
----- Uncomment the following blocks to use different colorschemes
---return {
---  { "tomasiser/vim-code-dark" },
-
---  {
---    "LazyVim/LazyVim",
---    opts = {
---      colorscheme = "vim-code-dark",
---    },
---  },
---}
-
 --return {
 --  { "nanotech/jellybeans.vim" },
 

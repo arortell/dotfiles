@@ -11,6 +11,6 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "pyright": "^1.1.399"
+    "pyright": "^1.1.400"
   }
 }

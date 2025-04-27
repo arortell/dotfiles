@@ -1,28 +1,84 @@
 windows:
-- geometry: !!binary |
-    AdnQywADAAAAAAPAAAAAFAAAB34AAAQ2AAADwQAAABUAAAd9AAAENQAAAAAAAAAAB4AAAAPBAAAA
-    FQAAB30AAAQ1
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAABAAAAFAAAA74AAAQ2AAAAAgAAABUAAAO9AAAENQAAAAAAAAAAB4AAAAACAAAA
+    FQAAA70AAAQ1
   tabs:
-  - active: true
-    history:
-    - last_visited: '2025-04-26T21:54:23'
-      pinned: false
-      title: Google
-      url: https://www.google.com/
-    - last_visited: '2025-04-26T21:54:34'
-      pinned: false
-      title: 'sainnhe/tmux-fzf: Use fzf to manage your tmux work environment!'
-      url: https://github.com/sainnhe/tmux-fzf
-    - last_visited: '2025-04-26T21:54:50'
-      pinned: false
-      title: tmux-fzf/main.tmux at master · sainnhe/tmux-fzf
-      url: https://github.com/sainnhe/tmux-fzf/blob/master/main.tmux
+  - history:
     - active: true
-      last_visited: '2025-04-26T21:55:23'
+      last_visited: '2025-04-27T15:14:46'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Google
-      url: https://www.google.com/
+      title: kitty.conf - kitty
+      url: https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Browse
+      zoom: 1.0
+  - history:
+    - last_visited: '2025-04-27T15:12:42'
+      pinned: false
+      title: kitty kittens - Google Search
+      url: https://www.google.com/search?q=kitty%20kittens
+    - last_visited: '2025-04-27T15:12:52'
+      pinned: false
+      title: kitty terminal kittens - Google Search
+      url: https://www.google.com/search?q=kitty%20terminal%20kittens
+    - active: true
+      last_visited: '2025-04-27T15:12:58'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Extend with kittens - kitty
+      url: https://sw.kovidgoyal.net/kitty/kittens_intro/
+      zoom: 1.0
+  - history:
+    - last_visited: '2025-04-27T15:15:25'
+      pinned: false
+      title: select text in pager kitty - Google Search
+      url: https://www.google.com/search?q=select%20text%20in%20pager%20kitty
+    - last_visited: '2025-04-27T15:15:30'
+      pinned: false
+      title: 'Good way to select text with keyboard : r/KittyTerminal'
+      url: https://www.reddit.com/r/KittyTerminal/comments/rmqc25/good_way_to_select_text_with_keyboard/
+    - active: true
+      last_visited: '2025-04-27T15:16:04'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: kitty scrollback buffer - Google Search
+      url: https://www.google.com/search?q=kitty%20scrollback%20buffer
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-04-27T15:17:10'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 3400
+      title: "mikesmithgh/kitty-scrollback.nvim: \U0001F63D Open your Kitty scrollback
+        buffer with Neovim. Ameowzing!"
+      url: https://github.com/mikesmithgh/kitty-scrollback.nvim
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-04-27T15:17:17'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 2320
+      title: 'Kitty''s killer feature - the scrollback buffer : r/neovim'
+      url: https://www.reddit.com/r/neovim/comments/1frkncj/kittys_killer_feature_the_scrollback_buffer/
+      zoom: 1.0
+  - active: true
+    history:
+    - active: true
+      last_visited: '2025-04-27T15:26:07'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: paste into kitty with keyboard - Google Search
+      url: https://www.google.com/search?q=paste%20into%20kitty%20with%20keyboard
       zoom: 1.0

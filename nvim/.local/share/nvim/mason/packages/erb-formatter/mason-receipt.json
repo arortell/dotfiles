@@ -1,1 +1,0 @@
-{"secondary_sources":[],"primary_source":{"type":"registry+v1","id":"pkg:gem/erb-formatter@0.7.3"},"name":"erb-formatter","metrics":{"start_time":1745705538994,"completion_time":1745705545064},"schema_version":"1.1","links":{"bin":{"erb-format":"erb-format"},"opt":{},"share":{}}}

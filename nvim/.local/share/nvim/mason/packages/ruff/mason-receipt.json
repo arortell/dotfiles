@@ -1,1 +1,1 @@
-{"metrics":{"start_time":1745270908047,"completion_time":1745270921766},"name":"ruff","secondary_sources":[],"schema_version":"1.1","links":{"opt":{},"bin":{"ruff":"venv/bin/ruff"},"share":{}},"primary_source":{"id":"pkg:pypi/ruff@0.11.6","type":"registry+v1"}}
+{"links":{"opt":{},"bin":{"ruff":"venv/bin/ruff"},"share":{}},"name":"ruff","metrics":{"completion_time":1745784309233,"start_time":1745784270593},"primary_source":{"type":"registry+v1","id":"pkg:pypi/ruff@0.11.7"},"schema_version":"1.1","secondary_sources":[]}

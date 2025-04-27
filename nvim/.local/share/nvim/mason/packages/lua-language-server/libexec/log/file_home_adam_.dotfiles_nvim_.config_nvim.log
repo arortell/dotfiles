@@ -1,10 +1,10 @@
-[16:58:47.011][info] [#0:/home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:68]: Lua Lsp startup, root: 	/home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec
-[16:58:47.011][info] [#0:/home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:69]: ROOT:	/home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec
-[16:58:47.011][info] [#0:/home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:70]: LOGPATH:	/home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/log
-[16:58:47.011][info] [#0:/home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:71]: METAPATH:	/home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta
-[16:58:47.012][info] [#0:/home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:72]: VERSION:	3.14.0
-[16:58:47.023][info] [#0:script/proto/proto.lua:260]: Listen Mode: stdio
-[16:58:47.023][info] [#0:script/service/service.lua:145]: 
+[15:10:03.962][info] [#0:/home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:68]: Lua Lsp startup, root: 	/home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec
+[15:10:03.962][info] [#0:/home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:69]: ROOT:	/home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec
+[15:10:03.962][info] [#0:/home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:70]: LOGPATH:	/home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/log
+[15:10:03.962][info] [#0:/home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:71]: METAPATH:	/home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta
+[15:10:03.962][info] [#0:/home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:72]: VERSION:	3.14.0
+[15:10:03.974][info] [#0:script/proto/proto.lua:260]: Listen Mode: stdio
+[15:10:03.974][info] [#0:script/service/service.lua:145]: 
 ========= Medical Examination Report =========
     --------------- Memory ---------------
         Total: 2.264 MB
@@ -26,7 +26,7 @@
         Holdon:   0
         Waiting:  0
 ==============================================
-[16:58:47.126][info] [#0:script/client.lua:657]: Client init	{
+[15:10:04.077][info] [#0:script/client.lua:657]: Client init	{
   capabilities = {
     general = {
       positionEncodings = { "utf-8", "utf-16", "utf-32" }
@@ -225,10 +225,10 @@
   },
   clientInfo = {
     name = "Neovim",
-    version = "0.11.0+v0.11.0"
+    version = "0.11.1+v0.11.1"
   },
   initializationOptions = {},
-  processId = 1862814,
+  processId = 118874,
   rootPath = "/home/adam/.dotfiles/nvim/.config/nvim",
   rootUri = "file:///home/adam/.dotfiles/nvim/.config/nvim",
   trace = "off",
@@ -238,13 +238,13 @@
       uri = "file:///home/adam/.dotfiles/nvim/.config/nvim"
     } }
 }
-[16:58:47.126][info] [#0:script/language.lua:137]: VSC language: nil
-[16:58:47.126][info] [#0:script/language.lua:138]: LS  language: en-us
-[16:58:47.126][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/adam/.dotfiles/nvim/.config/nvim
-[16:58:47.126][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/log/file_home_adam_.dotfiles_nvim_.config_nvim.log
-[16:58:47.126][info] [#0:script/workspace/workspace.lua:48]: Workspace create: 	file:///home/adam/.dotfiles/nvim/.config/nvim
-[16:58:47.327][info] [#0:script/provider/provider.lua:49]: Load config from client	file:///home/adam/.dotfiles/nvim/.config/nvim
-[16:58:47.327][info] [#0:script/provider/provider.lua:50]: {
+[15:10:04.077][info] [#0:script/language.lua:137]: VSC language: nil
+[15:10:04.077][info] [#0:script/language.lua:138]: LS  language: en-us
+[15:10:04.077][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/adam/.dotfiles/nvim/.config/nvim
+[15:10:04.077][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/log/file_home_adam_.dotfiles_nvim_.config_nvim.log
+[15:10:04.077][info] [#0:script/workspace/workspace.lua:48]: Workspace create: 	file:///home/adam/.dotfiles/nvim/.config/nvim
+[15:10:04.379][info] [#0:script/provider/provider.lua:49]: Load config from client	file:///home/adam/.dotfiles/nvim/.config/nvim
+[15:10:04.379][info] [#0:script/provider/provider.lua:50]: {
   Lua = {
     codeLens = {
       enable = true
@@ -271,12 +271,12 @@
     workspace = {
       checkThirdParty = false,
       ignoreDir = { "/lua" },
-      library = { "/home/adam/.dotfiles/nvim/.local/share/nvim/lazy/neoconf.nvim/types", "/home/adam/.dotfiles/nvim/.local/share/nvim/lazy/neoconf.nvim/types/lua", "/usr/share/nvim/runtime/lua", "/home/adam/.dotfiles/nvim/.config/nvim/lua", "/home/adam/.dotfiles/nvim/.local/share/nvim/lazy/nvim-dap-python/lua" }
+      library = { "/home/adam/.dotfiles/nvim/.local/share/nvim/lazy/neoconf.nvim/types", "/home/adam/.dotfiles/nvim/.local/share/nvim/lazy/neoconf.nvim/types/lua", "/usr/share/nvim/runtime/lua", "/home/adam/.dotfiles/nvim/.config/nvim/lua", "/home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua", "/home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua" }
     }
   }
 }
-[16:58:47.328][info] [#0:script/provider/provider.lua:49]: Load config from client	file:///home/adam/.dotfiles/nvim/.config/nvim
-[16:58:47.328][info] [#0:script/provider/provider.lua:50]: {
+[15:10:04.379][info] [#0:script/provider/provider.lua:49]: Load config from client	file:///home/adam/.dotfiles/nvim/.config/nvim
+[15:10:04.379][info] [#0:script/provider/provider.lua:50]: {
   Lua = {
     codeLens = {
       enable = true
@@ -303,20 +303,12 @@
     workspace = {
       checkThirdParty = false,
       ignoreDir = { "/lua" },
-      library = { "/home/adam/.dotfiles/nvim/.local/share/nvim/lazy/neoconf.nvim/types", "/home/adam/.dotfiles/nvim/.local/share/nvim/lazy/neoconf.nvim/types/lua", "/usr/share/nvim/runtime/lua", "/home/adam/.dotfiles/nvim/.config/nvim/lua", "/home/adam/.dotfiles/nvim/.local/share/nvim/lazy/nvim-dap-python/lua" }
+      library = { "/home/adam/.dotfiles/nvim/.local/share/nvim/lazy/neoconf.nvim/types", "/home/adam/.dotfiles/nvim/.local/share/nvim/lazy/neoconf.nvim/types/lua", "/usr/share/nvim/runtime/lua", "/home/adam/.dotfiles/nvim/.config/nvim/lua", "/home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua", "/home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua" }
     }
   }
 }
-[16:58:47.428][warn] [#0:script/config/loader.lua:116]: No config?	{}
-[16:58:47.428][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
-[16:58:47.428][info] [#0:script/provider/provider.lua:66]: nil
-[16:58:47.428][warn] [#0:script/config/loader.lua:116]: No config?	{}
-[16:58:47.428][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
-[16:58:47.428][info] [#0:script/provider/provider.lua:66]: nil
-[16:58:47.533][info] [#0:script/library.lua:212]: Init builtin library at:	file:///home/adam/.dotfiles/nvim/.config/nvim
-[16:58:47.538][info] [#0:script/library.lua:212]: Init builtin library at:	nil
-[16:58:47.541][info] [#0:script/provider/provider.lua:49]: Load config from client	file:///home/adam/.dotfiles/nvim/.config/nvim
-[16:58:47.541][info] [#0:script/provider/provider.lua:50]: {
+[15:10:04.379][info] [#0:script/provider/provider.lua:49]: Load config from client	file:///home/adam/.dotfiles/nvim/.config/nvim
+[15:10:04.379][info] [#0:script/provider/provider.lua:50]: {
   Lua = {
     codeLens = {
       enable = true
@@ -343,390 +335,772 @@
     workspace = {
       checkThirdParty = false,
       ignoreDir = { "/lua" },
-      library = { "/home/adam/.dotfiles/nvim/.local/share/nvim/lazy/neoconf.nvim/types", "/home/adam/.dotfiles/nvim/.local/share/nvim/lazy/neoconf.nvim/types/lua", "/usr/share/nvim/runtime/lua", "/home/adam/.dotfiles/nvim/.config/nvim/lua", "/home/adam/.dotfiles/nvim/.local/share/nvim/lazy/nvim-dap-python/lua" }
+      library = { "/home/adam/.dotfiles/nvim/.local/share/nvim/lazy/neoconf.nvim/types", "/home/adam/.dotfiles/nvim/.local/share/nvim/lazy/neoconf.nvim/types/lua", "/usr/share/nvim/runtime/lua", "/home/adam/.dotfiles/nvim/.config/nvim/lua", "/home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua", "/home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua" }
     }
   }
 }
-[16:58:47.641][info] [#0:script/workspace/workspace.lua:324]: Preload start:	file:///home/adam/.dotfiles/nvim/.config/nvim
-[16:58:47.645][info] [#0:script/workspace/workspace.lua:330]: Scan files at:	file:///home/adam/.dotfiles/nvim/.config/nvim
-[16:58:47.645][info] [#0:script/workspace/workspace.lua:324]: Preload start:	<fallback>
-[16:58:47.646][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/os.lua
-[16:58:47.646][warn] [#0:script/config/loader.lua:116]: No config?	{}
-[16:58:47.646][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
-[16:58:47.646][info] [#0:script/provider/provider.lua:66]: nil
-[16:58:47.646][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/table.lua
-[16:58:47.646][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
-[16:58:47.646][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/basic.lua
-[16:58:47.646][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/builtin.lua
-[16:58:47.647][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/debug.lua
-[16:58:47.647][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/math.lua
-[16:58:47.647][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/utf8.lua
-[16:58:47.647][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/math.lua
-[16:58:47.647][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/package.lua
-[16:58:47.647][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/os.lua
-[16:58:47.647][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/string.lua
-[16:58:47.647][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/jit.lua
-[16:58:47.648][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/io.lua
-[16:58:47.648][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/package.lua
-[16:58:47.648][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.config/nvim/lua
-[16:58:47.648][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/coroutine.lua
-[16:58:47.649][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/basic.lua
-[16:58:47.649][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/debug.lua
-[16:58:47.649][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/string/buffer.lua
-[16:58:47.649][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/bit.lua
-[16:58:47.649][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/nvim-dap-python/lua
-[16:58:47.649][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/string.lua
-[16:58:47.649][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/builtin.lua
-[16:58:47.649][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/ffi.lua
-[16:58:47.649][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/jit/profile.lua
-[16:58:47.649][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/table/new.lua
-[16:58:47.650][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/neoconf.nvim/types/lua
-[16:58:47.650][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/table/clear.lua
-[16:58:47.650][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/table.lua
-[16:58:47.650][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/jit/util.lua
-[16:58:47.650][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/neoconf.nvim/types
-[16:58:47.650][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///usr/share/nvim/runtime/lua
-[16:58:47.657][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/io.lua
-[16:58:47.758][info] [#0:script/workspace/workspace.lua:379]: Found 11 files at:	<fallback>
-[16:58:47.758][info] [#0:script/workspace/loading.lua:160]: Load files from disk:	<fallback>
-[16:58:47.758][info] [#0:script/workspace/workspace.lua:379]: Found 134 files at:	file:///home/adam/.dotfiles/nvim/.config/nvim
-[16:58:47.758][info] [#0:script/workspace/loading.lua:160]: Load files from disk:	file:///home/adam/.dotfiles/nvim/.config/nvim
-[16:58:47.760][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/io.lua , size = 6.364 KB
-[16:58:47.769][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/io.lua
-[16:58:47.769][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/io.lua , size = 6.364 KB
-[16:58:47.771][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/io.lua
-[16:58:47.771][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/string.lua , size = 5.234 KB
-[16:58:47.772][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/string.lua
-[16:58:47.772][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/package.lua , size = 2.944 KB
-[16:58:47.773][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/package.lua
-[16:58:47.773][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/coxpcall.lua , size = 3.672 KB
-[16:58:47.774][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.774][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/_vim9script.lua , size = 15.423 KB
-[16:58:47.779][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.779][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/utf8.lua , size = 2.386 KB
-[16:58:47.779][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/utf8.lua
-[16:58:47.779][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/math.lua , size = 8.542 KB
-[16:58:47.782][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/math.lua
-[16:58:47.782][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/editorconfig.lua , size = 11.254 KB
-[16:58:47.784][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.784][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/debug.lua , size = 7.637 KB
-[16:58:47.787][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/debug.lua
-[16:58:47.787][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/man.lua , size = 23.099 KB
-[16:58:47.793][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.793][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/builtin.lua , size = 0.302 KB
-[16:58:47.793][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/builtin.lua
-[16:58:47.793][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/F.lua , size = 1.076 KB
-[16:58:47.794][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.794][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/tohtml.lua , size = 43.272 KB
-[16:58:47.807][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.807][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/basic.lua , size = 15.841 KB
-[16:58:47.811][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/basic.lua
-[16:58:47.811][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_buf.lua , size = 0.764 KB
-[16:58:47.811][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.811][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/coroutine.lua , size = 2.590 KB
-[16:58:47.812][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
-[16:58:47.812][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_comment.lua , size = 8.967 KB
-[16:58:47.814][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.814][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/table.lua , size = 4.445 KB
-[16:58:47.816][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/table.lua
-[16:58:47.816][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/os.lua , size = 5.611 KB
-[16:58:47.817][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/os.lua
-[16:58:47.817][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_defaults.lua , size = 32.247 KB
-[16:58:47.826][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.826][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_ftplugin/lua.lua , size = 0.481 KB
-[16:58:47.827][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.827][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_init_packages.lua , size = 3.023 KB
-[16:58:47.828][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.828][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_inspector.lua , size = 7.775 KB
-[16:58:47.830][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.830][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_editor.lua , size = 44.635 KB
-[16:58:47.841][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.841][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/api_keysets.lua , size = 9.958 KB
-[16:58:47.845][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.845][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/api.lua , size = 106.049 KB
-[16:58:47.864][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.864][info] [#0:script/workspace/loading.lua:172]: Loaded files takes [0.111] sec: <fallback>
-[16:58:47.864][info] [#0:script/workspace/loading.lua:181]: Compile files takes [0.000] sec: <fallback>
-[16:58:47.864][info] [#0:script/workspace/loading.lua:182]: Loaded finish:	<fallback>
-[16:58:47.864][info] [#0:script/workspace/workspace.lua:381]: Preload finish at:	<fallback>
-[16:58:47.866][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/api_keysets_extra.lua , size = 6.957 KB
-[16:58:47.868][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.868][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/base64.lua , size = 0.307 KB
-[16:58:47.869][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.869][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/builtin.lua , size = 10.381 KB
-[16:58:47.870][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.870][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/builtin_types.lua , size = 7.899 KB
-[16:58:47.872][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.872][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/diff.lua , size = 2.493 KB
-[16:58:47.873][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.873][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/json.lua , size = 1.537 KB
-[16:58:47.874][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.874][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/lpeg.lua , size = 15.348 KB
-[16:58:47.876][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.876][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/misc.lua , size = 0.291 KB
-[16:58:47.876][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.877][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/mpack.lua , size = 0.478 KB
-[16:58:47.877][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.877][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/re.lua , size = 2.217 KB
-[16:58:47.877][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.877][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/regex.lua , size = 1.580 KB
-[16:58:47.878][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.878][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/options.lua , size = 324.211 KB
-[16:58:47.928][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.928][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/spell.lua , size = 0.929 KB
-[16:58:47.928][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.928][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/vimfn.lua , size = 408.284 KB
-[16:58:47.991][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.991][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/vvars.lua , size = 26.214 KB
-[16:58:47.995][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.996][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/vvars_extra.lua , size = 4.056 KB
-[16:58:47.996][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.997][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta.lua , size = 1.002 KB
-[16:58:47.997][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:47.997][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_options.lua , size = 25.508 KB
-[16:58:48.003][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.003][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_system.lua , size = 9.580 KB
-[16:58:48.006][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.007][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/deprecated/health.lua , size = 1.260 KB
-[16:58:48.007][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.007][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_watch.lua , size = 9.718 KB
-[16:58:48.010][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.010][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/diagnostic.lua , size = 84.872 KB
-[16:58:48.032][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.032][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/filetype/detect.lua , size = 61.322 KB
-[16:58:48.048][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.048][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/filetype/options.lua , size = 2.559 KB
-[16:58:48.049][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.049][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/filetype.lua , size = 78.400 KB
-[16:58:48.085][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.085][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/fs.lua , size = 23.587 KB
-[16:58:48.091][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.091][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/func/_memoize.lua , size = 1.979 KB
-[16:58:48.092][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.092][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/func.lua , size = 1.950 KB
-[16:58:48.092][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.092][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/glob.lua , size = 3.312 KB
-[16:58:48.093][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.093][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/health/health.lua , size = 12.863 KB
-[16:58:48.097][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.097][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/health.lua , size = 14.702 KB
-[16:58:48.100][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.100][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/hl.lua , size = 5.653 KB
-[16:58:48.102][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.102][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/inspect.lua , size = 8.899 KB
-[16:58:48.104][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.105][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/iter.lua , size = 25.875 KB
-[16:58:48.111][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.111][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/keymap.lua , size = 3.683 KB
-[16:58:48.113][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.113][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/loader.lua , size = 14.564 KB
-[16:58:48.117][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.117][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/_changetracking.lua , size = 11.493 KB
-[16:58:48.120][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.120][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/_folding_range.lua , size = 11.103 KB
-[16:58:48.123][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.123][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/_meta/protocol.lua , size = 188.964 KB
-[16:58:48.152][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.152][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/_meta.lua , size = 0.585 KB
-[16:58:48.152][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.152][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/_snippet_grammar.lua , size = 6.228 KB
-[16:58:48.154][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.155][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/_tagfunc.lua , size = 3.236 KB
-[16:58:48.156][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.156][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/_transport.lua , size = 5.152 KB
-[16:58:48.157][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.158][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/_watchfiles.lua , size = 6.813 KB
-[16:58:48.159][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.159][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/buf.lua , size = 42.593 KB
-[16:58:48.170][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.170][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/client.lua , size = 40.437 KB
-[16:58:48.181][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.181][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/codelens.lua , size = 9.245 KB
-[16:58:48.183][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.184][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/completion.lua , size = 26.967 KB
-[16:58:48.190][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.190][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/diagnostic.lua , size = 11.717 KB
-[16:58:48.194][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.194][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/handlers.lua , size = 24.316 KB
-[16:58:48.200][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.200][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/health.lua , size = 7.174 KB
-[16:58:48.202][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.202][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/inlay_hint.lua , size = 11.911 KB
-[16:58:48.206][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.206][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/log.lua , size = 4.845 KB
-[16:58:48.207][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.207][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/protocol.lua , size = 44.826 KB
-[16:58:48.213][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.213][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/rpc.lua , size = 22.153 KB
-[16:58:48.250][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.250][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua , size = 27.239 KB
-[16:58:48.257][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.257][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/sync.lua , size = 15.728 KB
-[16:58:48.260][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.260][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/util.lua , size = 74.819 KB
-[16:58:48.280][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.280][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/provider/health.lua , size = 28.856 KB
-[16:58:48.287][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.287][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp.lua , size = 49.254 KB
-[16:58:48.299][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.299][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/provider/perl.lua , size = 1.998 KB
-[16:58:48.299][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.299][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/provider/ruby.lua , size = 1.563 KB
-[16:58:48.300][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.300][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/provider/python.lua , size = 4.210 KB
-[16:58:48.301][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.301][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/provider.lua , size = 0.197 KB
-[16:58:48.302][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.302][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/secure.lua , size = 5.020 KB
-[16:58:48.303][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.303][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/re.lua , size = 6.527 KB
-[16:58:48.306][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.306][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/shared.lua , size = 40.536 KB
-[16:58:48.316][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.316][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/termcap.lua , size = 2.952 KB
-[16:58:48.317][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.317][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/snippet.lua , size = 19.794 KB
-[16:58:48.323][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.323][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/text.lua , size = 4.512 KB
-[16:58:48.324][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.324][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter/_headings.lua , size = 3.863 KB
-[16:58:48.325][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.326][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter/_fold.lua , size = 14.803 KB
-[16:58:48.329][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.329][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter/_meta/misc.lua , size = 2.733 KB
-[16:58:48.330][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.331][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter/_meta/tsnode.lua , size = 5.839 KB
-[16:58:48.332][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.332][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter/_meta/tsquery.lua , size = 1.860 KB
-[16:58:48.333][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.333][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter/_meta/tstree.lua , size = 1.234 KB
-[16:58:48.333][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.333][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter/_query_linter.lua , size = 7.818 KB
-[16:58:48.336][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.336][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter/_range.lua , size = 3.923 KB
-[16:58:48.338][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.338][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter/dev.lua , size = 20.854 KB
-[16:58:48.344][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.344][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter/health.lua , size = 1.551 KB
-[16:58:48.345][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.345][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter/highlighter.lua , size = 14.278 KB
-[16:58:48.349][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.349][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter/language.lua , size = 5.382 KB
-[16:58:48.350][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.350][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter/languagetree.lua , size = 40.234 KB
-[16:58:48.362][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.362][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter/query.lua , size = 37.908 KB
-[16:58:48.372][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.372][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter.lua , size = 15.239 KB
-[16:58:48.376][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.376][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/ui/clipboard/osc52.lua , size = 2.146 KB
-[16:58:48.377][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.377][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/ui.lua , size = 7.683 KB
-[16:58:48.379][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.379][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/uri.lua , size = 3.614 KB
-[16:58:48.380][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.380][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/version.lua , size = 13.701 KB
-[16:58:48.384][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
-[16:58:48.385][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/jit/util.lua , size = 1.984 KB
-[16:58:48.386][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/jit/util.lua
-[16:58:48.386][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/table.lua , size = 4.445 KB
-[16:58:48.387][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/table.lua
-[16:58:48.387][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/neoconf.nvim/types/lsp.lua , size = 720.997 KB
-[16:58:48.518][warn] [#0:script/files.lua:556]: Parse LuaDoc of [file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/neoconf.nvim/types/lsp.lua] takes [0.102] sec, size [738.301] kb.
-[16:58:48.538][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/neoconf.nvim/types
-[16:58:48.538][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/table/clear.lua , size = 0.797 KB
-[16:58:48.538][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/table/clear.lua
-[16:58:48.538][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/neoconf.nvim/types/lua/lspconfig.lua , size = 19.997 KB
-[16:58:48.543][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/neoconf.nvim/types/lua
-[16:58:48.543][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/table/new.lua , size = 0.642 KB
-[16:58:48.543][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/table/new.lua
-[16:58:48.543][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/jit/profile.lua , size = 0.348 KB
-[16:58:48.543][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/jit/profile.lua
-[16:58:48.544][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/ffi.lua , size = 2.529 KB
-[16:58:48.545][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/ffi.lua
-[16:58:48.545][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/builtin.lua , size = 0.302 KB
-[16:58:48.545][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/builtin.lua
-[16:58:48.545][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/string.lua , size = 5.217 KB
-[16:58:48.547][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/string.lua
-[16:58:48.547][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/nvim-dap-python/lua/dap-python.lua , size = 16.936 KB
-[16:58:48.552][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/nvim-dap-python/lua
-[16:58:48.552][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/bit.lua , size = 1.243 KB
-[16:58:48.552][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/bit.lua
-[16:58:48.553][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/debug.lua , size = 7.310 KB
-[16:58:48.555][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/debug.lua
-[16:58:48.555][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/string/buffer.lua , size = 18.123 KB
-[16:58:48.557][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/string/buffer.lua
-[16:58:48.557][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/basic.lua , size = 15.443 KB
-[16:58:48.561][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/basic.lua
-[16:58:48.561][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/coroutine.lua , size = 2.541 KB
-[16:58:48.562][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/coroutine.lua
-[16:58:48.562][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.config/nvim/lua/config/autocmds.lua , size = 0.414 KB
-[16:58:48.562][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.config/nvim/lua
-[16:58:48.562][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.config/nvim/lua/config/keymaps.lua , size = 0.204 KB
-[16:58:48.562][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.config/nvim/lua
-[16:58:48.562][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.config/nvim/lua/config/options.lua , size = 0.207 KB
-[16:58:48.562][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.config/nvim/lua
-[16:58:48.562][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.config/nvim/lua/config/lazy.lua , size = 1.866 KB
-[16:58:48.563][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.config/nvim/lua
-[16:58:48.563][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.config/nvim/lua/plugins/example.lua , size = 5.171 KB
-[16:58:48.564][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.config/nvim/lua
-[16:58:48.564][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.config/nvim/lua/plugins/colorscheme.lua , size = 0.525 KB
-[16:58:48.564][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.config/nvim/lua
-[16:58:48.564][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///home/adam/.dotfiles/nvim/.config/nvim/lua/plugins/dap.lua
-[16:58:48.564][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.config/nvim/lua
-[16:58:48.564][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.config/nvim/lua/plugins/yazi.lua , size = 1.190 KB
-[16:58:48.565][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.config/nvim/lua
-[16:58:48.565][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/package.lua , size = 2.699 KB
-[16:58:48.565][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/package.lua
-[16:58:48.566][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/jit.lua , size = 0.884 KB
-[16:58:48.566][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/jit.lua
-[16:58:48.566][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/os.lua , size = 5.611 KB
-[16:58:48.568][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/os.lua
-[16:58:48.568][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/math.lua , size = 7.982 KB
-[16:58:48.570][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/math.lua
-[16:58:48.570][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.config/nvim/init.lua , size = 0.070 KB
-[16:58:48.570][info] [#0:script/workspace/loading.lua:172]: Loaded files takes [0.815] sec: file:///home/adam/.dotfiles/nvim/.config/nvim
-[16:58:48.570][info] [#0:script/workspace/loading.lua:181]: Compile files takes [0.000] sec: file:///home/adam/.dotfiles/nvim/.config/nvim
-[16:58:48.570][info] [#0:script/workspace/loading.lua:182]: Loaded finish:	file:///home/adam/.dotfiles/nvim/.config/nvim
-[16:58:48.570][info] [#0:script/workspace/workspace.lua:381]: Preload finish at:	file:///home/adam/.dotfiles/nvim/.config/nvim
-[16:58:48.590][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/adam/.dotfiles/nvim/.config/nvim], files count:[134]
-[16:58:48.590][warn] [#0:script/proto/proto.lua:189]: Method [textDocument/didOpen] takes [0.857]sec. {
+[15:10:04.379][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[15:10:04.379][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[15:10:04.379][info] [#0:script/provider/provider.lua:66]: nil
+[15:10:04.379][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[15:10:04.379][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[15:10:04.379][info] [#0:script/provider/provider.lua:66]: nil
+[15:10:04.379][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[15:10:04.379][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[15:10:04.379][info] [#0:script/provider/provider.lua:66]: nil
+[15:10:04.485][info] [#0:script/library.lua:212]: Init builtin library at:	file:///home/adam/.dotfiles/nvim/.config/nvim
+[15:10:04.490][info] [#0:script/library.lua:212]: Init builtin library at:	nil
+[15:10:04.594][info] [#0:script/workspace/workspace.lua:324]: Preload start:	file:///home/adam/.dotfiles/nvim/.config/nvim
+[15:10:04.603][info] [#0:script/workspace/workspace.lua:330]: Scan files at:	file:///home/adam/.dotfiles/nvim/.config/nvim
+[15:10:04.603][info] [#0:script/workspace/workspace.lua:324]: Preload start:	<fallback>
+[15:10:04.604][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/os.lua
+[15:10:04.604][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/table.lua
+[15:10:04.605][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[15:10:04.605][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[15:10:04.606][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[15:10:04.606][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[15:10:04.606][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/math.lua
+[15:10:04.607][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[15:10:04.607][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/math.lua
+[15:10:04.607][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/package.lua
+[15:10:04.607][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/os.lua
+[15:10:04.608][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/string.lua
+[15:10:04.608][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/io.lua
+[15:10:04.608][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/io.lua
+[15:10:04.608][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/package.lua
+[15:10:04.609][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.config/nvim/lua
+[15:10:04.610][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/coroutine.lua
+[15:10:04.611][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/basic.lua
+[15:10:04.611][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/debug.lua
+[15:10:04.611][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/bit.lua
+[15:10:04.611][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/string/buffer.lua
+[15:10:04.612][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:04.621][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:04.638][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/jit/profile.lua
+[15:10:04.638][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/table.lua
+[15:10:04.638][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/string.lua
+[15:10:04.638][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/ffi.lua
+[15:10:04.639][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/table/new.lua
+[15:10:04.639][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/jit.lua
+[15:10:04.639][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/table/clear.lua
+[15:10:04.639][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/neoconf.nvim/types/lua
+[15:10:04.639][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/builtin.lua
+[15:10:04.639][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/jit/util.lua
+[15:10:04.639][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///usr/share/nvim/runtime/lua
+[15:10:04.649][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/neoconf.nvim/types
+[15:10:04.749][info] [#0:script/workspace/workspace.lua:379]: Found 11 files at:	<fallback>
+[15:10:04.749][info] [#0:script/workspace/loading.lua:160]: Load files from disk:	<fallback>
+[15:10:04.749][info] [#0:script/workspace/workspace.lua:379]: Found 323 files at:	file:///home/adam/.dotfiles/nvim/.config/nvim
+[15:10:04.749][info] [#0:script/workspace/loading.lua:160]: Load files from disk:	file:///home/adam/.dotfiles/nvim/.config/nvim
+[15:10:04.752][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/io.lua , size = 6.364 KB
+[15:10:04.765][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/io.lua
+[15:10:04.765][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/string.lua , size = 5.234 KB
+[15:10:04.768][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/string.lua
+[15:10:04.768][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/_vim9script.lua , size = 15.423 KB
+[15:10:04.772][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:04.772][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/package.lua , size = 2.944 KB
+[15:10:04.774][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/package.lua
+[15:10:04.774][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/coxpcall.lua , size = 3.672 KB
+[15:10:04.775][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:04.775][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/utf8.lua , size = 2.386 KB
+[15:10:04.775][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[15:10:04.775][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/editorconfig.lua , size = 11.254 KB
+[15:10:04.778][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:04.778][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/math.lua , size = 8.542 KB
+[15:10:04.781][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/math.lua
+[15:10:04.781][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/man.lua , size = 23.258 KB
+[15:10:04.788][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:04.788][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/debug.lua , size = 7.637 KB
+[15:10:04.790][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[15:10:04.790][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/tohtml.lua , size = 43.272 KB
+[15:10:04.806][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:04.806][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/builtin.lua , size = 0.302 KB
+[15:10:04.806][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[15:10:04.806][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/F.lua , size = 1.076 KB
+[15:10:04.806][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:04.806][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/basic.lua , size = 15.841 KB
+[15:10:04.810][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[15:10:04.810][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_buf.lua , size = 0.764 KB
+[15:10:04.810][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:04.810][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/coroutine.lua , size = 2.590 KB
+[15:10:04.811][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[15:10:04.811][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_comment.lua , size = 8.967 KB
+[15:10:04.814][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:04.814][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/table.lua , size = 4.445 KB
+[15:10:04.815][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/table.lua
+[15:10:04.815][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_defaults.lua , size = 32.274 KB
+[15:10:04.827][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:04.827][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/os.lua , size = 5.611 KB
+[15:10:04.828][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.4%20en-us%20utf8/os.lua
+[15:10:04.828][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_editor.lua , size = 44.635 KB
+[15:10:04.839][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:04.839][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_ftplugin/lua.lua , size = 0.481 KB
+[15:10:04.840][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:04.840][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_init_packages.lua , size = 3.023 KB
+[15:10:04.841][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:04.841][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_inspector.lua , size = 7.775 KB
+[15:10:04.843][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:04.843][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/api.lua , size = 106.186 KB
+[15:10:04.864][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:04.864][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/neoconf.nvim/types/lsp.lua , size = 720.809 KB
+[15:10:04.998][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/neoconf.nvim/types
+[15:10:04.998][info] [#0:script/workspace/loading.lua:172]: Loaded files takes [0.257] sec: <fallback>
+[15:10:04.998][info] [#0:script/workspace/loading.lua:181]: Compile files takes [0.000] sec: <fallback>
+[15:10:04.998][info] [#0:script/workspace/loading.lua:182]: Loaded finish:	<fallback>
+[15:10:04.998][info] [#0:script/workspace/workspace.lua:381]: Preload finish at:	<fallback>
+[15:10:05.000][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/api_keysets.lua , size = 9.958 KB
+[15:10:05.003][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.003][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/api_keysets_extra.lua , size = 6.957 KB
+[15:10:05.005][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.005][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/base64.lua , size = 0.307 KB
+[15:10:05.005][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.005][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/builtin.lua , size = 10.381 KB
+[15:10:05.007][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.007][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/builtin_types.lua , size = 7.914 KB
+[15:10:05.008][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.008][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/diff.lua , size = 2.493 KB
+[15:10:05.009][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.009][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/json.lua , size = 1.537 KB
+[15:10:05.010][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.010][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/lpeg.lua , size = 15.348 KB
+[15:10:05.012][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.012][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/misc.lua , size = 0.291 KB
+[15:10:05.012][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.012][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/mpack.lua , size = 0.478 KB
+[15:10:05.012][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.012][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/re.lua , size = 2.217 KB
+[15:10:05.013][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.013][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/regex.lua , size = 1.580 KB
+[15:10:05.013][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.013][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/options.lua , size = 324.241 KB
+[15:10:05.058][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.058][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/spell.lua , size = 0.929 KB
+[15:10:05.059][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.059][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/vvars.lua , size = 26.214 KB
+[15:10:05.063][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.063][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/vimfn.lua , size = 408.409 KB
+[15:10:05.139][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.139][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta/vvars_extra.lua , size = 4.056 KB
+[15:10:05.140][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.140][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_meta.lua , size = 1.002 KB
+[15:10:05.141][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.141][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_options.lua , size = 25.508 KB
+[15:10:05.145][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.145][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_system.lua , size = 9.605 KB
+[15:10:05.148][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.149][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/_watch.lua , size = 9.718 KB
+[15:10:05.151][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.151][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/deprecated/health.lua , size = 1.260 KB
+[15:10:05.151][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.152][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/diagnostic.lua , size = 85.015 KB
+[15:10:05.170][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.170][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/filetype/detect.lua , size = 61.322 KB
+[15:10:05.185][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.185][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/filetype/options.lua , size = 2.559 KB
+[15:10:05.186][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.186][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/filetype.lua , size = 78.884 KB
+[15:10:05.202][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.202][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/fs.lua , size = 23.587 KB
+[15:10:05.207][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.207][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/func/_memoize.lua , size = 1.979 KB
+[15:10:05.208][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.208][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/func.lua , size = 1.950 KB
+[15:10:05.209][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.209][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/glob.lua , size = 3.312 KB
+[15:10:05.210][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.210][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/health/health.lua , size = 12.863 KB
+[15:10:05.213][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.213][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/hl.lua , size = 6.054 KB
+[15:10:05.215][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.215][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/inspect.lua , size = 8.899 KB
+[15:10:05.218][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.218][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/health.lua , size = 14.845 KB
+[15:10:05.221][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.221][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/iter.lua , size = 25.875 KB
+[15:10:05.228][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.228][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/keymap.lua , size = 3.683 KB
+[15:10:05.230][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.230][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/loader.lua , size = 14.564 KB
+[15:10:05.234][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.234][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/_changetracking.lua , size = 11.493 KB
+[15:10:05.237][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.237][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/_folding_range.lua , size = 11.103 KB
+[15:10:05.240][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.240][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/_meta/protocol.lua , size = 188.964 KB
+[15:10:05.300][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.301][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/_meta.lua , size = 0.585 KB
+[15:10:05.301][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.301][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/_snippet_grammar.lua , size = 6.228 KB
+[15:10:05.303][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.303][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/_tagfunc.lua , size = 3.236 KB
+[15:10:05.304][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.304][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/_transport.lua , size = 5.152 KB
+[15:10:05.306][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.306][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/_watchfiles.lua , size = 6.813 KB
+[15:10:05.308][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.308][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/buf.lua , size = 42.974 KB
+[15:10:05.317][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.317][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/client.lua , size = 40.553 KB
+[15:10:05.326][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.327][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/codelens.lua , size = 9.245 KB
+[15:10:05.329][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.329][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/completion.lua , size = 26.967 KB
+[15:10:05.335][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.335][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/diagnostic.lua , size = 11.717 KB
+[15:10:05.338][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.338][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/handlers.lua , size = 24.316 KB
+[15:10:05.344][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.344][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/health.lua , size = 7.367 KB
+[15:10:05.346][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.346][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/inlay_hint.lua , size = 11.941 KB
+[15:10:05.349][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.349][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/log.lua , size = 4.845 KB
+[15:10:05.350][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.350][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/protocol.lua , size = 44.826 KB
+[15:10:05.356][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.356][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/rpc.lua , size = 22.153 KB
+[15:10:05.362][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.362][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua , size = 27.239 KB
+[15:10:05.368][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.368][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/sync.lua , size = 15.728 KB
+[15:10:05.371][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.371][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp/util.lua , size = 74.570 KB
+[15:10:05.391][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.391][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/lsp.lua , size = 49.965 KB
+[15:10:05.403][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.403][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/provider/health.lua , size = 29.545 KB
+[15:10:05.410][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.410][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/provider/perl.lua , size = 1.998 KB
+[15:10:05.411][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.411][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/provider/python.lua , size = 4.210 KB
+[15:10:05.412][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.412][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/provider/ruby.lua , size = 1.563 KB
+[15:10:05.413][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.413][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/provider.lua , size = 0.197 KB
+[15:10:05.413][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.413][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/re.lua , size = 6.527 KB
+[15:10:05.416][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.416][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/secure.lua , size = 5.020 KB
+[15:10:05.418][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.418][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/shared.lua , size = 40.536 KB
+[15:10:05.430][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.430][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/snippet.lua , size = 19.590 KB
+[15:10:05.435][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.435][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/termcap.lua , size = 2.952 KB
+[15:10:05.436][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.436][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/text.lua , size = 4.512 KB
+[15:10:05.438][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.438][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter/_fold.lua , size = 14.803 KB
+[15:10:05.441][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.442][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter/_headings.lua , size = 3.755 KB
+[15:10:05.443][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.443][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter/_meta/misc.lua , size = 2.733 KB
+[15:10:05.444][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.444][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter/_meta/tsnode.lua , size = 5.839 KB
+[15:10:05.446][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.446][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter/_meta/tsquery.lua , size = 1.860 KB
+[15:10:05.446][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.446][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter/_meta/tstree.lua , size = 1.234 KB
+[15:10:05.447][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.447][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter/_query_linter.lua , size = 7.818 KB
+[15:10:05.450][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.450][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter/_range.lua , size = 3.923 KB
+[15:10:05.452][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.452][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter/dev.lua , size = 21.061 KB
+[15:10:05.458][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.458][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter/health.lua , size = 1.551 KB
+[15:10:05.458][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.458][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter/highlighter.lua , size = 14.282 KB
+[15:10:05.463][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.463][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter/language.lua , size = 5.382 KB
+[15:10:05.464][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.464][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter/languagetree.lua , size = 40.234 KB
+[15:10:05.476][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.476][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter/query.lua , size = 37.908 KB
+[15:10:05.486][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.486][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/treesitter.lua , size = 15.239 KB
+[15:10:05.490][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.490][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/ui/clipboard/osc52.lua , size = 2.146 KB
+[15:10:05.490][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.491][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/ui.lua , size = 7.683 KB
+[15:10:05.493][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.493][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/uri.lua , size = 3.614 KB
+[15:10:05.494][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.494][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///usr/share/nvim/runtime/lua/vim/version.lua , size = 13.701 KB
+[15:10:05.498][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///usr/share/nvim/runtime/lua
+[15:10:05.498][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/jit/util.lua , size = 1.984 KB
+[15:10:05.500][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/jit/util.lua
+[15:10:05.500][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/builtin.lua , size = 0.302 KB
+[15:10:05.500][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/builtin.lua
+[15:10:05.500][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/neoconf.nvim/types/lua/lspconfig.lua , size = 19.997 KB
+[15:10:05.504][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/neoconf.nvim/types/lua
+[15:10:05.505][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/table/clear.lua , size = 0.797 KB
+[15:10:05.505][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/table/clear.lua
+[15:10:05.505][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/jit.lua , size = 0.884 KB
+[15:10:05.505][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/jit.lua
+[15:10:05.506][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/table/new.lua , size = 0.642 KB
+[15:10:05.506][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/table/new.lua
+[15:10:05.506][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/ffi.lua , size = 2.529 KB
+[15:10:05.507][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/ffi.lua
+[15:10:05.507][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/string.lua , size = 5.217 KB
+[15:10:05.509][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/string.lua
+[15:10:05.509][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/table.lua , size = 4.445 KB
+[15:10:05.566][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/table.lua
+[15:10:05.566][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/jit/profile.lua , size = 0.348 KB
+[15:10:05.569][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/jit/profile.lua
+[15:10:05.569][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/config/autocmds.lua , size = 3.310 KB
+[15:10:05.570][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.570][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/config/init.lua , size = 11.460 KB
+[15:10:05.574][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.574][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/config/options.lua , size = 4.666 KB
+[15:10:05.575][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.575][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/config/keymaps.lua , size = 10.072 KB
+[15:10:05.579][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.579][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/health.lua , size = 1.044 KB
+[15:10:05.579][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.579][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/init.lua , size = 0.146 KB
+[15:10:05.580][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.580][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/coding.lua , size = 2.443 KB
+[15:10:05.580][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.581][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/colorscheme.lua , size = 1.508 KB
+[15:10:05.581][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.581][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/compat/nvim-0_9.lua , size = 1.075 KB
+[15:10:05.581][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.582][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/editor.lua , size = 8.687 KB
+[15:10:05.584][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.584][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/ai/codeium.lua , size = 1.620 KB
+[15:10:05.584][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.585][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/ai/copilot.lua , size = 3.232 KB
+[15:10:05.585][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.585][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/ai/supermaven.lua , size = 2.188 KB
+[15:10:05.586][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.586][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/ai/tabnine.lua , size = 1.509 KB
+[15:10:05.587][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.587][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/ai/copilot-chat.lua , size = 2.595 KB
+[15:10:05.588][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.588][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/coding/luasnip.lua , size = 1.938 KB
+[15:10:05.588][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.588][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/coding/mini-comment.lua , size = 0.407 KB
+[15:10:05.589][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.589][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/coding/mini-surround.lua , size = 1.421 KB
+[15:10:05.589][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.589][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/coding/neogen.lua , size = 0.730 KB
+[15:10:05.590][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.590][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/coding/nvim-cmp.lua , size = 3.700 KB
+[15:10:05.591][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.591][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/coding/yanky.lua , size = 2.044 KB
+[15:10:05.591][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.591][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/coding/blink.lua , size = 5.574 KB
+[15:10:05.593][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.593][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/coding/mini-snippets.lua , size = 5.702 KB
+[15:10:05.594][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.594][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/dap/core.lua , size = 5.029 KB
+[15:10:05.596][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.596][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/editor/aerial.lua , size = 3.464 KB
+[15:10:05.597][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.597][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/dap/nlua.lua , size = 1.084 KB
+[15:10:05.597][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.597][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/editor/dial.lua , size = 5.035 KB
+[15:10:05.599][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.599][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/editor/fzf.lua , size = 11.086 KB
+[15:10:05.601][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.601][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/editor/harpoon2.lua , size = 0.805 KB
+[15:10:05.602][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.602][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/editor/illuminate.lua , size = 1.599 KB
+[15:10:05.602][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.603][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/editor/inc-rename.lua , size = 0.802 KB
+[15:10:05.603][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.603][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/editor/leap.lua , size = 1.694 KB
+[15:10:05.603][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.604][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/editor/mini-files.lua , size = 3.419 KB
+[15:10:05.605][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.605][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/editor/mini-diff.lua , size = 1.623 KB
+[15:10:05.605][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.605][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/editor/mini-move.lua , size = 0.086 KB
+[15:10:05.605][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.605][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/editor/navic.lua , size = 0.934 KB
+[15:10:05.606][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.606][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/editor/neo-tree.lua , size = 3.901 KB
+[15:10:05.607][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.607][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/editor/outline.lua , size = 1.504 KB
+[15:10:05.607][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.607][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/editor/overseer.lua , size = 2.321 KB
+[15:10:05.608][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.608][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/editor/refactoring.lua , size = 3.576 KB
+[15:10:05.609][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.609][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/editor/snacks_explorer.lua , size = 0.565 KB
+[15:10:05.609][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.609][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/editor/telescope.lua , size = 11.491 KB
+[15:10:05.612][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.612][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/editor/snacks_picker.lua , size = 9.606 KB
+[15:10:05.614][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.614][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/formatting/biome.lua , size = 1.238 KB
+[15:10:05.615][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.615][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/formatting/black.lua , size = 0.516 KB
+[15:10:05.615][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.615][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/formatting/prettier.lua , size = 2.487 KB
+[15:10:05.616][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.616][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/angular.lua , size = 1.795 KB
+[15:10:05.617][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.617][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/ansible.lua , size = 0.599 KB
+[15:10:05.617][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.617][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/astro.lua , size = 1.289 KB
+[15:10:05.617][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.617][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/clangd.lua , size = 4.346 KB
+[15:10:05.618][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.618][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/clojure.lua , size = 2.857 KB
+[15:10:05.619][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.619][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/cmake.lua , size = 1.384 KB
+[15:10:05.619][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.619][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/docker.lua , size = 0.923 KB
+[15:10:05.620][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.620][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/elixir.lua , size = 2.505 KB
+[15:10:05.620][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.620][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/elm.lua , size = 0.510 KB
+[15:10:05.621][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.621][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/erlang.lua , size = 0.353 KB
+[15:10:05.621][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.621][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/git.lua , size = 0.560 KB
+[15:10:05.621][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.621][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/gleam.lua , size = 0.272 KB
+[15:10:05.621][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.621][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/go.lua , size = 4.065 KB
+[15:10:05.622][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.622][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/haskell.lua , size = 2.073 KB
+[15:10:05.623][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.623][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/helm.lua , size = 0.682 KB
+[15:10:05.623][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.623][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/java.lua , size = 10.909 KB
+[15:10:05.625][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.625][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/json.lua , size = 1.062 KB
+[15:10:05.625][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.625][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/kotlin.lua , size = 3.083 KB
+[15:10:05.626][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.626][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/lean.lua , size = 4.225 KB
+[15:10:05.627][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.627][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/markdown.lua , size = 3.022 KB
+[15:10:05.627][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.628][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/nix.lua , size = 0.406 KB
+[15:10:05.628][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.628][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/nushell.lua , size = 0.242 KB
+[15:10:05.628][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.628][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/ocaml.lua , size = 1.036 KB
+[15:10:05.628][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.628][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/omnisharp.lua , size = 2.948 KB
+[15:10:05.629][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.629][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/php.lua , size = 1.778 KB
+[15:10:05.629][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.630][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/prisma.lua , size = 0.314 KB
+[15:10:05.630][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.630][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/python.lua , size = 3.923 KB
+[15:10:05.631][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.631][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/r.lua , size = 2.612 KB
+[15:10:05.631][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.631][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/rego.lua , size = 0.275 KB
+[15:10:05.631][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.632][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/ruby.lua , size = 2.263 KB
+[15:10:05.632][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.632][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/rust.lua , size = 4.335 KB
+[15:10:05.633][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.633][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/scala.lua , size = 2.618 KB
+[15:10:05.634][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.634][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/sql.lua , size = 4.541 KB
+[15:10:05.635][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.635][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/svelte.lua , size = 1.559 KB
+[15:10:05.635][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.635][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/tailwind.lua , size = 2.113 KB
+[15:10:05.636][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.636][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/terraform.lua , size = 1.918 KB
+[15:10:05.636][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.636][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/tex.lua , size = 1.365 KB
+[15:10:05.637][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.637][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/thrift.lua , size = 0.271 KB
+[15:10:05.637][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.637][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/toml.lua , size = 0.207 KB
+[15:10:05.637][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.637][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/typescript.lua , size = 9.266 KB
+[15:10:05.639][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.639][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/vue.lua , size = 1.126 KB
+[15:10:05.639][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.639][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/yaml.lua , size = 1.952 KB
+[15:10:05.640][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.640][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/zig.lua , size = 0.538 KB
+[15:10:05.640][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.640][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/linting/eslint.lua , size = 1.833 KB
+[15:10:05.640][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.640][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lsp/neoconf.lua , size = 0.164 KB
+[15:10:05.641][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.641][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lsp/none-ls.lua , size = 1.348 KB
+[15:10:05.641][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.641][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/test/core.lua , size = 4.863 KB
+[15:10:05.642][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.642][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/ui/alpha.lua , size = 3.605 KB
+[15:10:05.643][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.643][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/ui/dashboard-nvim.lua , size = 3.694 KB
+[15:10:05.644][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.644][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/ui/edgy.lua , size = 5.884 KB
+[15:10:05.645][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.645][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/ui/indent-blankline.lua , size = 1.115 KB
+[15:10:05.646][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.646][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/ui/mini-animate.lua , size = 1.667 KB
+[15:10:05.646][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.646][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/ui/mini-indentscope.lua , size = 1.531 KB
+[15:10:05.647][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.647][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/ui/mini-starter.lua , size = 3.733 KB
+[15:10:05.647][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.647][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/ui/smear-cursor.lua , size = 0.342 KB
+[15:10:05.648][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.648][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/ui/treesitter-context.lua , size = 0.464 KB
+[15:10:05.648][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.648][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/util/dot.lua , size = 1.401 KB
+[15:10:05.648][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.648][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/util/gitui.lua , size = 0.785 KB
+[15:10:05.649][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.649][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/util/mini-hipatterns.lua , size = 8.486 KB
+[15:10:05.651][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.651][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/util/project.lua , size = 4.702 KB
+[15:10:05.652][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.652][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/util/rest.lua , size = 1.679 KB
+[15:10:05.652][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.652][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/util/startuptime.lua , size = 0.146 KB
+[15:10:05.653][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.653][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/util/chezmoi.lua , size = 3.687 KB
+[15:10:05.654][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.654][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/util/octo.lua , size = 2.658 KB
+[15:10:05.654][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.654][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/vscode.lua , size = 2.317 KB
+[15:10:05.655][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.655][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/formatting.lua , size = 3.232 KB
+[15:10:05.656][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.656][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/init.lua , size = 0.827 KB
+[15:10:05.656][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.656][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/linting.lua , size = 3.503 KB
+[15:10:05.657][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.657][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/lsp/init.lua , size = 10.020 KB
+[15:10:05.659][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.659][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/lsp/keymaps.lua , size = 4.052 KB
+[15:10:05.661][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.661][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/treesitter.lua , size = 4.375 KB
+[15:10:05.662][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.662][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/ui.lua , size = 12.364 KB
+[15:10:05.664][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.664][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/util.lua , size = 1.980 KB
+[15:10:05.665][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.665][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/xtras.lua , size = 1.869 KB
+[15:10:05.666][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.666][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/types.lua , size = 0.644 KB
+[15:10:05.666][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.666][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/util/cmp.lua , size = 5.561 KB
+[15:10:05.668][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.668][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/util/deprecated.lua , size = 1.525 KB
+[15:10:05.669][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.669][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/util/extras.lua , size = 9.910 KB
+[15:10:05.672][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.672][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/util/format.lua , size = 5.351 KB
+[15:10:05.674][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.674][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/util/init.lua , size = 7.317 KB
+[15:10:05.677][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.677][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/util/inject.lua , size = 0.864 KB
+[15:10:05.677][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.677][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/util/json.lua , size = 3.443 KB
+[15:10:05.678][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.678][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/util/lsp.lua , size = 6.902 KB
+[15:10:05.681][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.681][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/util/lualine.lua , size = 4.914 KB
+[15:10:05.682][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.683][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/util/mini.lua , size = 4.214 KB
+[15:10:05.684][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.684][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/util/news.lua , size = 2.121 KB
+[15:10:05.685][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.685][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/util/pick.lua , size = 1.844 KB
+[15:10:05.686][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.686][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/util/plugin.lua , size = 4.117 KB
+[15:10:05.687][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.687][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/util/root.lua , size = 5.578 KB
+[15:10:05.689][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.689][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/util/terminal.lua , size = 1.168 KB
+[15:10:05.689][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.689][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua/lazyvim/util/ui.lua , size = 0.745 KB
+[15:10:05.690][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/LazyVim/lua
+[15:10:05.690][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/async.lua , size = 4.302 KB
+[15:10:05.692][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.692][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/build.lua , size = 3.018 KB
+[15:10:05.693][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.693][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/community/_generated.lua , size = 60.994 KB
+[15:10:05.702][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.702][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/community/init.lua , size = 0.511 KB
+[15:10:05.702][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.702][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/community/specs.lua , size = 0.115 KB
+[15:10:05.702][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.703][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/cache.lua , size = 16.584 KB
+[15:10:05.708][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.708][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/config.lua , size = 12.013 KB
+[15:10:05.711][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.711][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/fragments.lua , size = 4.215 KB
+[15:10:05.712][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.712][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua , size = 1.638 KB
+[15:10:05.713][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.713][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/event.lua , size = 4.956 KB
+[15:10:05.715][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.715][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/ft.lua , size = 0.442 KB
+[15:10:05.716][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.716][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/init.lua , size = 3.170 KB
+[15:10:05.717][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.717][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/keys.lua , size = 5.302 KB
+[15:10:05.719][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.719][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua , size = 14.966 KB
+[15:10:05.724][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.724][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/meta.lua , size = 9.738 KB
+[15:10:05.728][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.728][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/plugin.lua , size = 12.370 KB
+[15:10:05.732][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.732][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/util.lua , size = 12.348 KB
+[15:10:05.737][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.737][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/docs.lua , size = 4.729 KB
+[15:10:05.739][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.739][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/example.lua , size = 2.644 KB
+[15:10:05.739][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.740][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/health.lua , size = 5.792 KB
+[15:10:05.742][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.742][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/help.lua , size = 2.216 KB
+[15:10:05.743][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.743][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/init.lua , size = 3.749 KB
+[15:10:05.744][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.744][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/manage/checker.lua , size = 2.479 KB
+[15:10:05.745][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.745][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/manage/git.lua , size = 6.279 KB
+[15:10:05.748][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.748][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/manage/init.lua , size = 5.940 KB
+[15:10:05.750][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.750][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/manage/lock.lua , size = 1.668 KB
+[15:10:05.751][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.751][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/manage/process.lua , size = 5.447 KB
+[15:10:05.753][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.753][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/manage/reloader.lua , size = 2.817 KB
+[15:10:05.754][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.756][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/manage/runner.lua , size = 4.847 KB
+[15:10:05.758][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.758][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/manage/semver.lua , size = 4.455 KB
+[15:10:05.760][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.760][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/manage/task/fs.lua , size = 1.002 KB
+[15:10:05.761][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.761][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/manage/task/git.lua , size = 10.135 KB
+[15:10:05.764][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.764][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/manage/task/init.lua , size = 5.805 KB
+[15:10:05.767][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.767][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/manage/task/plugin.lua , size = 2.765 KB
+[15:10:05.768][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.768][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/minit.lua , size = 4.986 KB
+[15:10:05.770][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.770][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/pkg/init.lua , size = 3.028 KB
+[15:10:05.771][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.771][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/pkg/lazy.lua , size = 0.720 KB
+[15:10:05.772][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.772][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/pkg/packspec.lua , size = 1.137 KB
+[15:10:05.772][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.772][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/pkg/rockspec.lua , size = 8.005 KB
+[15:10:05.775][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.775][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/state.lua , size = 0.859 KB
+[15:10:05.776][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.776][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/stats.lua , size = 2.153 KB
+[15:10:05.776][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.777][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/status.lua , size = 0.353 KB
+[15:10:05.777][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.777][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/terminal.lua , size = 2.394 KB
+[15:10:05.778][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.778][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/types.lua , size = 3.755 KB
+[15:10:05.779][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.779][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/util.lua , size = 6.888 KB
+[15:10:05.782][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.782][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/view/colors.lua , size = 1.820 KB
+[15:10:05.783][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.783][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/view/commands.lua , size = 3.899 KB
+[15:10:05.784][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.784][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/view/config.lua , size = 3.507 KB
+[15:10:05.785][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.785][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/view/diff.lua , size = 1.585 KB
+[15:10:05.786][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.786][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/view/float.lua , size = 9.536 KB
+[15:10:05.790][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.790][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/view/init.lua , size = 9.394 KB
+[15:10:05.794][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.794][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/view/render.lua , size = 23.064 KB
+[15:10:05.802][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.802][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/view/sections.lua , size = 2.430 KB
+[15:10:05.803][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.803][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua/lazy/view/text.lua , size = 3.813 KB
+[15:10:05.805][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/lazy/lazy.nvim/lua
+[15:10:05.805][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/string/buffer.lua , size = 18.123 KB
+[15:10:05.807][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/string/buffer.lua
+[15:10:05.807][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/bit.lua , size = 1.243 KB
+[15:10:05.808][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/bit.lua
+[15:10:05.808][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/debug.lua , size = 7.310 KB
+[15:10:05.810][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/debug.lua
+[15:10:05.810][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/basic.lua , size = 15.443 KB
+[15:10:05.814][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/basic.lua
+[15:10:05.814][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/coroutine.lua , size = 2.541 KB
+[15:10:05.815][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/coroutine.lua
+[15:10:05.815][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.config/nvim/lua/config/autocmds.lua , size = 0.414 KB
+[15:10:05.815][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.config/nvim/lua
+[15:10:05.815][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.config/nvim/lua/config/keymaps.lua , size = 0.204 KB
+[15:10:05.815][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.config/nvim/lua
+[15:10:05.815][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.config/nvim/lua/config/lazy.lua , size = 1.812 KB
+[15:10:05.816][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.config/nvim/lua
+[15:10:05.816][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.config/nvim/lua/config/options.lua , size = 0.207 KB
+[15:10:05.816][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.config/nvim/lua
+[15:10:05.816][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.config/nvim/lua/plugins/example.lua , size = 5.171 KB
+[15:10:05.817][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.config/nvim/lua
+[15:10:05.817][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.config/nvim/lua/plugins/yazi.lua , size = 1.190 KB
+[15:10:05.818][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.config/nvim/lua
+[15:10:05.818][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///home/adam/.dotfiles/nvim/.config/nvim/lua/plugins/colorscheme.lua
+[15:10:05.818][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.config/nvim/lua
+[15:10:05.818][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/package.lua , size = 2.699 KB
+[15:10:05.818][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/package.lua
+[15:10:05.819][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/io.lua , size = 6.364 KB
+[15:10:05.820][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/io.lua
+[15:10:05.820][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/os.lua , size = 5.611 KB
+[15:10:05.822][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/os.lua
+[15:10:05.822][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/math.lua , size = 7.982 KB
+[15:10:05.824][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/adam/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/LuaJIT%20en-us%20utf8/math.lua
+[15:10:05.824][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/adam/.dotfiles/nvim/.config/nvim/init.lua , size = 0.070 KB
+[15:10:05.825][info] [#0:script/workspace/loading.lua:172]: Loaded files takes [1.073] sec: file:///home/adam/.dotfiles/nvim/.config/nvim
+[15:10:05.825][info] [#0:script/workspace/loading.lua:181]: Compile files takes [0.000] sec: file:///home/adam/.dotfiles/nvim/.config/nvim
+[15:10:05.825][info] [#0:script/workspace/loading.lua:182]: Loaded finish:	file:///home/adam/.dotfiles/nvim/.config/nvim
+[15:10:05.825][info] [#0:script/workspace/workspace.lua:381]: Preload finish at:	file:///home/adam/.dotfiles/nvim/.config/nvim
+[15:10:05.856][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/adam/.dotfiles/nvim/.config/nvim], files count:[323]
+[15:10:05.856][warn] [#0:script/proto/proto.lua:189]: Method [textDocument/didOpen] takes [1.157]sec. {
   jsonrpc = "2.0",
   method = "textDocument/didOpen",
   params = {
     textDocument = {
       languageId = "lua",
       text = '"***"',
-      uri = "file:///home/adam/.dotfiles/nvim/.config/nvim/lua/plugins/dap.lua",
+      uri = "file:///home/adam/.dotfiles/nvim/.config/nvim/lua/plugins/colorscheme.lua",
       version = 0
     }
   }
 }
-[16:58:48.590][warn] [#0:script/proto/proto.lua:189]: Method [textDocument/documentHighlight] takes [0.592]sec. {
-  id = 16,
+[15:10:05.856][warn] [#0:script/proto/proto.lua:189]: Method [textDocument/inlayHint] takes [1.142]sec. {
+  id = 7,
   jsonrpc = "2.0",
-  method = "textDocument/documentHighlight",
+  method = "textDocument/inlayHint",
   params = {
-    position = {
-      character = 0,
-      line = 1
+    range = {
+      end = {
+        character = 0,
+        line = 35
+      },
+      start = {
+        character = 0,
+        line = 0
+      }
     },
     textDocument = {
-      uri = "file:///home/adam/.dotfiles/nvim/.config/nvim/lua/plugins/dap.lua"
+      uri = "file:///home/adam/.dotfiles/nvim/.config/nvim/lua/plugins/colorscheme.lua"
     }
   }
 }
-[16:58:48.594][warn] [#0:script/proto/proto.lua:189]: Method [textDocument/semanticTokens/full] takes [0.840]sec. {
-  id = 14,
-  jsonrpc = "2.0",
-  method = "textDocument/semanticTokens/full",
-  params = {
-    textDocument = {
-      uri = "file:///home/adam/.dotfiles/nvim/.config/nvim/lua/plugins/dap.lua"
-    }
-  }
-}
-[16:58:48.604][warn] [#0:script/proto/proto.lua:189]: Method [textDocument/inlayHint] takes [0.847]sec. {
+[15:10:05.856][warn] [#0:script/proto/proto.lua:189]: Method [textDocument/inlayHint] takes [1.142]sec. {
   id = 9,
   jsonrpc = "2.0",
   method = "textDocument/inlayHint",
@@ -734,7 +1108,7 @@
     range = {
       end = {
         character = 0,
-        line = 76
+        line = 35
       },
       start = {
         character = 0,
@@ -742,11 +1116,11 @@
       }
     },
     textDocument = {
-      uri = "file:///home/adam/.dotfiles/nvim/.config/nvim/lua/plugins/dap.lua"
+      uri = "file:///home/adam/.dotfiles/nvim/.config/nvim/lua/plugins/colorscheme.lua"
     }
   }
 }
-[16:58:48.604][warn] [#0:script/proto/proto.lua:189]: Method [textDocument/inlayHint] takes [0.847]sec. {
+[15:10:05.856][warn] [#0:script/proto/proto.lua:189]: Method [textDocument/inlayHint] takes [1.142]sec. {
   id = 11,
   jsonrpc = "2.0",
   method = "textDocument/inlayHint",
@@ -754,7 +1128,7 @@
     range = {
       end = {
         character = 0,
-        line = 76
+        line = 35
       },
       start = {
         character = 0,
@@ -762,11 +1136,11 @@
       }
     },
     textDocument = {
-      uri = "file:///home/adam/.dotfiles/nvim/.config/nvim/lua/plugins/dap.lua"
+      uri = "file:///home/adam/.dotfiles/nvim/.config/nvim/lua/plugins/colorscheme.lua"
     }
   }
 }
-[16:58:48.604][warn] [#0:script/proto/proto.lua:189]: Method [textDocument/inlayHint] takes [0.843]sec. {
+[15:10:05.856][warn] [#0:script/proto/proto.lua:189]: Method [textDocument/inlayHint] takes [1.142]sec. {
   id = 13,
   jsonrpc = "2.0",
   method = "textDocument/inlayHint",
@@ -774,7 +1148,7 @@
     range = {
       end = {
         character = 0,
-        line = 76
+        line = 35
       },
       start = {
         character = 0,
@@ -782,11 +1156,11 @@
       }
     },
     textDocument = {
-      uri = "file:///home/adam/.dotfiles/nvim/.config/nvim/lua/plugins/dap.lua"
+      uri = "file:///home/adam/.dotfiles/nvim/.config/nvim/lua/plugins/colorscheme.lua"
     }
   }
 }
-[16:58:48.604][warn] [#0:script/proto/proto.lua:189]: Method [textDocument/inlayHint] takes [0.842]sec. {
+[15:10:05.856][warn] [#0:script/proto/proto.lua:189]: Method [textDocument/inlayHint] takes [1.142]sec. {
   id = 15,
   jsonrpc = "2.0",
   method = "textDocument/inlayHint",
@@ -794,7 +1168,7 @@
     range = {
       end = {
         character = 0,
-        line = 76
+        line = 35
       },
       start = {
         character = 0,
@@ -802,39 +1176,65 @@
       }
     },
     textDocument = {
-      uri = "file:///home/adam/.dotfiles/nvim/.config/nvim/lua/plugins/dap.lua"
+      uri = "file:///home/adam/.dotfiles/nvim/.config/nvim/lua/plugins/colorscheme.lua"
     }
   }
 }
-[16:58:48.610][warn] [#0:script/proto/proto.lua:189]: Method [textDocument/documentSymbol] takes [0.863]sec. {
-  id = 2,
+[15:10:05.856][warn] [#0:script/proto/proto.lua:189]: Method [textDocument/inlayHint] takes [1.142]sec. {
+  id = 17,
+  jsonrpc = "2.0",
+  method = "textDocument/inlayHint",
+  params = {
+    range = {
+      end = {
+        character = 0,
+        line = 35
+      },
+      start = {
+        character = 0,
+        line = 0
+      }
+    },
+    textDocument = {
+      uri = "file:///home/adam/.dotfiles/nvim/.config/nvim/lua/plugins/colorscheme.lua"
+    }
+  }
+}
+[15:10:05.856][warn] [#0:script/proto/proto.lua:189]: Method [textDocument/documentHighlight] takes [0.848]sec. {
+  id = 18,
+  jsonrpc = "2.0",
+  method = "textDocument/documentHighlight",
+  params = {
+    position = {
+      character = 0,
+      line = 22
+    },
+    textDocument = {
+      uri = "file:///home/adam/.dotfiles/nvim/.config/nvim/lua/plugins/colorscheme.lua"
+    }
+  }
+}
+[15:10:05.857][warn] [#0:script/proto/proto.lua:189]: Method [textDocument/semanticTokens/full] takes [1.143]sec. {
+  id = 16,
+  jsonrpc = "2.0",
+  method = "textDocument/semanticTokens/full",
+  params = {
+    textDocument = {
+      uri = "file:///home/adam/.dotfiles/nvim/.config/nvim/lua/plugins/colorscheme.lua"
+    }
+  }
+}
+[15:10:05.858][warn] [#0:script/proto/proto.lua:189]: Method [textDocument/documentSymbol] takes [1.158]sec. {
+  id = 5,
   jsonrpc = "2.0",
   method = "textDocument/documentSymbol",
   params = {
     textDocument = {
-      uri = "file:///home/adam/.dotfiles/nvim/.config/nvim/lua/plugins/dap.lua"
+      uri = "file:///home/adam/.dotfiles/nvim/.config/nvim/lua/plugins/colorscheme.lua"
     }
   }
 }
-[16:58:48.610][warn] [#0:script/proto/proto.lua:189]: Method [textDocument/documentSymbol] takes [0.863]sec. {
-  id = 6,
-  jsonrpc = "2.0",
-  method = "textDocument/documentSymbol",
-  params = {
-    textDocument = {
-      uri = "file:///home/adam/.dotfiles/nvim/.config/nvim/lua/plugins/dap.lua"
-    }
-  }
-}
-[16:58:48.611][warn] [#0:script/proto/proto.lua:189]: Method [textDocument/documentSymbol] takes [0.850]sec. {
-  id = 7,
-  jsonrpc = "2.0",
-  method = "textDocument/documentSymbol",
-  params = {
-    textDocument = {
-      uri = "file:///home/adam/.dotfiles/nvim/.config/nvim/lua/plugins/dap.lua"
-    }
-  }
-}
-[16:58:48.642][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/adam/.dotfiles/nvim/.config/nvim] finished, takes [0.016] sec.
-[17:03:13.868][warn] [#0:script/pub/report.lua:24]: Load proto error:	Disconnected!
+[15:10:05.892][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/adam/.dotfiles/nvim/.config/nvim] finished, takes [0.012] sec.
+[15:10:18.632][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/adam/.dotfiles/nvim/.config/nvim/lua/plugins/colorscheme.lua
+[15:10:34.956][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/adam/.dotfiles/nvim/.config/nvim/lua/plugins/colorscheme.lua
+[15:10:48.086][warn] [#0:script/pub/report.lua:24]: Load proto error:	Disconnected!

@@ -1,22 +1,3 @@
-:open what is the class of a dunst window
-:open what is the class of a zenity window
-:open get the class of a winidow liunux cmd
-/tab
-:open terminus arch linux tty fonty on boot up
-:open setfont tty not on reboot
-:open arch linux consolefont not setting font on reboot
-:open rerun vconsole-setup to preseve font arch linux
-:open os python parent dir
-:open -t os python library document
-:open -t codedark vim 
-:open jellybeans vim
-:open -t alsamixer not cahnging volume on mpv
-:open -t add user to a group
-:open http://www.lazyvim.org/installation
-:open supremaven vim
-:open suim same time lazy vim
-:open -t install R arch linux
-:open leader key ;azy vim
 :open what is <c-s> in vim is that control s
 :open enter tok in codeium vim
 :open codeium syas tok ius wrong
@@ -98,3 +79,22 @@
 :open linux fish-fm 
 :open https://github.com/sainnhe/tmux-fzf
 :home
+:open arortell
+:open https://github.com/arortell
+:open what is a reverse shell
+:open configuring kitty
+:open -t error executing vim.,schedule lazy vim
+:open kitty picom
+:open -t select and copy text in kitty
+:open select and copy text in kitty
+:open transpaerntcy kitty
+:open tabnine is not executable layvim
+:open -t lazyvim constant codeium errors
+:open codueim nvim will accept tok
+:select and copy text with keyboard kitty
+:open select and copy tecxt wityh keyboiard kitty
+:open -t kitty kittens
+:open kitty terminal kittens
+:open -t select text in pager kitty
+:open kitty scrollback buffer
+:open -t paste into kitty with keyboard

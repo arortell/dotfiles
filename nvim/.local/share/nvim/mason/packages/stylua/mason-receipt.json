@@ -1,1 +1,1 @@
-{"primary_source":{"type":"registry+v1","id":"pkg:github/johnnymorganz/stylua@v2.0.2"},"links":{"bin":{"stylua":"stylua"},"share":{},"opt":{}},"metrics":{"start_time":1745267941456,"completion_time":1745267952963},"schema_version":"1.1","secondary_sources":[],"name":"stylua"}
+{"links":{"opt":{},"bin":{"stylua":"stylua"},"share":{}},"name":"stylua","metrics":{"completion_time":1745784174096,"start_time":1745784163063},"primary_source":{"type":"registry+v1","id":"pkg:github/johnnymorganz/stylua@v2.1.0"},"schema_version":"1.1","secondary_sources":[]}

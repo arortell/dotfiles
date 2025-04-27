@@ -1,1 +1,0 @@
-{"metrics":{"completion_time":1745272702377,"start_time":1745272689388},"links":{"share":{},"opt":{},"bin":{"elm-language-server":"node_modules/.bin/elm-language-server"}},"secondary_sources":[],"schema_version":"1.1","primary_source":{"id":"pkg:npm/%40elm-tooling/elm-language-server@2.8.0","type":"registry+v1"},"name":"elm-language-server"}

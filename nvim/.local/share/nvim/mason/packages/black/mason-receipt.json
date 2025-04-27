@@ -1,1 +1,1 @@
-{"metrics":{"completion_time":1745272561943,"start_time":1745272545942},"name":"black","secondary_sources":[],"schema_version":"1.1","links":{"share":{},"bin":{"black":"venv/bin/black"},"opt":{}},"primary_source":{"type":"registry+v1","id":"pkg:pypi/black@25.1.0"}}
+{"links":{"opt":{},"bin":{"black":"venv/bin/black"},"share":{}},"name":"black","metrics":{"completion_time":1745784177020,"start_time":1745784163066},"primary_source":{"type":"registry+v1","id":"pkg:pypi/black@25.1.0"},"schema_version":"1.1","secondary_sources":[]}
