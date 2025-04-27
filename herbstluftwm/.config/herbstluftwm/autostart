@@ -17,9 +17,9 @@ hc() {
 hc emit_hook reload
 
 # Start background apps ONLY if not alreadly running
-if hc silent new_attr bool my_not_first_autostart; then
-	twmnd &
-fi
+#f hc silent new_attr bool my_not_first_autostart; then
+
+#fi
 
 pkill conky
 pkill lemonbar
@@ -47,7 +47,6 @@ hc keybind $Mod+l spawn i3lock-fancy -t "Whats My Password?" -f 'Terminus-(TTF)'
 # <====================Menus ==================
 hc keybind $Mod+space spawn adams_menu
 hc keybind $Mod-s spawn rofi-surfraw
-hc keybind $Mod-Ctrl-Return spawn dmenu_qutebrowser
 hc keybind $Mod-m spawn rofi-man
 hc keybind $Mod-w spawn windows-rofi
 hc keybind $Mod-b spawn bwmenu --auto-lock -1

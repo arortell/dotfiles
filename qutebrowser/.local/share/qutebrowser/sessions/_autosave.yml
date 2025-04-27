@@ -1,200 +1,28 @@
 windows:
 - geometry: !!binary |
-    AdnQywADAAAAAAABAAAAFAAAA74AAAQ2AAAAAgAAABUAAAO9AAAENQAAAAAAAAAAB4AAAAACAAAA
-    FQAAA70AAAQ1
+    AdnQywADAAAAAAPAAAAAFAAAB34AAAQ2AAADwQAAABUAAAd9AAAENQAAAAAAAAAAB4AAAAPBAAAA
+    FQAAB30AAAQ1
   tabs:
-  - history:
-    - last_visited: '2025-04-26T08:40:15'
-      pinned: false
-      title: 'mikavilpas/yazi.nvim: A Neovim Plugin for the yazi terminal file manager'
-      url: https://github.com/mikavilpas/yazi.nvim
-    - last_visited: '2025-04-26T09:15:45'
-      pinned: false
-      title: starship prompt exampkles - Google Search
-      url: https://www.google.com/search?q=starship%20prompt%20exampkles
-    - active: true
-      last_visited: '2025-04-26T09:15:51'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 6127
-      title: Presets | Starship
-      url: https://starship.rs/presets/
-      zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2025-04-26T09:16:32'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 40
-      title: Bracketed Segments Preset | Starship
-      url: https://starship.rs/presets/bracketed-segments
-      zoom: 1.0
-  - history:
-    - last_visited: '2025-04-26T09:16:51'
-      pinned: false
-      title: No Runtime Versions Preset | Starship
-      url: https://starship.rs/presets/no-runtimes
-    - last_visited: '2025-04-26T09:41:59'
-      pinned: false
-      title: converting a poyqt5 project to pyqt6 - Google Search
-      url: https://www.google.com/search?q=converting%20a%20poyqt5%20project%20to%20pyqt6
-    - last_visited: '2025-04-26T09:43:37'
-      pinned: false
-      title: what is a toc file - Google Search
-      url: https://www.google.com/search?q=what%20is%20a%20toc%20file
-    - last_visited: '2025-04-26T09:43:59'
-      pinned: false
-      title: what is a .toc file - Google Search
-      url: https://www.google.com/search?q=what%20is%20a%20.toc%20file
-    - last_visited: '2025-04-26T09:44:39'
-      pinned: false
-      title: does wingide us toc files - Google Search
-      url: https://www.google.com/search?q=does%20wingide%20us%20toc%20files
-    - last_visited: '2025-04-26T09:46:51'
-      pinned: false
-      title: convert pycharm progect to nvim - Google Search
-      url: https://www.google.com/search?q=convert%20pycharm%20progect%20to%20nvim
-    - last_visited: '2025-04-26T09:46:57'
-      pinned: false
-      title: 'Switching from Pycharm to Neovim | Issue with project setup. : r/neovim'
-      url: https://www.reddit.com/r/neovim/comments/1hekqj2/switching_from_pycharm_to_neovim_issue_with/
-    - active: true
-      last_visited: '2025-04-26T09:48:19'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 1520
-      title: run pyqt6 project nvim - Google Search
-      url: https://www.google.com/search?q=run%20pyqt6%20project%20nvim
-      zoom: 1.0
-  - history:
-    - last_visited: '2025-04-26T09:50:41'
-      pinned: false
-      title: 'coffebar/neovim-project: Neovim project plugin simplifies project management
-        by maintaining project history and providing quick access to projects via
-        Telescope or fzf-lua..'
-      url: https://neovimcraft.com/plugin/coffebar/neovim-project/
-    - active: true
-      last_visited: '2025-04-26T09:51:55'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 40
-      title: convert pycharm project to neovim project - Google Search
-      url: https://www.google.com/search?q=convert%20pycharm%20project%20to%20neovim%20project
-      zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2025-04-26T09:52:03'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 2040
-      title: 'how to get pycharm features in nvim : r/neovim'
-      url: https://www.reddit.com/r/neovim/comments/1fug9p2/how_to_get_pycharm_features_in_nvim/
-      zoom: 1.0
   - active: true
     history:
-    - last_visited: '2025-04-26T09:56:58'
+    - last_visited: '2025-04-26T21:54:23'
       pinned: false
-      title: Neovim python dap neotest lazy config
-      url: https://gist.github.com/caspersg/96cfd0276f5713a59ce16370fbe99902
-    - last_visited: '2025-04-26T10:09:32'
+      title: Google
+      url: https://www.google.com/
+    - last_visited: '2025-04-26T21:54:34'
       pinned: false
-      title: python debugger lazy vim - Google Search
-      url: https://www.google.com/search?q=python%20debugger%20lazy%20vim
+      title: 'sainnhe/tmux-fzf: Use fzf to manage your tmux work environment!'
+      url: https://github.com/sainnhe/tmux-fzf
+    - last_visited: '2025-04-26T21:54:50'
+      pinned: false
+      title: tmux-fzf/main.tmux at master · sainnhe/tmux-fzf
+      url: https://github.com/sainnhe/tmux-fzf/blob/master/main.tmux
     - active: true
-      last_visited: '2025-04-26T10:09:47'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 120
-      title: "LazyVim Python Debug Setup \U0001F618 : r/neovim"
-      url: https://www.reddit.com/r/neovim/comments/1fgq6rq/lazyvim_python_debug_setup/
-      zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2025-04-26T10:09:50'
-      original-url: https://lazyvim.github.io/extras/lang/python
+      last_visited: '2025-04-26T21:55:23'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Python | LazyVim
-      url: http://www.lazyvim.org/extras/lang/python
-      zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2025-04-26T09:17:34'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Jetpack Preset | Starship
-      url: https://starship.rs/presets/jetpack
-      zoom: 1.0
-  - history:
-    - last_visited: '2025-04-26T08:40:14'
-      pinned: false
-      title: yazi.nvim/documentation/plugin-management.md at main · mikavilpas/yazi.nvim
-      url: https://github.com/mikavilpas/yazi.nvim/blob/main/documentation/plugin-management.md
-    - last_visited: '2025-04-26T08:40:30'
-      pinned: false
-      title: starship prompt symbol for unix termin not displayed - Google Search
-      url: https://www.google.com/search?q=starship%20prompt%20symbol%20for%20unix%20termin%20not%20displayed
-    - active: true
-      last_visited: '2025-04-26T08:40:43'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 3434
-      title: starship prompt missing some symbols / System Administration / Arch Linux
-        Forums
-      url: https://bbs.archlinux.org/viewtopic.php?id=294667
-      zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2025-04-26T08:40:14'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 5800
-      title: Configuration | Starship
-      url: https://starship.rs/config/
-      zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2025-04-26T09:08:25'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 7846
-      title: Configuration | Starship
-      url: https://starship.rs/config/#default-prompt-format
-      zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2025-04-26T09:08:28'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 7151
-      title: Advanced Configuration | Starship
-      url: https://starship.rs/advanced-config/#enable-right-prompt
-      zoom: 1.0
-  - history:
-    - last_visited: '2025-04-26T09:02:44'
-      pinned: false
-      title: what nerd fonts show all symbols in starship prompt - Google Search
-      url: https://www.google.com/search?q=what%20nerd%20fonts%20show%20all%20symbols%20in%20starship%20prompt
-    - active: true
-      last_visited: '2025-04-26T09:02:51'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 1732
-      title: Nerd Font Symbols Preset | Starship
-      url: https://starship.rs/presets/nerd-font
+      title: Google
+      url: https://www.google.com/
       zoom: 1.0

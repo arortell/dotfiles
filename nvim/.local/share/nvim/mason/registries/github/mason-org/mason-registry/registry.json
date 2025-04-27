@@ -1775,7 +1775,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/CircleCI-Public/circleci-yaml-language-server@0.13.0",
+      "id": "pkg:github/CircleCI-Public/circleci-yaml-language-server@0.14.0",
       "asset": [
         {
           "target": "darwin_arm64",
@@ -2549,7 +2549,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:npm/%40github/copilot-language-server@1.308.0"
+      "id": "pkg:npm/%40github/copilot-language-server@1.310.0"
     },
     "bin": {
       "copilot-language-server": "npm:copilot-language-server"
@@ -2851,7 +2851,7 @@
       "Formatter"
     ],
     "source": {
-      "id": "pkg:nuget/csharpier@1.0.0"
+      "id": "pkg:nuget/csharpier@1.0.1"
     },
     "bin": {
       "csharpier": "nuget:csharpier"
@@ -12986,7 +12986,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:gem/sorbet@0.5.12039",
+      "id": "pkg:gem/sorbet@0.5.12041",
       "supported_platforms": [
         "unix"
       ]
@@ -15557,7 +15557,7 @@
       "Formatter"
     ],
     "source": {
-      "id": "pkg:github/chipsalliance/verible@v0.0-3969-g6a70680a",
+      "id": "pkg:github/chipsalliance/verible@v0.0-3973-g904f446f",
       "asset": [
         {
           "target": "linux_x64",

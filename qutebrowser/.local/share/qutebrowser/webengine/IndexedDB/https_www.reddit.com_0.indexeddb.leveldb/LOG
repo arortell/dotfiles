@@ -1,3 +1,30 @@
 2025/04/26-09:52:04.026 18d6a5 Reusing MANIFEST /home/adam/.local/share/qutebrowser/webengine/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
 2025/04/26-09:52:04.027 18d6a5 Recovering log #27
 2025/04/26-09:52:04.027 18d6a5 Reusing old log /home/adam/.local/share/qutebrowser/webengine/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000027.log 
+2025/04/26-10:54:30.709 18d6a3 Level-0 table #32: started
+2025/04/26-10:54:30.719 18d6a3 Level-0 table #32: 1127961 bytes OK
+2025/04/26-10:54:30.720 18d6a3 Delete type=0 #27
+2025/04/26-11:04:02.968 18d6a5 Compacting 1@1 + 1@2 files
+2025/04/26-11:04:02.971 18d6a5 Generated table #33@1: 121 keys, 10260 bytes
+2025/04/26-11:04:02.971 18d6a5 Compacted 1@1 + 1@2 files => 10260 bytes
+2025/04/26-11:04:02.972 18d6a5 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/26-11:04:02.972 18d6a5 Delete type=2 #29
+2025/04/26-11:04:02.972 18d6a5 Delete type=2 #32
+2025/04/26-11:45:13.995 18d6a5 Level-0 table #35: started
+2025/04/26-11:45:14.012 18d6a5 Level-0 table #35: 1133263 bytes OK
+2025/04/26-11:45:14.014 18d6a5 Delete type=0 #31
+2025/04/26-11:53:15.827 18d6a3 Compacting 1@1 + 1@2 files
+2025/04/26-11:53:15.838 18d6a3 Generated table #36@1: 121 keys, 10256 bytes
+2025/04/26-11:53:15.838 18d6a3 Compacted 1@1 + 1@2 files => 10256 bytes
+2025/04/26-11:53:15.839 18d6a3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/26-11:53:15.840 18d6a3 Delete type=2 #33
+2025/04/26-11:53:15.840 18d6a3 Delete type=2 #35
+2025/04/26-12:35:55.892 18d6a5 Level-0 table #38: started
+2025/04/26-12:35:55.899 18d6a5 Level-0 table #38: 1133323 bytes OK
+2025/04/26-12:35:55.900 18d6a5 Delete type=0 #34
+2025/04/26-12:43:27.598 18d6a5 Compacting 1@1 + 1@2 files
+2025/04/26-12:43:27.608 18d6a5 Generated table #39@1: 121 keys, 10255 bytes
+2025/04/26-12:43:27.608 18d6a5 Compacted 1@1 + 1@2 files => 10255 bytes
+2025/04/26-12:43:27.609 18d6a5 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/26-12:43:27.610 18d6a5 Delete type=2 #36
+2025/04/26-12:43:27.610 18d6a5 Delete type=2 #38

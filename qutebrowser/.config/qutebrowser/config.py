@@ -1296,47 +1296,47 @@ c.fonts.default_size = "12pt"
 
 ## Font used for the downloadbar.
 ## Type: Font
-# c.fonts.downloads = 'default_size default_family'
+c.fonts.downloads = "default_size default_family"
 
 ## Font used for the hints.
 ## Type: Font
-# c.fonts.hints = 'bold default_size default_family'
+c.fonts.hints = "bold default_size default_family"
 
 ## Font used in the keyhint widget.
 ## Type: Font
-# c.fonts.keyhint = 'default_size default_family'
+c.fonts.keyhint = "default_size default_family"
 
 ## Font used for error messages.
 ## Type: Font
-# c.fonts.messages.error = 'default_size default_family'
+c.fonts.messages.error = "default_size default_family"
 
 ## Font used for info messages.
 ## Type: Font
-# c.fonts.messages.info = 'default_size default_family'
+c.fonts.messages.info = "default_size default_family"
 
 ## Font used for warning messages.
 ## Type: Font
-# c.fonts.messages.warning = 'default_size default_family'
+c.fonts.messages.warning = "default_size default_family"
 
 ## Font used for prompts.
 ## Type: Font
-# c.fonts.prompts = 'default_size sans-serif'
+c.fonts.prompts = "default_size default_family"
 
 ## Font used in the statusbar.
 ## Type: Font
-# c.fonts.statusbar = 'default_size default_family'
+c.fonts.statusbar = "default_size default_family"
 
 ## Font used for selected tabs.
 ## Type: Font
-# c.fonts.tabs.selected = 'default_size default_family'
+c.fonts.tabs.selected = "default_size default_family"
 
 ## Font used for unselected tabs.
 ## Type: Font
-# c.fonts.tabs.unselected = 'default_size default_family'
+c.fonts.tabs.unselected = "default_size default_family"
 
 ## Font used for tooltips. If set to null, the Qt default is used.
 ## Type: Font
-# c.fonts.tooltip = None
+c.fonts.tooltip = "default_size default_family"
 
 ## Font family for cursive fonts.
 ## Type: FontFamily
@@ -1364,11 +1364,11 @@ c.fonts.default_size = "12pt"
 
 ## Default font size (in pixels) for regular text.
 ## Type: Int
-# c.fonts.web.size.default = 16
+c.fonts.web.size.default = 16
 
 ## Default font size (in pixels) for fixed-pitch text.
 ## Type: Int
-# c.fonts.web.size.default_fixed = 13
+c.fonts.web.size.default_fixed = 13
 
 ## Hard minimum font size (in pixels).
 ## Type: Int
@@ -1399,11 +1399,11 @@ c.fonts.default_size = "12pt"
 
 ## Characters used for hint strings.
 ## Type: UniqueCharString
-# c.hints.chars = 'asdfghjkl'
+c.hints.chars = "abcdefghijklmnopqrstuvwxyz1234567890"
 
 ## Dictionary file to be used by the word hints.
 ## Type: File
-# c.hints.dictionary = '/usr/share/dict/words'
+c.hints.dictionary = "/usr/share/static/wordlist.txt"
 
 ## Which implementation to use to find elements to hint.
 ## Type: String

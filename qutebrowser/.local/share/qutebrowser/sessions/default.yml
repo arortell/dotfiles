@@ -1,47 +1,37 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAABAAAAFAAAB34AAAQ2AAAAAgAAABUAAAd9AAAENQAAAAAAAAAAB4AAAAACAAAA
+    AdnQywADAAAAAAPAAAAAFAAAB34AAAQ2AAADwQAAABUAAAd9AAAENQAAAAAAAAAAB4AAAAPBAAAA
     FQAAB30AAAQ1
   tabs:
   - history:
     - active: true
-      last_visited: '2025-04-25T19:43:32'
+      last_visited: '2025-04-26T21:45:21'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: User Input - Bash Scripting Tutorial
-      url: https://ryanstutorials.net/bash-scripting-tutorial/bash-input.php
+      title: Bash Scripting Tutorial - Ryans Tutorials
+      url: https://ryanstutorials.net/bash-scripting-tutorial/
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2025-04-25T19:43:34'
+      last_visited: '2025-04-26T21:45:21'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'mikavilpas/yazi.nvim: A Neovim Plugin for the yazi terminal file manager'
-      url: https://github.com/mikavilpas/yazi.nvim
+      title: usinmg yazi as filepicker qutebrowser - Google Search
+      url: https://www.google.com/search?q=usinmg%20yazi%20as%20filepicker%20qutebrowser
       zoom: 1.0
   - active: true
     history:
     - active: true
-      last_visited: '2025-04-25T19:43:34'
+      last_visited: '2025-04-26T21:45:21'
       pinned: false
       scroll-pos:
         x: 0
-        y: 840
-      title: yazi.nvim/documentation/plugin-management.md at main · mikavilpas/yazi.nvim
-      url: https://github.com/mikavilpas/yazi.nvim/blob/main/documentation/plugin-management.md
-      zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2025-04-25T19:43:33'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 3000
-      title: Configuration | Starship
-      url: https://starship.rs/config/
+        y: 0
+      title: dots/src/dot_config/qutebrowser/config.py at main · dogeystamp/dots
+      url: https://github.com/dogeystamp/dots/blob/main/src/dot_config/qutebrowser/config.py
       zoom: 1.0

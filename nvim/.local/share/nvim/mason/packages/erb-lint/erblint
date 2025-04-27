@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+export GEM_PATH="/home/adam/.local/share/nvim/mason/packages/erb-lint:$GEM_PATH"
+exec /home/adam/.local/share/nvim/mason/packages/erb-lint/bin/erblint "$@"

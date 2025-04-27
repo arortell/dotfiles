@@ -1,20 +1,3 @@
-:open white 64 x64 foot icon
-:open cyberghostvpngiu arch linux
-:open -t switching from vim-pluig to lazy  nvim
-:open lazy nvim
-:open installing lazyn nvim
-:open https://github.com/LazyVim/LazyVim
-:home
-:open http://www.lazyvim.org/news
-:open -t enabling plugins lazy nvim
-:open -t yazi nvim
-:open -t python ide with lazy nvim
-:open https://github.com/login/device
-:open copiolt AI linux nvim
-:open lazy nvim using tab for comnpletion instead of enter
-:open codium nvim plgin
-:open zenity examples
-:open zeninty dialog is being printer to terminal instead of zenity window herbstlyftwm
 :open what is the class of a dunst window
 :open what is the class of a zenity window
 :open get the class of a winidow liunux cmd
@@ -98,3 +81,20 @@
 :open run pyqt6 project nvim
 :open convert pycharm project to neovim project
 :open python debugger lazy vim
+:open https://github.com/arortell/dotfiles/security/secret-scanning/unblock-secret/2wGvjo7ShAzWWdzIknVtq6GPbzP
+
+:open https://github.com/arortell/dotfiles/security/dependabot/1
+
+:download-clear
+:open qt has no attribute alighncenter 
+:download-clear
+:home
+:open bitwarden-rofi
+:open lib-bwmenu missing
+:open https://ryanstutorials.net/bash-scripting-tutorial/
+:open -t https://www.google.com/search?q=bitwarden-rofi
+:open usinmg yazi as filepicker qutebrowser
+:open -t fish-fm
+:open linux fish-fm 
+:open https://github.com/sainnhe/tmux-fzf
+:home
