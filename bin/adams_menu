@@ -8,58 +8,63 @@
 #  DEPENDENCIES:
 #       CREATED:
 #      REVISION:
-#          TODO: Add Some Icons, FIND AND OPEN A FILE IN EMACS
+#          TODO: Add Some Icons, FIND AND OPEN A FILE IN  VIM
 #         FIXME:
 # ===============================================================================
-set -o nounset                                  # Treat unset variables as an error
+set -o nounset # Treat unset variables as an error
 
 # Menu Options
-main="* Main Menu"
-man="* Man Pages"
-sr="* Surfraw"
-bit="* BitWarden"
-screen="* ScreenShot"
-usb="* Udiskie"
-sys="* Systemd Services"
-lock="* Lock"
-logout="* Logout"
-shutdown="* Shutdown"
+main="1 Main Menu"
+bit="2 BitWarden"
+sr="3 Surfraw"
+screen="4 ScreenShot"
+usb="5 Udiskie"
+man="6 Man Pages"
+calc="7 Calculator"
+sys="8 System"
+lock="9 Lock"
+logout="10 Logout"
+shutdown="11 Shutdown"
 
 # string to pass to rofi
-options="$main\n$man\n$sr\n$bit\n$screen\n$usb\n$sys\n$lock\n$logout\n$shutdown"
+options="$main\n$bit\n$sr\n$screen\n$usb\n$man\n$calc\n$sys\n$lock\n$logout\n$shutdown"
+#options="$main\n$man\n$sr\n$bit\n$screen\n$usb\n$sys\n$lock\n$logout\n$shutdown"
 selected="$(echo -e "$options" | rofi "Control+space" -dmenu -i -p "CPU: $(usedcpu -i) RAM: $(usedram -i)")"
 
 [ -z "$selected" ] && exit 0
 
 case "$selected" in
-    "$main")
-        run-rofi
-        ;;
-    "$man")
-        rofi-man
-        ;;
-    "$sr")
-        rofi-surfraw
-        ;;
-    "$bit")
-        bwmenu
-        ;;
-    "$screen")
-        scrotmenu
-        ;;
-    "$usb")
-        udiskie-dmenu
-        ;;
-    "$sys")
-        dctl
-        ;;
-    "$lock")
-        i3lock-fancy -t "Fuck You" -f "Terminus-(TTF)"
-        ;;
-    "$logout")
-        herbstclient quit
-        ;;
-    "$shutdown")
-        systemctl poweroff
-        ;;
+"$main")
+  run-rofi
+  ;;
+"$man")
+  rofi-man
+  ;;
+"$sr")
+  rofi-surfraw
+  ;;
+"$bit")
+  bwmenu
+  ;;
+"$screen")
+  scrotmenu
+  ;;
+"$calc")
+  =
+  ;;
+"$usb")
+  udiskie-dmenu
+  ;;
+"$sys")
+  dctl
+  ;;
+"$lock")
+  i3lock-fancy -t "Fuck You" -f "Terminus-(TTF)"
+  ;;
+"$logout")
+  herbstclient quit
+  ;;
+"$shutdown")
+  systemctl poweroff
+  ;;
 esac

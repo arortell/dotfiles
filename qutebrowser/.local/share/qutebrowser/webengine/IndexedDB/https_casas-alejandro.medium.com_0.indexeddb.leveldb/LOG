@@ -1,0 +1,6 @@
+2025/04/27-18:17:17.942 1548d Creating DB /home/adam/.local/share/qutebrowser/webengine/IndexedDB/https_casas-alejandro.medium.com_0.indexeddb.leveldb since it was missing.
+2025/04/27-18:17:17.943 1548d Reusing MANIFEST /home/adam/.local/share/qutebrowser/webengine/IndexedDB/https_casas-alejandro.medium.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/27-18:19:27.458 15491 Level-0 table #5: started
+2025/04/27-18:19:27.459 15491 Level-0 table #5: 7949 bytes OK
+2025/04/27-18:19:27.460 15491 Delete type=0 #3
+2025/04/27-18:19:27.460 15491 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -14,8 +14,8 @@ configuration {
     show-icons: true;
     window-format: "{t}";
     sidebar-mode: false;
-    font: "Terminus (TTF) 12";
-    terminal: "alacritty";
+    font: "TerminessNerdFont 12";
+    terminal: "kitty";
     run-shell-command: "{terminal} -e {cmd}";
     ssh-command: "{terminal} -e {ssh-client} {host}";
 }

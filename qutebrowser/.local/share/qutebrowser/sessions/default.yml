@@ -1,61 +1,106 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAABAAAAFAAAB34AAAQ2AAAAAgAAABUAAAd9AAAENQAAAAAAAAAAB4AAAAACAAAA
-    FQAAB30AAAQ1
+    AdnQywADAAAAAAAAAAAAEgAAA78AAAQ3AAAAAQAAABMAAAO+AAAENgAAAAAAAAAAB4AAAAABAAAA
+    EwAAA74AAAQ2
   tabs:
-  - active: true
-    history:
-    - last_visited: '2025-04-26T21:54:23'
-      pinned: false
-      title: Google
-      url: https://www.google.com/
-    - last_visited: '2025-04-26T21:54:34'
-      pinned: false
-      title: 'sainnhe/tmux-fzf: Use fzf to manage your tmux work environment!'
-      url: https://github.com/sainnhe/tmux-fzf
-    - last_visited: '2025-04-26T21:54:50'
-      pinned: false
-      title: tmux-fzf/main.tmux at master · sainnhe/tmux-fzf
-      url: https://github.com/sainnhe/tmux-fzf/blob/master/main.tmux
-    - last_visited: '2025-04-26T21:55:23'
-      pinned: false
-      title: Google
-      url: https://www.google.com/
-    - last_visited: '2025-04-26T21:58:02'
-      pinned: false
-      title: arortell - Google Search
-      url: https://www.google.com/search?q=arortell
-    - last_visited: '2025-04-26T22:03:53'
-      pinned: false
-      title: arortell (Adam ortell)
-      url: https://github.com/arortell
-    - last_visited: '2025-04-26T22:13:12'
-      pinned: false
-      title: Who You’re Following
-      url: https://github.com/arortell?tab=following
-    - last_visited: '2025-04-26T22:13:19'
-      pinned: false
-      title: The-Compiler (Florian Bruhin)
-      url: https://github.com/The-Compiler
-    - last_visited: '2025-04-26T22:14:35'
-      pinned: false
-      title: The-Compiler (The-Compiler) / Repositories
-      url: https://github.com/The-Compiler?tab=repositories
-    - last_visited: '2025-04-26T22:14:42'
-      pinned: false
-      title: 'The-Compiler/dotfiles: New config file repo'
-      url: https://github.com/The-Compiler/dotfiles
-    - last_visited: '2025-04-26T22:14:59'
-      pinned: false
-      title: dotfiles/herbstluftwm at master · The-Compiler/dotfiles
-      url: https://github.com/The-Compiler/dotfiles/tree/master/herbstluftwm
+  - history:
     - active: true
-      last_visited: '2025-04-26T22:15:03'
+      last_visited: '2025-05-05T11:21:34'
       pinned: false
       scroll-pos:
         x: 0
-        y: 2970
-      title: dotfiles/herbstluftwm/autostart at master · The-Compiler/dotfiles
-      url: https://github.com/The-Compiler/dotfiles/blob/master/herbstluftwm/autostart
+        y: 0
+      title: using fasd in zsh - Google Search
+      url: https://www.google.com/search?q=using%20fasd%20in%20zsh
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-05-05T11:21:33'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Excellent vi mode for kitty terminal : r/KittyTerminal'
+      url: https://www.reddit.com/r/KittyTerminal/comments/159mekd/excellent_vi_mode_for_kitty_terminal/
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-05-05T11:21:28'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Analyze disk usage in Linux like a pro with ncdu - oh, ok.
+      url: https://ohok.org/analyze-disk-usage-in-linux-like-a-pro-with-ncdu/
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-05-05T11:21:33'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'How to have seamless copy between the kitty terminal and applications
+        in Vim mode : r/KittyTerminal'
+      url: https://www.reddit.com/r/KittyTerminal/comments/1hz17sn/how_to_have_seamless_copy_between_the_kitty/
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-05-05T11:21:33'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 840
+      title: 'How to have seamless copy between the kitty terminal and applications
+        in Vim mode : r/KittyTerminal'
+      url: https://www.reddit.com/r/KittyTerminal/comments/1hz17sn/how_to_have_seamless_copy_between_the_kitty/
+      zoom: 1.0
+  - active: true
+    history:
+    - last_visited: '2025-05-05T12:13:07'
+      pinned: false
+      title: "mikesmithgh/kitty-scrollback.nvim: \U0001F63D Open your Kitty scrollback
+        buffer with Neovim. Ameowzing!"
+      url: https://github.com/mikesmithgh/kitty-scrollback.nvim?tab=readme-ov-file
+    - active: true
+      last_visited: '2025-05-05T12:13:18'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 4413
+      title: "mikesmithgh/kitty-scrollback.nvim: \U0001F63D Open your Kitty scrollback
+        buffer with Neovim. Ameowzing!"
+      url: https://github.com/mikesmithgh/kitty-scrollback.nvim?tab=readme-ov-file#-installation
+      zoom: 1.0
+    - last_visited: '2025-05-05T12:13:12'
+      pinned: false
+      title: "folke/lazy.nvim: \U0001F4A4 A modern plugin manager for Neovim"
+      url: https://github.com/folke/lazy.nvim
+  - history:
+    - active: true
+      last_visited: '2025-05-05T11:29:42'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1560
+      title: 'kutsan/zsh-system-clipboard: System clipboard key bindings for Zsh Line
+        Editor with vi mode. It is similar to what `set clipboard=unnamed` does for
+        vim.'
+      url: https://github.com/kutsan/zsh-system-clipboard
+      zoom: 1.0
+  - history:
+    - last_visited: '2025-05-05T11:21:34'
+      pinned: false
+      title: 'Vi mode for kitty · kovidgoyal/kitty · Discussion #6485'
+      url: https://github.com/kovidgoyal/kitty/discussions/6485
+    - active: true
+      last_visited: '2025-05-05T11:25:53'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 5800
+      title: "mikesmithgh/kitty-scrollback.nvim: \U0001F63D Open your Kitty scrollback
+        buffer with Neovim. Ameowzing!"
+      url: https://github.com/mikesmithgh/kitty-scrollback.nvim
       zoom: 1.0

@@ -174,7 +174,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(starship archlinux colorize colored-man-pages copyfile cp common-aliases dirhistory fzf fasd github git-prompt history pip taskwarrior rsync sudo systemd systemadmin z zsh-interactive-cd zsh-autosuggestions zsh-syntax-highlighting zsh-history-substring-search herbstclient yazi)
+plugins=(starship archlinux colorize colored-man-pages copyfile cp common-aliases dirhistory fzf fasd github git-prompt history taskwarrior rsync sudo systemd systemadmin zsh-interactive-cd zsh-autosuggestions zsh-syntax-highlighting zsh-history-substring-search herbstclient keep k yazi)
 source $ZSH/oh-my-zsh.sh
 
 autoload -Uz compinit compinit promptinit run-help
@@ -289,9 +289,8 @@ alias ll='eza -l'
 alias la='eza -a'
 alias lla='eza -al'
 alias lt='eza -T'
-alias lh='eza --header'
+alias lh='eza --long --header'
 alias lth='eza -l -T --header'
-alias c='clear'
 alias vi='nvim'
 alias vim='nvim'
 alias mv='amv -g'
@@ -316,10 +315,23 @@ alias clr='clear'
 alias lock='sudo passwd -l $1'
 alias unlock='sudo passwd -u $1'
 alias spell='aspell -a $@'
-alias how='function hdi(){ howdoi $* -c -n 5; }; hdi'
+alias how='how2'
 alias quit='systemctl poweroff'
 alias gc='git clone $@'
-alias ct='bat'
+alias cat='bat'
+alias ct="cat"
+
+# fasd aliases
+alias f='fasd -e'
+alias ff='fasd -e -f'
+alias fr='fasd -e -r'
+alias fs='fasd -e -s'
+alias fd='fasd -e -d'
+alias fc='fasd -e -c'
+alias fw='fasd -e -w'
+alias fz='fasd -e -z'
+alias fss='fasd -e -s -S'
+alias c='fasd_cd -d'
 
 # fzf surfraw
 fzf-surfraw() { 
@@ -336,16 +348,13 @@ function def() {
 SDCV_PAGER='less --quit-if-one-screen -RX'
 
 
-::() {
-    echo -e "\e[1;33m:: \e[0;32m$*\e[0m" >&2
-    "$@"
-}
+#export FZF_DEFAULT_OPTS='--height 40% --layout reverse --border'
 
 # add some color to grep
 export GREP_COLORS='sl=49;39:cx=49;39:mt=49;31;1:fn=49;35:ln=49;32;1:bn=49;32;3;4:se=49;36';
 
 # Show tasks on terminal open
-task
+task next
 
 setopt AUTO_PUSHD PUSHD_SILENT PUSHD_TO_HOME
 
@@ -362,6 +371,50 @@ zstyle ':completion:*' rehash true
 autoload -Uz up-line-or-beginning-search down-line-or-beginning-search
 zle -N up-line-or-beginning-search
 zle -N down-line-or-beginning-search
+export HISTFILE="$HOME/.zsh_history"
+export HISTSIZE=10000
+export SAVEHIST=10000
+setopt HIST_SAVE_NO_DUPS
+
+# Enable completion on dotfiles
+_comp_options+=(globdots)
+
+# Enable vi mode
+bindkey -v
+export KEYTIMEOUT=1
+
+##################### Changes cursor shape depending on the mode
+cursor_mode() {
+    # See https://ttssh2.osdn.jp/manual/4/en/usage/tips/vim.html for cursor shapes
+    cursor_block='\e[2 q'
+    cursor_beam='\e[6 q'
+
+    function zle-keymap-select {
+        if [[ ${KEYMAP} == vicmd ]] ||
+            [[ $1 = 'block' ]]; then
+            echo -ne $cursor_block
+        elif [[ ${KEYMAP} == main ]] ||
+            [[ ${KEYMAP} == viins ]] ||
+            [[ ${KEYMAP} = '' ]] ||
+            [[ $1 = 'beam' ]]; then
+            echo -ne $cursor_beam
+        fi
+    }
+
+    zle-line-init() {
+        echo -ne $cursor_beam
+    }
+
+    zle -N zle-keymap-select
+    zle -N zle-line-init
+}
+
+cursor_mode
+##############################
+
+# Keybindings
+bindkey '^g' clear-screen
+
 
 [[ -n "$key[Up]"   ]] && bindkey -- "$key[Up]"   up-line-or-beginning-search
 [[ -n "$key[Down]" ]] && bindkey -- "$key[Down]" down-line-or-beginning-search
@@ -374,8 +427,7 @@ setopt COMPLETE_ALIASES
 zstyle -e ':completion:*:default' list-colors 'reply=("${PREFIX:+=(#bi)($PREFIX:t)(?)*==34=34}:${(s.:.)LS_COLORS}")';
 
 # Unlock BitWarden
-export BW_SESSION=ER/HzwSgs5zAHvnK/a/GhW8ckdR7M7dLmW/VEoXI+EDhHzO9EiJ2wQGF466yd6VvAHMcrD1sM8ENkKsCyDk52Q==
-export BW_SESSION=ER/HzwSgs5zAHvnK/a/GhW8ckdR7M7dLmW/VEoXI+EDhHzO9EiJ2wQGF466yd6VvAHMcrD1sM8ENkKsCyDk52Q==
+export BW_SESSION="NLlGm85LrZYHAR1I7Q1CR0HDfT9m7dX2Dv0uDNp10aBMbh4NiaIcClcRtDylWVSyKM/RVjL4QVTsJ8YMIWRSzw=="
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 #[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -387,7 +439,6 @@ eval "$(starship init zsh)"
 # enable fasd
 eval "$(fasd --init auto)"
 
-# syntax highlight source ######################### MUST BE LAST LINE IN FILE ###################
+########################## MUST BE CLOSE TO THE LAST LINE IN THE FILE ###################
 source ~/.oh-my-zsh/plugins/zsh-interactive-cd/zsh-interactive-cd.plugin.zsh
 source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-

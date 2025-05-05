@@ -1,3 +1,3 @@
-2025/04/27-15:12:43.376 15491 Reusing MANIFEST /home/adam/.local/share/qutebrowser/webengine/WebStorage/3/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2025/04/27-15:12:43.376 15491 Recovering log #54
-2025/04/27-15:12:43.377 15491 Reusing old log /home/adam/.local/share/qutebrowser/webengine/WebStorage/3/IndexedDB/indexeddb.leveldb/000054.log 
+2025/05/05-10:11:52.762 407be Reusing MANIFEST /home/adam/.local/share/qutebrowser/webengine/WebStorage/3/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/05/05-10:11:52.762 407be Recovering log #62
+2025/05/05-10:11:52.766 407be Reusing old log /home/adam/.local/share/qutebrowser/webengine/WebStorage/3/IndexedDB/indexeddb.leveldb/000062.log 
