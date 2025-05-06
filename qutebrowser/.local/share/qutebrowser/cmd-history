@@ -1,59 +1,3 @@
-:open -t lazyvim constant codeium errors
-:open codueim nvim will accept tok
-:select and copy text with keyboard kitty
-:open select and copy tecxt wityh keyboiard kitty
-:open -t kitty kittens
-:open kitty terminal kittens
-:open -t select text in pager kitty
-:open kitty scrollback buffer
-:open -t paste into kitty with keyboard
-:open kitty splits like tmux
-:open -t mason-lsp failed to loadgp
-:process 146087
-:bind  worrior
-:open task warrior
-:open whats the diffenece between done and delete with task warrior
-:tab-only
-:open -t task themes
-:open task warrior themes
-:open -t kitty hints
-:open stating a pyqt6 project in nvim
-:open qt6-tools arch 
-:how to build open projects in lazu vim
-:open how to build project in nvim lazy vim
-:open get error log lazyvim
-:open what is the project nvim pklugin
-:open keep picom from making lemobar trabnsparent
-:open -t get title of lemonar 
-:open get titkle or window class of lemonbar panel
-:open what is the window class or title of the lemonbar panel linux xorg
-:open n debugging l;azyuvim
-:open dap.corte nvim
-:open dap.core lazyvim plugin
-:open prevent picom from making panel transparent
-:open get back to start screen in lazyvim
-:open -t how do I kn0ow which dashboard imn using lazyvim
-:open how do i set a keybinding in lazyvim to go back to snacks dashboard
-:open set keybinmdings to go back to snacks.dashboard
-:open layvim go back to dashboard
-:open cyberghost vpn gui trray icon will not show up
-:open cyberghostvpn-gui tray icon will not show up linux 
-:open cyberghostvpn lkinux gui
-:open staylonetray will not display some icons
-:open best wifi network arch linux
-:open snixembed
-:open refactor lazyvim
-:open yazi themes
-:open yazi flavors
-:open -t yazi themes
-:open yazi flavors are not working
-:open bitwrden rofi 
-:open rclone bi-sync
-:open rclone tut push from ,local to remote
-:open rclone only copy files that changed 
-:open snixembed github
-:open -t bitwarden cli linux 
-:open -t would kitty keep themes from working in yazi
 :open kitty themes
 :open -t rust cargo
 :open setting up bisync in rclone
@@ -98,3 +42,59 @@
 :open kitty hints
 :open kitty vi copy mode
 :q
+:open zsh home button got remapped
+:open zsh home button changes prompt
+:open what is  vim keys in zsh
+:open zsh home and end key got mapped to vi mode somehow
+:open bind end key zsh
+:open keep aur package archlinux
+:open keep github
+:open keep bash commands
+:open keep 
+:open -t create a gist token
+:open how to use fasd
+:open navi linux 
+:open -t setting up navi as a shell widget
+:open https://github.com/denisidoro/navi
+:open -t how to createa shell widget with navi
+:open fzf zsh keyhbindings
+:open -t fzf intergration in qutebrowser
+:nop
+:open rofi fzf
+:open -t copy text from webpage in qutebrowser
+/git
+:open https://lottalinuxlinks.com/qutebrowser-is-pretty-dang-awesome/
+:open -t fzf history qutebrowser
+:spawn -u fzfhistory-userscript
+:spawn 
+:spawn -u fzfhistory-userscript
+:spa
+:spawn -u fzfhistory-userscript closed-tabs
+:open -t kitty close split
+/close_window
+:open -t make fzf windows float in herbstluftwm
+:open -t wynoonq earp imdb
+:open willa earp wonnyona earp actress
+/krill
+:open https://wikifeet.com/
+:open cut copy paste in yazi
+:open -t searxng
+:open reflector command for fastest mirrors arch linux
+:open -t should my arch m irrors be from the country im in
+:open make fzf prompt be on top instead of bottom of window
+:open make fzf float on tiliung window manager
+:spawn -u userscript fzf qute-plugin-fzfhistory
+:spawn -u userscript fzfhistory-userscript
+:spawn -u fzfhistory-userscript
+:open get window class name 
+:open get window class name linux cli
+:spawn -u fzfhistory-userscript
+:open where do set a fzf default lasyout 
+:open fzf has no color in terminal
+:open fzf colors trhemes
+:open crerate an alias function that requires and argument in bach
+:open can i use a function crreated in bashrc in an aliasa
+:open display on task descriptiuons task warrior
+:open task says there are a different number of columns and labels
+:open -t run a zsh command from zshrc
+:open lazygit add and commit

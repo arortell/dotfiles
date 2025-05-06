@@ -1,0 +1,6 @@
+2025/05/05-12:45:44.761 4c334 Creating DB /home/adam/.local/share/qutebrowser/webengine/IndexedDB/https_www.barbarianmeetscoding.com_0.indexeddb.leveldb since it was missing.
+2025/05/05-12:45:44.763 4c334 Reusing MANIFEST /home/adam/.local/share/qutebrowser/webengine/IndexedDB/https_www.barbarianmeetscoding.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/05-12:46:29.415 4c334 Level-0 table #5: started
+2025/05/05-12:46:29.417 4c334 Level-0 table #5: 4163 bytes OK
+2025/05/05-12:46:29.418 4c334 Delete type=0 #3
+2025/05/05-12:46:29.419 4c334 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,30 @@
+#!/bin/bash
+# Run qutebrowser/bin/qute-plugin-fzfbookmarks
+#
+# Add ~/.config/qutebrowser/bin to $PATH
+# in your .bashrc/.zshrc file or here:
+# export PATH="$HOME/.config/qutebrowser/bin:$PATH"
+
+# By default, run the 'history' mode
+[[ -z $1 ]] && mode="history" || mode="$1"
+
+plgdir="/tmp/qute-plugins"
+[[ ! -d $plgdir ]] && mkdir "$plgdir"
+
+selectfile="$plgdir/qute-plugin-fzfhistory-selection"
+[[ -s $selectfile ]] && echo -n "" >$selectfile
+
+term="kitty"
+windowname="qute-plugin-fzfbookmarks"
+font="TerminessNerdFont"
+options=('-o' 'background_opacity=0.9')
+
+# Run the pop-up window
+$term --name "$windowname" -o font_family="$font" "${options[@]}" -e qute-plugin-fzfhistory $mode $selectfile
+
+# Qutebrowser will open the urls passed to QUTE_FIFO
+if [[ -s $selectfile ]]; then
+  while read -r url; do
+    echo "open -tr $url" >>"$QUTE_FIFO"
+  done <$selectfile
+fi

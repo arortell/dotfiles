@@ -174,7 +174,9 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(starship archlinux colorize colored-man-pages copyfile cp common-aliases dirhistory fzf fasd github git-prompt history taskwarrior rsync sudo systemd systemadmin zsh-interactive-cd zsh-autosuggestions zsh-syntax-highlighting zsh-history-substring-search herbstclient keep k yazi)
+
+# can add k to plugins for anothe eza like list cmd
+plugins=(vi-mode starship archlinux colorize colored-man-pages copyfile cp common-aliases dirhistory fzf fasd github taskwarrior rsync sudo systemd systemadmin zsh-autosuggestions zsh-syntax-highlighting zsh-history-substring-search herbstclient keep yazi zsh-system-clipboard)
 source $ZSH/oh-my-zsh.sh
 
 autoload -Uz compinit compinit promptinit run-help
@@ -300,15 +302,6 @@ alias ncdu='ncdu --color dark'
 alias sa='sudoedit $1'
 alias reload='source ~/.zshrc'
 alias hc='herbstclient'
-
-# shortcuts for dotfile editing
-alias cfg-term='$EDITOR ~/.config/kitty/kitty.conf'
-alias cfg-tmux='$EDITOR ~/.config/tmux/tmux.conf.local'
-alias cfg-bar='$EDITOR ~/.config/barpyrus/config.py'
-alias cfg-qute='$EDITOR ~/.config/qutebrowser/config.py'
-alias cfg-herb='$EDITOR ~/.config/herbstluftwm/autostart'
-alias cfg-zsh='$EDITOR ~/.zshrc'
-
 alias free='free -h'
 alias vdir='vdir --color=auto'
 alias clr='clear'
@@ -320,6 +313,20 @@ alias quit='systemctl poweroff'
 alias gc='git clone $@'
 alias cat='bat'
 alias ct="cat"
+
+# tldr aliases
+alias tld='tldr'
+alias tl='tldr'
+
+
+# shortcuts for dotfile editing
+alias cfg-term='$EDITOR ~/.config/kitty/kitty.conf'
+alias cfg-tmux='$EDITOR ~/.config/tmux/tmux.conf.local'
+alias cfg-bar='$EDITOR ~/.config/barpyrus/config.py'
+alias cfg-qute='$EDITOR ~/.config/qutebrowser/config.py'
+alias cfg-herb='$EDITOR ~/.config/herbstluftwm/autostart'
+alias cfg-zsh='$EDITOR ~/.zshrc'
+
 
 # fasd aliases
 alias f='fasd -e'
@@ -333,6 +340,27 @@ alias fz='fasd -e -z'
 alias fss='fasd -e -s -S'
 alias c='fasd_cd -d'
 
+# fzf 
+fzf_ps='ps aux | fzf'
+
+# Open fzf in a different directory
+fzf_dir() {
+  if [[ $# -eq 0 ]]; then
+    echo "Usage: fzf_dir <directory>";
+  else
+    find "$1" -type f | fzf --multi
+  fi
+}
+
+# Edit a file found with fzf
+fzf_vi() {
+  if [[ $# -eq 0 ]]; then
+    echo "Usage: fzf_dir <directory>";
+  else
+    nvim $(fzf_dir "$1");
+  fi
+}
+
 # fzf surfraw
 fzf-surfraw() { 
     surfraw "$(cat ~/.config/surfraw/bookmarks | sed '/^$/d' | sort -n | fzf -e)" ;
@@ -345,10 +373,20 @@ function def() {
     less --quit-if-one-screen -RX
 }
 
+# Wrapper for Yazi to change directory
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		builtin cd -- "$cwd"
+	fi
+	rm -f -- "$tmp"
+}
+
 SDCV_PAGER='less --quit-if-one-screen -RX'
 
 
-#export FZF_DEFAULT_OPTS='--height 40% --layout reverse --border'
+export FZF_DEFAULT_OPTS='--layout reverse --color dark'
 
 # add some color to grep
 export GREP_COLORS='sl=49;39:cx=49;39:mt=49;31;1:fn=49;35:ln=49;32;1:bn=49;32;3;4:se=49;36';
@@ -383,7 +421,7 @@ _comp_options+=(globdots)
 bindkey -v
 export KEYTIMEOUT=1
 
-##################### Changes cursor shape depending on the mode
+# ---------- Changes cursor shape depending on the VI mode
 cursor_mode() {
     # See https://ttssh2.osdn.jp/manual/4/en/usage/tips/vim.html for cursor shapes
     cursor_block='\e[2 q'
@@ -410,11 +448,12 @@ cursor_mode() {
 }
 
 cursor_mode
-##############################
+# ---------------- End
 
 # Keybindings
-bindkey '^g' clear-screen
-
+bindkey '^z' clear-screen
+bindkey "^[[H" beginning-of-line
+bindkey "^[[F" end-of-line
 
 [[ -n "$key[Up]"   ]] && bindkey -- "$key[Up]"   up-line-or-beginning-search
 [[ -n "$key[Down]" ]] && bindkey -- "$key[Down]" down-line-or-beginning-search
@@ -434,7 +473,12 @@ export BW_SESSION="NLlGm85LrZYHAR1I7Q1CR0HDfT9m7dX2Dv0uDNp10aBMbh4NiaIcClcRtDylW
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+source <(navi widget zsh)
+
 eval "$(starship init zsh)"
+
+autoload -U compinit; compinit
+source ~/.oh-my-zsh/custom/plugins/fzf-tab/fzf-tab.plugin.zsh
 
 # enable fasd
 eval "$(fasd --init auto)"
@@ -442,3 +486,4 @@ eval "$(fasd --init auto)"
 ########################## MUST BE CLOSE TO THE LAST LINE IN THE FILE ###################
 source ~/.oh-my-zsh/plugins/zsh-interactive-cd/zsh-interactive-cd.plugin.zsh
 source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+

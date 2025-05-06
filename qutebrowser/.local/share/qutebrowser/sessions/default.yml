@@ -1,106 +1,126 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAAAAAAEgAAA78AAAQ3AAAAAQAAABMAAAO+AAAENgAAAAAAAAAAB4AAAAABAAAA
-    EwAAA74AAAQ2
+    AdnQywADAAAAAAADAAAAGAAAA70AAAQ0AAAABAAAABkAAAO8AAAEMwAAAAAAAAAAB4AAAAAEAAAA
+    GQAAA7wAAAQz
   tabs:
   - history:
+    - last_visited: '2025-05-05T22:45:06'
+      pinned: false
+      title: qutebrowser is pretty dang awesome | lottalinuxlinks (o_!_/o)
+      url: https://lottalinuxlinks.com/qutebrowser-is-pretty-dang-awesome/
     - active: true
-      last_visited: '2025-05-05T11:21:34'
+      last_visited: '2025-05-06T08:44:59'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: using fasd in zsh - Google Search
-      url: https://www.google.com/search?q=using%20fasd%20in%20zsh
+      title: reflector command for fastest mirrors arch linux - Google Search
+      url: https://www.google.com/search?q=reflector%20command%20for%20fastest%20mirrors%20arch%20linux
       zoom: 1.0
   - history:
+    - last_visited: '2025-05-06T09:08:13'
+      pinned: false
+      title: 'How to move search input line to the bottom of the window ? · Issue
+        #1033 · junegunn/fzf.vim'
+      url: https://github.com/junegunn/fzf.vim/issues/1033
+    - last_visited: '2025-05-06T09:45:00'
+      pinned: false
+      title: where do set a fzf default lasyout - Google Search
+      url: https://www.google.com/search?q=where%20do%20set%20a%20fzf%20default%20lasyout
+    - last_visited: '2025-05-06T09:52:08'
+      pinned: false
+      title: fzf has no color in terminal - Google Search
+      url: https://www.google.com/search?q=fzf%20has%20no%20color%20in%20terminal
+    - last_visited: '2025-05-06T09:52:14'
+      pinned: false
+      title: '-color is not producing colors in Terminal.app · Issue #3151 · junegunn/fzf'
+      url: https://github.com/junegunn/fzf/issues/3151
     - active: true
-      last_visited: '2025-05-05T11:21:33'
+      last_visited: '2025-05-06T09:53:45'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: 'Excellent vi mode for kitty terminal : r/KittyTerminal'
-      url: https://www.reddit.com/r/KittyTerminal/comments/159mekd/excellent_vi_mode_for_kitty_terminal/
+        y: 240
+      title: fzf colors trhemes - Google Search
+      url: https://www.google.com/search?q=fzf%20colors%20trhemes
       zoom: 1.0
   - history:
+    - last_visited: '2025-05-06T09:53:55'
+      pinned: false
+      title: fzf Custom Color Schemes - Web Color Picker
+      url: https://minsw.github.io/fzf-color-picker/
+    - last_visited: '2025-05-06T10:02:24'
+      pinned: false
+      title: crerate an alias function that requires and argument in bach - Google
+        Search
+      url: https://www.google.com/search?q=crerate%20an%20alias%20function%20that%20requires%20and%20argument%20in%20bach
+    - last_visited: '2025-05-06T10:03:30'
+      pinned: false
+      title: Make a Bash alias that takes a parameter? - Stack Overflow
+      url: https://stackoverflow.com/questions/7131670/make-a-bash-alias-that-takes-a-parameter
+    - last_visited: '2025-05-06T10:19:10'
+      pinned: false
+      title: can i use a function crreated in bashrc in an aliasa - Google Search
+      url: https://www.google.com/search?q=can%20i%20use%20a%20function%20crreated%20in%20bashrc%20in%20an%20aliasa
+    - last_visited: '2025-05-06T10:45:09'
+      pinned: false
+      title: display on task descriptiuons task warrior - Google Search
+      url: https://www.google.com/search?q=display%20on%20task%20descriptiuons%20task%20warrior
+    - last_visited: '2025-05-06T10:53:54'
+      pinned: false
+      title: task says there are a different number of columns and labels - Google
+        Search
+      url: https://www.google.com/search?q=task%20says%20there%20are%20a%20different%20number%20of%20columns%20and%20labels
     - active: true
-      last_visited: '2025-05-05T11:21:28'
+      last_visited: '2025-05-06T10:57:32'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: Analyze disk usage in Linux like a pro with ncdu - oh, ok.
-      url: https://ohok.org/analyze-disk-usage-in-linux-like-a-pro-with-ncdu/
+        y: 280
+      title: task warrior says there are a different number of columns and labels
+        - Google Search
+      url: https://www.google.com/search?q=task+warrior+says+there+are+a+different+number+of+columns+and+labels&sca_esv=6f4cffb8fcc6cffb&sxsrf=AHTn8zqvBX7UHYIz_FJs1lSbyMGVXRVDvA%3A1746546833764&ei=kTAaaLWtLqj8ptQPss7h4Ao&ved=0ahUKEwj1ufD8mY-NAxUovokEHTJnGKwQ4dUDCBI&uact=5&oq=task+warrior+says+there+are+a+different+number+of+columns+and+labels&gs_lp=Egxnd3Mtd2l6LXNlcnAiRHRhc2sgd2FycmlvciBzYXlzIHRoZXJlIGFyZSBhIGRpZmZlcmVudCBudW1iZXIgb2YgY29sdW1ucyBhbmQgbGFiZWxzSABQAFgAcAB4AJABAJgBAKABAKoBALgBA8gBAPgBAZgCAKACAJgDAJIHAKAHALIHALgHAMIHAMgHAA&sclient=gws-wiz-serp
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2025-05-05T11:21:33'
+      last_visited: '2025-05-06T10:57:49'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: 'How to have seamless copy between the kitty terminal and applications
-        in Vim mode : r/KittyTerminal'
-      url: https://www.reddit.com/r/KittyTerminal/comments/1hz17sn/how_to_have_seamless_copy_between_the_kitty/
+        y: 788
+      title: 'How to make `next` report show fewer tasks by 3-4? : r/taskwarrior'
+      url: https://www.reddit.com/r/taskwarrior/comments/163yyq1/how_to_make_next_report_show_fewer_tasks_by_34/
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2025-05-05T11:21:33'
+      last_visited: '2025-05-06T10:57:53'
       pinned: false
       scroll-pos:
         x: 0
-        y: 840
-      title: 'How to have seamless copy between the kitty terminal and applications
-        in Vim mode : r/KittyTerminal'
-      url: https://www.reddit.com/r/KittyTerminal/comments/1hz17sn/how_to_have_seamless_copy_between_the_kitty/
+        y: 40
+      title: Taskwarrior - Reports - Taskwarrior
+      url: https://taskwarrior.org/docs/report/
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-05-06T09:08:16'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 4200
+      title: "4 Useful fzf Tricks for Your Terminal | Pragmatic Pineapple \U0001F34D"
+      url: https://pragmaticpineapple.com/four-useful-fzf-tricks-for-your-terminal/
       zoom: 1.0
   - active: true
     history:
-    - last_visited: '2025-05-05T12:13:07'
-      pinned: false
-      title: "mikesmithgh/kitty-scrollback.nvim: \U0001F63D Open your Kitty scrollback
-        buffer with Neovim. Ameowzing!"
-      url: https://github.com/mikesmithgh/kitty-scrollback.nvim?tab=readme-ov-file
     - active: true
-      last_visited: '2025-05-05T12:13:18'
+      last_visited: '2025-05-06T11:04:24'
       pinned: false
       scroll-pos:
         x: 0
-        y: 4413
-      title: "mikesmithgh/kitty-scrollback.nvim: \U0001F63D Open your Kitty scrollback
-        buffer with Neovim. Ameowzing!"
-      url: https://github.com/mikesmithgh/kitty-scrollback.nvim?tab=readme-ov-file#-installation
-      zoom: 1.0
-    - last_visited: '2025-05-05T12:13:12'
-      pinned: false
-      title: "folke/lazy.nvim: \U0001F4A4 A modern plugin manager for Neovim"
-      url: https://github.com/folke/lazy.nvim
-  - history:
-    - active: true
-      last_visited: '2025-05-05T11:29:42'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 1560
-      title: 'kutsan/zsh-system-clipboard: System clipboard key bindings for Zsh Line
-        Editor with vi mode. It is similar to what `set clipboard=unnamed` does for
-        vim.'
-      url: https://github.com/kutsan/zsh-system-clipboard
-      zoom: 1.0
-  - history:
-    - last_visited: '2025-05-05T11:21:34'
-      pinned: false
-      title: 'Vi mode for kitty · kovidgoyal/kitty · Discussion #6485'
-      url: https://github.com/kovidgoyal/kitty/discussions/6485
-    - active: true
-      last_visited: '2025-05-05T11:25:53'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 5800
-      title: "mikesmithgh/kitty-scrollback.nvim: \U0001F63D Open your Kitty scrollback
-        buffer with Neovim. Ameowzing!"
-      url: https://github.com/mikesmithgh/kitty-scrollback.nvim
+        y: 4600
+      title: 'Aloxaf/fzf-tab: Replace zsh''s default completion selection menu with
+        fzf!'
+      url: https://github.com/Aloxaf/fzf-tab
       zoom: 1.0

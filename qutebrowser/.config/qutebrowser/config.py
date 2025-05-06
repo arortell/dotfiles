@@ -1399,7 +1399,7 @@ c.fonts.web.size.default_fixed = 13
 
 ## Characters used for hint strings.
 ## Type: UniqueCharString
-c.hints.chars = "abcdefghijklmnopqrstuvwxyz1234567890"
+c.hints.chars = "abcdefghijklmnopqrstuvwxyz"
 
 ## Dictionary file to be used by the word hints.
 ## Type: File
@@ -1414,7 +1414,7 @@ c.hints.dictionary = "/usr/share/static/wordlist.txt"
 
 ## Hide unmatched hints in rapid mode.
 ## Type: Bool
-# c.hints.hide_unmatched_rapid_hints = True
+c.hints.hide_unmatched_rapid_hints = True
 
 ## Leave hint mode when starting a new page load.
 ## Type: Bool
@@ -1879,7 +1879,7 @@ c.spellcheck.languages = ["en-US"]
 ##   - always: Always show the statusbar.
 ##   - never: Always hide the statusbar.
 ##   - in-mode: Show the statusbar when in modes other than normal mode.
-# c.statusbar.show = 'always'
+c.statusbar.show = "in-mode"
 
 ## List of widgets displayed in the statusbar.
 ## Type: List of StatusbarWidget
@@ -2045,7 +2045,7 @@ c.spellcheck.languages = ["en-US"]
 ##   - never: Always hide the tab bar.
 ##   - multiple: Hide the tab bar if only one tab is open.
 ##   - switching: Show the tab bar when switching tabs.
-# c.tabs.show = 'always'
+c.tabs.show = "switching"
 
 ## Duration (in milliseconds) to show the tab bar before hiding it when
 ## tabs.show is set to 'switching'.
@@ -2588,4 +2588,3 @@ config.source("themes/onedark.py")
 # config.bind('N', 'prompt-accept --save no', mode='yesno')
 # config.bind('Y', 'prompt-accept --save yes', mode='yesno')
 # config.bind('n', 'prompt-accept no', mode='yesno')
-# config.bind('y', 'prompt-accept yes', mode='yesno')

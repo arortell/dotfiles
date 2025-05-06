@@ -16,6 +16,13 @@ hc() {
 
 hc emit_hook reload
 
+# Remove existing keybindings
+hc keyunbind --all
+
+# Just in case we already have a running instance
+pkill conky
+pkill lemonbar
+
 # Start background apps ONLY if not alreadly running
 if hc silent new_attr bool my_not_first_autostart; then
   udiskie &
@@ -24,17 +31,13 @@ if hc silent new_attr bool my_not_first_autostart; then
   unclutter &
 fi
 
-pkill conky
-pkill lemonbar
+# Use the super key as the main modifier
+Mod=Mod4
 
-# remove all existing keybindings
-hc keyunbind --all
-
-# keybindings
-Mod=Mod4 # Use the super key as the main modifier
+# Define Terminal
 TERMINAL=kitty
 
-# <==================== Apps ====================
+# Launch Apps
 hc keybind $Mod-Shift-Escape quit
 hc keybind $Mod-Escape reload
 hc keybind $Mod-Delete close
@@ -46,7 +49,7 @@ hc keybind $Mod+Shift+Return spawn qutebrowser
 hc keybind $Mod+e spawn $TERMINAL -e nvim
 hc keybind $Mod+l spawn i3lock-fancy -t "Whats My Password?" -f 'Terminus-(TTF)'
 
-# <====================Menus ==================
+# Menus-
 hc keybind $Mod+space spawn adams_menu
 hc keybind $Mod-s spawn rofi-surfraw
 hc keybind $Mod-m spawn rofi-man
@@ -55,37 +58,32 @@ hc keybind $Mod-b spawn bwmenu --auto-lock -1
 hc keybind $Mod-h spawn "$BIN"/herbstcommander.sh
 hc keybind $Mod+c spawn =
 
-# Trying this out -> open rofi in these directories
+# TODO: Trying this out -> open rofi in these directories
 hc keybind $Mod+apostrophe spawn rofi-file-open "$VIDEOS"
 hc keybind $Mod+Shift+apostrophe spawn rofi-file-open "$BIN"
 
-# focusing clients
+# Focus clients-
 hc keybind $Mod-Left focus left
 hc keybind $Mod-Down focus down
 hc keybind $Mod-Up focus up
 hc keybind $Mod-Right focus right
 
-# moving clients
+# Move clients-
 hc keybind $Mod-Shift-Left shift left
 hc keybind $Mod-Shift-Down shift down
 hc keybind $Mod-Shift-Up shift up
 hc keybind $Mod-Shift-Right shift right
 
-# splitting frames
-# create an empty frame at the specified direction
+# Create an empty frame at the specified direction-
 hc keybind $Mod-Control-Left split left 0.5
 hc keybind $Mod-Control-Down split bottom 0.5
 hc keybind $Mod-Control-Right split right 0.5
 hc keybind $Mod-Control-Up split top 0.5
 
-# create an empty frame at the specified direction
-hc keybind $Mod-Control-b split bottom 0.5
-hc keybind $Mod-Control-r split right 0.5
-
-# let the current frame explode into subframes
+# Let the current frame explode into subframes-
 hc keybind $Mod-Control-space split explode
 
-# resizing frames
+# Resizing frames-
 resizestep=0.05
 hc keybind $Mod-Alt-Left resize left +$resizestep
 hc keybind $Mod-Alt-Down resize down +$resizestep
@@ -93,7 +91,7 @@ hc keybind $Mod-Alt-Up resize up +$resizestep
 hc keybind $Mod-Alt-Right resize right +$resizestep
 
 #TODO: Display only icons- NO NAMES
-# tags <--- Simple  Numbers instead of names
+# Name tags-
 tag_keys=({1..9} 0)
 tag_names=(
   1:main
@@ -103,13 +101,14 @@ tag_names=(
   5:mail
 )
 
-# remove empty tags
+# Remove empty tags-
 hc foreach T tags.by-name \
   sprintf ATTR_client_count '%c.client_count' T \
   and , compare ATTR_client_count = 0 \
   , sprintf ATTR_NAME '%c.name' T \
   substitute NAME ATTR_NAME merge_tag NAME
 
+# Create Tags-
 idx=0
 for i in "${tag_names[@]}"; do
   key="${i%%:*}"
@@ -134,7 +133,7 @@ for i in "${!tag_names[@]}"; do
   fi
 done
 
-# open all tags in horizontal layout
+# Open all tags in horizontal layout
 hc default_frame_layout horizontal
 
 hc substitute ALGO settings.default_frame_layout \
@@ -142,11 +141,7 @@ hc substitute ALGO settings.default_frame_layout \
   sprintf ATTR '%c.tiling.root.algorithm' T \
   set_attr ATTR ALGO
 
-# cycle through tags
-#hc keybind $Mod-period use_index +1 --skip-visible
-#hc keybind $Mod-comma use_index -1 --skip-visible
-
-# layouting
+# Layouts-
 hc keybind $Mod-r remove
 hc keybind $Mod-Shift-f floating toggle
 hc keybind $Mod-f fullscreen toggle
@@ -160,33 +155,25 @@ hc keybind $Mod-Tab \
   . cycle_layout +1 vertical horizontal max vertical grid \
   , cycle_layout +1
 
-# mouse
+# Mouse Keys-
 hc mouseunbind --all
 hc mousebind $Mod-Button1 move
 hc mousebind $Mod-Button2 zoom
 hc mousebind $Mod-Button3 resize
 
-# focus
-hc keybind $Mod-BackSpace cycle_monitor
-hc keybind $Mod-Control-Tab cycle_all +1
-hc keybind $Mod-Shift-Tab cycle_all -1
-hc keybind $Mod+Shift-c cycle
-hc keybind $Mod-i jumpto urgent
-
-# Audio Keys
-# Call a script to display bar in dunst
+# Call a script to display bar in dunst-
 hc keybind XF86AudioRaiseVolume spawn changeVolume 2dB+ unmute
 hc keybind XF86AudioLowerVolume spawn changeVolume 2dB- unmute
 hc keybind XF86AudioMute spawn changeVolume toggle
 
-# Scripts
-hc keybind $Mod+Shift+m spawn "$BIN"/maximize.sh # similar monocle in bspwm
+# Maximize a window similar monocle in bspwm-
+hc keybind $Mod+Shift+m spawn "$BIN"/maximize.sh
 
-# Dropdown Terminals
+# Dropdown Terminals-
 hc keybind F1 spawn "$BIN"/q3terminal.sh
-hc keybind F12 spawn $BIN/scratchpad.sh
+hc keybind F12 spawn "$BIN"/scratchpad.sh
 
-# theme
+# Color Theme-
 hc attr theme.tiling.reset 1
 hc attr theme.floating.reset 1
 hc set frame_border_active_color '#222222'
@@ -197,11 +184,8 @@ hc set frame_border_width 0
 hc set always_show_frame 0
 hc set frame_bg_transparent 1
 hc set frame_transparent_width 0
-
-hc set frame_gap 0
-
+hc attr theme.normal.color '#1111FF'
 hc attr theme.active.color '#8888FF'
-hc attr theme.normal.color '#000000'
 hc attr theme.urgent.color '#FF0000'
 hc attr theme.inner_width 0
 hc attr theme.inner_color 0
@@ -212,14 +196,14 @@ hc attr theme.floating.outer_color black
 hc attr theme.active.inner_color '#3E4A00'
 hc attr theme.active.outer_color '#3E4A00'
 hc attr theme.background_color '#141414'
-
-hc set window_gap 0
+hc set frame_gap 3
+hc set window_gap 3
 hc set frame_padding 0
 hc set smart_window_surroundings 0
 hc set smart_frame_surroundings 1
 hc set mouse_recenter_gap 0
 
-# rules
+# Window Rules-
 hc unrule -F
 hc rule class=qutebrowser tag=web
 hc rule focus=on     # normally focus new clients
@@ -230,7 +214,7 @@ hc rule class='zenity' floating=on floatplacement=center
 hc rule class='Dunst' floating=on floatplacement=center
 hc rule fixedsize floating=on
 
-# Trying to make popups float
+# Make popups float-
 hc rule windowtype~'_NET_WM_WINDOW_TYPE_(DIALOG|UTILITY|SPLASH)' manage=off focus=on floating=on floatplacement=center
 hc rule windowtype~'_NET_WM_WINDOW_TYPE_(NOTIFICATION|DOCK|DESKTOP)' manage=off focus=on floatplacement=center
 hc rule windowtype='_NET_WM_WINDOW_TYPE_DIALOG' focus=on floatplacement=center
@@ -240,20 +224,16 @@ hc set tree_style '╾│ ├└╼─┐'
 #herbstclient set tree_style '*| +`>-.'
 #herbstclient set tree_style '*| +`-->'
 
-# have all tags start in horizontal
+# Have all tags start in horizontal-
+# TODO: This is not working - WHY?
 for i in "${tag_names[@]}"; do
   hc set_layout horizontal
 done
 
-# unlock, just to be sure
+# Unlock, just to be sure
 hc unlock
 
-# do multi monitor setup here, e.g.:
-# hc set_monitors 1280x1024+0+0 1280x1024+1280+0
-# or simply:
-# hc detect_monitors
-
-# find the panel
+# Launch the panel-
 panel="$BIN/panel.sh"
 [ -x "$panel" ] || panel=/etc/xdg/herbstluftwm/panel.sh
 for monitor in $(herbstclient list_monitors | cut -d: -f1); do

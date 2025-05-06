@@ -13,7 +13,7 @@ hooks.location=~/.config/task/hooks
 #include light-256.theme
 #include bubblegum-256.theme
 #include dark-16.theme
-#include dark-256.theme
+#include dark-256.theme    
 #include dark-red-256.theme
 #include dark-green-256.theme
 include /usr/share/doc/task/rc/dark-blue-256.theme
@@ -24,4 +24,3 @@ include /usr/share/doc/task/rc/dark-blue-256.theme
 #include solarized-dark-256.theme
 #include solarized-light-256.theme
 #include no-color.theme
-
