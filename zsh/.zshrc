@@ -12,8 +12,8 @@
 #fi
 
 # Adding bin to path
-export PATH="$HOME/.dotfiles/bin:$PATH"
-export BIN="$HOME/.dotfiles/bin"
+export BIN="$HOME/.dotfiles/bin/:$HOME/.local/bin:$PATH"
+export PATH="$BIN:$PATH"
 
 # Setting default browser
 export BROWSER=qutebrowser
@@ -176,7 +176,7 @@ COMPLETION_WAITING_DOTS="true"
 # Add wisely, as too many plugins slow down shell startup.
 
 # can add k to plugins for anothe eza like list cmd
-plugins=(vi-mode starship archlinux colorize colored-man-pages copyfile cp common-aliases dirhistory fzf fasd github taskwarrior rsync sudo systemd systemadmin zsh-autosuggestions zsh-syntax-highlighting zsh-history-substring-search herbstclient keep yazi zsh-system-clipboard)
+plugins=(vi-mode starship archlinux colorize colored-man-pages copyfile copypath command-not-found copybuffer eza common-aliases dirhistory fzf fasd github taskwarrior rsync sudo systemd systemadmin zsh-autosuggestions zsh-syntax-highlighting zsh-history-substring-search herbstclient keep yazi zsh-system-clipboard)
 source $ZSH/oh-my-zsh.sh
 
 autoload -Uz compinit compinit promptinit run-help
@@ -385,7 +385,6 @@ function y() {
 
 SDCV_PAGER='less --quit-if-one-screen -RX'
 
-
 export FZF_DEFAULT_OPTS='--layout reverse --color dark'
 
 # add some color to grep
@@ -472,8 +471,6 @@ export BW_SESSION="NLlGm85LrZYHAR1I7Q1CR0HDfT9m7dX2Dv0uDNp10aBMbh4NiaIcClcRtDylW
 #[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-source <(navi widget zsh)
 
 eval "$(starship init zsh)"
 

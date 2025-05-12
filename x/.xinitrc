@@ -39,4 +39,5 @@ xset -dpms
 xset +fp /home/b14ckr41n/.local/share/fonts
 xset fp rehash
 
-exec herbstluftwm --locked
+#exec herbstluftwm --locked
+exec xmonad

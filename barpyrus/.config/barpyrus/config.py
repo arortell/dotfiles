@@ -238,7 +238,7 @@ lemonbar_options["font"] = "TerminessNerdFont-Regular):size=9"
 lemonbar_options["symbol_font"] = (
     "-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1"
 )
-lemonbar_options["symbol_vert_offset"] = 2
+lemonbar_options["symbol_vert_offset"] = 1
 tag_renderer = simple_tag_renderer
 
 
