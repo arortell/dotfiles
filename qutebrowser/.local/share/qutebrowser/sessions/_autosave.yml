@@ -1,0 +1,122 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAAAAAAEQAAA78AAAQ3AAAAAQAAABIAAAO+AAAENgAAAAAAAAAAB4AAAAABAAAA
+    EgAAA74AAAQ2
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2025-05-13T10:54:10'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Configuring Xmonad.hs — Xmonad Tutorial for Beginning Beginners 1.0 documentation
+      url: https://beginners-guide-to-xmonad.readthedocs.io/configure_xmonadhs.html#xmonad-file-structure
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-05-13T10:54:11'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: config xmonad - Google Search
+      url: https://www.google.com/search?q=config%20xmonad
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-05-13T10:54:10'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Xmonad/Config archive - HaskellWiki
+      url: https://wiki.haskell.org/Xmonad/Config_archive
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-05-13T10:54:13'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: xmonad navaigation2dconfig - Google Search
+      url: https://www.google.com/search?q=xmonad%20navaigation2dconfig
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-05-13T10:54:10'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: XMonad.Actions.Navigation2D
+      url: https://xmonad.github.io/xmonad-docs/xmonad-contrib/XMonad-Actions-Navigation2D.html
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-05-13T10:54:11'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: xmonad/TUTORIAL.md at master · xmonad/xmonad
+      url: https://github.com/xmonad/xmonad/blob/master/TUTORIAL.md
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-05-13T10:54:10'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Xmobar hides behind windows : r/xmonad'
+      url: https://www.reddit.com/r/xmonad/comments/u5n7to/xmobar_hides_behind_windows/
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-05-13T10:54:04'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: XMonad.Hooks.ManageDocks
+      url: https://hackage.haskell.org/package/xmonad-contrib-0.17.0/docs/XMonad-Hooks-ManageDocks.html
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-05-13T10:54:10'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: xmproc compiling - Pastebin
+      url: https://pastebin.pl/view/bb1d5adf
+      zoom: 1.0
+  - active: true
+    history:
+    - last_visited: '2025-05-13T10:54:13'
+      pinned: false
+      title: where should staylonetray be launched xmonad - Google Search
+      url: https://www.google.com/search?q=where%20should%20staylonetray%20be%20launched%20xmonad
+    - active: true
+      last_visited: '2025-05-13T10:54:24'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1760
+      title: xmonad navagte windows with arrow keys - Google Search
+      url: https://www.google.com/search?q=xmonad%20navagte%20windows%20with%20arrow%20keys
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-05-13T10:57:11'
+      original-url: https://hackage.haskell.org/package/xmonad-contrib/docs/XMonad-Actions-Navigation2D.html
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: XMonad.Actions.Navigation2D
+      url: https://hackage.haskell.org/package/xmonad-contrib-0.18.1/docs/XMonad-Actions-Navigation2D.html
+      zoom: 1.0

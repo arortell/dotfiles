@@ -1317,7 +1317,7 @@
       "Formatter"
     ],
     "source": {
-      "id": "pkg:npm/brighterscript-formatter@1.7.13"
+      "id": "pkg:npm/brighterscript-formatter@1.7.14"
     },
     "bin": {
       "bsfmt": "npm:bsfmt"
@@ -1408,7 +1408,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:npm/%40rokucommunity/bslint@0.8.30"
+      "id": "pkg:npm/%40rokucommunity/bslint@0.8.31"
     },
     "bin": {
       "bslint": "npm:bslint"
@@ -1455,7 +1455,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/bufbuild/buf@v1.53.0",
+      "id": "pkg:github/bufbuild/buf@v1.54.0",
       "asset": [
         {
           "target": "darwin_x64",
@@ -2633,7 +2633,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:npm/%40github/copilot-language-server@1.318.0"
+      "id": "pkg:npm/%40github/copilot-language-server@1.319.0"
     },
     "bin": {
       "copilot-language-server": "npm:copilot-language-server"
@@ -4690,7 +4690,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:github/kaaveland/eugene@0.8.1",
+      "id": "pkg:github/kaaveland/eugene@0.8.2",
       "asset": [
         {
           "target": "linux_x64",
@@ -5275,7 +5275,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:cargo/gitlab-ci-ls@1.0.4"
+      "id": "pkg:cargo/gitlab-ci-ls@1.0.5"
     },
     "schemas": {
       "lsp": "vscode:https://raw.githubusercontent.com/alesbrelih/gitlab-ci-ls/{{version}}/vscode-extension/package.json"
@@ -5299,7 +5299,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:github/gitleaks/gitleaks@v8.25.1",
+      "id": "pkg:github/gitleaks/gitleaks@v8.26.0",
       "asset": [
         {
           "target": "darwin_arm64",
@@ -8853,7 +8853,7 @@
       "Formatter"
     ],
     "source": {
-      "id": "pkg:cargo/mdsf@0.9.3"
+      "id": "pkg:cargo/mdsf@0.9.4"
     },
     "bin": {
       "mdsf": "cargo:mdsf"
@@ -10984,7 +10984,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:github/yoheimuta/protolint@v0.55.1",
+      "id": "pkg:github/yoheimuta/protolint@v0.55.2",
       "asset": [
         {
           "target": "darwin_arm64",
@@ -12202,7 +12202,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:gem/ruby-lsp@0.23.17",
+      "id": "pkg:gem/ruby-lsp@0.23.18",
       "extra_packages": [
         "ruby-lsp-rails"
       ]
@@ -12362,7 +12362,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/rust-lang/rust-analyzer@2025-05-05",
+      "id": "pkg:github/rust-lang/rust-analyzer@2025-05-12",
       "asset": [
         {
           "target": "linux_x64_gnu",

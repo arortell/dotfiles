@@ -1,0 +1,26 @@
+Config { font = "TerminessNerdFont Regular 12"
+        , borderColor = "black"
+        , border = TopB
+        , bgColor = "black"
+        , fgColor = "green"
+        , position = TopW L 96
+        , commands = [ Run Weather "KSTL" ["-t","<tempF>F","-L","18","-H","25","--normal","green","--high","red","--low","lightblue"] 36000
+                        , Run Cpu ["-L","3","-H","50","--normal","green","--high","red"] 10
+                        , Run Memory ["-t","Mem: <usedratio>%"] 10
+                        , Run Swap [] 10
+                        , Run Com "uname" ["-s","-r"] "" 36000
+                        , Run Date "%a %b %_d %Y %I:%M" "date" 10
+                        , Run StdinReader
+                        , Run XPropertyLog "_XMONAD_TRAYPAD"
+                        , Run Alsa "default" "Master"
+                            [ "--template", "<volumestatus>"
+                            , "--suffix" , "True"
+                            , "--"
+                            , "--on", ""
+                            ]
+                        ]
+        , sepChar = "%"
+        , alignSep = "}{"
+        , template = "%StdinReader% | %cpu% | %memory% * %swap%}{<fc=#ee9a00>%date%</fc> | %uname% | %alsa:default:Master% | %KSTL%"
+        }
+

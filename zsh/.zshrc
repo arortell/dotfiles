@@ -12,7 +12,7 @@
 #fi
 
 # Adding bin to path
-export BIN="$HOME/.dotfiles/bin/:$HOME/.local/bin:$PATH"
+export BIN="$HOME/.dotfiles/bin/"
 export PATH="$BIN:$PATH"
 
 # Setting default browser

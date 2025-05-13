@@ -1,45 +1,3 @@
-:process 58586
-:process 58657
-:process 60897
-:open udiskie tray ison not showing
-:open https://github.com/coldfix/udiskie/blob/master/example/config.yml
-:open importing a python library freezes entire windowmanager arch linux
-:open create simple tray in python
-:open lazyvim file templates for pythoon and bash scripts put shebangs in
-:open file templates neovim
-:open -t auto tmeplate nvim plugins auto add shebangs
-:open lazyvim file templates
-:open what does immutable mean
-:open pysystray
-:open cat staylone tray display legicy icons
-:open anaconda python
-:open fzf with zsh
-:open -t what is fuzzy search
-:open -t what is the fzf zsh script it generated for
-:open using fasd
-:open using fasd in zsh
-:open https://github.com/sainnhe/tmux-fzfd
-:open kitty hints
-:open kitty vi copy mode
-:q
-:open zsh home button got remapped
-:open zsh home button changes prompt
-:open what is  vim keys in zsh
-:open zsh home and end key got mapped to vi mode somehow
-:open bind end key zsh
-:open keep aur package archlinux
-:open keep github
-:open keep bash commands
-:open keep 
-:open -t create a gist token
-:open how to use fasd
-:open navi linux 
-:open -t setting up navi as a shell widget
-:open https://github.com/denisidoro/navi
-:open -t how to createa shell widget with navi
-:open fzf zsh keyhbindings
-:open -t fzf intergration in qutebrowser
-:nop
 :open rofi fzf
 :open -t copy text from webpage in qutebrowser
 /git
@@ -98,3 +56,45 @@
 :open -t will urxvt show nerd fonts
 :open kitty hints 
 :open xmonad actions navigatioj2d
+:open error: conflicting types for ‘check_impl_specific’; have ‘void(int *, int *)’
+:open xmonad compile fails /tmp/stack-5b483053c62e8122/hashtables-1.3.1/cbits/defs.h:33:6: error:  
+:open arch linux remova all haskell packages
+:open arch linux remova eall haskjell packages
+:open xmobar ewill noty com,pile in stack keep getting c gcc error
+:open xmonad install builkd with stack
+:open xmonad scratch pad
+:open -t xmobar 
+:open -t netlink 1.1.1 github
+:open https://hackage.haskell.org/package/xmonad-contrib-0.18.1/docs/XMonad-Util-NamedScratchpad.html
+:open -t where do manage hooks need to go in xmonad.hs
+:open scratchpads not floating xmonad
+:open xmonad exit command
+:open xmonad picom not working
+:open netlink-1.1.1.0@sha256:d83424b5ba9921191449e4b1f53c7cba7f4375f2c55a9b737c77e982e1f40d00,3689
+:open Error: [S-7282]
+       Stack failed to execute the build plan.
+       
+       While executing the build plan, Stack encountered the error:
+:open cannot build xmobar with stack
+:open changing colors xmonad
+:open xmobar will not compile with stack
+:open xmobar github
+:open -t id not find a GI repository for freetype2-2.0 in ["/usr/local/share/gir-1.0",
+:open xmobar github
+:open are arch linux haskell packages still linked
+:open xmobar configutre
+:open -t arch linux haskell haddock missing 
+:open -t xmonad main do 
+:open adding xmobar to xmonad.hs withou do
+:open -t xmonad ppOutput not in scope
+:open pOutPut out of scope
+:open xmonad xmobar ppOutput 
+:open config xmonad
+:open xmonad navaigation2dconfig
+:open xmonad windows are covring xmobar
+:open -t xmonad smartborders
+:open xmonad tutotrial 
+:open staylonetray keeps showing up in the middle of the taskbar xmobar
+:open where should staylonetray be launched xmonad
+:quit
+:open xmonad navagte windows with arrow keys
